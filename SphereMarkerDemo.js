@@ -1,6 +1,8 @@
 import * as THREE from "three";
 import { TrackballControls } from "three/addons/controls/TrackballControls.js";
-import { MarkedPoints, MySphere } from "./SphereMarker.js";
+import { MarkedPoints, Point} from "./data/LocalData";
+import { DataFetcher } from "./data/APIDataFetcher.js";
+import { MySphere} from "./SphereMarker.js";
 
 const scene = new THREE.Scene();
 const camera = new THREE.PerspectiveCamera(
@@ -20,21 +22,22 @@ const sphere = new MySphere(2, 32, 16);
 scene.add(sphere.sphere);
 
 camera.position.z = 5;
+
 markerPointDemo();
+apiDataDemo();
 
 function animate() {
   requestAnimationFrame(animate);
   controller.update();
-    sphere.sphere.rotation.x += 0.0001;
-    sphere.sphere.rotation.y += 0.0001;
-  
+  sphere.sphere.rotation.x += 0.0001;
+  sphere.sphere.rotation.y += 0.0001;
+
   renderer.render(scene, camera);
 }
 
 animate();
 
 function markerPointDemo() {
-  
   let markedPoints = new MarkedPoints();
   markedPoints.add(1, "190101", "This is point A");
   markedPoints.add(2, "190145", "This is point B");
@@ -42,7 +45,6 @@ function markerPointDemo() {
   markedPoints.add(4, "170101", "This is point D");
   markedPoints.add(5, "200145", "This is point E");
   markedPoints.add(6, "120918", "This is point F");
-
   for (let point of markedPoints.points) {
     sphere.addMarker(point.name);
   }
@@ -53,6 +55,8 @@ function markerPointDemo() {
       showInfo(point);
     }
   });
+
+
 }
 
 function showInfo(point) {
@@ -69,4 +73,23 @@ function showInfo(point) {
     document.body.appendChild(infoDiv);
   }
   infoDiv.innerHTML = `ID: ${point.id}<br>Name: ${point.name}<br>Details: ${point.details}`;
+}
+
+function apiDataDemo() {
+  const dataFetcher = new DataFetcher((data) => {
+    let markedPoints = new MarkedPoints();
+    for (let user of data) {
+      markedPoints.add(user.id, user.name, user.email);
+      sphere.addMarker(user.name);
+    } 
+
+    sphere.onMarkerClick(camera, (text) => {
+      const point = markedPoints.find(text);
+      if (point != null) {
+        showInfo(point);
+      }
+    });
+  });
+
+  dataFetcher.fetchData("https://jsonplaceholder.typicode.com/users");
 }
