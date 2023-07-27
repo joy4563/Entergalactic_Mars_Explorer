@@ -1,22 +1,24 @@
 import * as THREE from "three";
 import { TrackballControls } from "three/addons/controls/TrackballControls.js";
-import { MarkedPoints, Point} from "./data/LocalData";
+import { MarkedPoints, Point } from "./data/LocalData";
 import { DataFetcher } from "./data/APIDataFetcher.js";
-import { MySphere} from "./SphereMarker.js";
+import { MySphere } from "./SphereMarker.js";
+import { MyCanvas } from "./MyCanvas";
 
-const scene = new THREE.Scene();
-const camera = new THREE.PerspectiveCamera(
-  75,
-  window.innerWidth / window.innerHeight,
-  0.1,
-  1000
-);
+let scene, camera, renderer, controls;
+const canvas = new MyCanvas(window);
 
-const renderer = new THREE.WebGLRenderer();
-renderer.setSize(window.innerWidth, window.innerHeight);
-document.body.appendChild(renderer.domElement);
+scene = canvas.scene;
+camera = canvas.camera;
+renderer = canvas.renderer;
+canvas.init(document);
 
-const controller = new TrackballControls(camera, renderer.domElement);
+const geometry = new THREE.BoxGeometry(2, 2, 2);
+const material = new THREE.MeshBasicMaterial({ color: 0x00ff00 });
+const cube = new THREE.Mesh(geometry, material);
+scene.add(cube);
+
+canvas.init(document);
 
 const sphere = new MySphere(2, 32, 16);
 scene.add(sphere.sphere);
@@ -25,17 +27,10 @@ camera.position.z = 5;
 
 markerPointDemo();
 apiDataDemo();
-
-function animate() {
-  requestAnimationFrame(animate);
-  controller.update();
+canvas.gameLoop(() => {
   sphere.sphere.rotation.x += 0.0001;
   sphere.sphere.rotation.y += 0.0001;
-
-  renderer.render(scene, camera);
-}
-
-animate();
+});
 
 function markerPointDemo() {
   let markedPoints = new MarkedPoints();
@@ -55,8 +50,6 @@ function markerPointDemo() {
       showInfo(point);
     }
   });
-
-
 }
 
 function showInfo(point) {
@@ -81,7 +74,7 @@ function apiDataDemo() {
     for (let user of data) {
       markedPoints.add(user.id, user.name, user.email);
       sphere.addMarker(user.name);
-    } 
+    }
 
     sphere.onMarkerClick(camera, (text) => {
       const point = markedPoints.find(text);
