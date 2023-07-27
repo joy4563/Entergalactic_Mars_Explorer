@@ -21,24 +21,20 @@ scene.add(sphere.sphere);
 
 camera.position.z = 5;
 markerPointDemo();
-sphere.onMarkerClick(camera, (text) => {
-  console.log(text);
-});
 
 function animate() {
   requestAnimationFrame(animate);
   controller.update();
-  //   sphere.rotation.x += 0.01;
-  //   sphere.rotation.y += 0.01;
-  //   sphere.rotation.z += 0.01;
+    sphere.sphere.rotation.x += 0.0001;
+    sphere.sphere.rotation.y += 0.0001;
+  
   renderer.render(scene, camera);
 }
 
 animate();
 
 function markerPointDemo() {
-  //marker poins
-
+  
   let markedPoints = new MarkedPoints();
   markedPoints.add(1, "190101", "This is point A");
   markedPoints.add(2, "190145", "This is point B");
@@ -50,4 +46,27 @@ function markerPointDemo() {
   for (let point of markedPoints.points) {
     sphere.addMarker(point.name);
   }
+
+  sphere.onMarkerClick(camera, (text) => {
+    const point = markedPoints.find(text);
+    if (point != null) {
+      showInfo(point);
+    }
+  });
+}
+
+function showInfo(point) {
+  let infoDiv = document.getElementById("info");
+  if (!infoDiv) {
+    infoDiv = document.createElement("div");
+    infoDiv.id = "info";
+    infoDiv.style.position = "absolute";
+    infoDiv.style.top = "10px";
+    infoDiv.style.left = "10px";
+    infoDiv.style.color = "white";
+    infoDiv.style.fontSize = "20px";
+    infoDiv.innerHTML = "Click on a marker to see the details";
+    document.body.appendChild(infoDiv);
+  }
+  infoDiv.innerHTML = `ID: ${point.id}<br>Name: ${point.name}<br>Details: ${point.details}`;
 }

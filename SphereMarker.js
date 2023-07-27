@@ -61,7 +61,7 @@ export class MySphere {
     const loader = new FontLoader();
     return new Promise((resolve, reject) => {
       loader.load(
-        "/gentilis_regular.typeface.json",
+        "/fonts/gentilis_regular.typeface.json",
         function (font) {
           const textGeometry = new TextGeometry(text, {
             font: font,
