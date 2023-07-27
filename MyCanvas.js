@@ -1,5 +1,8 @@
 
-class Canvas {
+import * as THREE from "three";
+import { TrackballControls } from "three/addons/controls/TrackballControls.js";
+
+class MyCanvas {
  
     constructor(window) {
       this.window = window;
@@ -21,7 +24,7 @@ class Canvas {
       this._light.position.set(1, 1, 1);
       this._scene.add(this._light);
       //
-      this._trackBallController=new THREE.TrackballControls(this._camera, this._renderer.domElement);
+      this._trackBallController=new TrackballControls(this._camera, this._renderer.domElement);
       //
   
     }
