@@ -1,5 +1,5 @@
 import * as THREE from "three";
-import { TrackballControls } from "three/addons/controls/TrackballControls.js";
+
 import { MarkedPoints, Point } from "./data/LocalData";
 import { DataFetcher } from "./data/APIDataFetcher.js";
 import { MySphere } from "./SphereMarker.js";

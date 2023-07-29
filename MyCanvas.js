@@ -1,11 +1,12 @@
 import * as THREE from "three";
 import { TrackballControls } from "three/addons/controls/TrackballControls.js";
-
+import { RGBELoader } from "three/examples/jsm/loaders/RGBELoader.js";
+import { EXRLoader } from "three/examples/jsm/loaders/EXRLoader.js";
 export class MyCanvas {
   constructor(window) {
     this.window = window;
     window.addEventListener("resize", this.onWindowResize);
-   
+
     this._scene = new THREE.Scene();
     this._camera = new THREE.PerspectiveCamera(
       75,
@@ -55,15 +56,34 @@ export class MyCanvas {
     this._renderer.setSize(window.innerWidth, window.innerHeight);
   }
 
- 
   gameLoop(callback) {
     requestAnimationFrame(this.gameLoop.bind(this, callback));
     this.updateControll();
     this.render();
-    callback(); 
+    callback();
   }
 
   init(document) {
     document.body.appendChild(this._renderer.domElement);
+  }
+  setBackgroundHDR(path) {
+    const loader = new RGBELoader();
+    loader.load(path, (texture) => {
+      const pmremGenerator = new THREE.PMREMGenerator(this._renderer);
+      pmremGenerator.compileEquirectangularShader();
+      const envMap = pmremGenerator.fromEquirectangular(texture).texture;
+      texture.dispose();
+      this._scene.background = envMap;
+    });
+  }
+  setBackgroundEXR(path) {
+    const loader = new EXRLoader();
+    loader.load(path, (texture) => {
+      const pmremGenerator = new THREE.PMREMGenerator(this._renderer);
+      pmremGenerator.compileEquirectangularShader();
+      const envMap = pmremGenerator.fromEquirectangular(texture).texture;
+      texture.dispose();
+      this._scene.background = envMap;
+    });
   }
 }
