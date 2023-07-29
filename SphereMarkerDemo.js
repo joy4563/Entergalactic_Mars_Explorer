@@ -4,11 +4,13 @@ import { MarkedPoints, Point } from "./data/LocalData";
 import { DataFetcher } from "./data/APIDataFetcher.js";
 import { MySphere } from "./SphereMarker.js";
 import { MyCanvas } from "./MyCanvas";
+import { Colors } from "/Color";
 
 let scene, camera, renderer;
 const canvas = new MyCanvas(window);
 
 scene = canvas.scene;
+canvas.setBackgroundEXR("/BackgroundDemo/starmap_2020_4k.exr");
 camera = canvas.camera;
 renderer = canvas.renderer;
 canvas.init(document);
@@ -22,11 +24,15 @@ canvas.init(document);
 
 const sphere = new MySphere(2, 32, 16);
 scene.add(sphere.sphere);
-
 camera.position.z = 5;
 
-//add marker by lat long demo
-sphere.addMarkerByLatLong(10, 34, "LATTITUDE LOGNTITUDE DEMO");
+sphere.addMarker("LAT_LONG", 30, -90, (object) => {
+  var geometry = new THREE.SphereGeometry(0.05, 10, 5);
+  var material = new THREE.MeshBasicMaterial({ color: Colors.BLUE });
+  var box = new THREE.Mesh(geometry, material);
+  box.applyMatrix4(object);
+  return box;
+});
 
 markerPointDemo();
 apiDataDemo();
@@ -43,8 +49,15 @@ function markerPointDemo() {
   markedPoints.add(4, "170101", "This is point D");
   markedPoints.add(5, "200145", "This is point E");
   markedPoints.add(6, "120918", "This is point F");
+
   for (let point of markedPoints.points) {
-    sphere.addMarker(point.name);
+    sphere.addMarker(point.name, null, null, (matrix) => {
+      var geometry = new THREE.BoxGeometry(0.05, 0.05, 0.05);
+      var material = new THREE.MeshBasicMaterial({ color: Colors.ORANGE });
+      var box = new THREE.Mesh(geometry, material);
+      box.applyMatrix4(matrix);
+      return box;
+    });
   }
 
   sphere.onMarkerClick(camera, (text) => {
@@ -76,7 +89,13 @@ function apiDataDemo() {
     let markedPoints = new MarkedPoints();
     for (let user of data) {
       markedPoints.add(user.id, user.name, user.email);
-      sphere.addMarker(user.name);
+      sphere.addMarker(user.name, null, null, (matrix) => {
+        var geometry = new THREE.BoxGeometry(0.05, 0.05, 0.05);
+        var material = new THREE.MeshBasicMaterial({ color: Colors.RED });
+        var box = new THREE.Mesh(geometry, material);
+        box.applyMatrix4(matrix);
+        return box;
+      });
     }
 
     sphere.onMarkerClick(camera, (text) => {

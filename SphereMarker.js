@@ -26,49 +26,15 @@ export class MySphere {
     point.multiplyScalar(this.radius);
     return point;
   }
-  addMarker(text) {
-    // const position = this.randomPointOnSurface();
 
-    const position = this.sphericalToCartesian(
-      this.radius,
-      this.theta,
-      this.phi
-    );
-    const box = this.makeMarkerBox(position);
+  addMarker(text, lat = null, long = null, callback) {
+    let position;
+    if (lat != null && long != null)
+      position = this.sphericalToCartesian(this.radius, lat, long);
+    else position = this.randomPointOnSurface();
+    const box = callback(this.getPositionMatrixOnSurface(position));
     box.text = text;
-
-    this.createText("  " + text, new THREE.Vector3(0, 0, 0))
-      .then((textShape) => {
-        box.add(textShape);
-        this.sphere.add(box);
-      })
-      .catch((error) => {
-        console.error(error);
-      });
-    this.sphere.add(box);
-  }
-  addMarker(text) {
-    const position = this.randomPointOnSurface();
-
-    const box = this.makeMarkerBox(position);
-    box.text = text;
-
-    this.createText("  " + text, new THREE.Vector3(0, 0, 0))
-      .then((textShape) => {
-        box.add(textShape);
-        this.sphere.add(box);
-      })
-      .catch((error) => {
-        console.error(error);
-      });
-    this.sphere.add(box);
-  }
-  addMarkerByLatLong(lat, long, text) {
-    const position = this.sphericalToCartesian(this.radius, lat, long);
-    const box = this.makeMarkerBox(position);
-    box.text = text;
-
-    this.createText("  " + text, new THREE.Vector3(0, 0, 0))
+    this.createText("    " + text, new THREE.Vector3(0, 0, 0))
       .then((textShape) => {
         box.add(textShape);
         this.sphere.add(box);
@@ -79,7 +45,7 @@ export class MySphere {
     this.sphere.add(box);
   }
 
-  makeMarkerBox(position) {
+  getPositionMatrixOnSurface(position) {
     const tempObject = new THREE.Object3D();
     const tempPosition = new THREE.Vector3();
     const tempNormal = new THREE.Vector3();
@@ -88,12 +54,7 @@ export class MySphere {
     tempObject.position.copy(tempPosition);
     tempObject.lookAt(tempNormal.add(tempPosition));
     tempObject.updateMatrix();
-    const box = new THREE.Mesh(
-      new THREE.BoxGeometry(0.05, 0.05, 0.05),
-      new THREE.MeshBasicMaterial({ color: 0xff0000 })
-    );
-    box.applyMatrix4(tempObject.matrix);
-    return box;
+    return tempObject.matrix;
   }
 
   createText(text, position) {
@@ -147,18 +108,13 @@ export class MySphere {
       }
     });
   }
-  // Create a method that takes r, theta and phi as parameters and returns a vector 3
+
   sphericalToCartesian(r, theta, phi) {
-    // Convert theta and phi from degrees to radians
     theta = (theta * Math.PI) / 180;
     phi = (phi * Math.PI) / 180;
-
-    // Calculate x, y and z using the formula
     var x = r * Math.sin(theta) * Math.cos(phi);
     var y = r * Math.sin(theta) * Math.sin(phi);
     var z = r * Math.cos(theta);
-
-    // Create and return a vector 3 object
     return new THREE.Vector3(x, y, z);
   }
 }
