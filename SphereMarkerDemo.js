@@ -5,7 +5,7 @@ import { DataFetcher } from "./data/APIDataFetcher.js";
 import { MySphere } from "./SphereMarker.js";
 import { MyCanvas } from "./MyCanvas";
 
-let scene, camera, renderer, controls;
+let scene, camera, renderer;
 const canvas = new MyCanvas(window);
 
 scene = canvas.scene;
@@ -24,6 +24,9 @@ const sphere = new MySphere(2, 32, 16);
 scene.add(sphere.sphere);
 
 camera.position.z = 5;
+
+//add marker by lat long demo
+sphere.addMarkerByLatLong(10, 34, "LATTITUDE LOGNTITUDE DEMO");
 
 markerPointDemo();
 apiDataDemo();

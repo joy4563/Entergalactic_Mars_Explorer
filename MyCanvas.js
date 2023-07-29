@@ -5,8 +5,7 @@ export class MyCanvas {
   constructor(window) {
     this.window = window;
     window.addEventListener("resize", this.onWindowResize);
-    //
-    console.log("Connetec");
+   
     this._scene = new THREE.Scene();
     this._camera = new THREE.PerspectiveCamera(
       75,
@@ -56,11 +55,7 @@ export class MyCanvas {
     this._renderer.setSize(window.innerWidth, window.innerHeight);
   }
 
-  // gameLoop() {
-  //   requestAnimationFrame(this.gameLoop.bind(this));
-  //   this.updateControll();
-  //   this.render();
-  // }
+ 
   gameLoop(callback) {
     requestAnimationFrame(this.gameLoop.bind(this, callback));
     this.updateControll();
