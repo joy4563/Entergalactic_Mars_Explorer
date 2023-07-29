@@ -86,4 +86,7 @@ export class MyCanvas {
       this._scene.background = envMap;
     });
   }
+  setBackgroundColor(color) {
+    this._scene.background = new THREE.Color(color);
+  }
 }
