@@ -49,7 +49,7 @@ function markerPointDemo() {
     markedPoints.add(4, "170101", "This is point D");
     markedPoints.add(5, "200145", "This is point E");
     markedPoints.add(6, "120918", "This is point F");
-
+//lol
     for (let point of markedPoints.points) {
         sphere.addMarker(point.name, null, null, (matrix) => {
             var geometry = new THREE.BoxGeometry(0.05, 0.05, 0.05);
