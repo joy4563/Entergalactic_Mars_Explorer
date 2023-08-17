@@ -8,7 +8,9 @@ export class MySphere {
     this.theta = theta;
     this.phi = phi;
     const geometry = new THREE.SphereGeometry(radius, theta, phi);
-    const material = new THREE.MeshBasicMaterial({ color: 0xe27b58 });
+    const material = new THREE.MeshBasicMaterial({
+        map: new THREE.TextureLoader().load("./mars8k.jpg"), // Load your texture here
+    });
     const sphere = new THREE.Mesh(geometry, material);
     this.sphere = sphere;
   }
