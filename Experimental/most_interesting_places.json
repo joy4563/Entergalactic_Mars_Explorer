@@ -5,10 +5,11 @@
       "type": "Volcano",
       "name": "Olympus Mons",
       "location": "Tharsis",
-      "description": "Largest volcano and second-highest known mountain in the Solar System.",
+      "description": "Largest volcano and second-highest known mountain in the Solar System. 16 miles high and 600 km across the base, making it 3x the height of Mount Everest",
       "coordinates": {
-        "latitude": "18.6°N",
-        "longitude": "13.4°W"
+        "latitude": "18.65°N",
+        "longitude": "226.2°E"
+
       }
     },
     {
@@ -16,7 +17,7 @@
       "type": "Canyon",
       "name": "Valles Marineris",
       "location": "Western hemisphere",
-      "description": "Largest canyon in the Solar System",
+      "description": "Largest canyon in the Solar System. It is 4 miles deep and stretches thousands of miles long",
       "coordinates": {
         "latitude": "25.2°N",
         "longitude": "72.2°E"
@@ -197,6 +198,18 @@
         "latitude": "-29.1°S",
         "longitude": "326.2°E"
       }
+    },
+    {
+      "id": 19,
+      "type": "Borealis Basin",     
+      "name": "Borealis Basin",    
+      "location": "Northern Hemisphere of Mars",  
+      "description": "Largest and oldest impact basin on Mars, encompassing much of the northern lowlands.",  
+      "coordinates": {
+        "latitude": "68.0°N",
+        "longitude": "202.0°E"
+      }
     }
+    
   ]
 }

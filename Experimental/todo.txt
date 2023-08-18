@@ -1,0 +1,9 @@
+Add a basic info page about mars in the first page
+It should include 
+    Mars is called the red planet
+    Named after Roman god of war
+    Fourth furthes planet in the solar System
+    Smaller than earth with a diameter of 4217 miles
+    One year on Mars is 687 days long. That’s 1.9 Earth years!
+    Mars's gravity is 37% less than on Earth
+    
