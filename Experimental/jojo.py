@@ -1,18 +1,66 @@
-import json
+# import sys
 
-# Replace with the absolute path to your "mars_features.json" file
-json_file_path = "/home/druglord/Documents/Important/Marss/three_js/Experimental/most_interesting_places.json"
+# def main():
+#     if len(sys.argv) != 2:
+#         print("Usage: python script.py <input_file>")
+#         return
 
-# Load the JSON data from the file
-with open(json_file_path, 'r') as json_file:
-    data = json.load(json_file)
+#     input_file = sys.argv[1]
+#     with open(input_file, 'r') as file:
+#         lines = file.readlines()
 
-# Iterate through the features and print their details
-for feature in data['features']:
-    print(f"ID: {feature['id']}")
-    print(f"Type: {feature['type']}")
-    print(f"Name: {feature['name']}")
-    print(f"Location: {feature['location']}")
-    print(f"Description: {feature['description']}")
-    print(f"Coordinates: Latitude {feature['coordinates']['latitude']}, Longitude {feature['coordinates']['longitude']}")
-    print()
+#     line_numbers = [2, 9, 16, 23, 30, 37, 44, 51, 58, 65, 72, 79, 86, 93, 100, 107, 114, 121, 128]
+#     for number in line_numbers:
+#         if number < len(lines):
+#             print(f"Line {number}: {lines[number - 1].strip()}")
+#             if number + 1 < len(lines):
+#                 print(f"Next Line {number + 1}: {lines[number].strip()}")
+#             print()
+
+# if __name__ == "__main__":
+#     main()
+
+
+import sys
+
+def main():
+    if len(sys.argv) != 2:
+        print("Usage: python script.py <input_file>")
+        return
+
+    input_file = sys.argv[1]
+    with open(input_file, 'r') as file:
+        lines = file.readlines()
+
+    line_numbers = [2, 9, 16, 23, 30, 37, 44, 51, 58, 65, 72, 79, 86, 93, 100, 107, 114, 121, 128]
+    
+    types = {}
+    names = {}
+
+    for number in line_numbers:
+        if number < len(lines):
+            entry = lines[number - 1].strip()
+            next_line = lines[number].strip() if number + 1 < len(lines) else ""
+            type_match = next_line.split(":")[0] if next_line else None
+
+            if type_match and "Type" in entry and "Name" in next_line:
+                type_value = entry.split(":")[1].strip()
+                name_value = next_line.split(":")[1].strip()
+
+                if type_value in types:
+                    types[type_value] += 1
+                else:
+                    types[type_value] = 1
+
+                if type_value not in names:
+                    names[type_value] = []
+                names[type_value].append(name_value)
+
+    sorted_types = sorted(types.items(), key=lambda x: x[0])
+
+    for type_name, count in sorted_types:
+        names_list = ", ".join(names[type_name])
+        print(f"{type_name}: {count} ({names_list})")
+
+if __name__ == "__main__":
+    main()

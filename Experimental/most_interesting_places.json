@@ -97,17 +97,17 @@
       }
     },
     {
-      /////////////////////
       "id": 9,
-      "type": "Valley",
-      "name": "Valles Marineris",
-      "location": "Western hemisphere",
-      "description": "Largest canyon in the Solar System",
+      "type": "Planitia",
+      "name": "Acidalia Planitia",
+      "location": "Northern hemisphere",
+      "description": "Large lowland plain on Mars",
       "coordinates": {
-        "latitude": "25.2°N",
-        "longitude": "72.2°E"
+        "latitude": "47.5°N",
+        "longitude": "339.2°E"
       }
     },
+    
     {
       "id": 10,
       "type": "Crater",
@@ -161,10 +161,11 @@
       "type": "Dunes",
       "name": "Olympia Undae",
       "location": "Tharsis",
-      "description": "Largest known field of dunes on Mars",
+      "description": "Olympia Undae consists of a broad \"sand sea\" or erg that partly rings the north polar plateau (Planum Boreum) from about 120° to 240°E longitude and 78° to 83°N latitude. Stretching about 1,100 km (680 mi) across and covering an area of 470,000 km2. is the largest continuous dune field on Mars.",
       "coordinates": {
-        "latitude": "18.2°N",
-        "longitude": "13.2°W"
+        "latitude": "81.63°N",
+"longitude": "190.35°W"
+
       }
     },
     {
@@ -172,10 +173,11 @@
       "type": "Plains",
       "name": "Amazonis Planitia",
       "location": "Amazonis Planitia",
-      "description": "Largest plain on Mars",
+      "description": "Largest plain on Mars. Amazonis Planitia is one of the smoothest plains on Mars. It is located between the Tharsis and Elysium volcanic provinces, to the west of Olympus Mons. The plain's topography exhibits extremely smooth features at several different lengths of scale.",
       "coordinates": {
-        "latitude": "-0.8°N",
-        "longitude": "248.6°E"
+        "latitude": "24.8°N",
+"longitude": "164.0°W"
+
       }
     },
     {
@@ -183,10 +185,11 @@
       "type": "Highlands",
       "name": "Tharsis",
       "location": "Tharsis",
-      "description": "Largest highland region on Mars",
+      "description": "The region is home to the largest volcanoes in the Solar System, including the three enormous shield volcanoes Arsia Mons, Pavonis Mons, and Ascraeus Mons, which are collectively known as the Tharsis Montes. It is called largest highland region on Mars. The tallest volcano on the planet, Olympus Mons, is often associated with the Tharsis region but is actually located off the western edge of the plateau. Water clouds can be seen over Tharsis",
       "coordinates": {
-        "latitude": "18.4°N",
-        "longitude": "13.4°W"
+        "latitude": "0°N",
+"longitude": "100°W"
+
       }
     },
     {
@@ -194,10 +197,10 @@
       "type": "Highlands",
       "name": "Arabia Terra",
       "location": "Arabia Terra",
-      "description": "Largest highland region in the northern hemisphere of Mars",
+      "description": "Largest highland region in the northern hemisphere of Mars. It is densely cratered and heavily eroded. This battered topography indicates great age, and Arabia Terra is presumed to be one of the oldest terrains on the planet. It covers as much as 4,500 km (2,800 mi) at its longest extent",
       "coordinates": {
-        "latitude": "15.5°N",
-        "longitude": "338.7°E"
+        "latitude": "21°N",
+        "longitude": "6°E"        
       }
     },
     {
@@ -205,21 +208,23 @@
       "type": "Highlands",
       "name": "Noachis Terra",
       "location": "Noachis Terra",
-      "description": "Largest highland region in the southern hemisphere of Mars",
+      "description": "Largest highland region in the southern hemisphere of Mars. It is in the Noachis quadrangle.",
       "coordinates": {
-        "latitude": "-29.1°S",
-        "longitude": "326.2°E"
+        "latitude": "45°S",
+        "longitude": "10°W"
+        
       }
     },
     {
       "id": 19,
-      "type": "Borealis Basin",     
+      "type": "Crater",     
       "name": "Borealis Basin",    
       "location": "Northern Hemisphere of Mars",  
-      "description": "Largest and oldest impact basin on Mars, encompassing much of the northern lowlands.",  
+      "description": "Largest and oldest impact basin on Mars, encompassing much of the northern lowlands. Some scientists have postulated that the basin formed during the impact of a single, large body roughly 2% of the mass of Mars, having a diameter of about 1,900 km (1,200 miles) early in the history of Mars, around 4.5 billion years ago. The basin is one of the flattest areas in the Solar System, and has an elliptical shape.",  
       "coordinates": {
-        "latitude": "68.0°N",
-        "longitude": "202.0°E"
+        "latitude": "67°N",
+        "longitude": "152°W"
+        
       }
     }
     
