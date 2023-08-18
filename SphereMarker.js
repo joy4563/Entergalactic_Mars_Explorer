@@ -29,8 +29,9 @@ export class MySphere {
     return point;
   }
 
-  addMarker(text, lat = null, long = null, callback) {
+  addMarker(text, lat , long , callback) {
     let position;
+    // console.log(lat,long);
     if (lat != null && long != null)
       position = this.sphericalToCartesian(this.radius, lat, long);
     else position = this.randomPointOnSurface();
