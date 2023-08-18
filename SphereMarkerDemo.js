@@ -79,6 +79,7 @@ canvas.gameLoop(() => {
 //     });
 // }
 
+
 function showInfo(point) {
     console.log(point);
     let infoDiv = document.getElementById("info");

@@ -1,0 +1,202 @@
+{
+  "features": [
+    {
+      "id": 1,
+      "type": "Volcano",
+      "name": "Olympus Mons",
+      "location": "Tharsis",
+      "description": "Largest volcano and second-highest known mountain in the Solar System.",
+      "coordinates": {
+        "latitude": "18.6°N",
+        "longitude": "13.4°W"
+      }
+    },
+    {
+      "id": 2,
+      "type": "Canyon",
+      "name": "Valles Marineris",
+      "location": "Western hemisphere",
+      "description": "Largest canyon in the Solar System",
+      "coordinates": {
+        "latitude": "25.2°N",
+        "longitude": "72.2°E"
+      }
+    },
+    {
+      "id": 3,
+      "type": "Crater",
+      "name": "Hellas Planitia",
+      "location": "Northern hemisphere",
+      "description": "Largest impact crater on Mars",
+      "coordinates": {
+        "latitude": "-37.4°S",
+        "longitude": "165.5°E"
+      }
+    },
+    {
+      "id": 4,
+      "type": "Crater",
+      "name": "Argyre Planitia",
+      "location": "Southern hemisphere",
+      "description": "Second largest impact crater on Mars",
+      "coordinates": {
+        "latitude": "-45.1°S",
+        "longitude": "173.2°E"
+      }
+    },
+    {
+      "id": 5,
+      "type": "Crater",
+      "name": "Isidis Planitia",
+      "location": "Northern hemisphere",
+      "description": "Third largest impact crater on Mars",
+      "coordinates": {
+        "latitude": "-2.7°S",
+        "longitude": "34.9°E"
+      }
+    },
+    {
+      "id": 6,
+      "type": "Mountain",
+      "name": "Ascraeus Mons",
+      "location": "Tharsis",
+      "description": "Second-highest volcano on Mars",
+      "coordinates": {
+        "latitude": "18.4°N",
+        "longitude": "14.3°W"
+      }
+    },
+    {
+      "id": 7,
+      "type": "Mountain",
+      "name": "Pavonis Mons",
+      "location": "Tharsis",
+      "description": "Third-highest volcano on Mars",
+      "coordinates": {
+        "latitude": "19.1°N",
+        "longitude": "13.9°W"
+      }
+    },
+    {
+      "id": 8,
+      "type": "Mountain",
+      "name": "Arsia Mons",
+      "location": "Tharsis",
+      "description": "Fourth-highest volcano on Mars",
+      "coordinates": {
+        "latitude": "19.9°N",
+        "longitude": "13.6°W"
+      }
+    },
+    {
+      "id": 9,
+      "type": "Valley",
+      "name": "Valles Marineris",
+      "location": "Western hemisphere",
+      "description": "Largest canyon in the Solar System",
+      "coordinates": {
+        "latitude": "25.2°N",
+        "longitude": "72.2°E"
+      }
+    },
+    {
+      "id": 10,
+      "type": "Crater",
+      "name": "Gale Crater",
+      "location": "Arabia Terra",
+      "description": "Home to the Curiosity rover",
+      "coordinates": {
+        "latitude": "18.4°S",
+        "longitude": "4.5°W"
+      }
+    },
+    {
+      "id": 11,
+      "type": "Crater",
+      "name": "Jezero Crater",
+      "location": "Isidis Planitia",
+      "description": "Home to the Perseverance rover",
+      "coordinates": {
+        "latitude": "-17.4°N",
+        "longitude": "5.3°E"
+      }
+    },
+    {
+      "id": 12,
+      "type": "Volcano",
+      "name": "Elysium Mons",
+      "location": "Elysium Planitia",
+      "description": "Largest volcano in the northern hemisphere of Mars",
+      "coordinates": {
+        "latitude": "13.4°N",
+        "longitude": "136.7°E"
+      }
+    },
+    {
+      "id": 13,
+      "type": "Volcano",
+      "name": "Syrtis Major",
+      "location": "Syrtis Major Planum",
+      "description": "Second-largest volcano in the southern hemisphere of Mars with a well-defined summit caldera",
+      "coordinates": {
+        "latitude": "24.8°N",
+        "longitude": "29.4°E"
+      }
+    },
+    {
+      "id": 14,
+      "type": "Dunes",
+      "name": "Olympia Undae",
+      "location": "Tharsis",
+      "description": "Largest known field of dunes on Mars",
+      "coordinates": {
+        "latitude": "18.2°N",
+        "longitude": "13.2°W"
+      }
+    },
+    {
+      "id": 15,
+      "type": "Plains",
+      "name": "Amazonis Planitia",
+      "location": "Amazonis Planitia",
+      "description": "Largest plain on Mars",
+      "coordinates": {
+        "latitude": "-0.8°N",
+        "longitude": "248.6°E"
+      }
+    },
+    {
+      "id": 16,
+      "type": "Highlands",
+      "name": "Tharsis",
+      "location": "Tharsis",
+      "description": "Largest highland region on Mars",
+      "coordinates": {
+        "latitude": "18.4°N",
+        "longitude": "13.4°W"
+      }
+    },
+    {
+      "id": 17,
+      "type": "Highlands",
+      "name": "Arabia Terra",
+      "location": "Arabia Terra",
+      "description": "Largest highland region in the northern hemisphere of Mars",
+      "coordinates": {
+        "latitude": "15.5°N",
+        "longitude": "338.7°E"
+      }
+    },
+    {
+      "id": 18,
+      "type": "Highlands",
+      "name": "Noachis Terra",
+      "location": "Noachis Terra",
+      "description": "Largest highland region in the southern hemisphere of Mars",
+      "coordinates": {
+        "latitude": "-29.1°S",
+        "longitude": "326.2°E"
+      }
+    }
+  ]
+}
