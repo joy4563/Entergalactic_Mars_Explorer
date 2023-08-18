@@ -70,6 +70,7 @@ function markerPointDemo() {
     });
 }
 
+
 function showInfo(point) {
     let infoDiv = document.getElementById("info");
     if (!infoDiv) {
