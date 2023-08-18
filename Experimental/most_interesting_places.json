@@ -17,7 +17,7 @@
       "type": "Canyon",
       "name": "Valles Marineris",
       "location": "Western hemisphere",
-      "description": "Largest canyon in the Solar System. It is 4 miles deep and stretches thousands of miles long",
+      "description": "Largest canyon in the Solar System also one of the largest canyons of the solar system. It is 4 miles deep and stretches thousands of miles long. Valles Marineris is located along the equator of Mars, on the east side of the Tharsis Bulge, and stretches for nearly a quarter of the planet's circumference.",
       "coordinates": {
         "latitude": "13.9°S",
         "longitude": "59.2°W"
@@ -77,10 +77,11 @@
       "type": "Mountain",
       "name": "Pavonis Mons",
       "location": "Tharsis",
-      "description": "Third-highest volcano on Mars",
+      "description": "Third-highest volcano on Mars. It is the middle member of a chain of three volcanic mountains (collectively known as the Tharsis Montes).",
       "coordinates": {
-        "latitude": "19.1°N",
-        "longitude": "13.9°W"
+        "latitude": "1.48°N",
+"longitude": "112.96°W"
+
       }
     },
     {
@@ -88,13 +89,15 @@
       "type": "Mountain",
       "name": "Arsia Mons",
       "location": "Tharsis",
-      "description": "Fourth-highest volcano on Mars",
+      "description": "Fourth-highest volcano on Mars.  Its name comes from a corresponding albedo feature on a map by Giovanni Schiaparelli, which he named in turn after the legendary Roman forest of Arsia Silva. Historically, it was known as Nodus Gordii (\"Gordian knot\") before being renamed.",
       "coordinates": {
-        "latitude": "19.9°N",
-        "longitude": "13.6°W"
+        "latitude": "8.35°S",
+"longitude": "239.91°E"
+
       }
     },
     {
+      /////////////////////
       "id": 9,
       "type": "Valley",
       "name": "Valles Marineris",
@@ -110,10 +113,11 @@
       "type": "Crater",
       "name": "Gale Crater",
       "location": "Arabia Terra",
-      "description": "Home to the Curiosity rover",
+      "description": "Home to the Curiosity rover. It is probably a dry lake. It is 154 km (96 mi) in diameter and estimated to be about 3.5 to 3.8 billion years old. Mount Sharp is a mountain in the center of Gale and rises 5.5 km (18,000 ft) high. The NASA Mars rover Curiosity, of the Mars Science Laboratory (MSL) mission, landed in \"Yellowknife\" Quad 51 of Aeolis Palus in Gale at 05:32 UTC August 6, 2012.",
       "coordinates": {
-        "latitude": "18.4°S",
-        "longitude": "4.5°W"
+        "latitude": "5.4°S",
+"longitude": "137.8°E"
+
       }
     },
     {
@@ -121,10 +125,11 @@
       "type": "Crater",
       "name": "Jezero Crater",
       "location": "Isidis Planitia",
-      "description": "Home to the Perseverance rover",
+      "description": "is a crater on Mars in the Syrtis Major quadrangle, about 45.0 km (28.0 mi) in diameter. Home to the Perseverance rover. Thought to have once been flooded with water, the crater contains a fan-delta deposit rich in clays. In some Slavic languages, the word jezero means 'lake'. In November 2018, it was announced that Jezero had been chosen as the landing site for the rover Perseverance as part of NASA's Mars 2020 mission.",
       "coordinates": {
-        "latitude": "-17.4°N",
-        "longitude": "5.3°E"
+        "latitude": "18.38°N",
+"longitude": "77.58°E"
+
       }
     },
     {
@@ -132,10 +137,11 @@
       "type": "Volcano",
       "name": "Elysium Mons",
       "location": "Elysium Planitia",
-      "description": "Largest volcano in the northern hemisphere of Mars",
+      "description": "Largest volcano in the northern hemisphere of Mars. It stands about 12.6 km (41,000 ft) above its base, and about 14.1 km (46,000 ft) above the Martian datum, making it the third tallest Martian mountain in terms of relief and the fourth highest in elevation. Its diameter is about 240 km (150 mi), with a summit caldera about 14 km (8.7 mi) across.",
       "coordinates": {
-        "latitude": "13.4°N",
-        "longitude": "136.7°E"
+        "latitude": "25.02°N",
+"longitude": "32.79°W"
+
       }
     },
     {
@@ -143,10 +149,11 @@
       "type": "Volcano",
       "name": "Syrtis Major",
       "location": "Syrtis Major Planum",
-      "description": "Second-largest volcano in the southern hemisphere of Mars with a well-defined summit caldera",
+      "description": "Syrtis Major Planum is a \"dark spot\" (an albedo feature) located in the boundary between the northern lowlands and southern highlands of Mars just west of the impact basin Isidis in the Syrtis Major quadrangle.It is the second-largest volcano in the southern hemisphere of Mars with a well-defined summit caldera.",
       "coordinates": {
-        "latitude": "24.8°N",
-        "longitude": "29.4°E"
+        "latitude": "8.4°N",
+        "longitude": "290.5°W"
+        
       }
     },
     {
