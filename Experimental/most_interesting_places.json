@@ -19,9 +19,8 @@
       "location": "Western hemisphere",
       "description": "Largest canyon in the Solar System. It is 4 miles deep and stretches thousands of miles long",
       "coordinates": {
-        "latitude": "13.9°S",
-        "longitude": "59.2°W"
-        
+        "latitude": "25.2°N",
+        "longitude": "72.2°E"
       }
     },
     {
@@ -29,11 +28,10 @@
       "type": "Crater",
       "name": "Hellas Planitia",
       "location": "Northern hemisphere",
-      "description": "Hellas is the largest known impact crater in the Solar System.  The basin floor is about 7,152 m (23,465 ft) deep, 3,000 m (9,800 ft) deeper than the Moon's and extends about 2300 km east to west.",
+      "description": "Largest impact crater on Mars",
       "coordinates": {
-        "latitude": "42.4°S",
-        "longitude": "70.5°E"
-
+        "latitude": "-37.4°S",
+        "longitude": "165.5°E"
       }
     },
     {
@@ -41,11 +39,10 @@
       "type": "Crater",
       "name": "Argyre Planitia",
       "location": "Southern hemisphere",
-      "description": "It refers to Argyre, a mythical island of silver in Greek mythology. The basin is approximately 1,800 km (1,100 mi) wide and drops 5.2 km (17,000 ft) below the surrounding plains. It is the second deepest impact basin on Mars after Hellas. The basin was formed by a giant impact during the Late Heavy Bombardment of the early Solar System, approximately 3.9 billion years ago",
+      "description": "Second largest impact crater on Mars",
       "coordinates": {
-        "latitude": "49.7°S",
-        "longitude": "316.0°E"
-
+        "latitude": "-45.1°S",
+        "longitude": "173.2°E"
       }
     },
     {
@@ -53,11 +50,10 @@
       "type": "Crater",
       "name": "Isidis Planitia",
       "location": "Northern hemisphere",
-      "description": "Third largest impact crater on Mars. 1,500 km (930 mi) in diameter. Isidis was likely the last major basin to be formed on Mars, having formed approximately 3.9 billion years ago during the Noachian period.",
+      "description": "Third largest impact crater on Mars",
       "coordinates": {
-        "latitude": "12.9°N",
-"longitude": "87.0°E"
-
+        "latitude": "-2.7°S",
+        "longitude": "34.9°E"
       }
     },
     {
@@ -67,9 +63,8 @@
       "location": "Tharsis",
       "description": "Second-highest volcano on Mars",
       "coordinates": {
-        "latitude": "11.92°N",
-"longitude": "104.08°W"
-
+        "latitude": "18.4°N",
+        "longitude": "14.3°W"
       }
     },
     {
