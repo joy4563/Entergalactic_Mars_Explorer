@@ -159,6 +159,7 @@ function showInfo(point) {
 
             <div class="border border-white rounded-2xl p-4" id="new">
                 <p class="border border-white p-2 rounded-sm">Name:${point.name}</p>
+                <p>Location:${point._coordinates.location}</p>
                 <p>ID:${point.id}</p>
                 <p>Details:${point.details}</p>
                 <br>
@@ -230,7 +231,7 @@ function apiDataDemo() {
     });
 
     dataFetcher.fetchData(
-        "./data/most_intersting_place.json"
+        "./data/most_interesting_places.json"
     );
 }
 
@@ -240,7 +241,7 @@ function apiDataDemo2() {
     });
 
     dataFetcher.fetchData(
-        "./data/most_intersting_place.json"
+        "./data/most_interesting_places.json"
     );
 }
 apiDataDemo2();
