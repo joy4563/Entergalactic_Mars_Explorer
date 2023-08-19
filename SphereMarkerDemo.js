@@ -79,9 +79,8 @@ canvas.gameLoop(() => {
 //     });
 // }
 
-
 function showInfo(point) {
-    console.log(point);
+    // console.log(point);
     let infoDiv = document.getElementById("info");
     if (!infoDiv) {
         infoDiv = document.createElement("div");
@@ -111,7 +110,7 @@ function showInfo(point) {
                         <li class="px-3 py-2   ">
                             <div class="flex">
                                 <div
-                                    class=" border-2 py-2 px-4 border-gray-300 hover:bg-blue-500 hover:text-white cursor-pointer">
+                                    class=" border-2 py-2 px-4 border-gray-300 hover:bg-blue-500 hover:text-white cursor-pointer" onclick="clickLocation()" id="locationBtn">
                                     Location</div>
                                 <div
                                     class=" border-2 py-2 px-4 border-gray-300 hover:bg-blue-500 hover:text-white cursor-pointer mx-3">
@@ -234,23 +233,23 @@ function apiDataDemo() {
     );
 }
 
-function apiDataDemo2() {
-    const dataFetcher = new DataFetcher((data) => {
-        // console.log(data);
-    });
-
-    dataFetcher.fetchData(
-        "./data/most_intersting_place.json"
-    );
-}
-apiDataDemo2();
-
-// function apiDataDemo23() {
+// function apiDataDemo2() {
 //     const dataFetcher = new DataFetcher((data) => {
-//         console.log(data);
+//         // console.log(data);
 //     });
 
 //     dataFetcher.fetchData(
-//         "https://api.nasa.gov/insight_weather/?api_key=DEMO_KEY&feedtype=json&ver=1.0"
+//         "./data/most_intersting_place.json"
 //     );
+// }
+// apiDataDemo2();
+
+
+
+// onclik in location
+
+// function clickLocation() {
+//     // document.getElementById("locationBtn").style.color = "red";
+
+//     console.log("Click on location");
 // }
