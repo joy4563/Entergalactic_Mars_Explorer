@@ -241,16 +241,14 @@ function apiDataDemo() {
         });
     });
 
-<<<<<<< HEAD
     dataFetcher.fetchData("./data/most_intersting_place.json");
 }
 
 // function apiDataDemo2() {
-=======
     dataFetcher.fetchData(
         "./data/most_interesting_places.json"
     );
-}
+
 
 function apiDataDemo2() {
     const dataFetcher = new DataFetcher((data) => {
@@ -264,7 +262,6 @@ function apiDataDemo2() {
 apiDataDemo2();
 
 // function apiDataDemo23() {
->>>>>>> sabbirrsec
 //     const dataFetcher = new DataFetcher((data) => {
 //         // console.log(data);
 //     });
