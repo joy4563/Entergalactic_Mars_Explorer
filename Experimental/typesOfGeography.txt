@@ -1,0 +1,19 @@
+Canyon: 1 (Valles Marineris)
+Crater: 6 (Hellas Planitia, Argyre Planitia, Isidis Planitia, Gale Crater, Jezero Crater, Borealis Basin)
+Dunes: 1 (Olympia Undae)
+Highlands: 3 (Tharsis, Arabia Terra, Noachis Terra)
+Mountain: 3 (Ascraeus Mons, Pavonis Mons, Arsia Mons)
+Plains: 1 (Amazonis Planitia)
+Planitia: 1 (Acidalia Planitia)
+Volcano: 3 (Olympus Mons, Elysium Mons, Syrtis Major)
+
+
+//SORTED VALUE
+Crater: 6 (Argyre Planitia, Borealis Basin, Gale Crater, Hellas Planitia, Isidis Planitia, Jezero Crater)
+Mountain: 3 (Ascraeus Mons, Arsia Mons, Pavonis Mons)
+Highlands: 3 (Arabia Terra, Noachis Terra, Tharsis)
+Volcano: 3 (Elysium Mons, Olympus Mons, Syrtis Major)
+Canyon: 1 (Valles Marineris)
+Dunes: 1 (Olympia Undae)
+Plains: 1 (Amazonis Planitia)
+Planitia: 1 (Acidalia Planitia)

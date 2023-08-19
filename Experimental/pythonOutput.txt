@@ -1,0 +1,133 @@
+ID: 1
+Type: Volcano
+Name: Olympus Mons
+Location: Tharsis
+Description: Largest volcano and second-highest known mountain in the Solar System. 16 miles high and 600 km across the base, making it 3x the height of Mount Everest
+Coordinates: Latitude 18.65°N, Longitude 226.2°E
+
+ID: 2
+Type: Canyon
+Name: Valles Marineris
+Location: Western hemisphere
+Description: Largest canyon in the Solar System also one of the largest canyons of the solar system. It is 4 miles deep and stretches thousands of miles long. Valles Marineris is located along the equator of Mars, on the east side of the Tharsis Bulge, and stretches for nearly a quarter of the planet's circumference.
+Coordinates: Latitude 13.9°S, Longitude 59.2°W
+
+ID: 3
+Type: Crater
+Name: Hellas Planitia
+Location: Northern hemisphere
+Description: Hellas is the largest known impact crater in the Solar System.  The basin floor is about 7,152 m (23,465 ft) deep, 3,000 m (9,800 ft) deeper than the Moon's and extends about 2300 km east to west.
+Coordinates: Latitude 42.4°S, Longitude 70.5°E
+
+ID: 4
+Type: Crater
+Name: Argyre Planitia
+Location: Southern hemisphere
+Description: It refers to Argyre, a mythical island of silver in Greek mythology. The basin is approximately 1,800 km (1,100 mi) wide and drops 5.2 km (17,000 ft) below the surrounding plains. It is the second deepest impact basin on Mars after Hellas. The basin was formed by a giant impact during the Late Heavy Bombardment of the early Solar System, approximately 3.9 billion years ago
+Coordinates: Latitude 49.7°S, Longitude 316.0°E
+
+ID: 5
+Type: Crater
+Name: Isidis Planitia
+Location: Northern hemisphere
+Description: Third largest impact crater on Mars. 1,500 km (930 mi) in diameter. Isidis was likely the last major basin to be formed on Mars, having formed approximately 3.9 billion years ago during the Noachian period.
+Coordinates: Latitude 12.9°N, Longitude 87.0°E
+
+ID: 6
+Type: Mountain
+Name: Ascraeus Mons
+Location: Tharsis
+Description: Second-highest volcano on Mars. In 1971. The volcano was originally called North Spot because it was the northernmost of only four spots visible on the surface due to a global dust storm that was then enshrouding the planet. As the dust cleared, the spots were revealed to be extremely tall volcanoes whose summits had projected above the dust-laden, lower atmosphere.
+Coordinates: Latitude 11.92°N, Longitude 104.08°W
+
+ID: 7
+Type: Mountain
+Name: Pavonis Mons
+Location: Tharsis
+Description: Third-highest volcano on Mars. It is the middle member of a chain of three volcanic mountains (collectively known as the Tharsis Montes).
+Coordinates: Latitude 1.48°N, Longitude 112.96°W
+
+ID: 8
+Type: Mountain
+Name: Arsia Mons
+Location: Tharsis
+Description: Fourth-highest volcano on Mars.  Its name comes from a corresponding albedo feature on a map by Giovanni Schiaparelli, which he named in turn after the legendary Roman forest of Arsia Silva. Historically, it was known as Nodus Gordii ("Gordian knot") before being renamed.
+Coordinates: Latitude 8.35°S, Longitude 239.91°E
+
+ID: 9
+Type: Planitia
+Name: Acidalia Planitia
+Location: Northern hemisphere
+Description: Large lowland plain on Mars
+Coordinates: Latitude 47.5°N, Longitude 339.2°E
+
+ID: 10
+Type: Crater
+Name: Gale Crater
+Location: Arabia Terra
+Description: Home to the Curiosity rover. It is probably a dry lake. It is 154 km (96 mi) in diameter and estimated to be about 3.5 to 3.8 billion years old. Mount Sharp is a mountain in the center of Gale and rises 5.5 km (18,000 ft) high. The NASA Mars rover Curiosity, of the Mars Science Laboratory (MSL) mission, landed in "Yellowknife" Quad 51 of Aeolis Palus in Gale at 05:32 UTC August 6, 2012.
+Coordinates: Latitude 5.4°S, Longitude 137.8°E
+
+ID: 11
+Type: Crater
+Name: Jezero Crater
+Location: Isidis Planitia
+Description: is a crater on Mars in the Syrtis Major quadrangle, about 45.0 km (28.0 mi) in diameter. Home to the Perseverance rover. Thought to have once been flooded with water, the crater contains a fan-delta deposit rich in clays. In some Slavic languages, the word jezero means 'lake'. In November 2018, it was announced that Jezero had been chosen as the landing site for the rover Perseverance as part of NASA's Mars 2020 mission.
+Coordinates: Latitude 18.38°N, Longitude 77.58°E
+
+ID: 12
+Type: Volcano
+Name: Elysium Mons
+Location: Elysium Planitia
+Description: Largest volcano in the northern hemisphere of Mars. It stands about 12.6 km (41,000 ft) above its base, and about 14.1 km (46,000 ft) above the Martian datum, making it the third tallest Martian mountain in terms of relief and the fourth highest in elevation. Its diameter is about 240 km (150 mi), with a summit caldera about 14 km (8.7 mi) across.
+Coordinates: Latitude 25.02°N, Longitude 32.79°W
+
+ID: 13
+Type: Volcano
+Name: Syrtis Major
+Location: Syrtis Major Planum
+Description: Syrtis Major Planum is a "dark spot" (an albedo feature) located in the boundary between the northern lowlands and southern highlands of Mars just west of the impact basin Isidis in the Syrtis Major quadrangle.It is the second-largest volcano in the southern hemisphere of Mars with a well-defined summit caldera.
+Coordinates: Latitude 8.4°N, Longitude 290.5°W
+
+ID: 14
+Type: Dunes
+Name: Olympia Undae
+Location: Tharsis
+Description: Olympia Undae consists of a broad "sand sea" or erg that partly rings the north polar plateau (Planum Boreum) from about 120° to 240°E longitude and 78° to 83°N latitude. Stretching about 1,100 km (680 mi) across and covering an area of 470,000 km2. is the largest continuous dune field on Mars.
+Coordinates: Latitude 81.63°N, Longitude 190.35°W
+
+ID: 15
+Type: Plains
+Name: Amazonis Planitia
+Location: Amazonis Planitia
+Description: Largest plain on Mars. Amazonis Planitia is one of the smoothest plains on Mars. It is located between the Tharsis and Elysium volcanic provinces, to the west of Olympus Mons. The plain's topography exhibits extremely smooth features at several different lengths of scale.
+Coordinates: Latitude 24.8°N, Longitude 164.0°W
+
+ID: 16
+Type: Highlands
+Name: Tharsis
+Location: Tharsis
+Description: The region is home to the largest volcanoes in the Solar System, including the three enormous shield volcanoes Arsia Mons, Pavonis Mons, and Ascraeus Mons, which are collectively known as the Tharsis Montes. It is called largest highland region on Mars. The tallest volcano on the planet, Olympus Mons, is often associated with the Tharsis region but is actually located off the western edge of the plateau. Water clouds can be seen over Tharsis
+Coordinates: Latitude 0°N, Longitude 100°W
+
+ID: 17
+Type: Highlands
+Name: Arabia Terra
+Location: Arabia Terra
+Description: Largest highland region in the northern hemisphere of Mars. It is densely cratered and heavily eroded. This battered topography indicates great age, and Arabia Terra is presumed to be one of the oldest terrains on the planet. It covers as much as 4,500 km (2,800 mi) at its longest extent
+Coordinates: Latitude 21°N, Longitude 6°E
+
+ID: 18
+Type: Highlands
+Name: Noachis Terra
+Location: Noachis Terra
+Description: Largest highland region in the southern hemisphere of Mars. It is in the Noachis quadrangle.
+Coordinates: Latitude 45°S, Longitude 10°W
+
+ID: 19
+Type: Crater
+Name: Borealis Basin
+Location: Northern Hemisphere of Mars
+Description: Largest and oldest impact basin on Mars, encompassing much of the northern lowlands. Some scientists have postulated that the basin formed during the impact of a single, large body roughly 2% of the mass of Mars, having a diameter of about 1,900 km (1,200 miles) early in the history of Mars, around 4.5 billion years ago. The basin is one of the flattest areas in the Solar System, and has an elliptical shape.
+Coordinates: Latitude 67°N, Longitude 152°W
+
