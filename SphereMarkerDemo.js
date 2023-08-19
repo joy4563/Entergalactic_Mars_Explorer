@@ -10,7 +10,7 @@ let scene, camera, renderer;
 const canvas = new MyCanvas(window);
 
 scene = canvas.scene;
-canvas.setBackgroundEXR("/BackgroundDemo/starmap_2020_4k.exr");
+// canvas.setBackgroundEXR("/BackgroundDemo/starmap_2020_4k.exr");
 camera = canvas.camera;
 renderer = canvas.renderer;
 canvas.init(document);
@@ -37,7 +37,7 @@ sphere.addMarker("LAT_LONG", 30, -90, (object) => {
 // markerPointDemo();
 apiDataDemo();
 canvas.gameLoop(() => {
-    sphere.sphere.rotation.x += 0.0000;
+    sphere.sphere.rotation.x += 0.0;
     sphere.sphere.rotation.y += 0.0002;
 });
 
@@ -79,6 +79,12 @@ canvas.gameLoop(() => {
 //     });
 // }
 
+// function clickLocation() {
+//     // document.getElementById("locationBtn").style.color = "red";
+
+//     console.log("Click on location");
+// }
+
 function showInfo(point) {
     // console.log(point);
     let infoDiv = document.getElementById("info");
@@ -109,9 +115,12 @@ function showInfo(point) {
                         class="absolute mt-2   border border-gray-300 rounded-lg shadow-md">
                         <li class="px-3 py-2   ">
                             <div class="flex">
-                                <div
-                                    class=" border-2 py-2 px-4 border-gray-300 hover:bg-blue-500 hover:text-white cursor-pointer" onclick="clickLocation()" id="locationBtn">
-                                    Location</div>
+                               <div class="border-2 py-2 px-4 border-gray-300 hover:bg-blue-500 hover:text-white cursor-pointer"
+     onclick="() => { console.log('Click on location'); }"
+     id="locationBtn">
+    Location
+</div>
+
                                 <div
                                     class=" border-2 py-2 px-4 border-gray-300 hover:bg-blue-500 hover:text-white cursor-pointer mx-3">
                                     Tourisom</div>
@@ -220,7 +229,6 @@ function apiDataDemo() {
         }
 
         sphere.onMarkerClick(camera, (text) => {
-
             const point = markedPoints.find(text);
             if (point != null) {
                 showInfo(point);
@@ -228,9 +236,7 @@ function apiDataDemo() {
         });
     });
 
-    dataFetcher.fetchData(
-        "./data/most_intersting_place.json"
-    );
+    dataFetcher.fetchData("./data/most_intersting_place.json");
 }
 
 // function apiDataDemo2() {
@@ -244,12 +250,10 @@ function apiDataDemo() {
 // }
 // apiDataDemo2();
 
-
-
 // onclik in location
 
-// function clickLocation() {
-//     // document.getElementById("locationBtn").style.color = "red";
+function clickLocation() {
+    // document.getElementById("locationBtn").style.color = "red";
 
-//     console.log("Click on location");
-// }
+    console.log("Click on location");
+}
