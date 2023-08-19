@@ -157,7 +157,7 @@ function showInfo(point) {
                             class="px-4 py-2 hover:bg-blue-500 hover:text-white cursor-pointer border border-white mx-3 my-2">
                             Orbiter</li>
                     </ul>
-               
+                
     
             </div>
         </div>
@@ -166,9 +166,14 @@ function showInfo(point) {
 
 
             <div class="border border-white rounded-2xl p-4" id="new">
-                <p class="border border-white p-2 rounded-sm">Name:${point.name}</p>
-                <p>ID:${point.id}</p>
-                <p>Details:${point.details}</p>
+                <p class="border border-white p-2 rounded-sm">Name: ${point.name}</p>
+                <p> Type: ${point._coordinates.type}</p>
+                <p> Location: ${point._coordinates.location}</p>
+                <p> Lat: ${point._coordinates.coordinates.latitude}</p>
+                <p> Lon: ${point._coordinates.coordinates.longitude}</p>
+                <p> Details: ${point.details}</p>
+                
+                
                 <br>
             </div>
         </div>
@@ -236,10 +241,30 @@ function apiDataDemo() {
         });
     });
 
+<<<<<<< HEAD
     dataFetcher.fetchData("./data/most_intersting_place.json");
 }
 
 // function apiDataDemo2() {
+=======
+    dataFetcher.fetchData(
+        "./data/most_interesting_places.json"
+    );
+}
+
+function apiDataDemo2() {
+    const dataFetcher = new DataFetcher((data) => {
+        // console.log(data);
+    });
+
+    dataFetcher.fetchData(
+        "./data/most_interesting_places.json"
+    );
+}
+apiDataDemo2();
+
+// function apiDataDemo23() {
+>>>>>>> sabbirrsec
 //     const dataFetcher = new DataFetcher((data) => {
 //         // console.log(data);
 //     });

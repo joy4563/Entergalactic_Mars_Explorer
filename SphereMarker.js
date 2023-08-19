@@ -9,7 +9,11 @@ export class MySphere {
     this.phi = phi;
     const geometry = new THREE.SphereGeometry(radius, theta, phi);
     const material = new THREE.MeshBasicMaterial({
+<<<<<<< HEAD
         map: new THREE.TextureLoader().load("./low.jpg"), // Load your texture here
+=======
+        map: new THREE.TextureLoader().load("./mars_1k_color.jpg"), // Load your texture here
+>>>>>>> sabbirrsec
     });
     const sphere = new THREE.Mesh(geometry, material);
     this.sphere = sphere;

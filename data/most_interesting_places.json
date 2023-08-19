@@ -8,10 +8,13 @@
       "coordinates": {
         "latitude": 18.65,
         "longitude": 226.2
-        
-        
-
-      }
+      },
+      "picture1":"https://github.com/joy4563/three_js/blob/sabbirrsec/Experimental/Pictures/Olympus_Mons/olympus_mons.jpg",
+      "picture2":"https://github.com/joy4563/three_js/blob/sabbirrsec/Experimental/Pictures/Olympus_Mons/Portions-orbiter-photographs-Viking-image-volcano-Olympus.webp",
+      "picture3":"https://github.com/joy4563/three_js/blob/sabbirrsec/Experimental/Pictures/Olympus_Mons/volcano-Mars-Olympus-Mons-spacecraft-Global-Surveyor-April-25-1998.webp",
+      "picture4":"https://github.com/joy4563/three_js/blob/sabbirrsec/Experimental/Pictures/Olympus_Mons/oly-az.jpg",
+      "picture5":"https://github.com/joy4563/three_js/blob/sabbirrsec/Experimental/Pictures/Olympus_Mons/point-Mars-Olympus-Mons-shield-volcano-oblique.webp"
+      
     },
     {
       "id": 2,
@@ -23,7 +26,12 @@
         "latitude": -13.9,
 "longitude": -59.2
 
-      }
+      },
+      "picture1":"https://github.com/joy4563/three_js/blob/sabbirrsec/Experimental/Pictures/Valles_Marineris/Mars_Valles_Marineris.jpeg",
+      "picture2":"https://github.com/joy4563/three_js/blob/sabbirrsec/Experimental/Pictures/Valles_Marineris/1600px-016vallesmarineris.jpg",
+      "picture3":"https://github.com/joy4563/three_js/blob/sabbirrsec/Experimental/Pictures/Valles_Marineris/Valles_Marineris_NASA_World_Wind_map_Mars.jpg",
+      "picture4":"https://github.com/joy4563/three_js/blob/sabbirrsec/Experimental/Pictures/Valles_Marineris/1600px-VallesMarinerisHuge.jpg",
+      "picture5":"https://github.com/joy4563/three_js/blob/sabbirrsec/Experimental/Pictures/Valles_Marineris/800px-Valles_Marineris_%26_outflow_channels_MOLA_zoom_64.jpg"
     },
     {
       "id": 3,
@@ -35,7 +43,10 @@
         "latitude": -42.4,
         "longitude": 70.5
         
-      }
+      },
+      "picture1":"https://github.com/joy4563/three_js/blob/sabbirrsec/Experimental/Pictures/Hellas_Planitaia/520px-Hellas_Planitia_by_the_Viking_orbiters.jpg",
+      "picture2":"https://github.com/joy4563/three_js/blob/sabbirrsec/Experimental/Pictures/Hellas_Planitaia/520px-Hellas_MOLA_zoom_64_medium.jpg",
+      "picture3":"https://github.com/joy4563/three_js/blob/sabbirrsec/Experimental/Pictures/Hellas_Planitaia/maxresdefault.jpg"
     },
     {
       "id": 4,
@@ -47,7 +58,10 @@
         "latitude": -49.7,
 "longitude": 316.0
 
-      }
+      },
+      "picture1":"https://github.com/joy4563/three_js/blob/sabbirrsec/Experimental/Pictures/Argyre_Planitia/965px-Mars_atmosphere.jpg",
+      "picture2":"https://github.com/joy4563/three_js/blob/sabbirrsec/Experimental/Pictures/Argyre_Planitia/Gullies_in_the_southern_highlands_of_Mars.jpg",
+      "picture3":"https://github.com/joy4563/three_js/blob/sabbirrsec/Experimental/Pictures/Argyre_Planitia/854px-Argyre_MOLA_zoom_64.jpg"
     },
     {
       "id": 5,
@@ -59,7 +73,10 @@
         "latitude": 12.9,
 "longitude": 87.0
 
-      }
+      },
+      "picture1":"https://github.com/joy4563/three_js/blob/sabbirrsec/Experimental/Pictures/Isidis_Planitia/jpegPIA03087.width-1024.jpg",
+      "picture2":"https://github.com/joy4563/three_js/blob/sabbirrsec/Experimental/Pictures/Isidis_Planitia/Syrtis-Isidis_zoom_64_pano.jpg",
+      "picture3":"https://github.com/joy4563/three_js/blob/sabbirrsec/Experimental/Pictures/Isidis_Planitia/500px-Isidis_basin_topo.jpg"
     },
     {
       "id": 6,
@@ -71,7 +88,9 @@
         "latitude": 11.92,
         "longitude": 255.92
         
-      }
+      },
+      "picture1": "https://github.com/joy4563/three_js/blob/main/Experimental/Pictures/Ascraeus_Mons/Ascraeus_Mons_Flank_Terraces.jpg",
+      "picture2": "https://github.com/joy4563/three_js/blob/main/Experimental/Pictures/Ascraeus_Mons/Ascraeus_mons_topo.jpg"
     },
     {
       "id": 7,
@@ -84,7 +103,11 @@
 "longitude": 247.04
 
 
-      }
+      },
+      "picture1":"https://github.com/joy4563/three_js/blob/main/Experimental/Pictures/Pavonis_Mons/Pavoniscaldeira.jpg",
+      "picture2":"https://github.com/joy4563/three_js/blob/main/Experimental/Pictures/Pavonis_Mons/480px-Pavonis_Mons_THEMIS_day_IR_100m_v11_0.5.jpg",
+      "picture3":"https://github.com/joy4563/three_js/blob/main/Experimental/Pictures/Pavonis_Mons/Pavonis_mons_topo.jpg",
+      "picture4":"https://github.com/joy4563/three_js/blob/main/Experimental/Pictures/Pavonis_Mons/Pavonis_Summit_Dust_PIA07421.jpg"
     },
     {
       "id": 8,
@@ -97,7 +120,12 @@
         "longitude": -120.09
         
 
-      }
+      },
+      "picture1":"https://github.com/joy4563/three_js/blob/main/Experimental/Pictures/Arsia_Mons/380px-PIA13540_-_Layers_in_Martian_volcano_Arsia_Mons.jpg",
+      "picture2":"https://github.com/joy4563/three_js/blob/main/Experimental/Pictures/Arsia_Mons/440px-Arsia_Mons_mosaic.jpg",
+      "picture3":"https://github.com/joy4563/three_js/blob/main/Experimental/Pictures/Arsia_Mons/Arsia_Mons_PIA02804.jpg",
+      "picture4":"https://github.com/joy4563/three_js/blob/main/Experimental/Pictures/Arsia_Mons/Arsia_Mons_possible_cave_entrance_-MRO.jpg",
+      "picture5":"https://github.com/joy4563/three_js/blob/main/Experimental/Pictures/Arsia_Mons/MOLA_arsia_mons.jpg"
     },
     {
       "id": 9,
@@ -109,7 +137,11 @@
         "latitude": 49.76,
         "longitude": 339.26
         
-      }
+      },
+      "picture1":"https://github.com/joy4563/three_js/blob/sabbirrsec/Experimental/Pictures/Acidalia_Planitia/878px-Possible_mud_volcano_on_Acidalia_Planitia_by_HiRISE.jpg",
+      "picture2":"https://github.com/joy4563/three_js/blob/sabbirrsec/Experimental/Pictures/Acidalia_Planitia/1280px-24951gullyclose.jpg",
+      "picture3":"https://github.com/joy4563/three_js/blob/sabbirrsec/Experimental/Pictures/Acidalia_Planitia/520px-Acidalia_planitia_topo.jpg",
+      "picture4":"https://github.com/joy4563/three_js/blob/sabbirrsec/Experimental/Pictures/Acidalia_Planitia/726px-MOLA_Map.png"
     },
     
     {
@@ -123,8 +155,13 @@
 "longitude": 137.8
 
 
-      }
-    },
+      },
+      "picture1":"https://github.com/joy4563/three_js/blob/main/Experimental/Pictures/Gale_Crater/1600px-PIA19912-MarsCuriosityRover-MountSharp-20151002.jpg",
+      "picture2":"https://github.com/joy4563/three_js/blob/main/Experimental/Pictures/Gale_Crater/MarsCuriosityRover-AncientLake_Estimated_Size.jpg",
+      "picture3":"https://github.com/joy4563/three_js/blob/main/Experimental/Pictures/Gale_Crater/400px-Topographic_Map_of_Gale_Crater.jpg",
+      "picture4":"https://github.com/joy4563/three_js/blob/main/Experimental/Pictures/Gale_Crater/PIA16453-MarsCuriosityRover-RocknestPanorama-20121126%20(1).jpg",
+      "picture5":"https://github.com/joy4563/three_js/blob/main/Experimental/Pictures/Gale_Crater/400px-Curiosity_Cradled_by_Gale_Crater.jpg"
+        },
     {
       "id": 11,
       "type": "Crater",
@@ -136,7 +173,14 @@
         "longitude": 77.58
         
 
-      }
+      },
+      "picture1":"https://github.com/joy4563/three_js/blob/main/Experimental/Pictures/Jezero_Crater/jezero-overview.jpg",
+      "picture2":"https://github.com/joy4563/three_js/blob/main/Experimental/Pictures/Jezero_Crater/Mastcam-Z's_First_360-Degree_Panorama.jpg",
+      "picture3":"https://github.com/joy4563/three_js/blob/main/Experimental/Pictures/Jezero_Crater/jezero-site.jpg",
+      "picture4":"https://github.com/joy4563/three_js/blob/main/Experimental/Pictures/Jezero_Crater/landing-ellipse.jpg",
+      "picture5":"https://github.com/joy4563/three_js/blob/main/Experimental/Pictures/Jezero_Crater/MarsPerseveranceRover-PossibleRoutes-20210305.jpg",
+      "picture6":"https://github.com/joy4563/three_js/blob/main/Experimental/Pictures/Jezero_Crater/Jezero_crater_on_Mars%2C_sol_14_of_Perseverance_mission.png",
+      "picture7":"https://github.com/joy4563/three_js/blob/main/Experimental/Pictures/Jezero_Crater/Jezero_Crater_Rim_Panorama_NASA_Perseverance_rover.jpg"
     },
     {
       "id": 12,
@@ -149,7 +193,10 @@
 "longitude": 147.21
 
 
-      }
+      },
+      "picture1":"https://github.com/joy4563/three_js/blob/main/Experimental/Pictures/Elysiom_Mons/380px-Elysium_Mons_541A44_541A46.jpg",
+      "picture2":"https://github.com/joy4563/three_js/blob/main/Experimental/Pictures/Elysiom_Mons/400px-Elysium_Mons_THEMIS.jpg",
+      "picture3":"https://github.com/joy4563/three_js/blob/main/Experimental/Pictures/Elysiom_Mons/360px-MOLA_elysium_mons.jpg"
     },
     {
       "id": 13,
@@ -162,7 +209,10 @@
         "longitude": 69.5
         
         
-      }
+      },
+      "picture1":"https://github.com/joy4563/three_js/blob/main/Experimental/Pictures/Syrtis%20Major/460px-Syrtis_Major_MC-13.jpg",
+      "picture2":"https://github.com/joy4563/three_js/blob/main/Experimental/Pictures/Syrtis%20Major/600px-Syrtis-Isidis_zoom_64_pano.jpg",
+      "picture3":"https://github.com/joy4563/three_js/blob/main/Experimental/Pictures/Syrtis%20Major/472px-Nili-Meroe_paterae_THEMIS_day_IR_100m_v11.jpg"
     },
     {
       "id": 14,
@@ -174,7 +224,9 @@
         "latitude": 81.63,
         "longitude": 169.65        
 
-      }
+      },
+      "picture1":"https://github.com/joy4563/three_js/blob/main/Experimental/Pictures/Olympia_Undaya/PIA24882_fig1.png",
+      "picture2":"https://github.com/joy4563/three_js/blob/main/Experimental/Pictures/Olympia_Undaya/26259_PIA24882.jpg"
     },
     {
       "id": 15,
@@ -187,7 +239,13 @@
         "longitude": 196.0
         
 
-      }
+      },
+      "picture1":"https://github.com/joy4563/three_js/blob/main/Experimental/Pictures/Amazonis_Planitia/380px-54850_1900ridgesclosecolor.jpg",
+      "picture2":"https://github.com/joy4563/three_js/blob/main/Experimental/Pictures/Amazonis_Planitia/36745_1905lridgesshort.jpg",
+      "picture3":"https://github.com/joy4563/three_js/blob/main/Experimental/Pictures/Amazonis_Planitia/400px-Amazonis_planitia_topo.jpg",
+      "picture4":"https://github.com/joy4563/three_js/blob/main/Experimental/Pictures/Amazonis_Planitia/380px-ESP_036745_1905top.jpg",
+      "picture5":"https://github.com/joy4563/three_js/blob/main/Experimental/Pictures/Amazonis_Planitia/USGS-Mars-AmazonisPlanitia-mola.jpg"
+
     },
     {
       "id": 16,
@@ -199,7 +257,11 @@
         "latitude": 0,
         "longitude": 260        
 
-      }
+      },
+      "picture1":"https://github.com/joy4563/three_js/blob/main/Experimental/Pictures/Tharsis/440px-Clouds_over_lava_flows_on_Mars_ESA384876.jpg",
+      "picture2":"https://github.com/joy4563/three_js/blob/main/Experimental/Pictures/Tharsis/440px-Tharsis-PIA02049.jpg",
+      "picture3":"https://github.com/joy4563/three_js/blob/main/Experimental/Pictures/Tharsis/600px-Tharsis_-_Valles_Marineris_MOLA_shaded_colorized_zoom_32.jpg",
+      "picture4":"https://github.com/joy4563/three_js/blob/main/Experimental/Pictures/Tharsis/Syria-Thaumasia.jpg"
     },
     {
       "id": 17,
@@ -210,7 +272,9 @@
       "coordinates": {
         "latitude": 21,
         "longitude": 6              
-      }
+      },
+      "picture1":"https://github.com/joy4563/three_js/blob/main/Experimental/Pictures/Arabia_Terra/Oxus_Patera%2C_a_caldera_on_Mars.jpg",
+      "picture2":"https://github.com/joy4563/three_js/blob/main/Experimental/Pictures/Arabia_Terra/500px-Eden_Patera_THEMIS_day_IR.jpg"
     },
     {
       "id": 18,
@@ -222,8 +286,10 @@
         "latitude": -45,
         "longitude": 350
         
-        
-      }
+      },
+      "picture1":"https://github.com/joy4563/three_js/blob/main/Experimental/Pictures/Noachis_Terra/Dunes_of_Mars.jpg",
+      "picture2":"https://github.com/joy4563/three_js/blob/main/Experimental/Pictures/Noachis_Terra/380px-Exhumed_crater_in_Noachis.jpeg"
+
     },
     {
       "id": 19,
@@ -235,7 +301,9 @@
         "latitude": 67,
         "longitude": 208        
         
-      }
+      },
+      "picture1":"https://github.com/joy4563/three_js/blob/main/Experimental/Pictures/Borealis_Basin/MarsLomonosovCraterWinter.jpg",
+      "picture2":"https://github.com/joy4563/three_js/blob/main/Experimental/Pictures/Borealis_Basin/700px-Mars_topography_(MOLA_dataset)_with_poles_HiRes.jpg"
     }
     
   ]
