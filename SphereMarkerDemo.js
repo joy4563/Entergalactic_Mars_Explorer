@@ -86,11 +86,8 @@ canvas.gameLoop(() => {
 // }
 
 function showInfo(point) {
-<<<<<<< HEAD
     // console.log(point);
-=======
     console.log(point.total);
->>>>>>> joy
     let infoDiv = document.getElementById("info");
     if (!infoDiv) {
         infoDiv = document.createElement("div");
