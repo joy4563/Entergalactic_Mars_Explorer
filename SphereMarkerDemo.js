@@ -159,8 +159,8 @@ function showInfo(point) {
 
             <div class="border border-white rounded-2xl p-4" id="new">
                 <p class="border border-white p-2 rounded-sm">Name: ${point.name}</p>
-                <p> Location: ${point._coordinates.location}</p>
                 <p> Type: ${point._coordinates.type}</p>
+                <p> Location: ${point._coordinates.location}</p>
                 <p> Details: ${point.details}</p>
                 
                 <br>
