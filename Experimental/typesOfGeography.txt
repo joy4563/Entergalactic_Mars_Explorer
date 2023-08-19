@@ -17,3 +17,33 @@ Canyon: 1 (Valles Marineris)
 Dunes: 1 (Olympia Undae)
 Plains: 1 (Amazonis Planitia)
 Planitia: 1 (Acidalia Planitia)
+
+
+**Group 1: Terrestrial Peaks**
+- Crater(6): Argyre Planitia, Borealis Basin, Gale Crater, Hellas Planitia, Isidis Planitia, Jezero Crater
+   - These are depressions on a planetary surface that are usually formed by impact events, such as asteroid or meteorite collisions.
+- Mountain(3): Ascraeus Mons, Arsia Mons, Pavonis Mons
+   - These are elevated landforms that rise above the surrounding terrain due to geological processes like tectonic activity or volcanic eruptions.
+- Volcano(3): Elysium Mons, Olympus Mons, Syrtis Major
+   - These are mountains that are formed by the accumulation of lava, ash, and other materials ejected during volcanic eruptions.
+
+**Group 2: Highlands**
+- Highlands(3): Arabia Terra, Noachis Terra, Tharsis
+   - These are areas of elevated terrain with rugged topography, often featuring mountains, hills, and plateaus.
+
+**Group 3: Unique Surface Textures**
+- Canyon(1): Valles Marineris
+   - Canyons are deep, narrow valleys often formed by the erosion of water over time, exposing distinct layers of geological history.
+- Dunes(1): Olympia Undae
+   - Dunes are hills or ridges of sand formed by wind, creating unique textured landscapes.
+
+**Group 4: Enigmatic Features**
+- Plains(1): Amazonis Planitia
+   - Plains are flat or gently rolling areas characterized by low relief and relatively smooth surfaces.
+- Planitia(1): Acidalia Planitia
+   - Planitia are low-lying, broad plains often associated with large impact basins and filled with sediment or lava flows.
+
+**Group 5: Others**
+- Miscellaneous features that don't fit neatly into the previous categories.
+
+
