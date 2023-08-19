@@ -10,7 +10,7 @@ let scene, camera, renderer;
 const canvas = new MyCanvas(window);
 
 scene = canvas.scene;
-canvas.setBackgroundEXR("/BackgroundDemo/starmap_2020_4k.exr");
+// canvas.setBackgroundEXR("/BackgroundDemo/starmap_2020_4k.exr");
 camera = canvas.camera;
 renderer = canvas.renderer;
 canvas.init(document);
@@ -81,7 +81,7 @@ canvas.gameLoop(() => {
 
 
 function showInfo(point) {
-    console.log(point);
+    console.log(point.total);
     let infoDiv = document.getElementById("info");
     if (!infoDiv) {
         infoDiv = document.createElement("div");
@@ -159,11 +159,12 @@ function showInfo(point) {
 
             <div class="border border-white rounded-2xl p-4" id="new">
                 <p class="border border-white p-2 rounded-sm">Name: ${point.name}</p>
-                <p> Type: ${point._coordinates.type}</p>
-                <p> Location: ${point._coordinates.location}</p>
-                <p> Lat: ${point._coordinates.coordinates.latitude}</p>
-                <p> Lon: ${point._coordinates.coordinates.longitude}</p>
-                <p> Details: ${point.details}</p>
+                <p> Type: ${point.total.type}</p>
+                <p> Location: ${point.total.location}</p>
+                <p> Lat: ${point.total.coordinates.latitude}</p>
+                <p> Lon: ${point.total.coordinates.longitude}</p>
+                <p> Details: ${point.total.details}</p>
+                <img src=${point.total.photos[0].photo} alt="jjoyyyyyyyy">
                 
                 
                 <br>
@@ -205,8 +206,6 @@ function apiDataDemo() {
             markedPoints.add(
                 user.id,
                 user.name,
-                user.details,
-                user.location,
                 user
             );
             sphere.addMarker(
@@ -239,16 +238,16 @@ function apiDataDemo() {
     );
 }
 
-function apiDataDemo2() {
-    const dataFetcher = new DataFetcher((data) => {
-        // console.log(data);
-    });
+// function apiDataDemo2() {
+//     const dataFetcher = new DataFetcher((data) => {
+//         // console.log(data);
+//     });
 
-    dataFetcher.fetchData(
-        "./data/most_interesting_places.json"
-    );
-}
-apiDataDemo2();
+//     dataFetcher.fetchData(
+//         "./data/most_interesting_places.json"
+//     );
+// }
+// apiDataDemo2();
 
 // function apiDataDemo23() {
 //     const dataFetcher = new DataFetcher((data) => {
