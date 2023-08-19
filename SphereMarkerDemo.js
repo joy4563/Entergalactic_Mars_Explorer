@@ -149,7 +149,7 @@ function showInfo(point) {
                             class="px-4 py-2 hover:bg-blue-500 hover:text-white cursor-pointer border border-white mx-3 my-2">
                             Orbiter</li>
                     </ul>
-               
+                
     
             </div>
         </div>
@@ -161,7 +161,10 @@ function showInfo(point) {
                 <p class="border border-white p-2 rounded-sm">Name: ${point.name}</p>
                 <p> Type: ${point._coordinates.type}</p>
                 <p> Location: ${point._coordinates.location}</p>
+                <p> Lat: ${point._coordinates.coordinates.latitude}</p>
+                <p> Lon: ${point._coordinates.coordinates.longitude}</p>
                 <p> Details: ${point.details}</p>
+                
                 
                 <br>
             </div>
