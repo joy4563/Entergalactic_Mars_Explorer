@@ -241,7 +241,7 @@ function apiDataDemo() {
         });
     });
 
-    dataFetcher.fetchData("./data/most_intersting_place.json");
+    dataFetcher.fetchData("./data/most_interesting_places.json");
 }
 
 // function apiDataDemo2() {
