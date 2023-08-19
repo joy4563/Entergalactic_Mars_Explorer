@@ -1,10 +1,9 @@
 export class Point {
-    constructor(id, name, details, location, coordinates) {
+    constructor(id, name, total) {
         this._id = id;
         this._name = name;
-        this._details = details;
-        this._location = location;
-        this._coordinates = coordinates;
+        this._total = total;
+        
     }
     get id() {
         return this._id;
@@ -12,24 +11,24 @@ export class Point {
     get name() {
         return this._name;
     }
-    get details() {
-        return this._details;
+    get total() {
+        return this._total;
     }
-    get location() {
-        return this.location;
-    }
-    get coordinates() {
-        return this.coordinates;
-    }
+    // get location() {
+    //     return this.location;
+    // }
+    // get coordinates() {
+    //     return this.coordinates;
+    // }
 }
   
   export class MarkedPoints {
       constructor() {
           this._points = [];
       }
-      add(id, name, details, location, coordinates) {
+      add(id, name, total) {
           this._points.push(
-              new Point(id, name, details, location, coordinates)
+              new Point(id, name, total)
           );
       }
 
