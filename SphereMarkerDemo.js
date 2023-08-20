@@ -207,6 +207,7 @@ function showInfo(point) {
                         ""
                     );
                 }
+                document.getElementById("detail").style.display= 'block';
             }
         });
     });
