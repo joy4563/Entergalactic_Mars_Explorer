@@ -560,5 +560,173 @@
         "photo": "./Experimental/Pictures/Borealis_Basin/700px-Mars_topography_(MOLA_dataset)_with_poles_HiRes.jpg"
       }
     ]
-  }
+  },  
+  {
+    "id": 20,
+    "type": "Crater",
+    "name": "Aonia Terra",
+    "topographicalgroup": "TerrestrialPeaks",
+    "location": "southern hemisphere of the planet Mars",
+    "details": "It is named after a classical albedo feature Aonia, that was named after the ancient Greek region Aonia. Aonia Terra is an upland area notable for massive cratering including the large Lowell Crater, parts of the region features small craters, in the plain areas, Thaumasia Fossae and parts of the southern area.",
+    "coordinates": {
+      "latitude": 62.0,
+      "longitude": 100.0
+    },
+    "coordinatesForShow": {
+      "latitude": "62.0°S",
+      "longitude": "100.0°E"
+    },
+    "photos": []
+  },{
+    "id": 21,
+    "type": "Region",
+    "name": "Terra Cimmeria",
+    "location": "Southern highland region of Mars",
+    "details": "Terra Cimmeria, forms a part of Mars' heavily cratered southern highlands. It's known as the landing site for the Spirit rover and is linked to an ancient Thracian seafaring people, with its name inspired by a land shrouded in clouds and mist.",
+    "coordinates": {
+      "latitude": 35.0,
+      "longitude": 215.0
+    },
+    "coordinatesForShow": {
+      "latitude": "35.0°S",
+      "longitude": "215.0°E"
+    },
+    "photos": []
+  },{
+    "id": 22,
+"type": "Region",
+"name": "Margaritifer Terra",
+"location": "Near Martian equator",
+"details": "Margaritifer Terra, located near Mars' equator, is a heavily cratered region revealing 'chaos terrain,' outflow channels, and alluvial plains that suggest massive flooding. The region also hosts Ares Vallis, known for its flood and flow patterns and as a historic landing site. Notably, the Holden and Eberswalde craters were likely ancient lakes due to their delta and mineral content. The Uzboi-Landon-Morava water flow paths are found here, carved by rapid groundwater outflows. Margaritifer Terra's history suggests a thicker atmosphere in Mars' past.",
+    "coordinates": {
+      "latitude": 5.0,
+      "longitude": 25.0
+    },
+    "coordinatesForShow": {
+      "latitude": "5.0°S",
+      "longitude": "25.0°E"
+    },
+    "photos": []
+  },
+  
+{
+"id": 23,
+"type": "Basin",
+"name": "North Polar Basin",
+"location": "Northern hemisphere of Mars",
+"details": "Encompassing 40% of the planet, the North Polar Basin, also known as the Borealis Basin, is a significant feature in the Martian northern hemisphere. It is believed to have formed through a large impact event roughly 4.5 billion years ago, possibly caused by a single body about 2% the mass of Mars. The basin's elliptical shape and remarkably flat terrain make it a distinctive feature in the Solar System.",
+"coordinates": {
+"latitude": 67.0,
+"longitude": 208.0
+},
+"coordinatesForShow": {
+"latitude": "67.0°N",
+"longitude": "208.0°E"
+},
+"photos": []
+},
+
+
+{"id": 24,
+"type": "Highland",
+"name": "Promethei Terra",
+"location": "Southern hemisphere of Mars, east of the Hellas basin",
+"details": "Promethei Terra, situated in the southern hemisphere of Mars, covers 3300 km at its widest extent. It's characterized by its heavily cratered highland terrain and is located to the east of the vast Hellas basin. Named after the Greek god Prometheus, it lies mostly within the Hellas quadrangle. Notably, the region features lobate debris aprons (LDAs) which consist of material surrounding cliffs.",
+"coordinates": {
+"latitude": 58.0,
+"longitude": 260.0
+},
+"coordinatesForShow": {
+"latitude": "58.0°S",
+"longitude": "260.0°E"
+},
+"photos": []
+},
+
+
+{
+"id": 25,
+"type": "Region",
+"name": "Terra Sabaea",
+"location": "Coordinates: 2°N 42°E on Mars",
+"details": "Terra Sabaea is a vast region on Mars, spanning 4,700 kilometers at its widest extent. It was named after a classic albedo feature on the planet and is located within multiple quadrangles. Notably, some landscapes in Terra Sabaea resemble glaciers on Earth, exhibiting features resembling moraines left by retreating ice. These glacier-like forms are known as viscous flow features (VFF) and suggest dynamic processes in the past.",
+"coordinates": {
+"latitude": 2.0,
+"longitude": 318.0
+},
+"coordinatesForShow": {
+"latitude": "2.0°N",
+"longitude": "318.0°E"
+},
+"photos": []
+},
+
+{
+"id": 26,
+"type": "Upland",
+"name": "Terra Sirenum",
+"location": "Southern hemisphere of Mars",
+"details": "Terra Sirenum, situated in Mars' southern hemisphere, spans 3900 km at its broadest extent. Notably known for extensive cratering, including the prominent Newton Crater, this upland area is found within the Phaethontis and Memnonia quadrangles. An intriguing feature is a former low area that likely contained a lake, which later drained through Ma'adim Vallis. The region's name draws from the Sirens of mythology, capturing the connection between Mars' landscape and stories of the past.",
+"coordinates": {
+"latitude": 40.0,
+"longitude": 150.0
+},
+"coordinatesForShow": {
+"latitude": "40.0°S",
+"longitude": "150.0°E"
+},
+"photos": []
+},
+
+{
+"id": 27,
+"type": "Highland",
+"name": "Tempe Terra",
+"location": "Northern hemisphere of Mars",
+"details": "Tempe Terra, situated in Mars' northern hemisphere, is a heavily cratered highland region notable for its distinctive features. Positioned at the northeastern edge of the Tharsis volcanic province, it showcases significant crustal fracturing, deformation, and various volcanic structures. Named after the Vale of Tempe, a picturesque valley celebrated by ancient Greeks, Tempe Terra is a vast region extending from about 30° to 54°N and from 265° to 310°E, covering approximately 2.1 million km2. This highland area is bordered by Chryse and Acidalia Planitiae to the east, low-lying plains to the north, and the extensive Kasei Valles outflow channel system to the south.",
+"coordinates": {
+"latitude": 40.0,
+"longitude": 71.0
+},
+"coordinatesForShow": {
+"latitude": "40.0°N",
+"longitude": "71.0°E"
+},
+"photos": []
+},
+
+{
+"id": 28,
+"type": "Highland",
+"name": "Tyrrhena Terra",
+"location": "Southern hemisphere of Mars, centered at 14.8°S 90°E",
+"details": "Tyrrhena Terra, situated south of the Martian equator and northeast of the Hellas basin, covers an expanse of 2300 km at its widest point. This region, located in the Mare Tyrrhenum quadrangle, is characterized by heavily cratered highlands and rugged terrain, representing the typical southern Martian terrae. Notably, Tyrrhena Terra features the ancient Tyrrhena Patera volcano and significant formations like Herschel crater, Licus Vallis, and Ausonia Montes. The landscape also exhibits channels and dunes, as captured in images.",
+"coordinates": {
+"latitude": 15.0,
+"longitude": 270.0
+},
+"coordinatesForShow": {
+"latitude": "15.0°S",
+"longitude": "270.0°E"
+},
+"photos": []
+},
+
+{
+"id": 29,
+"type": "Region",
+"name": "Xanthe Terra",
+"location": "Just north of the Martian equator",
+"details": "Xanthe Terra, positioned near Mars' equator, spans an area of approximately 1867.65 km in diameter. The region's name, meaning 'golden-yellow land,' is fitting for its distinctive landscape. Found within the Lunae Palus, Coprates, Margaritifer Sinus, and Oxia Palus quadrangles, Xanthe Terra hosts notable features like Ravi Vallis, Aromatum Chaos, and various craters. Imaged by Mars Express, Mars Global Surveyor, and Mars Reconnaissance Orbiter, this area unveils ancient river valleys and deltas with thin layers, suggesting past precipitation on early Mars.",
+
+"coordinates": {
+"latitude": 3.0,
+"longitude": 48.0
+},
+"coordinatesForShow": {
+"latitude": "3.0°N",
+"longitude": "48.0°E"
+},
+"photos": []
+}
 ]

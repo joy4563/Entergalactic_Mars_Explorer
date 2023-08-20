@@ -22,7 +22,7 @@ scene.add(cube);
 
 canvas.init(document);
 
-const sphere = new MySphere(2, 320, 160,"./again_mars.jpg");
+const sphere = new MySphere(2, 320, 160, "./again_mars.jpg");
 scene.add(sphere.sphere);
 camera.position.z = 5;
 
@@ -96,7 +96,7 @@ function showInfo(point) {
         infoDiv.style.top = "10px";
         infoDiv.style.display = "flex";
         // infoDiv.style.alignItems = "center";
-       // infoDiv.style.justifyContent = "space-between";
+        // infoDiv.style.justifyContent = "space-between";
         infoDiv.style.left = "10px";
         infoDiv.style.color = "white";
         infoDiv.style.fontSize = "18px";
@@ -173,7 +173,7 @@ function showInfo(point) {
                 </div>
                 <div class=" border border-white p-[10px] rounded-[25px] m-4 h-[200px] text-center px-[70px]  py-[20px]">
                 
-                <img src=${point.total.photos[0].photo} alt="Alt Img" style="width:170px; height:140px" >
+                
                
                 </div>
                
@@ -193,9 +193,8 @@ function showInfo(point) {
     document.querySelectorAll("input[type=checkbox]").forEach((checkbox) => {
         checkbox.addEventListener("change", () => {
             if (checkbox.checked) {
-                document.getElementById("new").innerHTML += `<p> ${
-                    messages[checkbox.value]
-                }</p>`;
+                document.getElementById("new").innerHTML += `<p> ${messages[checkbox.value]
+                    }</p>`;
             } else {
                 const text = document.getElementById("new").innerHTML;
                 const value = messages[checkbox.value];
