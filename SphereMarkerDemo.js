@@ -22,7 +22,7 @@ scene.add(cube);
 
 canvas.init(document);
 
-const sphere = new MySphere(2, 320, 160,"./low.jpg");
+const sphere = new MySphere(2, 320, 160,"./again_mars.jpg");
 scene.add(sphere.sphere);
 camera.position.z = 5;
 
@@ -37,8 +37,8 @@ sphere.addMarker("LAT_LONG", 30, -90, (object) => {
 // markerPointDemo();
 apiDataDemo();
 canvas.gameLoop(() => {
-    sphere.sphere.rotation.x += 0.0;
-    sphere.sphere.rotation.y += 0.0002;
+    // sphere.sphere.rotation.x += 0.0;
+    // sphere.sphere.rotation.y += 0.0002;
 });
 
 // function markerPointDemo() {
@@ -164,8 +164,8 @@ function showInfo(point) {
                 <div class="border border-white p-[10px] rounded-[25px] mt-4">
                 <p> Type: ${point.total.type}</p>
                 <p> Location: ${point.total.location}</p>
-                <p> Lat: ${point.total.coordinates.latitude}</p>
-                <p> Lon: ${point.total.coordinates.longitude}</p>
+                <p> Latitude: ${point.total.coordinatesForShow.latitude}</p>
+                <p> Longitude: ${point.total.coordinatesForShow.longitude}</p>
                 <div class=" border border-white p-[10px] rounded-[25px] m-4 h-[140px] overflow-y-scroll">
                 <p> Details: ${point.total.details}</p>
                 </div>
@@ -174,6 +174,7 @@ function showInfo(point) {
                 <div class=" border border-white p-[10px] rounded-[25px] m-4 h-[200px] text-center px-[70px]  py-[20px]">
                 
                 <img src=${point.total.photos[0].photo} alt="Alt Img" style="width:170px; height:140px" >
+               
                 </div>
                
                 
