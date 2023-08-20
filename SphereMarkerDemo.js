@@ -105,7 +105,7 @@ function showInfo(point) {
     }
     // infoDiv.innerHTML = `IDdf: ${point.id}<br>Name: ${point.name}<br>Details: ${point.details}`;
 
-    infoDiv.innerHTML = `    <div class="grid grid-cols-12 gap-6  mt-10 ml-10 mr-10 text-xs">
+    infoDiv.innerHTML = `    <div class="grid grid-cols-12 gap-6  mt-4 ml-4 mr-10 text-xs">
             <div class="col-start-1 col-end-4">
               
                     <!-- Dropdown content -->
@@ -156,7 +156,7 @@ function showInfo(point) {
     
             </div>
         </div>
-          <div class="col-start-8 col-end-12 max-w-[400px] mt-10 pr-10">
+          <div class="col-start-8 col-end-12 max-w-[400px] mt-4 pr-10">
 
 
             <div id="new" class="text-sm">
@@ -166,14 +166,14 @@ function showInfo(point) {
                 <p> Location: ${point.total.location}</p>
                 <p> Lat: ${point.total.coordinates.latitude}</p>
                 <p> Lon: ${point.total.coordinates.longitude}</p>
-                <div class=" border border-white p-[10px] rounded-[25px] m-4 h-[140px] overflow-y-scroll">
+                <div id="detail" class=" border border-white p-[10px] rounded-[25px] m-4 h-[140px] overflow-y-scroll">
                 <p> Details: ${point.total.details}</p>
                 </div>
              
                 </div>
                 <div class=" border border-white p-[10px] rounded-[25px] m-4 h-[200px] text-center px-[70px]  py-[20px]">
-                
-                <img src=${point.total.photos[0].photo} alt="jjoyyyyyyyy" style="width:170px; height:140px" >
+               
+                <img id="img" src=${point.total.photos[0].photo} alt="jjoyyyyyyyy" style="width:170px; height:140px" >
                 </div>
                
                 
@@ -195,6 +195,9 @@ function showInfo(point) {
                 document.getElementById("new").innerHTML += `<p> ${
                     messages[checkbox.value]
                 }</p>`;
+                document.getElementById("detail").style.display= 'none';
+                document.getElementById("img").style.width= "500px";
+                
             } else {
                 const text = document.getElementById("new").innerHTML;
                 const value = messages[checkbox.value];
