@@ -12,11 +12,73 @@
 </head>
 
 <body class="">
-  <script type="module" src="./js/handleClick.js"></script>
+  <!-- <script type="module" src="./js/handleClick.js"></script> -->
   <script type="module" src="SphereMarkerDemo.js"></script>
   <!-- <script type="module" src="test/main.js"></script> -->
   <!-- <script type="module" src="BackgroundDemo/SceneBackgroundDemo.js"></script> -->
 
+  <script>
+    function handleClickLocation() {
+        document.getElementById("onClickChangeContainer").innerHTML = `<ul id="onClickChangeContainer">
+                        <li
+                            class="px-4 py-2 hover:bg-blue-400 hover:text-white cursor-pointer border border-white mx-3 my-2">
+                            <input type="checkbox" name="checkbox" id="checkbox" value="option1">
+                            <label for="checkbox">Option 1</label>
+                        </li>
+                        <li
+                            class="px-4 py-2 hover:bg-blue-400 hover:text-white cursor-pointer border border-white mx-3 my-2">
+                            <input type="checkbox" name="checkbox" id="checkbox2" value="option2">
+                            <label for="checkbox2">Option 2</label>
+                        </li>
+                        <li
+                            class="px-4 py-2 hover:bg-blue-400 hover:text-white cursor-pointer border border-white mx-3 my-2">
+                            <input type="checkbox" name="checkbox" id="checkbox3" value="option3">
+                            <label for="checkbox3">Option 3</label>
+                        </li>
+                        <li
+                            class="px-4 py-2 hover:bg-blue-400 hover:text-white cursor-pointer border border-white mx-3 my-2">
+                            Temp Map</li>
+                        <li
+                            class="px-4 py-2 hover:bg-blue-400 hover:text-white cursor-pointer border border-white mx-3 my-2">
+                            Weather Forecast</li>
+                        <li
+                            class="px-4 py-2 hover:bg-blue-400 hover:text-white cursor-pointer border border-white mx-3 my-2">
+                            Rover</li>
+                        <li
+                            class="px-4 py-2 hover:bg-blue-400 hover:text-white cursor-pointer border border-white mx-3 my-2">
+                            Orbiter</li>
+                        </ul>`;
+
+      }
+
+    function handleClickTourisom() {
+        document.getElementById("onClickChangeContainer").innerHTML = `   <div>
+    <ul >
+        <li class="px-4 py-2 hover:bg-blue-400 hover:text-white cursor-pointer border border-white mx-3 my-2 ">Top 10 Place to visit</li>
+        <li class="px-4 py-2 hover:bg-blue-400 hover:text-white cursor-pointer border border-white mx-3 my-2 ">Biggest Storms</li>
+        <li class="px-4 py-2 hover:bg-blue-400 hover:text-white cursor-pointer border border-white mx-3 my-2 ">Day Conversion</li>
+        <li class="px-4 py-2 hover:bg-blue-400 hover:text-white cursor-pointer border border-white mx-3 my-2 ">Mars Today</li>
+        <li class="px-4 py-2 hover:bg-blue-400 hover:text-white cursor-pointer border border-white mx-3 my-2 ">Curious Facts</li>
+        <li class="px-4 py-2 hover:bg-blue-400 hover:text-white cursor-pointer border border-white mx-3 my-2 ">Picture Of the Day</li>
+    </ul>
+   </div>`;
+
+      }
+
+    function handleClickMaps() {
+        document.getElementById("onClickChangeContainer").innerHTML = `   <div>
+    <ul >
+        <li class="px-4 py-2 hover:bg-blue-400 hover:text-white cursor-pointer border border-white mx-3 my-2 ">Terrain</li>
+        <li class="px-4 py-2 hover:bg-blue-400 hover:text-white cursor-pointer border border-white mx-3 my-2 ">Mountains</li>
+        <li class="px-4 py-2 hover:bg-blue-400 hover:text-white cursor-pointer border border-white mx-3 my-2 ">Ridge/Slops</li>
+        <li class="px-4 py-2 hover:bg-blue-400 hover:text-white cursor-pointer border border-white mx-3 my-2 ">Minerals</li>
+        
+    </ul>
+   </div>`;
+
+      }
+
+  </script>
 </body>
 
 </html>
