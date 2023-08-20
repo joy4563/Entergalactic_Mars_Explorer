@@ -1,10 +1,10 @@
 import * as THREE from "three";
 
-import { MarkedPoints, Point } from "./data/LocalData";
-import { DataFetcher } from "./data/APIDataFetcher.js";
-import { MySphere } from "./SphereMarker.js";
-import { MyCanvas } from "./MyCanvas";
-import { Colors } from "/Color";
+import { MarkedPoints, Point } from "../../data/LocalData.js";
+import { DataFetcher } from "../../data/APIDataFetcher.js";
+import { MySphere } from "../../SphereMarker.js";
+import { MyCanvas } from "../../MyCanvas.js";
+import { Colors } from "../../Color.js";
 
 let scene, camera, renderer;
 const canvas = new MyCanvas(window);
@@ -22,7 +22,7 @@ scene.add(cube);
 
 canvas.init(document);
 
-const sphere = new MySphere(2, 320, 160,"./low.jpg");
+const sphere = new MySphere(2, 320, 160,"../../mars_1k_color.jpg");
 scene.add(sphere.sphere);
 camera.position.z = 5;
 
@@ -41,50 +41,6 @@ canvas.gameLoop(() => {
     sphere.sphere.rotation.y += 0.0002;
 });
 
-// function markerPointDemo() {
-//     let markedPoints = new MarkedPoints();
-//     fetch("./data/most_intersting_place.json")
-//         .then((res) => res.json())
-//         .then((details) => {
-//             details.map(
-//                 (detail) =>
-//                     markedPoints.add`(${detail.id},${detail.name},${detail.description})`
-//             );
-//         });
-
-//     // markedPoints.add(1, "joyyyyyy", "This is point A");
-//     // markedPoints.add(2, "190145", "This is point B");
-//     // markedPoints.add(3, "180918", "This is point C");
-//     // markedPoints.add(4, "170101", "This is point D");
-//     // markedPoints.add(5, "200145", "This is point E");
-//     // markedPoints.add(6, "120918", "This is point F");
-//     //lol
-//     for (let point of markedPoints.points) {
-//         sphere.addMarker(point.name, null, null, (matrix) => {
-//             var geometry = new THREE.BoxGeometry(0.05, 0.05, 0.05);
-//             var material = new THREE.MeshBasicMaterial({
-//                 color: Colors.ORANGE,
-//             });
-//             var box = new THREE.Mesh(geometry, material);
-//             box.applyMatrix4(matrix);
-//             return box;
-//         });
-//     }
-
-//     sphere.onMarkerClick(camera, (text) => {
-//         const point = markedPoints.find(text);
-//         if (point != null) {
-//             showInfo(point);
-//         }
-//     });
-// }
-
-// function clickLocation() {
-//     // document.getElementById("locationBtn").style.color = "red";
-
-//     console.log("Click on location");
-// }
-
 function showInfo(point) {
     // console.log(point);
     // console.log(point.total);
@@ -96,7 +52,7 @@ function showInfo(point) {
         infoDiv.style.top = "10px";
         infoDiv.style.display = "flex";
         // infoDiv.style.alignItems = "center";
-       // infoDiv.style.justifyContent = "space-between";
+        // infoDiv.style.justifyContent = "space-between";
         infoDiv.style.left = "10px";
         infoDiv.style.color = "white";
         infoDiv.style.fontSize = "18px";
@@ -173,7 +129,7 @@ function showInfo(point) {
                 </div>
                 <div class=" border border-white p-[10px] rounded-[25px] m-4 h-[200px] text-center px-[70px]  py-[20px]">
                 
-                <img src=${point.total.photos[0].photo} alt="Alt Img" style="width:170px; height:140px" >
+                <img src=${point.total.photos[0].photo} alt="jjoyyyyyyyy" style="width:170px; height:140px" >
                 </div>
                
                 
@@ -240,5 +196,5 @@ function apiDataDemo() {
         });
     });
 
-    dataFetcher.fetchData("./data/most_interesting_places.json");
+    dataFetcher.fetchData("../../data/most_interesting_places.json");
 }
