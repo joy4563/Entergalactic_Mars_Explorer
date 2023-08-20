@@ -96,33 +96,29 @@ function showInfo(point) {
         infoDiv.style.top = "10px";
         infoDiv.style.display = "flex";
         // infoDiv.style.alignItems = "center";
-        infoDiv.style.justifyContent = "space-between";
+       // infoDiv.style.justifyContent = "space-between";
         infoDiv.style.left = "10px";
         infoDiv.style.color = "white";
-        infoDiv.style.fontSize = "20px";
+        infoDiv.style.fontSize = "18px";
         infoDiv.innerHTML = "Click on a marker to see the details";
         document.body.appendChild(infoDiv);
     }
     // infoDiv.innerHTML = `IDdf: ${point.id}<br>Name: ${point.name}<br>Details: ${point.details}`;
 
-    infoDiv.innerHTML = `    <div class="flex justify-between">
-
-         <div>
-            
-            <div class="container mx-auto p-4">
+    infoDiv.innerHTML = `    <div class="grid grid-cols-12 gap-6  mt-10 ml-10 mr-10 text-xs">
+            <div class="col-start-1 col-end-4">
               
                     <!-- Dropdown content -->
-                    <ul
-                        class="absolute mt-2   rounded-lg shadow-md">
+                    <ul class="rounded-full shadow-md text-sm">
                         <li class="px-3 py-2   ">
                             <div class="flex">
-                               <div class="border-2 py-2 px-4 border-gray-300 hover:bg-blue-400 hover:text-white cursor-pointer rounded-lg text-2xl font-bold" onclick="handleClickLocation()" id="locationBtn">Location</div>
+                               <div class="border-2 py-2 px-4 border-gray-300 hover:bg-blue-400 hover:text-white cursor-pointer rounded-lg text-xl font-semibold" onclick="handleClickLocation()" id="locationBtn">Location</div>
 
                                 <div
-                                    class=" border-2 py-2 px-4 border-gray-300 hover:bg-blue-400 hover:text-white cursor-pointer mx-3 rounded-lg text-2xl font-bold " onclick="handleClickTourisom()">
+                                    class=" border-2 py-2 px-4 border-gray-300 hover:bg-blue-400 hover:text-white cursor-pointer mx-3 rounded-lg text-xl font-semibold" onclick="handleClickTourisom()">
                                     Tourisom</div>
                                 <div
-                                    class=" border-2 py-2 px-4 border-gray-300 hover:bg-blue-400 hover:text-white cursor-pointer rounded-lg text-2xl font-bold" onclick="handleClickMaps()">
+                                    class=" border-2 py-2 px-4 border-gray-300 hover:bg-blue-400 hover:text-white cursor-pointer rounded-lg text-xl font-semibold" onclick="handleClickMaps()">
                                     Maps</div>
                             </div>
                         </li>
@@ -160,18 +156,26 @@ function showInfo(point) {
     
             </div>
         </div>
+          <div class="col-start-8 col-end-12 max-w-[400px] mt-10 pr-10">
 
-        <div class=" ml-[1300px]">
 
-
-            <div class="border border-white rounded-2xl p-4" id="new">
-                <p class="border border-white p-2 rounded-sm">Name: ${point.name}</p>
+            <div id="new" class="text-sm">
+                <p class="border border-white p-2 rounded-full">Name: ${point.name}</p>
+                <div class="border border-white p-[10px] rounded-[25px] mt-4">
                 <p> Type: ${point.total.type}</p>
                 <p> Location: ${point.total.location}</p>
                 <p> Lat: ${point.total.coordinates.latitude}</p>
                 <p> Lon: ${point.total.coordinates.longitude}</p>
+                <div class=" border border-white p-[10px] rounded-[25px] m-4 h-[140px] overflow-y-scroll">
                 <p> Details: ${point.total.details}</p>
-                <img src=${point.total.photos[0].photo} alt="jjoyyyyyyyy">
+                </div>
+             
+                </div>
+                <div class=" border border-white p-[10px] rounded-[25px] m-4 h-[200px] text-center px-[70px]  py-[20px]">
+                <img src=${point.total.photos[0].photo} alt="jjoyyyyyyyy" style="width:170px; height:140px" >
+                </div>
+               
+                
                 
                 
                 <br>
