@@ -100,7 +100,7 @@ def rover(starting_number, max_iterations, size_threshold, num_pictures):
     save_directory = "/home/druglord/Documents/Important/Marss/three_js/Experimental/API/CuriosityPictures/pictures"
     fetch_directory = "/home/druglord/Documents/Important/Marss/three_js/Experimental/API/CuriosityPictures/pictures/fetch"
     
-    params = {"earth_date": "2016-10-17", "api_key": "DEMO_KEY"}
+    params = {"earth_date": "2016-10-17", "api_key": "7QVxWTvL4YZkPFPAgWQGydwacGjiVFoCN8UdnOcU"}
     url = "https://api.nasa.gov/mars-photos/api/v1/rovers/curiosity/photos"
     response = requests.get(url, params=params)
     data = response.json()
