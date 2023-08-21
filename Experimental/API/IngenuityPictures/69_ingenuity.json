@@ -1,0 +1,2622 @@
+{
+    "sol": 69,
+    "images": [
+        {
+            "extended": {
+                "mastAz": "UNK",
+                "mastEl": "UNK",
+                "sclk": "673066103.5995269",
+                "scaleFactor": "1",
+                "xyz": "UNK",
+                "subframeRect": "UNK",
+                "dimension": "(640,480)"
+            },
+            "sol": 69,
+            "attitude": "UNK",
+            "image_files": {
+                "medium": "https://mars.nasa.gov/mars2020-raw-images/pub/ods/surface/sol/00069/ids/edr/browse/heli/HNM_0069_0673066095_599ECM_N0040001HELI01922_0000LUJ02_800.jpg",
+                "small": "https://mars.nasa.gov/mars2020-raw-images/pub/ods/surface/sol/00069/ids/edr/browse/heli/HNM_0069_0673066095_599ECM_N0040001HELI01922_0000LUJ02_320.jpg",
+                "full_res": "https://mars.nasa.gov/mars2020-raw-images/pub/ods/surface/sol/00069/ids/edr/browse/heli/HNM_0069_0673066095_599ECM_N0040001HELI01922_0000LUJ02.png",
+                "large": "https://mars.nasa.gov/mars2020-raw-images/pub/ods/surface/sol/00069/ids/edr/browse/heli/HNM_0069_0673066095_599ECM_N0040001HELI01922_0000LUJ02_1200.jpg"
+            },
+            "imageid": "HNM_0069_0673066095_599ECM_N0040001HELI01922_0000LUJ",
+            "camera": {
+                "filter_name": "UNK",
+                "camera_vector": "UNK",
+                "camera_model_component_list": "(0.0,0.0619,0.1374);(0.00256683,-0.0580188,0.998312);(-0.0176873,-293.879,310.679);(276.142,-15.3003,248.479);(0.00583129,-0.0520831,0.998626);(0.0,0.001066,-0.000398);(0.0,0.0,0.0);3.0;0.0",
+                "camera_position": "(0.0,0.0619,0.1374)",
+                "instrument": "HELI_NAV",
+                "camera_model_type": "CAHVORE"
+            },
+            "caption": "NASA's Ingenuity Mars Helicopter acquired this image using its navigation camera. This camera is mounted in the helicopter's fuselage and pointed directly downward to track the ground during flight. \n\nThis image was acquired on Apr. 30, 2021 (Sol 69 of the Perseverance rover mission) at the local mean solar time of 12:34:08.",
+            "sample_type": "Full",
+            "date_taken_mars": "Sol-00069M12:34:08.23618",
+            "credit": "NASA/JPL-Caltech",
+            "date_taken_utc": "2021-04-30T14:50:47.808338",
+            "json_link": "https://mars.nasa.gov/rss/api/?feed=raw_images&category=ingenuity&feedtype=json&id=HNM_0069_0673066095_599ECM_N0040001HELI01922_0000LUJ",
+            "link": "https://mars.nasa.gov/mars2020/multimedia/raw-images/HNM_0069_0673066095_599ECM_N0040001HELI01922_0000LUJ",
+            "drive": "1",
+            "title": "Mars Helicopter Sol 69: Navigation Camera",
+            "site": 4,
+            "date_received": "2021-05-28T20:06:12Z"
+        },
+        {
+            "extended": {
+                "mastAz": "UNK",
+                "mastEl": "UNK",
+                "sclk": "673066111.555603",
+                "scaleFactor": "1",
+                "xyz": "UNK",
+                "subframeRect": "UNK",
+                "dimension": "(640,480)"
+            },
+            "sol": 69,
+            "attitude": "UNK",
+            "image_files": {
+                "medium": "https://mars.nasa.gov/mars2020-raw-images/pub/ods/surface/sol/00069/ids/edr/browse/heli/HNM_0069_0673066103_555ECM_N0040001HELI02162_0000LUJ02_800.jpg",
+                "small": "https://mars.nasa.gov/mars2020-raw-images/pub/ods/surface/sol/00069/ids/edr/browse/heli/HNM_0069_0673066103_555ECM_N0040001HELI02162_0000LUJ02_320.jpg",
+                "full_res": "https://mars.nasa.gov/mars2020-raw-images/pub/ods/surface/sol/00069/ids/edr/browse/heli/HNM_0069_0673066103_555ECM_N0040001HELI02162_0000LUJ02.png",
+                "large": "https://mars.nasa.gov/mars2020-raw-images/pub/ods/surface/sol/00069/ids/edr/browse/heli/HNM_0069_0673066103_555ECM_N0040001HELI02162_0000LUJ02_1200.jpg"
+            },
+            "imageid": "HNM_0069_0673066103_555ECM_N0040001HELI02162_0000LUJ",
+            "camera": {
+                "filter_name": "UNK",
+                "camera_vector": "UNK",
+                "camera_model_component_list": "(0.0,0.0619,0.1374);(0.00256683,-0.0580188,0.998312);(-0.0176873,-293.879,310.679);(276.142,-15.3003,248.479);(0.00583129,-0.0520831,0.998626);(0.0,0.001066,-0.000398);(0.0,0.0,0.0);3.0;0.0",
+                "camera_position": "(0.0,0.0619,0.1374)",
+                "instrument": "HELI_NAV",
+                "camera_model_type": "CAHVORE"
+            },
+            "caption": "NASA's Ingenuity Mars Helicopter acquired this image using its navigation camera. This camera is mounted in the helicopter's fuselage and pointed directly downward to track the ground during flight. \n\nThis image was acquired on Apr. 30, 2021 (Sol 69 of the Perseverance rover mission) at the local mean solar time of 12:34:15.",
+            "sample_type": "Full",
+            "date_taken_mars": "Sol-00069M12:34:15.97945",
+            "credit": "NASA/JPL-Caltech",
+            "date_taken_utc": "2021-04-30T14:50:55.764478",
+            "json_link": "https://mars.nasa.gov/rss/api/?feed=raw_images&category=ingenuity&feedtype=json&id=HNM_0069_0673066103_555ECM_N0040001HELI02162_0000LUJ",
+            "link": "https://mars.nasa.gov/mars2020/multimedia/raw-images/HNM_0069_0673066103_555ECM_N0040001HELI02162_0000LUJ",
+            "drive": "1",
+            "title": "Mars Helicopter Sol 69: Navigation Camera",
+            "site": 4,
+            "date_received": "2021-05-28T20:06:12Z"
+        },
+        {
+            "extended": {
+                "mastAz": "UNK",
+                "mastEl": "UNK",
+                "sclk": "673066114.209404",
+                "scaleFactor": "1",
+                "xyz": "UNK",
+                "subframeRect": "UNK",
+                "dimension": "(640,480)"
+            },
+            "sol": 69,
+            "attitude": "UNK",
+            "image_files": {
+                "medium": "https://mars.nasa.gov/mars2020-raw-images/pub/ods/surface/sol/00069/ids/edr/browse/heli/HNM_0069_0673066106_209ECM_N0040001HELI02242_0000LUJ02_800.jpg",
+                "small": "https://mars.nasa.gov/mars2020-raw-images/pub/ods/surface/sol/00069/ids/edr/browse/heli/HNM_0069_0673066106_209ECM_N0040001HELI02242_0000LUJ02_320.jpg",
+                "full_res": "https://mars.nasa.gov/mars2020-raw-images/pub/ods/surface/sol/00069/ids/edr/browse/heli/HNM_0069_0673066106_209ECM_N0040001HELI02242_0000LUJ02.png",
+                "large": "https://mars.nasa.gov/mars2020-raw-images/pub/ods/surface/sol/00069/ids/edr/browse/heli/HNM_0069_0673066106_209ECM_N0040001HELI02242_0000LUJ02_1200.jpg"
+            },
+            "imageid": "HNM_0069_0673066106_209ECM_N0040001HELI02242_0000LUJ",
+            "camera": {
+                "filter_name": "UNK",
+                "camera_vector": "UNK",
+                "camera_model_component_list": "(0.0,0.0619,0.1374);(0.00256683,-0.0580188,0.998312);(-0.0176873,-293.879,310.679);(276.142,-15.3003,248.479);(0.00583129,-0.0520831,0.998626);(0.0,0.001066,-0.000398);(0.0,0.0,0.0);3.0;0.0",
+                "camera_position": "(0.0,0.0619,0.1374)",
+                "instrument": "HELI_NAV",
+                "camera_model_type": "CAHVORE"
+            },
+            "caption": "NASA's Ingenuity Mars Helicopter acquired this image using its navigation camera. This camera is mounted in the helicopter's fuselage and pointed directly downward to track the ground during flight. \n\nThis image was acquired on Apr. 30, 2021 (Sol 69 of the Perseverance rover mission) at the local mean solar time of 12:34:18.",
+            "sample_type": "Full",
+            "date_taken_mars": "Sol-00069M12:34:18.56227",
+            "credit": "NASA/JPL-Caltech",
+            "date_taken_utc": "2021-04-30T14:50:58.418311",
+            "json_link": "https://mars.nasa.gov/rss/api/?feed=raw_images&category=ingenuity&feedtype=json&id=HNM_0069_0673066106_209ECM_N0040001HELI02242_0000LUJ",
+            "link": "https://mars.nasa.gov/mars2020/multimedia/raw-images/HNM_0069_0673066106_209ECM_N0040001HELI02242_0000LUJ",
+            "drive": "1",
+            "title": "Mars Helicopter Sol 69: Navigation Camera",
+            "site": 4,
+            "date_received": "2021-05-28T20:06:12Z"
+        },
+        {
+            "extended": {
+                "mastAz": "UNK",
+                "mastEl": "UNK",
+                "sclk": "UNK",
+                "scaleFactor": "1",
+                "xyz": "UNK",
+                "subframeRect": "UNK",
+                "dimension": "(4208,3120)"
+            },
+            "sol": 69,
+            "attitude": "UNK",
+            "image_files": {
+                "medium": "https://mars.nasa.gov/mars2020-raw-images/pub/ods/surface/sol/00069/ids/edr/browse/heli/HSF_0069_0673066072_683ECM_N0040001HELI00000_000085J01_800.jpg",
+                "small": "https://mars.nasa.gov/mars2020-raw-images/pub/ods/surface/sol/00069/ids/edr/browse/heli/HSF_0069_0673066072_683ECM_N0040001HELI00000_000085J01_320.jpg",
+                "full_res": "https://mars.nasa.gov/mars2020-raw-images/pub/ods/surface/sol/00069/ids/edr/browse/heli/HSF_0069_0673066072_683ECM_N0040001HELI00000_000085J01.png",
+                "large": "https://mars.nasa.gov/mars2020-raw-images/pub/ods/surface/sol/00069/ids/edr/browse/heli/HSF_0069_0673066072_683ECM_N0040001HELI00000_000085J01_1200.jpg"
+            },
+            "imageid": "HSF_0069_0673066072_683ECM_N0040001HELI00000_000085J",
+            "camera": {
+                "filter_name": "UNK",
+                "camera_vector": "UNK",
+                "camera_model_component_list": "(-0.000385336,0.0896009,0.117889);(0.0119194,0.72545,0.688172);(-1755.77,1629.89,1400.25);(-87.3827,-116.053,2334.34);(-0.000662614,0.723521,0.690302);(0.000144295,0.468504,-0.0528464);(-0.00068363,-0.00098111,-0.00156945);2.0;0.0",
+                "camera_position": "(-0.000385336,0.0896009,0.117889)",
+                "instrument": "HELI_RTE",
+                "camera_model_type": "CAHVORE"
+            },
+            "caption": "NASA's Ingenuity Mars Helicopter acquired this image using its high-resolution color camera. This camera is mounted in the helicopter\u2019s fuselage and pointed approximately 22 degree below the horizon. \n\nThis image was acquired on Apr. 30, 2021 (Sol 69 of the Perseverance rover mission) at the local mean solar time of 12:33:45.",
+            "sample_type": "Full",
+            "date_taken_mars": "Sol-00069M12:33:45.93343",
+            "credit": "NASA/JPL-Caltech",
+            "date_taken_utc": "2021-04-30T14:50:16.892384",
+            "json_link": "https://mars.nasa.gov/rss/api/?feed=raw_images&category=ingenuity&feedtype=json&id=HSF_0069_0673066072_683ECM_N0040001HELI00000_000085J",
+            "link": "https://mars.nasa.gov/mars2020/multimedia/raw-images/HSF_0069_0673066072_683ECM_N0040001HELI00000_000085J",
+            "drive": "1",
+            "title": "Mars Helicopter Sol 69: Color Camera",
+            "site": 4,
+            "date_received": "2021-05-28T20:06:12Z"
+        },
+        {
+            "extended": {
+                "mastAz": "UNK",
+                "mastEl": "UNK",
+                "sclk": "673066096.962024",
+                "scaleFactor": "1",
+                "xyz": "UNK",
+                "subframeRect": "UNK",
+                "dimension": "(640,480)"
+            },
+            "sol": 69,
+            "attitude": "UNK",
+            "image_files": {
+                "medium": "https://mars.nasa.gov/mars2020-raw-images/pub/ods/surface/sol/00069/ids/edr/browse/heli/HNM_0069_0673066088_962ECM_N0040001HELI01722_0000LUJ03_800.jpg",
+                "small": "https://mars.nasa.gov/mars2020-raw-images/pub/ods/surface/sol/00069/ids/edr/browse/heli/HNM_0069_0673066088_962ECM_N0040001HELI01722_0000LUJ03_320.jpg",
+                "full_res": "https://mars.nasa.gov/mars2020-raw-images/pub/ods/surface/sol/00069/ids/edr/browse/heli/HNM_0069_0673066088_962ECM_N0040001HELI01722_0000LUJ03.png",
+                "large": "https://mars.nasa.gov/mars2020-raw-images/pub/ods/surface/sol/00069/ids/edr/browse/heli/HNM_0069_0673066088_962ECM_N0040001HELI01722_0000LUJ03_1200.jpg"
+            },
+            "imageid": "HNM_0069_0673066088_962ECM_N0040001HELI01722_0000LUJ",
+            "camera": {
+                "filter_name": "UNK",
+                "camera_vector": "UNK",
+                "camera_model_component_list": "(0.0,0.0619,0.1374);(0.00256683,-0.0580188,0.998312);(-0.0176873,-293.879,310.679);(276.142,-15.3003,248.479);(0.00583129,-0.0520831,0.998626);(0.0,0.001066,-0.000398);(0.0,0.0,0.0);3.0;0.0",
+                "camera_position": "(0.0,0.0619,0.1374)",
+                "instrument": "HELI_NAV",
+                "camera_model_type": "CAHVORE"
+            },
+            "caption": "NASA's Ingenuity Mars Helicopter acquired this image using its navigation camera. This camera is mounted in the helicopter's fuselage and pointed directly downward to track the ground during flight. \n\nThis image was acquired on Apr. 30, 2021 (Sol 69 of the Perseverance rover mission) at the local mean solar time of 12:34:01.",
+            "sample_type": "Full",
+            "date_taken_mars": "Sol-00069M12:34:01.77620",
+            "credit": "NASA/JPL-Caltech",
+            "date_taken_utc": "2021-04-30T14:50:41.170767",
+            "json_link": "https://mars.nasa.gov/rss/api/?feed=raw_images&category=ingenuity&feedtype=json&id=HNM_0069_0673066088_962ECM_N0040001HELI01722_0000LUJ",
+            "link": "https://mars.nasa.gov/mars2020/multimedia/raw-images/HNM_0069_0673066088_962ECM_N0040001HELI01722_0000LUJ",
+            "drive": "1",
+            "title": "Mars Helicopter Sol 69: Navigation Camera",
+            "site": 4,
+            "date_received": "2021-05-28T19:54:57Z"
+        },
+        {
+            "extended": {
+                "mastAz": "UNK",
+                "mastEl": "UNK",
+                "sclk": "673066097.2943909",
+                "scaleFactor": "1",
+                "xyz": "UNK",
+                "subframeRect": "UNK",
+                "dimension": "(640,480)"
+            },
+            "sol": 69,
+            "attitude": "UNK",
+            "image_files": {
+                "medium": "https://mars.nasa.gov/mars2020-raw-images/pub/ods/surface/sol/00069/ids/edr/browse/heli/HNM_0069_0673066089_294ECM_N0040001HELI01732_0000LUJ03_800.jpg",
+                "small": "https://mars.nasa.gov/mars2020-raw-images/pub/ods/surface/sol/00069/ids/edr/browse/heli/HNM_0069_0673066089_294ECM_N0040001HELI01732_0000LUJ03_320.jpg",
+                "full_res": "https://mars.nasa.gov/mars2020-raw-images/pub/ods/surface/sol/00069/ids/edr/browse/heli/HNM_0069_0673066089_294ECM_N0040001HELI01732_0000LUJ03.png",
+                "large": "https://mars.nasa.gov/mars2020-raw-images/pub/ods/surface/sol/00069/ids/edr/browse/heli/HNM_0069_0673066089_294ECM_N0040001HELI01732_0000LUJ03_1200.jpg"
+            },
+            "imageid": "HNM_0069_0673066089_294ECM_N0040001HELI01732_0000LUJ",
+            "camera": {
+                "filter_name": "UNK",
+                "camera_vector": "UNK",
+                "camera_model_component_list": "(0.0,0.0619,0.1374);(0.00256683,-0.0580188,0.998312);(-0.0176873,-293.879,310.679);(276.142,-15.3003,248.479);(0.00583129,-0.0520831,0.998626);(0.0,0.001066,-0.000398);(0.0,0.0,0.0);3.0;0.0",
+                "camera_position": "(0.0,0.0619,0.1374)",
+                "instrument": "HELI_NAV",
+                "camera_model_type": "CAHVORE"
+            },
+            "caption": "NASA's Ingenuity Mars Helicopter acquired this image using its navigation camera. This camera is mounted in the helicopter's fuselage and pointed directly downward to track the ground during flight. \n\nThis image was acquired on Apr. 30, 2021 (Sol 69 of the Perseverance rover mission) at the local mean solar time of 12:34:02.",
+            "sample_type": "Full",
+            "date_taken_mars": "Sol-00069M12:34:02.09968",
+            "credit": "NASA/JPL-Caltech",
+            "date_taken_utc": "2021-04-30T14:50:41.503137",
+            "json_link": "https://mars.nasa.gov/rss/api/?feed=raw_images&category=ingenuity&feedtype=json&id=HNM_0069_0673066089_294ECM_N0040001HELI01732_0000LUJ",
+            "link": "https://mars.nasa.gov/mars2020/multimedia/raw-images/HNM_0069_0673066089_294ECM_N0040001HELI01732_0000LUJ",
+            "drive": "1",
+            "title": "Mars Helicopter Sol 69: Navigation Camera",
+            "site": 4,
+            "date_received": "2021-05-28T19:54:57Z"
+        },
+        {
+            "extended": {
+                "mastAz": "UNK",
+                "mastEl": "UNK",
+                "sclk": "673066097.622906",
+                "scaleFactor": "1",
+                "xyz": "UNK",
+                "subframeRect": "UNK",
+                "dimension": "(640,480)"
+            },
+            "sol": 69,
+            "attitude": "UNK",
+            "image_files": {
+                "medium": "https://mars.nasa.gov/mars2020-raw-images/pub/ods/surface/sol/00069/ids/edr/browse/heli/HNM_0069_0673066089_622ECM_N0040001HELI01742_0000LUJ03_800.jpg",
+                "small": "https://mars.nasa.gov/mars2020-raw-images/pub/ods/surface/sol/00069/ids/edr/browse/heli/HNM_0069_0673066089_622ECM_N0040001HELI01742_0000LUJ03_320.jpg",
+                "full_res": "https://mars.nasa.gov/mars2020-raw-images/pub/ods/surface/sol/00069/ids/edr/browse/heli/HNM_0069_0673066089_622ECM_N0040001HELI01742_0000LUJ03.png",
+                "large": "https://mars.nasa.gov/mars2020-raw-images/pub/ods/surface/sol/00069/ids/edr/browse/heli/HNM_0069_0673066089_622ECM_N0040001HELI01742_0000LUJ03_1200.jpg"
+            },
+            "imageid": "HNM_0069_0673066089_622ECM_N0040001HELI01742_0000LUJ",
+            "camera": {
+                "filter_name": "UNK",
+                "camera_vector": "UNK",
+                "camera_model_component_list": "(0.0,0.0619,0.1374);(0.00256683,-0.0580188,0.998312);(-0.0176873,-293.879,310.679);(276.142,-15.3003,248.479);(0.00583129,-0.0520831,0.998626);(0.0,0.001066,-0.000398);(0.0,0.0,0.0);3.0;0.0",
+                "camera_position": "(0.0,0.0619,0.1374)",
+                "instrument": "HELI_NAV",
+                "camera_model_type": "CAHVORE"
+            },
+            "caption": "NASA's Ingenuity Mars Helicopter acquired this image using its navigation camera. This camera is mounted in the helicopter's fuselage and pointed directly downward to track the ground during flight. \n\nThis image was acquired on Apr. 30, 2021 (Sol 69 of the Perseverance rover mission) at the local mean solar time of 12:34:02.",
+            "sample_type": "Full",
+            "date_taken_mars": "Sol-00069M12:34:02.41942",
+            "credit": "NASA/JPL-Caltech",
+            "date_taken_utc": "2021-04-30T14:50:41.831661",
+            "json_link": "https://mars.nasa.gov/rss/api/?feed=raw_images&category=ingenuity&feedtype=json&id=HNM_0069_0673066089_622ECM_N0040001HELI01742_0000LUJ",
+            "link": "https://mars.nasa.gov/mars2020/multimedia/raw-images/HNM_0069_0673066089_622ECM_N0040001HELI01742_0000LUJ",
+            "drive": "1",
+            "title": "Mars Helicopter Sol 69: Navigation Camera",
+            "site": 4,
+            "date_received": "2021-05-28T19:54:57Z"
+        },
+        {
+            "extended": {
+                "mastAz": "UNK",
+                "mastEl": "UNK",
+                "sclk": "673066097.9546981",
+                "scaleFactor": "1",
+                "xyz": "UNK",
+                "subframeRect": "UNK",
+                "dimension": "(640,480)"
+            },
+            "sol": 69,
+            "attitude": "UNK",
+            "image_files": {
+                "medium": "https://mars.nasa.gov/mars2020-raw-images/pub/ods/surface/sol/00069/ids/edr/browse/heli/HNM_0069_0673066089_954ECM_N0040001HELI01752_0000LUJ03_800.jpg",
+                "small": "https://mars.nasa.gov/mars2020-raw-images/pub/ods/surface/sol/00069/ids/edr/browse/heli/HNM_0069_0673066089_954ECM_N0040001HELI01752_0000LUJ03_320.jpg",
+                "full_res": "https://mars.nasa.gov/mars2020-raw-images/pub/ods/surface/sol/00069/ids/edr/browse/heli/HNM_0069_0673066089_954ECM_N0040001HELI01752_0000LUJ03.png",
+                "large": "https://mars.nasa.gov/mars2020-raw-images/pub/ods/surface/sol/00069/ids/edr/browse/heli/HNM_0069_0673066089_954ECM_N0040001HELI01752_0000LUJ03_1200.jpg"
+            },
+            "imageid": "HNM_0069_0673066089_954ECM_N0040001HELI01752_0000LUJ",
+            "camera": {
+                "filter_name": "UNK",
+                "camera_vector": "UNK",
+                "camera_model_component_list": "(0.0,0.0619,0.1374);(0.00256683,-0.0580188,0.998312);(-0.0176873,-293.879,310.679);(276.142,-15.3003,248.479);(0.00583129,-0.0520831,0.998626);(0.0,0.001066,-0.000398);(0.0,0.0,0.0);3.0;0.0",
+                "camera_position": "(0.0,0.0619,0.1374)",
+                "instrument": "HELI_NAV",
+                "camera_model_type": "CAHVORE"
+            },
+            "caption": "NASA's Ingenuity Mars Helicopter acquired this image using its navigation camera. This camera is mounted in the helicopter's fuselage and pointed directly downward to track the ground during flight. \n\nThis image was acquired on Apr. 30, 2021 (Sol 69 of the Perseverance rover mission) at the local mean solar time of 12:34:02.",
+            "sample_type": "Full",
+            "date_taken_mars": "Sol-00069M12:34:02.74233",
+            "credit": "NASA/JPL-Caltech",
+            "date_taken_utc": "2021-04-30T14:50:42.163451",
+            "json_link": "https://mars.nasa.gov/rss/api/?feed=raw_images&category=ingenuity&feedtype=json&id=HNM_0069_0673066089_954ECM_N0040001HELI01752_0000LUJ",
+            "link": "https://mars.nasa.gov/mars2020/multimedia/raw-images/HNM_0069_0673066089_954ECM_N0040001HELI01752_0000LUJ",
+            "drive": "1",
+            "title": "Mars Helicopter Sol 69: Navigation Camera",
+            "site": 4,
+            "date_received": "2021-05-28T19:54:57Z"
+        },
+        {
+            "extended": {
+                "mastAz": "UNK",
+                "mastEl": "UNK",
+                "sclk": "673066098.286365",
+                "scaleFactor": "1",
+                "xyz": "UNK",
+                "subframeRect": "UNK",
+                "dimension": "(640,480)"
+            },
+            "sol": 69,
+            "attitude": "UNK",
+            "image_files": {
+                "medium": "https://mars.nasa.gov/mars2020-raw-images/pub/ods/surface/sol/00069/ids/edr/browse/heli/HNM_0069_0673066090_286ECM_N0040001HELI01762_0000LUJ03_800.jpg",
+                "small": "https://mars.nasa.gov/mars2020-raw-images/pub/ods/surface/sol/00069/ids/edr/browse/heli/HNM_0069_0673066090_286ECM_N0040001HELI01762_0000LUJ03_320.jpg",
+                "full_res": "https://mars.nasa.gov/mars2020-raw-images/pub/ods/surface/sol/00069/ids/edr/browse/heli/HNM_0069_0673066090_286ECM_N0040001HELI01762_0000LUJ03.png",
+                "large": "https://mars.nasa.gov/mars2020-raw-images/pub/ods/surface/sol/00069/ids/edr/browse/heli/HNM_0069_0673066090_286ECM_N0040001HELI01762_0000LUJ03_1200.jpg"
+            },
+            "imageid": "HNM_0069_0673066090_286ECM_N0040001HELI01762_0000LUJ",
+            "camera": {
+                "filter_name": "UNK",
+                "camera_vector": "UNK",
+                "camera_model_component_list": "(0.0,0.0619,0.1374);(0.00256683,-0.0580188,0.998312);(-0.0176873,-293.879,310.679);(276.142,-15.3003,248.479);(0.00583129,-0.0520831,0.998626);(0.0,0.001066,-0.000398);(0.0,0.0,0.0);3.0;0.0",
+                "camera_position": "(0.0,0.0619,0.1374)",
+                "instrument": "HELI_NAV",
+                "camera_model_type": "CAHVORE"
+            },
+            "caption": "NASA's Ingenuity Mars Helicopter acquired this image using its navigation camera. This camera is mounted in the helicopter's fuselage and pointed directly downward to track the ground during flight. \n\nThis image was acquired on Apr. 30, 2021 (Sol 69 of the Perseverance rover mission) at the local mean solar time of 12:34:03.",
+            "sample_type": "Full",
+            "date_taken_mars": "Sol-00069M12:34:03.06512",
+            "credit": "NASA/JPL-Caltech",
+            "date_taken_utc": "2021-04-30T14:50:42.495119",
+            "json_link": "https://mars.nasa.gov/rss/api/?feed=raw_images&category=ingenuity&feedtype=json&id=HNM_0069_0673066090_286ECM_N0040001HELI01762_0000LUJ",
+            "link": "https://mars.nasa.gov/mars2020/multimedia/raw-images/HNM_0069_0673066090_286ECM_N0040001HELI01762_0000LUJ",
+            "drive": "1",
+            "title": "Mars Helicopter Sol 69: Navigation Camera",
+            "site": 4,
+            "date_received": "2021-05-28T19:54:57Z"
+        },
+        {
+            "extended": {
+                "mastAz": "UNK",
+                "mastEl": "UNK",
+                "sclk": "673066098.618114",
+                "scaleFactor": "1",
+                "xyz": "UNK",
+                "subframeRect": "UNK",
+                "dimension": "(640,480)"
+            },
+            "sol": 69,
+            "attitude": "UNK",
+            "image_files": {
+                "medium": "https://mars.nasa.gov/mars2020-raw-images/pub/ods/surface/sol/00069/ids/edr/browse/heli/HNM_0069_0673066090_618ECM_N0040001HELI01772_0000LUJ03_800.jpg",
+                "small": "https://mars.nasa.gov/mars2020-raw-images/pub/ods/surface/sol/00069/ids/edr/browse/heli/HNM_0069_0673066090_618ECM_N0040001HELI01772_0000LUJ03_320.jpg",
+                "full_res": "https://mars.nasa.gov/mars2020-raw-images/pub/ods/surface/sol/00069/ids/edr/browse/heli/HNM_0069_0673066090_618ECM_N0040001HELI01772_0000LUJ03.png",
+                "large": "https://mars.nasa.gov/mars2020-raw-images/pub/ods/surface/sol/00069/ids/edr/browse/heli/HNM_0069_0673066090_618ECM_N0040001HELI01772_0000LUJ03_1200.jpg"
+            },
+            "imageid": "HNM_0069_0673066090_618ECM_N0040001HELI01772_0000LUJ",
+            "camera": {
+                "filter_name": "UNK",
+                "camera_vector": "UNK",
+                "camera_model_component_list": "(0.0,0.0619,0.1374);(0.00256683,-0.0580188,0.998312);(-0.0176873,-293.879,310.679);(276.142,-15.3003,248.479);(0.00583129,-0.0520831,0.998626);(0.0,0.001066,-0.000398);(0.0,0.0,0.0);3.0;0.0",
+                "camera_position": "(0.0,0.0619,0.1374)",
+                "instrument": "HELI_NAV",
+                "camera_model_type": "CAHVORE"
+            },
+            "caption": "NASA's Ingenuity Mars Helicopter acquired this image using its navigation camera. This camera is mounted in the helicopter's fuselage and pointed directly downward to track the ground during flight. \n\nThis image was acquired on Apr. 30, 2021 (Sol 69 of the Perseverance rover mission) at the local mean solar time of 12:34:03.",
+            "sample_type": "Full",
+            "date_taken_mars": "Sol-00069M12:34:03.38800",
+            "credit": "NASA/JPL-Caltech",
+            "date_taken_utc": "2021-04-30T14:50:42.826879",
+            "json_link": "https://mars.nasa.gov/rss/api/?feed=raw_images&category=ingenuity&feedtype=json&id=HNM_0069_0673066090_618ECM_N0040001HELI01772_0000LUJ",
+            "link": "https://mars.nasa.gov/mars2020/multimedia/raw-images/HNM_0069_0673066090_618ECM_N0040001HELI01772_0000LUJ",
+            "drive": "1",
+            "title": "Mars Helicopter Sol 69: Navigation Camera",
+            "site": 4,
+            "date_received": "2021-05-28T19:54:57Z"
+        },
+        {
+            "extended": {
+                "mastAz": "UNK",
+                "mastEl": "UNK",
+                "sclk": "673066098.949861",
+                "scaleFactor": "1",
+                "xyz": "UNK",
+                "subframeRect": "UNK",
+                "dimension": "(640,480)"
+            },
+            "sol": 69,
+            "attitude": "UNK",
+            "image_files": {
+                "medium": "https://mars.nasa.gov/mars2020-raw-images/pub/ods/surface/sol/00069/ids/edr/browse/heli/HNM_0069_0673066090_949ECM_N0040001HELI01782_0000LUJ03_800.jpg",
+                "small": "https://mars.nasa.gov/mars2020-raw-images/pub/ods/surface/sol/00069/ids/edr/browse/heli/HNM_0069_0673066090_949ECM_N0040001HELI01782_0000LUJ03_320.jpg",
+                "full_res": "https://mars.nasa.gov/mars2020-raw-images/pub/ods/surface/sol/00069/ids/edr/browse/heli/HNM_0069_0673066090_949ECM_N0040001HELI01782_0000LUJ03.png",
+                "large": "https://mars.nasa.gov/mars2020-raw-images/pub/ods/surface/sol/00069/ids/edr/browse/heli/HNM_0069_0673066090_949ECM_N0040001HELI01782_0000LUJ03_1200.jpg"
+            },
+            "imageid": "HNM_0069_0673066090_949ECM_N0040001HELI01782_0000LUJ",
+            "camera": {
+                "filter_name": "UNK",
+                "camera_vector": "UNK",
+                "camera_model_component_list": "(0.0,0.0619,0.1374);(0.00256683,-0.0580188,0.998312);(-0.0176873,-293.879,310.679);(276.142,-15.3003,248.479);(0.00583129,-0.0520831,0.998626);(0.0,0.001066,-0.000398);(0.0,0.0,0.0);3.0;0.0",
+                "camera_position": "(0.0,0.0619,0.1374)",
+                "instrument": "HELI_NAV",
+                "camera_model_type": "CAHVORE"
+            },
+            "caption": "NASA's Ingenuity Mars Helicopter acquired this image using its navigation camera. This camera is mounted in the helicopter's fuselage and pointed directly downward to track the ground during flight. \n\nThis image was acquired on Apr. 30, 2021 (Sol 69 of the Perseverance rover mission) at the local mean solar time of 12:34:03.",
+            "sample_type": "Full",
+            "date_taken_mars": "Sol-00069M12:34:03.71087",
+            "credit": "NASA/JPL-Caltech",
+            "date_taken_utc": "2021-04-30T14:50:43.158623",
+            "json_link": "https://mars.nasa.gov/rss/api/?feed=raw_images&category=ingenuity&feedtype=json&id=HNM_0069_0673066090_949ECM_N0040001HELI01782_0000LUJ",
+            "link": "https://mars.nasa.gov/mars2020/multimedia/raw-images/HNM_0069_0673066090_949ECM_N0040001HELI01782_0000LUJ",
+            "drive": "1",
+            "title": "Mars Helicopter Sol 69: Navigation Camera",
+            "site": 4,
+            "date_received": "2021-05-28T19:54:57Z"
+        },
+        {
+            "extended": {
+                "mastAz": "UNK",
+                "mastEl": "UNK",
+                "sclk": "673066099.2815981",
+                "scaleFactor": "1",
+                "xyz": "UNK",
+                "subframeRect": "UNK",
+                "dimension": "(640,480)"
+            },
+            "sol": 69,
+            "attitude": "UNK",
+            "image_files": {
+                "medium": "https://mars.nasa.gov/mars2020-raw-images/pub/ods/surface/sol/00069/ids/edr/browse/heli/HNM_0069_0673066091_281ECM_N0040001HELI01792_0000LUJ03_800.jpg",
+                "small": "https://mars.nasa.gov/mars2020-raw-images/pub/ods/surface/sol/00069/ids/edr/browse/heli/HNM_0069_0673066091_281ECM_N0040001HELI01792_0000LUJ03_320.jpg",
+                "full_res": "https://mars.nasa.gov/mars2020-raw-images/pub/ods/surface/sol/00069/ids/edr/browse/heli/HNM_0069_0673066091_281ECM_N0040001HELI01792_0000LUJ03.png",
+                "large": "https://mars.nasa.gov/mars2020-raw-images/pub/ods/surface/sol/00069/ids/edr/browse/heli/HNM_0069_0673066091_281ECM_N0040001HELI01792_0000LUJ03_1200.jpg"
+            },
+            "imageid": "HNM_0069_0673066091_281ECM_N0040001HELI01792_0000LUJ",
+            "camera": {
+                "filter_name": "UNK",
+                "camera_vector": "UNK",
+                "camera_model_component_list": "(0.0,0.0619,0.1374);(0.00256683,-0.0580188,0.998312);(-0.0176873,-293.879,310.679);(276.142,-15.3003,248.479);(0.00583129,-0.0520831,0.998626);(0.0,0.001066,-0.000398);(0.0,0.0,0.0);3.0;0.0",
+                "camera_position": "(0.0,0.0619,0.1374)",
+                "instrument": "HELI_NAV",
+                "camera_model_type": "CAHVORE"
+            },
+            "caption": "NASA's Ingenuity Mars Helicopter acquired this image using its navigation camera. This camera is mounted in the helicopter's fuselage and pointed directly downward to track the ground during flight. \n\nThis image was acquired on Apr. 30, 2021 (Sol 69 of the Perseverance rover mission) at the local mean solar time of 12:34:04.",
+            "sample_type": "Full",
+            "date_taken_mars": "Sol-00069M12:34:04.03374",
+            "credit": "NASA/JPL-Caltech",
+            "date_taken_utc": "2021-04-30T14:50:43.490368",
+            "json_link": "https://mars.nasa.gov/rss/api/?feed=raw_images&category=ingenuity&feedtype=json&id=HNM_0069_0673066091_281ECM_N0040001HELI01792_0000LUJ",
+            "link": "https://mars.nasa.gov/mars2020/multimedia/raw-images/HNM_0069_0673066091_281ECM_N0040001HELI01792_0000LUJ",
+            "drive": "1",
+            "title": "Mars Helicopter Sol 69: Navigation Camera",
+            "site": 4,
+            "date_received": "2021-05-28T19:54:57Z"
+        },
+        {
+            "extended": {
+                "mastAz": "UNK",
+                "mastEl": "UNK",
+                "sclk": "673066099.6133251",
+                "scaleFactor": "1",
+                "xyz": "UNK",
+                "subframeRect": "UNK",
+                "dimension": "(640,480)"
+            },
+            "sol": 69,
+            "attitude": "UNK",
+            "image_files": {
+                "medium": "https://mars.nasa.gov/mars2020-raw-images/pub/ods/surface/sol/00069/ids/edr/browse/heli/HNM_0069_0673066091_613ECM_N0040001HELI01802_0000LUJ03_800.jpg",
+                "small": "https://mars.nasa.gov/mars2020-raw-images/pub/ods/surface/sol/00069/ids/edr/browse/heli/HNM_0069_0673066091_613ECM_N0040001HELI01802_0000LUJ03_320.jpg",
+                "full_res": "https://mars.nasa.gov/mars2020-raw-images/pub/ods/surface/sol/00069/ids/edr/browse/heli/HNM_0069_0673066091_613ECM_N0040001HELI01802_0000LUJ03.png",
+                "large": "https://mars.nasa.gov/mars2020-raw-images/pub/ods/surface/sol/00069/ids/edr/browse/heli/HNM_0069_0673066091_613ECM_N0040001HELI01802_0000LUJ03_1200.jpg"
+            },
+            "imageid": "HNM_0069_0673066091_613ECM_N0040001HELI01802_0000LUJ",
+            "camera": {
+                "filter_name": "UNK",
+                "camera_vector": "UNK",
+                "camera_model_component_list": "(0.0,0.0619,0.1374);(0.00256683,-0.0580188,0.998312);(-0.0176873,-293.879,310.679);(276.142,-15.3003,248.479);(0.00583129,-0.0520831,0.998626);(0.0,0.001066,-0.000398);(0.0,0.0,0.0);3.0;0.0",
+                "camera_position": "(0.0,0.0619,0.1374)",
+                "instrument": "HELI_NAV",
+                "camera_model_type": "CAHVORE"
+            },
+            "caption": "NASA's Ingenuity Mars Helicopter acquired this image using its navigation camera. This camera is mounted in the helicopter's fuselage and pointed directly downward to track the ground during flight. \n\nThis image was acquired on Apr. 30, 2021 (Sol 69 of the Perseverance rover mission) at the local mean solar time of 12:34:04.",
+            "sample_type": "Full",
+            "date_taken_mars": "Sol-00069M12:34:04.35659",
+            "credit": "NASA/JPL-Caltech",
+            "date_taken_utc": "2021-04-30T14:50:43.822097",
+            "json_link": "https://mars.nasa.gov/rss/api/?feed=raw_images&category=ingenuity&feedtype=json&id=HNM_0069_0673066091_613ECM_N0040001HELI01802_0000LUJ",
+            "link": "https://mars.nasa.gov/mars2020/multimedia/raw-images/HNM_0069_0673066091_613ECM_N0040001HELI01802_0000LUJ",
+            "drive": "1",
+            "title": "Mars Helicopter Sol 69: Navigation Camera",
+            "site": 4,
+            "date_received": "2021-05-28T19:54:57Z"
+        },
+        {
+            "extended": {
+                "mastAz": "UNK",
+                "mastEl": "UNK",
+                "sclk": "673066099.945035",
+                "scaleFactor": "1",
+                "xyz": "UNK",
+                "subframeRect": "UNK",
+                "dimension": "(640,480)"
+            },
+            "sol": 69,
+            "attitude": "UNK",
+            "image_files": {
+                "medium": "https://mars.nasa.gov/mars2020-raw-images/pub/ods/surface/sol/00069/ids/edr/browse/heli/HNM_0069_0673066091_945ECM_N0040001HELI01812_0000LUJ03_800.jpg",
+                "small": "https://mars.nasa.gov/mars2020-raw-images/pub/ods/surface/sol/00069/ids/edr/browse/heli/HNM_0069_0673066091_945ECM_N0040001HELI01812_0000LUJ03_320.jpg",
+                "full_res": "https://mars.nasa.gov/mars2020-raw-images/pub/ods/surface/sol/00069/ids/edr/browse/heli/HNM_0069_0673066091_945ECM_N0040001HELI01812_0000LUJ03.png",
+                "large": "https://mars.nasa.gov/mars2020-raw-images/pub/ods/surface/sol/00069/ids/edr/browse/heli/HNM_0069_0673066091_945ECM_N0040001HELI01812_0000LUJ03_1200.jpg"
+            },
+            "imageid": "HNM_0069_0673066091_945ECM_N0040001HELI01812_0000LUJ",
+            "camera": {
+                "filter_name": "UNK",
+                "camera_vector": "UNK",
+                "camera_model_component_list": "(0.0,0.0619,0.1374);(0.00256683,-0.0580188,0.998312);(-0.0176873,-293.879,310.679);(276.142,-15.3003,248.479);(0.00583129,-0.0520831,0.998626);(0.0,0.001066,-0.000398);(0.0,0.0,0.0);3.0;0.0",
+                "camera_position": "(0.0,0.0619,0.1374)",
+                "instrument": "HELI_NAV",
+                "camera_model_type": "CAHVORE"
+            },
+            "caption": "NASA's Ingenuity Mars Helicopter acquired this image using its navigation camera. This camera is mounted in the helicopter's fuselage and pointed directly downward to track the ground during flight. \n\nThis image was acquired on Apr. 30, 2021 (Sol 69 of the Perseverance rover mission) at the local mean solar time of 12:34:04.",
+            "sample_type": "Full",
+            "date_taken_mars": "Sol-00069M12:34:04.67943",
+            "credit": "NASA/JPL-Caltech",
+            "date_taken_utc": "2021-04-30T14:50:44.153810",
+            "json_link": "https://mars.nasa.gov/rss/api/?feed=raw_images&category=ingenuity&feedtype=json&id=HNM_0069_0673066091_945ECM_N0040001HELI01812_0000LUJ",
+            "link": "https://mars.nasa.gov/mars2020/multimedia/raw-images/HNM_0069_0673066091_945ECM_N0040001HELI01812_0000LUJ",
+            "drive": "1",
+            "title": "Mars Helicopter Sol 69: Navigation Camera",
+            "site": 4,
+            "date_received": "2021-05-28T19:54:57Z"
+        },
+        {
+            "extended": {
+                "mastAz": "UNK",
+                "mastEl": "UNK",
+                "sclk": "673066100.276773",
+                "scaleFactor": "1",
+                "xyz": "UNK",
+                "subframeRect": "UNK",
+                "dimension": "(640,480)"
+            },
+            "sol": 69,
+            "attitude": "UNK",
+            "image_files": {
+                "medium": "https://mars.nasa.gov/mars2020-raw-images/pub/ods/surface/sol/00069/ids/edr/browse/heli/HNM_0069_0673066092_276ECM_N0040001HELI01822_0000LUJ03_800.jpg",
+                "small": "https://mars.nasa.gov/mars2020-raw-images/pub/ods/surface/sol/00069/ids/edr/browse/heli/HNM_0069_0673066092_276ECM_N0040001HELI01822_0000LUJ03_320.jpg",
+                "full_res": "https://mars.nasa.gov/mars2020-raw-images/pub/ods/surface/sol/00069/ids/edr/browse/heli/HNM_0069_0673066092_276ECM_N0040001HELI01822_0000LUJ03.png",
+                "large": "https://mars.nasa.gov/mars2020-raw-images/pub/ods/surface/sol/00069/ids/edr/browse/heli/HNM_0069_0673066092_276ECM_N0040001HELI01822_0000LUJ03_1200.jpg"
+            },
+            "imageid": "HNM_0069_0673066092_276ECM_N0040001HELI01822_0000LUJ",
+            "camera": {
+                "filter_name": "UNK",
+                "camera_vector": "UNK",
+                "camera_model_component_list": "(0.0,0.0619,0.1374);(0.00256683,-0.0580188,0.998312);(-0.0176873,-293.879,310.679);(276.142,-15.3003,248.479);(0.00583129,-0.0520831,0.998626);(0.0,0.001066,-0.000398);(0.0,0.0,0.0);3.0;0.0",
+                "camera_position": "(0.0,0.0619,0.1374)",
+                "instrument": "HELI_NAV",
+                "camera_model_type": "CAHVORE"
+            },
+            "caption": "NASA's Ingenuity Mars Helicopter acquired this image using its navigation camera. This camera is mounted in the helicopter's fuselage and pointed directly downward to track the ground during flight. \n\nThis image was acquired on Apr. 30, 2021 (Sol 69 of the Perseverance rover mission) at the local mean solar time of 12:34:05.",
+            "sample_type": "Full",
+            "date_taken_mars": "Sol-00069M12:34:05.00230",
+            "credit": "NASA/JPL-Caltech",
+            "date_taken_utc": "2021-04-30T14:50:44.485555",
+            "json_link": "https://mars.nasa.gov/rss/api/?feed=raw_images&category=ingenuity&feedtype=json&id=HNM_0069_0673066092_276ECM_N0040001HELI01822_0000LUJ",
+            "link": "https://mars.nasa.gov/mars2020/multimedia/raw-images/HNM_0069_0673066092_276ECM_N0040001HELI01822_0000LUJ",
+            "drive": "1",
+            "title": "Mars Helicopter Sol 69: Navigation Camera",
+            "site": 4,
+            "date_received": "2021-05-28T19:54:57Z"
+        },
+        {
+            "extended": {
+                "mastAz": "UNK",
+                "mastEl": "UNK",
+                "sclk": "673066100.60852",
+                "scaleFactor": "1",
+                "xyz": "UNK",
+                "subframeRect": "UNK",
+                "dimension": "(640,480)"
+            },
+            "sol": 69,
+            "attitude": "UNK",
+            "image_files": {
+                "medium": "https://mars.nasa.gov/mars2020-raw-images/pub/ods/surface/sol/00069/ids/edr/browse/heli/HNM_0069_0673066092_608ECM_N0040001HELI01832_0000LUJ03_800.jpg",
+                "small": "https://mars.nasa.gov/mars2020-raw-images/pub/ods/surface/sol/00069/ids/edr/browse/heli/HNM_0069_0673066092_608ECM_N0040001HELI01832_0000LUJ03_320.jpg",
+                "full_res": "https://mars.nasa.gov/mars2020-raw-images/pub/ods/surface/sol/00069/ids/edr/browse/heli/HNM_0069_0673066092_608ECM_N0040001HELI01832_0000LUJ03.png",
+                "large": "https://mars.nasa.gov/mars2020-raw-images/pub/ods/surface/sol/00069/ids/edr/browse/heli/HNM_0069_0673066092_608ECM_N0040001HELI01832_0000LUJ03_1200.jpg"
+            },
+            "imageid": "HNM_0069_0673066092_608ECM_N0040001HELI01832_0000LUJ",
+            "camera": {
+                "filter_name": "UNK",
+                "camera_vector": "UNK",
+                "camera_model_component_list": "(0.0,0.0619,0.1374);(0.00256683,-0.0580188,0.998312);(-0.0176873,-293.879,310.679);(276.142,-15.3003,248.479);(0.00583129,-0.0520831,0.998626);(0.0,0.001066,-0.000398);(0.0,0.0,0.0);3.0;0.0",
+                "camera_position": "(0.0,0.0619,0.1374)",
+                "instrument": "HELI_NAV",
+                "camera_model_type": "CAHVORE"
+            },
+            "caption": "NASA's Ingenuity Mars Helicopter acquired this image using its navigation camera. This camera is mounted in the helicopter's fuselage and pointed directly downward to track the ground during flight. \n\nThis image was acquired on Apr. 30, 2021 (Sol 69 of the Perseverance rover mission) at the local mean solar time of 12:34:05.",
+            "sample_type": "Full",
+            "date_taken_mars": "Sol-00069M12:34:05.32516",
+            "credit": "NASA/JPL-Caltech",
+            "date_taken_utc": "2021-04-30T14:50:44.817299",
+            "json_link": "https://mars.nasa.gov/rss/api/?feed=raw_images&category=ingenuity&feedtype=json&id=HNM_0069_0673066092_608ECM_N0040001HELI01832_0000LUJ",
+            "link": "https://mars.nasa.gov/mars2020/multimedia/raw-images/HNM_0069_0673066092_608ECM_N0040001HELI01832_0000LUJ",
+            "drive": "1",
+            "title": "Mars Helicopter Sol 69: Navigation Camera",
+            "site": 4,
+            "date_received": "2021-05-28T19:54:57Z"
+        },
+        {
+            "extended": {
+                "mastAz": "UNK",
+                "mastEl": "UNK",
+                "sclk": "673066100.940244",
+                "scaleFactor": "1",
+                "xyz": "UNK",
+                "subframeRect": "UNK",
+                "dimension": "(640,480)"
+            },
+            "sol": 69,
+            "attitude": "UNK",
+            "image_files": {
+                "medium": "https://mars.nasa.gov/mars2020-raw-images/pub/ods/surface/sol/00069/ids/edr/browse/heli/HNM_0069_0673066092_940ECM_N0040001HELI01842_0000LUJ03_800.jpg",
+                "small": "https://mars.nasa.gov/mars2020-raw-images/pub/ods/surface/sol/00069/ids/edr/browse/heli/HNM_0069_0673066092_940ECM_N0040001HELI01842_0000LUJ03_320.jpg",
+                "full_res": "https://mars.nasa.gov/mars2020-raw-images/pub/ods/surface/sol/00069/ids/edr/browse/heli/HNM_0069_0673066092_940ECM_N0040001HELI01842_0000LUJ03.png",
+                "large": "https://mars.nasa.gov/mars2020-raw-images/pub/ods/surface/sol/00069/ids/edr/browse/heli/HNM_0069_0673066092_940ECM_N0040001HELI01842_0000LUJ03_1200.jpg"
+            },
+            "imageid": "HNM_0069_0673066092_940ECM_N0040001HELI01842_0000LUJ",
+            "camera": {
+                "filter_name": "UNK",
+                "camera_vector": "UNK",
+                "camera_model_component_list": "(0.0,0.0619,0.1374);(0.00256683,-0.0580188,0.998312);(-0.0176873,-293.879,310.679);(276.142,-15.3003,248.479);(0.00583129,-0.0520831,0.998626);(0.0,0.001066,-0.000398);(0.0,0.0,0.0);3.0;0.0",
+                "camera_position": "(0.0,0.0619,0.1374)",
+                "instrument": "HELI_NAV",
+                "camera_model_type": "CAHVORE"
+            },
+            "caption": "NASA's Ingenuity Mars Helicopter acquired this image using its navigation camera. This camera is mounted in the helicopter's fuselage and pointed directly downward to track the ground during flight. \n\nThis image was acquired on Apr. 30, 2021 (Sol 69 of the Perseverance rover mission) at the local mean solar time of 12:34:05.",
+            "sample_type": "Full",
+            "date_taken_mars": "Sol-00069M12:34:05.64802",
+            "credit": "NASA/JPL-Caltech",
+            "date_taken_utc": "2021-04-30T14:50:45.149028",
+            "json_link": "https://mars.nasa.gov/rss/api/?feed=raw_images&category=ingenuity&feedtype=json&id=HNM_0069_0673066092_940ECM_N0040001HELI01842_0000LUJ",
+            "link": "https://mars.nasa.gov/mars2020/multimedia/raw-images/HNM_0069_0673066092_940ECM_N0040001HELI01842_0000LUJ",
+            "drive": "1",
+            "title": "Mars Helicopter Sol 69: Navigation Camera",
+            "site": 4,
+            "date_received": "2021-05-28T19:54:57Z"
+        },
+        {
+            "extended": {
+                "mastAz": "UNK",
+                "mastEl": "UNK",
+                "sclk": "673066101.2720461",
+                "scaleFactor": "1",
+                "xyz": "UNK",
+                "subframeRect": "UNK",
+                "dimension": "(640,480)"
+            },
+            "sol": 69,
+            "attitude": "UNK",
+            "image_files": {
+                "medium": "https://mars.nasa.gov/mars2020-raw-images/pub/ods/surface/sol/00069/ids/edr/browse/heli/HNM_0069_0673066093_272ECM_N0040001HELI01852_0000LUJ03_800.jpg",
+                "small": "https://mars.nasa.gov/mars2020-raw-images/pub/ods/surface/sol/00069/ids/edr/browse/heli/HNM_0069_0673066093_272ECM_N0040001HELI01852_0000LUJ03_320.jpg",
+                "full_res": "https://mars.nasa.gov/mars2020-raw-images/pub/ods/surface/sol/00069/ids/edr/browse/heli/HNM_0069_0673066093_272ECM_N0040001HELI01852_0000LUJ03.png",
+                "large": "https://mars.nasa.gov/mars2020-raw-images/pub/ods/surface/sol/00069/ids/edr/browse/heli/HNM_0069_0673066093_272ECM_N0040001HELI01852_0000LUJ03_1200.jpg"
+            },
+            "imageid": "HNM_0069_0673066093_272ECM_N0040001HELI01852_0000LUJ",
+            "camera": {
+                "filter_name": "UNK",
+                "camera_vector": "UNK",
+                "camera_model_component_list": "(0.0,0.0619,0.1374);(0.00256683,-0.0580188,0.998312);(-0.0176873,-293.879,310.679);(276.142,-15.3003,248.479);(0.00583129,-0.0520831,0.998626);(0.0,0.001066,-0.000398);(0.0,0.0,0.0);3.0;0.0",
+                "camera_position": "(0.0,0.0619,0.1374)",
+                "instrument": "HELI_NAV",
+                "camera_model_type": "CAHVORE"
+            },
+            "caption": "NASA's Ingenuity Mars Helicopter acquired this image using its navigation camera. This camera is mounted in the helicopter's fuselage and pointed directly downward to track the ground during flight. \n\nThis image was acquired on Apr. 30, 2021 (Sol 69 of the Perseverance rover mission) at the local mean solar time of 12:34:05.",
+            "sample_type": "Full",
+            "date_taken_mars": "Sol-00069M12:34:05.97095",
+            "credit": "NASA/JPL-Caltech",
+            "date_taken_utc": "2021-04-30T14:50:45.480833",
+            "json_link": "https://mars.nasa.gov/rss/api/?feed=raw_images&category=ingenuity&feedtype=json&id=HNM_0069_0673066093_272ECM_N0040001HELI01852_0000LUJ",
+            "link": "https://mars.nasa.gov/mars2020/multimedia/raw-images/HNM_0069_0673066093_272ECM_N0040001HELI01852_0000LUJ",
+            "drive": "1",
+            "title": "Mars Helicopter Sol 69: Navigation Camera",
+            "site": 4,
+            "date_received": "2021-05-28T19:54:57Z"
+        },
+        {
+            "extended": {
+                "mastAz": "UNK",
+                "mastEl": "UNK",
+                "sclk": "673066101.60372",
+                "scaleFactor": "1",
+                "xyz": "UNK",
+                "subframeRect": "UNK",
+                "dimension": "(640,480)"
+            },
+            "sol": 69,
+            "attitude": "UNK",
+            "image_files": {
+                "medium": "https://mars.nasa.gov/mars2020-raw-images/pub/ods/surface/sol/00069/ids/edr/browse/heli/HNM_0069_0673066093_603ECM_N0040001HELI01862_0000LUJ03_800.jpg",
+                "small": "https://mars.nasa.gov/mars2020-raw-images/pub/ods/surface/sol/00069/ids/edr/browse/heli/HNM_0069_0673066093_603ECM_N0040001HELI01862_0000LUJ03_320.jpg",
+                "full_res": "https://mars.nasa.gov/mars2020-raw-images/pub/ods/surface/sol/00069/ids/edr/browse/heli/HNM_0069_0673066093_603ECM_N0040001HELI01862_0000LUJ03.png",
+                "large": "https://mars.nasa.gov/mars2020-raw-images/pub/ods/surface/sol/00069/ids/edr/browse/heli/HNM_0069_0673066093_603ECM_N0040001HELI01862_0000LUJ03_1200.jpg"
+            },
+            "imageid": "HNM_0069_0673066093_603ECM_N0040001HELI01862_0000LUJ",
+            "camera": {
+                "filter_name": "UNK",
+                "camera_vector": "UNK",
+                "camera_model_component_list": "(0.0,0.0619,0.1374);(0.00256683,-0.0580188,0.998312);(-0.0176873,-293.879,310.679);(276.142,-15.3003,248.479);(0.00583129,-0.0520831,0.998626);(0.0,0.001066,-0.000398);(0.0,0.0,0.0);3.0;0.0",
+                "camera_position": "(0.0,0.0619,0.1374)",
+                "instrument": "HELI_NAV",
+                "camera_model_type": "CAHVORE"
+            },
+            "caption": "NASA's Ingenuity Mars Helicopter acquired this image using its navigation camera. This camera is mounted in the helicopter's fuselage and pointed directly downward to track the ground during flight. \n\nThis image was acquired on Apr. 30, 2021 (Sol 69 of the Perseverance rover mission) at the local mean solar time of 12:34:06.",
+            "sample_type": "Full",
+            "date_taken_mars": "Sol-00069M12:34:06.29375",
+            "credit": "NASA/JPL-Caltech",
+            "date_taken_utc": "2021-04-30T14:50:45.812501",
+            "json_link": "https://mars.nasa.gov/rss/api/?feed=raw_images&category=ingenuity&feedtype=json&id=HNM_0069_0673066093_603ECM_N0040001HELI01862_0000LUJ",
+            "link": "https://mars.nasa.gov/mars2020/multimedia/raw-images/HNM_0069_0673066093_603ECM_N0040001HELI01862_0000LUJ",
+            "drive": "1",
+            "title": "Mars Helicopter Sol 69: Navigation Camera",
+            "site": 4,
+            "date_received": "2021-05-28T19:54:57Z"
+        },
+        {
+            "extended": {
+                "mastAz": "UNK",
+                "mastEl": "UNK",
+                "sclk": "673066101.935545",
+                "scaleFactor": "1",
+                "xyz": "UNK",
+                "subframeRect": "UNK",
+                "dimension": "(640,480)"
+            },
+            "sol": 69,
+            "attitude": "UNK",
+            "image_files": {
+                "medium": "https://mars.nasa.gov/mars2020-raw-images/pub/ods/surface/sol/00069/ids/edr/browse/heli/HNM_0069_0673066093_935ECM_N0040001HELI01872_0000LUJ03_800.jpg",
+                "small": "https://mars.nasa.gov/mars2020-raw-images/pub/ods/surface/sol/00069/ids/edr/browse/heli/HNM_0069_0673066093_935ECM_N0040001HELI01872_0000LUJ03_320.jpg",
+                "full_res": "https://mars.nasa.gov/mars2020-raw-images/pub/ods/surface/sol/00069/ids/edr/browse/heli/HNM_0069_0673066093_935ECM_N0040001HELI01872_0000LUJ03.png",
+                "large": "https://mars.nasa.gov/mars2020-raw-images/pub/ods/surface/sol/00069/ids/edr/browse/heli/HNM_0069_0673066093_935ECM_N0040001HELI01872_0000LUJ03_1200.jpg"
+            },
+            "imageid": "HNM_0069_0673066093_935ECM_N0040001HELI01872_0000LUJ",
+            "camera": {
+                "filter_name": "UNK",
+                "camera_vector": "UNK",
+                "camera_model_component_list": "(0.0,0.0619,0.1374);(0.00256683,-0.0580188,0.998312);(-0.0176873,-293.879,310.679);(276.142,-15.3003,248.479);(0.00583129,-0.0520831,0.998626);(0.0,0.001066,-0.000398);(0.0,0.0,0.0);3.0;0.0",
+                "camera_position": "(0.0,0.0619,0.1374)",
+                "instrument": "HELI_NAV",
+                "camera_model_type": "CAHVORE"
+            },
+            "caption": "NASA's Ingenuity Mars Helicopter acquired this image using its navigation camera. This camera is mounted in the helicopter's fuselage and pointed directly downward to track the ground during flight. \n\nThis image was acquired on Apr. 30, 2021 (Sol 69 of the Perseverance rover mission) at the local mean solar time of 12:34:06.",
+            "sample_type": "Full",
+            "date_taken_mars": "Sol-00069M12:34:06.61670",
+            "credit": "NASA/JPL-Caltech",
+            "date_taken_utc": "2021-04-30T14:50:46.144337",
+            "json_link": "https://mars.nasa.gov/rss/api/?feed=raw_images&category=ingenuity&feedtype=json&id=HNM_0069_0673066093_935ECM_N0040001HELI01872_0000LUJ",
+            "link": "https://mars.nasa.gov/mars2020/multimedia/raw-images/HNM_0069_0673066093_935ECM_N0040001HELI01872_0000LUJ",
+            "drive": "1",
+            "title": "Mars Helicopter Sol 69: Navigation Camera",
+            "site": 4,
+            "date_received": "2021-05-28T19:54:57Z"
+        },
+        {
+            "extended": {
+                "mastAz": "UNK",
+                "mastEl": "UNK",
+                "sclk": "673066102.267889",
+                "scaleFactor": "1",
+                "xyz": "UNK",
+                "subframeRect": "UNK",
+                "dimension": "(640,480)"
+            },
+            "sol": 69,
+            "attitude": "UNK",
+            "image_files": {
+                "medium": "https://mars.nasa.gov/mars2020-raw-images/pub/ods/surface/sol/00069/ids/edr/browse/heli/HNM_0069_0673066094_267ECM_N0040001HELI01882_0000LUJ03_800.jpg",
+                "small": "https://mars.nasa.gov/mars2020-raw-images/pub/ods/surface/sol/00069/ids/edr/browse/heli/HNM_0069_0673066094_267ECM_N0040001HELI01882_0000LUJ03_320.jpg",
+                "full_res": "https://mars.nasa.gov/mars2020-raw-images/pub/ods/surface/sol/00069/ids/edr/browse/heli/HNM_0069_0673066094_267ECM_N0040001HELI01882_0000LUJ03.png",
+                "large": "https://mars.nasa.gov/mars2020-raw-images/pub/ods/surface/sol/00069/ids/edr/browse/heli/HNM_0069_0673066094_267ECM_N0040001HELI01882_0000LUJ03_1200.jpg"
+            },
+            "imageid": "HNM_0069_0673066094_267ECM_N0040001HELI01882_0000LUJ",
+            "camera": {
+                "filter_name": "UNK",
+                "camera_vector": "UNK",
+                "camera_model_component_list": "(0.0,0.0619,0.1374);(0.00256683,-0.0580188,0.998312);(-0.0176873,-293.879,310.679);(276.142,-15.3003,248.479);(0.00583129,-0.0520831,0.998626);(0.0,0.001066,-0.000398);(0.0,0.0,0.0);3.0;0.0",
+                "camera_position": "(0.0,0.0619,0.1374)",
+                "instrument": "HELI_NAV",
+                "camera_model_type": "CAHVORE"
+            },
+            "caption": "NASA's Ingenuity Mars Helicopter acquired this image using its navigation camera. This camera is mounted in the helicopter's fuselage and pointed directly downward to track the ground during flight. \n\nThis image was acquired on Apr. 30, 2021 (Sol 69 of the Perseverance rover mission) at the local mean solar time of 12:34:06.",
+            "sample_type": "Full",
+            "date_taken_mars": "Sol-00069M12:34:06.94015",
+            "credit": "NASA/JPL-Caltech",
+            "date_taken_utc": "2021-04-30T14:50:46.476676",
+            "json_link": "https://mars.nasa.gov/rss/api/?feed=raw_images&category=ingenuity&feedtype=json&id=HNM_0069_0673066094_267ECM_N0040001HELI01882_0000LUJ",
+            "link": "https://mars.nasa.gov/mars2020/multimedia/raw-images/HNM_0069_0673066094_267ECM_N0040001HELI01882_0000LUJ",
+            "drive": "1",
+            "title": "Mars Helicopter Sol 69: Navigation Camera",
+            "site": 4,
+            "date_received": "2021-05-28T19:54:57Z"
+        },
+        {
+            "extended": {
+                "mastAz": "UNK",
+                "mastEl": "UNK",
+                "sclk": "673066102.6005199",
+                "scaleFactor": "1",
+                "xyz": "UNK",
+                "subframeRect": "UNK",
+                "dimension": "(640,480)"
+            },
+            "sol": 69,
+            "attitude": "UNK",
+            "image_files": {
+                "medium": "https://mars.nasa.gov/mars2020-raw-images/pub/ods/surface/sol/00069/ids/edr/browse/heli/HNM_0069_0673066094_600ECM_N0040001HELI01892_0000LUJ02_800.jpg",
+                "small": "https://mars.nasa.gov/mars2020-raw-images/pub/ods/surface/sol/00069/ids/edr/browse/heli/HNM_0069_0673066094_600ECM_N0040001HELI01892_0000LUJ02_320.jpg",
+                "full_res": "https://mars.nasa.gov/mars2020-raw-images/pub/ods/surface/sol/00069/ids/edr/browse/heli/HNM_0069_0673066094_600ECM_N0040001HELI01892_0000LUJ02.png",
+                "large": "https://mars.nasa.gov/mars2020-raw-images/pub/ods/surface/sol/00069/ids/edr/browse/heli/HNM_0069_0673066094_600ECM_N0040001HELI01892_0000LUJ02_1200.jpg"
+            },
+            "imageid": "HNM_0069_0673066094_600ECM_N0040001HELI01892_0000LUJ",
+            "camera": {
+                "filter_name": "UNK",
+                "camera_vector": "UNK",
+                "camera_model_component_list": "(0.0,0.0619,0.1374);(0.00256683,-0.0580188,0.998312);(-0.0176873,-293.879,310.679);(276.142,-15.3003,248.479);(0.00583129,-0.0520831,0.998626);(0.0,0.001066,-0.000398);(0.0,0.0,0.0);3.0;0.0",
+                "camera_position": "(0.0,0.0619,0.1374)",
+                "instrument": "HELI_NAV",
+                "camera_model_type": "CAHVORE"
+            },
+            "caption": "NASA's Ingenuity Mars Helicopter acquired this image using its navigation camera. This camera is mounted in the helicopter's fuselage and pointed directly downward to track the ground during flight. \n\nThis image was acquired on Apr. 30, 2021 (Sol 69 of the Perseverance rover mission) at the local mean solar time of 12:34:07.",
+            "sample_type": "Full",
+            "date_taken_mars": "Sol-00069M12:34:07.26390",
+            "credit": "NASA/JPL-Caltech",
+            "date_taken_utc": "2021-04-30T14:50:46.809321",
+            "json_link": "https://mars.nasa.gov/rss/api/?feed=raw_images&category=ingenuity&feedtype=json&id=HNM_0069_0673066094_600ECM_N0040001HELI01892_0000LUJ",
+            "link": "https://mars.nasa.gov/mars2020/multimedia/raw-images/HNM_0069_0673066094_600ECM_N0040001HELI01892_0000LUJ",
+            "drive": "1",
+            "title": "Mars Helicopter Sol 69: Navigation Camera",
+            "site": 4,
+            "date_received": "2021-05-28T19:54:57Z"
+        },
+        {
+            "extended": {
+                "mastAz": "UNK",
+                "mastEl": "UNK",
+                "sclk": "673066102.9333739",
+                "scaleFactor": "1",
+                "xyz": "UNK",
+                "subframeRect": "UNK",
+                "dimension": "(640,480)"
+            },
+            "sol": 69,
+            "attitude": "UNK",
+            "image_files": {
+                "medium": "https://mars.nasa.gov/mars2020-raw-images/pub/ods/surface/sol/00069/ids/edr/browse/heli/HNM_0069_0673066094_933ECM_N0040001HELI01902_0000LUJ02_800.jpg",
+                "small": "https://mars.nasa.gov/mars2020-raw-images/pub/ods/surface/sol/00069/ids/edr/browse/heli/HNM_0069_0673066094_933ECM_N0040001HELI01902_0000LUJ02_320.jpg",
+                "full_res": "https://mars.nasa.gov/mars2020-raw-images/pub/ods/surface/sol/00069/ids/edr/browse/heli/HNM_0069_0673066094_933ECM_N0040001HELI01902_0000LUJ02.png",
+                "large": "https://mars.nasa.gov/mars2020-raw-images/pub/ods/surface/sol/00069/ids/edr/browse/heli/HNM_0069_0673066094_933ECM_N0040001HELI01902_0000LUJ02_1200.jpg"
+            },
+            "imageid": "HNM_0069_0673066094_933ECM_N0040001HELI01902_0000LUJ",
+            "camera": {
+                "filter_name": "UNK",
+                "camera_vector": "UNK",
+                "camera_model_component_list": "(0.0,0.0619,0.1374);(0.00256683,-0.0580188,0.998312);(-0.0176873,-293.879,310.679);(276.142,-15.3003,248.479);(0.00583129,-0.0520831,0.998626);(0.0,0.001066,-0.000398);(0.0,0.0,0.0);3.0;0.0",
+                "camera_position": "(0.0,0.0619,0.1374)",
+                "instrument": "HELI_NAV",
+                "camera_model_type": "CAHVORE"
+            },
+            "caption": "NASA's Ingenuity Mars Helicopter acquired this image using its navigation camera. This camera is mounted in the helicopter's fuselage and pointed directly downward to track the ground during flight. \n\nThis image was acquired on Apr. 30, 2021 (Sol 69 of the Perseverance rover mission) at the local mean solar time of 12:34:07.",
+            "sample_type": "Full",
+            "date_taken_mars": "Sol-00069M12:34:07.58784",
+            "credit": "NASA/JPL-Caltech",
+            "date_taken_utc": "2021-04-30T14:50:47.142179",
+            "json_link": "https://mars.nasa.gov/rss/api/?feed=raw_images&category=ingenuity&feedtype=json&id=HNM_0069_0673066094_933ECM_N0040001HELI01902_0000LUJ",
+            "link": "https://mars.nasa.gov/mars2020/multimedia/raw-images/HNM_0069_0673066094_933ECM_N0040001HELI01902_0000LUJ",
+            "drive": "1",
+            "title": "Mars Helicopter Sol 69: Navigation Camera",
+            "site": 4,
+            "date_received": "2021-05-28T19:54:57Z"
+        },
+        {
+            "extended": {
+                "mastAz": "UNK",
+                "mastEl": "UNK",
+                "sclk": "673066103.266181",
+                "scaleFactor": "1",
+                "xyz": "UNK",
+                "subframeRect": "UNK",
+                "dimension": "(640,480)"
+            },
+            "sol": 69,
+            "attitude": "UNK",
+            "image_files": {
+                "medium": "https://mars.nasa.gov/mars2020-raw-images/pub/ods/surface/sol/00069/ids/edr/browse/heli/HNM_0069_0673066095_266ECM_N0040001HELI01912_0000LUJ02_800.jpg",
+                "small": "https://mars.nasa.gov/mars2020-raw-images/pub/ods/surface/sol/00069/ids/edr/browse/heli/HNM_0069_0673066095_266ECM_N0040001HELI01912_0000LUJ02_320.jpg",
+                "full_res": "https://mars.nasa.gov/mars2020-raw-images/pub/ods/surface/sol/00069/ids/edr/browse/heli/HNM_0069_0673066095_266ECM_N0040001HELI01912_0000LUJ02.png",
+                "large": "https://mars.nasa.gov/mars2020-raw-images/pub/ods/surface/sol/00069/ids/edr/browse/heli/HNM_0069_0673066095_266ECM_N0040001HELI01912_0000LUJ02_1200.jpg"
+            },
+            "imageid": "HNM_0069_0673066095_266ECM_N0040001HELI01912_0000LUJ",
+            "camera": {
+                "filter_name": "UNK",
+                "camera_vector": "UNK",
+                "camera_model_component_list": "(0.0,0.0619,0.1374);(0.00256683,-0.0580188,0.998312);(-0.0176873,-293.879,310.679);(276.142,-15.3003,248.479);(0.00583129,-0.0520831,0.998626);(0.0,0.001066,-0.000398);(0.0,0.0,0.0);3.0;0.0",
+                "camera_position": "(0.0,0.0619,0.1374)",
+                "instrument": "HELI_NAV",
+                "camera_model_type": "CAHVORE"
+            },
+            "caption": "NASA's Ingenuity Mars Helicopter acquired this image using its navigation camera. This camera is mounted in the helicopter's fuselage and pointed directly downward to track the ground during flight. \n\nThis image was acquired on Apr. 30, 2021 (Sol 69 of the Perseverance rover mission) at the local mean solar time of 12:34:07.",
+            "sample_type": "Full",
+            "date_taken_mars": "Sol-00069M12:34:07.91174",
+            "credit": "NASA/JPL-Caltech",
+            "date_taken_utc": "2021-04-30T14:50:47.474976",
+            "json_link": "https://mars.nasa.gov/rss/api/?feed=raw_images&category=ingenuity&feedtype=json&id=HNM_0069_0673066095_266ECM_N0040001HELI01912_0000LUJ",
+            "link": "https://mars.nasa.gov/mars2020/multimedia/raw-images/HNM_0069_0673066095_266ECM_N0040001HELI01912_0000LUJ",
+            "drive": "1",
+            "title": "Mars Helicopter Sol 69: Navigation Camera",
+            "site": 4,
+            "date_received": "2021-05-28T19:54:57Z"
+        },
+        {
+            "extended": {
+                "mastAz": "UNK",
+                "mastEl": "UNK",
+                "sclk": "673066103.9315791",
+                "scaleFactor": "1",
+                "xyz": "UNK",
+                "subframeRect": "UNK",
+                "dimension": "(640,480)"
+            },
+            "sol": 69,
+            "attitude": "UNK",
+            "image_files": {
+                "medium": "https://mars.nasa.gov/mars2020-raw-images/pub/ods/surface/sol/00069/ids/edr/browse/heli/HNM_0069_0673066095_931ECM_N0040001HELI01932_0000LUJ02_800.jpg",
+                "small": "https://mars.nasa.gov/mars2020-raw-images/pub/ods/surface/sol/00069/ids/edr/browse/heli/HNM_0069_0673066095_931ECM_N0040001HELI01932_0000LUJ02_320.jpg",
+                "full_res": "https://mars.nasa.gov/mars2020-raw-images/pub/ods/surface/sol/00069/ids/edr/browse/heli/HNM_0069_0673066095_931ECM_N0040001HELI01932_0000LUJ02.png",
+                "large": "https://mars.nasa.gov/mars2020-raw-images/pub/ods/surface/sol/00069/ids/edr/browse/heli/HNM_0069_0673066095_931ECM_N0040001HELI01932_0000LUJ02_1200.jpg"
+            },
+            "imageid": "HNM_0069_0673066095_931ECM_N0040001HELI01932_0000LUJ",
+            "camera": {
+                "filter_name": "UNK",
+                "camera_vector": "UNK",
+                "camera_model_component_list": "(0.0,0.0619,0.1374);(0.00256683,-0.0580188,0.998312);(-0.0176873,-293.879,310.679);(276.142,-15.3003,248.479);(0.00583129,-0.0520831,0.998626);(0.0,0.001066,-0.000398);(0.0,0.0,0.0);3.0;0.0",
+                "camera_position": "(0.0,0.0619,0.1374)",
+                "instrument": "HELI_NAV",
+                "camera_model_type": "CAHVORE"
+            },
+            "caption": "NASA's Ingenuity Mars Helicopter acquired this image using its navigation camera. This camera is mounted in the helicopter's fuselage and pointed directly downward to track the ground during flight. \n\nThis image was acquired on Apr. 30, 2021 (Sol 69 of the Perseverance rover mission) at the local mean solar time of 12:34:08.",
+            "sample_type": "Full",
+            "date_taken_mars": "Sol-00069M12:34:08.55934",
+            "credit": "NASA/JPL-Caltech",
+            "date_taken_utc": "2021-04-30T14:50:48.140387",
+            "json_link": "https://mars.nasa.gov/rss/api/?feed=raw_images&category=ingenuity&feedtype=json&id=HNM_0069_0673066095_931ECM_N0040001HELI01932_0000LUJ",
+            "link": "https://mars.nasa.gov/mars2020/multimedia/raw-images/HNM_0069_0673066095_931ECM_N0040001HELI01932_0000LUJ",
+            "drive": "1",
+            "title": "Mars Helicopter Sol 69: Navigation Camera",
+            "site": 4,
+            "date_received": "2021-05-28T19:54:57Z"
+        },
+        {
+            "extended": {
+                "mastAz": "UNK",
+                "mastEl": "UNK",
+                "sclk": "673066104.2628119",
+                "scaleFactor": "1",
+                "xyz": "UNK",
+                "subframeRect": "UNK",
+                "dimension": "(640,480)"
+            },
+            "sol": 69,
+            "attitude": "UNK",
+            "image_files": {
+                "medium": "https://mars.nasa.gov/mars2020-raw-images/pub/ods/surface/sol/00069/ids/edr/browse/heli/HNM_0069_0673066096_262ECM_N0040001HELI01942_0000LUJ02_800.jpg",
+                "small": "https://mars.nasa.gov/mars2020-raw-images/pub/ods/surface/sol/00069/ids/edr/browse/heli/HNM_0069_0673066096_262ECM_N0040001HELI01942_0000LUJ02_320.jpg",
+                "full_res": "https://mars.nasa.gov/mars2020-raw-images/pub/ods/surface/sol/00069/ids/edr/browse/heli/HNM_0069_0673066096_262ECM_N0040001HELI01942_0000LUJ02.png",
+                "large": "https://mars.nasa.gov/mars2020-raw-images/pub/ods/surface/sol/00069/ids/edr/browse/heli/HNM_0069_0673066096_262ECM_N0040001HELI01942_0000LUJ02_1200.jpg"
+            },
+            "imageid": "HNM_0069_0673066096_262ECM_N0040001HELI01942_0000LUJ",
+            "camera": {
+                "filter_name": "UNK",
+                "camera_vector": "UNK",
+                "camera_model_component_list": "(0.0,0.0619,0.1374);(0.00256683,-0.0580188,0.998312);(-0.0176873,-293.879,310.679);(276.142,-15.3003,248.479);(0.00583129,-0.0520831,0.998626);(0.0,0.001066,-0.000398);(0.0,0.0,0.0);3.0;0.0",
+                "camera_position": "(0.0,0.0619,0.1374)",
+                "instrument": "HELI_NAV",
+                "camera_model_type": "CAHVORE"
+            },
+            "caption": "NASA's Ingenuity Mars Helicopter acquired this image using its navigation camera. This camera is mounted in the helicopter's fuselage and pointed directly downward to track the ground during flight. \n\nThis image was acquired on Apr. 30, 2021 (Sol 69 of the Perseverance rover mission) at the local mean solar time of 12:34:08.",
+            "sample_type": "Full",
+            "date_taken_mars": "Sol-00069M12:34:08.88172",
+            "credit": "NASA/JPL-Caltech",
+            "date_taken_utc": "2021-04-30T14:50:48.471628",
+            "json_link": "https://mars.nasa.gov/rss/api/?feed=raw_images&category=ingenuity&feedtype=json&id=HNM_0069_0673066096_262ECM_N0040001HELI01942_0000LUJ",
+            "link": "https://mars.nasa.gov/mars2020/multimedia/raw-images/HNM_0069_0673066096_262ECM_N0040001HELI01942_0000LUJ",
+            "drive": "1",
+            "title": "Mars Helicopter Sol 69: Navigation Camera",
+            "site": 4,
+            "date_received": "2021-05-28T19:54:57Z"
+        },
+        {
+            "extended": {
+                "mastAz": "UNK",
+                "mastEl": "UNK",
+                "sclk": "673066104.594774",
+                "scaleFactor": "1",
+                "xyz": "UNK",
+                "subframeRect": "UNK",
+                "dimension": "(640,480)"
+            },
+            "sol": 69,
+            "attitude": "UNK",
+            "image_files": {
+                "medium": "https://mars.nasa.gov/mars2020-raw-images/pub/ods/surface/sol/00069/ids/edr/browse/heli/HNM_0069_0673066096_594ECM_N0040001HELI01952_0000LUJ02_800.jpg",
+                "small": "https://mars.nasa.gov/mars2020-raw-images/pub/ods/surface/sol/00069/ids/edr/browse/heli/HNM_0069_0673066096_594ECM_N0040001HELI01952_0000LUJ02_320.jpg",
+                "full_res": "https://mars.nasa.gov/mars2020-raw-images/pub/ods/surface/sol/00069/ids/edr/browse/heli/HNM_0069_0673066096_594ECM_N0040001HELI01952_0000LUJ02.png",
+                "large": "https://mars.nasa.gov/mars2020-raw-images/pub/ods/surface/sol/00069/ids/edr/browse/heli/HNM_0069_0673066096_594ECM_N0040001HELI01952_0000LUJ02_1200.jpg"
+            },
+            "imageid": "HNM_0069_0673066096_594ECM_N0040001HELI01952_0000LUJ",
+            "camera": {
+                "filter_name": "UNK",
+                "camera_vector": "UNK",
+                "camera_model_component_list": "(0.0,0.0619,0.1374);(0.00256683,-0.0580188,0.998312);(-0.0176873,-293.879,310.679);(276.142,-15.3003,248.479);(0.00583129,-0.0520831,0.998626);(0.0,0.001066,-0.000398);(0.0,0.0,0.0);3.0;0.0",
+                "camera_position": "(0.0,0.0619,0.1374)",
+                "instrument": "HELI_NAV",
+                "camera_model_type": "CAHVORE"
+            },
+            "caption": "NASA's Ingenuity Mars Helicopter acquired this image using its navigation camera. This camera is mounted in the helicopter's fuselage and pointed directly downward to track the ground during flight. \n\nThis image was acquired on Apr. 30, 2021 (Sol 69 of the Perseverance rover mission) at the local mean solar time of 12:34:09.",
+            "sample_type": "Full",
+            "date_taken_mars": "Sol-00069M12:34:09.20480",
+            "credit": "NASA/JPL-Caltech",
+            "date_taken_utc": "2021-04-30T14:50:48.803586",
+            "json_link": "https://mars.nasa.gov/rss/api/?feed=raw_images&category=ingenuity&feedtype=json&id=HNM_0069_0673066096_594ECM_N0040001HELI01952_0000LUJ",
+            "link": "https://mars.nasa.gov/mars2020/multimedia/raw-images/HNM_0069_0673066096_594ECM_N0040001HELI01952_0000LUJ",
+            "drive": "1",
+            "title": "Mars Helicopter Sol 69: Navigation Camera",
+            "site": 4,
+            "date_received": "2021-05-28T19:54:57Z"
+        },
+        {
+            "extended": {
+                "mastAz": "UNK",
+                "mastEl": "UNK",
+                "sclk": "673066104.927217",
+                "scaleFactor": "1",
+                "xyz": "UNK",
+                "subframeRect": "UNK",
+                "dimension": "(640,480)"
+            },
+            "sol": 69,
+            "attitude": "UNK",
+            "image_files": {
+                "medium": "https://mars.nasa.gov/mars2020-raw-images/pub/ods/surface/sol/00069/ids/edr/browse/heli/HNM_0069_0673066096_927ECM_N0040001HELI01962_0000LUJ02_800.jpg",
+                "small": "https://mars.nasa.gov/mars2020-raw-images/pub/ods/surface/sol/00069/ids/edr/browse/heli/HNM_0069_0673066096_927ECM_N0040001HELI01962_0000LUJ02_320.jpg",
+                "full_res": "https://mars.nasa.gov/mars2020-raw-images/pub/ods/surface/sol/00069/ids/edr/browse/heli/HNM_0069_0673066096_927ECM_N0040001HELI01962_0000LUJ02.png",
+                "large": "https://mars.nasa.gov/mars2020-raw-images/pub/ods/surface/sol/00069/ids/edr/browse/heli/HNM_0069_0673066096_927ECM_N0040001HELI01962_0000LUJ02_1200.jpg"
+            },
+            "imageid": "HNM_0069_0673066096_927ECM_N0040001HELI01962_0000LUJ",
+            "camera": {
+                "filter_name": "UNK",
+                "camera_vector": "UNK",
+                "camera_model_component_list": "(0.0,0.0619,0.1374);(0.00256683,-0.0580188,0.998312);(-0.0176873,-293.879,310.679);(276.142,-15.3003,248.479);(0.00583129,-0.0520831,0.998626);(0.0,0.001066,-0.000398);(0.0,0.0,0.0);3.0;0.0",
+                "camera_position": "(0.0,0.0619,0.1374)",
+                "instrument": "HELI_NAV",
+                "camera_model_type": "CAHVORE"
+            },
+            "caption": "NASA's Ingenuity Mars Helicopter acquired this image using its navigation camera. This camera is mounted in the helicopter's fuselage and pointed directly downward to track the ground during flight. \n\nThis image was acquired on Apr. 30, 2021 (Sol 69 of the Perseverance rover mission) at the local mean solar time of 12:34:09.",
+            "sample_type": "Full",
+            "date_taken_mars": "Sol-00069M12:34:09.52835",
+            "credit": "NASA/JPL-Caltech",
+            "date_taken_utc": "2021-04-30T14:50:49.136032",
+            "json_link": "https://mars.nasa.gov/rss/api/?feed=raw_images&category=ingenuity&feedtype=json&id=HNM_0069_0673066096_927ECM_N0040001HELI01962_0000LUJ",
+            "link": "https://mars.nasa.gov/mars2020/multimedia/raw-images/HNM_0069_0673066096_927ECM_N0040001HELI01962_0000LUJ",
+            "drive": "1",
+            "title": "Mars Helicopter Sol 69: Navigation Camera",
+            "site": 4,
+            "date_received": "2021-05-28T19:54:57Z"
+        },
+        {
+            "extended": {
+                "mastAz": "UNK",
+                "mastEl": "UNK",
+                "sclk": "673066105.2527261",
+                "scaleFactor": "1",
+                "xyz": "UNK",
+                "subframeRect": "UNK",
+                "dimension": "(640,480)"
+            },
+            "sol": 69,
+            "attitude": "UNK",
+            "image_files": {
+                "medium": "https://mars.nasa.gov/mars2020-raw-images/pub/ods/surface/sol/00069/ids/edr/browse/heli/HNM_0069_0673066097_252ECM_N0040001HELI01972_0000LUJ02_800.jpg",
+                "small": "https://mars.nasa.gov/mars2020-raw-images/pub/ods/surface/sol/00069/ids/edr/browse/heli/HNM_0069_0673066097_252ECM_N0040001HELI01972_0000LUJ02_320.jpg",
+                "full_res": "https://mars.nasa.gov/mars2020-raw-images/pub/ods/surface/sol/00069/ids/edr/browse/heli/HNM_0069_0673066097_252ECM_N0040001HELI01972_0000LUJ02.png",
+                "large": "https://mars.nasa.gov/mars2020-raw-images/pub/ods/surface/sol/00069/ids/edr/browse/heli/HNM_0069_0673066097_252ECM_N0040001HELI01972_0000LUJ02_1200.jpg"
+            },
+            "imageid": "HNM_0069_0673066097_252ECM_N0040001HELI01972_0000LUJ",
+            "camera": {
+                "filter_name": "UNK",
+                "camera_vector": "UNK",
+                "camera_model_component_list": "(0.0,0.0619,0.1374);(0.00256683,-0.0580188,0.998312);(-0.0176873,-293.879,310.679);(276.142,-15.3003,248.479);(0.00583129,-0.0520831,0.998626);(0.0,0.001066,-0.000398);(0.0,0.0,0.0);3.0;0.0",
+                "camera_position": "(0.0,0.0619,0.1374)",
+                "instrument": "HELI_NAV",
+                "camera_model_type": "CAHVORE"
+            },
+            "caption": "NASA's Ingenuity Mars Helicopter acquired this image using its navigation camera. This camera is mounted in the helicopter's fuselage and pointed directly downward to track the ground during flight. \n\nThis image was acquired on Apr. 30, 2021 (Sol 69 of the Perseverance rover mission) at the local mean solar time of 12:34:09.",
+            "sample_type": "Full",
+            "date_taken_mars": "Sol-00069M12:34:09.84515",
+            "credit": "NASA/JPL-Caltech",
+            "date_taken_utc": "2021-04-30T14:50:49.461551",
+            "json_link": "https://mars.nasa.gov/rss/api/?feed=raw_images&category=ingenuity&feedtype=json&id=HNM_0069_0673066097_252ECM_N0040001HELI01972_0000LUJ",
+            "link": "https://mars.nasa.gov/mars2020/multimedia/raw-images/HNM_0069_0673066097_252ECM_N0040001HELI01972_0000LUJ",
+            "drive": "1",
+            "title": "Mars Helicopter Sol 69: Navigation Camera",
+            "site": 4,
+            "date_received": "2021-05-28T19:54:57Z"
+        },
+        {
+            "extended": {
+                "mastAz": "UNK",
+                "mastEl": "UNK",
+                "sclk": "673066105.58444",
+                "scaleFactor": "1",
+                "xyz": "UNK",
+                "subframeRect": "UNK",
+                "dimension": "(640,480)"
+            },
+            "sol": 69,
+            "attitude": "UNK",
+            "image_files": {
+                "medium": "https://mars.nasa.gov/mars2020-raw-images/pub/ods/surface/sol/00069/ids/edr/browse/heli/HNM_0069_0673066097_584ECM_N0040001HELI01982_0000LUJ02_800.jpg",
+                "small": "https://mars.nasa.gov/mars2020-raw-images/pub/ods/surface/sol/00069/ids/edr/browse/heli/HNM_0069_0673066097_584ECM_N0040001HELI01982_0000LUJ02_320.jpg",
+                "full_res": "https://mars.nasa.gov/mars2020-raw-images/pub/ods/surface/sol/00069/ids/edr/browse/heli/HNM_0069_0673066097_584ECM_N0040001HELI01982_0000LUJ02.png",
+                "large": "https://mars.nasa.gov/mars2020-raw-images/pub/ods/surface/sol/00069/ids/edr/browse/heli/HNM_0069_0673066097_584ECM_N0040001HELI01982_0000LUJ02_1200.jpg"
+            },
+            "imageid": "HNM_0069_0673066097_584ECM_N0040001HELI01982_0000LUJ",
+            "camera": {
+                "filter_name": "UNK",
+                "camera_vector": "UNK",
+                "camera_model_component_list": "(0.0,0.0619,0.1374);(0.00256683,-0.0580188,0.998312);(-0.0176873,-293.879,310.679);(276.142,-15.3003,248.479);(0.00583129,-0.0520831,0.998626);(0.0,0.001066,-0.000398);(0.0,0.0,0.0);3.0;0.0",
+                "camera_position": "(0.0,0.0619,0.1374)",
+                "instrument": "HELI_NAV",
+                "camera_model_type": "CAHVORE"
+            },
+            "caption": "NASA's Ingenuity Mars Helicopter acquired this image using its navigation camera. This camera is mounted in the helicopter's fuselage and pointed directly downward to track the ground during flight. \n\nThis image was acquired on Apr. 30, 2021 (Sol 69 of the Perseverance rover mission) at the local mean solar time of 12:34:10.",
+            "sample_type": "Full",
+            "date_taken_mars": "Sol-00069M12:34:10.16800",
+            "credit": "NASA/JPL-Caltech",
+            "date_taken_utc": "2021-04-30T14:50:49.793265",
+            "json_link": "https://mars.nasa.gov/rss/api/?feed=raw_images&category=ingenuity&feedtype=json&id=HNM_0069_0673066097_584ECM_N0040001HELI01982_0000LUJ",
+            "link": "https://mars.nasa.gov/mars2020/multimedia/raw-images/HNM_0069_0673066097_584ECM_N0040001HELI01982_0000LUJ",
+            "drive": "1",
+            "title": "Mars Helicopter Sol 69: Navigation Camera",
+            "site": 4,
+            "date_received": "2021-05-28T19:54:57Z"
+        },
+        {
+            "extended": {
+                "mastAz": "UNK",
+                "mastEl": "UNK",
+                "sclk": "673066105.9160819",
+                "scaleFactor": "1",
+                "xyz": "UNK",
+                "subframeRect": "UNK",
+                "dimension": "(640,480)"
+            },
+            "sol": 69,
+            "attitude": "UNK",
+            "image_files": {
+                "medium": "https://mars.nasa.gov/mars2020-raw-images/pub/ods/surface/sol/00069/ids/edr/browse/heli/HNM_0069_0673066097_916ECM_N0040001HELI01992_0000LUJ02_800.jpg",
+                "small": "https://mars.nasa.gov/mars2020-raw-images/pub/ods/surface/sol/00069/ids/edr/browse/heli/HNM_0069_0673066097_916ECM_N0040001HELI01992_0000LUJ02_320.jpg",
+                "full_res": "https://mars.nasa.gov/mars2020-raw-images/pub/ods/surface/sol/00069/ids/edr/browse/heli/HNM_0069_0673066097_916ECM_N0040001HELI01992_0000LUJ02.png",
+                "large": "https://mars.nasa.gov/mars2020-raw-images/pub/ods/surface/sol/00069/ids/edr/browse/heli/HNM_0069_0673066097_916ECM_N0040001HELI01992_0000LUJ02_1200.jpg"
+            },
+            "imageid": "HNM_0069_0673066097_916ECM_N0040001HELI01992_0000LUJ",
+            "camera": {
+                "filter_name": "UNK",
+                "camera_vector": "UNK",
+                "camera_model_component_list": "(0.0,0.0619,0.1374);(0.00256683,-0.0580188,0.998312);(-0.0176873,-293.879,310.679);(276.142,-15.3003,248.479);(0.00583129,-0.0520831,0.998626);(0.0,0.001066,-0.000398);(0.0,0.0,0.0);3.0;0.0",
+                "camera_position": "(0.0,0.0619,0.1374)",
+                "instrument": "HELI_NAV",
+                "camera_model_type": "CAHVORE"
+            },
+            "caption": "NASA's Ingenuity Mars Helicopter acquired this image using its navigation camera. This camera is mounted in the helicopter's fuselage and pointed directly downward to track the ground during flight. \n\nThis image was acquired on Apr. 30, 2021 (Sol 69 of the Perseverance rover mission) at the local mean solar time of 12:34:10.",
+            "sample_type": "Full",
+            "date_taken_mars": "Sol-00069M12:34:10.49077",
+            "credit": "NASA/JPL-Caltech",
+            "date_taken_utc": "2021-04-30T14:50:50.124902",
+            "json_link": "https://mars.nasa.gov/rss/api/?feed=raw_images&category=ingenuity&feedtype=json&id=HNM_0069_0673066097_916ECM_N0040001HELI01992_0000LUJ",
+            "link": "https://mars.nasa.gov/mars2020/multimedia/raw-images/HNM_0069_0673066097_916ECM_N0040001HELI01992_0000LUJ",
+            "drive": "1",
+            "title": "Mars Helicopter Sol 69: Navigation Camera",
+            "site": 4,
+            "date_received": "2021-05-28T19:54:57Z"
+        },
+        {
+            "extended": {
+                "mastAz": "UNK",
+                "mastEl": "UNK",
+                "sclk": "673066106.247895",
+                "scaleFactor": "1",
+                "xyz": "UNK",
+                "subframeRect": "UNK",
+                "dimension": "(640,480)"
+            },
+            "sol": 69,
+            "attitude": "UNK",
+            "image_files": {
+                "medium": "https://mars.nasa.gov/mars2020-raw-images/pub/ods/surface/sol/00069/ids/edr/browse/heli/HNM_0069_0673066098_247ECM_N0040001HELI02002_0000LUJ02_800.jpg",
+                "small": "https://mars.nasa.gov/mars2020-raw-images/pub/ods/surface/sol/00069/ids/edr/browse/heli/HNM_0069_0673066098_247ECM_N0040001HELI02002_0000LUJ02_320.jpg",
+                "full_res": "https://mars.nasa.gov/mars2020-raw-images/pub/ods/surface/sol/00069/ids/edr/browse/heli/HNM_0069_0673066098_247ECM_N0040001HELI02002_0000LUJ02.png",
+                "large": "https://mars.nasa.gov/mars2020-raw-images/pub/ods/surface/sol/00069/ids/edr/browse/heli/HNM_0069_0673066098_247ECM_N0040001HELI02002_0000LUJ02_1200.jpg"
+            },
+            "imageid": "HNM_0069_0673066098_247ECM_N0040001HELI02002_0000LUJ",
+            "camera": {
+                "filter_name": "UNK",
+                "camera_vector": "UNK",
+                "camera_model_component_list": "(0.0,0.0619,0.1374);(0.00256683,-0.0580188,0.998312);(-0.0176873,-293.879,310.679);(276.142,-15.3003,248.479);(0.00583129,-0.0520831,0.998626);(0.0,0.001066,-0.000398);(0.0,0.0,0.0);3.0;0.0",
+                "camera_position": "(0.0,0.0619,0.1374)",
+                "instrument": "HELI_NAV",
+                "camera_model_type": "CAHVORE"
+            },
+            "caption": "NASA's Ingenuity Mars Helicopter acquired this image using its navigation camera. This camera is mounted in the helicopter's fuselage and pointed directly downward to track the ground during flight. \n\nThis image was acquired on Apr. 30, 2021 (Sol 69 of the Perseverance rover mission) at the local mean solar time of 12:34:10.",
+            "sample_type": "Full",
+            "date_taken_mars": "Sol-00069M12:34:10.81371",
+            "credit": "NASA/JPL-Caltech",
+            "date_taken_utc": "2021-04-30T14:50:50.456723",
+            "json_link": "https://mars.nasa.gov/rss/api/?feed=raw_images&category=ingenuity&feedtype=json&id=HNM_0069_0673066098_247ECM_N0040001HELI02002_0000LUJ",
+            "link": "https://mars.nasa.gov/mars2020/multimedia/raw-images/HNM_0069_0673066098_247ECM_N0040001HELI02002_0000LUJ",
+            "drive": "1",
+            "title": "Mars Helicopter Sol 69: Navigation Camera",
+            "site": 4,
+            "date_received": "2021-05-28T19:54:57Z"
+        },
+        {
+            "extended": {
+                "mastAz": "UNK",
+                "mastEl": "UNK",
+                "sclk": "673066106.579606",
+                "scaleFactor": "1",
+                "xyz": "UNK",
+                "subframeRect": "UNK",
+                "dimension": "(640,480)"
+            },
+            "sol": 69,
+            "attitude": "UNK",
+            "image_files": {
+                "medium": "https://mars.nasa.gov/mars2020-raw-images/pub/ods/surface/sol/00069/ids/edr/browse/heli/HNM_0069_0673066098_579ECM_N0040001HELI02012_0000LUJ02_800.jpg",
+                "small": "https://mars.nasa.gov/mars2020-raw-images/pub/ods/surface/sol/00069/ids/edr/browse/heli/HNM_0069_0673066098_579ECM_N0040001HELI02012_0000LUJ02_320.jpg",
+                "full_res": "https://mars.nasa.gov/mars2020-raw-images/pub/ods/surface/sol/00069/ids/edr/browse/heli/HNM_0069_0673066098_579ECM_N0040001HELI02012_0000LUJ02.png",
+                "large": "https://mars.nasa.gov/mars2020-raw-images/pub/ods/surface/sol/00069/ids/edr/browse/heli/HNM_0069_0673066098_579ECM_N0040001HELI02012_0000LUJ02_1200.jpg"
+            },
+            "imageid": "HNM_0069_0673066098_579ECM_N0040001HELI02012_0000LUJ",
+            "camera": {
+                "filter_name": "UNK",
+                "camera_vector": "UNK",
+                "camera_model_component_list": "(0.0,0.0619,0.1374);(0.00256683,-0.0580188,0.998312);(-0.0176873,-293.879,310.679);(276.142,-15.3003,248.479);(0.00583129,-0.0520831,0.998626);(0.0,0.001066,-0.000398);(0.0,0.0,0.0);3.0;0.0",
+                "camera_position": "(0.0,0.0619,0.1374)",
+                "instrument": "HELI_NAV",
+                "camera_model_type": "CAHVORE"
+            },
+            "caption": "NASA's Ingenuity Mars Helicopter acquired this image using its navigation camera. This camera is mounted in the helicopter's fuselage and pointed directly downward to track the ground during flight. \n\nThis image was acquired on Apr. 30, 2021 (Sol 69 of the Perseverance rover mission) at the local mean solar time of 12:34:11.",
+            "sample_type": "Full",
+            "date_taken_mars": "Sol-00069M12:34:11.13654",
+            "credit": "NASA/JPL-Caltech",
+            "date_taken_utc": "2021-04-30T14:50:50.788436",
+            "json_link": "https://mars.nasa.gov/rss/api/?feed=raw_images&category=ingenuity&feedtype=json&id=HNM_0069_0673066098_579ECM_N0040001HELI02012_0000LUJ",
+            "link": "https://mars.nasa.gov/mars2020/multimedia/raw-images/HNM_0069_0673066098_579ECM_N0040001HELI02012_0000LUJ",
+            "drive": "1",
+            "title": "Mars Helicopter Sol 69: Navigation Camera",
+            "site": 4,
+            "date_received": "2021-05-28T19:54:57Z"
+        },
+        {
+            "extended": {
+                "mastAz": "UNK",
+                "mastEl": "UNK",
+                "sclk": "673066106.911377",
+                "scaleFactor": "1",
+                "xyz": "UNK",
+                "subframeRect": "UNK",
+                "dimension": "(640,480)"
+            },
+            "sol": 69,
+            "attitude": "UNK",
+            "image_files": {
+                "medium": "https://mars.nasa.gov/mars2020-raw-images/pub/ods/surface/sol/00069/ids/edr/browse/heli/HNM_0069_0673066098_911ECM_N0040001HELI02022_0000LUJ02_800.jpg",
+                "small": "https://mars.nasa.gov/mars2020-raw-images/pub/ods/surface/sol/00069/ids/edr/browse/heli/HNM_0069_0673066098_911ECM_N0040001HELI02022_0000LUJ02_320.jpg",
+                "full_res": "https://mars.nasa.gov/mars2020-raw-images/pub/ods/surface/sol/00069/ids/edr/browse/heli/HNM_0069_0673066098_911ECM_N0040001HELI02022_0000LUJ02.png",
+                "large": "https://mars.nasa.gov/mars2020-raw-images/pub/ods/surface/sol/00069/ids/edr/browse/heli/HNM_0069_0673066098_911ECM_N0040001HELI02022_0000LUJ02_1200.jpg"
+            },
+            "imageid": "HNM_0069_0673066098_911ECM_N0040001HELI02022_0000LUJ",
+            "camera": {
+                "filter_name": "UNK",
+                "camera_vector": "UNK",
+                "camera_model_component_list": "(0.0,0.0619,0.1374);(0.00256683,-0.0580188,0.998312);(-0.0176873,-293.879,310.679);(276.142,-15.3003,248.479);(0.00583129,-0.0520831,0.998626);(0.0,0.001066,-0.000398);(0.0,0.0,0.0);3.0;0.0",
+                "camera_position": "(0.0,0.0619,0.1374)",
+                "instrument": "HELI_NAV",
+                "camera_model_type": "CAHVORE"
+            },
+            "caption": "NASA's Ingenuity Mars Helicopter acquired this image using its navigation camera. This camera is mounted in the helicopter's fuselage and pointed directly downward to track the ground during flight. \n\nThis image was acquired on Apr. 30, 2021 (Sol 69 of the Perseverance rover mission) at the local mean solar time of 12:34:11.",
+            "sample_type": "Full",
+            "date_taken_mars": "Sol-00069M12:34:11.45945",
+            "credit": "NASA/JPL-Caltech",
+            "date_taken_utc": "2021-04-30T14:50:51.120211",
+            "json_link": "https://mars.nasa.gov/rss/api/?feed=raw_images&category=ingenuity&feedtype=json&id=HNM_0069_0673066098_911ECM_N0040001HELI02022_0000LUJ",
+            "link": "https://mars.nasa.gov/mars2020/multimedia/raw-images/HNM_0069_0673066098_911ECM_N0040001HELI02022_0000LUJ",
+            "drive": "1",
+            "title": "Mars Helicopter Sol 69: Navigation Camera",
+            "site": 4,
+            "date_received": "2021-05-28T19:54:57Z"
+        },
+        {
+            "extended": {
+                "mastAz": "UNK",
+                "mastEl": "UNK",
+                "sclk": "673066107.2430849",
+                "scaleFactor": "1",
+                "xyz": "UNK",
+                "subframeRect": "UNK",
+                "dimension": "(640,480)"
+            },
+            "sol": 69,
+            "attitude": "UNK",
+            "image_files": {
+                "medium": "https://mars.nasa.gov/mars2020-raw-images/pub/ods/surface/sol/00069/ids/edr/browse/heli/HNM_0069_0673066099_243ECM_N0040001HELI02032_0000LUJ02_800.jpg",
+                "small": "https://mars.nasa.gov/mars2020-raw-images/pub/ods/surface/sol/00069/ids/edr/browse/heli/HNM_0069_0673066099_243ECM_N0040001HELI02032_0000LUJ02_320.jpg",
+                "full_res": "https://mars.nasa.gov/mars2020-raw-images/pub/ods/surface/sol/00069/ids/edr/browse/heli/HNM_0069_0673066099_243ECM_N0040001HELI02032_0000LUJ02.png",
+                "large": "https://mars.nasa.gov/mars2020-raw-images/pub/ods/surface/sol/00069/ids/edr/browse/heli/HNM_0069_0673066099_243ECM_N0040001HELI02032_0000LUJ02_1200.jpg"
+            },
+            "imageid": "HNM_0069_0673066099_243ECM_N0040001HELI02032_0000LUJ",
+            "camera": {
+                "filter_name": "UNK",
+                "camera_vector": "UNK",
+                "camera_model_component_list": "(0.0,0.0619,0.1374);(0.00256683,-0.0580188,0.998312);(-0.0176873,-293.879,310.679);(276.142,-15.3003,248.479);(0.00583129,-0.0520831,0.998626);(0.0,0.001066,-0.000398);(0.0,0.0,0.0);3.0;0.0",
+                "camera_position": "(0.0,0.0619,0.1374)",
+                "instrument": "HELI_NAV",
+                "camera_model_type": "CAHVORE"
+            },
+            "caption": "NASA's Ingenuity Mars Helicopter acquired this image using its navigation camera. This camera is mounted in the helicopter's fuselage and pointed directly downward to track the ground during flight. \n\nThis image was acquired on Apr. 30, 2021 (Sol 69 of the Perseverance rover mission) at the local mean solar time of 12:34:11.",
+            "sample_type": "Full",
+            "date_taken_mars": "Sol-00069M12:34:11.78228",
+            "credit": "NASA/JPL-Caltech",
+            "date_taken_utc": "2021-04-30T14:50:51.451925",
+            "json_link": "https://mars.nasa.gov/rss/api/?feed=raw_images&category=ingenuity&feedtype=json&id=HNM_0069_0673066099_243ECM_N0040001HELI02032_0000LUJ",
+            "link": "https://mars.nasa.gov/mars2020/multimedia/raw-images/HNM_0069_0673066099_243ECM_N0040001HELI02032_0000LUJ",
+            "drive": "1",
+            "title": "Mars Helicopter Sol 69: Navigation Camera",
+            "site": 4,
+            "date_received": "2021-05-28T19:54:57Z"
+        },
+        {
+            "extended": {
+                "mastAz": "UNK",
+                "mastEl": "UNK",
+                "sclk": "673066107.5748429",
+                "scaleFactor": "1",
+                "xyz": "UNK",
+                "subframeRect": "UNK",
+                "dimension": "(640,480)"
+            },
+            "sol": 69,
+            "attitude": "UNK",
+            "image_files": {
+                "medium": "https://mars.nasa.gov/mars2020-raw-images/pub/ods/surface/sol/00069/ids/edr/browse/heli/HNM_0069_0673066099_574ECM_N0040001HELI02042_0000LUJ02_800.jpg",
+                "small": "https://mars.nasa.gov/mars2020-raw-images/pub/ods/surface/sol/00069/ids/edr/browse/heli/HNM_0069_0673066099_574ECM_N0040001HELI02042_0000LUJ02_320.jpg",
+                "full_res": "https://mars.nasa.gov/mars2020-raw-images/pub/ods/surface/sol/00069/ids/edr/browse/heli/HNM_0069_0673066099_574ECM_N0040001HELI02042_0000LUJ02.png",
+                "large": "https://mars.nasa.gov/mars2020-raw-images/pub/ods/surface/sol/00069/ids/edr/browse/heli/HNM_0069_0673066099_574ECM_N0040001HELI02042_0000LUJ02_1200.jpg"
+            },
+            "imageid": "HNM_0069_0673066099_574ECM_N0040001HELI02042_0000LUJ",
+            "camera": {
+                "filter_name": "UNK",
+                "camera_vector": "UNK",
+                "camera_model_component_list": "(0.0,0.0619,0.1374);(0.00256683,-0.0580188,0.998312);(-0.0176873,-293.879,310.679);(276.142,-15.3003,248.479);(0.00583129,-0.0520831,0.998626);(0.0,0.001066,-0.000398);(0.0,0.0,0.0);3.0;0.0",
+                "camera_position": "(0.0,0.0619,0.1374)",
+                "instrument": "HELI_NAV",
+                "camera_model_type": "CAHVORE"
+            },
+            "caption": "NASA's Ingenuity Mars Helicopter acquired this image using its navigation camera. This camera is mounted in the helicopter's fuselage and pointed directly downward to track the ground during flight. \n\nThis image was acquired on Apr. 30, 2021 (Sol 69 of the Perseverance rover mission) at the local mean solar time of 12:34:12.",
+            "sample_type": "Full",
+            "date_taken_mars": "Sol-00069M12:34:12.10516",
+            "credit": "NASA/JPL-Caltech",
+            "date_taken_utc": "2021-04-30T14:50:51.783684",
+            "json_link": "https://mars.nasa.gov/rss/api/?feed=raw_images&category=ingenuity&feedtype=json&id=HNM_0069_0673066099_574ECM_N0040001HELI02042_0000LUJ",
+            "link": "https://mars.nasa.gov/mars2020/multimedia/raw-images/HNM_0069_0673066099_574ECM_N0040001HELI02042_0000LUJ",
+            "drive": "1",
+            "title": "Mars Helicopter Sol 69: Navigation Camera",
+            "site": 4,
+            "date_received": "2021-05-28T19:54:57Z"
+        },
+        {
+            "extended": {
+                "mastAz": "UNK",
+                "mastEl": "UNK",
+                "sclk": "673066107.9067521",
+                "scaleFactor": "1",
+                "xyz": "UNK",
+                "subframeRect": "UNK",
+                "dimension": "(640,480)"
+            },
+            "sol": 69,
+            "attitude": "UNK",
+            "image_files": {
+                "medium": "https://mars.nasa.gov/mars2020-raw-images/pub/ods/surface/sol/00069/ids/edr/browse/heli/HNM_0069_0673066099_906ECM_N0040001HELI02052_0000LUJ02_800.jpg",
+                "small": "https://mars.nasa.gov/mars2020-raw-images/pub/ods/surface/sol/00069/ids/edr/browse/heli/HNM_0069_0673066099_906ECM_N0040001HELI02052_0000LUJ02_320.jpg",
+                "full_res": "https://mars.nasa.gov/mars2020-raw-images/pub/ods/surface/sol/00069/ids/edr/browse/heli/HNM_0069_0673066099_906ECM_N0040001HELI02052_0000LUJ02.png",
+                "large": "https://mars.nasa.gov/mars2020-raw-images/pub/ods/surface/sol/00069/ids/edr/browse/heli/HNM_0069_0673066099_906ECM_N0040001HELI02052_0000LUJ02_1200.jpg"
+            },
+            "imageid": "HNM_0069_0673066099_906ECM_N0040001HELI02052_0000LUJ",
+            "camera": {
+                "filter_name": "UNK",
+                "camera_vector": "UNK",
+                "camera_model_component_list": "(0.0,0.0619,0.1374);(0.00256683,-0.0580188,0.998312);(-0.0176873,-293.879,310.679);(276.142,-15.3003,248.479);(0.00583129,-0.0520831,0.998626);(0.0,0.001066,-0.000398);(0.0,0.0,0.0);3.0;0.0",
+                "camera_position": "(0.0,0.0619,0.1374)",
+                "instrument": "HELI_NAV",
+                "camera_model_type": "CAHVORE"
+            },
+            "caption": "NASA's Ingenuity Mars Helicopter acquired this image using its navigation camera. This camera is mounted in the helicopter's fuselage and pointed directly downward to track the ground during flight. \n\nThis image was acquired on Apr. 30, 2021 (Sol 69 of the Perseverance rover mission) at the local mean solar time of 12:34:12.",
+            "sample_type": "Full",
+            "date_taken_mars": "Sol-00069M12:34:12.42819",
+            "credit": "NASA/JPL-Caltech",
+            "date_taken_utc": "2021-04-30T14:50:52.115597",
+            "json_link": "https://mars.nasa.gov/rss/api/?feed=raw_images&category=ingenuity&feedtype=json&id=HNM_0069_0673066099_906ECM_N0040001HELI02052_0000LUJ",
+            "link": "https://mars.nasa.gov/mars2020/multimedia/raw-images/HNM_0069_0673066099_906ECM_N0040001HELI02052_0000LUJ",
+            "drive": "1",
+            "title": "Mars Helicopter Sol 69: Navigation Camera",
+            "site": 4,
+            "date_received": "2021-05-28T19:54:57Z"
+        },
+        {
+            "extended": {
+                "mastAz": "UNK",
+                "mastEl": "UNK",
+                "sclk": "673066108.2383239",
+                "scaleFactor": "1",
+                "xyz": "UNK",
+                "subframeRect": "UNK",
+                "dimension": "(640,480)"
+            },
+            "sol": 69,
+            "attitude": "UNK",
+            "image_files": {
+                "medium": "https://mars.nasa.gov/mars2020-raw-images/pub/ods/surface/sol/00069/ids/edr/browse/heli/HNM_0069_0673066100_238ECM_N0040001HELI02062_0000LUJ02_800.jpg",
+                "small": "https://mars.nasa.gov/mars2020-raw-images/pub/ods/surface/sol/00069/ids/edr/browse/heli/HNM_0069_0673066100_238ECM_N0040001HELI02062_0000LUJ02_320.jpg",
+                "full_res": "https://mars.nasa.gov/mars2020-raw-images/pub/ods/surface/sol/00069/ids/edr/browse/heli/HNM_0069_0673066100_238ECM_N0040001HELI02062_0000LUJ02.png",
+                "large": "https://mars.nasa.gov/mars2020-raw-images/pub/ods/surface/sol/00069/ids/edr/browse/heli/HNM_0069_0673066100_238ECM_N0040001HELI02062_0000LUJ02_1200.jpg"
+            },
+            "imageid": "HNM_0069_0673066100_238ECM_N0040001HELI02062_0000LUJ",
+            "camera": {
+                "filter_name": "UNK",
+                "camera_vector": "UNK",
+                "camera_model_component_list": "(0.0,0.0619,0.1374);(0.00256683,-0.0580188,0.998312);(-0.0176873,-293.879,310.679);(276.142,-15.3003,248.479);(0.00583129,-0.0520831,0.998626);(0.0,0.001066,-0.000398);(0.0,0.0,0.0);3.0;0.0",
+                "camera_position": "(0.0,0.0619,0.1374)",
+                "instrument": "HELI_NAV",
+                "camera_model_type": "CAHVORE"
+            },
+            "caption": "NASA's Ingenuity Mars Helicopter acquired this image using its navigation camera. This camera is mounted in the helicopter's fuselage and pointed directly downward to track the ground during flight. \n\nThis image was acquired on Apr. 30, 2021 (Sol 69 of the Perseverance rover mission) at the local mean solar time of 12:34:12.",
+            "sample_type": "Full",
+            "date_taken_mars": "Sol-00069M12:34:12.75090",
+            "credit": "NASA/JPL-Caltech",
+            "date_taken_utc": "2021-04-30T14:50:52.447173",
+            "json_link": "https://mars.nasa.gov/rss/api/?feed=raw_images&category=ingenuity&feedtype=json&id=HNM_0069_0673066100_238ECM_N0040001HELI02062_0000LUJ",
+            "link": "https://mars.nasa.gov/mars2020/multimedia/raw-images/HNM_0069_0673066100_238ECM_N0040001HELI02062_0000LUJ",
+            "drive": "1",
+            "title": "Mars Helicopter Sol 69: Navigation Camera",
+            "site": 4,
+            "date_received": "2021-05-28T19:54:57Z"
+        },
+        {
+            "extended": {
+                "mastAz": "UNK",
+                "mastEl": "UNK",
+                "sclk": "673066108.5700281",
+                "scaleFactor": "1",
+                "xyz": "UNK",
+                "subframeRect": "UNK",
+                "dimension": "(640,480)"
+            },
+            "sol": 69,
+            "attitude": "UNK",
+            "image_files": {
+                "medium": "https://mars.nasa.gov/mars2020-raw-images/pub/ods/surface/sol/00069/ids/edr/browse/heli/HNM_0069_0673066100_570ECM_N0040001HELI02072_0000LUJ02_800.jpg",
+                "small": "https://mars.nasa.gov/mars2020-raw-images/pub/ods/surface/sol/00069/ids/edr/browse/heli/HNM_0069_0673066100_570ECM_N0040001HELI02072_0000LUJ02_320.jpg",
+                "full_res": "https://mars.nasa.gov/mars2020-raw-images/pub/ods/surface/sol/00069/ids/edr/browse/heli/HNM_0069_0673066100_570ECM_N0040001HELI02072_0000LUJ02.png",
+                "large": "https://mars.nasa.gov/mars2020-raw-images/pub/ods/surface/sol/00069/ids/edr/browse/heli/HNM_0069_0673066100_570ECM_N0040001HELI02072_0000LUJ02_1200.jpg"
+            },
+            "imageid": "HNM_0069_0673066100_570ECM_N0040001HELI02072_0000LUJ",
+            "camera": {
+                "filter_name": "UNK",
+                "camera_vector": "UNK",
+                "camera_model_component_list": "(0.0,0.0619,0.1374);(0.00256683,-0.0580188,0.998312);(-0.0176873,-293.879,310.679);(276.142,-15.3003,248.479);(0.00583129,-0.0520831,0.998626);(0.0,0.001066,-0.000398);(0.0,0.0,0.0);3.0;0.0",
+                "camera_position": "(0.0,0.0619,0.1374)",
+                "instrument": "HELI_NAV",
+                "camera_model_type": "CAHVORE"
+            },
+            "caption": "NASA's Ingenuity Mars Helicopter acquired this image using its navigation camera. This camera is mounted in the helicopter's fuselage and pointed directly downward to track the ground during flight. \n\nThis image was acquired on Apr. 30, 2021 (Sol 69 of the Perseverance rover mission) at the local mean solar time of 12:34:13.",
+            "sample_type": "Full",
+            "date_taken_mars": "Sol-00069M12:34:13.07373",
+            "credit": "NASA/JPL-Caltech",
+            "date_taken_utc": "2021-04-30T14:50:52.778872",
+            "json_link": "https://mars.nasa.gov/rss/api/?feed=raw_images&category=ingenuity&feedtype=json&id=HNM_0069_0673066100_570ECM_N0040001HELI02072_0000LUJ",
+            "link": "https://mars.nasa.gov/mars2020/multimedia/raw-images/HNM_0069_0673066100_570ECM_N0040001HELI02072_0000LUJ",
+            "drive": "1",
+            "title": "Mars Helicopter Sol 69: Navigation Camera",
+            "site": 4,
+            "date_received": "2021-05-28T19:54:57Z"
+        },
+        {
+            "extended": {
+                "mastAz": "UNK",
+                "mastEl": "UNK",
+                "sclk": "673066108.901798",
+                "scaleFactor": "1",
+                "xyz": "UNK",
+                "subframeRect": "UNK",
+                "dimension": "(640,480)"
+            },
+            "sol": 69,
+            "attitude": "UNK",
+            "image_files": {
+                "medium": "https://mars.nasa.gov/mars2020-raw-images/pub/ods/surface/sol/00069/ids/edr/browse/heli/HNM_0069_0673066100_901ECM_N0040001HELI02082_0000LUJ02_800.jpg",
+                "small": "https://mars.nasa.gov/mars2020-raw-images/pub/ods/surface/sol/00069/ids/edr/browse/heli/HNM_0069_0673066100_901ECM_N0040001HELI02082_0000LUJ02_320.jpg",
+                "full_res": "https://mars.nasa.gov/mars2020-raw-images/pub/ods/surface/sol/00069/ids/edr/browse/heli/HNM_0069_0673066100_901ECM_N0040001HELI02082_0000LUJ02.png",
+                "large": "https://mars.nasa.gov/mars2020-raw-images/pub/ods/surface/sol/00069/ids/edr/browse/heli/HNM_0069_0673066100_901ECM_N0040001HELI02082_0000LUJ02_1200.jpg"
+            },
+            "imageid": "HNM_0069_0673066100_901ECM_N0040001HELI02082_0000LUJ",
+            "camera": {
+                "filter_name": "UNK",
+                "camera_vector": "UNK",
+                "camera_model_component_list": "(0.0,0.0619,0.1374);(0.00256683,-0.0580188,0.998312);(-0.0176873,-293.879,310.679);(276.142,-15.3003,248.479);(0.00583129,-0.0520831,0.998626);(0.0,0.001066,-0.000398);(0.0,0.0,0.0);3.0;0.0",
+                "camera_position": "(0.0,0.0619,0.1374)",
+                "instrument": "HELI_NAV",
+                "camera_model_type": "CAHVORE"
+            },
+            "caption": "NASA's Ingenuity Mars Helicopter acquired this image using its navigation camera. This camera is mounted in the helicopter's fuselage and pointed directly downward to track the ground during flight. \n\nThis image was acquired on Apr. 30, 2021 (Sol 69 of the Perseverance rover mission) at the local mean solar time of 12:34:13.",
+            "sample_type": "Full",
+            "date_taken_mars": "Sol-00069M12:34:13.39662",
+            "credit": "NASA/JPL-Caltech",
+            "date_taken_utc": "2021-04-30T14:50:53.110646",
+            "json_link": "https://mars.nasa.gov/rss/api/?feed=raw_images&category=ingenuity&feedtype=json&id=HNM_0069_0673066100_901ECM_N0040001HELI02082_0000LUJ",
+            "link": "https://mars.nasa.gov/mars2020/multimedia/raw-images/HNM_0069_0673066100_901ECM_N0040001HELI02082_0000LUJ",
+            "drive": "1",
+            "title": "Mars Helicopter Sol 69: Navigation Camera",
+            "site": 4,
+            "date_received": "2021-05-28T19:54:57Z"
+        },
+        {
+            "extended": {
+                "mastAz": "UNK",
+                "mastEl": "UNK",
+                "sclk": "673066109.233525",
+                "scaleFactor": "1",
+                "xyz": "UNK",
+                "subframeRect": "UNK",
+                "dimension": "(640,480)"
+            },
+            "sol": 69,
+            "attitude": "UNK",
+            "image_files": {
+                "medium": "https://mars.nasa.gov/mars2020-raw-images/pub/ods/surface/sol/00069/ids/edr/browse/heli/HNM_0069_0673066101_233ECM_N0040001HELI02092_0000LUJ02_800.jpg",
+                "small": "https://mars.nasa.gov/mars2020-raw-images/pub/ods/surface/sol/00069/ids/edr/browse/heli/HNM_0069_0673066101_233ECM_N0040001HELI02092_0000LUJ02_320.jpg",
+                "full_res": "https://mars.nasa.gov/mars2020-raw-images/pub/ods/surface/sol/00069/ids/edr/browse/heli/HNM_0069_0673066101_233ECM_N0040001HELI02092_0000LUJ02.png",
+                "large": "https://mars.nasa.gov/mars2020-raw-images/pub/ods/surface/sol/00069/ids/edr/browse/heli/HNM_0069_0673066101_233ECM_N0040001HELI02092_0000LUJ02_1200.jpg"
+            },
+            "imageid": "HNM_0069_0673066101_233ECM_N0040001HELI02092_0000LUJ",
+            "camera": {
+                "filter_name": "UNK",
+                "camera_vector": "UNK",
+                "camera_model_component_list": "(0.0,0.0619,0.1374);(0.00256683,-0.0580188,0.998312);(-0.0176873,-293.879,310.679);(276.142,-15.3003,248.479);(0.00583129,-0.0520831,0.998626);(0.0,0.001066,-0.000398);(0.0,0.0,0.0);3.0;0.0",
+                "camera_position": "(0.0,0.0619,0.1374)",
+                "instrument": "HELI_NAV",
+                "camera_model_type": "CAHVORE"
+            },
+            "caption": "NASA's Ingenuity Mars Helicopter acquired this image using its navigation camera. This camera is mounted in the helicopter's fuselage and pointed directly downward to track the ground during flight. \n\nThis image was acquired on Apr. 30, 2021 (Sol 69 of the Perseverance rover mission) at the local mean solar time of 12:34:13.",
+            "sample_type": "Full",
+            "date_taken_mars": "Sol-00069M12:34:13.71947",
+            "credit": "NASA/JPL-Caltech",
+            "date_taken_utc": "2021-04-30T14:50:53.442375",
+            "json_link": "https://mars.nasa.gov/rss/api/?feed=raw_images&category=ingenuity&feedtype=json&id=HNM_0069_0673066101_233ECM_N0040001HELI02092_0000LUJ",
+            "link": "https://mars.nasa.gov/mars2020/multimedia/raw-images/HNM_0069_0673066101_233ECM_N0040001HELI02092_0000LUJ",
+            "drive": "1",
+            "title": "Mars Helicopter Sol 69: Navigation Camera",
+            "site": 4,
+            "date_received": "2021-05-28T19:54:57Z"
+        },
+        {
+            "extended": {
+                "mastAz": "UNK",
+                "mastEl": "UNK",
+                "sclk": "673066109.5652201",
+                "scaleFactor": "1",
+                "xyz": "UNK",
+                "subframeRect": "UNK",
+                "dimension": "(640,480)"
+            },
+            "sol": 69,
+            "attitude": "UNK",
+            "image_files": {
+                "medium": "https://mars.nasa.gov/mars2020-raw-images/pub/ods/surface/sol/00069/ids/edr/browse/heli/HNM_0069_0673066101_565ECM_N0040001HELI02102_0000LUJ02_800.jpg",
+                "small": "https://mars.nasa.gov/mars2020-raw-images/pub/ods/surface/sol/00069/ids/edr/browse/heli/HNM_0069_0673066101_565ECM_N0040001HELI02102_0000LUJ02_320.jpg",
+                "full_res": "https://mars.nasa.gov/mars2020-raw-images/pub/ods/surface/sol/00069/ids/edr/browse/heli/HNM_0069_0673066101_565ECM_N0040001HELI02102_0000LUJ02.png",
+                "large": "https://mars.nasa.gov/mars2020-raw-images/pub/ods/surface/sol/00069/ids/edr/browse/heli/HNM_0069_0673066101_565ECM_N0040001HELI02102_0000LUJ02_1200.jpg"
+            },
+            "imageid": "HNM_0069_0673066101_565ECM_N0040001HELI02102_0000LUJ",
+            "camera": {
+                "filter_name": "UNK",
+                "camera_vector": "UNK",
+                "camera_model_component_list": "(0.0,0.0619,0.1374);(0.00256683,-0.0580188,0.998312);(-0.0176873,-293.879,310.679);(276.142,-15.3003,248.479);(0.00583129,-0.0520831,0.998626);(0.0,0.001066,-0.000398);(0.0,0.0,0.0);3.0;0.0",
+                "camera_position": "(0.0,0.0619,0.1374)",
+                "instrument": "HELI_NAV",
+                "camera_model_type": "CAHVORE"
+            },
+            "caption": "NASA's Ingenuity Mars Helicopter acquired this image using its navigation camera. This camera is mounted in the helicopter's fuselage and pointed directly downward to track the ground during flight. \n\nThis image was acquired on Apr. 30, 2021 (Sol 69 of the Perseverance rover mission) at the local mean solar time of 12:34:14.",
+            "sample_type": "Full",
+            "date_taken_mars": "Sol-00069M12:34:14.04230",
+            "credit": "NASA/JPL-Caltech",
+            "date_taken_utc": "2021-04-30T14:50:53.774074",
+            "json_link": "https://mars.nasa.gov/rss/api/?feed=raw_images&category=ingenuity&feedtype=json&id=HNM_0069_0673066101_565ECM_N0040001HELI02102_0000LUJ",
+            "link": "https://mars.nasa.gov/mars2020/multimedia/raw-images/HNM_0069_0673066101_565ECM_N0040001HELI02102_0000LUJ",
+            "drive": "1",
+            "title": "Mars Helicopter Sol 69: Navigation Camera",
+            "site": 4,
+            "date_received": "2021-05-28T19:54:57Z"
+        },
+        {
+            "extended": {
+                "mastAz": "UNK",
+                "mastEl": "UNK",
+                "sclk": "673066109.897059",
+                "scaleFactor": "1",
+                "xyz": "UNK",
+                "subframeRect": "UNK",
+                "dimension": "(640,480)"
+            },
+            "sol": 69,
+            "attitude": "UNK",
+            "image_files": {
+                "medium": "https://mars.nasa.gov/mars2020-raw-images/pub/ods/surface/sol/00069/ids/edr/browse/heli/HNM_0069_0673066101_897ECM_N0040001HELI02112_0000LUJ02_800.jpg",
+                "small": "https://mars.nasa.gov/mars2020-raw-images/pub/ods/surface/sol/00069/ids/edr/browse/heli/HNM_0069_0673066101_897ECM_N0040001HELI02112_0000LUJ02_320.jpg",
+                "full_res": "https://mars.nasa.gov/mars2020-raw-images/pub/ods/surface/sol/00069/ids/edr/browse/heli/HNM_0069_0673066101_897ECM_N0040001HELI02112_0000LUJ02.png",
+                "large": "https://mars.nasa.gov/mars2020-raw-images/pub/ods/surface/sol/00069/ids/edr/browse/heli/HNM_0069_0673066101_897ECM_N0040001HELI02112_0000LUJ02_1200.jpg"
+            },
+            "imageid": "HNM_0069_0673066101_897ECM_N0040001HELI02112_0000LUJ",
+            "camera": {
+                "filter_name": "UNK",
+                "camera_vector": "UNK",
+                "camera_model_component_list": "(0.0,0.0619,0.1374);(0.00256683,-0.0580188,0.998312);(-0.0176873,-293.879,310.679);(276.142,-15.3003,248.479);(0.00583129,-0.0520831,0.998626);(0.0,0.001066,-0.000398);(0.0,0.0,0.0);3.0;0.0",
+                "camera_position": "(0.0,0.0619,0.1374)",
+                "instrument": "HELI_NAV",
+                "camera_model_type": "CAHVORE"
+            },
+            "caption": "NASA's Ingenuity Mars Helicopter acquired this image using its navigation camera. This camera is mounted in the helicopter's fuselage and pointed directly downward to track the ground during flight. \n\nThis image was acquired on Apr. 30, 2021 (Sol 69 of the Perseverance rover mission) at the local mean solar time of 12:34:14.",
+            "sample_type": "Full",
+            "date_taken_mars": "Sol-00069M12:34:14.36527",
+            "credit": "NASA/JPL-Caltech",
+            "date_taken_utc": "2021-04-30T14:50:54.105925",
+            "json_link": "https://mars.nasa.gov/rss/api/?feed=raw_images&category=ingenuity&feedtype=json&id=HNM_0069_0673066101_897ECM_N0040001HELI02112_0000LUJ",
+            "link": "https://mars.nasa.gov/mars2020/multimedia/raw-images/HNM_0069_0673066101_897ECM_N0040001HELI02112_0000LUJ",
+            "drive": "1",
+            "title": "Mars Helicopter Sol 69: Navigation Camera",
+            "site": 4,
+            "date_received": "2021-05-28T19:54:57Z"
+        },
+        {
+            "extended": {
+                "mastAz": "UNK",
+                "mastEl": "UNK",
+                "sclk": "673066110.228703",
+                "scaleFactor": "1",
+                "xyz": "UNK",
+                "subframeRect": "UNK",
+                "dimension": "(640,480)"
+            },
+            "sol": 69,
+            "attitude": "UNK",
+            "image_files": {
+                "medium": "https://mars.nasa.gov/mars2020-raw-images/pub/ods/surface/sol/00069/ids/edr/browse/heli/HNM_0069_0673066102_228ECM_N0040001HELI02122_0000LUJ02_800.jpg",
+                "small": "https://mars.nasa.gov/mars2020-raw-images/pub/ods/surface/sol/00069/ids/edr/browse/heli/HNM_0069_0673066102_228ECM_N0040001HELI02122_0000LUJ02_320.jpg",
+                "full_res": "https://mars.nasa.gov/mars2020-raw-images/pub/ods/surface/sol/00069/ids/edr/browse/heli/HNM_0069_0673066102_228ECM_N0040001HELI02122_0000LUJ02.png",
+                "large": "https://mars.nasa.gov/mars2020-raw-images/pub/ods/surface/sol/00069/ids/edr/browse/heli/HNM_0069_0673066102_228ECM_N0040001HELI02122_0000LUJ02_1200.jpg"
+            },
+            "imageid": "HNM_0069_0673066102_228ECM_N0040001HELI02122_0000LUJ",
+            "camera": {
+                "filter_name": "UNK",
+                "camera_vector": "UNK",
+                "camera_model_component_list": "(0.0,0.0619,0.1374);(0.00256683,-0.0580188,0.998312);(-0.0176873,-293.879,310.679);(276.142,-15.3003,248.479);(0.00583129,-0.0520831,0.998626);(0.0,0.001066,-0.000398);(0.0,0.0,0.0);3.0;0.0",
+                "camera_position": "(0.0,0.0619,0.1374)",
+                "instrument": "HELI_NAV",
+                "camera_model_type": "CAHVORE"
+            },
+            "caption": "NASA's Ingenuity Mars Helicopter acquired this image using its navigation camera. This camera is mounted in the helicopter's fuselage and pointed directly downward to track the ground during flight. \n\nThis image was acquired on Apr. 30, 2021 (Sol 69 of the Perseverance rover mission) at the local mean solar time of 12:34:14.",
+            "sample_type": "Full",
+            "date_taken_mars": "Sol-00069M12:34:14.68804",
+            "credit": "NASA/JPL-Caltech",
+            "date_taken_utc": "2021-04-30T14:50:54.437562",
+            "json_link": "https://mars.nasa.gov/rss/api/?feed=raw_images&category=ingenuity&feedtype=json&id=HNM_0069_0673066102_228ECM_N0040001HELI02122_0000LUJ",
+            "link": "https://mars.nasa.gov/mars2020/multimedia/raw-images/HNM_0069_0673066102_228ECM_N0040001HELI02122_0000LUJ",
+            "drive": "1",
+            "title": "Mars Helicopter Sol 69: Navigation Camera",
+            "site": 4,
+            "date_received": "2021-05-28T19:54:57Z"
+        },
+        {
+            "extended": {
+                "mastAz": "UNK",
+                "mastEl": "UNK",
+                "sclk": "673066110.5604529",
+                "scaleFactor": "1",
+                "xyz": "UNK",
+                "subframeRect": "UNK",
+                "dimension": "(640,480)"
+            },
+            "sol": 69,
+            "attitude": "UNK",
+            "image_files": {
+                "medium": "https://mars.nasa.gov/mars2020-raw-images/pub/ods/surface/sol/00069/ids/edr/browse/heli/HNM_0069_0673066102_560ECM_N0040001HELI02132_0000LUJ02_800.jpg",
+                "small": "https://mars.nasa.gov/mars2020-raw-images/pub/ods/surface/sol/00069/ids/edr/browse/heli/HNM_0069_0673066102_560ECM_N0040001HELI02132_0000LUJ02_320.jpg",
+                "full_res": "https://mars.nasa.gov/mars2020-raw-images/pub/ods/surface/sol/00069/ids/edr/browse/heli/HNM_0069_0673066102_560ECM_N0040001HELI02132_0000LUJ02.png",
+                "large": "https://mars.nasa.gov/mars2020-raw-images/pub/ods/surface/sol/00069/ids/edr/browse/heli/HNM_0069_0673066102_560ECM_N0040001HELI02132_0000LUJ02_1200.jpg"
+            },
+            "imageid": "HNM_0069_0673066102_560ECM_N0040001HELI02132_0000LUJ",
+            "camera": {
+                "filter_name": "UNK",
+                "camera_vector": "UNK",
+                "camera_model_component_list": "(0.0,0.0619,0.1374);(0.00256683,-0.0580188,0.998312);(-0.0176873,-293.879,310.679);(276.142,-15.3003,248.479);(0.00583129,-0.0520831,0.998626);(0.0,0.001066,-0.000398);(0.0,0.0,0.0);3.0;0.0",
+                "camera_position": "(0.0,0.0619,0.1374)",
+                "instrument": "HELI_NAV",
+                "camera_model_type": "CAHVORE"
+            },
+            "caption": "NASA's Ingenuity Mars Helicopter acquired this image using its navigation camera. This camera is mounted in the helicopter's fuselage and pointed directly downward to track the ground during flight. \n\nThis image was acquired on Apr. 30, 2021 (Sol 69 of the Perseverance rover mission) at the local mean solar time of 12:34:15.",
+            "sample_type": "Full",
+            "date_taken_mars": "Sol-00069M12:34:15.01092",
+            "credit": "NASA/JPL-Caltech",
+            "date_taken_utc": "2021-04-30T14:50:54.769322",
+            "json_link": "https://mars.nasa.gov/rss/api/?feed=raw_images&category=ingenuity&feedtype=json&id=HNM_0069_0673066102_560ECM_N0040001HELI02132_0000LUJ",
+            "link": "https://mars.nasa.gov/mars2020/multimedia/raw-images/HNM_0069_0673066102_560ECM_N0040001HELI02132_0000LUJ",
+            "drive": "1",
+            "title": "Mars Helicopter Sol 69: Navigation Camera",
+            "site": 4,
+            "date_received": "2021-05-28T19:54:57Z"
+        },
+        {
+            "extended": {
+                "mastAz": "UNK",
+                "mastEl": "UNK",
+                "sclk": "673066110.892483",
+                "scaleFactor": "1",
+                "xyz": "UNK",
+                "subframeRect": "UNK",
+                "dimension": "(640,480)"
+            },
+            "sol": 69,
+            "attitude": "UNK",
+            "image_files": {
+                "medium": "https://mars.nasa.gov/mars2020-raw-images/pub/ods/surface/sol/00069/ids/edr/browse/heli/HNM_0069_0673066102_892ECM_N0040001HELI02142_0000LUJ02_800.jpg",
+                "small": "https://mars.nasa.gov/mars2020-raw-images/pub/ods/surface/sol/00069/ids/edr/browse/heli/HNM_0069_0673066102_892ECM_N0040001HELI02142_0000LUJ02_320.jpg",
+                "full_res": "https://mars.nasa.gov/mars2020-raw-images/pub/ods/surface/sol/00069/ids/edr/browse/heli/HNM_0069_0673066102_892ECM_N0040001HELI02142_0000LUJ02.png",
+                "large": "https://mars.nasa.gov/mars2020-raw-images/pub/ods/surface/sol/00069/ids/edr/browse/heli/HNM_0069_0673066102_892ECM_N0040001HELI02142_0000LUJ02_1200.jpg"
+            },
+            "imageid": "HNM_0069_0673066102_892ECM_N0040001HELI02142_0000LUJ",
+            "camera": {
+                "filter_name": "UNK",
+                "camera_vector": "UNK",
+                "camera_model_component_list": "(0.0,0.0619,0.1374);(0.00256683,-0.0580188,0.998312);(-0.0176873,-293.879,310.679);(276.142,-15.3003,248.479);(0.00583129,-0.0520831,0.998626);(0.0,0.001066,-0.000398);(0.0,0.0,0.0);3.0;0.0",
+                "camera_position": "(0.0,0.0619,0.1374)",
+                "instrument": "HELI_NAV",
+                "camera_model_type": "CAHVORE"
+            },
+            "caption": "NASA's Ingenuity Mars Helicopter acquired this image using its navigation camera. This camera is mounted in the helicopter's fuselage and pointed directly downward to track the ground during flight. \n\nThis image was acquired on Apr. 30, 2021 (Sol 69 of the Perseverance rover mission) at the local mean solar time of 12:34:15.",
+            "sample_type": "Full",
+            "date_taken_mars": "Sol-00069M12:34:15.33407",
+            "credit": "NASA/JPL-Caltech",
+            "date_taken_utc": "2021-04-30T14:50:55.101356",
+            "json_link": "https://mars.nasa.gov/rss/api/?feed=raw_images&category=ingenuity&feedtype=json&id=HNM_0069_0673066102_892ECM_N0040001HELI02142_0000LUJ",
+            "link": "https://mars.nasa.gov/mars2020/multimedia/raw-images/HNM_0069_0673066102_892ECM_N0040001HELI02142_0000LUJ",
+            "drive": "1",
+            "title": "Mars Helicopter Sol 69: Navigation Camera",
+            "site": 4,
+            "date_received": "2021-05-28T19:54:57Z"
+        },
+        {
+            "extended": {
+                "mastAz": "UNK",
+                "mastEl": "UNK",
+                "sclk": "673066111.2239349",
+                "scaleFactor": "1",
+                "xyz": "UNK",
+                "subframeRect": "UNK",
+                "dimension": "(640,480)"
+            },
+            "sol": 69,
+            "attitude": "UNK",
+            "image_files": {
+                "medium": "https://mars.nasa.gov/mars2020-raw-images/pub/ods/surface/sol/00069/ids/edr/browse/heli/HNM_0069_0673066103_223ECM_N0040001HELI02152_0000LUJ02_800.jpg",
+                "small": "https://mars.nasa.gov/mars2020-raw-images/pub/ods/surface/sol/00069/ids/edr/browse/heli/HNM_0069_0673066103_223ECM_N0040001HELI02152_0000LUJ02_320.jpg",
+                "full_res": "https://mars.nasa.gov/mars2020-raw-images/pub/ods/surface/sol/00069/ids/edr/browse/heli/HNM_0069_0673066103_223ECM_N0040001HELI02152_0000LUJ02.png",
+                "large": "https://mars.nasa.gov/mars2020-raw-images/pub/ods/surface/sol/00069/ids/edr/browse/heli/HNM_0069_0673066103_223ECM_N0040001HELI02152_0000LUJ02_1200.jpg"
+            },
+            "imageid": "HNM_0069_0673066103_223ECM_N0040001HELI02152_0000LUJ",
+            "camera": {
+                "filter_name": "UNK",
+                "camera_vector": "UNK",
+                "camera_model_component_list": "(0.0,0.0619,0.1374);(0.00256683,-0.0580188,0.998312);(-0.0176873,-293.879,310.679);(276.142,-15.3003,248.479);(0.00583129,-0.0520831,0.998626);(0.0,0.001066,-0.000398);(0.0,0.0,0.0);3.0;0.0",
+                "camera_position": "(0.0,0.0619,0.1374)",
+                "instrument": "HELI_NAV",
+                "camera_model_type": "CAHVORE"
+            },
+            "caption": "NASA's Ingenuity Mars Helicopter acquired this image using its navigation camera. This camera is mounted in the helicopter's fuselage and pointed directly downward to track the ground during flight. \n\nThis image was acquired on Apr. 30, 2021 (Sol 69 of the Perseverance rover mission) at the local mean solar time of 12:34:15.",
+            "sample_type": "Full",
+            "date_taken_mars": "Sol-00069M12:34:15.65665",
+            "credit": "NASA/JPL-Caltech",
+            "date_taken_utc": "2021-04-30T14:50:55.432811",
+            "json_link": "https://mars.nasa.gov/rss/api/?feed=raw_images&category=ingenuity&feedtype=json&id=HNM_0069_0673066103_223ECM_N0040001HELI02152_0000LUJ",
+            "link": "https://mars.nasa.gov/mars2020/multimedia/raw-images/HNM_0069_0673066103_223ECM_N0040001HELI02152_0000LUJ",
+            "drive": "1",
+            "title": "Mars Helicopter Sol 69: Navigation Camera",
+            "site": 4,
+            "date_received": "2021-05-28T19:54:57Z"
+        },
+        {
+            "extended": {
+                "mastAz": "UNK",
+                "mastEl": "UNK",
+                "sclk": "673066111.888037",
+                "scaleFactor": "1",
+                "xyz": "UNK",
+                "subframeRect": "UNK",
+                "dimension": "(640,480)"
+            },
+            "sol": 69,
+            "attitude": "UNK",
+            "image_files": {
+                "medium": "https://mars.nasa.gov/mars2020-raw-images/pub/ods/surface/sol/00069/ids/edr/browse/heli/HNM_0069_0673066103_888ECM_N0040001HELI02172_0000LUJ02_800.jpg",
+                "small": "https://mars.nasa.gov/mars2020-raw-images/pub/ods/surface/sol/00069/ids/edr/browse/heli/HNM_0069_0673066103_888ECM_N0040001HELI02172_0000LUJ02_320.jpg",
+                "full_res": "https://mars.nasa.gov/mars2020-raw-images/pub/ods/surface/sol/00069/ids/edr/browse/heli/HNM_0069_0673066103_888ECM_N0040001HELI02172_0000LUJ02.png",
+                "large": "https://mars.nasa.gov/mars2020-raw-images/pub/ods/surface/sol/00069/ids/edr/browse/heli/HNM_0069_0673066103_888ECM_N0040001HELI02172_0000LUJ02_1200.jpg"
+            },
+            "imageid": "HNM_0069_0673066103_888ECM_N0040001HELI02172_0000LUJ",
+            "camera": {
+                "filter_name": "UNK",
+                "camera_vector": "UNK",
+                "camera_model_component_list": "(0.0,0.0619,0.1374);(0.00256683,-0.0580188,0.998312);(-0.0176873,-293.879,310.679);(276.142,-15.3003,248.479);(0.00583129,-0.0520831,0.998626);(0.0,0.001066,-0.000398);(0.0,0.0,0.0);3.0;0.0",
+                "camera_position": "(0.0,0.0619,0.1374)",
+                "instrument": "HELI_NAV",
+                "camera_model_type": "CAHVORE"
+            },
+            "caption": "NASA's Ingenuity Mars Helicopter acquired this image using its navigation camera. This camera is mounted in the helicopter's fuselage and pointed directly downward to track the ground during flight. \n\nThis image was acquired on Apr. 30, 2021 (Sol 69 of the Perseverance rover mission) at the local mean solar time of 12:34:16.",
+            "sample_type": "Full",
+            "date_taken_mars": "Sol-00069M12:34:16.30298",
+            "credit": "NASA/JPL-Caltech",
+            "date_taken_utc": "2021-04-30T14:50:56.096909",
+            "json_link": "https://mars.nasa.gov/rss/api/?feed=raw_images&category=ingenuity&feedtype=json&id=HNM_0069_0673066103_888ECM_N0040001HELI02172_0000LUJ",
+            "link": "https://mars.nasa.gov/mars2020/multimedia/raw-images/HNM_0069_0673066103_888ECM_N0040001HELI02172_0000LUJ",
+            "drive": "1",
+            "title": "Mars Helicopter Sol 69: Navigation Camera",
+            "site": 4,
+            "date_received": "2021-05-28T19:54:57Z"
+        },
+        {
+            "extended": {
+                "mastAz": "UNK",
+                "mastEl": "UNK",
+                "sclk": "673066112.220123",
+                "scaleFactor": "1",
+                "xyz": "UNK",
+                "subframeRect": "UNK",
+                "dimension": "(640,480)"
+            },
+            "sol": 69,
+            "attitude": "UNK",
+            "image_files": {
+                "medium": "https://mars.nasa.gov/mars2020-raw-images/pub/ods/surface/sol/00069/ids/edr/browse/heli/HNM_0069_0673066104_220ECM_N0040001HELI02182_0000LUJ02_800.jpg",
+                "small": "https://mars.nasa.gov/mars2020-raw-images/pub/ods/surface/sol/00069/ids/edr/browse/heli/HNM_0069_0673066104_220ECM_N0040001HELI02182_0000LUJ02_320.jpg",
+                "full_res": "https://mars.nasa.gov/mars2020-raw-images/pub/ods/surface/sol/00069/ids/edr/browse/heli/HNM_0069_0673066104_220ECM_N0040001HELI02182_0000LUJ02.png",
+                "large": "https://mars.nasa.gov/mars2020-raw-images/pub/ods/surface/sol/00069/ids/edr/browse/heli/HNM_0069_0673066104_220ECM_N0040001HELI02182_0000LUJ02_1200.jpg"
+            },
+            "imageid": "HNM_0069_0673066104_220ECM_N0040001HELI02182_0000LUJ",
+            "camera": {
+                "filter_name": "UNK",
+                "camera_vector": "UNK",
+                "camera_model_component_list": "(0.0,0.0619,0.1374);(0.00256683,-0.0580188,0.998312);(-0.0176873,-293.879,310.679);(276.142,-15.3003,248.479);(0.00583129,-0.0520831,0.998626);(0.0,0.001066,-0.000398);(0.0,0.0,0.0);3.0;0.0",
+                "camera_position": "(0.0,0.0619,0.1374)",
+                "instrument": "HELI_NAV",
+                "camera_model_type": "CAHVORE"
+            },
+            "caption": "NASA's Ingenuity Mars Helicopter acquired this image using its navigation camera. This camera is mounted in the helicopter's fuselage and pointed directly downward to track the ground during flight. \n\nThis image was acquired on Apr. 30, 2021 (Sol 69 of the Perseverance rover mission) at the local mean solar time of 12:34:16.",
+            "sample_type": "Full",
+            "date_taken_mars": "Sol-00069M12:34:16.62620",
+            "credit": "NASA/JPL-Caltech",
+            "date_taken_utc": "2021-04-30T14:50:56.429005",
+            "json_link": "https://mars.nasa.gov/rss/api/?feed=raw_images&category=ingenuity&feedtype=json&id=HNM_0069_0673066104_220ECM_N0040001HELI02182_0000LUJ",
+            "link": "https://mars.nasa.gov/mars2020/multimedia/raw-images/HNM_0069_0673066104_220ECM_N0040001HELI02182_0000LUJ",
+            "drive": "1",
+            "title": "Mars Helicopter Sol 69: Navigation Camera",
+            "site": 4,
+            "date_received": "2021-05-28T19:54:57Z"
+        },
+        {
+            "extended": {
+                "mastAz": "UNK",
+                "mastEl": "UNK",
+                "sclk": "673066112.552814",
+                "scaleFactor": "1",
+                "xyz": "UNK",
+                "subframeRect": "UNK",
+                "dimension": "(640,480)"
+            },
+            "sol": 69,
+            "attitude": "UNK",
+            "image_files": {
+                "medium": "https://mars.nasa.gov/mars2020-raw-images/pub/ods/surface/sol/00069/ids/edr/browse/heli/HNM_0069_0673066104_552ECM_N0040001HELI02192_0000LUJ02_800.jpg",
+                "small": "https://mars.nasa.gov/mars2020-raw-images/pub/ods/surface/sol/00069/ids/edr/browse/heli/HNM_0069_0673066104_552ECM_N0040001HELI02192_0000LUJ02_320.jpg",
+                "full_res": "https://mars.nasa.gov/mars2020-raw-images/pub/ods/surface/sol/00069/ids/edr/browse/heli/HNM_0069_0673066104_552ECM_N0040001HELI02192_0000LUJ02.png",
+                "large": "https://mars.nasa.gov/mars2020-raw-images/pub/ods/surface/sol/00069/ids/edr/browse/heli/HNM_0069_0673066104_552ECM_N0040001HELI02192_0000LUJ02_1200.jpg"
+            },
+            "imageid": "HNM_0069_0673066104_552ECM_N0040001HELI02192_0000LUJ",
+            "camera": {
+                "filter_name": "UNK",
+                "camera_vector": "UNK",
+                "camera_model_component_list": "(0.0,0.0619,0.1374);(0.00256683,-0.0580188,0.998312);(-0.0176873,-293.879,310.679);(276.142,-15.3003,248.479);(0.00583129,-0.0520831,0.998626);(0.0,0.001066,-0.000398);(0.0,0.0,0.0);3.0;0.0",
+                "camera_position": "(0.0,0.0619,0.1374)",
+                "instrument": "HELI_NAV",
+                "camera_model_type": "CAHVORE"
+            },
+            "caption": "NASA's Ingenuity Mars Helicopter acquired this image using its navigation camera. This camera is mounted in the helicopter's fuselage and pointed directly downward to track the ground during flight. \n\nThis image was acquired on Apr. 30, 2021 (Sol 69 of the Perseverance rover mission) at the local mean solar time of 12:34:16.",
+            "sample_type": "Full",
+            "date_taken_mars": "Sol-00069M12:34:16.94998",
+            "credit": "NASA/JPL-Caltech",
+            "date_taken_utc": "2021-04-30T14:50:56.761695",
+            "json_link": "https://mars.nasa.gov/rss/api/?feed=raw_images&category=ingenuity&feedtype=json&id=HNM_0069_0673066104_552ECM_N0040001HELI02192_0000LUJ",
+            "link": "https://mars.nasa.gov/mars2020/multimedia/raw-images/HNM_0069_0673066104_552ECM_N0040001HELI02192_0000LUJ",
+            "drive": "1",
+            "title": "Mars Helicopter Sol 69: Navigation Camera",
+            "site": 4,
+            "date_received": "2021-05-28T19:54:57Z"
+        },
+        {
+            "extended": {
+                "mastAz": "UNK",
+                "mastEl": "UNK",
+                "sclk": "673066112.8846791",
+                "scaleFactor": "1",
+                "xyz": "UNK",
+                "subframeRect": "UNK",
+                "dimension": "(640,480)"
+            },
+            "sol": 69,
+            "attitude": "UNK",
+            "image_files": {
+                "medium": "https://mars.nasa.gov/mars2020-raw-images/pub/ods/surface/sol/00069/ids/edr/browse/heli/HNM_0069_0673066104_884ECM_N0040001HELI02202_0000LUJ02_800.jpg",
+                "small": "https://mars.nasa.gov/mars2020-raw-images/pub/ods/surface/sol/00069/ids/edr/browse/heli/HNM_0069_0673066104_884ECM_N0040001HELI02202_0000LUJ02_320.jpg",
+                "full_res": "https://mars.nasa.gov/mars2020-raw-images/pub/ods/surface/sol/00069/ids/edr/browse/heli/HNM_0069_0673066104_884ECM_N0040001HELI02202_0000LUJ02.png",
+                "large": "https://mars.nasa.gov/mars2020-raw-images/pub/ods/surface/sol/00069/ids/edr/browse/heli/HNM_0069_0673066104_884ECM_N0040001HELI02202_0000LUJ02_1200.jpg"
+            },
+            "imageid": "HNM_0069_0673066104_884ECM_N0040001HELI02202_0000LUJ",
+            "camera": {
+                "filter_name": "UNK",
+                "camera_vector": "UNK",
+                "camera_model_component_list": "(0.0,0.0619,0.1374);(0.00256683,-0.0580188,0.998312);(-0.0176873,-293.879,310.679);(276.142,-15.3003,248.479);(0.00583129,-0.0520831,0.998626);(0.0,0.001066,-0.000398);(0.0,0.0,0.0);3.0;0.0",
+                "camera_position": "(0.0,0.0619,0.1374)",
+                "instrument": "HELI_NAV",
+                "camera_model_type": "CAHVORE"
+            },
+            "caption": "NASA's Ingenuity Mars Helicopter acquired this image using its navigation camera. This camera is mounted in the helicopter's fuselage and pointed directly downward to track the ground during flight. \n\nThis image was acquired on Apr. 30, 2021 (Sol 69 of the Perseverance rover mission) at the local mean solar time of 12:34:17.",
+            "sample_type": "Full",
+            "date_taken_mars": "Sol-00069M12:34:17.27297",
+            "credit": "NASA/JPL-Caltech",
+            "date_taken_utc": "2021-04-30T14:50:57.093561",
+            "json_link": "https://mars.nasa.gov/rss/api/?feed=raw_images&category=ingenuity&feedtype=json&id=HNM_0069_0673066104_884ECM_N0040001HELI02202_0000LUJ",
+            "link": "https://mars.nasa.gov/mars2020/multimedia/raw-images/HNM_0069_0673066104_884ECM_N0040001HELI02202_0000LUJ",
+            "drive": "1",
+            "title": "Mars Helicopter Sol 69: Navigation Camera",
+            "site": 4,
+            "date_received": "2021-05-28T19:54:57Z"
+        },
+        {
+            "extended": {
+                "mastAz": "UNK",
+                "mastEl": "UNK",
+                "sclk": "673066113.216464",
+                "scaleFactor": "1",
+                "xyz": "UNK",
+                "subframeRect": "UNK",
+                "dimension": "(640,480)"
+            },
+            "sol": 69,
+            "attitude": "UNK",
+            "image_files": {
+                "medium": "https://mars.nasa.gov/mars2020-raw-images/pub/ods/surface/sol/00069/ids/edr/browse/heli/HNM_0069_0673066105_216ECM_N0040001HELI02212_0000LUJ02_800.jpg",
+                "small": "https://mars.nasa.gov/mars2020-raw-images/pub/ods/surface/sol/00069/ids/edr/browse/heli/HNM_0069_0673066105_216ECM_N0040001HELI02212_0000LUJ02_320.jpg",
+                "full_res": "https://mars.nasa.gov/mars2020-raw-images/pub/ods/surface/sol/00069/ids/edr/browse/heli/HNM_0069_0673066105_216ECM_N0040001HELI02212_0000LUJ02.png",
+                "large": "https://mars.nasa.gov/mars2020-raw-images/pub/ods/surface/sol/00069/ids/edr/browse/heli/HNM_0069_0673066105_216ECM_N0040001HELI02212_0000LUJ02_1200.jpg"
+            },
+            "imageid": "HNM_0069_0673066105_216ECM_N0040001HELI02212_0000LUJ",
+            "camera": {
+                "filter_name": "UNK",
+                "camera_vector": "UNK",
+                "camera_model_component_list": "(0.0,0.0619,0.1374);(0.00256683,-0.0580188,0.998312);(-0.0176873,-293.879,310.679);(276.142,-15.3003,248.479);(0.00583129,-0.0520831,0.998626);(0.0,0.001066,-0.000398);(0.0,0.0,0.0);3.0;0.0",
+                "camera_position": "(0.0,0.0619,0.1374)",
+                "instrument": "HELI_NAV",
+                "camera_model_type": "CAHVORE"
+            },
+            "caption": "NASA's Ingenuity Mars Helicopter acquired this image using its navigation camera. This camera is mounted in the helicopter's fuselage and pointed directly downward to track the ground during flight. \n\nThis image was acquired on Apr. 30, 2021 (Sol 69 of the Perseverance rover mission) at the local mean solar time of 12:34:17.",
+            "sample_type": "Full",
+            "date_taken_mars": "Sol-00069M12:34:17.59589",
+            "credit": "NASA/JPL-Caltech",
+            "date_taken_utc": "2021-04-30T14:50:57.425351",
+            "json_link": "https://mars.nasa.gov/rss/api/?feed=raw_images&category=ingenuity&feedtype=json&id=HNM_0069_0673066105_216ECM_N0040001HELI02212_0000LUJ",
+            "link": "https://mars.nasa.gov/mars2020/multimedia/raw-images/HNM_0069_0673066105_216ECM_N0040001HELI02212_0000LUJ",
+            "drive": "1",
+            "title": "Mars Helicopter Sol 69: Navigation Camera",
+            "site": 4,
+            "date_received": "2021-05-28T19:54:57Z"
+        },
+        {
+            "extended": {
+                "mastAz": "UNK",
+                "mastEl": "UNK",
+                "sclk": "673066113.548789",
+                "scaleFactor": "1",
+                "xyz": "UNK",
+                "subframeRect": "UNK",
+                "dimension": "(640,480)"
+            },
+            "sol": 69,
+            "attitude": "UNK",
+            "image_files": {
+                "medium": "https://mars.nasa.gov/mars2020-raw-images/pub/ods/surface/sol/00069/ids/edr/browse/heli/HNM_0069_0673066105_548ECM_N0040001HELI02222_0000LUJ02_800.jpg",
+                "small": "https://mars.nasa.gov/mars2020-raw-images/pub/ods/surface/sol/00069/ids/edr/browse/heli/HNM_0069_0673066105_548ECM_N0040001HELI02222_0000LUJ02_320.jpg",
+                "full_res": "https://mars.nasa.gov/mars2020-raw-images/pub/ods/surface/sol/00069/ids/edr/browse/heli/HNM_0069_0673066105_548ECM_N0040001HELI02222_0000LUJ02.png",
+                "large": "https://mars.nasa.gov/mars2020-raw-images/pub/ods/surface/sol/00069/ids/edr/browse/heli/HNM_0069_0673066105_548ECM_N0040001HELI02222_0000LUJ02_1200.jpg"
+            },
+            "imageid": "HNM_0069_0673066105_548ECM_N0040001HELI02222_0000LUJ",
+            "camera": {
+                "filter_name": "UNK",
+                "camera_vector": "UNK",
+                "camera_model_component_list": "(0.0,0.0619,0.1374);(0.00256683,-0.0580188,0.998312);(-0.0176873,-293.879,310.679);(276.142,-15.3003,248.479);(0.00583129,-0.0520831,0.998626);(0.0,0.001066,-0.000398);(0.0,0.0,0.0);3.0;0.0",
+                "camera_position": "(0.0,0.0619,0.1374)",
+                "instrument": "HELI_NAV",
+                "camera_model_type": "CAHVORE"
+            },
+            "caption": "NASA's Ingenuity Mars Helicopter acquired this image using its navigation camera. This camera is mounted in the helicopter's fuselage and pointed directly downward to track the ground during flight. \n\nThis image was acquired on Apr. 30, 2021 (Sol 69 of the Perseverance rover mission) at the local mean solar time of 12:34:17.",
+            "sample_type": "Full",
+            "date_taken_mars": "Sol-00069M12:34:17.91932",
+            "credit": "NASA/JPL-Caltech",
+            "date_taken_utc": "2021-04-30T14:50:57.757675",
+            "json_link": "https://mars.nasa.gov/rss/api/?feed=raw_images&category=ingenuity&feedtype=json&id=HNM_0069_0673066105_548ECM_N0040001HELI02222_0000LUJ",
+            "link": "https://mars.nasa.gov/mars2020/multimedia/raw-images/HNM_0069_0673066105_548ECM_N0040001HELI02222_0000LUJ",
+            "drive": "1",
+            "title": "Mars Helicopter Sol 69: Navigation Camera",
+            "site": 4,
+            "date_received": "2021-05-28T19:54:57Z"
+        },
+        {
+            "extended": {
+                "mastAz": "UNK",
+                "mastEl": "UNK",
+                "sclk": "673066113.8811741",
+                "scaleFactor": "1",
+                "xyz": "UNK",
+                "subframeRect": "UNK",
+                "dimension": "(640,480)"
+            },
+            "sol": 69,
+            "attitude": "UNK",
+            "image_files": {
+                "medium": "https://mars.nasa.gov/mars2020-raw-images/pub/ods/surface/sol/00069/ids/edr/browse/heli/HNM_0069_0673066105_881ECM_N0040001HELI02232_0000LUJ02_800.jpg",
+                "small": "https://mars.nasa.gov/mars2020-raw-images/pub/ods/surface/sol/00069/ids/edr/browse/heli/HNM_0069_0673066105_881ECM_N0040001HELI02232_0000LUJ02_320.jpg",
+                "full_res": "https://mars.nasa.gov/mars2020-raw-images/pub/ods/surface/sol/00069/ids/edr/browse/heli/HNM_0069_0673066105_881ECM_N0040001HELI02232_0000LUJ02.png",
+                "large": "https://mars.nasa.gov/mars2020-raw-images/pub/ods/surface/sol/00069/ids/edr/browse/heli/HNM_0069_0673066105_881ECM_N0040001HELI02232_0000LUJ02_1200.jpg"
+            },
+            "imageid": "HNM_0069_0673066105_881ECM_N0040001HELI02232_0000LUJ",
+            "camera": {
+                "filter_name": "UNK",
+                "camera_vector": "UNK",
+                "camera_model_component_list": "(0.0,0.0619,0.1374);(0.00256683,-0.0580188,0.998312);(-0.0176873,-293.879,310.679);(276.142,-15.3003,248.479);(0.00583129,-0.0520831,0.998626);(0.0,0.001066,-0.000398);(0.0,0.0,0.0);3.0;0.0",
+                "camera_position": "(0.0,0.0619,0.1374)",
+                "instrument": "HELI_NAV",
+                "camera_model_type": "CAHVORE"
+            },
+            "caption": "NASA's Ingenuity Mars Helicopter acquired this image using its navigation camera. This camera is mounted in the helicopter's fuselage and pointed directly downward to track the ground during flight. \n\nThis image was acquired on Apr. 30, 2021 (Sol 69 of the Perseverance rover mission) at the local mean solar time of 12:34:18.",
+            "sample_type": "Full",
+            "date_taken_mars": "Sol-00069M12:34:18.24282",
+            "credit": "NASA/JPL-Caltech",
+            "date_taken_utc": "2021-04-30T14:50:58.090076",
+            "json_link": "https://mars.nasa.gov/rss/api/?feed=raw_images&category=ingenuity&feedtype=json&id=HNM_0069_0673066105_881ECM_N0040001HELI02232_0000LUJ",
+            "link": "https://mars.nasa.gov/mars2020/multimedia/raw-images/HNM_0069_0673066105_881ECM_N0040001HELI02232_0000LUJ",
+            "drive": "1",
+            "title": "Mars Helicopter Sol 69: Navigation Camera",
+            "site": 4,
+            "date_received": "2021-05-28T19:54:57Z"
+        },
+        {
+            "extended": {
+                "mastAz": "UNK",
+                "mastEl": "UNK",
+                "sclk": "673066114.5410919",
+                "scaleFactor": "1",
+                "xyz": "UNK",
+                "subframeRect": "UNK",
+                "dimension": "(640,480)"
+            },
+            "sol": 69,
+            "attitude": "UNK",
+            "image_files": {
+                "medium": "https://mars.nasa.gov/mars2020-raw-images/pub/ods/surface/sol/00069/ids/edr/browse/heli/HNM_0069_0673066106_541ECM_N0040001HELI02252_0000LUJ02_800.jpg",
+                "small": "https://mars.nasa.gov/mars2020-raw-images/pub/ods/surface/sol/00069/ids/edr/browse/heli/HNM_0069_0673066106_541ECM_N0040001HELI02252_0000LUJ02_320.jpg",
+                "full_res": "https://mars.nasa.gov/mars2020-raw-images/pub/ods/surface/sol/00069/ids/edr/browse/heli/HNM_0069_0673066106_541ECM_N0040001HELI02252_0000LUJ02.png",
+                "large": "https://mars.nasa.gov/mars2020-raw-images/pub/ods/surface/sol/00069/ids/edr/browse/heli/HNM_0069_0673066106_541ECM_N0040001HELI02252_0000LUJ02_1200.jpg"
+            },
+            "imageid": "HNM_0069_0673066106_541ECM_N0040001HELI02252_0000LUJ",
+            "camera": {
+                "filter_name": "UNK",
+                "camera_vector": "UNK",
+                "camera_model_component_list": "(0.0,0.0619,0.1374);(0.00256683,-0.0580188,0.998312);(-0.0176873,-293.879,310.679);(276.142,-15.3003,248.479);(0.00583129,-0.0520831,0.998626);(0.0,0.001066,-0.000398);(0.0,0.0,0.0);3.0;0.0",
+                "camera_position": "(0.0,0.0619,0.1374)",
+                "instrument": "HELI_NAV",
+                "camera_model_type": "CAHVORE"
+            },
+            "caption": "NASA's Ingenuity Mars Helicopter acquired this image using its navigation camera. This camera is mounted in the helicopter's fuselage and pointed directly downward to track the ground during flight. \n\nThis image was acquired on Apr. 30, 2021 (Sol 69 of the Perseverance rover mission) at the local mean solar time of 12:34:18.",
+            "sample_type": "Full",
+            "date_taken_mars": "Sol-00069M12:34:18.88509",
+            "credit": "NASA/JPL-Caltech",
+            "date_taken_utc": "2021-04-30T14:50:58.749994",
+            "json_link": "https://mars.nasa.gov/rss/api/?feed=raw_images&category=ingenuity&feedtype=json&id=HNM_0069_0673066106_541ECM_N0040001HELI02252_0000LUJ",
+            "link": "https://mars.nasa.gov/mars2020/multimedia/raw-images/HNM_0069_0673066106_541ECM_N0040001HELI02252_0000LUJ",
+            "drive": "1",
+            "title": "Mars Helicopter Sol 69: Navigation Camera",
+            "site": 4,
+            "date_received": "2021-05-28T19:54:57Z"
+        },
+        {
+            "extended": {
+                "mastAz": "UNK",
+                "mastEl": "UNK",
+                "sclk": "673066114.8728919",
+                "scaleFactor": "1",
+                "xyz": "UNK",
+                "subframeRect": "UNK",
+                "dimension": "(640,480)"
+            },
+            "sol": 69,
+            "attitude": "UNK",
+            "image_files": {
+                "medium": "https://mars.nasa.gov/mars2020-raw-images/pub/ods/surface/sol/00069/ids/edr/browse/heli/HNM_0069_0673066106_872ECM_N0040001HELI02262_0000LUJ02_800.jpg",
+                "small": "https://mars.nasa.gov/mars2020-raw-images/pub/ods/surface/sol/00069/ids/edr/browse/heli/HNM_0069_0673066106_872ECM_N0040001HELI02262_0000LUJ02_320.jpg",
+                "full_res": "https://mars.nasa.gov/mars2020-raw-images/pub/ods/surface/sol/00069/ids/edr/browse/heli/HNM_0069_0673066106_872ECM_N0040001HELI02262_0000LUJ02.png",
+                "large": "https://mars.nasa.gov/mars2020-raw-images/pub/ods/surface/sol/00069/ids/edr/browse/heli/HNM_0069_0673066106_872ECM_N0040001HELI02262_0000LUJ02_1200.jpg"
+            },
+            "imageid": "HNM_0069_0673066106_872ECM_N0040001HELI02262_0000LUJ",
+            "camera": {
+                "filter_name": "UNK",
+                "camera_vector": "UNK",
+                "camera_model_component_list": "(0.0,0.0619,0.1374);(0.00256683,-0.0580188,0.998312);(-0.0176873,-293.879,310.679);(276.142,-15.3003,248.479);(0.00583129,-0.0520831,0.998626);(0.0,0.001066,-0.000398);(0.0,0.0,0.0);3.0;0.0",
+                "camera_position": "(0.0,0.0619,0.1374)",
+                "instrument": "HELI_NAV",
+                "camera_model_type": "CAHVORE"
+            },
+            "caption": "NASA's Ingenuity Mars Helicopter acquired this image using its navigation camera. This camera is mounted in the helicopter's fuselage and pointed directly downward to track the ground during flight. \n\nThis image was acquired on Apr. 30, 2021 (Sol 69 of the Perseverance rover mission) at the local mean solar time of 12:34:19.",
+            "sample_type": "Full",
+            "date_taken_mars": "Sol-00069M12:34:19.20801",
+            "credit": "NASA/JPL-Caltech",
+            "date_taken_utc": "2021-04-30T14:50:59.081799",
+            "json_link": "https://mars.nasa.gov/rss/api/?feed=raw_images&category=ingenuity&feedtype=json&id=HNM_0069_0673066106_872ECM_N0040001HELI02262_0000LUJ",
+            "link": "https://mars.nasa.gov/mars2020/multimedia/raw-images/HNM_0069_0673066106_872ECM_N0040001HELI02262_0000LUJ",
+            "drive": "1",
+            "title": "Mars Helicopter Sol 69: Navigation Camera",
+            "site": 4,
+            "date_received": "2021-05-28T19:54:57Z"
+        },
+        {
+            "extended": {
+                "mastAz": "UNK",
+                "mastEl": "UNK",
+                "sclk": "673066115.204673",
+                "scaleFactor": "1",
+                "xyz": "UNK",
+                "subframeRect": "UNK",
+                "dimension": "(640,480)"
+            },
+            "sol": 69,
+            "attitude": "UNK",
+            "image_files": {
+                "medium": "https://mars.nasa.gov/mars2020-raw-images/pub/ods/surface/sol/00069/ids/edr/browse/heli/HNM_0069_0673066107_204ECM_N0040001HELI02272_0000LUJ02_800.jpg",
+                "small": "https://mars.nasa.gov/mars2020-raw-images/pub/ods/surface/sol/00069/ids/edr/browse/heli/HNM_0069_0673066107_204ECM_N0040001HELI02272_0000LUJ02_320.jpg",
+                "full_res": "https://mars.nasa.gov/mars2020-raw-images/pub/ods/surface/sol/00069/ids/edr/browse/heli/HNM_0069_0673066107_204ECM_N0040001HELI02272_0000LUJ02.png",
+                "large": "https://mars.nasa.gov/mars2020-raw-images/pub/ods/surface/sol/00069/ids/edr/browse/heli/HNM_0069_0673066107_204ECM_N0040001HELI02272_0000LUJ02_1200.jpg"
+            },
+            "imageid": "HNM_0069_0673066107_204ECM_N0040001HELI02272_0000LUJ",
+            "camera": {
+                "filter_name": "UNK",
+                "camera_vector": "UNK",
+                "camera_model_component_list": "(0.0,0.0619,0.1374);(0.00256683,-0.0580188,0.998312);(-0.0176873,-293.879,310.679);(276.142,-15.3003,248.479);(0.00583129,-0.0520831,0.998626);(0.0,0.001066,-0.000398);(0.0,0.0,0.0);3.0;0.0",
+                "camera_position": "(0.0,0.0619,0.1374)",
+                "instrument": "HELI_NAV",
+                "camera_model_type": "CAHVORE"
+            },
+            "caption": "NASA's Ingenuity Mars Helicopter acquired this image using its navigation camera. This camera is mounted in the helicopter's fuselage and pointed directly downward to track the ground during flight. \n\nThis image was acquired on Apr. 30, 2021 (Sol 69 of the Perseverance rover mission) at the local mean solar time of 12:34:19.",
+            "sample_type": "Full",
+            "date_taken_mars": "Sol-00069M12:34:19.53091",
+            "credit": "NASA/JPL-Caltech",
+            "date_taken_utc": "2021-04-30T14:50:59.413574",
+            "json_link": "https://mars.nasa.gov/rss/api/?feed=raw_images&category=ingenuity&feedtype=json&id=HNM_0069_0673066107_204ECM_N0040001HELI02272_0000LUJ",
+            "link": "https://mars.nasa.gov/mars2020/multimedia/raw-images/HNM_0069_0673066107_204ECM_N0040001HELI02272_0000LUJ",
+            "drive": "1",
+            "title": "Mars Helicopter Sol 69: Navigation Camera",
+            "site": 4,
+            "date_received": "2021-05-28T19:54:57Z"
+        },
+        {
+            "extended": {
+                "mastAz": "UNK",
+                "mastEl": "UNK",
+                "sclk": "673066115.536381",
+                "scaleFactor": "1",
+                "xyz": "UNK",
+                "subframeRect": "UNK",
+                "dimension": "(640,480)"
+            },
+            "sol": 69,
+            "attitude": "UNK",
+            "image_files": {
+                "medium": "https://mars.nasa.gov/mars2020-raw-images/pub/ods/surface/sol/00069/ids/edr/browse/heli/HNM_0069_0673066107_536ECM_N0040001HELI02282_0000LUJ02_800.jpg",
+                "small": "https://mars.nasa.gov/mars2020-raw-images/pub/ods/surface/sol/00069/ids/edr/browse/heli/HNM_0069_0673066107_536ECM_N0040001HELI02282_0000LUJ02_320.jpg",
+                "full_res": "https://mars.nasa.gov/mars2020-raw-images/pub/ods/surface/sol/00069/ids/edr/browse/heli/HNM_0069_0673066107_536ECM_N0040001HELI02282_0000LUJ02.png",
+                "large": "https://mars.nasa.gov/mars2020-raw-images/pub/ods/surface/sol/00069/ids/edr/browse/heli/HNM_0069_0673066107_536ECM_N0040001HELI02282_0000LUJ02_1200.jpg"
+            },
+            "imageid": "HNM_0069_0673066107_536ECM_N0040001HELI02282_0000LUJ",
+            "camera": {
+                "filter_name": "UNK",
+                "camera_vector": "UNK",
+                "camera_model_component_list": "(0.0,0.0619,0.1374);(0.00256683,-0.0580188,0.998312);(-0.0176873,-293.879,310.679);(276.142,-15.3003,248.479);(0.00583129,-0.0520831,0.998626);(0.0,0.001066,-0.000398);(0.0,0.0,0.0);3.0;0.0",
+                "camera_position": "(0.0,0.0619,0.1374)",
+                "instrument": "HELI_NAV",
+                "camera_model_type": "CAHVORE"
+            },
+            "caption": "NASA's Ingenuity Mars Helicopter acquired this image using its navigation camera. This camera is mounted in the helicopter's fuselage and pointed directly downward to track the ground during flight. \n\nThis image was acquired on Apr. 30, 2021 (Sol 69 of the Perseverance rover mission) at the local mean solar time of 12:34:19.",
+            "sample_type": "Full",
+            "date_taken_mars": "Sol-00069M12:34:19.85375",
+            "credit": "NASA/JPL-Caltech",
+            "date_taken_utc": "2021-04-30T14:50:59.745288",
+            "json_link": "https://mars.nasa.gov/rss/api/?feed=raw_images&category=ingenuity&feedtype=json&id=HNM_0069_0673066107_536ECM_N0040001HELI02282_0000LUJ",
+            "link": "https://mars.nasa.gov/mars2020/multimedia/raw-images/HNM_0069_0673066107_536ECM_N0040001HELI02282_0000LUJ",
+            "drive": "1",
+            "title": "Mars Helicopter Sol 69: Navigation Camera",
+            "site": 4,
+            "date_received": "2021-05-28T19:54:57Z"
+        },
+        {
+            "extended": {
+                "mastAz": "UNK",
+                "mastEl": "UNK",
+                "sclk": "673066115.868089",
+                "scaleFactor": "1",
+                "xyz": "UNK",
+                "subframeRect": "UNK",
+                "dimension": "(640,480)"
+            },
+            "sol": 69,
+            "attitude": "UNK",
+            "image_files": {
+                "medium": "https://mars.nasa.gov/mars2020-raw-images/pub/ods/surface/sol/00069/ids/edr/browse/heli/HNM_0069_0673066107_868ECM_N0040001HELI02292_0000LUJ02_800.jpg",
+                "small": "https://mars.nasa.gov/mars2020-raw-images/pub/ods/surface/sol/00069/ids/edr/browse/heli/HNM_0069_0673066107_868ECM_N0040001HELI02292_0000LUJ02_320.jpg",
+                "full_res": "https://mars.nasa.gov/mars2020-raw-images/pub/ods/surface/sol/00069/ids/edr/browse/heli/HNM_0069_0673066107_868ECM_N0040001HELI02292_0000LUJ02.png",
+                "large": "https://mars.nasa.gov/mars2020-raw-images/pub/ods/surface/sol/00069/ids/edr/browse/heli/HNM_0069_0673066107_868ECM_N0040001HELI02292_0000LUJ02_1200.jpg"
+            },
+            "imageid": "HNM_0069_0673066107_868ECM_N0040001HELI02292_0000LUJ",
+            "camera": {
+                "filter_name": "UNK",
+                "camera_vector": "UNK",
+                "camera_model_component_list": "(0.0,0.0619,0.1374);(0.00256683,-0.0580188,0.998312);(-0.0176873,-293.879,310.679);(276.142,-15.3003,248.479);(0.00583129,-0.0520831,0.998626);(0.0,0.001066,-0.000398);(0.0,0.0,0.0);3.0;0.0",
+                "camera_position": "(0.0,0.0619,0.1374)",
+                "instrument": "HELI_NAV",
+                "camera_model_type": "CAHVORE"
+            },
+            "caption": "NASA's Ingenuity Mars Helicopter acquired this image using its navigation camera. This camera is mounted in the helicopter's fuselage and pointed directly downward to track the ground during flight. \n\nThis image was acquired on Apr. 30, 2021 (Sol 69 of the Perseverance rover mission) at the local mean solar time of 12:34:20.",
+            "sample_type": "Full",
+            "date_taken_mars": "Sol-00069M12:34:20.17659",
+            "credit": "NASA/JPL-Caltech",
+            "date_taken_utc": "2021-04-30T14:51:00.077001",
+            "json_link": "https://mars.nasa.gov/rss/api/?feed=raw_images&category=ingenuity&feedtype=json&id=HNM_0069_0673066107_868ECM_N0040001HELI02292_0000LUJ",
+            "link": "https://mars.nasa.gov/mars2020/multimedia/raw-images/HNM_0069_0673066107_868ECM_N0040001HELI02292_0000LUJ",
+            "drive": "1",
+            "title": "Mars Helicopter Sol 69: Navigation Camera",
+            "site": 4,
+            "date_received": "2021-05-28T19:54:57Z"
+        },
+        {
+            "extended": {
+                "mastAz": "UNK",
+                "mastEl": "UNK",
+                "sclk": "673066116.199825",
+                "scaleFactor": "1",
+                "xyz": "UNK",
+                "subframeRect": "UNK",
+                "dimension": "(640,480)"
+            },
+            "sol": 69,
+            "attitude": "UNK",
+            "image_files": {
+                "medium": "https://mars.nasa.gov/mars2020-raw-images/pub/ods/surface/sol/00069/ids/edr/browse/heli/HNM_0069_0673066108_199ECM_N0040001HELI02302_0000LUJ02_800.jpg",
+                "small": "https://mars.nasa.gov/mars2020-raw-images/pub/ods/surface/sol/00069/ids/edr/browse/heli/HNM_0069_0673066108_199ECM_N0040001HELI02302_0000LUJ02_320.jpg",
+                "full_res": "https://mars.nasa.gov/mars2020-raw-images/pub/ods/surface/sol/00069/ids/edr/browse/heli/HNM_0069_0673066108_199ECM_N0040001HELI02302_0000LUJ02.png",
+                "large": "https://mars.nasa.gov/mars2020-raw-images/pub/ods/surface/sol/00069/ids/edr/browse/heli/HNM_0069_0673066108_199ECM_N0040001HELI02302_0000LUJ02_1200.jpg"
+            },
+            "imageid": "HNM_0069_0673066108_199ECM_N0040001HELI02302_0000LUJ",
+            "camera": {
+                "filter_name": "UNK",
+                "camera_vector": "UNK",
+                "camera_model_component_list": "(0.0,0.0619,0.1374);(0.00256683,-0.0580188,0.998312);(-0.0176873,-293.879,310.679);(276.142,-15.3003,248.479);(0.00583129,-0.0520831,0.998626);(0.0,0.001066,-0.000398);(0.0,0.0,0.0);3.0;0.0",
+                "camera_position": "(0.0,0.0619,0.1374)",
+                "instrument": "HELI_NAV",
+                "camera_model_type": "CAHVORE"
+            },
+            "caption": "NASA's Ingenuity Mars Helicopter acquired this image using its navigation camera. This camera is mounted in the helicopter's fuselage and pointed directly downward to track the ground during flight. \n\nThis image was acquired on Apr. 30, 2021 (Sol 69 of the Perseverance rover mission) at the local mean solar time of 12:34:20.",
+            "sample_type": "Full",
+            "date_taken_mars": "Sol-00069M12:34:20.49945",
+            "credit": "NASA/JPL-Caltech",
+            "date_taken_utc": "2021-04-30T14:51:00.408746",
+            "json_link": "https://mars.nasa.gov/rss/api/?feed=raw_images&category=ingenuity&feedtype=json&id=HNM_0069_0673066108_199ECM_N0040001HELI02302_0000LUJ",
+            "link": "https://mars.nasa.gov/mars2020/multimedia/raw-images/HNM_0069_0673066108_199ECM_N0040001HELI02302_0000LUJ",
+            "drive": "1",
+            "title": "Mars Helicopter Sol 69: Navigation Camera",
+            "site": 4,
+            "date_received": "2021-05-28T19:54:57Z"
+        },
+        {
+            "extended": {
+                "mastAz": "UNK",
+                "mastEl": "UNK",
+                "sclk": "673066116.5315421",
+                "scaleFactor": "1",
+                "xyz": "UNK",
+                "subframeRect": "UNK",
+                "dimension": "(640,480)"
+            },
+            "sol": 69,
+            "attitude": "UNK",
+            "image_files": {
+                "medium": "https://mars.nasa.gov/mars2020-raw-images/pub/ods/surface/sol/00069/ids/edr/browse/heli/HNM_0069_0673066108_531ECM_N0040001HELI02312_0000LUJ02_800.jpg",
+                "small": "https://mars.nasa.gov/mars2020-raw-images/pub/ods/surface/sol/00069/ids/edr/browse/heli/HNM_0069_0673066108_531ECM_N0040001HELI02312_0000LUJ02_320.jpg",
+                "full_res": "https://mars.nasa.gov/mars2020-raw-images/pub/ods/surface/sol/00069/ids/edr/browse/heli/HNM_0069_0673066108_531ECM_N0040001HELI02312_0000LUJ02.png",
+                "large": "https://mars.nasa.gov/mars2020-raw-images/pub/ods/surface/sol/00069/ids/edr/browse/heli/HNM_0069_0673066108_531ECM_N0040001HELI02312_0000LUJ02_1200.jpg"
+            },
+            "imageid": "HNM_0069_0673066108_531ECM_N0040001HELI02312_0000LUJ",
+            "camera": {
+                "filter_name": "UNK",
+                "camera_vector": "UNK",
+                "camera_model_component_list": "(0.0,0.0619,0.1374);(0.00256683,-0.0580188,0.998312);(-0.0176873,-293.879,310.679);(276.142,-15.3003,248.479);(0.00583129,-0.0520831,0.998626);(0.0,0.001066,-0.000398);(0.0,0.0,0.0);3.0;0.0",
+                "camera_position": "(0.0,0.0619,0.1374)",
+                "instrument": "HELI_NAV",
+                "camera_model_type": "CAHVORE"
+            },
+            "caption": "NASA's Ingenuity Mars Helicopter acquired this image using its navigation camera. This camera is mounted in the helicopter's fuselage and pointed directly downward to track the ground during flight. \n\nThis image was acquired on Apr. 30, 2021 (Sol 69 of the Perseverance rover mission) at the local mean solar time of 12:34:20.",
+            "sample_type": "Full",
+            "date_taken_mars": "Sol-00069M12:34:20.82229",
+            "credit": "NASA/JPL-Caltech",
+            "date_taken_utc": "2021-04-30T14:51:00.740459",
+            "json_link": "https://mars.nasa.gov/rss/api/?feed=raw_images&category=ingenuity&feedtype=json&id=HNM_0069_0673066108_531ECM_N0040001HELI02312_0000LUJ",
+            "link": "https://mars.nasa.gov/mars2020/multimedia/raw-images/HNM_0069_0673066108_531ECM_N0040001HELI02312_0000LUJ",
+            "drive": "1",
+            "title": "Mars Helicopter Sol 69: Navigation Camera",
+            "site": 4,
+            "date_received": "2021-05-28T19:54:57Z"
+        },
+        {
+            "extended": {
+                "mastAz": "UNK",
+                "mastEl": "UNK",
+                "sclk": "673066170.638969",
+                "scaleFactor": "1",
+                "xyz": "UNK",
+                "subframeRect": "UNK",
+                "dimension": "(640,480)"
+            },
+            "sol": 69,
+            "attitude": "UNK",
+            "image_files": {
+                "medium": "https://mars.nasa.gov/mars2020-raw-images/pub/ods/surface/sol/00069/ids/edr/browse/heli/HNM_0069_0673066162_638ECM_N0040001HELI03943_0000A0J03_800.jpg",
+                "small": "https://mars.nasa.gov/mars2020-raw-images/pub/ods/surface/sol/00069/ids/edr/browse/heli/HNM_0069_0673066162_638ECM_N0040001HELI03943_0000A0J03_320.jpg",
+                "full_res": "https://mars.nasa.gov/mars2020-raw-images/pub/ods/surface/sol/00069/ids/edr/browse/heli/HNM_0069_0673066162_638ECM_N0040001HELI03943_0000A0J03.png",
+                "large": "https://mars.nasa.gov/mars2020-raw-images/pub/ods/surface/sol/00069/ids/edr/browse/heli/HNM_0069_0673066162_638ECM_N0040001HELI03943_0000A0J03_1200.jpg"
+            },
+            "imageid": "HNM_0069_0673066162_638ECM_N0040001HELI03943_0000A0J",
+            "camera": {
+                "filter_name": "UNK",
+                "camera_vector": "UNK",
+                "camera_model_component_list": "(0.0,0.0619,0.1374);(0.00256683,-0.0580188,0.998312);(-0.0176873,-293.879,310.679);(276.142,-15.3003,248.479);(0.00583129,-0.0520831,0.998626);(0.0,0.001066,-0.000398);(0.0,0.0,0.0);3.0;0.0",
+                "camera_position": "(0.0,0.0619,0.1374)",
+                "instrument": "HELI_NAV",
+                "camera_model_type": "CAHVORE"
+            },
+            "caption": "NASA's Ingenuity Mars Helicopter acquired this image using its navigation camera. This camera is mounted in the helicopter's fuselage and pointed directly downward to track the ground during flight. \n\nThis image was acquired on Apr. 30, 2021 (Sol 69 of the Perseverance rover mission) at the local mean solar time of 12:35:13.",
+            "sample_type": "Full",
+            "date_taken_mars": "Sol-00069M12:35:13.48250",
+            "credit": "NASA/JPL-Caltech",
+            "date_taken_utc": "2021-04-30T14:51:54.848361",
+            "json_link": "https://mars.nasa.gov/rss/api/?feed=raw_images&category=ingenuity&feedtype=json&id=HNM_0069_0673066162_638ECM_N0040001HELI03943_0000A0J",
+            "link": "https://mars.nasa.gov/mars2020/multimedia/raw-images/HNM_0069_0673066162_638ECM_N0040001HELI03943_0000A0J",
+            "drive": "1",
+            "title": "Mars Helicopter Sol 69: Navigation Camera",
+            "site": 4,
+            "date_received": "2021-05-28T19:54:57Z"
+        },
+        {
+            "extended": {
+                "mastAz": "UNK",
+                "mastEl": "UNK",
+                "sclk": "673066190.6691649",
+                "scaleFactor": "1",
+                "xyz": "UNK",
+                "subframeRect": "UNK",
+                "dimension": "(640,480)"
+            },
+            "sol": 69,
+            "attitude": "UNK",
+            "image_files": {
+                "medium": "https://mars.nasa.gov/mars2020-raw-images/pub/ods/surface/sol/00069/ids/edr/browse/heli/HNM_0069_0673066164_669ECM_N0040001HELI04004_0000A0J03_800.jpg",
+                "small": "https://mars.nasa.gov/mars2020-raw-images/pub/ods/surface/sol/00069/ids/edr/browse/heli/HNM_0069_0673066164_669ECM_N0040001HELI04004_0000A0J03_320.jpg",
+                "full_res": "https://mars.nasa.gov/mars2020-raw-images/pub/ods/surface/sol/00069/ids/edr/browse/heli/HNM_0069_0673066164_669ECM_N0040001HELI04004_0000A0J03.png",
+                "large": "https://mars.nasa.gov/mars2020-raw-images/pub/ods/surface/sol/00069/ids/edr/browse/heli/HNM_0069_0673066164_669ECM_N0040001HELI04004_0000A0J03_1200.jpg"
+            },
+            "imageid": "HNM_0069_0673066164_669ECM_N0040001HELI04004_0000A0J",
+            "camera": {
+                "filter_name": "UNK",
+                "camera_vector": "UNK",
+                "camera_model_component_list": "(0.0,0.0619,0.1374);(0.00256683,-0.0580188,0.998312);(-0.0176873,-293.879,310.679);(276.142,-15.3003,248.479);(0.00583129,-0.0520831,0.998626);(0.0,0.001066,-0.000398);(0.0,0.0,0.0);3.0;0.0",
+                "camera_position": "(0.0,0.0619,0.1374)",
+                "instrument": "HELI_NAV",
+                "camera_model_type": "CAHVORE"
+            },
+            "caption": "NASA's Ingenuity Mars Helicopter acquired this image using its navigation camera. This camera is mounted in the helicopter's fuselage and pointed directly downward to track the ground during flight. \n\nThis image was acquired on Apr. 30, 2021 (Sol 69 of the Perseverance rover mission) at the local mean solar time of 12:35:15.",
+            "sample_type": "Full",
+            "date_taken_mars": "Sol-00069M12:35:15.45839",
+            "credit": "NASA/JPL-Caltech",
+            "date_taken_utc": "2021-04-30T14:52:14.878736",
+            "json_link": "https://mars.nasa.gov/rss/api/?feed=raw_images&category=ingenuity&feedtype=json&id=HNM_0069_0673066164_669ECM_N0040001HELI04004_0000A0J",
+            "link": "https://mars.nasa.gov/mars2020/multimedia/raw-images/HNM_0069_0673066164_669ECM_N0040001HELI04004_0000A0J",
+            "drive": "1",
+            "title": "Mars Helicopter Sol 69: Navigation Camera",
+            "site": 4,
+            "date_received": "2021-05-28T19:54:57Z"
+        },
+        {
+            "extended": {
+                "mastAz": "UNK",
+                "mastEl": "UNK",
+                "sclk": "UNK",
+                "scaleFactor": "1",
+                "xyz": "UNK",
+                "subframeRect": "UNK",
+                "dimension": "(4208,3120)"
+            },
+            "sol": 69,
+            "attitude": "UNK",
+            "image_files": {
+                "medium": "https://mars.nasa.gov/mars2020-raw-images/pub/ods/surface/sol/00069/ids/edr/browse/heli/HSF_0069_0673066081_646ECM_N0040001HELI00001_000085J01_800.jpg",
+                "small": "https://mars.nasa.gov/mars2020-raw-images/pub/ods/surface/sol/00069/ids/edr/browse/heli/HSF_0069_0673066081_646ECM_N0040001HELI00001_000085J01_320.jpg",
+                "full_res": "https://mars.nasa.gov/mars2020-raw-images/pub/ods/surface/sol/00069/ids/edr/browse/heli/HSF_0069_0673066081_646ECM_N0040001HELI00001_000085J01.png",
+                "large": "https://mars.nasa.gov/mars2020-raw-images/pub/ods/surface/sol/00069/ids/edr/browse/heli/HSF_0069_0673066081_646ECM_N0040001HELI00001_000085J01_1200.jpg"
+            },
+            "imageid": "HSF_0069_0673066081_646ECM_N0040001HELI00001_000085J",
+            "camera": {
+                "filter_name": "UNK",
+                "camera_vector": "UNK",
+                "camera_model_component_list": "(-0.000385336,0.0896009,0.117889);(0.0119194,0.72545,0.688172);(-1755.77,1629.89,1400.25);(-87.3827,-116.053,2334.34);(-0.000662614,0.723521,0.690302);(0.000144295,0.468504,-0.0528464);(-0.00068363,-0.00098111,-0.00156945);2.0;0.0",
+                "camera_position": "(-0.000385336,0.0896009,0.117889)",
+                "instrument": "HELI_RTE",
+                "camera_model_type": "CAHVORE"
+            },
+            "caption": "NASA's Ingenuity Mars Helicopter acquired this image using its high-resolution color camera. This camera is mounted in the helicopter\u2019s fuselage and pointed approximately 22 degree below the horizon. \n\nThis image was acquired on Apr. 30, 2021 (Sol 69 of the Perseverance rover mission) at the local mean solar time of 12:33:54.",
+            "sample_type": "Full",
+            "date_taken_mars": "Sol-00069M12:33:54.65596",
+            "credit": "NASA/JPL-Caltech",
+            "date_taken_utc": "2021-04-30T14:50:25.854713",
+            "json_link": "https://mars.nasa.gov/rss/api/?feed=raw_images&category=ingenuity&feedtype=json&id=HSF_0069_0673066081_646ECM_N0040001HELI00001_000085J",
+            "link": "https://mars.nasa.gov/mars2020/multimedia/raw-images/HSF_0069_0673066081_646ECM_N0040001HELI00001_000085J",
+            "drive": "1",
+            "title": "Mars Helicopter Sol 69: Color Camera",
+            "site": 4,
+            "date_received": "2021-05-28T19:54:57Z"
+        },
+        {
+            "extended": {
+                "mastAz": "UNK",
+                "mastEl": "UNK",
+                "sclk": "UNK",
+                "scaleFactor": "1",
+                "xyz": "UNK",
+                "subframeRect": "UNK",
+                "dimension": "(4208,3120)"
+            },
+            "sol": 69,
+            "attitude": "UNK",
+            "image_files": {
+                "medium": "https://mars.nasa.gov/mars2020-raw-images/pub/ods/surface/sol/00069/ids/edr/browse/heli/HSF_0069_0673066090_639ECM_N0040001HELI00002_000085J01_800.jpg",
+                "small": "https://mars.nasa.gov/mars2020-raw-images/pub/ods/surface/sol/00069/ids/edr/browse/heli/HSF_0069_0673066090_639ECM_N0040001HELI00002_000085J01_320.jpg",
+                "full_res": "https://mars.nasa.gov/mars2020-raw-images/pub/ods/surface/sol/00069/ids/edr/browse/heli/HSF_0069_0673066090_639ECM_N0040001HELI00002_000085J01.png",
+                "large": "https://mars.nasa.gov/mars2020-raw-images/pub/ods/surface/sol/00069/ids/edr/browse/heli/HSF_0069_0673066090_639ECM_N0040001HELI00002_000085J01_1200.jpg"
+            },
+            "imageid": "HSF_0069_0673066090_639ECM_N0040001HELI00002_000085J",
+            "camera": {
+                "filter_name": "UNK",
+                "camera_vector": "UNK",
+                "camera_model_component_list": "(-0.000385336,0.0896009,0.117889);(0.0119194,0.72545,0.688172);(-1755.77,1629.89,1400.25);(-87.3827,-116.053,2334.34);(-0.000662614,0.723521,0.690302);(0.000144295,0.468504,-0.0528464);(-0.00068363,-0.00098111,-0.00156945);2.0;0.0",
+                "camera_position": "(-0.000385336,0.0896009,0.117889)",
+                "instrument": "HELI_RTE",
+                "camera_model_type": "CAHVORE"
+            },
+            "caption": "NASA's Ingenuity Mars Helicopter acquired this image using its high-resolution color camera. This camera is mounted in the helicopter\u2019s fuselage and pointed approximately 22 degree below the horizon. \n\nThis image was acquired on Apr. 30, 2021 (Sol 69 of the Perseverance rover mission) at the local mean solar time of 12:34:03.",
+            "sample_type": "Full",
+            "date_taken_mars": "Sol-00069M12:34:03.40929",
+            "credit": "NASA/JPL-Caltech",
+            "date_taken_utc": "2021-04-30T14:50:34.848689",
+            "json_link": "https://mars.nasa.gov/rss/api/?feed=raw_images&category=ingenuity&feedtype=json&id=HSF_0069_0673066090_639ECM_N0040001HELI00002_000085J",
+            "link": "https://mars.nasa.gov/mars2020/multimedia/raw-images/HSF_0069_0673066090_639ECM_N0040001HELI00002_000085J",
+            "drive": "1",
+            "title": "Mars Helicopter Sol 69: Color Camera",
+            "site": 4,
+            "date_received": "2021-05-28T19:54:57Z"
+        },
+        {
+            "extended": {
+                "mastAz": "UNK",
+                "mastEl": "UNK",
+                "sclk": "UNK",
+                "scaleFactor": "1",
+                "xyz": "UNK",
+                "subframeRect": "UNK",
+                "dimension": "(4208,3120)"
+            },
+            "sol": 69,
+            "attitude": "UNK",
+            "image_files": {
+                "medium": "https://mars.nasa.gov/mars2020-raw-images/pub/ods/surface/sol/00069/ids/edr/browse/heli/HSF_0069_0673066099_631ECM_N0040001HELI00003_000085J01_800.jpg",
+                "small": "https://mars.nasa.gov/mars2020-raw-images/pub/ods/surface/sol/00069/ids/edr/browse/heli/HSF_0069_0673066099_631ECM_N0040001HELI00003_000085J01_320.jpg",
+                "full_res": "https://mars.nasa.gov/mars2020-raw-images/pub/ods/surface/sol/00069/ids/edr/browse/heli/HSF_0069_0673066099_631ECM_N0040001HELI00003_000085J01.png",
+                "large": "https://mars.nasa.gov/mars2020-raw-images/pub/ods/surface/sol/00069/ids/edr/browse/heli/HSF_0069_0673066099_631ECM_N0040001HELI00003_000085J01_1200.jpg"
+            },
+            "imageid": "HSF_0069_0673066099_631ECM_N0040001HELI00003_000085J",
+            "camera": {
+                "filter_name": "UNK",
+                "camera_vector": "UNK",
+                "camera_model_component_list": "(-0.000385336,0.0896009,0.117889);(0.0119194,0.72545,0.688172);(-1755.77,1629.89,1400.25);(-87.3827,-116.053,2334.34);(-0.000662614,0.723521,0.690302);(0.000144295,0.468504,-0.0528464);(-0.00068363,-0.00098111,-0.00156945);2.0;0.0",
+                "camera_position": "(-0.000385336,0.0896009,0.117889)",
+                "instrument": "HELI_RTE",
+                "camera_model_type": "CAHVORE"
+            },
+            "caption": "NASA's Ingenuity Mars Helicopter acquired this image using its high-resolution color camera. This camera is mounted in the helicopter\u2019s fuselage and pointed approximately 22 degree below the horizon. \n\nThis image was acquired on Apr. 30, 2021 (Sol 69 of the Perseverance rover mission) at the local mean solar time of 12:34:12.",
+            "sample_type": "Full",
+            "date_taken_mars": "Sol-00069M12:34:12.15986",
+            "credit": "NASA/JPL-Caltech",
+            "date_taken_utc": "2021-04-30T14:50:43.839812",
+            "json_link": "https://mars.nasa.gov/rss/api/?feed=raw_images&category=ingenuity&feedtype=json&id=HSF_0069_0673066099_631ECM_N0040001HELI00003_000085J",
+            "link": "https://mars.nasa.gov/mars2020/multimedia/raw-images/HSF_0069_0673066099_631ECM_N0040001HELI00003_000085J",
+            "drive": "1",
+            "title": "Mars Helicopter Sol 69: Color Camera",
+            "site": 4,
+            "date_received": "2021-05-28T19:54:57Z"
+        },
+        {
+            "extended": {
+                "mastAz": "UNK",
+                "mastEl": "UNK",
+                "sclk": "UNK",
+                "scaleFactor": "1",
+                "xyz": "UNK",
+                "subframeRect": "UNK",
+                "dimension": "(4208,3120)"
+            },
+            "sol": 69,
+            "attitude": "UNK",
+            "image_files": {
+                "medium": "https://mars.nasa.gov/mars2020-raw-images/pub/ods/surface/sol/00069/ids/edr/browse/heli/HSF_0069_0673066111_621ECM_N0040001HELI00004_000085J01_800.jpg",
+                "small": "https://mars.nasa.gov/mars2020-raw-images/pub/ods/surface/sol/00069/ids/edr/browse/heli/HSF_0069_0673066111_621ECM_N0040001HELI00004_000085J01_320.jpg",
+                "full_res": "https://mars.nasa.gov/mars2020-raw-images/pub/ods/surface/sol/00069/ids/edr/browse/heli/HSF_0069_0673066111_621ECM_N0040001HELI00004_000085J01.png",
+                "large": "https://mars.nasa.gov/mars2020-raw-images/pub/ods/surface/sol/00069/ids/edr/browse/heli/HSF_0069_0673066111_621ECM_N0040001HELI00004_000085J01_1200.jpg"
+            },
+            "imageid": "HSF_0069_0673066111_621ECM_N0040001HELI00004_000085J",
+            "camera": {
+                "filter_name": "UNK",
+                "camera_vector": "UNK",
+                "camera_model_component_list": "(-0.000385336,0.0896009,0.117889);(0.0119194,0.72545,0.688172);(-1755.77,1629.89,1400.25);(-87.3827,-116.053,2334.34);(-0.000662614,0.723521,0.690302);(0.000144295,0.468504,-0.0528464);(-0.00068363,-0.00098111,-0.00156945);2.0;0.0",
+                "camera_position": "(-0.000385336,0.0896009,0.117889)",
+                "instrument": "HELI_RTE",
+                "camera_model_type": "CAHVORE"
+            },
+            "caption": "NASA's Ingenuity Mars Helicopter acquired this image using its high-resolution color camera. This camera is mounted in the helicopter\u2019s fuselage and pointed approximately 22 degree below the horizon. \n\nThis image was acquired on Apr. 30, 2021 (Sol 69 of the Perseverance rover mission) at the local mean solar time of 12:34:23.",
+            "sample_type": "Full",
+            "date_taken_mars": "Sol-00069M12:34:23.82995",
+            "credit": "NASA/JPL-Caltech",
+            "date_taken_utc": "2021-04-30T14:50:55.830733",
+            "json_link": "https://mars.nasa.gov/rss/api/?feed=raw_images&category=ingenuity&feedtype=json&id=HSF_0069_0673066111_621ECM_N0040001HELI00004_000085J",
+            "link": "https://mars.nasa.gov/mars2020/multimedia/raw-images/HSF_0069_0673066111_621ECM_N0040001HELI00004_000085J",
+            "drive": "1",
+            "title": "Mars Helicopter Sol 69: Color Camera",
+            "site": 4,
+            "date_received": "2021-05-28T19:54:57Z"
+        }
+    ],
+    "num_images": 67,
+    "type": "ingenuity-images-1.1",
+    "most_recent": "2021-04-30T14:50:47.808338",
+    "mission": "ingenuity"
+}

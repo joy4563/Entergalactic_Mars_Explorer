@@ -144,7 +144,7 @@
       "longitude": 255.92
     },
     "coordinatesForShow": {
-        "latitude": "11.92°N"
+        "latitude": "11.92°N",
         "longitude": "255.92°E"
         
     },
@@ -360,7 +360,7 @@
       "longitude": 169.65
     },
     "coordinatesForShow": {
-        "latitude": "81.63°N"
+        "latitude": "81.63°N",
         "longitude": "169.65°E"
         
     },
@@ -439,7 +439,7 @@
       "longitude": 6
     },
     "coordinatesForShow": {
-        "latitude": "21°N"
+        "latitude": "21°N",
         "longitude": "6°E"
         
     },
@@ -463,7 +463,7 @@
       "longitude": 350
     },
     "coordinatesForShow": {
-        "latitude": "45°S"
+        "latitude": "45°S",
         "longitude": "350°E"
         
     },
@@ -487,7 +487,7 @@
       "longitude": 208
     },
     "coordinatesForShow": {
-        "latitude": "67°N"
+        "latitude": "67°N",
         "longitude": "208°E"
         
     },

@@ -1,0 +1,11 @@
+[
+    {
+        "image_file": "884.png",
+        "sol": 884,
+        "title": "Mars Helicopter Sol 884: Color Camera",
+        "caption": "NASA's Ingenuity Mars Helicopter acquired this image using its high-resolution color camera. This camera is mounted in the helicopter\u2019s fuselage and pointed approximately 22 degree below the horizon. \n\nThis image was acquired on Aug. 15, 2023 (Sol 884 of the Perseverance rover mission) at the local mean solar time of 10:06:02.",
+        "date_taken_utc": "2023-08-15T22:02:13.559267",
+        "date_received": "2023-08-18T19:35:24Z",
+        "date_taken_mars": "Sol-00884M10:06:02.40717"
+    }
+]

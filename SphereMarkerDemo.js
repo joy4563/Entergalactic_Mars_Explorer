@@ -146,7 +146,7 @@ function showInfo(point) {
                             Weather Forecast</li>
                         <li
                             class="px-4 py-2 hover:bg-blue-400 hover:text-white cursor-pointer border border-white mx-3 my-2">
-                            Rover</li>
+                            <a href="./Rover/rover.html">Rover</a></li>
                         <li
                             class="px-4 py-2 hover:bg-blue-400 hover:text-white cursor-pointer border border-white mx-3 my-2">
                             Orbiter</li>
