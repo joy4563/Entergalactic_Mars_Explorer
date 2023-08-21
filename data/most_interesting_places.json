@@ -11,23 +11,19 @@
       "longitude": 226.2
     },
     "coordinatesForShow": {
-      "latitude": "18°39′N",
-      "longitude": "226°12′E"
+      "latitude": "18°39°N",
+      "longitude": "226°12°E"
     },
-    "photos": [
-      {
-        "photo": "./Experimental/Pictures/Olympus_Mons/Olympus2.jpg"
-      },
-      {
-        "photo": "./Experimental/Pictures/Olympus_Mons/Olympus4.webp"
-      },
-      {
-        "photo": "./Experimental/Pictures/Olympus_Mons/Olympus1.jpg"
-      },
-      {
-        "photo": "./Experimental/Pictures/Olympus_Mons/Olympus3.webp"
-      }
-    ]
+    
+      
+        "photo1": "./Experimental/Pictures/Olympus_Mons/Olympus2.jpg"
+    ,
+      
+        "photo2": "./Experimental/Pictures/Olympus_Mons/Olympus4.webp"
+      ,
+      
+        "photo3": "./Experimental/Pictures/Olympus_Mons/Olympus1.jpg"
+      
   },
   {
     "id": 2,
@@ -44,20 +40,14 @@
       "latitude": "13.9°S",
       "longitude": "59.2°W"
     },
-    "photos": [
-      {
-        "photo": "./Experimental/Pictures/Valles_Marineris/Mars_Valles_Marineris.jpeg"
-      },
-      {
-        "photo": "./Experimental/Pictures/Valles_Marineris/1600px-016vallesmarineris.jpg"
-      },
-      {
-        "photo": "./Experimental/Pictures/Valles_Marineris/Valles_Marineris_NASA_World_Wind_map_Mars.jpg"
-      },
-      {
-        "photo": "./Experimental/Pictures/Valles_Marineris/1600px-VallesMarinerisHuge.jpg"
-      }
-    ]
+    
+        "photo1": "./Experimental/Pictures/Valles_Marineris/Mars_Valles_Marineris.jpeg"
+      ,
+      
+        "photo2": "./Experimental/Pictures/Valles_Marineris/1600px-016vallesmarineris.jpg"
+      ,
+      
+        "photo3": "./Experimental/Pictures/Valles_Marineris/Valles_Marineris_NASA_World_Wind_map_Mars.jpg"
   },
   {
     "id": 3,
@@ -74,17 +64,17 @@
       "latitude": "42.4°S",
       "longitude": "70.5°E"
     },
-    "photos": [
-      {
-        "photo": "./Experimental/Pictures/Hellas_Planitaia/520px-Hellas_Planitia_by_the_Viking_orbiters.jpg"
-      },
-      {
-        "photo": "./Experimental/Pictures/Hellas_Planitaia/520px-Hellas_MOLA_zoom_64_medium.jpg"
-      },
-      {
-        "photo": ".Experimental/Pictures/Hellas_Planitaia/maxresdefault.jpg"
-      }
-    ]
+    
+      
+        "photo1": "./Experimental/Pictures/Hellas_Planitaia/520px-Hellas_Planitia_by_the_Viking_orbiters.jpg"
+      ,
+      
+        "photo2": "./Experimental/Pictures/Hellas_Planitaia/520px-Hellas_MOLA_zoom_64_medium.jpg"
+      ,
+      
+        "photo3": ".Experimental/Pictures/Hellas_Planitaia/maxresdefault.jpg"
+      
+    
   },
   {
     "id": 4,
@@ -102,17 +92,16 @@
         "longitude": "316.0°E"
         
     },
-    "photos": [
-      {
-        "photo": "./Experimental/Pictures/Argyre_Planitia/965px-Mars_atmosphere.jpg"
-      },
-      {
-        "photo": "./Experimental/Pictures/Argyre_Planitia/Gullies_in_the_southern_highlands_of_Mars.jpg"
-      },
-      {
-        "photo": "./Experimental/Pictures/Argyre_Planitia/854px-Argyre_MOLA_zoom_64.jpg"
-      }
-    ]
+      
+        "photo1": "./Experimental/Pictures/Argyre_Planitia/965px-Mars_atmosphere.jpg"
+      ,
+      
+        "photo2": "./Experimental/Pictures/Argyre_Planitia/Gullies_in_the_southern_highlands_of_Mars.jpg"
+      ,
+      
+        "photo3": "./Experimental/Pictures/Argyre_Planitia/854px-Argyre_MOLA_zoom_64.jpg"
+      
+  
   },
   {
     "id": 5,
@@ -131,17 +120,17 @@
         
     },
 
-    "photos": [
-      {
-        "photo": ".//Experimental/Pictures/Isidis_Planitia/jpegPIA03087.width-1024.jpg"
-      },
-      {
-        "photo": ".//Experimental/Pictures/Isidis_Planitia/Syrtis-Isidis_zoom_64_pano.jpg"
-      },
-      {
-        "photo": "./Experimental/Pictures/Isidis_Planitia/500px-Isidis_basin_topo.jpg"
-      }
-    ]
+   
+      
+        "photo1": ".//Experimental/Pictures/Isidis_Planitia/jpegPIA03087.width-1024.jpg"
+      ,
+      
+        "photo2": ".//Experimental/Pictures/Isidis_Planitia/Syrtis-Isidis_zoom_64_pano.jpg"
+      ,
+      
+        "photo3": "./Experimental/Pictures/Isidis_Planitia/500px-Isidis_basin_topo.jpg"
+      
+    
   },
   {
     "id": 6,
@@ -159,14 +148,13 @@
         "longitude": "255.92°E"
         
     },
-    "photos": [
-      {
-        "photo": "./Experimental/Pictures/Ascraeus_Mons/Ascraeus_Mons_Flank_Terraces.jpg"
-      },
-      {
-        "photo": "./Experimental/Pictures/Ascraeus_Mons/Ascraeus_mons_topo.jpg"
-      }
-    ]
+      
+        "photo1": "./Experimental/Pictures/Ascraeus_Mons/Ascraeus_Mons_Flank_Terraces.jpg"
+      ,
+      
+        "photo2": "./Experimental/Pictures/Ascraeus_Mons/Ascraeus_mons_topo.jpg"
+      
+    
   },
   {
     "id": 7,
@@ -185,20 +173,19 @@
         
     },
 
-    "photos": [
-      {
-        "photo": "./Experimental/Pictures/Pavonis_Mons/Pavoniscaldeira.jpg"
-      },
-      {
-        "photo": "./Experimental/Pictures/Pavonis_Mons/480px-Pavonis_Mons_THEMIS_day_IR_100m_v11_0.5.jpg"
-      },
-      {
-        "photo": "./Experimental/Pictures/Pavonis_Mons/Pavonis_mons_topo.jpg"
-      },
-      {
-        "photo": "./Experimental/Pictures/Pavonis_Mons/Pavonis_Summit_Dust_PIA07421.jpg"
-      }
-    ]
+      
+        "photo1": "./Experimental/Pictures/Pavonis_Mons/Pavoniscaldeira.jpg"
+      ,
+      
+        "photo2": "./Experimental/Pictures/Pavonis_Mons/480px-Pavonis_Mons_THEMIS_day_IR_100m_v11_0.5.jpg"
+      ,
+      
+        "photo3": "./Experimental/Pictures/Pavonis_Mons/Pavonis_mons_topo.jpg"
+      ,
+      
+        "photo4": "./Experimental/Pictures/Pavonis_Mons/Pavonis_Summit_Dust_PIA07421.jpg"
+      
+    
   },
   {
     "id": 8,
@@ -216,23 +203,18 @@
         "longitude": "120.09°W"
         
     },
-    "photos": [
-      {
-        "photo": "./Experimental/Pictures/Arsia_Mons/380px-PIA13540_-_Layers_in_Martian_volcano_Arsia_Mons.jpg"
-      },
-      {
-        "photo": "./Experimental/Pictures/Arsia_Mons/440px-Arsia_Mons_mosaic.jpg"
-      },
-      {
-        "photo": "./Experimental/Pictures/Arsia_Mons/Arsia_Mons_PIA02804.jpg"
-      },
-      {
-        "photo": "./Experimental/Pictures/Arsia_Mons/Arsia_Mons_possible_cave_entrance_-MRO.jpg"
-      },
-      {
-        "photo": "./Experimental/Pictures/Arsia_Mons/MOLA_arsia_mons.jpg"
-      }
-    ]
+      
+        "photo1": "./Experimental/Pictures/Arsia_Mons/380px-PIA13540_-_Layers_in_Martian_volcano_Arsia_Mons.jpg"
+      ,
+      
+        "photo2": "./Experimental/Pictures/Arsia_Mons/440px-Arsia_Mons_mosaic.jpg"
+      ,
+      
+        "photo3": "./Experimental/Pictures/Arsia_Mons/Arsia_Mons_PIA02804.jpg"
+      ,
+      
+        "photo4": "./Experimental/Pictures/Arsia_Mons/Arsia_Mons_possible_cave_entrance_-MRO.jpg"
+     
   },
   {
     "id": 9,
@@ -250,20 +232,19 @@
         "longitude": "339.26°E"
         
     },
-    "photos": [
-      {
-        "photo": "./Experimental/Pictures/Acidalia_Planitia/878px-Possible_mud_volcano_on_Acidalia_Planitia_by_HiRISE.jpg"
-      },
-      {
-        "photo": "./Experimental/Pictures/Acidalia_Planitia/1280px-24951gullyclose.jpg"
-      },
-      {
-        "photo": ".//Experimental/Pictures/Acidalia_Planitia/520px-Acidalia_planitia_topo.jpg"
-      },
-      {
-        "photo": "./Experimental/Pictures/Acidalia_Planitia/726px-MOLA_Map.png"
-      }
-    ]
+      
+        "photo1": "./Experimental/Pictures/Acidalia_Planitia/878px-Possible_mud_volcano_on_Acidalia_Planitia_by_HiRISE.jpg"
+      ,
+      
+        "photo2": "./Experimental/Pictures/Acidalia_Planitia/1280px-24951gullyclose.jpg"
+      ,
+      
+        "photo3": ".//Experimental/Pictures/Acidalia_Planitia/520px-Acidalia_planitia_topo.jpg"
+      ,
+      
+        "photo4": "./Experimental/Pictures/Acidalia_Planitia/726px-MOLA_Map.png"
+      
+    
   },
 
   {
@@ -282,23 +263,19 @@
         "longitude": "6°E"
         
     },
-    "photos": [
-      {
-        "photo": "./Experimental/Pictures/Gale_Crater/1600px-PIA19912-MarsCuriosityRover-MountSharp-20151002.jpg"
-      },
-      {
-        "photo": "./Experimental/Pictures/Gale_Crater/MarsCuriosityRover-AncientLake_Estimated_Size.jpg"
-      },
-      {
-        "photo": "./Experimental/Pictures/Gale_Crater/400px-Topographic_Map_of_Gale_Crater.jpg"
-      },
-      {
-        "photo": "./Experimental/Pictures/Gale_Crater/PIA16453-MarsCuriosityRover-RocknestPanorama-20121126%20(1).jpg"
-      },
-      {
-        "photo": "./Experimental/Pictures/Gale_Crater/400px-Curiosity_Cradled_by_Gale_Crater.jpg"
-      }
-    ]
+      
+        "photo1": "./Experimental/Pictures/Gale_Crater/1600px-PIA19912-MarsCuriosityRover-MountSharp-20151002.jpg"
+    ,
+      
+        "photo2": "./Experimental/Pictures/Gale_Crater/MarsCuriosityRover-AncientLake_Estimated_Size.jpg"
+    ,
+      
+        "photo3": "./Experimental/Pictures/Gale_Crater/400px-Topographic_Map_of_Gale_Crater.jpg"
+      ,
+      
+        "photo4": "./Experimental/Pictures/Gale_Crater/PIA16453-MarsCuriosityRover-RocknestPanorama-20121126%20(1).jpg"
+      
+    
   },
   {
     "id": 11,
@@ -306,7 +283,7 @@
     "name": "Jezero Crater",
     "topographicalgroup": "TerrestrialPeaks",
     "location": "Isidis Planitia",
-    "details": "is a crater on Mars in the Syrtis Major quadrangle, about 45.0 km (28.0 mi) in diameter. Home to the Perseverance rover. Thought to have once been flooded with water, the crater contains a fan-delta deposit rich in clays. In some Slavic languages, the word jezero means 'lake'. In November 2018, it was announced that Jezero had been chosen as the landing site for the rover Perseverance as part of NASA's Mars 2020 mission.",
+    "details": "Jezero Crater's history reveals multiple cycles of water presence. Over 3.5 billion years ago, rivers formed a lake, carrying clay minerals. This offers potential clues about past Martian life. It is a crater on Mars in the Syrtis Major quadrangle, about 45.0 km (28.0 mi) in diameter. Home to the Perseverance rover. Thought to have once been flooded with water, the crater contains a fan-delta deposit rich in clays. In some Slavic languages, the word jezero means 'lake'. In November 2018, it was announced that Jezero had been chosen as the landing site for the rover Perseverance as part of NASA's Mars 2020 mission.",
     "coordinates": {
       "latitude": 18.38,
       "longitude": 77.58
@@ -316,29 +293,19 @@
         "longitude": "77.58°E"
         
     },
-    "photos": [
-      {
-        "photo": "./Experimental/Pictures/Jezero_Crater/jezero-overview.jpg"
-      },
-      {
-        "photo": "./Experimental/Pictures/Jezero_Crater/Mastcam-Z's_First_360-Degree_Panorama.jpg"
-      },
-      {
-        "photo": "./Experimental/Pictures/Jezero_Crater/jezero-site.jpg"
-      },
-      {
-        "photo": "./Experimental/Pictures/Jezero_Crater/landing-ellipse.jpg"
-      },
-      {
-        "photo": "./Experimental/Pictures/Jezero_Crater/MarsPerseveranceRover-PossibleRoutes-20210305.jpg"
-      },
-      {
-        "photo": "./Experimental/Pictures/Jezero_Crater/Jezero_crater_on_Mars%2C_sol_14_of_Perseverance_mission.png"
-      },
-      {
-        "photo": ".Experimental/Pictures/Jezero_Crater/Jezero_Crater_Rim_Panorama_NASA_Perseverance_rover.jpg"
-      }
-    ]
+      
+        "photo1": "./Experimental/Pictures/Jezero_Crater/jezero-overview.jpg"
+      ,
+      
+        "photo2": "./Experimental/Pictures/Jezero_Crater/Mastcam-Z's_First_360-Degree_Panorama.jpg"
+      ,
+      
+        "photo3": "./Experimental/Pictures/Jezero_Crater/jezero-site.jpg"
+      ,
+      
+        "photo4": "./Experimental/Pictures/Jezero_Crater/landing-ellipse.jpg"
+      
+    
   },
   {
     "id": 12,
@@ -356,17 +323,16 @@
         "longitude": "147.21°E"
         
     },
-    "photos": [
-      {
-        "photo": "./Experimental/Pictures/Elysiom_Mons/380px-Elysium_Mons_541A44_541A46.jpg"
-      },
-      {
-        "photo": "./Experimental/Pictures/Elysiom_Mons/400px-Elysium_Mons_THEMIS.jpg"
-      },
-      {
-        "photo": "./Experimental/Pictures/Elysiom_Mons/360px-MOLA_elysium_mons.jpg"
-      }
-    ]
+      
+        "photo1": "./Experimental/Pictures/Elysiom_Mons/380px-Elysium_Mons_541A44_541A46.jpg"
+      ,
+      
+        "photo2": "./Experimental/Pictures/Elysiom_Mons/400px-Elysium_Mons_THEMIS.jpg"
+      ,
+    
+        "photo3": "./Experimental/Pictures/Elysiom_Mons/360px-MOLA_elysium_mons.jpg"
+      
+    
   },
   {
     "id": 13,
@@ -384,17 +350,16 @@
         "longitude": "69.5°E"
         
     },
-    "photos": [
-      {
-        "photo": "./Experimental/Pictures/Syrtis%20Major/460px-Syrtis_Major_MC-13.jpg"
-      },
-      {
-        "photo": "./Experimental/Pictures/Syrtis%20Major/600px-Syrtis-Isidis_zoom_64_pano.jpg"
-      },
-      {
-        "photo": "./Experimental/Pictures/Syrtis%20Major/472px-Nili-Meroe_paterae_THEMIS_day_IR_100m_v11.jpg"
-      }
-    ]
+      
+        "photo1": "./Experimental/Pictures/Syrtis%20Major/460px-Syrtis_Major_MC-13.jpg"
+      ,
+      
+        "photo2": "./Experimental/Pictures/Syrtis%20Major/600px-Syrtis-Isidis_zoom_64_pano.jpg"
+      ,
+      
+        "photo3": "./Experimental/Pictures/Syrtis%20Major/472px-Nili-Meroe_paterae_THEMIS_day_IR_100m_v11.jpg"
+      
+    
   },
   {
     "id": 14,
@@ -412,14 +377,13 @@
         "longitude": "169.65°E"
         
     },
-    "photos": [
-      {
-        "photo": "./Experimental/Pictures/Olympia_Undaya/PIA24882_fig1.png"
-      },
-      {
-        "photo": "./Experimental/Pictures/Olympia_Undaya/26259_PIA24882.jpg"
-      }
-    ]
+      
+        "photo1": "./Experimental/Pictures/Olympia_Undaya/PIA24882_fig1.png"
+      ,
+      
+        "photo2": "./Experimental/Pictures/Olympia_Undaya/26259_PIA24882.jpg"
+      
+    
   },
   {
     "id": 15,
@@ -437,23 +401,16 @@
         "longitude": "196.0°E"
         
     },
-    "photos": [
-      {
-        "photo": "./Experimental/Pictures/Amazonis_Planitia/380px-54850_1900ridgesclosecolor.jpg"
-      },
-      {
-        "photo": "./Experimental/Pictures/Amazonis_Planitia/36745_1905lridgesshort.jpg"
-      },
-      {
-        "photo": "./Experimental/Pictures/Amazonis_Planitia/400px-Amazonis_planitia_topo.jpg"
-      },
-      {
-        "photo": "./Experimental/Pictures/Amazonis_Planitia/380px-ESP_036745_1905top.jpg"
-      },
-      {
-        "photo": "./Experimental/Pictures/Amazonis_Planitia/USGS-Mars-AmazonisPlanitia-mola.jpg"
-      }
-    ]
+      
+        "photo1": "./Experimental/Pictures/Amazonis_Planitia/380px-54850_1900ridgesclosecolor.jpg"
+      ,
+      
+        "photo2": "./Experimental/Pictures/Amazonis_Planitia/36745_1905lridgesshort.jpg"
+      ,
+      
+        "photo3": "./Experimental/Pictures/Amazonis_Planitia/400px-Amazonis_planitia_topo.jpg"
+      
+      
   },
   {
     "id": 16,
@@ -471,20 +428,17 @@
         "longitude": "260°E"
         
     },
-    "photos": [
-      {
-        "photo": "./Experimental/Pictures/Tharsis/440px-Clouds_over_lava_flows_on_Mars_ESA384876.jpg"
-      },
-      {
-        "photo": "./Experimental/Pictures/Tharsis/440px-Tharsis-PIA02049.jpg"
-      },
-      {
-        "photo": "./Experimental/Pictures/Tharsis/600px-Tharsis_-_Valles_Marineris_MOLA_shaded_colorized_zoom_32.jpg"
-      },
-      {
-        "photo": ".Experimental/Pictures/Tharsis/Syria-Thaumasia.jpg"
-      }
-    ]
+      
+        "photo1": "./Experimental/Pictures/Tharsis/440px-Clouds_over_lava_flows_on_Mars_ESA384876.jpg"
+      ,
+      
+        "photo2": "./Experimental/Pictures/Tharsis/440px-Tharsis-PIA02049.jpg"
+      ,
+      
+        "photo3": "./Experimental/Pictures/Tharsis/600px-Tharsis_-_Valles_Marineris_MOLA_shaded_colorized_zoom_32.jpg"
+    
+      
+    
   },
   {
     "id": 17,
@@ -502,14 +456,13 @@
         "longitude": "6°E"
         
     },
-    "photos": [
-      {
-        "photo": "./Experimental/Pictures/Arabia_Terra/Oxus_Patera,_a_caldera_on_Mars.jpg"
-      },
-      {
-        "photo": "./Experimental/Pictures/Arabia_Terra/500px-Eden_Patera_THEMIS_day_IR.jpg"
-      }
-    ]
+      
+        "photo1": "./Experimental/Pictures/Arabia_Terra/Oxus_Patera,_a_caldera_on_Mars.jpg"
+      ,
+      
+        "photo2": "./Experimental/Pictures/Arabia_Terra/500px-Eden_Patera_THEMIS_day_IR.jpg"
+      
+    
   },
   {
     "id": 18,
@@ -527,14 +480,13 @@
         "longitude": "350°E"
         
     },
-    "photos": [
-      {
-        "photo": "./Experimental/Pictures/Noachis_Terra/Dunes_of_Mars.jpg"
-      },
-      {
-        "photo": "./Experimental/Pictures/Noachis_Terra/380px-Exhumed_crater_in_Noachis.jpeg"
-      }
-    ]
+      
+        "photo1": "./Experimental/Pictures/Noachis_Terra/Dunes_of_Mars.jpg"
+      ,
+      
+        "photo2": "./Experimental/Pictures/Noachis_Terra/380px-Exhumed_crater_in_Noachis.jpeg"
+      
+    
   },
   {
     "id": 19,
@@ -552,21 +504,20 @@
         "longitude": "208°E"
         
     },
-    "photos": [
-      {
-        "photo": "./Experimental/Pictures/Borealis_Basin/MarsLomonosovCraterWinter.jpg"
-      },
-      {
-        "photo": "./Experimental/Pictures/Borealis_Basin/700px-Mars_topography_(MOLA_dataset)_with_poles_HiRes.jpg"
-      }
-    ]
+      
+        "photo1": "./Experimental/Pictures/Borealis_Basin/MarsLomonosovCraterWinter.jpg"
+      ,
+      
+        "photo2": "./Experimental/Pictures/Borealis_Basin/700px-Mars_topography_(MOLA_dataset)_with_poles_HiRes.jpg"
+      
+    
   },  
   {
     "id": 20,
     "type": "Crater",
     "name": "Aonia Terra",
     "topographicalgroup": "TerrestrialPeaks",
-    "location": "southern hemisphere of the planet Mars",
+    "location": "Southern hemisphere of the planet Mars",
     "details": "It is named after a classical albedo feature Aonia, that was named after the ancient Greek region Aonia. Aonia Terra is an upland area notable for massive cratering including the large Lowell Crater, parts of the region features small craters, in the plain areas, Thaumasia Fossae and parts of the southern area.",
     "coordinates": {
       "latitude": 62.0,
@@ -577,7 +528,8 @@
       "longitude": "100.0°E"
     },
     "photos": []
-  },{
+  },
+  {
     "id": 21,
     "type": "Region",
     "name": "Terra Cimmeria",
@@ -592,7 +544,8 @@
       "longitude": "215.0°E"
     },
     "photos": []
-  },{
+  },
+  {
     "id": 22,
 "type": "Region",
 "name": "Margaritifer Terra",
@@ -627,7 +580,8 @@
 },
 
 
-{"id": 24,
+{
+  "id": 24,
 "type": "Highland",
 "name": "Promethei Terra",
 "location": "Southern hemisphere of Mars, east of the Hellas basin",
@@ -699,7 +653,7 @@
 "id": 28,
 "type": "Highland",
 "name": "Tyrrhena Terra",
-"location": "Southern hemisphere of Mars, centered at 14.8°S 90°E",
+"location": "Southern hemisphere of Mars",
 "details": "Tyrrhena Terra, situated south of the Martian equator and northeast of the Hellas basin, covers an expanse of 2300 km at its widest point. This region, located in the Mare Tyrrhenum quadrangle, is characterized by heavily cratered highlands and rugged terrain, representing the typical southern Martian terrae. Notably, Tyrrhena Terra features the ancient Tyrrhena Patera volcano and significant formations like Herschel crater, Licus Vallis, and Ausonia Montes. The landscape also exhibits channels and dunes, as captured in images.",
 "coordinates": {
 "latitude": 15.0,
@@ -716,7 +670,7 @@
 "id": 29,
 "type": "Region",
 "name": "Xanthe Terra",
-"location": "Just north of the Martian equator",
+"location": "North of the Martian equator",
 "details": "Xanthe Terra, positioned near Mars' equator, spans an area of approximately 1867.65 km in diameter. The region's name, meaning 'golden-yellow land,' is fitting for its distinctive landscape. Found within the Lunae Palus, Coprates, Margaritifer Sinus, and Oxia Palus quadrangles, Xanthe Terra hosts notable features like Ravi Vallis, Aromatum Chaos, and various craters. Imaged by Mars Express, Mars Global Surveyor, and Mars Reconnaissance Orbiter, this area unveils ancient river valleys and deltas with thin layers, suggesting past precipitation on early Mars.",
 
 "coordinates": {
