@@ -144,7 +144,7 @@
       "longitude": 255.92
     },
     "coordinatesForShow": {
-        "latitude": "11.92°N",
+        "latitude": "11.92°N"
         "longitude": "255.92°E"
         
     },
@@ -181,9 +181,6 @@
       ,
       
         "photo3": "./Experimental/Pictures/Pavonis_Mons/Pavonis_mons_topo.jpg"
-      ,
-      
-        "photo4": "./Experimental/Pictures/Pavonis_Mons/Pavonis_Summit_Dust_PIA07421.jpg"
       
     
   },
@@ -211,10 +208,9 @@
       ,
       
         "photo3": "./Experimental/Pictures/Arsia_Mons/Arsia_Mons_PIA02804.jpg"
-      ,
       
-        "photo4": "./Experimental/Pictures/Arsia_Mons/Arsia_Mons_possible_cave_entrance_-MRO.jpg"
-     
+      
+        
   },
   {
     "id": 9,
@@ -240,10 +236,7 @@
       ,
       
         "photo3": ".//Experimental/Pictures/Acidalia_Planitia/520px-Acidalia_planitia_topo.jpg"
-      ,
-      
-        "photo4": "./Experimental/Pictures/Acidalia_Planitia/726px-MOLA_Map.png"
-      
+     
     
   },
 
@@ -271,10 +264,7 @@
     ,
       
         "photo3": "./Experimental/Pictures/Gale_Crater/400px-Topographic_Map_of_Gale_Crater.jpg"
-      ,
-      
-        "photo4": "./Experimental/Pictures/Gale_Crater/PIA16453-MarsCuriosityRover-RocknestPanorama-20121126%20(1).jpg"
-      
+     
     
   },
   {
@@ -301,10 +291,7 @@
       ,
       
         "photo3": "./Experimental/Pictures/Jezero_Crater/jezero-site.jpg"
-      ,
-      
-        "photo4": "./Experimental/Pictures/Jezero_Crater/landing-ellipse.jpg"
-      
+     
     
   },
   {
@@ -373,7 +360,7 @@
       "longitude": 169.65
     },
     "coordinatesForShow": {
-        "latitude": "81.63°N",
+        "latitude": "81.63°N"
         "longitude": "169.65°E"
         
     },
@@ -452,7 +439,7 @@
       "longitude": 6
     },
     "coordinatesForShow": {
-        "latitude": "21°N",
+        "latitude": "21°N"
         "longitude": "6°E"
         
     },
@@ -476,7 +463,7 @@
       "longitude": 350
     },
     "coordinatesForShow": {
-        "latitude": "45°S",
+        "latitude": "45°S"
         "longitude": "350°E"
         
     },
@@ -500,7 +487,7 @@
       "longitude": 208
     },
     "coordinatesForShow": {
-        "latitude": "67°N",
+        "latitude": "67°N"
         "longitude": "208°E"
         
     },
