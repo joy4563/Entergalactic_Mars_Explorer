@@ -24,8 +24,7 @@
 import requests
 import json
 
-sol = 650  # Replace this with the sol you want to get images for
-url = f"https://mars.nasa.gov/rss/api/?feed=raw_images&category=ingenuity&feedtype=json&sol={sol}"
+url = f"https://mars.nasa.gov/rss/api/?feed=raw_images&category=ingenuity&feedtype=json"
 
 response = requests.get(url)
 
