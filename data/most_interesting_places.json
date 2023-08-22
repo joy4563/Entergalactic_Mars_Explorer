@@ -14,16 +14,10 @@
       "latitude": "18°39°N",
       "longitude": "226°12°E"
     },
-    
-      
-        "photo1": "./Experimental/Pictures/Olympus_Mons/Olympus2.jpg"
-    ,
-      
-        "photo2": "./Experimental/Pictures/Olympus_Mons/Olympus4.webp"
-      ,
-      
-        "photo3": "./Experimental/Pictures/Olympus_Mons/Olympus1.jpg"
-      
+
+    "photo1": "./Experimental/Pictures/Olympus_Mons/Olympus2.jpg",
+    "photo2": "./Experimental/Pictures/Olympus_Mons/Olympus4.webp",
+    "photo3": "./Experimental/Pictures/Olympus_Mons/Olympus1.jpg"
   },
   {
     "id": 2,
@@ -40,14 +34,10 @@
       "latitude": "13.9°S",
       "longitude": "59.2°W"
     },
-    
-        "photo1": "./Experimental/Pictures/Valles_Marineris/Mars_Valles_Marineris.jpeg"
-      ,
-      
-        "photo2": "./Experimental/Pictures/Valles_Marineris/1600px-016vallesmarineris.jpg"
-      ,
-      
-        "photo3": "./Experimental/Pictures/Valles_Marineris/Valles_Marineris_NASA_World_Wind_map_Mars.jpg"
+
+    "photo1": "./Experimental/Pictures/Valles_Marineris/Mars_Valles_Marineris.jpeg",
+    "photo2": "./Experimental/Pictures/Valles_Marineris/1600px-016vallesmarineris.jpg",
+    "photo3": "./Experimental/Pictures/Valles_Marineris/Valles_Marineris_NASA_World_Wind_map_Mars.jpg"
   },
   {
     "id": 3,
@@ -64,17 +54,10 @@
       "latitude": "42.4°S",
       "longitude": "70.5°E"
     },
-    
-      
-        "photo1": "./Experimental/Pictures/Hellas_Planitaia/520px-Hellas_Planitia_by_the_Viking_orbiters.jpg"
-      ,
-      
-        "photo2": "./Experimental/Pictures/Hellas_Planitaia/520px-Hellas_MOLA_zoom_64_medium.jpg"
-      ,
-      
-        "photo3": ".Experimental/Pictures/Hellas_Planitaia/maxresdefault.jpg"
-      
-    
+
+    "photo1": "./Experimental/Pictures/Hellas_Planitaia/520px-Hellas_Planitia_by_the_Viking_orbiters.jpg",
+    "photo2": "./Experimental/Pictures/Hellas_Planitaia/520px-Hellas_MOLA_zoom_64_medium.jpg",
+    "photo3": ".Experimental/Pictures/Hellas_Planitaia/maxresdefault.jpg"
   },
   {
     "id": 4,
@@ -88,20 +71,13 @@
       "longitude": 316.0
     },
     "coordinatesForShow": {
-        "latitude": "49.7°S",
-        "longitude": "316.0°E"
-        
+      "latitude": "49.7°S",
+      "longitude": "316.0°E"
     },
-      
-        "photo1": "./Experimental/Pictures/Argyre_Planitia/965px-Mars_atmosphere.jpg"
-      ,
-      
-        "photo2": "./Experimental/Pictures/Argyre_Planitia/Gullies_in_the_southern_highlands_of_Mars.jpg"
-      ,
-      
-        "photo3": "./Experimental/Pictures/Argyre_Planitia/854px-Argyre_MOLA_zoom_64.jpg"
-      
-  
+
+    "photo1": "./Experimental/Pictures/Argyre_Planitia/965px-Mars_atmosphere.jpg",
+    "photo2": "./Experimental/Pictures/Argyre_Planitia/Gullies_in_the_southern_highlands_of_Mars.jpg",
+    "photo3": "./Experimental/Pictures/Argyre_Planitia/854px-Argyre_MOLA_zoom_64.jpg"
   },
   {
     "id": 5,
@@ -115,22 +91,13 @@
       "longitude": 87.0
     },
     "coordinatesForShow": {
-        "latitude": "12.9°N",
-        "longitude": "87.0°E"
-        
+      "latitude": "12.9°N",
+      "longitude": "87.0°E"
     },
 
-   
-      
-        "photo1": ".//Experimental/Pictures/Isidis_Planitia/jpegPIA03087.width-1024.jpg"
-      ,
-      
-        "photo2": ".//Experimental/Pictures/Isidis_Planitia/Syrtis-Isidis_zoom_64_pano.jpg"
-      ,
-      
-        "photo3": "./Experimental/Pictures/Isidis_Planitia/500px-Isidis_basin_topo.jpg"
-      
-    
+    "photo1": ".//Experimental/Pictures/Isidis_Planitia/jpegPIA03087.width-1024.jpg",
+    "photo2": ".//Experimental/Pictures/Isidis_Planitia/Syrtis-Isidis_zoom_64_pano.jpg",
+    "photo3": "./Experimental/Pictures/Isidis_Planitia/500px-Isidis_basin_topo.jpg"
   },
   {
     "id": 6,
@@ -144,21 +111,14 @@
       "longitude": 255.92
     },
     "coordinatesForShow": {
-        "latitude": "11.92°N",
-        "longitude": "255.92°E"
-        
+      "latitude": "11.92°N",
+      "longitude": "255.92°E"
     },
-      
-        "photo1": "./Experimental/Pictures/Ascraeus_Mons/Ascraeus_Mons_Flank_Terraces.jpg"
-      ,
-      
-        "photo2": "./Experimental/Pictures/Ascraeus_Mons/Ascraeus_mons_topo.jpg"
-      
-      ,
-      
-        "photo3": "./Experimental/Pictures/Ascraeus_Mons/Ascraeus_Mons.png"
-      
-    
+
+    "photo1": "./Experimental/Pictures/Ascraeus_Mons/Ascraeus_Mons_Flank_Terraces.jpg",
+    "photo2": "./Experimental/Pictures/Ascraeus_Mons/Ascraeus_mons_topo.jpg",
+
+    "photo3": "./Experimental/Pictures/Ascraeus_Mons/Ascraeus_Mons.png"
   },
   {
     "id": 7,
@@ -172,21 +132,13 @@
       "longitude": 247.04
     },
     "coordinatesForShow": {
-        "latitude": "1.48°N",
-        "longitude": "247.04°E"
-        
+      "latitude": "1.48°N",
+      "longitude": "247.04°E"
     },
 
-      
-        "photo1": "./Experimental/Pictures/Pavonis_Mons/Pavoniscaldeira.jpg"
-      ,
-      
-        "photo2": "./Experimental/Pictures/Pavonis_Mons/480px-Pavonis_Mons_THEMIS_day_IR_100m_v11_0.5.jpg"
-      ,
-      
-        "photo3": "./Experimental/Pictures/Pavonis_Mons/Pavonis_mons_topo.jpg"
-      
-    
+    "photo1": "./Experimental/Pictures/Pavonis_Mons/Pavoniscaldeira.jpg",
+    "photo2": "./Experimental/Pictures/Pavonis_Mons/480px-Pavonis_Mons_THEMIS_day_IR_100m_v11_0.5.jpg",
+    "photo3": "./Experimental/Pictures/Pavonis_Mons/Pavonis_mons_topo.jpg"
   },
   {
     "id": 8,
@@ -200,21 +152,13 @@
       "longitude": -120.09
     },
     "coordinatesForShow": {
-        "latitude": "8.35°S",
-        "longitude": "120.09°W"
-        
+      "latitude": "8.35°S",
+      "longitude": "120.09°W"
     },
-      
-        "photo1": "./Experimental/Pictures/Arsia_Mons/380px-PIA13540_-_Layers_in_Martian_volcano_Arsia_Mons.jpg"
-      ,
-      
-        "photo2": "./Experimental/Pictures/Arsia_Mons/440px-Arsia_Mons_mosaic.jpg"
-      ,
-      
-        "photo3": "./Experimental/Pictures/Arsia_Mons/Arsia_Mons_PIA02804.jpg"
-      
-      
-        
+
+    "photo1": "./Experimental/Pictures/Arsia_Mons/380px-PIA13540_-_Layers_in_Martian_volcano_Arsia_Mons.jpg",
+    "photo2": "./Experimental/Pictures/Arsia_Mons/440px-Arsia_Mons_mosaic.jpg",
+    "photo3": "./Experimental/Pictures/Arsia_Mons/Arsia_Mons_PIA02804.jpg"
   },
   {
     "id": 9,
@@ -228,20 +172,13 @@
       "longitude": 339.26
     },
     "coordinatesForShow": {
-        "latitude": "49.76°N",
-        "longitude": "339.26°E"
-        
+      "latitude": "49.76°N",
+      "longitude": "339.26°E"
     },
-      
-        "photo1": "./Experimental/Pictures/Acidalia_Planitia/878px-Possible_mud_volcano_on_Acidalia_Planitia_by_HiRISE.jpg"
-      ,
-      
-        "photo2": "./Experimental/Pictures/Acidalia_Planitia/1280px-24951gullyclose.jpg"
-      ,
-      
-        "photo3": ".//Experimental/Pictures/Acidalia_Planitia/520px-Acidalia_planitia_topo.jpg"
-     
-    
+
+    "photo1": "./Experimental/Pictures/Acidalia_Planitia/878px-Possible_mud_volcano_on_Acidalia_Planitia_by_HiRISE.jpg",
+    "photo2": "./Experimental/Pictures/Acidalia_Planitia/1280px-24951gullyclose.jpg",
+    "photo3": ".//Experimental/Pictures/Acidalia_Planitia/520px-Acidalia_planitia_topo.jpg"
   },
 
   {
@@ -256,20 +193,13 @@
       "longitude": 137.8
     },
     "coordinatesForShow": {
-        "latitude": "21°N",
-        "longitude": "6°E"
-        
+      "latitude": "21°N",
+      "longitude": "6°E"
     },
-      
-        "photo1": "./Experimental/Pictures/Gale_Crater/1600px-PIA19912-MarsCuriosityRover-MountSharp-20151002.jpg"
-    ,
-      
-        "photo2": "./Experimental/Pictures/Gale_Crater/MarsCuriosityRover-AncientLake_Estimated_Size.jpg"
-    ,
-      
-        "photo3": "./Experimental/Pictures/Gale_Crater/400px-Topographic_Map_of_Gale_Crater.jpg"
-     
-    
+
+    "photo1": "./Experimental/Pictures/Gale_Crater/1600px-PIA19912-MarsCuriosityRover-MountSharp-20151002.jpg",
+    "photo2": "./Experimental/Pictures/Gale_Crater/MarsCuriosityRover-AncientLake_Estimated_Size.jpg",
+    "photo3": "./Experimental/Pictures/Gale_Crater/400px-Topographic_Map_of_Gale_Crater.jpg"
   },
   {
     "id": 11,
@@ -283,20 +213,13 @@
       "longitude": 77.58
     },
     "coordinatesForShow": {
-        "latitude": "18.38°N",
-        "longitude": "77.58°E"
-        
+      "latitude": "18.38°N",
+      "longitude": "77.58°E"
     },
-      
-        "photo1": "./Experimental/Pictures/Jezero_Crater/jezero-overview.jpg"
-      ,
-      
-        "photo2": "./Experimental/Pictures/Jezero_Crater/Mastcam-Z's_First_360-Degree_Panorama.jpg"
-      ,
-      
-        "photo3": "./Experimental/Pictures/Jezero_Crater/jezero-site.jpg"
-     
-    
+
+    "photo1": "./Experimental/Pictures/Jezero_Crater/jezero-overview.jpg",
+    "photo2": "./Experimental/Pictures/Jezero_Crater/Mastcam-Z's_First_360-Degree_Panorama.jpg",
+    "photo3": "./Experimental/Pictures/Jezero_Crater/jezero-site.jpg"
   },
   {
     "id": 12,
@@ -310,20 +233,13 @@
       "longitude": 147.21
     },
     "coordinatesForShow": {
-        "latitude": "25.02°N",
-        "longitude": "147.21°E"
-        
+      "latitude": "25.02°N",
+      "longitude": "147.21°E"
     },
-      
-        "photo1": "./Experimental/Pictures/Elysiom_Mons/380px-Elysium_Mons_541A44_541A46.jpg"
-      ,
-      
-        "photo2": "./Experimental/Pictures/Elysiom_Mons/400px-Elysium_Mons_THEMIS.jpg"
-      ,
-    
-        "photo3": "./Experimental/Pictures/Elysiom_Mons/360px-MOLA_elysium_mons.jpg"
-      
-    
+
+    "photo1": "./Experimental/Pictures/Elysiom_Mons/380px-Elysium_Mons_541A44_541A46.jpg",
+    "photo2": "./Experimental/Pictures/Elysiom_Mons/400px-Elysium_Mons_THEMIS.jpg",
+    "photo3": "./Experimental/Pictures/Elysiom_Mons/360px-MOLA_elysium_mons.jpg"
   },
   {
     "id": 13,
@@ -337,20 +253,13 @@
       "longitude": 69.5
     },
     "coordinatesForShow": {
-        "latitude": "8.4°N",
-        "longitude": "69.5°E"
-        
+      "latitude": "8.4°N",
+      "longitude": "69.5°E"
     },
-      
-        "photo1": "./Experimental/Pictures/Syrtis%20Major/460px-Syrtis_Major_MC-13.jpg"
-      ,
-      
-        "photo2": "./Experimental/Pictures/Syrtis%20Major/600px-Syrtis-Isidis_zoom_64_pano.jpg"
-      ,
-      
-        "photo3": "./Experimental/Pictures/Syrtis%20Major/472px-Nili-Meroe_paterae_THEMIS_day_IR_100m_v11.jpg"
-      
-    
+
+    "photo1": "./Experimental/Pictures/Syrtis%20Major/460px-Syrtis_Major_MC-13.jpg",
+    "photo2": "./Experimental/Pictures/Syrtis%20Major/600px-Syrtis-Isidis_zoom_64_pano.jpg",
+    "photo3": "./Experimental/Pictures/Syrtis%20Major/472px-Nili-Meroe_paterae_THEMIS_day_IR_100m_v11.jpg"
   },
   {
     "id": 14,
@@ -364,21 +273,14 @@
       "longitude": 169.65
     },
     "coordinatesForShow": {
-        "latitude": "81.63°N",
-        "longitude": "169.65°E"
-        
+      "latitude": "81.63°N",
+      "longitude": "169.65°E"
     },
-      
-        "photo1": "./Experimental/Pictures/Olympia_Undaya/PIA24882_fig1.png"
-      ,
-      
-        "photo2": "./Experimental/Pictures/Olympia_Undaya/26259_PIA24882.jpg"
-      
-      ,
-      
-        "photo3": "./Experimental/Pictures/Olympia_Undae_Dunes_PIA06848.jpg"
-      
-    
+
+    "photo1": "./Experimental/Pictures/Olympia_Undaya/PIA24882_fig1.png",
+    "photo2": "./Experimental/Pictures/Olympia_Undaya/26259_PIA24882.jpg",
+
+    "photo3": "./Experimental/Pictures/Olympia_Undae_Dunes_PIA06848.jpg"
   },
   {
     "id": 15,
@@ -392,20 +294,13 @@
       "longitude": 196.0
     },
     "coordinatesForShow": {
-        "latitude": "24.8°N",
-        "longitude": "196.0°E"
-        
+      "latitude": "24.8°N",
+      "longitude": "196.0°E"
     },
-      
-        "photo1": "./Experimental/Pictures/Amazonis_Planitia/380px-54850_1900ridgesclosecolor.jpg"
-      ,
-      
-        "photo2": "./Experimental/Pictures/Amazonis_Planitia/36745_1905lridgesshort.jpg"
-      ,
-      
-        "photo3": "./Experimental/Pictures/Amazonis_Planitia/400px-Amazonis_planitia_topo.jpg"
-      
-      
+
+    "photo1": "./Experimental/Pictures/Amazonis_Planitia/380px-54850_1900ridgesclosecolor.jpg",
+    "photo2": "./Experimental/Pictures/Amazonis_Planitia/36745_1905lridgesshort.jpg",
+    "photo3": "./Experimental/Pictures/Amazonis_Planitia/400px-Amazonis_planitia_topo.jpg"
   },
   {
     "id": 16,
@@ -419,21 +314,13 @@
       "longitude": 260
     },
     "coordinatesForShow": {
-        "latitude": "0°N",
-        "longitude": "260°E"
-        
+      "latitude": "0°N",
+      "longitude": "260°E"
     },
-      
-        "photo1": "./Experimental/Pictures/Tharsis/440px-Clouds_over_lava_flows_on_Mars_ESA384876.jpg"
-      ,
-      
-        "photo2": "./Experimental/Pictures/Tharsis/440px-Tharsis-PIA02049.jpg"
-      ,
-      
-        "photo3": "./Experimental/Pictures/Tharsis/600px-Tharsis_-_Valles_Marineris_MOLA_shaded_colorized_zoom_32.jpg"
-    
-      
-    
+
+    "photo1": "./Experimental/Pictures/Tharsis/440px-Clouds_over_lava_flows_on_Mars_ESA384876.jpg",
+    "photo2": "./Experimental/Pictures/Tharsis/440px-Tharsis-PIA02049.jpg",
+    "photo3": "./Experimental/Pictures/Tharsis/600px-Tharsis_-_Valles_Marineris_MOLA_shaded_colorized_zoom_32.jpg"
   },
   {
     "id": 17,
@@ -447,22 +334,14 @@
       "longitude": 6
     },
     "coordinatesForShow": {
-        "latitude": "21°N",
-        "longitude": "6°E"
-        
+      "latitude": "21°N",
+      "longitude": "6°E"
     },
-      
-        "photo1": "./Experimental/Pictures/Arabia_Terra/Oxus_Patera,_a_caldera_on_Mars.jpg"
-      ,
-      
-        "photo2": "./Experimental/Pictures/Arabia_Terra/500px-Eden_Patera_THEMIS_day_IR.jpg"
-      
-    
-      ,
-      
-        "photo3": "./Experimental/Pictures/Arabia_Terra/380px-WikiESP_039997_2170channels.jpg"
-      
-    
+
+    "photo1": "./Experimental/Pictures/Arabia_Terra/Oxus_Patera,_a_caldera_on_Mars.jpg",
+    "photo2": "./Experimental/Pictures/Arabia_Terra/500px-Eden_Patera_THEMIS_day_IR.jpg",
+
+    "photo3": "./Experimental/Pictures/Arabia_Terra/380px-WikiESP_039997_2170channels.jpg"
   },
   {
     "id": 18,
@@ -476,20 +355,13 @@
       "longitude": 350
     },
     "coordinatesForShow": {
-        "latitude": "45°S",
-        "longitude": "350°E"
-        
+      "latitude": "45°S",
+      "longitude": "350°E"
     },
-      
-        "photo1": "./Experimental/Pictures/Noachis_Terra/Dunes_of_Mars.jpg"
-      ,
-      
-        "photo2": "./Experimental/Pictures/Noachis_Terra/380px-Exhumed_crater_in_Noachis.jpeg"
-      ,
-      
-        "photo3": "./Experimental/Pictures/Noachis_Terra/380px-40974_1395gullies.jpg"
-      
-    
+
+    "photo1": "./Experimental/Pictures/Noachis_Terra/Dunes_of_Mars.jpg",
+    "photo2": "./Experimental/Pictures/Noachis_Terra/380px-Exhumed_crater_in_Noachis.jpeg",
+    "photo3": "./Experimental/Pictures/Noachis_Terra/380px-40974_1395gullies.jpg"
   },
   {
     "id": 19,
@@ -503,27 +375,20 @@
       "longitude": 208
     },
     "coordinatesForShow": {
-        "latitude": "67°N",
-        "longitude": "208°E"
-        
+      "latitude": "67°N",
+      "longitude": "208°E"
     },
-      
-        "photo1": "./Experimental/Pictures/Borealis_Basin/MarsLomonosovCraterWinter.jpg"
-      ,
-      
-        "photo2": "./Experimental/Pictures/Borealis_Basin/700px-Mars_topography_(MOLA_dataset)_with_poles_HiRes.jpg"
-      
-      ,
-      
-        "photo3": "./Experimental/Pictures/Borealis_Basin/700px-Mars_topography_(MOLA_dataset)_with_poles_HiRes.jpg"
-      
-    
-  },  
+
+    "photo1": "./Experimental/Pictures/Borealis_Basin/MarsLomonosovCraterWinter.jpg",
+    "photo2": "./Experimental/Pictures/Borealis_Basin/700px-Mars_topography_(MOLA_dataset)_with_poles_HiRes.jpg",
+
+    "photo3": "./Experimental/Pictures/Borealis_Basin/700px-Mars_topography_(MOLA_dataset)_with_poles_HiRes.jpg"
+  },
   {
     "id": 20,
-    "type": "Crater",
+    "type": "Highlands",
     "name": "Aonia Terra",
-    "topographicalgroup": "TerrestrialPeaks",
+    "topographicalgroup": "Highlands",
     "location": "Southern hemisphere of the planet Mars",
     "details": "It is named after a classical albedo feature Aonia, that was named after the ancient Greek region Aonia. Aonia Terra is an upland area notable for massive cratering including the large Lowell Crater, parts of the region features small craters, in the plain areas, Thaumasia Fossae and parts of the southern area.",
     "coordinates": {
@@ -534,14 +399,15 @@
       "latitude": "62.0°S",
       "longitude": "100.0°E"
     },
-      "photo1": "./Experimental/Pictures/AoniaTerra/440px-Lowell_crater_PIA02836.jpg",
-      "photo2": "./Experimental/Pictures/AoniaTerra/440px-Wikimolaargyre.jpg",
-      "photo3": "./Experimental/Pictures/AoniaTerra/Wikilau.jpg"
+    "photo1": "./Experimental/Pictures/AoniaTerra/440px-Lowell_crater_PIA02836.jpg",
+    "photo2": "./Experimental/Pictures/AoniaTerra/440px-Wikimolaargyre.jpg",
+    "photo3": "./Experimental/Pictures/AoniaTerra/Wikilau.jpg"
   },
   {
     "id": 21,
-    "type": "Region",
+    "type": "Highlands",
     "name": "Terra Cimmeria",
+    "topographicalgroup": "Highlands",
     "location": "Southern highland region of Mars",
     "details": "Terra Cimmeria, forms a part of Mars' heavily cratered southern highlands. It's known as the landing site for the Spirit rover and is linked to an ancient Thracian seafaring people, with its name inspired by a land shrouded in clouds and mist.",
     "coordinates": {
@@ -552,16 +418,17 @@
       "latitude": "35.0°S",
       "longitude": "215.0°E"
     },
-      "photo1": "./Experimental/Pictures/TerraCimmeria/600px-Wikiterracimmeriaboundaries.jpg",
-      "photo2": "./Experimental/Pictures/TerraCimmeria/Gully_in_Phaethontis.jpg",
-      "photo3": "./Experimental/Pictures/TerraCimmeria/380px-2509gulliesclosenew"
+    "photo1": "./Experimental/Pictures/TerraCimmeria/600px-Wikiterracimmeriaboundaries.jpg",
+    "photo2": "./Experimental/Pictures/TerraCimmeria/Gully_in_Phaethontis.jpg",
+    "photo3": "./Experimental/Pictures/TerraCimmeria/380px-2509gulliesclosenew"
   },
   {
     "id": 22,
-"type": "Region",
-"name": "Margaritifer Terra",
-"location": "Near Martian equator",
-"details": "Margaritifer Terra, located near Mars' equator, is a heavily cratered region revealing 'chaos terrain,' outflow channels, and alluvial plains that suggest massive flooding. The region also hosts Ares Vallis, known for its flood and flow patterns and as a historic landing site. Notably, the Holden and Eberswalde craters were likely ancient lakes due to their delta and mineral content. The Uzboi-Landon-Morava water flow paths are found here, carved by rapid groundwater outflows. Margaritifer Terra's history suggests a thicker atmosphere in Mars' past.",
+    "type": "Highlands",
+    "name": "Margaritifer Terra",
+    "topographicalgroup": "Highlands",
+    "location": "Near Martian equator",
+    "details": "Margaritifer Terra, located near Mars' equator, is a heavily cratered region revealing 'chaos terrain,' outflow channels, and alluvial plains that suggest massive flooding. The region also hosts Ares Vallis, known for its flood and flow patterns and as a historic landing site. Notably, the Holden and Eberswalde craters were likely ancient lakes due to their delta and mineral content. The Uzboi-Landon-Morava water flow paths are found here, carved by rapid groundwater outflows. Margaritifer Terra's history suggests a thicker atmosphere in Mars' past.",
     "coordinates": {
       "latitude": 5.0,
       "longitude": 25.0
@@ -570,146 +437,150 @@
       "latitude": "5.0°S",
       "longitude": "25.0°E"
     },
-      "photo1": "./Experimental/Pictures/MargaritiferTerra/440px-Wikimolaargyre.jpg",
-      "photo2": "./Experimental/Pictures/MargaritiferTerra/24807whitebuttei.jpg",
-      "photo3": "./Experimental/Pictures/MargaritiferTerra/380px-26996layeredwhitebuttes.jpg"
+    "photo1": "./Experimental/Pictures/MargaritiferTerra/440px-Wikimolaargyre.jpg",
+    "photo2": "./Experimental/Pictures/MargaritiferTerra/24807whitebuttei.jpg",
+    "photo3": "./Experimental/Pictures/MargaritiferTerra/380px-26996layeredwhitebuttes.jpg"
   },
-  
-{
-"id": 23,
-"type": "Basin",
-"name": "North Polar Basin",
-"location": "Northern hemisphere of Mars",
-"details": "Encompassing 40% of the planet, the North Polar Basin, also known as the Borealis Basin, is a significant feature in the Martian northern hemisphere. It is believed to have formed through a large impact event roughly 4.5 billion years ago, possibly caused by a single body about 2% the mass of Mars. The basin's elliptical shape and remarkably flat terrain make it a distinctive feature in the Solar System.",
-"coordinates": {
-"latitude": 67.0,
-"longitude": 208.0
-},
-"coordinatesForShow": {
-"latitude": "67.0°N",
-"longitude": "208.0°E"
-},
 
-"photo1": "./Experimental/Pictures/NorthPolarBasin/MarsLomonosovCraterWinter.jpg",
-"photo2": "./Experimental/Pictures/NorthPolarBasin/Mars_topography_(MOLA_dataset)_with_poles_HiRes",
-"photo3": "./Experimental/Pictures/NorthPolarBasin/MarsLomonosovCraterWinter.jpg"
+  {
+    "id": 23,
+    "type": "Highlands",
+    "name": "North Polar Basin",
+    "topographicalgroup": "Highlands",
+    "location": "Northern hemisphere of Mars",
+    "details": "Encompassing 40% of the planet, the North Polar Basin, also known as the Borealis Basin, is a significant feature in the Martian northern hemisphere. It is believed to have formed through a large impact event roughly 4.5 billion years ago, possibly caused by a single body about 2% the mass of Mars. The basin's elliptical shape and remarkably flat terrain make it a distinctive feature in the Solar System.",
+    "coordinates": {
+      "latitude": 67.0,
+      "longitude": 208.0
+    },
+    "coordinatesForShow": {
+      "latitude": "67.0°N",
+      "longitude": "208.0°E"
+    },
 
-},
+    "photo1": "./Experimental/Pictures/NorthPolarBasin/MarsLomonosovCraterWinter.jpg",
+    "photo2": "./Experimental/Pictures/NorthPolarBasin/Mars_topography_(MOLA_dataset)_with_poles_HiRes",
+    "photo3": "./Experimental/Pictures/NorthPolarBasin/MarsLomonosovCraterWinter.jpg"
+  },
 
+  {
+    "id": 24,
+    "type": "Highlands",
+    "name": "Promethei Terra",
+    "topographicalgroup": "Highlands",
+    "location": "Southern hemisphere of Mars, east of the Hellas basin",
+    "details": "Promethei Terra, situated in the southern hemisphere of Mars, covers 3300 km at its widest extent. It's characterized by its heavily cratered highland terrain and is located to the east of the vast Hellas basin. Named after the Greek god Prometheus, it lies mostly within the Hellas quadrangle. Notably, the region features lobate debris aprons (LDAs) which consist of material surrounding cliffs.",
+    "coordinates": {
+      "latitude": 58.0,
+      "longitude": 260.0
+    },
+    "coordinatesForShow": {
+      "latitude": "58.0°S",
+      "longitude": "260.0°E"
+    },
+    "photo1": "./Experimental/Pictures/PrometheiTerra/ESP_020319flowsclose-up.jpg",
+    "photo2": "./Experimental/Pictures/PrometheiTerra/500px-Wikiterracimmeriaboundaries.jpg",
+    "photo3": "./Experimental/Pictures/PrometheiTerra/500px-Wikimolasouthpole.jpg"
+  },
 
-{
-  "id": 24,
-"type": "Highland",
-"name": "Promethei Terra",
-"location": "Southern hemisphere of Mars, east of the Hellas basin",
-"details": "Promethei Terra, situated in the southern hemisphere of Mars, covers 3300 km at its widest extent. It's characterized by its heavily cratered highland terrain and is located to the east of the vast Hellas basin. Named after the Greek god Prometheus, it lies mostly within the Hellas quadrangle. Notably, the region features lobate debris aprons (LDAs) which consist of material surrounding cliffs.",
-"coordinates": {
-"latitude": 58.0,
-"longitude": 260.0
-},
-"coordinatesForShow": {
-"latitude": "58.0°S",
-"longitude": "260.0°E"
-},
-"photo1": "./Experimental/Pictures/PrometheiTerra/ESP_020319flowsclose-up.jpg",
-"photo2": "./Experimental/Pictures/PrometheiTerra/500px-Wikiterracimmeriaboundaries.jpg",
-"photo3": "./Experimental/Pictures/PrometheiTerra/500px-Wikimolasouthpole.jpg"
+  {
+    "id": 25,
+    "type": "Highlands",
+    "name": "Terra Sabaea",
+    "topographicalgroup": "Highlands",
+    "location": "Coordinates: 2°N 42°E on Mars",
+    "details": "Terra Sabaea is a vast region on Mars, spanning 4,700 kilometers at its widest extent. It was named after a classic albedo feature on the planet and is located within multiple quadrangles. Notably, some landscapes in Terra Sabaea resemble glaciers on Earth, exhibiting features resembling moraines left by retreating ice. These glacier-like forms are known as viscous flow features (VFF) and suggest dynamic processes in the past.",
+    "coordinates": {
+      "latitude": 2.0,
+      "longitude": 318.0
+    },
+    "coordinatesForShow": {
+      "latitude": "2.0°N",
+      "longitude": "318.0°E"
+    },
+    "photo1": "./Experimental/Pictures/TerraSabaea/600px-Wikiarabiaboundaries.jpg",
+    "photo2": "./Experimental/Pictures/TerraSabaea/380px-Wikielephantglacier.jpg",
+    "photo3": "./Experimental/Pictures/TerraSabaea/234px-Glacier_as_seen_by_ctx.jpeg"
+  },
 
-},
+  {
+    "id": 26,
+    "type": "Crater",
+    "name": "Terra Sirenum",
+    "topographicalgroup": "Terrestrial Peaks",
+    "location": "Southern hemisphere of Mars",
+    "details": "Terra Sirenum, situated in Mars' southern hemisphere, spans 3900 km at its broadest extent. Notably known for extensive cratering, including the prominent Newton Crater, this upland area is found within the Phaethontis and Memnonia quadrangles. An intriguing feature is a former low area that likely contained a lake, which later drained through Ma'adim Vallis. The region's name draws from the Sirens of mythology, capturing the connection between Mars' landscape and stories of the past.",
+    "coordinates": {
+      "latitude": 40.0,
+      "longitude": 150.0
+    },
+    "coordinatesForShow": {
+      "latitude": "40.0°S",
+      "longitude": "150.0°E"
+    },
+    "photo1": "./Experimental/Pictures/TerraSirenum/Ridge_in_crater_in_Terra_Sirenum.JPG",
+    "photo2": "./Experimental/Pictures/TerraSirenum/440px-Wikimolaargyre.jpg",
+    "photo3": "./Experimental/Pictures/TerraSirenum/236px-Wide_view_of_gully_on_hill.jpeg"
+  },
 
+  {
+    "id": 27,
+    "type": "Highlands",
+    "name": "Tempe Terra",
+    "topographicalgroup": "Highlands",
+    "location": "Northern hemisphere of Mars",
+    "details": "Tempe Terra, situated in Mars' northern hemisphere, is a heavily cratered highland region notable for its distinctive features. Positioned at the northeastern edge of the Tharsis volcanic province, it showcases significant crustal fracturing, deformation, and various volcanic structures. Named after the Vale of Tempe, a picturesque valley celebrated by ancient Greeks, Tempe Terra is a vast region extending from about 30° to 54°N and from 265° to 310°E, covering approximately 2.1 million km2. This highland area is bordered by Chryse and Acidalia Planitiae to the east, low-lying plains to the north, and the extensive Kasei Valles outflow channel system to the south.",
+    "coordinates": {
+      "latitude": 40.0,
+      "longitude": 71.0
+    },
+    "coordinatesForShow": {
+      "latitude": "40.0°N",
+      "longitude": "71.0°E"
+    },
+    "photo1": "./Experimental/Pictures/TempeTerra/380px-ESP_025771variousgullies.jpg",
+    "photo2": "./Experimental/Pictures/TempeTerra/380px-ESP_025336channels.jpg",
+    "photo3": "./Experimental/Pictures/TempeTerra/500px-Wikimolaamazonisarcadia.jpg"
+  },
 
-{
-"id": 25,
-"type": "Region",
-"name": "Terra Sabaea",
-"location": "Coordinates: 2°N 42°E on Mars",
-"details": "Terra Sabaea is a vast region on Mars, spanning 4,700 kilometers at its widest extent. It was named after a classic albedo feature on the planet and is located within multiple quadrangles. Notably, some landscapes in Terra Sabaea resemble glaciers on Earth, exhibiting features resembling moraines left by retreating ice. These glacier-like forms are known as viscous flow features (VFF) and suggest dynamic processes in the past.",
-"coordinates": {
-"latitude": 2.0,
-"longitude": 318.0
-},
-"coordinatesForShow": {
-"latitude": "2.0°N",
-"longitude": "318.0°E"
-},
-"photo1": "./Experimental/Pictures/TerraSabaea/600px-Wikiarabiaboundaries.jpg",
-"photo2": "./Experimental/Pictures/TerraSabaea/380px-Wikielephantglacier.jpg",
-"photo3": "./Experimental/Pictures/TerraSabaea/234px-Glacier_as_seen_by_ctx.jpeg"},
+  {
+    "id": 28,
+    "type": "Highlands",
+    "name": "Tyrrhena Terra",
+    "topographicalgroup": "Highlands",
+    "location": "Southern hemisphere of Mars",
+    "details": "Tyrrhena Terra, situated south of the Martian equator and northeast of the Hellas basin, covers an expanse of 2300 km at its widest point. This region, located in the Mare Tyrrhenum quadrangle, is characterized by heavily cratered highlands and rugged terrain, representing the typical southern Martian terrae. Notably, Tyrrhena Terra features the ancient Tyrrhena Patera volcano and significant formations like Herschel crater, Licus Vallis, and Ausonia Montes. The landscape also exhibits channels and dunes, as captured in images.",
+    "coordinates": {
+      "latitude": 15.0,
+      "longitude": 270.0
+    },
+    "coordinatesForShow": {
+      "latitude": "15.0°S",
+      "longitude": "270.0°E"
+    },
+    "photo1": "./Experimental/Pictures/TyrrhenaTerra/380px-Wikibriaultdunes.jpg",
+    "photo2": "./Experimental/Pictures/TyrrhenaTerra/380px-ESP_037844_1690dunes.jpg",
+    "photo3": "./Experimental/Pictures/TyrrhenaTerra/380px-Wikiesp_035761_1520layers.jpg"
+  },
 
-{
-"id": 26,
-"type": "Upland",
-"name": "Terra Sirenum",
-"location": "Southern hemisphere of Mars",
-"details": "Terra Sirenum, situated in Mars' southern hemisphere, spans 3900 km at its broadest extent. Notably known for extensive cratering, including the prominent Newton Crater, this upland area is found within the Phaethontis and Memnonia quadrangles. An intriguing feature is a former low area that likely contained a lake, which later drained through Ma'adim Vallis. The region's name draws from the Sirens of mythology, capturing the connection between Mars' landscape and stories of the past.",
-"coordinates": {
-"latitude": 40.0,
-"longitude": 150.0
-},
-"coordinatesForShow": {
-"latitude": "40.0°S",
-"longitude": "150.0°E"
-},
-"photo1": "./Experimental/Pictures/TerraSirenum/Ridge_in_crater_in_Terra_Sirenum.JPG",
-"photo2": "./Experimental/Pictures/TerraSirenum/440px-Wikimolaargyre.jpg",
-"photo3": "./Experimental/Pictures/TerraSirenum/236px-Wide_view_of_gully_on_hill.jpeg"
+  {
+    "id": 29,
+    "type": "Highlands",
+    "name": "Xanthe Terra",
+    "topographicalgroup": "Highlands",
+    "location": "North of the Martian equator",
+    "details": "Xanthe Terra, positioned near Mars' equator, spans an area of approximately 1867.65 km in diameter. The region's name, meaning 'golden-yellow land,' is fitting for its distinctive landscape. Found within the Lunae Palus, Coprates, Margaritifer Sinus, and Oxia Palus quadrangles, Xanthe Terra hosts notable features like Ravi Vallis, Aromatum Chaos, and various craters. Imaged by Mars Express, Mars Global Surveyor, and Mars Reconnaissance Orbiter, this area unveils ancient river valleys and deltas with thin layers, suggesting past precipitation on early Mars.",
 
-},
-
-{
-"id": 27,
-"type": "Highland",
-"name": "Tempe Terra",
-"location": "Northern hemisphere of Mars",
-"details": "Tempe Terra, situated in Mars' northern hemisphere, is a heavily cratered highland region notable for its distinctive features. Positioned at the northeastern edge of the Tharsis volcanic province, it showcases significant crustal fracturing, deformation, and various volcanic structures. Named after the Vale of Tempe, a picturesque valley celebrated by ancient Greeks, Tempe Terra is a vast region extending from about 30° to 54°N and from 265° to 310°E, covering approximately 2.1 million km2. This highland area is bordered by Chryse and Acidalia Planitiae to the east, low-lying plains to the north, and the extensive Kasei Valles outflow channel system to the south.",
-"coordinates": {
-"latitude": 40.0,
-"longitude": 71.0
-},
-"coordinatesForShow": {
-"latitude": "40.0°N",
-"longitude": "71.0°E"
-},
-"photo1": "./Experimental/Pictures/TempeTerra/380px-ESP_025771variousgullies.jpg",
-"photo2": "./Experimental/Pictures/TempeTerra/380px-ESP_025336channels.jpg",
-"photo3": "./Experimental/Pictures/TempeTerra/500px-Wikimolaamazonisarcadia.jpg"},
-
-{
-"id": 28,
-"type": "Highland",
-"name": "Tyrrhena Terra",
-"location": "Southern hemisphere of Mars",
-"details": "Tyrrhena Terra, situated south of the Martian equator and northeast of the Hellas basin, covers an expanse of 2300 km at its widest point. This region, located in the Mare Tyrrhenum quadrangle, is characterized by heavily cratered highlands and rugged terrain, representing the typical southern Martian terrae. Notably, Tyrrhena Terra features the ancient Tyrrhena Patera volcano and significant formations like Herschel crater, Licus Vallis, and Ausonia Montes. The landscape also exhibits channels and dunes, as captured in images.",
-"coordinates": {
-"latitude": 15.0,
-"longitude": 270.0
-},
-"coordinatesForShow": {
-"latitude": "15.0°S",
-"longitude": "270.0°E"
-},
-"photo1": "./Experimental/Pictures/TyrrhenaTerra/380px-Wikibriaultdunes.jpg",
-"photo2": "./Experimental/Pictures/TyrrhenaTerra/380px-ESP_037844_1690dunes.jpg",
-"photo3": "./Experimental/Pictures/TyrrhenaTerra/380px-Wikiesp_035761_1520layers.jpg"},
-
-{
-"id": 29,
-"type": "Region",
-"name": "Xanthe Terra",
-"location": "North of the Martian equator",
-"details": "Xanthe Terra, positioned near Mars' equator, spans an area of approximately 1867.65 km in diameter. The region's name, meaning 'golden-yellow land,' is fitting for its distinctive landscape. Found within the Lunae Palus, Coprates, Margaritifer Sinus, and Oxia Palus quadrangles, Xanthe Terra hosts notable features like Ravi Vallis, Aromatum Chaos, and various craters. Imaged by Mars Express, Mars Global Surveyor, and Mars Reconnaissance Orbiter, this area unveils ancient river valleys and deltas with thin layers, suggesting past precipitation on early Mars.",
-
-"coordinates": {
-"latitude": 3.0,
-"longitude": 48.0
-},
-"coordinatesForShow": {
-"latitude": "3.0°N",
-"longitude": "48.0°E"
-},
-"photo1": "./Experimental/Pictures/XantheTerra/images.jpeg",
-"photo2": "./Experimental/Pictures/XantheTerra/Alluvial_Fans_in_Mojave_Crater.jpg",
-"photo3": "./Experimental/Pictures/XantheTerra/380px-Wikiarabiaboundaries.jpg"
-
-}
+    "coordinates": {
+      "latitude": 3.0,
+      "longitude": 48.0
+    },
+    "coordinatesForShow": {
+      "latitude": "3.0°N",
+      "longitude": "48.0°E"
+    },
+    "photo1": "./Experimental/Pictures/XantheTerra/images.jpeg",
+    "photo2": "./Experimental/Pictures/XantheTerra/Alluvial_Fans_in_Mojave_Crater.jpg",
+    "photo3": "./Experimental/Pictures/XantheTerra/380px-Wikiarabiaboundaries.jpg"
+  }
 ]
