@@ -5,7 +5,7 @@ from datetime import datetime
 import time
 
 api_key = "7QVxWTvL4YZkPFPAgWQGydwacGjiVFoCN8UdnOcU"  # Replace with your actual API key
-save_directory = "/home/druglord/Documents/Important/Marss/three_js/Experimental/API/PictureOfTheDay"
+save_directory = "./Experimental/API/PictureOfTheDay"
 
 url = f"https://api.nasa.gov/planetary/apod?api_key={api_key}"
 response = requests.get(url)
