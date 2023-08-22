@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<!-- saved from url=(0084)https://api.nasa.gov/mars-wmts/catalog/Mars_Viking_MDIM21_ClrMosaic_global_232m.html -->
+<html class="dj_webkit dj_chrome dj_contentbox"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    
+    <meta name="viewport" content="initial-scale=1, maximum-scale=1,user-scalable=no">
+    <title>Add WMTS Layer</title>
+    <link rel="stylesheet" href="./MarsMosaic_files/esri.css">
+    <style>
+        html, body { height: 100%; width: 100%; margin: 0; padding: 0; }
+        #map{
+            padding: 0;
+        }
+    </style>
+
+    <script type="text/javascript" charset="utf-8" src="./MarsMosaic_files/jsapi_en-us.js"></script><script type="text/javascript" charset="utf-8" src="./MarsMosaic_files/svg.js"></script><script type="text/javascript" charset="utf-8" src="./MarsMosaic_files/WMTSLayer.js"></script><script type="text/javascript" charset="utf-8" src="./MarsMosaic_files/WMTSLayerInfo.js"></script><script src="./MarsMosaic_files/saved_resource"></script>
+    <script>
+        var map;
+        require([
+            "esri/map", "esri/layers/WMTSLayer", "esri/layers/WMTSLayerInfo", "esri/geometry/Extent", "esri/config",
+            "dojo/domReady!"
+        ], function(
+                Map, WMTSLayer, WMTSLayerInfo, Extent, esriConfig
+        ) {
+            esri.config.defaults.io.corsEnabledServers.push("https://web.lmmp.nasa.gov");
+            esri.config.defaults.io.corsEnabledServers.push("https://api.nasa.gov/mars-wmts");
+
+            map = new Map("map",{
+
+                extent: new Extent({
+                    xmin:-10669445.554,
+                    ymin:-5334722.777,
+                    xmax:10669445.554,
+                    ymax:5334722.777,
+                    spatialReference:{wkid:104905}
+                })
+
+            });
+
+            var overlayLayer = new WMTSLayer("https://api.nasa.gov/mars-wmts/catalog/Mars_Viking_MDIM21_ClrMosaic_global_232m", { serviceMode: "RESTful" });
+            map.addLayer(overlayLayer);
+        });
+
+    </script>
+</head>
+
+<body data-new-gr-c-s-check-loaded="14.1120.0" data-gr-ext-installed="">
+    <div id="map" class="map" style="height: 400px;" data-zoom="2" data-scale="73874398.2646875" data-loaded=""><div id="map_root" class="container" style="width: 1745px; height: 400px; direction: ltr;"><div id="map_container" class="container" style="position: absolute; cursor: default; clip: auto;"><div id="map_layers" class="layersDiv" style="left: 0px; top: 0px;"><div id="map_layer0" style="position: absolute; width: 1745px; height: 400px; overflow: visible; transform: translate(-336px, 31px); display: block;"><div style="position: absolute; width: 1745px; height: 400px; overflow: visible; transition: -webkit-transform 500ms ease 0s;"><img id="map_layer0_tile_2_0_1" class="layerTile" src="./MarsMosaic_files/2.jpg" style="width: 256px; height: 256px; visibility: visible; transform: translate(258px, -156px);"><img id="map_layer0_tile_2_1_1" class="layerTile" src="./MarsMosaic_files/2(1).jpg" style="width: 256px; height: 256px; visibility: visible; transform: translate(258px, 100px);"><img id="map_layer0_tile_2_2_1" class="layerTile" src="./MarsMosaic_files/2(2).jpg" style="width: 256px; height: 256px; visibility: visible; transform: translate(258px, 356px);"><img id="map_layer0_tile_2_0_2" class="layerTile" src="./MarsMosaic_files/3.jpg" style="width: 256px; height: 256px; visibility: visible; transform: translate(514px, -156px);"><img id="map_layer0_tile_2_1_2" class="layerTile" src="./MarsMosaic_files/3(1).jpg" style="width: 256px; height: 256px; visibility: visible; transform: translate(514px, 100px);"><img id="map_layer0_tile_2_2_2" class="layerTile" src="./MarsMosaic_files/3(2).jpg" style="width: 256px; height: 256px; visibility: visible; transform: translate(514px, 356px);"><img id="map_layer0_tile_2_0_3" class="layerTile" src="./MarsMosaic_files/4.jpg" style="width: 256px; height: 256px; visibility: visible; transform: translate(770px, -156px);"><img id="map_layer0_tile_2_1_3" class="layerTile" src="./MarsMosaic_files/4(1).jpg" style="width: 256px; height: 256px; visibility: visible; transform: translate(770px, 100px);"><img id="map_layer0_tile_2_2_3" class="layerTile" src="./MarsMosaic_files/4(2).jpg" style="width: 256px; height: 256px; visibility: visible; transform: translate(770px, 356px);"><img id="map_layer0_tile_2_0_4" class="layerTile" src="./MarsMosaic_files/5.jpg" style="width: 256px; height: 256px; visibility: visible; transform: translate(1026px, -156px);"><img id="map_layer0_tile_2_1_4" class="layerTile" src="./MarsMosaic_files/5(1).jpg" style="width: 256px; height: 256px; visibility: visible; transform: translate(1026px, 100px);"><img id="map_layer0_tile_2_2_4" class="layerTile" src="./MarsMosaic_files/5(2).jpg" style="width: 256px; height: 256px; visibility: visible; transform: translate(1026px, 356px);"><img id="map_layer0_tile_2_0_5" class="layerTile" src="./MarsMosaic_files/6.jpg" style="width: 256px; height: 256px; visibility: visible; transform: translate(1282px, -156px);"><img id="map_layer0_tile_2_1_5" class="layerTile" src="./MarsMosaic_files/6(1).jpg" style="width: 256px; height: 256px; visibility: visible; transform: translate(1282px, 100px);"><img id="map_layer0_tile_2_2_5" class="layerTile" src="./MarsMosaic_files/6(2).jpg" style="width: 256px; height: 256px; visibility: visible; transform: translate(1282px, 356px);"><img id="map_layer0_tile_2_0_6" class="layerTile" src="./MarsMosaic_files/7.jpg" style="width: 256px; height: 256px; visibility: visible; transform: translate(1538px, -156px);"><img id="map_layer0_tile_2_1_6" class="layerTile" src="./MarsMosaic_files/7(1).jpg" style="width: 256px; height: 256px; visibility: visible; transform: translate(1538px, 100px);"><img id="map_layer0_tile_2_2_6" class="layerTile" src="./MarsMosaic_files/7(2).jpg" style="width: 256px; height: 256px; visibility: visible; transform: translate(1538px, 356px);"><img id="map_layer0_tile_2_0_7" class="layerTile" src="./MarsMosaic_files/8.jpg" style="width: 256px; height: 256px; visibility: hidden; transform: translate(1794px, -156px);"><img id="map_layer0_tile_2_1_7" class="layerTile" src="./MarsMosaic_files/8(1).jpg" style="width: 256px; height: 256px; visibility: hidden; transform: translate(1794px, 100px);"><img id="map_layer0_tile_2_2_7" class="layerTile" src="./MarsMosaic_files/8(2).jpg" style="width: 256px; height: 256px; visibility: hidden; transform: translate(1794px, 356px);"></div></div><svg overflow="hidden" width="1745" height="400" id="map_gc" style="overflow: visible; position: absolute;"><defs></defs><g id="map_graphics_layer" transform="matrix(1.00000000,0.00000000,0.00000000,1.00000000,-113.00000000,14.00000000)" style="display: block;"><g></g></g></svg></div></div><div class="esriControlsBR"><span class="esriAttribution" style="max-width: 785px; cursor: default;"><span class="esriAttributionList"></span></span><div class="logo-med"></div></div><div class="esriPopup" style="visibility: hidden; z-index: 40;"><div class="esriPopupWrapper" style="position: absolute;"><div class="sizer"><div class="titlePane" style="user-select: none;"><div class="spinner hidden" title="Searching..."></div><div class="title"></div><div class="titleButton prev hidden" title="Previous feature"></div><div class="titleButton next hidden" title="Next feature"></div><div class="titleButton maximize" title="Maximize"></div><div class="titleButton close" title="Close"></div></div></div><div class="sizer content"><div class="contentPane"></div></div><div class="sizer"><div class="actionsPane"><div class="actionList hidden"><a title="Zoom" to="" class="action zoomTo" href="javascript:void(0);"><span>Zoom to</span></a></div></div></div><div class="pointer hidden"></div></div><div class="outerPointer hidden"></div></div><div id="map_zoom_slider" class="esriSimpleSlider esriSimpleSliderVertical esriSimpleSliderTL" style="z-index: 30;"><div class="esriSimpleSliderIncrementButton"><span>+</span></div><div class="esriSimpleSliderDecrementButton"><span>–</span></div></div></div></div>
+
+
+</body><auto-scroll><template shadowrootmode="closed"><div style="transform: translateZ(0px); display: none; position: fixed; left: 0px; top: 0px; width: 100%; height: 100%; z-index: 2147483647; background-repeat: no-repeat;"></div></template></auto-scroll><grammarly-desktop-integration data-grammarly-shadow-root="true"><template shadowrootmode="open"><style>
+  div.grammarly-desktop-integration {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    padding: 0;
+    margin: -1px;
+    overflow: hidden;
+    clip: rect(0, 0, 0, 0);
+    white-space: nowrap;
+    border: 0;
+    -moz-user-select: none;
+    -webkit-user-select: none;
+    -ms-user-select:none;
+    user-select:none;
+  }
+
+  div.grammarly-desktop-integration:before {
+    content: attr(data-content);
+  }
+</style><div aria-label="grammarly-integration" role="group" tabindex="-1" class="grammarly-desktop-integration" data-content="{&quot;mode&quot;:&quot;full&quot;,&quot;isActive&quot;:true,&quot;isUserDisabled&quot;:false}"></div></template></grammarly-desktop-integration></html>
