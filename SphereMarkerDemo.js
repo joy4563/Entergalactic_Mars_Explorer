@@ -22,7 +22,11 @@ scene.add(cube);
 
 canvas.init(document);
 
+<<<<<<< HEAD
 const sphere = new MySphere(2, 320, 160, "./low.jpg");
+=======
+const sphere = new MySphere(2, 320, 160, "./again_mars.jpg");
+>>>>>>> main
 scene.add(sphere.sphere);
 camera.position.z = 5;
 
@@ -37,8 +41,8 @@ sphere.addMarker("LAT_LONG", 30, -90, (object) => {
 // markerPointDemo();
 apiDataDemo();
 canvas.gameLoop(() => {
-    sphere.sphere.rotation.x += 0.0;
-    sphere.sphere.rotation.y += 0.0002;
+    // sphere.sphere.rotation.x += 0.0;
+    // sphere.sphere.rotation.y += 0.0002;
 });
 
 // function markerPointDemo() {
@@ -146,7 +150,7 @@ function showInfo(point) {
                             Weather Forecast</li>
                         <li
                             class="px-4 py-2 hover:bg-blue-400 hover:text-white cursor-pointer border border-white mx-3 my-2">
-                            Rover</li>
+                            <a href="./Rover/rover.html">Rover</a></li>
                         <li
                             class="px-4 py-2 hover:bg-blue-400 hover:text-white cursor-pointer border border-white mx-3 my-2">
                             Orbiter</li>
@@ -171,14 +175,19 @@ function showInfo(point) {
                
                 <p> Type: ${point.total.type}</p>
                 <p> Location: ${point.total.location}</p>
-                <p> Lat: ${point.total.coordinates.latitude}</p>
-                <p> Lon: ${point.total.coordinates.longitude}</p>
+                <p> Latitude: ${point.total.coordinatesForShow.latitude}</p>
+                <p> Longitude: ${point.total.coordinatesForShow.longitude}</p>
                 <div class=" border border-white p-[10px] rounded-[25px] m-4 h-[140px] overflow-y-scroll">
                 <p> Details: ${point.total.details}</p>
                 </div>
              
                 </div>
                 <div class=" border border-white p-[10px] rounded-[25px] m-4 h-[200px] text-center px-[70px]  py-[20px]">
+<<<<<<< HEAD
+=======
+                
+                
+>>>>>>> main
                
                 </div>
                
@@ -198,9 +207,8 @@ function showInfo(point) {
     document.querySelectorAll("input[type=checkbox]").forEach((checkbox) => {
         checkbox.addEventListener("change", () => {
             if (checkbox.checked) {
-                document.getElementById("new").innerHTML += `<p> ${
-                    messages[checkbox.value]
-                }</p>`;
+                document.getElementById("new").innerHTML += `<p> ${messages[checkbox.value]
+                    }</p>`;
             } else {
                 const text = document.getElementById("new").innerHTML;
                 const value = messages[checkbox.value];

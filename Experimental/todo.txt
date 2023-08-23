@@ -9,32 +9,3 @@ It should include
     
 
 
-delete This
-"photos": [
-            
-            {
-                "photo": "./Experimental/Pictures/Olympus_Mons/Olympus2.jpg"
-            },
-            {
-                "photo": "./Experimental/Pictures/Olympus_Mons/Olympus4.webp"
-            },
-            {
-                "photo": "./Experimental/Pictures/Olympus_Mons/Olympus1.jpg"
-            },
-            {
-                "photo": "./Experimental/Pictures/Olympus_Mons/Olympus5.jpg"
-            },
-            {
-                "photo": "./Experimental/Pictures/Olympus_Mons/Olympus3.webp"
-            }
-        ]
-
-
-"photo1": "./Experimental/Pictures/Olympus_Mons/Olympus2.jpg",
-"photo2": "./Experimental/Pictures/Olympus_Mons/Olympus2.jpg",
-"photo3": "./Experimental/Pictures/Olympus_Mons/Olympus2.jpg",
-"photo4": "./Experimental/Pictures/Olympus_Mons/Olympus2.jpg",
-"photo5": "./Experimental/Pictures/Olympus_Mons/Olympus2.jpg"
-
-
-
