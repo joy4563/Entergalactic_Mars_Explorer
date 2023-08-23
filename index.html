@@ -139,20 +139,60 @@
    </div>`;
 
         }
+        
         function handleDayConversion() {
-            const currentDate = new Date();
-            const currentYear = currentDate.getFullYear();
-            const dayOfYear = Math.floor((currentDate - new Date(currentYear, 0, 0)) / (24 * 60 * 60 * 1000));
+    const currentDate = new Date();
+    const currentYear = currentDate.getFullYear();
+    const dayOfYear = Math.floor((currentDate - new Date(currentYear, 0, 0)) / (24 * 60 * 60 * 1000));
 
-            document.getElementById("showInfo").style.display = "none";
-            document.getElementById("showDateTime").innerHTML = `
-            <div class="mt-10 pr-10 font-mono border border-white rounded-[15px] py-3 px-4">
-        <p>Today is the ${dayOfYear}th day of the year ${currentYear} of Earth</p>
-        <p>Today is the ${parseInt((637 * dayOfYear) / 365)}th day of Mars</p>
-        </div>
-    `;
-            console.log(dayOfYear);
+    // Function to get the ordinal indicator for a number
+    function getOrdinalIndicator(number) {
+        if (number >= 11 && number <= 13) {
+            return "th";
         }
+        switch (number % 10) {
+            case 1: return "st";
+            case 2: return "nd";
+            case 3: return "rd";
+            default: return "th";
+        }
+    }
+
+    const monthNames = [
+        "Jan", "Feb", "Mar", "Apr", "May", "Jun",
+        "Jul", "Aug", "Sep", "Oct", "Nov", "Dec"
+    ];
+
+    const day = currentDate.getDate();
+    const month = monthNames[currentDate.getMonth()];
+    const year = currentYear;
+    const marsDay = parseInt((637 * dayOfYear) / 365);
+
+    const earthOrdinal = day + getOrdinalIndicator(day);
+    const marsOrdinal = marsDay + getOrdinalIndicator(marsDay);
+
+    const output = `
+    <div class="mt-10 pr-10 font-mono border border-white rounded-[15px] py-3 px-4">
+        ${month} ${day}${getOrdinalIndicator(day)}, ${year}<br>
+        ${dayOfYear}${getOrdinalIndicator(dayOfYear)} day on Earth<br>
+        ${marsDay}${getOrdinalIndicator(marsDay)} day on Mars<br>
+    </div>
+`;
+
+    const formattedOutput = output.replace(/\n/g, '<br>'); // Replace newlines with HTML line breaks
+
+    // Apply dynamic class to showDateTimeElement
+    const showDateTimeElement = document.getElementById("showDateTime");
+    showDateTimeElement.innerHTML = formattedOutput;
+    showDateTimeElement.classList.add("custom-style"); // Add the custom CSS class
+
+    // Hide showInfoElement
+    const showInfoElement = document.getElementById("showInfo");
+    showInfoElement.style.display = "none";
+
+    console.log(dayOfYear);
+}
+
 
     </script>
 </body>
