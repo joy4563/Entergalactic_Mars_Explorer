@@ -22,7 +22,7 @@ scene.add(cube);
 
 canvas.init(document);
 
-const sphere = new MySphere(2, 320, 160,"../../mars_1k_color.jpg");
+const sphere = new MySphere(2, 320, 160, "../../mars_1k_color.jpg");
 scene.add(sphere.sphere);
 camera.position.z = 5;
 
@@ -61,58 +61,11 @@ function showInfo(point) {
     }
     // infoDiv.innerHTML = `IDdf: ${point.id}<br>Name: ${point.name}<br>Details: ${point.details}`;
 
-    infoDiv.innerHTML = `    <div class="grid grid-cols-12 gap-6  mt-10 ml-10 mr-10 text-xs">
-            <div class="col-start-1 col-end-4">
-              
-                    <!-- Dropdown content -->
-                    <ul class="rounded-full shadow-md text-sm">
-                        <li class="px-3 py-2   ">
-                            <div class="flex">
-                               <div class="border-2 py-2 px-4 border-gray-300 hover:bg-blue-400 hover:text-white cursor-pointer rounded-lg text-xl font-semibold" onclick="handleClickLocation()" id="locationBtn">Location</div>
-
-                                <div
-                                    class=" border-2 py-2 px-4 border-gray-300 hover:bg-blue-400 hover:text-white cursor-pointer mx-3 rounded-lg text-xl font-semibold" onclick="handleClickTourisom()">
-                                    Tourisom</div>
-                                <div
-                                    class=" border-2 py-2 px-4 border-gray-300 hover:bg-blue-400 hover:text-white cursor-pointer rounded-lg text-xl font-semibold" onclick="handleClickMaps()">
-                                    Maps</div>
-                            </div>
-                        </li>
-                        <ul id="onClickChangeContainer">
-                        <li
-                            class="px-4 py-2 hover:bg-blue-400 hover:text-white cursor-pointer border border-white mx-3 my-2">
-                            <input type="checkbox" name="checkbox" id="checkbox" value="option1">
-                            <label for="checkbox">Option 1</label>
-                        </li>
-                        <li
-                            class="px-4 py-2 hover:bg-blue-400 hover:text-white cursor-pointer border border-white mx-3 my-2">
-                            <input type="checkbox" name="checkbox" id="checkbox2" value="option2">
-                            <label for="checkbox2">Option 2</label>
-                        </li>
-                        <li
-                            class="px-4 py-2 hover:bg-blue-400 hover:text-white cursor-pointer border border-white mx-3 my-2">
-                            <input type="checkbox" name="checkbox" id="checkbox3" value="option3">
-                            <label for="checkbox3">Option 3</label>
-                        </li>
-                        <li
-                            class="px-4 py-2 hover:bg-blue-400 hover:text-white cursor-pointer border border-white mx-3 my-2">
-                            Temp Map</li>
-                        <li
-                            class="px-4 py-2 hover:bg-blue-400 hover:text-white cursor-pointer border border-white mx-3 my-2">
-                            Weather Forecast</li>
-                        <li
-                            class="px-4 py-2 hover:bg-blue-400 hover:text-white cursor-pointer border border-white mx-3 my-2">
-                            Rover</li>
-                        <li
-                            class="px-4 py-2 hover:bg-blue-400 hover:text-white cursor-pointer border border-white mx-3 my-2">
-                            Orbiter</li>
-                        </ul>
-                    </ul>
-                
-    
-            </div>
+    infoDiv.innerHTML = `   
+           
         </div>
           <div class="col-start-8 col-end-12 max-w-[400px] mt-10 pr-10">
+                <img src=${point.total.photo1} alt="Marsss" style="width:170px; height:140px" >
 
 
             <div id="new" class="text-sm">
@@ -129,7 +82,6 @@ function showInfo(point) {
                 </div>
                 <div class=" border border-white p-[10px] rounded-[25px] m-4 h-[200px] text-center px-[70px]  py-[20px]">
                 
-                <img src=${point.total.photos[0].photo} alt="jjoyyyyyyyy" style="width:170px; height:140px" >
                 </div>
                
                 
@@ -138,7 +90,7 @@ function showInfo(point) {
                 <br>
             </div>
         </div>
-    </div>`;
+   `;
 
     const messages = {
         option1: "This is message 1",
@@ -167,9 +119,13 @@ function showInfo(point) {
 
 function apiDataDemo() {
     const dataFetcher = new DataFetcher((data) => {
-        // console.log(data[0].coordinates.latitude);
+        console.log(data);
+        const result = data.filter(
+            (single) => (single.topographicalgroup == "TerrestrialPeaks")
+        );
+        console.log(result);
         let markedPoints = new MarkedPoints();
-        for (let user of data) {
+        for (let user of result) {
             // console.log(user.description);
             markedPoints.add(user.id, user.name, user);
             sphere.addMarker(
