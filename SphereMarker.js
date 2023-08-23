@@ -3,13 +3,13 @@ import { TextGeometry } from "three/addons/geometries/TextGeometry.js";
 import { FontLoader } from "three/addons/loaders/FontLoader.js";
 
 export class MySphere {
-  constructor(radius, theta, phi) {
+  constructor(radius, theta, phi,pic) {
     this.radius = radius;
     this.theta = theta;
     this.phi = phi;
     const geometry = new THREE.SphereGeometry(radius, theta, phi);
     const material = new THREE.MeshBasicMaterial({
-        map: new THREE.TextureLoader().load("./low.jpg"), // Load your texture here
+        map: new THREE.TextureLoader().load(pic), // Load your texture here
     });
     const sphere = new THREE.Mesh(geometry, material);
     this.sphere = sphere;

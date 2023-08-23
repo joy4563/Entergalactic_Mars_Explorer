@@ -22,7 +22,7 @@ scene.add(cube);
 
 canvas.init(document);
 
-const sphere = new MySphere(2, 320, 160);
+const sphere = new MySphere(2, 320, 160, "./again_mars.jpg");
 scene.add(sphere.sphere);
 camera.position.z = 5;
 
@@ -37,8 +37,8 @@ sphere.addMarker("LAT_LONG", 30, -90, (object) => {
 // markerPointDemo();
 apiDataDemo();
 canvas.gameLoop(() => {
-    sphere.sphere.rotation.x += 0.0;
-    sphere.sphere.rotation.y += 0.0002;
+    // sphere.sphere.rotation.x += 0.0;
+    // sphere.sphere.rotation.y += 0.0002;
 });
 
 // function markerPointDemo() {
@@ -96,7 +96,7 @@ function showInfo(point) {
         infoDiv.style.top = "10px";
         infoDiv.style.display = "flex";
         // infoDiv.style.alignItems = "center";
-       // infoDiv.style.justifyContent = "space-between";
+        // infoDiv.style.justifyContent = "space-between";
         infoDiv.style.left = "10px";
         infoDiv.style.color = "white";
         infoDiv.style.fontSize = "18px";
@@ -146,7 +146,7 @@ function showInfo(point) {
                             Weather Forecast</li>
                         <li
                             class="px-4 py-2 hover:bg-blue-400 hover:text-white cursor-pointer border border-white mx-3 my-2">
-                            Rover</li>
+                            <a href="./Rover/rover.html">Rover</a></li>
                         <li
                             class="px-4 py-2 hover:bg-blue-400 hover:text-white cursor-pointer border border-white mx-3 my-2">
                             Orbiter</li>
