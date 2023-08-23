@@ -179,11 +179,6 @@ function showInfo(point) {
              
                 </div>
                 <div class=" border border-white p-[10px] rounded-[25px] m-4 h-[200px] text-center px-[70px]  py-[20px]">
-<<<<<<< HEAD
-=======
-                
-                
->>>>>>> main
                
                 </div>
                
