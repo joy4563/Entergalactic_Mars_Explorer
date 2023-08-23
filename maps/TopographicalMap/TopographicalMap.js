@@ -125,28 +125,13 @@ function showInfo(point) {
                         <ul id="onClickChangeContainer">
                         <li
                             class="px-4 py-2 hover:bg-blue-400 hover:text-white cursor-pointer border border-white mx-3 my-2">
-                            <input type="checkbox" name="checkbox" id="checkbox" value="option1">
-                            <label for="checkbox">Option 1</label>
-                        </li>
-                        <li
-                            class="px-4 py-2 hover:bg-blue-400 hover:text-white cursor-pointer border border-white mx-3 my-2">
-                            <input type="checkbox" name="checkbox" id="checkbox2" value="option2">
-                            <label for="checkbox2">Option 2</label>
-                        </li>
-                        <li
-                            class="px-4 py-2 hover:bg-blue-400 hover:text-white cursor-pointer border border-white mx-3 my-2">
-                            <input type="checkbox" name="checkbox" id="checkbox3" value="option3">
-                            <label for="checkbox3">Option 3</label>
-                        </li>
-                        <li
-                            class="px-4 py-2 hover:bg-blue-400 hover:text-white cursor-pointer border border-white mx-3 my-2">
                             <a href="../../index.html">Original Map</a></li>
                         <li
                             class="px-4 py-2 hover:bg-blue-400 hover:text-white cursor-pointer border border-white mx-3 my-2">
                             <a href="../TempMap/TempMap.html">Temp Map</a></li>
                         <li
                             class="px-4 py-2 hover:bg-blue-400 hover:text-white cursor-pointer border border-white mx-3 my-2">
-                            Water ICE</li>
+                            <a href="../IceWaterMap/IceWater.html">Water ICE</a></li>
                         <li
                             class="px-4 py-2 hover:bg-blue-400 hover:text-white cursor-pointer border border-white mx-3 my-2">
                             <a href="./Rover/rover.html">Rover</a></li>
