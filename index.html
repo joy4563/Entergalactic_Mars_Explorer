@@ -138,17 +138,59 @@
 
         }
         function handleDayConversion() {
-            const currentDate = new Date();
-            const currentYear = currentDate.getFullYear();
-            const dayOfYear = Math.floor((currentDate - new Date(currentYear, 0, 0)) / (24 * 60 * 60 * 1000));
+    const currentDate = new Date();
+    const currentYear = currentDate.getFullYear();
+    const dayOfYear = Math.floor((currentDate - new Date(currentYear, 0, 0)) / (24 * 60 * 60 * 1000));
 
-            document.getElementById("showInfo").style.display = "none";
-            document.getElementById("showDateTime").innerHTML = `
-        <p>Today is the ${dayOfYear}th day of the year ${currentYear} of Earth</p>
-        <p>Today is the ${parseInt((637 * dayOfYear) / 365)}th day of Mars</p>
-    `;
-            console.log(dayOfYear);
+    // Function to get the ordinal indicator for a number
+    function getOrdinalIndicator(number) {
+        if (number >= 11 && number <= 13) {
+            return "th";
         }
+        switch (number % 10) {
+            case 1: return "st";
+            case 2: return "nd";
+            case 3: return "rd";
+            default: return "th";
+        }
+    }
+
+    const monthNames = [
+        "Jan", "Feb", "Mar", "Apr", "May", "Jun",
+        "Jul", "Aug", "Sep", "Oct", "Nov", "Dec"
+    ];
+
+    const day = currentDate.getDate();
+    const month = monthNames[currentDate.getMonth()];
+    const year = currentYear;
+    const marsDay = parseInt((637 * dayOfYear) / 365);
+
+    const earthOrdinal = day + getOrdinalIndicator(day);
+    const marsOrdinal = marsDay + getOrdinalIndicator(marsDay);
+
+    const output = `
+        <p>Today is ${month} ${day}${getOrdinalIndicator(day)}, ${year} of Earth</p>
+        <p>Today is the ${marsDay}${getOrdinalIndicator(marsDay)} day on Mars</p>
+    `;
+
+    document.getElementById("showInfo").style.display = "none";
+    document.getElementById("showDateTime").innerHTML = output;
+
+    console.log(dayOfYear);
+}
+
+    //     function handleDayConversion() {
+    //         const currentDate = new Date();
+    //         const currentYear = currentDate.getFullYear();
+    //         const dayOfYear = Math.floor((currentDate - new Date(currentYear, 0, 0)) / (24 * 60 * 60 * 1000));
+
+    //         document.getElementById("showInfo").style.display = "none";
+    //         document.getElementById("showDateTime").innerHTML = `
+    //     <p>Today is the ${dayOfYear}th day of the year ${currentYear} of Earth</p>
+    //     <p>Today is the ${parseInt((637 * dayOfYear) / 365)}th day of Mars</p>
+    // `;
+    //         console.log(dayOfYear);
+    //     }
 
     </script>
 </body>
