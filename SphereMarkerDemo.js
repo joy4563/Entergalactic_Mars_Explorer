@@ -119,7 +119,7 @@ function showInfo(point) {
                                     Tourisom</div>
                                 <div
                                     class=" border-2 py-2 px-4 border-gray-300 hover:bg-blue-400 hover:text-white cursor-pointer rounded-lg text-xl font-semibold" onclick="handleClickMaps()">
-                                    Maps</div>
+                                    Topography</div>
                             </div>
                         </li>
                         <ul id="onClickChangeContainer">
@@ -177,10 +177,9 @@ function showInfo(point) {
              
                 </div>
                 <div class=" border border-white p-[10px] rounded-[25px] m-4 h-[200px] text-center px-[70px]  py-[20px]">
-                
-                
+
                
-                <img id="img" src=${point.total.photo1} alt="jjoyyyyyyyy" style="width:170px; height:140px" >
+                <img id="img" src=${point.total.photo1} alt="alt image" style="width:170px; height:140px" >
                 </div>
                
                 
