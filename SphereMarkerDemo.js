@@ -154,7 +154,7 @@ function showInfo(point) {
     
             </div>
         </div>
-        <div id="showDateTime"></div>
+        <div  class="" id="showDateTime"></div>
           <div class="col-start-8 col-end-12 max-w-[400px] mt-10 pr-10" id="showInfo">
             <div id="new" class="text-[16px] font-mono">
                 <p class="border border-white py-3 px-4 rounded-[15px]">Name: ${point.name}</p>

@@ -36,6 +36,7 @@
 <body class="max-w-screen max-h-[100vh] overflow-hidden font-mono">
     <!-- <script type="module" src="./js/handleClick.js"></script> -->
     <script type="module" src="SphereMarkerDemo.js"></script>
+    <!-- <script type="module" src="/tourisom/article/article.html"></script> -->
     <!-- <script type="module" src="test/main.js"></script> -->
     <!-- <script type="module" src="BackgroundDemo/SceneBackgroundDemo.js"></script> -->
 
@@ -59,8 +60,20 @@
                             class="bg-red-400 px-4 py-2 hover:bg-blue-400 hover:text-white cursor-pointer border border-white mx-3 my-2">
                             <a href="">Original Map</a></li>
                         <li
+<<<<<<< HEAD
                             class="px-4 py-2 hover:bg-blue-400 hover:text-white cursor-pointer border border-white mx-3 my-2">
                             <a href="./maps/TempMap/TempMap.html">Temp Map</a></li>
+=======
+                            class="px-4 py-2 w-[340px] rounded-lg hover:bg-blue-400 hover:text-white cursor-pointer border border-white mx-3 my-2">
+                            <input type="checkbox" name="checkbox" id="checkbox3" value="option3">
+                            <label for="checkbox3">Option 3</label>
+                        </li>
+                        
+                       
+                        <li
+                            class="px-4 py-2 w-[340px] rounded-lg hover:bg-blue-400 hover:text-white cursor-pointer border border-white mx-3 my-2">
+                            Temp Map</li>
+>>>>>>> main
                         <li
                             class="px-4 py-2 hover:bg-blue-400 hover:text-white cursor-pointer border border-white mx-3 my-2">
                             <a href="./maps/TopographicalMap/TopographicalMap.html">Topographical Map</a></li>
@@ -86,6 +99,7 @@
         }
 
         function handleClickTourisom() {
+            
             document.getElementById("tourismBtn").style.backgroundColor='orangered';
             document.getElementById("tourismBtn").style.border='none';
             document.getElementById("tourismBtn").style.color='black';
@@ -102,8 +116,8 @@
           
             document.getElementById("onClickChangeContainer").innerHTML = `   <div>
     <ul >
-        <li class="px-4 py-2 w-[340px] rounded-lg hover:bg-blue-400 hover:text-white cursor-pointer border border-white mx-3 my-2">Top 10 Place to visit</li>
-        <li class="px-4 py-2 w-[340px] rounded-lg hover:bg-blue-400 hover:text-white cursor-pointer border border-white mx-3 my-2">Biggest Storms</li>
+        <li class="px-4 py-2 w-[340px] rounded-lg hover:bg-blue-400 hover:text-white cursor-pointer border border-white mx-3 my-2" > <a   href="/tourisom/article/article.html">Article</a></li>
+        
         <li class="px-4 py-2 w-[340px] rounded-lg hover:bg-blue-400 hover:text-white cursor-pointer border border-white mx-3 my-2" onclick="handleDayConversion()">Day Conversion</li>
         <li class="px-4 py-2 w-[340px] rounded-lg hover:bg-blue-400 hover:text-white cursor-pointer border border-white mx-3 my-2">Mars Today</li>
         <li class="px-4 py-2 w-[340px] rounded-lg hover:bg-blue-400 hover:text-white cursor-pointer border border-white mx-3 my-2">Curious Facts</li>
@@ -115,7 +129,6 @@
    </div>`;
 
         }
-
         function handleClickMaps() {
             document.getElementById("mapBtn").style.backgroundColor='orangered';
             document.getElementById("mapBtn").style.border='none';
