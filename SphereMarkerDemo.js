@@ -22,7 +22,7 @@ scene.add(cube);
 
 canvas.init(document);
 
-const sphere = new MySphere(2, 320, 160,"./low.jpg");
+const sphere = new MySphere(2, 320, 160, "./low.jpg");
 scene.add(sphere.sphere);
 camera.position.z = 5;
 
@@ -96,7 +96,7 @@ function showInfo(point) {
         infoDiv.style.top = "10px";
         infoDiv.style.display = "flex";
         // infoDiv.style.alignItems = "center";
-       // infoDiv.style.justifyContent = "space-between";
+        // infoDiv.style.justifyContent = "space-between";
         infoDiv.style.left = "10px";
         infoDiv.style.color = "white";
         infoDiv.style.fontSize = "18px";
@@ -105,7 +105,7 @@ function showInfo(point) {
     }
     // infoDiv.innerHTML = `IDdf: ${point.id}<br>Name: ${point.name}<br>Details: ${point.details}`;
 
-    infoDiv.innerHTML = `    <div class="grid grid-cols-12 gap-6  mt-10 ml-10 mr-10 text-xs">
+    infoDiv.innerHTML = `    <div class="grid grid-cols-12 gap-6  mt-10 ml-10 mr-10 text-xs" i>
             <div class="col-start-1 col-end-4">
               
                     <!-- Dropdown content -->
@@ -156,12 +156,19 @@ function showInfo(point) {
     
             </div>
         </div>
-          <div class="col-start-8 col-end-12 max-w-[400px] mt-10 pr-10">
+        <div id="showDateTime"></div>
+          <div class="col-start-8 col-end-12 max-w-[400px] mt-10 pr-10" id="showInfo">
 
 
             <div id="new" class="text-sm">
+             
+                <div class="overflow-x-auto flex h-[200px] no-scrollbar"><img src=${point.total.photos[0].photo} alt="Alt Img" style="width:170px; height:140px" >
+                <img src=${point.total.photos[1].photo} alt="Alt Img" style="width:170px; height:140px" >
+                <img src=${point.total.photos[2].photo} alt="Alt Img" style="width:170px; height:140px" ></div>
+                
                 <p class="border border-white p-2 rounded-full">Name: ${point.name}</p>
                 <div class="border border-white p-[10px] rounded-[25px] mt-4">
+               
                 <p> Type: ${point.total.type}</p>
                 <p> Location: ${point.total.location}</p>
                 <p> Lat: ${point.total.coordinates.latitude}</p>
@@ -172,8 +179,7 @@ function showInfo(point) {
              
                 </div>
                 <div class=" border border-white p-[10px] rounded-[25px] m-4 h-[200px] text-center px-[70px]  py-[20px]">
-                
-                <img src=${point.total.photos[0].photo} alt="Alt Img" style="width:170px; height:140px" >
+               
                 </div>
                
                 

@@ -2,24 +2,24 @@
 <html lang="en">
 
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <script src="https://cdn.tailwindcss.com"></script>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="https://cdn.tailwindcss.com"></script>
 
-  <!-- Include Alpine.js -->
-  <script src="https://cdn.jsdelivr.net/npm/alpinejs@2.8.2/dist/alpine.min.js" defer></script>
-  <title>Mars Demo</title>
+    <!-- Include Alpine.js -->
+    <script src="https://cdn.jsdelivr.net/npm/alpinejs@2.8.2/dist/alpine.min.js" defer></script>
+    <title>Mars Demo</title>
 </head>
 
 <body class="max-w-screen max-h-[100vh] overflow-hidden">
-  <!-- <script type="module" src="./js/handleClick.js"></script> -->
-  <script type="module" src="SphereMarkerDemo.js"></script>
-  <!-- <script type="module" src="test/main.js"></script> -->
-  <!-- <script type="module" src="BackgroundDemo/SceneBackgroundDemo.js"></script> -->
+    <!-- <script type="module" src="./js/handleClick.js"></script> -->
+    <script type="module" src="SphereMarkerDemo.js"></script>
+    <!-- <script type="module" src="test/main.js"></script> -->
+    <!-- <script type="module" src="BackgroundDemo/SceneBackgroundDemo.js"></script> -->
 
-  <script>
-    function handleClickLocation() {
-        document.getElementById("onClickChangeContainer").innerHTML = `<ul id="onClickChangeContainer">
+    <script>
+        function handleClickLocation() {
+            document.getElementById("onClickChangeContainer").innerHTML = `<ul id="onClickChangeContainer">
                         <li
                             class="px-4 py-2 hover:bg-blue-400 hover:text-white cursor-pointer border border-white mx-3 my-2">
                             <input type="checkbox" name="checkbox" id="checkbox" value="option1">
@@ -49,24 +49,24 @@
                             Orbiter</li>
                         </ul>`;
 
-      }
+        }
 
-    function handleClickTourisom() {
-        document.getElementById("onClickChangeContainer").innerHTML = `   <div>
+        function handleClickTourisom() {
+            document.getElementById("onClickChangeContainer").innerHTML = `   <div>
     <ul >
         <li class="px-4 py-2 hover:bg-blue-400 hover:text-white cursor-pointer border border-white mx-3 my-2 ">Top 10 Place to visit</li>
         <li class="px-4 py-2 hover:bg-blue-400 hover:text-white cursor-pointer border border-white mx-3 my-2 ">Biggest Storms</li>
-        <li class="px-4 py-2 hover:bg-blue-400 hover:text-white cursor-pointer border border-white mx-3 my-2 ">Day Conversion</li>
+        <li class="px-4 py-2 hover:bg-blue-400 hover:text-white cursor-pointer border border-white mx-3 my-2 " onclick="handleDayConversion()">Day Conversion</li>
         <li class="px-4 py-2 hover:bg-blue-400 hover:text-white cursor-pointer border border-white mx-3 my-2 ">Mars Today</li>
         <li class="px-4 py-2 hover:bg-blue-400 hover:text-white cursor-pointer border border-white mx-3 my-2 ">Curious Facts</li>
         <li class="px-4 py-2 hover:bg-blue-400 hover:text-white cursor-pointer border border-white mx-3 my-2 ">Picture Of the Day</li>
     </ul>
    </div>`;
 
-      }
+        }
 
-    function handleClickMaps() {
-        document.getElementById("onClickChangeContainer").innerHTML = `   <div>
+        function handleClickMaps() {
+            document.getElementById("onClickChangeContainer").innerHTML = `   <div>
     <ul >
         <li class="px-4 py-2 hover:bg-blue-400 hover:text-white cursor-pointer border border-white mx-3 my-2 " > <a href="./maps/TerrestrialPeaks/TerrestrialPeaks.html">Terrestrial Peaks</a></li>
         <li class="px-4 py-2 hover:bg-blue-400 hover:text-white cursor-pointer border border-white mx-3 my-2 ">Highlands</li>
@@ -76,9 +76,21 @@
     </ul>
    </div>`;
 
-      }
+        }
+        function handleDayConversion() {
+            const currentDate = new Date();
+            const currentYear = currentDate.getFullYear();
+            const dayOfYear = Math.floor((currentDate - new Date(currentYear, 0, 0)) / (24 * 60 * 60 * 1000));
 
-  </script>
+            document.getElementById("showInfo").style.display = "none";
+            document.getElementById("showDateTime").innerHTML = `
+        <p>Today is the ${dayOfYear}th day of the year ${currentYear} of Earth</p>
+        <p>Today is the ${parseInt((637 * dayOfYear) / 365)}th day of Mars</p>
+    `;
+            console.log(dayOfYear);
+        }
+
+    </script>
 </body>
 
 </html>
