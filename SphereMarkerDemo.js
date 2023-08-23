@@ -22,11 +22,7 @@ scene.add(cube);
 
 canvas.init(document);
 
-<<<<<<< HEAD
-const sphere = new MySphere(2, 320, 160, "./low.jpg");
-=======
 const sphere = new MySphere(2, 320, 160, "./again_mars.jpg");
->>>>>>> main
 scene.add(sphere.sphere);
 camera.position.z = 5;
 
