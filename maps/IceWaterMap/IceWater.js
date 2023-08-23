@@ -124,6 +124,9 @@ function showInfo(point) {
                         </li>
                         <ul id="onClickChangeContainer">
                         <li
+                            class="bg-red-400 px-4 py-2 hover:bg-blue-400 hover:text-white cursor-pointer border border-white mx-3 my-2">
+                            <a href="">Ice Water</a></li>
+                        <li
                             class="px-4 py-2 hover:bg-blue-400 hover:text-white cursor-pointer border border-white mx-3 my-2">
                             <a href="../../index.html">Original Map</a></li>
                         <li
@@ -134,10 +137,16 @@ function showInfo(point) {
                             <a href="../TempMap/TempMap.html">Temp Map</a></li>
                         <li
                             class="px-4 py-2 hover:bg-blue-400 hover:text-white cursor-pointer border border-white mx-3 my-2">
+                            <a href="./maps/TopographicalMap/TopographicalMap.html">Rover Map</a></li>
+                        <li
+                            class="px-4 py-2 hover:bg-blue-400 hover:text-white cursor-pointer border border-white mx-3 my-2">
                             <a href="./Rover/rover.html">Rover</a></li>
                         <li
                             class="px-4 py-2 hover:bg-blue-400 hover:text-white cursor-pointer border border-white mx-3 my-2">
                             Orbiter</li>
+                        <li
+                            class="px-4 py-2 hover:bg-blue-400 hover:text-white cursor-pointer border border-white mx-3 my-2">
+                            <a href="../../Ingenuity/Ingenuity.html">Ingenuity</a></li>
                         </ul>
                     </ul>
                 
