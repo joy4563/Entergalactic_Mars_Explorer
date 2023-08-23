@@ -7,5 +7,7 @@ It should include
     One year on Mars is 687 days long. That’s 1.9 Earth years!
     Mars's gravity is 37% less than that on Earth
     
+Make a json file with the picture of the day.
+run the JS files
 
 
