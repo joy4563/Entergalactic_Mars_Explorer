@@ -173,7 +173,7 @@ function showInfo(point) {
                 </div>
                 <div class=" border border-white p-[10px] rounded-[25px] m-4 h-[200px] text-center px-[70px]  py-[20px]">
                
-                <img id="img" src=${point.total.photos[0].photo} alt="jjoyyyyyyyy" style="width:170px; height:140px" >
+                <img id="img" src=${point.total.photo1} alt="jjoyyyyyyyy" style="width:170px; height:140px" >
                 </div>
                
                 
