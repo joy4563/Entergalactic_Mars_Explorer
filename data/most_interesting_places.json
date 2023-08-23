@@ -366,7 +366,7 @@
     "type": "Crater",
     "name": "Borealis Basin",
     "topographicalgroup": "TerrestrialPeaks",
-    "location": "Northern Hemisphere of Mars",
+    "location": "Northern Hemisphere",
     "details": "Borealis Basin, Mars' grandest and most ancient impact basin, blankets much of the northern lowlands. This colossal feature tells a tale of primordial events, with some theories suggesting a single, substantial impactor around 2% the mass of Mars forged the basin. With an impressive diameter of about 1,900 km (1,200 miles), this impact might have occurred approximately 4.5 billion years ago. This basin's elliptical form and extraordinary flatness distinguish it as one of the Solar System's unique geological wonders.",
     "coordinates": {
       "latitude": 67,
@@ -386,7 +386,7 @@
     "type": "Highlands",
     "name": "Aonia Terra",
     "topographicalgroup": "Highlands",
-    "location": "Southern hemisphere of the planet Mars",
+    "location": "Southern hemisphere",
     "details": "Aonia Terra pays homage to the classical albedo feature Aonia, which drew inspiration from the storied ancient Greek realm Aonia. This elevated expanse unfolds a narrative rich in geological intrigue. Aonia Terra, characterized by substantial cratering, hosts the grand Lowell Crater, a defining mark on this remarkable terrain. While the plains showcase smaller craters, regions like Thaumasia Fossae and the southern sectors contribute to the tapestry of this landscape's diversity.",
     "coordinates": {
       "latitude": 62.0,
@@ -405,7 +405,7 @@
     "type": "Highlands",
     "name": "Terra Cimmeria",
     "topographicalgroup": "Highlands",
-    "location": "Southern highland region of Mars",
+    "location": "Southern highland",
     "details": "Terra Cimmeria, a distinctive terrain, graces Mars' rugged southern highlands, bearing the marks of time through its pocked surface. Renowned as the Spirit rover's landing site, this expanse weaves history and myth. Paying homage to an ancient Thracian seafaring people, the region's name echoes through time. Inspired by a land veiled in clouds and mist, Terra Cimmeria invites curiosity to unravel its tales.",
     "coordinates": {
       "latitude": 35.0,
@@ -444,7 +444,7 @@
     "type": "Highlands",
     "name": "North Polar Basin",
     "topographicalgroup": "Highlands",
-    "location": "Northern hemisphere of Mars",
+    "location": "Northern hemisphere",
     "details": "The North Polar Basin, encompassing a staggering 40% of Mars, stands as a prominent hallmark of the northern hemisphere. Known also as the Borealis Basin, this expansive feature emerges from the mists of time. Around 4.5 billion years ago, a monumental impact shaped it, possibly caused by a singular entity roughly 2% Mars' mass. Distinctive in shape and terrain, the basin's elliptical form and remarkable flatness draw the eye, carving a unique niche within the Solar System's wonders.",
     "coordinates": {
       "latitude": 67.0,
@@ -465,7 +465,7 @@
     "type": "Highlands",
     "name": "Promethei Terra",
     "topographicalgroup": "Highlands",
-    "location": "Southern hemisphere of Mars, east of the Hellas basin",
+    "location": "Southern hemisphere, east of Hellas basin",
     "details": "Promethei Terra, nestled in Mars' southern hemisphere, unveils its vastness across a span of 3300 km. This region showcases a distinct landscape, marked by its heavily cratered highlands, creating an intricate tapestry of age-old features. Situated east of the expansive Hellas basin, Promethei Terra's allure is magnified by its position. Bearing the name of the Greek god Prometheus, this realm's legacy intertwines with mythology. Enclosed within the Hellas quadrangle, it weaves its tale within the Martian landscape. Notably, the terrain boasts lobate debris aprons (LDAs), a captivating phenomenon born from material surrounding cliffs.",
     "coordinates": {
       "latitude": 58.0,
@@ -485,7 +485,7 @@
     "type": "Highlands",
     "name": "Terra Sabaea",
     "topographicalgroup": "Highlands",
-    "location": "Coordinates: 2°N 42°E on Mars",
+    "location": "2°N 42°E on Mars",
     "details": "Terra Sabaea stretches across Mars, unfolding a vast expanse that spans a staggering 4,700 kilometers at its widest reach. This region embraces its identity, carrying the name of a prominent albedo feature on the Martian surface. Within its domain, Terra Sabaea crosses through multiple quadrangles, a testament to its breadth. Notably, this realm offers glimpses of Earth-like features — landscapes that mirror glaciers, revealing moraine-like formations left behind by receding ice. These glacier-esque structures, called viscous flow features (VFF), stand as echoes of dynamic processes that once shaped this Martian terrain.",
     "coordinates": {
       "latitude": 2.0,
@@ -505,7 +505,7 @@
     "type": "Crater",
     "name": "Terra Sirenum",
     "topographicalgroup": "Terrestrial Peaks",
-    "location": "Southern hemisphere of Mars",
+    "location": "Southern hemisphere",
     "details": "Terra Sirenum, gracing Mars' southern hemisphere, paints an expansive canvas spanning 3900 km at its widest breadth. Renowned for its rich history of impact, it notably cradles the distinguished Newton Crater. Within the Phaethontis and Memnonia quadrangles, this upland territory emerges as a captivating realm. A highlight resides in a former low region, once a potential lake bed, its mysteries unveiled as it drained through Ma'adim Vallis. Notably, the region's name, Terra Sirenum, mirrors the tales of the Sirens from mythology, merging Mars' landscape with echoes of ancient stories.",
     "coordinates": {
       "latitude": 40.0,
@@ -525,7 +525,7 @@
     "type": "Highlands",
     "name": "Tempe Terra",
     "topographicalgroup": "Highlands",
-    "location": "Northern hemisphere of Mars",
+    "location": "Northern hemisphere",
     "details": "Tempe Terra, adorning Mars' northern hemisphere, presents a captivating spectacle of heavily cratered highlands, a realm teeming with distinctive traits. Positioned along the Tharsis volcanic province's northeastern rim, it unveils a tapestry of geological wonders. Showcasing crustal fracturing, deformation, and volcanic formations, this region's allure is unyielding. Named in honor of the Vale of Tempe, a pastoral gem revered in ancient Greek lore, Tempe Terra stretches from 30° to 54°N and 265° to 310°E, sprawling across 2.1 million km2. It abuts Chryse and Acidalia Planitiae to the east, bordered by low-lying plains to the north, and graced by the extensive Kasei Valles outflow channel system to the south.",
     "coordinates": {
       "latitude": 40.0,
@@ -545,7 +545,7 @@
     "type": "Highlands",
     "name": "Tyrrhena Terra",
     "topographicalgroup": "Highlands",
-    "location": "Southern hemisphere of Mars",
+    "location": "Southern hemisphere",
     "details": "Tyrrhena Terra unfolds its majesty south of Mars' equator and northeast of the Hellas basin, spanning 2300 km at its broadest. Nestled within the Mare Tyrrhenum quadrangle, this region beckons explorers to its distinctive charm. A portrait of heavily cratered highlands and rugged landscapes, it embodies the essence of Martian terrae in the southern hemisphere. Notably, the landscape unveils significant formations like Tyrrhena Patera, a vestige of the ancient past, and captivating features like Herschel crater, Licus Vallis, and Ausonia Montes. The canvas tells tales of channels and dunes, imprinted vividly through captured images.",
     "coordinates": {
       "latitude": 15.0,
@@ -565,7 +565,7 @@
     "type": "Highlands",
     "name": "Xanthe Terra",
     "topographicalgroup": "Highlands",
-    "location": "North of the Martian equator",
+    "location": "North of the equator",
     "details": "Xanthe Terra, poised near Mars' equator, stretches across approximately 1867.65 km, revealing its distinctive expanse. The name, signifying 'golden-yellow land,' mirrors its captivating terrain. Within the Lunae Palus, Coprates, Margaritifer Sinus, and Oxia Palus quadrangles, Xanthe Terra unfolds its treasures. Ravi Vallis, Aromatum Chaos, and myriad craters grace this realm, marking its signature. Captured through lenses like Mars Express, Mars Global Surveyor, and Mars Reconnaissance Orbiter, ancient river valleys and deltas are unveiled, draped in delicate layers. Evidencing thin deposits, Xanthe Terra hints at bygone precipitation in Mars' early days.",
 
     "coordinates": {
