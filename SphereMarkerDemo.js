@@ -157,7 +157,7 @@ function showInfo(point) {
     
             </div>
         </div>
-        <div id="showDateTime"></div>
+        <div  class="" id="showDateTime"></div>
           <div class="col-start-8 col-end-12 max-w-[400px] mt-10 pr-10" id="showInfo">
 
 
