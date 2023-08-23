@@ -97,7 +97,7 @@ function apiDataDemo() {
     const dataFetcher = new DataFetcher((data) => {
         console.log(data);
         const result = data.filter(
-            (single) => single.topographicalgroup == "TerrestrialPeaks"
+            (single) => single.topographicalgroup == "EnigmaticFeatures"
         );
         console.log(result);
         let markedPoints = new MarkedPoints();

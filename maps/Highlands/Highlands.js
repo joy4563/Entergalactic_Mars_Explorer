@@ -91,13 +91,15 @@ function showInfo(point) {
             </div>
         </div>
    `;
+
+ 
 }
 
 function apiDataDemo() {
     const dataFetcher = new DataFetcher((data) => {
         console.log(data);
         const result = data.filter(
-            (single) => single.topographicalgroup == "TerrestrialPeaks"
+            (single) => single.topographicalgroup == "Highlands"
         );
         console.log(result);
         let markedPoints = new MarkedPoints();
