@@ -124,31 +124,31 @@ function showInfo(point) {
                         </li>
                         <ul id="onClickChangeContainer">
                         <li
-                            class="px-4 py-2 hover:bg-blue-400 hover:text-white cursor-pointer border border-white mx-3 my-2">
+                            class="px-4 py-2 w-[340px] rounded-lg hover:bg-blue-400 hover:text-white cursor-pointer border border-white mx-3 my-2">
                             <input type="checkbox" name="checkbox" id="checkbox" value="option1">
                             <label for="checkbox">Option 1</label>
                         </li>
                         <li
-                            class="px-4 py-2 hover:bg-blue-400 hover:text-white cursor-pointer border border-white mx-3 my-2">
+                            class="px-4 py-2 w-[340px] rounded-lg hover:bg-blue-400 hover:text-white cursor-pointer border border-white mx-3 my-2">
                             <input type="checkbox" name="checkbox" id="checkbox2" value="option2">
                             <label for="checkbox2">Option 2</label>
                         </li>
                         <li
-                            class="px-4 py-2 hover:bg-blue-400 hover:text-white cursor-pointer border border-white mx-3 my-2">
+                            class="px-4 py-2 w-[340px] rounded-lg hover:bg-blue-400 hover:text-white cursor-pointer border border-white mx-3 my-2">
                             <input type="checkbox" name="checkbox" id="checkbox3" value="option3">
                             <label for="checkbox3">Option 3</label>
                         </li>
                         <li
-                            class="px-4 py-2 hover:bg-blue-400 hover:text-white cursor-pointer border border-white mx-3 my-2">
+                            class="px-4 py-2 rounded-lg hover:bg-blue-400 hover:text-white cursor-pointer border border-white mx-3 my-2">
                             Temp Map</li>
                         <li
-                            class="px-4 py-2 hover:bg-blue-400 hover:text-white cursor-pointer border border-white mx-3 my-2">
+                            class="px-4 py-2 rounded-lg hover:bg-blue-400 hover:text-white cursor-pointer border border-white mx-3 my-2">
                             Weather Forecast</li>
                         <li
-                            class="px-4 py-2 hover:bg-blue-400 hover:text-white cursor-pointer border border-white mx-3 my-2">
+                            class="px-4 py-2 rounded-lg hover:bg-blue-400 hover:text-white cursor-pointer border border-white mx-3 my-2">
                             <a href="./Rover/rover.html">Rover</a></li>
                         <li
-                            class="px-4 py-2 hover:bg-blue-400 hover:text-white cursor-pointer border border-white mx-3 my-2">
+                            class="px-4 py-2 rounded-lg hover:bg-blue-400 hover:text-white cursor-pointer border border-white mx-3 my-2">
                             Orbiter</li>
                         </ul>
                     </ul>
@@ -160,13 +160,13 @@ function showInfo(point) {
 
 
             <div id="new" class="text-sm">
-                <p class="border border-white p-2 rounded-full">Name: ${point.name}</p>
+                <p class="border border-white py-3 px-3 rounded-[15px]">Name: ${point.name}</p>
                 <div class="border border-white p-[10px] rounded-[25px] mt-4">
                 <p> Type: ${point.total.type}</p>
                 <p> Location: ${point.total.location}</p>
                 <p> Lat: ${point.total.coordinates.latitude}</p>
                 <p> Lon: ${point.total.coordinates.longitude}</p>
-                <div id="detail" class=" border border-white p-[10px] rounded-[25px] m-4 h-[140px] overflow-y-scroll">
+                <div id="detail" class=" border border-white p-[10px] rounded-[25px] m-4 h-[140px] overflow-y-scroll scrollbar scrollbar-thumb-red-500 scrollbar-track-gray-100">
                 <p> Details: ${point.total.details}</p>
                 </div>
              
