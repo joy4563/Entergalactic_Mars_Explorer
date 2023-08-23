@@ -59,7 +59,7 @@ export class MySphere {
     tempObject.updateMatrix();
     return tempObject.matrix;
   }
-
+//lol
   createText(text, position) {
     const loader = new FontLoader();
     return new Promise((resolve, reject) => {

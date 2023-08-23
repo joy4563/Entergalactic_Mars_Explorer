@@ -171,15 +171,27 @@ function showInfo(point) {
                
                 <p> Type: ${point.total.type}</p>
                 <p> Location: ${point.total.location}</p>
-                <p> Latitude: ${point.total.coordinatesForShow.latitude}</p>
-                <p> Longitude: ${point.total.coordinatesForShow.longitude}</p>
-                <div class=" border border-white p-[10px] rounded-[25px] m-4 h-[140px] overflow-y-scroll">
+                <p> Lat: ${point.total.coordinates.latitude}</p>
+                <p> Lon: ${point.total.coordinates.longitude}</p>
+                <div id="detail" class=" border border-white p-[10px] rounded-[25px] m-4 h-[140px] overflow-y-scroll">
                 <p> Details: ${point.total.details}</p>
                 </div>
              
                 </div>
                 <div class=" border border-white p-[10px] rounded-[25px] m-4 h-[200px] text-center px-[70px]  py-[20px]">
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+=======
+                
+                
+>>>>>>> main
+=======
+>>>>>>> main
+>>>>>>> 42c0603ec0ac6c0f73d253b3d8e54b8aa5757515
                
+                <img id="img" src=${point.total.photo1} alt="jjoyyyyyyyy" style="width:170px; height:140px" >
                 </div>
                
                 
@@ -198,8 +210,12 @@ function showInfo(point) {
     document.querySelectorAll("input[type=checkbox]").forEach((checkbox) => {
         checkbox.addEventListener("change", () => {
             if (checkbox.checked) {
-                document.getElementById("new").innerHTML += `<p> ${messages[checkbox.value]
-                    }</p>`;
+                document.getElementById("new").innerHTML += `<p> ${
+                    messages[checkbox.value]
+                }</p>`;
+                document.getElementById("detail").style.display= 'none';
+                document.getElementById("img").style.width= "500px";
+                
             } else {
                 const text = document.getElementById("new").innerHTML;
                 const value = messages[checkbox.value];
@@ -209,6 +225,7 @@ function showInfo(point) {
                         ""
                     );
                 }
+                document.getElementById("detail").style.display= 'block';
             }
         });
     });
