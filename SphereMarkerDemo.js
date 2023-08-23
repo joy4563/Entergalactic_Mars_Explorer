@@ -162,8 +162,8 @@ function showInfo(point) {
 
 
             <div id="new" class="text-[16px] font-mono">
-                <p class="border border-white py-3 px-3 rounded-[15px]">Name: ${point.name}</p>
-                <div class="border border-white py-3 px-3 rounded-[15px] mt-4">
+                <p class="border border-white py-3 px-4 rounded-[15px]">Name: ${point.name}</p>
+                <div class="border border-white py-3 px-4 rounded-[15px] mt-4">
                
                 <p> Type: ${point.total.type}</p>
                 <p> Location: ${point.total.location}</p>
