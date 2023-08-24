@@ -1,0 +1,73 @@
+[
+    {
+      "id": 1,
+      "name": "Perseverance",
+      "location": "Tharsis",
+      "status": "active",
+      "details": "Unveil the marvel of Olympus Mons, Mars' colossal volcano and second-highest peak. Soaring to 21.9 km (13.6 mi or 72,000 ft), it dwarfs Mount Everest. Forged in the Hesperian Period, its form was sculpted by Amazonian eruptions. Eclipsing Mars' datum by 21 km (13 mi), it extends an invitation to daring explorers. Embark on an otherworldly journey, unveiling the universe's wonders etched upon its fiery terrain.",
+      "coordinates": {
+        "latitude": 18.65,
+        "longitude": 226.2
+      },
+      "coordinatesForShow": {
+        "latitude": "18°39°N",
+        "longitude": "226°12°E"
+      },
+  
+      "photo1": "https://i.ibb.co/BqvxSfJ/Olympus2.webp"
+    },
+    {
+      "id": 2,
+      "type": "Canyon",
+      "name": "Curiosity",
+      "status": "active",
+      "location": "Western hemisphere",
+      "details": "Valles Marineris, a captivating wonder, reigns as the Solar System's largest canyon. Carved on Mars, this colossal chasm stretches thousands of miles, plunging 4 miles deep. It lies along the equator, adorning the east side of Tharsis Bulge. Its grandeur encircles nearly a quarter of Mars' circumference.",
+      "coordinates": {
+        "latitude": -13.9,
+        "longitude": -59.2
+      },
+      "coordinatesForShow": {
+        "latitude": "13.9°S",
+        "longitude": "59.2°W"
+      },
+  
+      "photo1": "https://ibb.co/LxqyGHg"
+    },
+    {
+      "id": 3,
+      "type": "Canyon",
+      "name": "Valles Marineris",
+      "topographicalgroup": "UniqueSurfaceTextures",
+      "location": "Western hemisphere",
+      "details": "Valles Marineris, a captivating wonder, reigns as the Solar System's largest canyon. Carved on Mars, this colossal chasm stretches thousands of miles, plunging 4 miles deep. It lies along the equator, adorning the east side of Tharsis Bulge. Its grandeur encircles nearly a quarter of Mars' circumference.",
+      "coordinates": {
+        "latitude": -13.9,
+        "longitude": -59.2
+      },
+      "coordinatesForShow": {
+        "latitude": "13.9°S",
+        "longitude": "59.2°W"
+      },
+  
+      "photo1": "https://ibb.co/LxqyGHg"
+    },
+    {
+      "id": 4,
+      "type": "Canyon",
+      "name": "Valles Marineris",
+      "topographicalgroup": "UniqueSurfaceTextures",
+      "location": "Western hemisphere",
+      "details": "Valles Marineris, a captivating wonder, reigns as the Solar System's largest canyon. Carved on Mars, this colossal chasm stretches thousands of miles, plunging 4 miles deep. It lies along the equator, adorning the east side of Tharsis Bulge. Its grandeur encircles nearly a quarter of Mars' circumference.",
+      "coordinates": {
+        "latitude": -13.9,
+        "longitude": -59.2
+      },
+      "coordinatesForShow": {
+        "latitude": "13.9°S",
+        "longitude": "59.2°W"
+      },
+  
+      "photo1": "https://ibb.co/LxqyGHg"
+    }
+]
