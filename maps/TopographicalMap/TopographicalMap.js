@@ -26,13 +26,13 @@ const sphere = new MySphere(2, 320, 160, "../../mars_topographic4k.jpg");
 scene.add(sphere.sphere);
 camera.position.z = 5;
 
-sphere.addMarker("LAT_LONG", 30, -90, (object) => {
-    var geometry = new THREE.SphereGeometry(0.05, 10, 5);
-    var material = new THREE.MeshBasicMaterial({ color: Colors.BLUE });
-    var box = new THREE.Mesh(geometry, material);
-    box.applyMatrix4(object);
-    return box;
-});
+// sphere.addMarker("LAT_LONG", 30, -90, (object) => {
+//     var geometry = new THREE.SphereGeometry(0.05, 10, 5);
+//     var material = new THREE.MeshBasicMaterial({ color: Colors.BLUE });
+//     var box = new THREE.Mesh(geometry, material);
+//     box.applyMatrix4(object);
+//     return box;
+// });
 
 // markerPointDemo();
 apiDataDemo();
