@@ -10,7 +10,7 @@ let scene, camera, renderer;
 const canvas = new MyCanvas(window);
 
 scene = canvas.scene;
-// canvas.setBackgroundEXR("/BackgroundDemo/starmap_2020_4k.exr");
+canvas.setBackgroundEXR("/BackgroundDemo/starmap_2020_4k.exr");
 camera = canvas.camera;
 renderer = canvas.renderer;
 canvas.init(document);
@@ -22,7 +22,7 @@ scene.add(cube);
 
 canvas.init(document);
 
-const sphere = new MySphere(2, 320, 160, "./again_mars.jpg");
+const sphere = new MySphere(2, 320, 160, "./mars8k.jpg");
 scene.add(sphere.sphere);
 camera.position.z = 5;
 
