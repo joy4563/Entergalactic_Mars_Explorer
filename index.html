@@ -45,7 +45,7 @@
         // import f from './Ingenuity/Ingenuity.html'
         function handleClickLocation() {
 
-            document.getElementById("locationBtn").style.backgroundColor = 'orangered';
+            document.getElementById("locationBtn").style.backgroundColor = 'orange';
             document.getElementById("locationBtn").style.border = 'none';
             document.getElementById("locationBtn").style.color = 'black';
 
@@ -57,39 +57,40 @@
             document.getElementById("mapBtn").style.border = '2px solid white';
             document.getElementById("mapBtn").style.color = 'white';
             document.getElementById("onClickChangeContainer").innerHTML = `<ul id="onClickChangeContainer">
-                        <li
-                            class="bg-red-400 px-4 py-2 hover:bg-blue-400 hover:text-white cursor-pointer border border-white mx-3 my-2">
-                            <a href="">Original Map</a></li>
-                        <li
-                            class="px-4 py-2 hover:bg-blue-400 hover:text-white cursor-pointer border border-white mx-3 my-2">
-                            <a href="./maps/TempMap/TempMap.html">Temp Map</a></li>
-                        <li
-                            class="px-4 py-2 hover:bg-blue-400 hover:text-white cursor-pointer border border-white mx-3 my-2">
-                            <a href="./maps/TopographicalMap/TopographicalMap.html">Topographical Map</a></li>
-                        <li
-                            class="px-4 py-2 hover:bg-blue-400 hover:text-white cursor-pointer border border-white mx-3 my-2">
-                            <a href="./maps/IceWaterMap/IceWater.html">Water ICE</a></li>
-                        <li
-                            class="px-4 py-2 hover:bg-blue-400 hover:text-white cursor-pointer border border-white mx-3 my-2">
-                            <a href="./maps/TopographicalMap/TopographicalMap.html">Rover Map</a></li>
-                        </li>
-                        <li class="my-5 ml-3">
-         
-                            <a href="./Rover/rover.html" class="py-[10px] pl-[10px] pr-[295px] rounded-lg hover:bg-blue-400 hover:text-white cursor-pointer border border-white">Rover</a>
-                            </li>
-                        <li
-                            class="px-4 py-2 rounded-lg w-[340px] hover:bg-blue-400 hover:text-white cursor-pointer border border-white mx-3 my-2">
-                            Orbiter</li>
-                        <li
-                            class="px-4 py-2 hover:bg-blue-400 hover:text-white cursor-pointer border border-white mx-3 my-2">
-                            <a href="./Ingenuity/Ingenuity.html">Ingenuity</a></li>
+                <li
+                class="bg-red-400 px-4 py-2 w-[340px] rounded-lg hover:bg-blue-400 hover:text-white cursor-pointer border border-white mx-3 my-2">
+                <a href="">Original Map</a>
+              </li>
+              <li class="px-4 py-2 w-[340px] rounded-lg hover:bg-blue-400 hover:text-white cursor-pointer border border-white mx-3 my-2">
+                <a href="./maps/TempMap/TempMap.html">Temp Map</a>
+              </li>
+              <li class="px-4 py-2 w-[340px] rounded-lg hover:bg-blue-400 hover:text-white cursor-pointer border border-white mx-3 my-2">
+                <a href="./maps/TopographicalMap/TopographicalMap.html">Topographical Map</a>
+              </li>
+              <li class="px-4 py-2 w-[340px] rounded-lg hover:bg-blue-400 hover:text-white cursor-pointer border border-white mx-3 my-2">
+                <a href="./maps/IceWaterMap/IceWater.html">Water ICE</a>
+              </li>
+              <li class="px-4 py-2 w-[340px] rounded-lg hover:bg-blue-400 hover:text-white cursor-pointer border border-white mx-3 my-2">
+                <a href="./maps/TopographicalMap/TopographicalMap.html">Rover Map</a>
+              </li>
+              </li>
+              <li class="my-5 ml-3">
+                <a href="./Rover/middle.html"
+                  class="py-[10px] pl-[10px] pr-[295px] rounded-lg hover:bg-blue-400 hover:text-white cursor-pointer border border-white">Rover</a>
+              </li>
+              <li
+                class="px-4 py-2 rounded-lg w-[340px] hover:bg-blue-400 hover:text-white cursor-pointer border border-white mx-3 my-2">
+                Orbiter</li>
+              <li class="px-4 w-[340px] rounded-lg py-2 hover:bg-blue-400 hover:text-white cursor-pointer border border-white mx-3 my-2">
+                <a href="./Ingenuity/Ingenuity.html">Ingenuity</a>
+              </li>
                         </ul>`;
 
         }
 
         function handleClickTourisom() {
 
-            document.getElementById("tourismBtn").style.backgroundColor = 'orangered';
+            document.getElementById("tourismBtn").style.backgroundColor = 'orange';
             document.getElementById("tourismBtn").style.border = 'none';
             document.getElementById("tourismBtn").style.color = 'black';
 
@@ -108,10 +109,14 @@
         <li class="px-4 py-2 w-[340px] rounded-lg hover:bg-blue-400 hover:text-white cursor-pointer border border-white mx-3 my-2" > <a   href="/tourisom/article/article.html">Article</a></li>
         
         <li class="px-4 py-2 w-[340px] rounded-lg hover:bg-blue-400 hover:text-white cursor-pointer border border-white mx-3 my-2" onclick="handleDayConversion()">Day Conversion</li>
-        <li class="px-4 py-2 w-[340px] rounded-lg hover:bg-blue-400 hover:text-white cursor-pointer border border-white mx-3 my-2">Mars Today</li>
-        <li class="px-4 py-2 w-[340px] rounded-lg hover:bg-blue-400 hover:text-white cursor-pointer border border-white mx-3 my-2">Curious Facts</li>
+        
+        <li class="px-4 py-2 w-[340px] rounded-lg hover:bg-blue-400 hover:text-white cursor-pointer border border-white mx-3 my-2">
+    <a href="https://mars.nasa.gov/all-about-mars/facts/">Curious Facts</a>
+</li>
+
         
         <li  class="px-4 py-2 w-[340px] rounded-lg hover:bg-blue-400 hover:text-white cursor-pointer border border-white mx-3 my-2">
+
          <a   href="./pictureOfTheDay/pictureOfTheDay.html">Picture Of the Day</a>
          </li>
     </ul>
@@ -119,7 +124,7 @@
 
         }
         function handleClickMaps() {
-            document.getElementById("mapBtn").style.backgroundColor = 'orangered';
+            document.getElementById("mapBtn").style.backgroundColor = 'orange';
             document.getElementById("mapBtn").style.border = 'none';
             document.getElementById("mapBtn").style.color = 'black';
 
@@ -174,10 +179,10 @@
             const marsOrdinal = marsDay + getOrdinalIndicator(marsDay);
 
             const output = `
-    <div class="mt-10 pr-10 font-mono border border-white rounded-[15px] py-3 px-4">
+    <div class="mt-10 pr-10 font-mono border border-white rounded-[15px] py-3 px-2">
         ${month} ${day}${getOrdinalIndicator(day)}, ${year}<br>
         ${dayOfYear}${getOrdinalIndicator(dayOfYear)} day on Earth<br>
-        ${marsDay}${getOrdinalIndicator(marsDay)} day on Mars<br>
+        ${marsDay}${getOrdinalIndicator(marsDay)} sol on Mars<br>
     </div>
 `;
 

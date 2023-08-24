@@ -61,45 +61,59 @@ function showInfo(point) {
     }
     // infoDiv.innerHTML = `IDdf: ${point.id}<br>Name: ${point.name}<br>Details: ${point.details}`;
 
-    infoDiv.innerHTML = `   
-           
-        </div>
-          <div class="col-start-8 col-end-12 max-w-[400px] mt-10 pr-10">
-                <img src=${point.total.photo1} alt="Marsss" style="width:170px; height:140px" >
-
-
-            <div id="new" class="text-sm">
-                <p class="border border-white p-2 rounded-full">Name: ${point.name}</p>
-                <div class="border border-white p-[10px] rounded-[25px] mt-4">
-                <p> Type: ${point.total.type}</p>
-                <p> Location: ${point.total.location}</p>
-                <p> Lat: ${point.total.coordinates.latitude}</p>
-                <p> Lon: ${point.total.coordinates.longitude}</p>
-                <div class=" border border-white p-[10px] rounded-[25px] m-4 h-[140px] overflow-y-scroll">
-                <p> Details: ${point.total.details}</p>
-                </div>
-             
-                </div>
-                <div class=" border border-white p-[10px] rounded-[25px] m-4 h-[200px] text-center px-[70px]  py-[20px]">
-                
-                </div>
-               
-                
-                
-                
-                <br>
+    infoDiv.innerHTML = `    <div>
+      <div class=" max-w-[400px] mt-10 pr-10 font-mono" id="showInfo">
+        <div class=" border flex w-[357px]  border-white p-3 rounded-[15px]  h-[200px] text-center py-3 ">
+          <div class="carousel  w-[357px] rounded-lg">
+            <div id="slide1" class="carousel-item relative w-[330px]">
+              <img src="${point.total.photo1}" class="w-[380px] h-[180px] rounded-[15px]" />
+              <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
+                <a href="#slide3" class="btn btn-circle">❮</a>
+                <a href="#slide2" class="btn btn-circle">❯</a>
+              </div>
             </div>
+            <div id="slide2" class="carousel-item relative w-[330px]">
+              <img src="${point.total.photo2}" class="w-[380px] h-[180px] rounded-[15px]" />
+              <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
+                <a href="#slide1" class="btn btn-circle">❮</a>
+                <a href="#slide3" class="btn btn-circle">❯</a>
+              </div>
+            </div>
+            <div id="slide3" class="carousel-item relative w-[330px]">
+              <img src="${point.total.photo1}" class="w-[380px] h-[180px] rounded-[15px]" />
+              <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
+                <a href="#slide2" class="btn btn-circle">❮</a>
+                <a href="#slide1" class="btn btn-circle">❯</a>
+              </div>
+            </div>
+
+          </div>
         </div>
+
+        <div class="border border-white py-3 px-4 rounded-[15px] mt-4">
+          <p> Type: ${point.total.type}</p>
+          <p> Location: ${point.total.location}</p>
+          <p> Lat: ${point.total.coordinates.latitude}</p>
+          <p> Lon: ${point.total.coordinates.longitude}</p>
+          <div id="detail" class="  mt-2  mb-3 text-justify">
+            <p> Details: ${point.total.details}</p>
+          </div>
+        </div>
+      </div>
+
+      
+    </div>
+<div class="ml-[18vw] w-[400px] text-3xl text-center font-mono font-bold mt-10"> ${point.name}</div>
    `;
 }
 
 function apiDataDemo() {
     const dataFetcher = new DataFetcher((data) => {
-        console.log(data);
+        // console.log(data);
         const result = data.filter(
             (single) => single.topographicalgroup == "TerrestrialPeaks"
         );
-        console.log(result);
+        // console.log(result);
         let markedPoints = new MarkedPoints();
         for (let user of result) {
             // console.log(user.description);
