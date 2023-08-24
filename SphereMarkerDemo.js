@@ -105,7 +105,7 @@ function showInfo(point) {
     }
     // infoDiv.innerHTML = `IDdf: ${point.id}<br>Name: ${point.name}<br>Details: ${point.details}`;
 
-    infoDiv.innerHTML = `    <div class="grid grid-cols-12 gap-6  mt-10 ml-10 mr-10 text-xs" i>
+    infoDiv.innerHTML = `<div class="grid grid-cols-12 gap-6  mt-10 ml-10 mr-10 text-xs" i>
             <div class="col-start-1 col-end-4">
               
                     <!-- Dropdown content -->
@@ -155,7 +155,7 @@ function showInfo(point) {
             </div>
         </div>
         <div id="showDateTime"></div>
-          <div class="col-start-8 col-end-12 max-w-[400px] mt-10 pr-10" id="showInfo">
+        <div class="col-start-8 col-end-12 max-w-[400px] mt-10 pr-10" id="showInfo">
             <div id="new" class="text-[16px] font-mono">
                 <p class="border border-white py-3 px-4 rounded-[15px]">Name: ${point.name}</p>
                 <div class="border border-white py-3 px-4 rounded-[15px] mt-4">
