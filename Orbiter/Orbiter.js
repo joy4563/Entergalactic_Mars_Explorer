@@ -1,7 +1,7 @@
 import * as THREE from "three";
-import { MyCanvas } from "./MyCanvas";
+import { MyCanvas } from "../MyCanvas.js";
 import { GLTFLoader } from 'three/addons/loaders/GLTFLoader.js';
-import { MySphere } from "./SphereMarker.js";
+import { MySphere } from "../SphereMarker.js";
 let scene, camera, renderer;
 const canvas = new MyCanvas(window);
 
@@ -11,7 +11,7 @@ renderer = canvas.renderer;
 canvas.init(document);
 canvas.setBackgroundEXR("/BackgroundDemo/starmap_2020_4k.exr");
 
-const sphere = new MySphere(5, 32, 16);
+const sphere = new MySphere(5, 320, 160,"../mars_4k_color.jpg");
 scene.add(sphere.sphere);
 
 
@@ -24,7 +24,7 @@ let planet; // Declare a variable to store the loaded model
 
 const loader = new GLTFLoader();
 
-loader.load('./model.glb', function (gltf) {
+loader.load('../model.glb', function (gltf) {
     planet = gltf.scene; // Store the loaded model in the variable
 
     // You can set the initial position, rotation, and scale of the loaded model here

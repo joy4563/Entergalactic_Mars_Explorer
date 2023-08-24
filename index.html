@@ -1,62 +1,69 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
+  <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <script src="https://cdn.tailwindcss.com"></script>
-    <link href="https://cdn.jsdelivr.net/npm/daisyui@3.5.1/dist/full.css" rel="stylesheet" type="text/css" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/daisyui@3.5.1/dist/full.css"
+      rel="stylesheet"
+      type="text/css"
+    />
     <!-- Include Alpine.js -->
-    <script src="https://cdn.jsdelivr.net/npm/alpinejs@2.8.2/dist/alpine.min.js" defer></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/alpinejs@2.8.2/dist/alpine.min.js"
+      defer
+    ></script>
     <title>Mars Demo</title>
     <style>
-        /* Custom scrollbar */
-        .custom-scrollbar::-webkit-scrollbar {
-            display: none;
-        }
+      /* Custom scrollbar */
+      .custom-scrollbar::-webkit-scrollbar {
+        display: none;
+      }
 
-        .custom-scrollbar::-webkit-scrollbar-track {
-            background: #f1f1f1;
-        }
+      .custom-scrollbar::-webkit-scrollbar-track {
+        background: #f1f1f1;
+      }
 
-        .custom-scrollbar::-webkit-scrollbar-thumb {
-            background-color: #888;
-            border-radius: 4px;
-        }
+      .custom-scrollbar::-webkit-scrollbar-thumb {
+        background-color: #888;
+        border-radius: 4px;
+      }
 
-        .custom-scrollbar::-webkit-scrollbar-thumb:hover {
-            background-color: #555;
-        }
+      .custom-scrollbar::-webkit-scrollbar-thumb:hover {
+        background-color: #555;
+      }
 
-        .a_btn {
-            width: 300px;
-        }
+      .a_btn {
+        width: 300px;
+      }
     </style>
-</head>
+  </head>
 
-<body class="max-w-screen max-h-[100vh] overflow-hidden font-mono">
+  <body class="max-w-screen max-h-[100vh] overflow-hidden font-mono">
     <!-- <script type="module" src="./js/handleClick.js"></script> -->
     <script type="module" src="SphereMarkerDemo.js"></script>
     <!-- <script type="module" src="/tourisom/article/article.html"></script> -->
     <!-- <script type="module" src="test/main.js"></script> -->
     <!-- <script type="module" src="BackgroundDemo/SceneBackgroundDemo.js"></script> -->
-
+    <!-- <script type="module" src="modelLoad.js"></script> -->
     <script>
-        // import f from './maps/RovarMap/RovarMap.html'
-        function handleClickLocation() {
+      // import f from './maps/RovarMap/RovarMap.html'
+      function handleClickLocation() {
+        document.getElementById("locationBtn").style.backgroundColor = "orange";
+        document.getElementById("locationBtn").style.border = "none";
+        document.getElementById("locationBtn").style.color = "black";
 
-            document.getElementById("locationBtn").style.backgroundColor = 'orange';
-            document.getElementById("locationBtn").style.border = 'none';
-            document.getElementById("locationBtn").style.color = 'black';
+        document.getElementById("tourismBtn").style.backgroundColor = "black";
+        document.getElementById("tourismBtn").style.border = "2px solid white";
+        document.getElementById("tourismBtn").style.color = "white";
 
-            document.getElementById("tourismBtn").style.backgroundColor = 'black';
-            document.getElementById("tourismBtn").style.border = '2px solid white';
-            document.getElementById("tourismBtn").style.color = 'white';
-
-            document.getElementById("mapBtn").style.backgroundColor = 'black';
-            document.getElementById("mapBtn").style.border = '2px solid white';
-            document.getElementById("mapBtn").style.color = 'white';
-            document.getElementById("onClickChangeContainer").innerHTML = `<ul id="onClickChangeContainer">
+        document.getElementById("mapBtn").style.backgroundColor = "black";
+        document.getElementById("mapBtn").style.border = "2px solid white";
+        document.getElementById("mapBtn").style.color = "white";
+        document.getElementById(
+          "onClickChangeContainer"
+        ).innerHTML = `<ul id="onClickChangeContainer">
                 <li
                 class="bg-red-400 px-4 py-2 w-[340px] rounded-lg hover:bg-blue-400 hover:text-white cursor-pointer border border-white mx-3 my-2">
                 <a href="">Original Map</a>
@@ -85,26 +92,22 @@
                 <a href="./Ingenuity/Ingenuity.html">Ingenuity</a>
               </li>
                         </ul>`;
+      }
 
-        }
+      function handleClickTourisom() {
+        document.getElementById("tourismBtn").style.backgroundColor = "orange";
+        document.getElementById("tourismBtn").style.border = "none";
+        document.getElementById("tourismBtn").style.color = "black";
 
-        function handleClickTourisom() {
+        document.getElementById("locationBtn").style.backgroundColor = "black";
+        document.getElementById("locationBtn").style.border = "2px solid white";
+        document.getElementById("locationBtn").style.color = "white";
 
-            document.getElementById("tourismBtn").style.backgroundColor = 'orange';
-            document.getElementById("tourismBtn").style.border = 'none';
-            document.getElementById("tourismBtn").style.color = 'black';
+        document.getElementById("mapBtn").style.backgroundColor = "black";
+        document.getElementById("mapBtn").style.border = "2px solid white";
+        document.getElementById("mapBtn").style.color = "white";
 
-            document.getElementById("locationBtn").style.backgroundColor = 'black';
-            document.getElementById("locationBtn").style.border = '2px solid white';
-            document.getElementById("locationBtn").style.color = 'white';
-
-            document.getElementById("mapBtn").style.backgroundColor = 'black';
-            document.getElementById("mapBtn").style.border = '2px solid white';
-            document.getElementById("mapBtn").style.color = 'white';
-
-
-
-            document.getElementById("onClickChangeContainer").innerHTML = `   <div>
+        document.getElementById("onClickChangeContainer").innerHTML = `   <div>
     <ul >
         <li class="px-4 py-2 w-[340px] rounded-lg hover:bg-blue-400 hover:text-white cursor-pointer border border-white mx-3 my-2" > <a   href="/tourisom/article/article.html">Article</a></li>
         
@@ -121,21 +124,20 @@
          </li>
     </ul>
    </div>`;
+      }
+      function handleClickMaps() {
+        document.getElementById("mapBtn").style.backgroundColor = "orange";
+        document.getElementById("mapBtn").style.border = "none";
+        document.getElementById("mapBtn").style.color = "black";
 
-        }
-        function handleClickMaps() {
-            document.getElementById("mapBtn").style.backgroundColor = 'orange';
-            document.getElementById("mapBtn").style.border = 'none';
-            document.getElementById("mapBtn").style.color = 'black';
+        document.getElementById("locationBtn").style.backgroundColor = "black";
+        document.getElementById("locationBtn").style.border = "2px solid white";
 
-            document.getElementById("locationBtn").style.backgroundColor = 'black';
-            document.getElementById("locationBtn").style.border = '2px solid white';
-
-            document.getElementById("locationBtn").style.color = 'white';
-            document.getElementById("tourismBtn").style.backgroundColor = 'black';
-            document.getElementById("tourismBtn").style.border = '2px solid white';
-            document.getElementById("tourismBtn").style.color = 'white';
-            document.getElementById("onClickChangeContainer").innerHTML = `   <div>
+        document.getElementById("locationBtn").style.color = "white";
+        document.getElementById("tourismBtn").style.backgroundColor = "black";
+        document.getElementById("tourismBtn").style.border = "2px solid white";
+        document.getElementById("tourismBtn").style.color = "white";
+        document.getElementById("onClickChangeContainer").innerHTML = `   <div>
     <ul >
         <li class="px-4 py-2 w-[340px] rounded-lg hover:bg-blue-400 hover:text-white cursor-pointer border border-white mx-3 my-2" > <a href="./maps/TerrestrialPeaks/TerrestrialPeaks.html">Terrestrial Peaks</a></li>
         <li class="px-4 py-2 w-[340px] rounded-lg hover:bg-blue-400 hover:text-white cursor-pointer border border-white mx-3 my-2"><a href="./maps/Highlands/Highlands.html">Highlands</a></li>
@@ -144,43 +146,58 @@
         
     </ul>
    </div>`;
+      }
 
+      function handleDayConversion() {
+        document.getElementById("pointName").style.display = "none";
+
+        const currentDate = new Date();
+        const currentYear = currentDate.getFullYear();
+        const dayOfYear = Math.floor(
+          (currentDate - new Date(currentYear, 0, 0)) / (24 * 60 * 60 * 1000)
+        );
+
+        // Function to get the ordinal indicator for a number
+        function getOrdinalIndicator(number) {
+          if (number >= 11 && number <= 13) {
+            return "th";
+          }
+          switch (number % 10) {
+            case 1:
+              return "st";
+            case 2:
+              return "nd";
+            case 3:
+              return "rd";
+            default:
+              return "th";
+          }
         }
 
-        function handleDayConversion() {
-            document.getElementById("pointName").style.display = 'none';
+        const monthNames = [
+          "Jan",
+          "Feb",
+          "Mar",
+          "Apr",
+          "May",
+          "Jun",
+          "Jul",
+          "Aug",
+          "Sep",
+          "Oct",
+          "Nov",
+          "Dec",
+        ];
 
-            const currentDate = new Date();
-            const currentYear = currentDate.getFullYear();
-            const dayOfYear = Math.floor((currentDate - new Date(currentYear, 0, 0)) / (24 * 60 * 60 * 1000));
+        const day = currentDate.getDate();
+        const month = monthNames[currentDate.getMonth()];
+        const year = currentYear;
+        const marsDay = parseInt((637 * dayOfYear) / 365);
 
-            // Function to get the ordinal indicator for a number
-            function getOrdinalIndicator(number) {
-                if (number >= 11 && number <= 13) {
-                    return "th";
-                }
-                switch (number % 10) {
-                    case 1: return "st";
-                    case 2: return "nd";
-                    case 3: return "rd";
-                    default: return "th";
-                }
-            }
+        const earthOrdinal = day + getOrdinalIndicator(day);
+        const marsOrdinal = marsDay + getOrdinalIndicator(marsDay);
 
-            const monthNames = [
-                "Jan", "Feb", "Mar", "Apr", "May", "Jun",
-                "Jul", "Aug", "Sep", "Oct", "Nov", "Dec"
-            ];
-
-            const day = currentDate.getDate();
-            const month = monthNames[currentDate.getMonth()];
-            const year = currentYear;
-            const marsDay = parseInt((637 * dayOfYear) / 365);
-
-            const earthOrdinal = day + getOrdinalIndicator(day);
-            const marsOrdinal = marsDay + getOrdinalIndicator(marsDay);
-
-            const output = `
+        const output = `
     <div class="mt-10 px-3 font-mono border border-white rounded-[15px] py-3 ml-20">
         ${month} ${day}${getOrdinalIndicator(day)}, ${year}<br>
         ${dayOfYear}${getOrdinalIndicator(dayOfYear)} day on Earth<br>
@@ -188,22 +205,19 @@
     </div>
 `;
 
-            const formattedOutput = output.replace(/\n/g, '<br>'); // Replace newlines with HTML line breaks
+        const formattedOutput = output.replace(/\n/g, "<br>"); // Replace newlines with HTML line breaks
 
-            // Apply dynamic class to showDateTimeElement
-            const showDateTimeElement = document.getElementById("showDateTime");
-            showDateTimeElement.innerHTML = formattedOutput;
-            showDateTimeElement.classList.add("custom-style"); // Add the custom CSS class
+        // Apply dynamic class to showDateTimeElement
+        const showDateTimeElement = document.getElementById("showDateTime");
+        showDateTimeElement.innerHTML = formattedOutput;
+        showDateTimeElement.classList.add("custom-style"); // Add the custom CSS class
 
-            // Hide showInfoElement
-            const showInfoElement = document.getElementById("showInfo");
-            showInfoElement.style.display = "none";
+        // Hide showInfoElement
+        const showInfoElement = document.getElementById("showInfo");
+        showInfoElement.style.display = "none";
 
-            console.log(dayOfYear);
-        }
-
-
+        console.log(dayOfYear);
+      }
     </script>
-</body>
-
+  </body>
 </html>
