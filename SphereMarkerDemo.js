@@ -115,45 +115,56 @@ function showInfo(point) {
             <li class="px-3 py-2   ">
               <div class="flex font-mono text-xs">
                 <div
-                  class="font-mono  py-2 px-4 bg-orange-500 hover:bg-blue-400 hover:text-white cursor-pointer rounded-lg text-sm font-semibold"
+                  class="font-mono  py-2 px-4  bg-orange-600      hover:bg-gray-500  hover:bg-opacity-30       hover:text-white cursor-pointer rounded-lg text-sm font-semibold"
                   onclick="handleClickLocation()" id="locationBtn">Location</div>
 
                 <div
-                  class="font-mono border-2  py-2 px-4 border-gray-300 hover:bg-blue-400 hover:text-white cursor-pointer mx-3 rounded-lg text-sm font-semibold"
+                  class="font-mono border-2  py-2 px-4  hover:bg-gray-500  hover:bg-opacity-30   hover:text-white cursor-pointer mx-3 rounded-lg text-sm font-semibold"
                   onclick="handleClickTourisom()" id="tourismBtn">
                   Tourisom</div>
                 <div
-                  class=" border-2 py-2 px-4 border-gray-300 hover:bg-blue-400 hover:text-white cursor-pointer rounded-lg text-sm font-semibold"
+                  class=" border-2 py-2 px-4 border-gray-300   hover:bg-gray-500  hover:bg-opacity-30       hover:text-white cursor-pointer rounded-lg text-sm font-semibold"
                   onclick="handleClickMaps()" id="mapBtn">
                   Topography</div>
               </div>
             </li>
             <ul id="onClickChangeContainer">
               <li
-                class="bg-red-400 px-4 py-2 w-[340px] rounded-lg hover:bg-blue-400 hover:text-white cursor-pointer border border-white mx-3 my-2">
-                <a href="">Original Map</a>
+                class=" bg-gray-500  bg-opacity-50  px-4 py-2 w-[340px] rounded-lg   hover:bg-gray-500  hover:bg-opacity-30       hover:text-white cursor-pointer border border-white mx-3 my-2">
+                <a href="./index.html">Original Map</a>
               </li>
-              <li class="px-4 py-2 w-[340px] rounded-lg hover:bg-blue-400 hover:text-white cursor-pointer border border-white mx-3 my-2">
+              <li class="px-4 py-2 w-[340px] rounded-lg   hover:bg-gray-500  hover:bg-opacity-30       hover:text-white cursor-pointer border border-white mx-3 my-2">
                 <a href="./maps/TempMap/TempMap.html">Temp Map</a>
               </li>
-              <li class="px-4 py-2 w-[340px] rounded-lg hover:bg-blue-400 hover:text-white cursor-pointer border border-white mx-3 my-2">
+              <li class="px-4 py-2 w-[340px] rounded-lg   hover:bg-gray-500  hover:bg-opacity-30       hover:text-white cursor-pointer border border-white mx-3 my-2">
                 <a href="./maps/TopographicalMap/TopographicalMap.html">Topographical Map</a>
               </li>
-              <li class="px-4 py-2 w-[340px] rounded-lg hover:bg-blue-400 hover:text-white cursor-pointer border border-white mx-3 my-2">
+              <li class="px-4 py-2 w-[340px] rounded-lg   hover:bg-gray-500  hover:bg-opacity-30       hover:text-white cursor-pointer border border-white mx-3 my-2">
                 <a href="./maps/IceWaterMap/IceWater.html">Water ICE</a>
               </li>
+<<<<<<< HEAD
               <li class="px-4 py-2 w-[340px] rounded-lg hover:bg-blue-400 hover:text-white cursor-pointer border border-white mx-3 my-2">
                 <a href="./maps/RovarMap/RovarMap.html">Rover Map</a>
+=======
+              <li class="px-4 py-2 w-[340px] rounded-lg   hover:bg-gray-500  hover:bg-opacity-30       hover:text-white cursor-pointer border border-white mx-3 my-2">
+                <a href="./maps/roverMap/roverMap.html">Rover Map</a>
+>>>>>>> joy
               </li>
               </li>
               <li class="my-5 ml-3">
                 <a href="./Rover/middle.html"
-                  class="py-[10px] pl-[10px] pr-[295px] rounded-lg hover:bg-blue-400 hover:text-white cursor-pointer border border-white">Rover</a>
+                  class="py-[10px] pl-[10px] pr-[295px] rounded-lg   hover:bg-gray-500  hover:bg-opacity-30       hover:text-white cursor-pointer border border-white">Rover</a>
               </li>
               <li
+<<<<<<< HEAD
                 class="px-4 py-2 rounded-lg w-[340px] hover:bg-blue-400 hover:text-white cursor-pointer border border-white mx-3 my-2"> <a href="./Orbiter/Orbiter.html">Orbiter</a>
                  </li>
               <li class="px-4 w-[340px] rounded-lg py-2 hover:bg-blue-400 hover:text-white cursor-pointer border border-white mx-3 my-2">
+=======
+                class="px-4 py-2 rounded-lg w-[340px]   hover:bg-gray-500  hover:bg-opacity-30  hover:text-white cursor-pointer border border-white mx-3 my-2">
+                Orbiter</li>
+              <li class="px-4 w-[340px] rounded-lg py-2   hover:bg-gray-500  hover:bg-opacity-30       hover:text-white cursor-pointer border border-white mx-3 my-2">
+>>>>>>> joy
                 <a href="./Ingenuity/Ingenuity.html">Ingenuity</a>
               </li>
             </ul>
@@ -168,12 +179,12 @@ function showInfo(point) {
         <div id="new" class="text-[16px] font-mono">
           
           <div class="border border-white py-3 px-4 rounded-[15px] mt-4">
-            <p> Type: ${point.total.type}</p>
-            <p> Location: ${point.total.location}</p>
-            <p> Lat: ${point.total.coordinates.latitude}</p>
-            <p> Lon: ${point.total.coordinates.longitude}</p>
+            <p > <span class="font-bold" >Type: </span> ${point.total.type}</p>
+            <p> <span class="font-bold" >Location: </span> ${point.total.location}</p>
+            <p> <span class="font-bold" > Lat: </span>${point.total.coordinates.latitude}</p>
+            <p> <span class="font-bold" >Lon:</span>  ${point.total.coordinates.longitude}</p>
             <div id="detail" class=" h-[120px] mt-2  mb-3 overflow-y-scroll  custom-scrollbar text-justify">
-              <p> Details: ${point.total.details}</p>
+              <p> <span class="font-bold" >Details: </span> ${point.total.details}</p>
             </div>
           </div>
          
@@ -222,9 +233,8 @@ function showInfo(point) {
                 document.getElementById("new").innerHTML += `<p> ${
                     messages[checkbox.value]
                 }</p>`;
-                document.getElementById("detail").style.display= 'none';
-                document.getElementById("img").style.width= "500px";
-                
+                document.getElementById("detail").style.display = "none";
+                document.getElementById("img").style.width = "500px";
             } else {
                 const text = document.getElementById("new").innerHTML;
                 const value = messages[checkbox.value];
@@ -234,7 +244,7 @@ function showInfo(point) {
                         ""
                     );
                 }
-                document.getElementById("detail").style.display= 'block';
+                document.getElementById("detail").style.display = "block";
             }
         });
     });

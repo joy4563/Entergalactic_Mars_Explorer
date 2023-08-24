@@ -6,11 +6,13 @@ import { MySphere } from "../../SphereMarker.js";
 import { MyCanvas } from "../../MyCanvas.js";
 import { Colors } from "../../Color.js";
 
+let currentTime = new Date();
+
 let scene, camera, renderer;
 const canvas = new MyCanvas(window);
 
 scene = canvas.scene;
-// canvas.setBackgroundEXR("/BackgroundDemo/starmap_2020_4k.exr");
+canvas.setBackgroundEXR("/BackgroundDemo/starmap_2020_4k.exr");
 camera = canvas.camera;
 renderer = canvas.renderer;
 canvas.init(document);
@@ -116,45 +118,45 @@ function showInfo(point) {
             <li class="px-3 py-2   ">
               <div class="flex font-mono text-xs">
                 <div
-                  class="font-mono  py-2 px-4 bg-orange-500 hover:bg-blue-400 hover:text-white cursor-pointer rounded-lg text-sm font-semibold"
+                  class="font-mono  py-2 px-4  bg-orange-600     hover:bg-gray-500  hover:bg-opacity-30       hover:text-white cursor-pointer rounded-lg text-sm font-semibold"
                   onclick="handleClickLocation()" id="locationBtn">Location</div>
 
                 <div
-                  class="font-mono border-2  py-2 px-4 border-gray-300 hover:bg-blue-400 hover:text-white cursor-pointer mx-3 rounded-lg text-sm font-semibold"
+                  class="font-mono border-2  py-2 px-4 border-gray-300   hover:bg-gray-500  hover:bg-opacity-30       hover:text-white cursor-pointer mx-3 rounded-lg text-sm font-semibold"
                   onclick="handleClickTourisom()" id="tourismBtn">
                   Tourisom</div>
                 <div
-                  class=" border-2 py-2 px-4 border-gray-300 hover:bg-blue-400 hover:text-white cursor-pointer rounded-lg text-sm font-semibold"
+                  class=" border-2 py-2 px-4 border-gray-300   hover:bg-gray-500  hover:bg-opacity-30       hover:text-white cursor-pointer rounded-lg text-sm font-semibold"
                   onclick="handleClickMaps()" id="mapBtn">
                   Topography</div>
               </div>
             </li>
             <ul id="onClickChangeContainer">
               <li
-                class=" px-4 py-2 w-[340px] rounded-lg hover:bg-blue-400 hover:text-white cursor-pointer border border-white mx-3 my-2">
-                <a href="">Original Map</a>
+                class=" px-4 py-2 w-[340px] rounded-lg   hover:bg-gray-500  hover:bg-opacity-30       hover:text-white cursor-pointer border border-white mx-3 my-2">
+                <a href="../../index.html">Original Map</a>
               </li>
-              <li class="px-4 py-2 w-[340px] rounded-lg hover:bg-blue-400 hover:text-white cursor-pointer border border-white mx-3 my-2">
+              <li class="px-4 py-2 w-[340px] rounded-lg   hover:bg-gray-500  hover:bg-opacity-30       hover:text-white cursor-pointer border border-white mx-3 my-2">
                 <a href="./maps/TempMap/TempMap.html">Temp Map</a>
               </li>
-              <li class="px-4 py-2 w-[340px] rounded-lg hover:bg-blue-400 hover:text-white cursor-pointer border border-white mx-3 my-2">
+              <li class="px-4 py-2 w-[340px] rounded-lg   hover:bg-gray-500  hover:bg-opacity-30       hover:text-white cursor-pointer border border-white mx-3 my-2">
                 <a href="./maps/TopographicalMap/TopographicalMap.html">Topographical Map</a>
               </li>
-              <li class="px-4 py-2 w-[340px] rounded-lg hover:bg-blue-400 hover:text-white cursor-pointer border border-white mx-3 my-2">
+              <li class="px-4 py-2 w-[340px] rounded-lg   hover:bg-gray-500  hover:bg-opacity-30       hover:text-white cursor-pointer border border-white mx-3 my-2">
                 <a href="./maps/IceWaterMap/IceWater.html">Water ICE</a>
               </li>
-              <li class="px-4 py-2 w-[340px] rounded-lg hover:bg-blue-400 hover:text-white cursor-pointer border border-white mx-3 my-2 bg-red-400">
+              <li class="px-4 py-2 w-[340px] rounded-lg   hover:bg-gray-500  hover:bg-opacity-30       hover:text-white cursor-pointer border border-white mx-3 my-2  bg-gray-500  bg-opacity-50 ">
                 <a href="./maps/roverMap/roverMap.html">Rover Map</a>
               </li>
               </li>
               <li class="my-5 ml-3">
                 <a href="./Rover/middle.html"
-                  class="py-[10px] pl-[10px] pr-[295px] rounded-lg hover:bg-blue-400 hover:text-white cursor-pointer border border-white">Rover</a>
+                  class="py-[10px] pl-[10px] pr-[295px] rounded-lg   hover:bg-gray-500  hover:bg-opacity-30       hover:text-white cursor-pointer border border-white">Rover</a>
               </li>
               <li
-                class="px-4 py-2 rounded-lg w-[340px] hover:bg-blue-400 hover:text-white cursor-pointer border border-white mx-3 my-2">
+                class="px-4 py-2 rounded-lg w-[340px]   hover:bg-gray-500  hover:bg-opacity-30       hover:text-white cursor-pointer border border-white mx-3 my-2">
                 Orbiter</li>
-              <li class="px-4 w-[340px] rounded-lg py-2 hover:bg-blue-400 hover:text-white cursor-pointer border border-white mx-3 my-2">
+              <li class="px-4 w-[340px] rounded-lg py-2   hover:bg-gray-500  hover:bg-opacity-30       hover:text-white cursor-pointer border border-white mx-3 my-2">
                 <a href="./Ingenuity/Ingenuity.html">Ingenuity</a>
               </li>
             </ul>
@@ -162,24 +164,71 @@ function showInfo(point) {
 
 
         </div>
-        <div class="ml-[18vw] w-[400px] text-3xl text-center font-mono font-bold mt-5" id="pointName"> ${point.name}</div>
+        <div class="ml-[18vw] w-[400px] text-3xl text-center font-mono font-bold my-5" id="pointName"> <span>${
+            point.name
+        }</span> <br><span>  <span>${
+        point.name == "Curiosity" ? "3928 : " : ""
+    }</span>
+         <span>${point.name == "Ingenuity" ? "892 : " : ""}</span>
+         <span>${point.name == "Perseverance" ? "892 : " : ""}</span>
+     <span>${
+         point.total.CurrentStatus == "active"
+             ? (currentTime.getHours() < 10 ? "0" : "") +
+               ((currentTime.getMinutes() + 35) % 60 == 0
+                   ? currentTime.getHours() + 1
+                   : currentTime.getHours()) +
+               " :"
+             : "Dead"
+     }</span> 
+    <span>${
+        point.total.CurrentStatus == "active"
+            ? (currentTime.getMinutes() < 10 ? "0" : "") +
+              ((currentTime.getMinutes() + 35) % 60) +
+              " : "
+            : ""
+    }</span>
+     <span>${
+         point.total.CurrentStatus == "active"
+             ? (currentTime.getSeconds() < 10 ? "0" : "") +
+               currentTime.getSeconds()
+             : ""
+     }</span> </span>
+     <br>
+     <span class="text-lg">${
+         point.total.CurrentStatus == "active" ? "Sols : Hrs : Mins : Secs" : ""
+     } </span>
+      </div>
+
+        
+        
+            
       </div>
       <div class="" id="showDateTime"></div>
       <div class="col-start-8 col-end-12 max-w-[400px] mt-10 pr-10" id="showInfo">
         <div id="new" class="text-[16px] font-mono">
           
           <div class="border border-white py-3 px-4 rounded-[15px] mt-4">
-            <p> Type: ${point.total.type}</p>
-            <p> Location: ${point.total.location}</p>
-            <p> Total Working Days: ${point.total.TotalWorkingDays}</p>
-            <p> Current Status: ${point.total.CurrentStatus}</p>
+            <p> <span class="font-bold" >Type: </span>${point.total.type}</p>
+            <p> <span class="font-bold" >Location: </span>${
+                point.total.location
+            }</p>
+            <p> <span class="font-bold" >Total Working Days: </span>${
+                point.total.TotalWorkingDays
+            }</p>
+            <p> <span class="font-bold" >Current Status: </span>${
+                point.total.CurrentStatus
+            }</p>
             <div id="detail" class=" h-[120px] mt-2  mb-3 overflow-y-scroll  custom-scrollbar text-justify">
-              <p> Details: ${point.total.details}</p>
+              <p> <span class="font-bold" >Details: </span>${
+                  point.total.details
+              }</p>
             </div>
           </div>
          
           <div class="custom-scrollbar border flex w-[357px] -ml-[2px] border-white p-3       rounded-[15px] m-4 h-[200px] text-center py-3 overflow-x-scroll  custom-scrollbar">
-          <img src="${point.total.photo}" class="w-[380px] h-[180px] rounded-[15px]" />
+          <img src="${
+              point.total.photo
+          }" class="w-[380px] h-[180px] rounded-[15px]" />
               </div>
 
             </div>

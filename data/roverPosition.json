@@ -1,3 +1,4 @@
+
 [
     {
       "id": 1,
@@ -81,7 +82,7 @@
       "name": "Ingenuity",
       "location": "Jezero Crater",
       "TotalWorkingDays": "Apr 19, 2021 - Current",
-      "CurrentStatus": "Flying",
+      "CurrentStatus": "active",
       "details": "Ingenuity is a small helicopter carried by NASA's Perseverance rover to Mars. It marked the first successful powered flight on another planet in April 2021. Weighing just 4 pounds (1.8 kg), Ingenuity demonstrated controlled flight in Mars' thin atmosphere. Its flights provide valuable aerial imagery, aiding Perseverance's mission by scouting terrain and expanding our capabilities for future planetary exploration.",
       "coordinates": {
         "latitude": 77.35,
