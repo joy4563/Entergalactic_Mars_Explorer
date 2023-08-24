@@ -9,9 +9,29 @@
     <!-- Include Alpine.js -->
     <script src="https://cdn.jsdelivr.net/npm/alpinejs@2.8.2/dist/alpine.min.js" defer></script>
     <title>Mars Demo</title>
+    <style>
+        /* Custom scrollbar */
+        .custom-scrollbar::-webkit-scrollbar {
+            display: none;
+        }
+
+        .custom-scrollbar::-webkit-scrollbar-track {
+            background: #f1f1f1;
+        }
+
+        .custom-scrollbar::-webkit-scrollbar-thumb {
+            background-color: #888;
+            border-radius: 4px;
+        }
+
+        .custom-scrollbar::-webkit-scrollbar-thumb:hover {
+            background-color: #555;
+        }
+
+      </style>
 </head>
 
-<body class="max-w-screen max-h-[100vh] overflow-hidden">
+<body class="max-w-screen max-h-[100vh] overflow-hidden font-mono">
     <!-- <script type="module" src="./js/handleClick.js"></script> -->
     <script type="module" src="./TempMap.js"></script>
     <!-- <script type="module" src="test/main.js"></script> -->
@@ -20,56 +40,95 @@
     <script>
         // import f from '../IceWaterMap/IceWater.html'
         function handleClickLocation() {
+            document.getElementById("locationBtn").style.backgroundColor = 'orange';
+            document.getElementById("locationBtn").style.border = 'none';
+            document.getElementById("locationBtn").style.color = 'black';
+
+            document.getElementById("tourismBtn").style.backgroundColor = 'black';
+            document.getElementById("tourismBtn").style.border = '2px solid white';
+            document.getElementById("tourismBtn").style.color = 'white';
+
+            document.getElementById("mapBtn").style.backgroundColor = 'black';
+            document.getElementById("mapBtn").style.border = '2px solid white';
+            document.getElementById("mapBtn").style.color = 'white';
             document.getElementById("onClickChangeContainer").innerHTML = `<ul id="onClickChangeContainer">
-                        <li
-                            class="bg-red-400 px-4 py-2 hover:bg-blue-400 hover:text-white cursor-pointer border border-white mx-3 my-2">
-                            <a href="">Temp Map</a></li>
-                        <li
-                            class="px-4 py-2 hover:bg-blue-400 hover:text-white cursor-pointer border border-white mx-3 my-2">
+               
+               
+                <li
+              class="px-4 py-2 rounded-lg w-[320px] hover:bg-blue-400 hover:text-white cursor-pointer border border-white mx-3 my-2">
                             <a href="../../index.html">Original Map</a></li>
+                <li
+                class="bg-red-400 px-4 py-2 rounded-lg w-[320px] hover:bg-blue-400 hover:text-white cursor-pointer border border-white mx-3 my-2"
+            >
+                            <a href="">Temp Map</a></li>
+                       
                         <li
-                            class="px-4 py-2 hover:bg-blue-400 hover:text-white cursor-pointer border border-white mx-3 my-2">
+                        class="px-4 py-2 rounded-lg w-[320px] hover:bg-blue-400 hover:text-white cursor-pointer border border-white mx-3 my-2"
+                            >
                             <a href="../TopographicalMap/TopographicalMap.html">Topographical Map</a></li>
                         <li
-                            class="px-4 py-2 hover:bg-blue-400 hover:text-white cursor-pointer border border-white mx-3 my-2">
+                        class="px-4 py-2 rounded-lg w-[320px] hover:bg-blue-400 hover:text-white cursor-pointer border border-white mx-3 my-2">
                             <a href="../IceWaterMap/IceWater.html">Water ICE</a></li>
                         <li
-                            class="px-4 py-2 hover:bg-blue-400 hover:text-white cursor-pointer border border-white mx-3 my-2">
+                            class="px-4 py-2 hover:bg-blue-400 w-[320px] rounded-lg hover:text-white cursor-pointer border border-white mx-3 my-2">
                             <a href="./maps/TopographicalMap/TopographicalMap.html">Rover Map</a></li>
                         <li
-                            class="px-4 py-2 hover:bg-blue-400 hover:text-white cursor-pointer border border-white mx-3 my-2">
+                        class="px-4 py-2 rounded-lg w-[320px] hover:bg-blue-400 hover:text-white cursor-pointer border border-white mx-3 my-2">
                             <a href="./Rover/rover.html">Rover</a></li>
                         <li
-                            class="px-4 py-2 hover:bg-blue-400 hover:text-white cursor-pointer border border-white mx-3 my-2">
+                        class="px-4 py-2 rounded-lg w-[320px] hover:bg-blue-400 hover:text-white cursor-pointer border border-white mx-3 my-2">
                             Orbiter</li>
                         <li
-                            class="px-4 py-2 hover:bg-blue-400 hover:text-white cursor-pointer border border-white mx-3 my-2">
+                        class="px-4 py-2 rounded-lg w-[320px] hover:bg-blue-400 hover:text-white cursor-pointer border border-white mx-3 my-2">
                             <a href="../../Ingenuity/Ingenuity.html">Ingenuity</a></li>
                         </ul>`;
 
         }
 
         function handleClickTourisom() {
+            document.getElementById("tourismBtn").style.backgroundColor = 'orange';
+            document.getElementById("tourismBtn").style.border = 'none';
+            document.getElementById("tourismBtn").style.color = 'black';
+
+            document.getElementById("locationBtn").style.backgroundColor = 'black';
+            document.getElementById("locationBtn").style.border = '2px solid white';
+            document.getElementById("locationBtn").style.color = 'white';
+
+            document.getElementById("mapBtn").style.backgroundColor = 'black';
+            document.getElementById("mapBtn").style.border = '2px solid white';
+            document.getElementById("mapBtn").style.color = 'white';
+
             document.getElementById("onClickChangeContainer").innerHTML = `   <div>
     <ul >
-        <li class="px-4 py-2 hover:bg-blue-400 hover:text-white cursor-pointer border border-white mx-3 my-2 ">Top 10 Place to visit</li>
-        <li class="px-4 py-2 hover:bg-blue-400 hover:text-white cursor-pointer border border-white mx-3 my-2 ">Biggest Storms</li>
-        <li class="px-4 py-2 hover:bg-blue-400 hover:text-white cursor-pointer border border-white mx-3 my-2 " onclick="handleDayConversion()">Day Conversion</li>
-        <li class="px-4 py-2 hover:bg-blue-400 hover:text-white cursor-pointer border border-white mx-3 my-2 ">Mars Today</li>
-        <li class="px-4 py-2 hover:bg-blue-400 hover:text-white cursor-pointer border border-white mx-3 my-2 ">Curious Facts</li>
-        <li class="px-4 py-2 hover:bg-blue-400 hover:text-white cursor-pointer border border-white mx-3 my-2 "><a href="./pictureOfTheDay/pictureOfTheDay.html">Picture Of the Day</a></li>
+        <li  class="px-4 py-2 rounded-lg w-[340px] hover:bg-blue-400 hover:text-white cursor-pointer border border-white mx-3 my-2">Top 10 Place to visit</li>
+        <li  class="px-4 py-2 rounded-lg w-[340px] hover:bg-blue-400 hover:text-white cursor-pointer border border-white mx-3 my-2">Biggest Storms</li>
+        <li  class="px-4 py-2 rounded-lg w-[340px] hover:bg-blue-400 hover:text-white cursor-pointer border border-white mx-3 my-2" onclick="handleDayConversion()">Day Conversion</li>
+        <li  class="px-4 py-2 rounded-lg w-[340px] hover:bg-blue-400 hover:text-white cursor-pointer border border-white mx-3 my-2">Mars Today</li>
+        <li  class="px-4 py-2 rounded-lg w-[340px] hover:bg-blue-400 hover:text-white cursor-pointer border border-white mx-3 my-2">Curious Facts</li>
+        <li  class="px-4 py-2 rounded-lg w-[340px] hover:bg-blue-400 hover:text-white cursor-pointer border border-white mx-3 my-2"><a href="./pictureOfTheDay/pictureOfTheDay.html">Picture Of the Day</a></li>
     </ul>
    </div>`;
 
         }
 
         function handleClickMaps() {
+            document.getElementById("mapBtn").style.backgroundColor = 'orange';
+            document.getElementById("mapBtn").style.border = 'none';
+            document.getElementById("mapBtn").style.color = 'black';
+
+            document.getElementById("locationBtn").style.backgroundColor = 'black';
+            document.getElementById("locationBtn").style.border = '2px solid white';
+
+            document.getElementById("locationBtn").style.color = 'white';
+            document.getElementById("tourismBtn").style.backgroundColor = 'black';
+            document.getElementById("tourismBtn").style.border = '2px solid white';
+            document.getElementById("tourismBtn").style.color = 'white';
             document.getElementById("onClickChangeContainer").innerHTML = `   <div>
     <ul >
-        <li class="px-4 py-2 hover:bg-blue-400 hover:text-white cursor-pointer border border-white mx-3 my-2 " > <a href="./maps/TerrestrialPeaks/TerrestrialPeaks.html">Terrestrial Peaks</a></li>
-        <li class="px-4 py-2 hover:bg-blue-400 hover:text-white cursor-pointer border border-white mx-3 my-2 ">Highlands</li>
-        <li class="px-4 py-2 hover:bg-blue-400 hover:text-white cursor-pointer border border-white mx-3 my-2 ">Unique Surface Textures</li>
-        <li class="px-4 py-2 hover:bg-blue-400 hover:text-white cursor-pointer border border-white mx-3 my-2 ">Enigmatic Features</li>
+        <li c class="px-4 py-2 rounded-lg w-[340px] hover:bg-blue-400 hover:text-white cursor-pointer border border-white mx-3 my-2" > <a href="./maps/TerrestrialPeaks/TerrestrialPeaks.html">Terrestrial Peaks</a></li>
+        <li  class="px-4 py-2 rounded-lg w-[340px] hover:bg-blue-400 hover:text-white cursor-pointer border border-white mx-3 my-2">Highlands</li>
+        <li  class="px-4 py-2 rounded-lg w-[340px] hover:bg-blue-400 hover:text-white cursor-pointer border border-white mx-3 my-2">Unique Surface Textures</li>
+        <li  class="px-4 py-2 rounded-lg w-[340px] hover:bg-blue-400 hover:text-white cursor-pointer border border-white mx-3 my-2">Enigmatic Features</li>
         
     </ul>
    </div>`;
