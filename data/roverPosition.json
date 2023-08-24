@@ -58,7 +58,7 @@
     },
     {
       "id": 4,
-      "type": "Canyon",
+      "type": "Rover",
       "name": "Opportunity",
       "location": "Meridiani Planum",
       "TotalWorkingDays": "2014 - Jun 10, 2018",
