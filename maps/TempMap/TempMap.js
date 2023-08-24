@@ -137,10 +137,10 @@ function showInfo(point) {
                 <a href="./maps/TempMap/TempMap.html">Temp Map</a>
               </li>
               <li class="py-2 pl-4 w-[340px] rounded-lg hover:bg-blue-400 hover:text-white cursor-pointer border border-white mx-3 my-2">
-                <a href="./maps/TopographicalMap/TopographicalMap.html">Topographical Map</a>
+                <a href="../../maps/TopographicalMap/TopographicalMap.html">Topographical Map</a>
               </li>
               <li class="px-4 py-2 w-[340px] rounded-lg hover:bg-blue-400 hover:text-white cursor-pointer border border-white mx-3 my-2">
-                <a href="./maps/IceWaterMap/IceWater.html">Water ICE</a>
+                <a href="../../maps/IceWaterMap/IceWater.html">Water ICE</a>
               </li>
               <li class="px-4 py-2 w-[340px] hover:bg-blue-400 hover:text-white cursor-pointer border border-white mx-3 my-2">
                 <a href="./maps/TopographicalMap/TopographicalMap.html">Rover Map</a>
@@ -176,12 +176,12 @@ function showInfo(point) {
               <p> Details: ${point.total.details}</p>
             </div>
           </div>
-                <div class=" border w-[357px] -ml-[2px] border-white p-[10px] rounded-[25px] m-4 h-[200px] text-center px-[70px]  py-[20px]">
+          <div class="custom-scrollbar border flex w-[357px] -ml-[2px] border-white p-3 rounded-[15px] m-4 h-[200px] text-center py-3 overflow-x-scroll  custom-scrollbar">
+          <img src=" ${point.total.photo1}" alt="" class="w-[350px] h-[185] mr-2"/>
+          <img src=" ${point.total.photo2}"  alt=""  class="w-[350px] h-[185] mr-2"/>
+          <img src=" ${point.total.photo3}"  alt=""  class="w-[350px] h-[185] mr-2"/>
+          </div>
 
-               
-                <img id="img" src=${point.total.photo1} alt="alt image" style="width:170px; height:140px" >
-                </div>
-               
                 
                 
                 
