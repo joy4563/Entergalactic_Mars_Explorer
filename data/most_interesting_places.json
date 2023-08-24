@@ -1,597 +1,583 @@
 [
-  {
-    "id": 1,
-    "type": "Volcano",
-    "name": "Olympus Mons",
-    "topographicalgroup": "TerrestrialPeaks",
-    "location": "Tharsis",
-    "details": "Unveil the marvel of Olympus Mons, Mars' colossal volcano and second-highest peak. Soaring to 21.9 km (13.6 mi or 72,000 ft), it dwarfs Mount Everest. Forged in the Hesperian Period, its form was sculpted by Amazonian eruptions. Eclipsing Mars' datum by 21 km (13 mi), it extends an invitation to daring explorers. Embark on an otherworldly journey, unveiling the universe's wonders etched upon its fiery terrain.",
-    "coordinates": {
-      "latitude": 18.65,
-      "longitude": 226.2
+    {
+        "id": 1,
+        "type": "Volcano",
+        "name": "Olympus Mons",
+        "topographicalgroup": "TerrestrialPeaks",
+        "location": "Tharsis",
+        "details": "Unveil the marvel of Olympus Mons, Mars' colossal volcano and second-highest peak. Soaring to 21.9 km (13.6 mi or 72,000 ft), it dwarfs Mount Everest. Forged in the Hesperian Period, its form was sculpted by Amazonian eruptions. Eclipsing Mars' datum by 21 km (13 mi), it extends an invitation to daring explorers. Embark on an otherworldly journey, unveiling the universe's wonders etched upon its fiery terrain.",
+        "coordinates": {
+            "latitude": 18.65,
+            "longitude": 226.2
+        },
+        "coordinatesForShow": {
+            "latitude": "18°39°N",
+            "longitude": "226°12°E"
+        },
+
+        "photo1": "https://i.ibb.co/BqvxSfJ/Olympus2.webp",
+        "photo2": "https://i.ibb.co/BrHfNsm/Olympus4.webp",
+        "photo3": "https://i.ibb.co/mGnFPPd/Olympus1.jpg"
     },
-    "coordinatesForShow": {
-      "latitude": "18°39°N",
-      "longitude": "226°12°E"
+    {
+        "id": 2,
+        "type": "Canyon",
+        "name": "Valles Marineris",
+        "topographicalgroup": "UniqueSurfaceTextures",
+        "location": "Western hemisphere",
+        "details": "Valles Marineris, a captivating wonder, reigns as the Solar System's largest canyon. Carved on Mars, this colossal chasm stretches thousands of miles, plunging 4 miles deep. It lies along the equator, adorning the east side of Tharsis Bulge. Its grandeur encircles nearly a quarter of Mars' circumference.",
+        "coordinates": {
+            "latitude": -13.9,
+            "longitude": -59.2
+        },
+        "coordinatesForShow": {
+            "latitude": "13.9°S",
+            "longitude": "59.2°W"
+        },
+
+        "photo1": "https://i.ibb.co/r3BvqNS/1600px-016vallesmarineris.jpg",
+        "photo2": "https://i.ibb.co/F5f1PCY/Mars-Valles-Marineris.jpg",
+        "photo3": "https://i.ibb.co/fM6Tkcz/Valles-Marineris-NASA-World-Wind-map-Mars.jpg"
+    },
+    {
+        "id": 3,
+        "type": "Crater",
+        "topographicalgroup": "TerrestrialPeaks",
+        "name": "Hellas Planitia",
+        "location": "Northern hemisphere",
+        "details": "Hellas, the largest impact crater on Mars, stands as a marvel in the Solar System. Ranking as the third- or fourth-largest known impact crater. It astounds with its dimensions. Its basin floor plummets to a staggering depth of 7,152 m (23,465 ft), surpassing even the Moon's South Pole-Aitken basin by 3,000 m (9,800 ft). This colossal basin spans about 2,300 km (1,400 mi) from east to west, showcasing the grandeur of Mars' geological history.",
+        "coordinates": {
+            "latitude": -42.4,
+            "longitude": 70.5
+        },
+        "coordinatesForShow": {
+            "latitude": "42.4°S",
+            "longitude": "70.5°E"
+        },
+
+        "photo1": "https://i.ibb.co/zVq3Bgp/520px-Hellas-MOLA-zoom-64-medium.jpg",
+        "photo2": "https://i.ibb.co/fDHsx8Z/520px-Hellas-Planitia-by-the-Viking-orbiters.jpg",
+        "photo3": "https://i.ibb.co/yNqcKN1/maxresdefault.jpg"
+    },
+    {
+        "id": 4,
+        "type": "Crater",
+        "name": "Argyre Planitia",
+        "topographicalgroup": "TerrestrialPeaks",
+        "location": "Southern hemisphere",
+        "details": "Argyre, the second-largest impact crater on Mars, is steeped in mythology. Its name derives from Greek legend, referencing Argyre, the mythical silver island. Tracing its origins back to Giovanni Schiaparelli's 1877 map, Argyre boasts captivating dimensions. With an expansive width of about 1,800 km (1,100 mi), it plunges a remarkable 5.2 km (17,000 ft) beneath the encircling plains. Notably, it secures the distinction of Mars' second deepest impact basin, following Hellas.",
+        "coordinates": {
+            "latitude": -49.7,
+            "longitude": 316.0
+        },
+        "coordinatesForShow": {
+            "latitude": "49.7°S",
+            "longitude": "316.0°E"
+        },
+
+        "photo1": "https://i.ibb.co/4WGWvvX/965px-Mars-atmosphere.jpg",
+        "photo2": "https://i.ibb.co/VWVm1PC/Gullies-in-the-southern-highlands-of-Mars.jpg",
+        "photo3": "https://i.ibb.co/KyMq9Y3/854px-Argyre-MOLA-zoom-64.jpg"
+    },
+    {
+        "id": 5,
+        "type": "Crater",
+        "name": "Isidis Planitia",
+        "topographicalgroup": "TerrestrialPeaks",
+        "location": "Northern hemisphere",
+        "details": "Isidis Planitia, a vast plain nestled within a colossal impact basin on Mars, spans the Syrtis Major and Amenthes quadrangles. This expansive plain boasts an impressive diameter of about 1,500 km (930 mi), securing its place as the third-largest prominent impact feature on Mars. Surpassed only by the grandeur of the Hellas and Argyre basins, Isidis Planitia stands as a testament to the planet's geological history.",
+        "coordinates": {
+            "latitude": 12.9,
+            "longitude": 87.0
+        },
+        "coordinatesForShow": {
+            "latitude": "12.9°N",
+            "longitude": "87.0°E"
+        },
+
+        "photo1": "https://i.ibb.co/KWq3Mfw/jpeg-PIA03087-width-1024.jpg",
+        "photo2": "https://i.ibb.co/KLmHkYh/Syrtis-Isidis-zoom-64-pano.jpg",
+        "photo3": "https://i.ibb.co/t3h5LFX/500px-Isidis-basin-topo.jpg"
+    },
+    {
+        "id": 6,
+        "type": "Mountain",
+        "name": "Ascraeus Mons",
+        "topographicalgroup": "TerrestrialPeaks",
+        "location": "Tharsis",
+        "details": "Ascraeus Mons, the second-highest volcano on Mars, unveils its majesty. Originally named North Spot, its identity was masked in 1971 by a planet-spanning dust storm. During this tempest, only four surface spots were visible, with Ascraeus Mons being the northernmost. As the dust settled, the truth emerged — these spots were colossal volcanoes. Their summits had risen above the dust-filled lower atmosphere. Ascraeus Mons, a volcanic titan, stands as a testament to the ever-unfolding mysteries of the Red Planet.",
+        "coordinates": {
+            "latitude": 11.92,
+            "longitude": 255.92
+        },
+        "coordinatesForShow": {
+            "latitude": "11.92°N",
+            "longitude": "255.92°E"
+        },
+
+        "photo1": "https://i.ibb.co/JjGLgwD/Ascraeus-Mons-Flank-Terraces.jpg",
+        "photo2": "https://i.ibb.co/gSdgfnQ/Ascraeus-mons-topo.jpg",
+        "photo3": "https://i.ibb.co/GkvgXJL/Ascraeus-Mons.png"
+    },
+    {
+        "id": 7,
+        "type": "Mountain",
+        "name": "Pavonis Mons",
+        "topographicalgroup": "TerrestrialPeaks",
+        "location": "Tharsis",
+        "details": "Third-highest volcano on Mars. It is the middle member of a chain of three volcanic mountains collectively known as the Tharsis Montes. Pavonis Mons is the smallest of the Tharsis Montes volcanoes, measuring about 375 km across and standing 14 km above Mars' mean surface level. As a shield volcano, Pavonis Mons has an extremely low profile with flank slopes that average only 4°.",
+        "coordinates": {
+            "latitude": 1.48,
+            "longitude": 247.04
+        },
+        "coordinatesForShow": {
+            "latitude": "1.48°N",
+            "longitude": "247.04°E"
+        },
+
+        "photo1": "https://i.ibb.co/Xps3mYx/Pavoniscaldeira.jpg",
+        "photo2": "https://i.ibb.co/fGsCgPK/480px-Pavonis-Mons-THEMIS-day-IR-100m-v11-0-5.jpg",
+        "photo3": "https://i.ibb.co/W58zdmB/Pavonis-mons-topo.jpg"
+    },
+    {
+        "id": 8,
+        "type": "Mountain",
+        "name": "Arsia Mons",
+        "topographicalgroup": "TerrestrialPeaks",
+        "location": "Tharsis",
+        "details": "Arsia Mons, the fourth-highest volcano on Mars, holds its place of honor. Its name finds roots in Giovanni Schiaparelli's map, inspired by the legendary Roman forest Arsia Silva. Formerly named Nodus Gordii, this geological gem underwent a renaming, shedding its historical moniker. A celestial wonder, Arsia Mons stands tall, showcasing the mysteries etched into the Martian landscape.",
+        "coordinates": {
+            "latitude": -8.35,
+            "longitude": -120.09
+        },
+        "coordinatesForShow": {
+            "latitude": "8.35°S",
+            "longitude": "120.09°W"
+        },
+
+        "photo1": "https://i.ibb.co/ngrLYGJ/380px-PIA13540-Layers-in-Martian-volcano-Arsia-Mons.jpg",
+        "photo2": "https://i.ibb.co/hRbhDDS/440px-Arsia-Mons-mosaic.jpg",
+        "photo3": "https://i.ibb.co/my3b79F/Arsia-Mons-PIA02804.jpg"
+    },
+    {
+        "id": 9,
+        "type": "Planitia",
+        "name": "Acidalia Planitia",
+        "topographicalgroup": "EnigmaticFeatures",
+        "location": "Northern hemisphere",
+        "details": "Acidalia Planitia graces Mars' canvas, a sprawling plain residing between the Tharsis volcanic expanse and the northern reaches of Arabia Terra. Proudly embracing its status as Mars' largest lowland expanse, Acidalia Planitia unfolds a captivating Martian terrain. Notably, it cradles the renowned Cydonia region, a famed contact point where it meets the intricately sculpted, heavily cratered highland terrain.",
+        "coordinates": {
+            "latitude": 49.76,
+            "longitude": 339.26
+        },
+        "coordinatesForShow": {
+            "latitude": "49.76°N",
+            "longitude": "339.26°E"
+        },
+        "photo1": "https://i.ibb.co/1nnwbYC/878px-Possible-mud-volcano-on-Acidalia-Planitia-by-Hi-RISE.jpg",
+        "photo2": "https://i.ibb.co/G7BGqGN/1280px-24951gullyclose.jpg",
+        "photo3": "https://i.ibb.co/1dVp5S3/520px-Acidalia-planitia-topo.jpg"
     },
 
-    "photo1": "https://i.ibb.co/BqvxSfJ/Olympus2.webp",
-    "photo2": "https://i.ibb.co/BrHfNsm/Olympus4.webp",
-    "photo3": "https://i.ibb.co/mGnFPPd/Olympus1.jpg"
-  },
-  {
-    "id": 2,
-    "type": "Canyon",
-    "name": "Valles Marineris",
-    "topographicalgroup": "UniqueSurfaceTextures",
-    "location": "Western hemisphere",
-    "details": "Valles Marineris, a captivating wonder, reigns as the Solar System's largest canyon. Carved on Mars, this colossal chasm stretches thousands of miles, plunging 4 miles deep. It lies along the equator, adorning the east side of Tharsis Bulge. Its grandeur encircles nearly a quarter of Mars' circumference.",
-    "coordinates": {
-      "latitude": -13.9,
-      "longitude": -59.2
+    {
+        "id": 10,
+        "type": "Crater",
+        "name": "Gale Crater",
+        "topographicalgroup": "TerrestrialPeaks",
+        "location": "Arabia Terra",
+        "details": "Aeolis Palus, the rover Curiosity's home, is likely a desiccated lakebed. Expansive at 154 km (96 mi) in diameter, this ancient basin boasts an age of 3.5 to 3.8 billion years. At its heart stands Mount Sharp, an impressive elevation soaring 5.5 km (18,000 ft) high. Marking a pivotal moment, NASA's Mars Science Laboratory mission's Curiosity rover touched down on August 6, 2012, at 05:32 UTC within \"Yellowknife\" Quad 51 of Aeolis Palus in Gale.",
+        "coordinates": {
+            "latitude": -5.4,
+            "longitude": 137.8
+        },
+        "coordinatesForShow": {
+            "latitude": "21°N",
+            "longitude": "6°E"
+        },
+        "photo1": "https://i.ibb.co/KGzLKQJ/1600px-PIA19912-Mars-Curiosity-Rover-Mount-Sharp-20151002.jpg",
+        "photo2": "https://i.ibb.co/pJfPBm7/Mars-Curiosity-Rover-Ancient-Lake-Estimated-Size.jpg",
+        "photo3": "https://i.ibb.co/b1vMrLh/400px-Topographic-Map-of-Gale-Crater.jpg"
     },
-    "coordinatesForShow": {
-      "latitude": "13.9°S",
-      "longitude": "59.2°W"
+    {
+        "id": 11,
+        "type": "Crater",
+        "name": "Jezero Crater",
+        "topographicalgroup": "TerrestrialPeaks",
+        "location": "Isidis Planitia",
+        "details": "Jezero Crater's tale unravels through cycles of water across eons. More than 3.5 billion years ago, rivers carved channels that birthed a lake, ferrying clay minerals. These hold potential keys to deciphering Mars' ancient life. Nestled in the Syrtis Major quadrangle, the crater spans 45.0 km (28.0 mi). It now hosts Perseverance rover, uncovering its mysteries. Once potentially submerged, it cradles a clay-rich fan-delta deposit. Interestingly, 'jezero' means 'lake' in some Slavic languages. Come November 2018, Jezero stood chosen as the landing site for NASA's Mars 2020 mission's Perseverance rover.",
+        "coordinates": {
+            "latitude": 18.38,
+            "longitude": 77.58
+        },
+        "coordinatesForShow": {
+            "latitude": "18.38°N",
+            "longitude": "77.58°E"
+        },
+
+        "photo1": "https://i.ibb.co/D88mDj1/jezero-overview.jpg",
+        "photo2": "https://i.ibb.co/SXy3Q80/Mastcam-Z-s-First-360-Degree-Panorama.jpg",
+        "photo3": "https://i.ibb.co/3SPZz59/jezero-site.jpg"
+    },
+    {
+        "id": 12,
+        "type": "Volcano",
+        "name": "Elysium Mons",
+        "topographicalgroup": "TerrestrialPeaks",
+        "location": "Elysium Planitia",
+        "details": "Olympus Mons reigns as Mars' largest northern hemisphere volcano. Towering approximately 12.6 km (41,000 ft) from its base, it reaches a staggering 14.1 km (46,000 ft) above the Martian datum. This makes it Mars' third tallest mountain in terms of relief and the fourth highest in elevation. With a diameter spanning about 240 km (150 mi), its summit caldera spans 14 km (8.7 mi) across, unveiling a world of geological wonders.",
+        "coordinates": {
+            "latitude": 25.02,
+            "longitude": 147.21
+        },
+        "coordinatesForShow": {
+            "latitude": "25.02°N",
+            "longitude": "147.21°E"
+        },
+
+        "photo1": "https://i.ibb.co/hHzZQyf/380px-Elysium-Mons-541-A44-541-A46.jpg",
+        "photo2": "https://i.ibb.co/5kkpVf0/400px-Elysium-Mons-THEMIS.jpg",
+        "photo3": "https://i.ibb.co/pRjSTFz/360px-MOLA-elysium-mons.jpg"
+    },
+    {
+        "id": 13,
+        "type": "Volcano",
+        "name": "Syrtis Major",
+        "topographicalgroup": "TerrestrialPeaks",
+        "location": "Syrtis Major Planum",
+        "details": "Syrtis Major Planum stands as a distinct \"dark spot,\" nestled at the border of Mars' northern lowlands and southern highlands. Positioned just west of the Isidis impact basin within the Syrtis Major quadrangle, it captivates with its unique features. Notably, it secures the status of the southern hemisphere's second-largest volcano on Mars, distinguished by its prominent summit caldera, a testament to the planet's fascinating geological history.",
+        "coordinates": {
+            "latitude": 8.4,
+            "longitude": 69.5
+        },
+        "coordinatesForShow": {
+            "latitude": "8.4°N",
+            "longitude": "69.5°E"
+        },
+        "photo1": "https://i.ibb.co/C8R3CWm/460px-Syrtis-Major-MC-13.jpg",
+        "photo2": "https://i.ibb.co/r65wdQW/600px-Syrtis-Isidis-zoom-64-pano.jpg",
+        "photo3": "https://i.ibb.co/T0b0CTK/472px-Nili-Meroe-paterae-THEMIS-day-IR-100m-v11.jpg"
+    },
+    {
+        "id": 14,
+        "type": "Dunes",
+        "name": "Olympia Undae",
+        "topographicalgroup": "UniqueSurfaceTextures",
+        "location": "Tharsis",
+        "details": "Olympia Undae paints a mesmerizing portrait — a vast \"sand sea\" or erg that gracefully embraces the northern polar plateau (Planum Boreum). Stretched from approximately 120° to 240°E longitude and 78° to 83°N latitude, this stunning expanse spans about 1,100 km (680 mi) across. Covering an expansive 470,000 km2, Olympia Undae boasts the distinction of Mars' most extensive continuous dune field, a testament to the Red Planet's captivating geological diversity.",
+        "coordinates": {
+            "latitude": 81.63,
+            "longitude": 169.65
+        },
+        "coordinatesForShow": {
+            "latitude": "81.63°N",
+            "longitude": "169.65°E"
+        },
+
+        "photo1": "https://i.ibb.co/52PRt1G/PIA24882-fig1.png",
+        "photo2": "https://i.ibb.co/180gc57/26259-PIA24882.jpg",
+        "photo3": "https://i.ibb.co/gMkwQs9/Olympia-Undae-Dunes-PIA06848.jpg"
+    },
+    {
+        "id": 15,
+        "type": "Plains",
+        "name": "Amazonis Planitia",
+        "topographicalgroup": "EnigmaticFeatures",
+        "location": "Amazonis Planitia",
+        "details": "Amazonis Planitia captures the spotlight as Mars' most extensive plain. Embracing its status, this vast expanse graces the Martian surface. Nestled between the Tharsis and Elysium volcanic provinces, west of the colossal Olympus Mons, it unfolds a captivating narrative. Amazonis Planitia stands as one of Mars' smoothest plains, showcasing a tapestry of smooth features that span various scales. This planetary landscape holds the secrets of the Red Planet's dynamic history.",
+        "coordinates": {
+            "latitude": 24.8,
+            "longitude": 196.0
+        },
+        "coordinatesForShow": {
+            "latitude": "24.8°N",
+            "longitude": "196.0°E"
+        },
+
+        "photo1": "https://i.ibb.co/8BKXQy6/380px-54850-1900ridgesclosecolor.jpg",
+        "photo2": "https://i.ibb.co/cFX36Yh/36745-1905lridgesshort.jpg",
+        "photo3": "https://i.ibb.co/gF2qhMz/400px-Amazonis-planitia-topo.jpg"
+    },
+    {
+        "id": 16,
+        "type": "Highlands",
+        "topographicalgroup": "Highlands",
+        "name": "Tharsis",
+        "location": "Tharsis",
+        "details": "Tharsis is a realm of superlatives, hosting the Solar System's mightiest volcanoes. Here reside the colossal shield volcanoes Arsia Mons, Pavonis Mons, and Ascraeus Mons — collectively named Tharsis Montes. This region earns acclaim as Mars' largest highland expanse, shaping its geological identity. While the towering Olympus Mons is often linked with Tharsis, it lies just off the western plateau edge. Notably, water clouds grace Tharsis' canvas, adding an ethereal dimension to this captivating Martian landscape.",
+        "coordinates": {
+            "latitude": 0,
+            "longitude": 260
+        },
+        "coordinatesForShow": {
+            "latitude": "0°N",
+            "longitude": "260°E"
+        },
+        "photo1": "https://i.ibb.co/W3YL6S3/440px-Clouds-over-lava-flows-on-Mars-ESA384876.jpg",
+        "photo2": "https://i.ibb.co/vV4NXRQ/440px-Tharsis-PIA02049.jpg",
+        "photo3": "https://i.ibb.co/mvmZks6/600px-Tharsis-Valles-Marineris-MOLA-shaded-colorized-zoom-32.jpg"
+    },
+    {
+        "id": 17,
+        "type": "Highlands",
+        "name": "Arabia Terra",
+        "topographicalgroup": "Highlands",
+        "location": "Arabia Terra",
+        "details": "Arabia Terra emerges as Mars' most extensive highland region in the northern hemisphere. This scarred realm boasts a crisscross of craters and deep erosion, revealing an ancient past. This battle-worn terrain bears the marks of immense age, portraying a story of eons past. As one of the planet's earliest landscapes, Arabia Terra's historical significance is monumental. Stretching across as much as 4,500 km (2,800 mi) in its longest reach, it stands as a testament to Mars' enduring geological history.",
+        "coordinates": {
+            "latitude": 21,
+            "longitude": 6
+        },
+        "coordinatesForShow": {
+            "latitude": "21°N",
+            "longitude": "6°E"
+        },
+        "photo1": "https://i.ibb.co/q0tRQjK/Oxus-Patera-a-caldera-on-Mars.jpg",
+        "photo2": "https://i.ibb.co/j6DTxb4/500px-Eden-Patera-THEMIS-day-IR.jpg",
+        "photo3": "https://i.ibb.co/FzJCkPs/380px-Wiki-ESP-039997-2170channels.jpg"
+    },
+    {
+        "id": 18,
+        "type": "Highlands",
+        "name": "Noachis Terra",
+        "topographicalgroup": "Highlands",
+        "location": "Noachis Terra",
+        "details": "Noachis Terra, a sweeping expanse, claims distinction as Mars' most extensive highland region in the southern hemisphere. Residing within the Noachis quadrangle, this terrain unfolds a mesmerizing narrative. With its vast stretches, Noachis Terra presents an enigmatic landscape rich in history and geological wonder. A testament to the planet's enduring evolution, this highland expanse stands as a remarkable feature on Mars' surface.",
+        "coordinates": {
+            "latitude": -45,
+            "longitude": 350
+        },
+        "coordinatesForShow": {
+            "latitude": "45°S",
+            "longitude": "350°E"
+        },
+
+        "photo1": "https://i.ibb.co/F8h42hd/Dunes-of-Mars.jpg",
+        "photo2": "https://i.ibb.co/DQ13xSm/380px-40974-1395gullies.jpg",
+        "photo3": "https://i.ibb.co/Q93sz0R/380px-Exhumed-crater-in-Noachis.jpg"
+    },
+    {
+        "id": 19,
+        "type": "Crater",
+        "name": "Borealis Basin",
+        "topographicalgroup": "TerrestrialPeaks",
+        "location": "Northern Hemisphere",
+        "details": "Borealis Basin, Mars' grandest and most ancient impact basin, blankets much of the northern lowlands. This colossal feature tells a tale of primordial events, with some theories suggesting a single, substantial impactor around 2% the mass of Mars forged the basin. With an impressive diameter of about 1,900 km (1,200 miles), this impact might have occurred approximately 4.5 billion years ago. This basin's elliptical form and extraordinary flatness distinguish it as one of the Solar System's unique geological wonders.",
+        "coordinates": {
+            "latitude": 67,
+            "longitude": 208
+        },
+        "coordinatesForShow": {
+            "latitude": "67°N",
+            "longitude": "208°E"
+        },
+
+        "photo1": "https://i.ibb.co/XZggY0q/700px-Mars-topography-MOLA-dataset-with-poles-Hi-Res.jpg",
+        "photo2": "https://i.ibb.co/09M4pNR/Mars-Lomonosov-Crater-Winter.jpg",
+        "photo3": ".https://i.ibb.co/XZggY0q/700px-Mars-topography-MOLA-dataset-with-poles-Hi-Resjpg"
+    },
+    {
+        "id": 20,
+        "type": "Highlands",
+        "name": "Aonia Terra",
+        "topographicalgroup": "Highlands",
+        "location": "Southern hemisphere",
+        "details": "Aonia Terra pays homage to the classical albedo feature Aonia, which drew inspiration from the storied ancient Greek realm Aonia. This elevated expanse unfolds a narrative rich in geological intrigue. Aonia Terra, characterized by substantial cratering, hosts the grand Lowell Crater, a defining mark on this remarkable terrain. While the plains showcase smaller craters, regions like Thaumasia Fossae and the southern sectors contribute to the tapestry of this landscape's diversity.",
+        "coordinates": {
+            "latitude": 62.0,
+            "longitude": 100.0
+        },
+        "coordinatesForShow": {
+            "latitude": "62.0°S",
+            "longitude": "100.0°E"
+        },
+        "photo1": "https://i.ibb.co/w7MBRXK/440px-Lowell-crater-PIA02836.jpg",
+        "photo2": "https://i.ibb.co/XDhwHmm/440px-Wikimolaargyre.jpg",
+        "photo3": "https://i.ibb.co/z2HWP4X/Wikilau.jpg"
+    },
+    {
+        "id": 21,
+        "type": "Highlands",
+        "name": "Terra Cimmeria",
+        "topographicalgroup": "Highlands",
+        "location": "Southern highland",
+        "details": "Terra Cimmeria, a distinctive terrain, graces Mars' rugged southern highlands, bearing the marks of time through its pocked surface. Renowned as the Spirit rover's landing site, this expanse weaves history and myth. Paying homage to an ancient Thracian seafaring people, the region's name echoes through time. Inspired by a land veiled in clouds and mist, Terra Cimmeria invites curiosity to unravel its tales.",
+        "coordinates": {
+            "latitude": 35.0,
+            "longitude": 215.0
+        },
+        "coordinatesForShow": {
+            "latitude": "35.0°S",
+            "longitude": "215.0°E"
+        },
+
+        "photo1": "https://i.ibb.co/j5KZSF3/600px-Wikiterracimmeriaboundaries.jpg",
+        "photo2": "https://i.ibb.co/FJpzwkH/Gully-in-Phaethontis.jpg",
+        "photo3": "    https://i.ibb.co/GkQwhq9/380px-2509gulliesclosenew.jpg"
+    },
+    {
+        "id": 22,
+        "type": "Highlands",
+        "name": "Margaritifer Terra",
+        "topographicalgroup": "Highlands",
+        "location": "Near Martian equator",
+        "details": "Margaritifer Terra, a remarkable region, graces Mars near the equator, a canvas etched with enigmas. Its heavily cratered landscape unravels tales of 'chaos terrain,' revealing outflow channels and alluvial plains that whisper of ancient floods. Notably, Ares Vallis graces this realm, renowned for its historic landing and flood imprints. Holden and Eberswalde craters, laden with deltas and minerals, allude to ancient lakes, while Uzboi-Landon-Morava water paths bear witness to rapid groundwater outflows. Margaritifer Terra's history hints at Mars' thicker past atmosphere, beckoning us to explore its mysteries.",
+        "coordinates": {
+            "latitude": 5.0,
+            "longitude": 25.0
+        },
+        "coordinatesForShow": {
+            "latitude": "5.0°S",
+            "longitude": "25.0°E"
+        },
+
+        "photo1": "https://i.ibb.co/XDhwHmm/440px-Wikimolaargyre.jpg",
+        "photo2": "https://i.ibb.co/ZxwcKZ4/24807whitebuttei.jpg",
+        "photo3": "https://i.ibb.co/vmcWWFG/380px-26996layeredwhitebuttes.jpg"
     },
 
-    "photo1": "https://ibb.co/LxqyGHg",
-    "photo2": "https://ibb.co/bF47YDZ",
-    "photo3": "https://ibb.co/sjxXKBd"
-  },
-  {
-    "id": 3,
-    "type": "Crater",
-    "topographicalgroup": "TerrestrialPeaks",
-    "name": "Hellas Planitia",
-    "location": "Northern hemisphere",
-    "details": "Hellas, the largest impact crater on Mars, stands as a marvel in the Solar System. Ranking as the third- or fourth-largest known impact crater. It astounds with its dimensions. Its basin floor plummets to a staggering depth of 7,152 m (23,465 ft), surpassing even the Moon's South Pole-Aitken basin by 3,000 m (9,800 ft). This colossal basin spans about 2,300 km (1,400 mi) from east to west, showcasing the grandeur of Mars' geological history.",
-    "coordinates": {
-      "latitude": -42.4,
-      "longitude": 70.5
-    },
-    "coordinatesForShow": {
-      "latitude": "42.4°S",
-      "longitude": "70.5°E"
+    {
+        "id": 23,
+        "type": "Highlands",
+        "name": "North Polar Basin",
+        "topographicalgroup": "Highlands",
+        "location": "Northern hemisphere",
+        "details": "The North Polar Basin, encompassing a staggering 40% of Mars, stands as a prominent hallmark of the northern hemisphere. Known also as the Borealis Basin, this expansive feature emerges from the mists of time. Around 4.5 billion years ago, a monumental impact shaped it, possibly caused by a singular entity roughly 2% Mars' mass. Distinctive in shape and terrain, the basin's elliptical form and remarkable flatness draw the eye, carving a unique niche within the Solar System's wonders.",
+        "coordinates": {
+            "latitude": 67.0,
+            "longitude": 208.0
+        },
+        "coordinatesForShow": {
+            "latitude": "67.0°N",
+            "longitude": "208.0°E"
+        },
+
+        "photo1": "https://i.ibb.co/09M4pNR/Mars-Lomonosov-Crater-Winter.jpg",
+        "photo2": "https://i.ibb.co/W3SYfbY/Mars-topography-MOLA-dataset-with-poles-Hi-Res.jpg",
+        "photo3": "https://i.ibb.co/09M4pNR/Mars-Lomonosov-Crater-Winter.jpg"
     },
 
+    {
+        "id": 24,
+        "type": "Highlands",
+        "name": "Promethei Terra",
+        "topographicalgroup": "Highlands",
+        "location": "Southern hemisphere, east of Hellas basin",
+        "details": "Promethei Terra, nestled in Mars' southern hemisphere, unveils its vastness across a span of 3300 km. This region showcases a distinct landscape, marked by its heavily cratered highlands, creating an intricate tapestry of age-old features. Situated east of the expansive Hellas basin, Promethei Terra's allure is magnified by its position. Bearing the name of the Greek god Prometheus, this realm's legacy intertwines with mythology. Enclosed within the Hellas quadrangle, it weaves its tale within the Martian landscape. Notably, the terrain boasts lobate debris aprons (LDAs), a captivating phenomenon born from material surrounding cliffs.",
+        "coordinates": {
+            "latitude": 58.0,
+            "longitude": 260.0
+        },
+        "coordinatesForShow": {
+            "latitude": "58.0°S",
+            "longitude": "260.0°E"
+        },
 
-    "photo1": "https://ibb.co/7kKq1gB",
-    "photo2": "https://ibb.co/RTRXsKf",
-    "photo3": "https://ibb.co/b6XMY6Z"
-  },
-  {
-    "id": 4,
-    "type": "Crater",
-    "name": "Argyre Planitia",
-    "topographicalgroup": "TerrestrialPeaks",
-    "location": "Southern hemisphere",
-    "details": "Argyre, the second-largest impact crater on Mars, is steeped in mythology. Its name derives from Greek legend, referencing Argyre, the mythical silver island. Tracing its origins back to Giovanni Schiaparelli's 1877 map, Argyre boasts captivating dimensions. With an expansive width of about 1,800 km (1,100 mi), it plunges a remarkable 5.2 km (17,000 ft) beneath the encircling plains. Notably, it secures the distinction of Mars' second deepest impact basin, following Hellas.",
-    "coordinates": {
-      "latitude": -49.7,
-      "longitude": 316.0
-    },
-    "coordinatesForShow": {
-      "latitude": "49.7°S",
-      "longitude": "316.0°E"
-    },
-
-
-
-    "photo1": "https://i.ibb.co/4WGWvvX/965px-Mars-atmosphere.jpg",
-    "photo2": "https://i.ibb.co/VWVm1PC/Gullies-in-the-southern-highlands-of-Mars.jpg",
-    "photo3": "https://i.ibb.co/KyMq9Y3/854px-Argyre-MOLA-zoom-64.jpg"
-  },
-  {
-    "id": 5,
-    "type": "Crater",
-    "name": "Isidis Planitia",
-    "topographicalgroup": "TerrestrialPeaks",
-    "location": "Northern hemisphere",
-    "details": "Isidis Planitia, a vast plain nestled within a colossal impact basin on Mars, spans the Syrtis Major and Amenthes quadrangles. This expansive plain boasts an impressive diameter of about 1,500 km (930 mi), securing its place as the third-largest prominent impact feature on Mars. Surpassed only by the grandeur of the Hellas and Argyre basins, Isidis Planitia stands as a testament to the planet's geological history.",
-    "coordinates": {
-      "latitude": 12.9,
-      "longitude": 87.0
-    },
-    "coordinatesForShow": {
-      "latitude": "12.9°N",
-      "longitude": "87.0°E"
+        "photo1": "https://i.ibb.co/nmmBgKj/ESP-020319flowsclose-up.jpg",
+        "photo2": "https://i.ibb.co/HDfcQ0S/500px-Wikiterracimmeriaboundaries.jpg",
+        "photo3": "https://i.ibb.co/sKj1wyb/500px-Wikimolasouthpole.jpg"
     },
 
-
-
-    "photo1": "https://i.ibb.co/KWq3Mfw/jpeg-PIA03087-width-1024.jpg",
-    "photo2": "https://i.ibb.co/KLmHkYh/Syrtis-Isidis-zoom-64-pano.jpg",
-    "photo3": "https://i.ibb.co/t3h5LFX/500px-Isidis-basin-topo.jpg"
-  },
-  {
-    "id": 6,
-    "type": "Mountain",
-    "name": "Ascraeus Mons",
-    "topographicalgroup": "TerrestrialPeaks",
-    "location": "Tharsis",
-    "details": "Ascraeus Mons, the second-highest volcano on Mars, unveils its majesty. Originally named North Spot, its identity was masked in 1971 by a planet-spanning dust storm. During this tempest, only four surface spots were visible, with Ascraeus Mons being the northernmost. As the dust settled, the truth emerged — these spots were colossal volcanoes. Their summits had risen above the dust-filled lower atmosphere. Ascraeus Mons, a volcanic titan, stands as a testament to the ever-unfolding mysteries of the Red Planet.",
-    "coordinates": {
-      "latitude": 11.92,
-      "longitude": 255.92
-    },
-    "coordinatesForShow": {
-      "latitude": "11.92°N",
-      "longitude": "255.92°E"
+    {
+        "id": 25,
+        "type": "Highlands",
+        "name": "Terra Sabaea",
+        "topographicalgroup": "Highlands",
+        "location": "2°N 42°E on Mars",
+        "details": "Terra Sabaea stretches across Mars, unfolding a vast expanse that spans a staggering 4,700 kilometers at its widest reach. This region embraces its identity, carrying the name of a prominent albedo feature on the Martian surface. Within its domain, Terra Sabaea crosses through multiple quadrangles, a testament to its breadth. Notably, this realm offers glimpses of Earth-like features — landscapes that mirror glaciers, revealing moraine-like formations left behind by receding ice. These glacier-esque structures, called viscous flow features (VFF), stand as echoes of dynamic processes that once shaped this Martian terrain.",
+        "coordinates": {
+            "latitude": 2.0,
+            "longitude": 318.0
+        },
+        "coordinatesForShow": {
+            "latitude": "2.0°N",
+            "longitude": "318.0°E"
+        },
+        "photo1": "https://i.ibb.co/mtGTSwW/600px-Wikiarabiaboundaries.jpg",
+        "photo2": "https://i.ibb.co/7yD3GzQ/380px-Wikielephantglacier.jpg",
+        "photo3": "https://i.ibb.co/JQyFCFc/234px-Glacier-as-seen-by-ctx.jpg"
     },
 
-
-
-    "photo1": "https://i.ibb.co/JjGLgwD/Ascraeus-Mons-Flank-Terraces.jpg",
-    "photo2": "https://i.ibb.co/gSdgfnQ/Ascraeus-mons-topo.jpg",
-    "photo3": "https://i.ibb.co/GkvgXJL/Ascraeus-Mons.png"
-  },
-  {
-    "id": 7,
-    "type": "Mountain",
-    "name": "Pavonis Mons",
-    "topographicalgroup": "TerrestrialPeaks",
-    "location": "Tharsis",
-    "details": "Third-highest volcano on Mars. It is the middle member of a chain of three volcanic mountains collectively known as the Tharsis Montes. Pavonis Mons is the smallest of the Tharsis Montes volcanoes, measuring about 375 km across and standing 14 km above Mars' mean surface level. As a shield volcano, Pavonis Mons has an extremely low profile with flank slopes that average only 4°.",
-    "coordinates": {
-      "latitude": 1.48,
-      "longitude": 247.04
-    },
-    "coordinatesForShow": {
-      "latitude": "1.48°N",
-      "longitude": "247.04°E"
+    {
+        "id": 26,
+        "type": "Crater",
+        "name": "Terra Sirenum",
+        "topographicalgroup": "Terrestrial Peaks",
+        "location": "Southern hemisphere",
+        "details": "Terra Sirenum, gracing Mars' southern hemisphere, paints an expansive canvas spanning 3900 km at its widest breadth. Renowned for its rich history of impact, it notably cradles the distinguished Newton Crater. Within the Phaethontis and Memnonia quadrangles, this upland territory emerges as a captivating realm. A highlight resides in a former low region, once a potential lake bed, its mysteries unveiled as it drained through Ma'adim Vallis. Notably, the region's name, Terra Sirenum, mirrors the tales of the Sirens from mythology, merging Mars' landscape with echoes of ancient stories.",
+        "coordinates": {
+            "latitude": 40.0,
+            "longitude": 150.0
+        },
+        "coordinatesForShow": {
+            "latitude": "40.0°S",
+            "longitude": "150.0°E"
+        },
+        "photo1": "https://i.ibb.co/mtTdLSQ/Ridge-in-crater-in-Terra-Sirenum.jpg",
+        "photo2": "https://i.ibb.co/XDhwHmm/440px-Wikimolaargyre.jpg",
+        "photo3": "https://i.ibb.co/4RjQtQQ/236px-Wide-view-of-gully-on-hill.jpg"
     },
 
+    {
+        "id": 27,
+        "type": "Highlands",
+        "name": "Tempe Terra",
+        "topographicalgroup": "Highlands",
+        "location": "Northern hemisphere",
+        "details": "Tempe Terra, adorning Mars' northern hemisphere, presents a captivating spectacle of heavily cratered highlands, a realm teeming with distinctive traits. Positioned along the Tharsis volcanic province's northeastern rim, it unveils a tapestry of geological wonders. Showcasing crustal fracturing, deformation, and volcanic formations, this region's allure is unyielding. Named in honor of the Vale of Tempe, a pastoral gem revered in ancient Greek lore, Tempe Terra stretches from 30° to 54°N and 265° to 310°E, sprawling across 2.1 million km2. It abuts Chryse and Acidalia Planitiae to the east, bordered by low-lying plains to the north, and graced by the extensive Kasei Valles outflow channel system to the south.",
+        "coordinates": {
+            "latitude": 40.0,
+            "longitude": 71.0
+        },
+        "coordinatesForShow": {
+            "latitude": "40.0°N",
+            "longitude": "71.0°E"
+        },
 
-
-
-    "photo1": "https://i.ibb.co/Xps3mYx/Pavoniscaldeira.jpg",
-    "photo2": "https://i.ibb.co/fGsCgPK/480px-Pavonis-Mons-THEMIS-day-IR-100m-v11-0-5.jpg",
-    "photo3": "https://i.ibb.co/W58zdmB/Pavonis-mons-topo.jpg"
-  },
-  {
-    "id": 8,
-    "type": "Mountain",
-    "name": "Arsia Mons",
-    "topographicalgroup": "TerrestrialPeaks",
-    "location": "Tharsis",
-    "details": "Arsia Mons, the fourth-highest volcano on Mars, holds its place of honor. Its name finds roots in Giovanni Schiaparelli's map, inspired by the legendary Roman forest Arsia Silva. Formerly named Nodus Gordii, this geological gem underwent a renaming, shedding its historical moniker. A celestial wonder, Arsia Mons stands tall, showcasing the mysteries etched into the Martian landscape.",
-    "coordinates": {
-      "latitude": -8.35,
-      "longitude": -120.09
-    },
-    "coordinatesForShow": {
-      "latitude": "8.35°S",
-      "longitude": "120.09°W"
+        "photo1": "https://i.ibb.co/yXTQtGQ/380px-ESP-025771variousgullies.jpg",
+        "photo2": "https://i.ibb.co/5FPNG9y/380px-ESP-025336channels.jpg",
+        "photo3": "https://i.ibb.co/L0ch8MV/500px-Wikimolaamazonisarcadia.jpg"
     },
 
+    {
+        "id": 28,
+        "type": "Highlands",
+        "name": "Tyrrhena Terra",
+        "topographicalgroup": "Highlands",
+        "location": "Southern hemisphere",
+        "details": "Tyrrhena Terra unfolds its majesty south of Mars' equator and northeast of the Hellas basin, spanning 2300 km at its broadest. Nestled within the Mare Tyrrhenum quadrangle, this region beckons explorers to its distinctive charm. A portrait of heavily cratered highlands and rugged landscapes, it embodies the essence of Martian terrae in the southern hemisphere. Notably, the landscape unveils significant formations like Tyrrhena Patera, a vestige of the ancient past, and captivating features like Herschel crater, Licus Vallis, and Ausonia Montes. The canvas tells tales of channels and dunes, imprinted vividly through captured images.",
+        "coordinates": {
+            "latitude": 15.0,
+            "longitude": 270.0
+        },
+        "coordinatesForShow": {
+            "latitude": "15.0°S",
+            "longitude": "270.0°E"
+        },
 
-    "photo1": "https://i.ibb.co/ngrLYGJ/380px-PIA13540-Layers-in-Martian-volcano-Arsia-Mons.jpg",
-    "photo2": "https://i.ibb.co/hRbhDDS/440px-Arsia-Mons-mosaic.jpg",
-    "photo3": "https://i.ibb.co/my3b79F/Arsia-Mons-PIA02804.jpg"
-  },
-  {
-    "id": 9,
-    "type": "Planitia",
-    "name": "Acidalia Planitia",
-    "topographicalgroup": "EnigmaticFeatures",
-    "location": "Northern hemisphere",
-    "details": "Acidalia Planitia graces Mars' canvas, a sprawling plain residing between the Tharsis volcanic expanse and the northern reaches of Arabia Terra. Proudly embracing its status as Mars' largest lowland expanse, Acidalia Planitia unfolds a captivating Martian terrain. Notably, it cradles the renowned Cydonia region, a famed contact point where it meets the intricately sculpted, heavily cratered highland terrain.",
-    "coordinates": {
-      "latitude": 49.76,
-      "longitude": 339.26
-    },
-    "coordinatesForShow": {
-      "latitude": "49.76°N",
-      "longitude": "339.26°E"
-    },
-    "photo1": "https://i.ibb.co/1nnwbYC/878px-Possible-mud-volcano-on-Acidalia-Planitia-by-Hi-RISE.jpg",
-    "photo2": "https://i.ibb.co/G7BGqGN/1280px-24951gullyclose.jpg",
-    "photo3": "https://i.ibb.co/1dVp5S3/520px-Acidalia-planitia-topo.jpg"
-  },
-
-  {
-    "id": 10,
-    "type": "Crater",
-    "name": "Gale Crater",
-    "topographicalgroup": "TerrestrialPeaks",
-    "location": "Arabia Terra",
-    "details": "Aeolis Palus, the rover Curiosity's home, is likely a desiccated lakebed. Expansive at 154 km (96 mi) in diameter, this ancient basin boasts an age of 3.5 to 3.8 billion years. At its heart stands Mount Sharp, an impressive elevation soaring 5.5 km (18,000 ft) high. Marking a pivotal moment, NASA's Mars Science Laboratory mission's Curiosity rover touched down on August 6, 2012, at 05:32 UTC within \"Yellowknife\" Quad 51 of Aeolis Palus in Gale.",
-    "coordinates": {
-      "latitude": -5.4,
-      "longitude": 137.8
-    },
-    "coordinatesForShow": {
-      "latitude": "21°N",
-      "longitude": "6°E"
-    },
-    "photo1": "https://i.ibb.co/KGzLKQJ/1600px-PIA19912-Mars-Curiosity-Rover-Mount-Sharp-20151002.jpg",
-    "photo2": "https://i.ibb.co/pJfPBm7/Mars-Curiosity-Rover-Ancient-Lake-Estimated-Size.jpg",
-    "photo3": "https://i.ibb.co/b1vMrLh/400px-Topographic-Map-of-Gale-Crater.jpg"
-  },
-  {
-    "id": 11,
-    "type": "Crater",
-    "name": "Jezero Crater",
-    "topographicalgroup": "TerrestrialPeaks",
-    "location": "Isidis Planitia",
-    "details": "Jezero Crater's tale unravels through cycles of water across eons. More than 3.5 billion years ago, rivers carved channels that birthed a lake, ferrying clay minerals. These hold potential keys to deciphering Mars' ancient life. Nestled in the Syrtis Major quadrangle, the crater spans 45.0 km (28.0 mi). It now hosts Perseverance rover, uncovering its mysteries. Once potentially submerged, it cradles a clay-rich fan-delta deposit. Interestingly, 'jezero' means 'lake' in some Slavic languages. Come November 2018, Jezero stood chosen as the landing site for NASA's Mars 2020 mission's Perseverance rover.",
-    "coordinates": {
-      "latitude": 18.38,
-      "longitude": 77.58
-    },
-    "coordinatesForShow": {
-      "latitude": "18.38°N",
-      "longitude": "77.58°E"
+        "photo1": "https://i.ibb.co/jZyCcpq/380px-Wikibriaultdunes.jpg",
+        "photo2": "https://i.ibb.co/HtHPQkC/380px-ESP-037844-1690dunes.jpg",
+        "photo3": "https://i.ibb.co/f8zPq98/380px-Wikiesp-035761-1520layers.jpg"
     },
 
-    "photo1": "https://i.ibb.co/D88mDj1/jezero-overview.jpg",
-    "photo2": "https://i.ibb.co/SXy3Q80/Mastcam-Z-s-First-360-Degree-Panorama.jpg",
-    "photo3": "https://i.ibb.co/3SPZz59/jezero-site.jpg"
-  },
-  {
-    "id": 12,
-    "type": "Volcano",
-    "name": "Elysium Mons",
-    "topographicalgroup": "TerrestrialPeaks",
-    "location": "Elysium Planitia",
-    "details": "Olympus Mons reigns as Mars' largest northern hemisphere volcano. Towering approximately 12.6 km (41,000 ft) from its base, it reaches a staggering 14.1 km (46,000 ft) above the Martian datum. This makes it Mars' third tallest mountain in terms of relief and the fourth highest in elevation. With a diameter spanning about 240 km (150 mi), its summit caldera spans 14 km (8.7 mi) across, unveiling a world of geological wonders.",
-    "coordinates": {
-      "latitude": 25.02,
-      "longitude": 147.21
-    },
-    "coordinatesForShow": {
-      "latitude": "25.02°N",
-      "longitude": "147.21°E"
-    },
+    {
+        "id": 29,
+        "type": "Highlands",
+        "name": "Xanthe Terra",
+        "topographicalgroup": "Highlands",
+        "location": "North of the equator",
+        "details": "Xanthe Terra, poised near Mars' equator, stretches across approximately 1867.65 km, revealing its distinctive expanse. The name, signifying 'golden-yellow land,' mirrors its captivating terrain. Within the Lunae Palus, Coprates, Margaritifer Sinus, and Oxia Palus quadrangles, Xanthe Terra unfolds its treasures. Ravi Vallis, Aromatum Chaos, and myriad craters grace this realm, marking its signature. Captured through lenses like Mars Express, Mars Global Surveyor, and Mars Reconnaissance Orbiter, ancient river valleys and deltas are unveiled, draped in delicate layers. Evidencing thin deposits, Xanthe Terra hints at bygone precipitation in Mars' early days.",
 
-    "photo1": "https://i.ibb.co/hHzZQyf/380px-Elysium-Mons-541-A44-541-A46.jpg",
-    "photo2": "https://i.ibb.co/5kkpVf0/400px-Elysium-Mons-THEMIS.jpg",
-    "photo3": "https://i.ibb.co/pRjSTFz/360px-MOLA-elysium-mons.jpg"
-  },
-  {
-    "id": 13,
-    "type": "Volcano",
-    "name": "Syrtis Major",
-    "topographicalgroup": "TerrestrialPeaks",
-    "location": "Syrtis Major Planum",
-    "details": "Syrtis Major Planum stands as a distinct \"dark spot,\" nestled at the border of Mars' northern lowlands and southern highlands. Positioned just west of the Isidis impact basin within the Syrtis Major quadrangle, it captivates with its unique features. Notably, it secures the status of the southern hemisphere's second-largest volcano on Mars, distinguished by its prominent summit caldera, a testament to the planet's fascinating geological history.",
-    "coordinates": {
-      "latitude": 8.4,
-      "longitude": 69.5
-    },
-    "coordinatesForShow": {
-      "latitude": "8.4°N",
-      "longitude": "69.5°E"
-    },
-    "photo1": "https://i.ibb.co/C8R3CWm/460px-Syrtis-Major-MC-13.jpg",
-    "photo2": "https://i.ibb.co/r65wdQW/600px-Syrtis-Isidis-zoom-64-pano.jpg",
-    "photo3": "https://i.ibb.co/T0b0CTK/472px-Nili-Meroe-paterae-THEMIS-day-IR-100m-v11.jpg"
-  },
-  {
-    "id": 14,
-    "type": "Dunes",
-    "name": "Olympia Undae",
-    "topographicalgroup": "UniqueSurfaceTextures",
-    "location": "Tharsis",
-    "details": "Olympia Undae paints a mesmerizing portrait — a vast \"sand sea\" or erg that gracefully embraces the northern polar plateau (Planum Boreum). Stretched from approximately 120° to 240°E longitude and 78° to 83°N latitude, this stunning expanse spans about 1,100 km (680 mi) across. Covering an expansive 470,000 km2, Olympia Undae boasts the distinction of Mars' most extensive continuous dune field, a testament to the Red Planet's captivating geological diversity.",
-    "coordinates": {
-      "latitude": 81.63,
-      "longitude": 169.65
-    },
-    "coordinatesForShow": {
-      "latitude": "81.63°N",
-      "longitude": "169.65°E"
-    },
+        "coordinates": {
+            "latitude": 3.0,
+            "longitude": 48.0
+        },
+        "coordinatesForShow": {
+            "latitude": "3.0°N",
+            "longitude": "48.0°E"
+        },
 
-    "photo1": "https://i.ibb.co/52PRt1G/PIA24882-fig1.png",
-    "photo2": "https://i.ibb.co/180gc57/26259-PIA24882.jpg",
-    "photo3": "https://i.ibb.co/gMkwQs9/Olympia-Undae-Dunes-PIA06848.jpg"
-  },
-  {
-    "id": 15,
-    "type": "Plains",
-    "name": "Amazonis Planitia",
-    "topographicalgroup": "EnigmaticFeatures",
-    "location": "Amazonis Planitia",
-    "details": "Amazonis Planitia captures the spotlight as Mars' most extensive plain. Embracing its status, this vast expanse graces the Martian surface. Nestled between the Tharsis and Elysium volcanic provinces, west of the colossal Olympus Mons, it unfolds a captivating narrative. Amazonis Planitia stands as one of Mars' smoothest plains, showcasing a tapestry of smooth features that span various scales. This planetary landscape holds the secrets of the Red Planet's dynamic history.",
-    "coordinates": {
-      "latitude": 24.8,
-      "longitude": 196.0
-    },
-    "coordinatesForShow": {
-      "latitude": "24.8°N",
-      "longitude": "196.0°E"
-    },
-    
-    "photo1": "https://i.ibb.co/8BKXQy6/380px-54850-1900ridgesclosecolor.jpg",
-    "photo2": "https://i.ibb.co/cFX36Yh/36745-1905lridgesshort.jpg",
-    "photo3": "https://i.ibb.co/gF2qhMz/400px-Amazonis-planitia-topo.jpg"
-  },
-  {
-    "id": 16,
-    "type": "Highlands",
-    "topographicalgroup": "Highlands",
-    "name": "Tharsis",
-    "location": "Tharsis",
-    "details": "Tharsis is a realm of superlatives, hosting the Solar System's mightiest volcanoes. Here reside the colossal shield volcanoes Arsia Mons, Pavonis Mons, and Ascraeus Mons — collectively named Tharsis Montes. This region earns acclaim as Mars' largest highland expanse, shaping its geological identity. While the towering Olympus Mons is often linked with Tharsis, it lies just off the western plateau edge. Notably, water clouds grace Tharsis' canvas, adding an ethereal dimension to this captivating Martian landscape.",
-    "coordinates": {
-      "latitude": 0,
-      "longitude": 260
-    },
-    "coordinatesForShow": {
-      "latitude": "0°N",
-      "longitude": "260°E"
-    },
-    "photo1": "https://i.ibb.co/W3YL6S3/440px-Clouds-over-lava-flows-on-Mars-ESA384876.jpg",
-    "photo2": "https://i.ibb.co/vV4NXRQ/440px-Tharsis-PIA02049.jpg",
-    "photo3": "https://i.ibb.co/mvmZks6/600px-Tharsis-Valles-Marineris-MOLA-shaded-colorized-zoom-32.jpg"
-  },
-  {
-    "id": 17,
-    "type": "Highlands",
-    "name": "Arabia Terra",
-    "topographicalgroup": "Highlands",
-    "location": "Arabia Terra",
-    "details": "Arabia Terra emerges as Mars' most extensive highland region in the northern hemisphere. This scarred realm boasts a crisscross of craters and deep erosion, revealing an ancient past. This battle-worn terrain bears the marks of immense age, portraying a story of eons past. As one of the planet's earliest landscapes, Arabia Terra's historical significance is monumental. Stretching across as much as 4,500 km (2,800 mi) in its longest reach, it stands as a testament to Mars' enduring geological history.",
-    "coordinates": {
-      "latitude": 21,
-      "longitude": 6
-    },
-    "coordinatesForShow": {
-      "latitude": "21°N",
-      "longitude": "6°E"
-    },
-    "photo1": "https://i.ibb.co/q0tRQjK/Oxus-Patera-a-caldera-on-Mars.jpg",
-    "photo2": "https://i.ibb.co/j6DTxb4/500px-Eden-Patera-THEMIS-day-IR.jpg",
-    "photo3": "https://i.ibb.co/FzJCkPs/380px-Wiki-ESP-039997-2170channels.jpg"
-  },
-  {
-    "id": 18,
-    "type": "Highlands",
-    "name": "Noachis Terra",
-    "topographicalgroup": "Highlands",
-    "location": "Noachis Terra",
-    "details": "Noachis Terra, a sweeping expanse, claims distinction as Mars' most extensive highland region in the southern hemisphere. Residing within the Noachis quadrangle, this terrain unfolds a mesmerizing narrative. With its vast stretches, Noachis Terra presents an enigmatic landscape rich in history and geological wonder. A testament to the planet's enduring evolution, this highland expanse stands as a remarkable feature on Mars' surface.",
-    "coordinates": {
-      "latitude": -45,
-      "longitude": 350
-    },
-    "coordinatesForShow": {
-      "latitude": "45°S",
-      "longitude": "350°E"
-    },
-
-    "photo1": "https://i.ibb.co/F8h42hd/Dunes-of-Mars.jpg",
-    "photo2": "https://i.ibb.co/DQ13xSm/380px-40974-1395gullies.jpg",
-    "photo3": "https://i.ibb.co/Q93sz0R/380px-Exhumed-crater-in-Noachis.jpg"
-  },
-  {
-    "id": 19,
-    "type": "Crater",
-    "name": "Borealis Basin",
-    "topographicalgroup": "TerrestrialPeaks",
-    "location": "Northern Hemisphere",
-    "details": "Borealis Basin, Mars' grandest and most ancient impact basin, blankets much of the northern lowlands. This colossal feature tells a tale of primordial events, with some theories suggesting a single, substantial impactor around 2% the mass of Mars forged the basin. With an impressive diameter of about 1,900 km (1,200 miles), this impact might have occurred approximately 4.5 billion years ago. This basin's elliptical form and extraordinary flatness distinguish it as one of the Solar System's unique geological wonders.",
-    "coordinates": {
-      "latitude": 67,
-      "longitude": 208
-    },
-    "coordinatesForShow": {
-      "latitude": "67°N",
-      "longitude": "208°E"
-    },
-    
-    "photo1": "https://i.ibb.co/XZggY0q/700px-Mars-topography-MOLA-dataset-with-poles-Hi-Res.jpg",
-    "photo2": "https://i.ibb.co/09M4pNR/Mars-Lomonosov-Crater-Winter.jpg",
-    "photo3": ".https://i.ibb.co/XZggY0q/700px-Mars-topography-MOLA-dataset-with-poles-Hi-Resjpg"
-  },
-  {
-    "id": 20,
-    "type": "Highlands",
-    "name": "Aonia Terra",
-    "topographicalgroup": "Highlands",
-    "location": "Southern hemisphere",
-    "details": "Aonia Terra pays homage to the classical albedo feature Aonia, which drew inspiration from the storied ancient Greek realm Aonia. This elevated expanse unfolds a narrative rich in geological intrigue. Aonia Terra, characterized by substantial cratering, hosts the grand Lowell Crater, a defining mark on this remarkable terrain. While the plains showcase smaller craters, regions like Thaumasia Fossae and the southern sectors contribute to the tapestry of this landscape's diversity.",
-    "coordinates": {
-      "latitude": 62.0,
-      "longitude": 100.0
-    },
-    "coordinatesForShow": {
-      "latitude": "62.0°S",
-      "longitude": "100.0°E"
-    },
-    "photo1": "https://i.ibb.co/w7MBRXK/440px-Lowell-crater-PIA02836.jpg",
-    "photo2": "https://i.ibb.co/XDhwHmm/440px-Wikimolaargyre.jpg",
-    "photo3": "https://i.ibb.co/z2HWP4X/Wikilau.jpg"
-  },
-  {
-    "id": 21,
-    "type": "Highlands",
-    "name": "Terra Cimmeria",
-    "topographicalgroup": "Highlands",
-    "location": "Southern highland",
-    "details": "Terra Cimmeria, a distinctive terrain, graces Mars' rugged southern highlands, bearing the marks of time through its pocked surface. Renowned as the Spirit rover's landing site, this expanse weaves history and myth. Paying homage to an ancient Thracian seafaring people, the region's name echoes through time. Inspired by a land veiled in clouds and mist, Terra Cimmeria invites curiosity to unravel its tales.",
-    "coordinates": {
-      "latitude": 35.0,
-      "longitude": 215.0
-    },
-    "coordinatesForShow": {
-      "latitude": "35.0°S",
-      "longitude": "215.0°E"
-    },
-
-    "photo1": "https://i.ibb.co/j5KZSF3/600px-Wikiterracimmeriaboundaries.jpg",
-    "photo2": "https://i.ibb.co/FJpzwkH/Gully-in-Phaethontis.jpg",
-    "photo3": "    https://i.ibb.co/GkQwhq9/380px-2509gulliesclosenew.jpg"
-  },
-  {
-    "id": 22,
-    "type": "Highlands",
-    "name": "Margaritifer Terra",
-    "topographicalgroup": "Highlands",
-    "location": "Near Martian equator",
-    "details": "Margaritifer Terra, a remarkable region, graces Mars near the equator, a canvas etched with enigmas. Its heavily cratered landscape unravels tales of 'chaos terrain,' revealing outflow channels and alluvial plains that whisper of ancient floods. Notably, Ares Vallis graces this realm, renowned for its historic landing and flood imprints. Holden and Eberswalde craters, laden with deltas and minerals, allude to ancient lakes, while Uzboi-Landon-Morava water paths bear witness to rapid groundwater outflows. Margaritifer Terra's history hints at Mars' thicker past atmosphere, beckoning us to explore its mysteries.",
-    "coordinates": {
-      "latitude": 5.0,
-      "longitude": 25.0
-    },
-    "coordinatesForShow": {
-      "latitude": "5.0°S",
-      "longitude": "25.0°E"
-    },
-
-    "photo1": "https://i.ibb.co/XDhwHmm/440px-Wikimolaargyre.jpg",
-    "photo2": "https://i.ibb.co/ZxwcKZ4/24807whitebuttei.jpg",
-    "photo3": "https://i.ibb.co/vmcWWFG/380px-26996layeredwhitebuttes.jpg"
-  },
-
-  {
-    "id": 23,
-    "type": "Highlands",
-    "name": "North Polar Basin",
-    "topographicalgroup": "Highlands",
-    "location": "Northern hemisphere",
-    "details": "The North Polar Basin, encompassing a staggering 40% of Mars, stands as a prominent hallmark of the northern hemisphere. Known also as the Borealis Basin, this expansive feature emerges from the mists of time. Around 4.5 billion years ago, a monumental impact shaped it, possibly caused by a singular entity roughly 2% Mars' mass. Distinctive in shape and terrain, the basin's elliptical form and remarkable flatness draw the eye, carving a unique niche within the Solar System's wonders.",
-    "coordinates": {
-      "latitude": 67.0,
-      "longitude": 208.0
-    },
-    "coordinatesForShow": {
-      "latitude": "67.0°N",
-      "longitude": "208.0°E"
-    },
-
-    "photo1": "https://i.ibb.co/09M4pNR/Mars-Lomonosov-Crater-Winter.jpg",
-    "photo2": "https://i.ibb.co/W3SYfbY/Mars-topography-MOLA-dataset-with-poles-Hi-Res.jpg",
-    "photo3": "https://i.ibb.co/09M4pNR/Mars-Lomonosov-Crater-Winter.jpg"
-  },
-
-  {
-    "id": 24,
-    "type": "Highlands",
-    "name": "Promethei Terra",
-    "topographicalgroup": "Highlands",
-    "location": "Southern hemisphere, east of Hellas basin",
-    "details": "Promethei Terra, nestled in Mars' southern hemisphere, unveils its vastness across a span of 3300 km. This region showcases a distinct landscape, marked by its heavily cratered highlands, creating an intricate tapestry of age-old features. Situated east of the expansive Hellas basin, Promethei Terra's allure is magnified by its position. Bearing the name of the Greek god Prometheus, this realm's legacy intertwines with mythology. Enclosed within the Hellas quadrangle, it weaves its tale within the Martian landscape. Notably, the terrain boasts lobate debris aprons (LDAs), a captivating phenomenon born from material surrounding cliffs.",
-    "coordinates": {
-      "latitude": 58.0,
-      "longitude": 260.0
-    },
-    "coordinatesForShow": {
-      "latitude": "58.0°S",
-      "longitude": "260.0°E"
-    },
-
-    "photo1": "https://i.ibb.co/nmmBgKj/ESP-020319flowsclose-up.jpg",
-    "photo2": "https://i.ibb.co/HDfcQ0S/500px-Wikiterracimmeriaboundaries.jpg",
-    "photo3": "https://i.ibb.co/sKj1wyb/500px-Wikimolasouthpole.jpg"
-  },
-
-  {
-    "id": 25,
-    "type": "Highlands",
-    "name": "Terra Sabaea",
-    "topographicalgroup": "Highlands",
-    "location": "2°N 42°E on Mars",
-    "details": "Terra Sabaea stretches across Mars, unfolding a vast expanse that spans a staggering 4,700 kilometers at its widest reach. This region embraces its identity, carrying the name of a prominent albedo feature on the Martian surface. Within its domain, Terra Sabaea crosses through multiple quadrangles, a testament to its breadth. Notably, this realm offers glimpses of Earth-like features — landscapes that mirror glaciers, revealing moraine-like formations left behind by receding ice. These glacier-esque structures, called viscous flow features (VFF), stand as echoes of dynamic processes that once shaped this Martian terrain.",
-    "coordinates": {
-      "latitude": 2.0,
-      "longitude": 318.0
-    },
-    "coordinatesForShow": {
-      "latitude": "2.0°N",
-      "longitude": "318.0°E"
-    },
-    "photo1": "https://i.ibb.co/mtGTSwW/600px-Wikiarabiaboundaries.jpg",
-    "photo2": "https://i.ibb.co/7yD3GzQ/380px-Wikielephantglacier.jpg",
-    "photo3": "https://i.ibb.co/JQyFCFc/234px-Glacier-as-seen-by-ctx.jpg"
-  },
-
-  {
-    "id": 26,
-    "type": "Crater",
-    "name": "Terra Sirenum",
-    "topographicalgroup": "Terrestrial Peaks",
-    "location": "Southern hemisphere",
-    "details": "Terra Sirenum, gracing Mars' southern hemisphere, paints an expansive canvas spanning 3900 km at its widest breadth. Renowned for its rich history of impact, it notably cradles the distinguished Newton Crater. Within the Phaethontis and Memnonia quadrangles, this upland territory emerges as a captivating realm. A highlight resides in a former low region, once a potential lake bed, its mysteries unveiled as it drained through Ma'adim Vallis. Notably, the region's name, Terra Sirenum, mirrors the tales of the Sirens from mythology, merging Mars' landscape with echoes of ancient stories.",
-    "coordinates": {
-      "latitude": 40.0,
-      "longitude": 150.0
-    },
-    "coordinatesForShow": {
-      "latitude": "40.0°S",
-      "longitude": "150.0°E"
-    },
-    "photo1": "https://i.ibb.co/mtTdLSQ/Ridge-in-crater-in-Terra-Sirenum.jpg",
-    "photo2": "https://i.ibb.co/XDhwHmm/440px-Wikimolaargyre.jpg",
-    "photo3": "https://i.ibb.co/4RjQtQQ/236px-Wide-view-of-gully-on-hill.jpg"
-  },
-
-  {
-    "id": 27,
-    "type": "Highlands",
-    "name": "Tempe Terra",
-    "topographicalgroup": "Highlands",
-    "location": "Northern hemisphere",
-    "details": "Tempe Terra, adorning Mars' northern hemisphere, presents a captivating spectacle of heavily cratered highlands, a realm teeming with distinctive traits. Positioned along the Tharsis volcanic province's northeastern rim, it unveils a tapestry of geological wonders. Showcasing crustal fracturing, deformation, and volcanic formations, this region's allure is unyielding. Named in honor of the Vale of Tempe, a pastoral gem revered in ancient Greek lore, Tempe Terra stretches from 30° to 54°N and 265° to 310°E, sprawling across 2.1 million km2. It abuts Chryse and Acidalia Planitiae to the east, bordered by low-lying plains to the north, and graced by the extensive Kasei Valles outflow channel system to the south.",
-    "coordinates": {
-      "latitude": 40.0,
-      "longitude": 71.0
-    },
-    "coordinatesForShow": {
-      "latitude": "40.0°N",
-      "longitude": "71.0°E"
-    },
-
-    "photo1": "https://i.ibb.co/yXTQtGQ/380px-ESP-025771variousgullies.jpg",
-    "photo2": "https://i.ibb.co/5FPNG9y/380px-ESP-025336channels.jpg",
-    "photo3": "https://i.ibb.co/L0ch8MV/500px-Wikimolaamazonisarcadia.jpg"
-  },
-
-  {
-    "id": 28,
-    "type": "Highlands",
-    "name": "Tyrrhena Terra",
-    "topographicalgroup": "Highlands",
-    "location": "Southern hemisphere",
-    "details": "Tyrrhena Terra unfolds its majesty south of Mars' equator and northeast of the Hellas basin, spanning 2300 km at its broadest. Nestled within the Mare Tyrrhenum quadrangle, this region beckons explorers to its distinctive charm. A portrait of heavily cratered highlands and rugged landscapes, it embodies the essence of Martian terrae in the southern hemisphere. Notably, the landscape unveils significant formations like Tyrrhena Patera, a vestige of the ancient past, and captivating features like Herschel crater, Licus Vallis, and Ausonia Montes. The canvas tells tales of channels and dunes, imprinted vividly through captured images.",
-    "coordinates": {
-      "latitude": 15.0,
-      "longitude": 270.0
-    },
-    "coordinatesForShow": {
-      "latitude": "15.0°S",
-      "longitude": "270.0°E"
-    },
-
-
-    "photo1": "https://i.ibb.co/jZyCcpq/380px-Wikibriaultdunes.jpg",
-    "photo2": "https://i.ibb.co/HtHPQkC/380px-ESP-037844-1690dunes.jpg",
-    "photo3": "https://i.ibb.co/f8zPq98/380px-Wikiesp-035761-1520layers.jpg"
-  },
-
-  {
-    "id": 29,
-    "type": "Highlands",
-    "name": "Xanthe Terra",
-    "topographicalgroup": "Highlands",
-    "location": "North of the equator",
-    "details": "Xanthe Terra, poised near Mars' equator, stretches across approximately 1867.65 km, revealing its distinctive expanse. The name, signifying 'golden-yellow land,' mirrors its captivating terrain. Within the Lunae Palus, Coprates, Margaritifer Sinus, and Oxia Palus quadrangles, Xanthe Terra unfolds its treasures. Ravi Vallis, Aromatum Chaos, and myriad craters grace this realm, marking its signature. Captured through lenses like Mars Express, Mars Global Surveyor, and Mars Reconnaissance Orbiter, ancient river valleys and deltas are unveiled, draped in delicate layers. Evidencing thin deposits, Xanthe Terra hints at bygone precipitation in Mars' early days.",
-
-    "coordinates": {
-      "latitude": 3.0,
-      "longitude": 48.0
-    },
-    "coordinatesForShow": {
-      "latitude": "3.0°N",
-      "longitude": "48.0°E"
-    },
-
-    
-
-    "photo1": "https://i.ibb.co/r2bzvvj/images.jpg",
-    "photo2": "https://i.ibb.co/SnT3gpN/Alluvial-Fans-in-Mojave-Crater.jpg",
-    "photo3": "https://i.ibb.co/CJsmkj6/380px-Wikiarabiaboundaries.jpg"
-  }
+        "photo1": "https://i.ibb.co/r2bzvvj/images.jpg",
+        "photo2": "https://i.ibb.co/SnT3gpN/Alluvial-Fans-in-Mojave-Crater.jpg",
+        "photo3": "https://i.ibb.co/CJsmkj6/380px-Wikiarabiaboundaries.jpg"
+    }
 ]
