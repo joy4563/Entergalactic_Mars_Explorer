@@ -161,7 +161,7 @@ function showInfo(point) {
 
     
             </div>
-           <div class="ml-[340px] w-[200px] text-3xl"> ${point.name}</div>
+           <div class="ml-[18vw] w-[400px] text-3xl text-center font-mono font-bold mt-5" id="pointName"> ${point.name}</div>
         </div>
        
         <div id="showDateTime"> </div>
@@ -186,9 +186,30 @@ function showInfo(point) {
               </div>
             </div>
             <div class="custom-scrollbar border flex w-[357px] -ml-[2px] border-white p-3 rounded-[15px] m-4 h-[200px] text-center py-3 overflow-x-scroll  custom-scrollbar">
-            <img src=" ${point.total.photo1}" alt="" class="w-[350px] h-[185] mr-2"/>
-            <img src=" ${point.total.photo2}"  alt=""  class="w-[350px] h-[185] mr-2"/>
-            <img src=" ${point.total.photo3}"  alt=""  class="w-[350px] h-[185] mr-2"/>
+            <div class="carousel  w-[357px] rounded-lg">
+            <div id="slide1" class="carousel-item relative w-[330px]">
+              <img src="${point.total.photo1}" class="w-[380px] h-[180px] rounded-[15px]" />
+              <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
+                <a href="#slide3" class="btn btn-circle">❮</a>
+                <a href="#slide2" class="btn btn-circle">❯</a>
+              </div>
+            </div>
+            <div id="slide2" class="carousel-item relative w-[330px]">
+              <img src="${point.total.photo2}" class="w-[380px] h-[180px] rounded-[15px]" />
+              <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
+                <a href="#slide1" class="btn btn-circle">❮</a>
+                <a href="#slide3" class="btn btn-circle">❯</a>
+              </div>
+            </div>
+            <div id="slide3" class="carousel-item relative w-[330px]">
+              <img src="${point.total.photo1}" class="w-[380px] h-[180px] rounded-[15px]" />
+              <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
+                <a href="#slide2" class="btn btn-circle">❮</a>
+                <a href="#slide1" class="btn btn-circle">❯</a>
+              </div>
+            </div>
+
+          </div>
             </div>
 
                  
@@ -215,9 +236,8 @@ function showInfo(point) {
                 document.getElementById("new").innerHTML += `<p> ${
                     messages[checkbox.value]
                 }</p>`;
-                document.getElementById("detail").style.display= 'none';
-                document.getElementById("img").style.width= "500px";
-                
+                document.getElementById("detail").style.display = "none";
+                document.getElementById("img").style.width = "500px";
             } else {
                 const text = document.getElementById("new").innerHTML;
                 const value = messages[checkbox.value];
@@ -227,7 +247,7 @@ function showInfo(point) {
                         ""
                     );
                 }
-                document.getElementById("detail").style.display= 'block';
+                document.getElementById("detail").style.display = "block";
             }
         });
     });
