@@ -166,14 +166,28 @@ function showInfo(point) {
                 <div id="detail" class=" h-[120px] mt-2  mb-3 overflow-y-scroll  custom-scrollbar" >
                     <p> Details: ${point.total.details}</p>
                 </div>
+              </div>
+              <div id="slide2" class="carousel-item relative w-full">
+                <img src=${point.total.photo2} class="w-[300px] h-[180px] rounded-[15px]" />
+                <div class=" absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
+                  <a href="#slide1" class="btn btn-circle">❮</a>
+                  <a href="#slide3" class="btn btn-circle">❯</a>
                 </div>
-                <div class="border border-white px-3 rounded-[15px] m-4 h-[200px] text-center py-3">
-                    <img id="img" src=${point.total.photo1} alt="image" class="w-[380px] h-[180px] rounded-[15px]">
+              </div>
+              <div id="slide3" class="carousel-item relative w-full">
+                <img src=${point.total.photo3} class="w-[300px] h-[180px] rounded-[15px]" />
+                <div class=" absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
+                  <a href="#slide2" class="btn btn-circle">❮</a>
+                  <a href="#slide1" class="btn btn-circle">❯</a>
                 </div>
-                <br>
+              </div>
+
             </div>
+          </div>
+          <br>
         </div>
-    </div>`;
+      </div>
+    `;
 
     const messages = {
         option1: "This is message 1",
