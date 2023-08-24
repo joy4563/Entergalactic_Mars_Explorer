@@ -112,46 +112,51 @@ function showInfo(point) {
                     <ul class="rounded-full shadow-md text-sm">
                         <li class="px-3 py-2   ">
                             <div class="flex">
-                               <div class="border-2 py-2 px-4 border-gray-300 hover:bg-blue-400 hover:text-white cursor-pointer rounded-lg text-xl font-semibold" onclick="handleClickLocation()" id="locationBtn">Location</div>
+                               <div class="bg-red-400 border-2 py-2 px-4 border-gray-300 hover:bg-blue-400 hover:text-white cursor-pointer rounded-lg text-sm font-mono font-semibold" onclick="handleClickLocation()" id="locationBtn">Location</div>
 
                                 <div
-                                    class=" border-2 py-2 px-4 border-gray-300 hover:bg-blue-400 hover:text-white cursor-pointer mx-3 rounded-lg text-xl font-semibold" onclick="handleClickTourisom()">
+                                    class=" border-2 py-2 px-4 border-gray-300 hover:bg-blue-400 hover:text-white cursor-pointer mx-3 rounded-lg text-sm font-mono font-semibold" onclick="handleClickTourisom()">
                                     Tourisom</div>
                                 <div
-                                    class=" border-2 py-2 px-4 border-gray-300 hover:bg-blue-400 hover:text-white cursor-pointer rounded-lg text-xl font-semibold" onclick="handleClickMaps()">
+                                    class=" border-2 py-2 px-4 border-gray-300 hover:bg-blue-400 hover:text-white cursor-pointer rounded-lg text-sm font-mono font-semibold" onclick="handleClickMaps()">
                                     Topography</div>
                             </div>
                         </li>
                         <ul id="onClickChangeContainer">
-                        <li
-                            class="bg-red-400 px-4 py-2 hover:bg-blue-400 hover:text-white cursor-pointer border border-white mx-3 my-2">
-                            <a href="">Ice Water</a></li>
-                        <li
-                            class="px-4 py-2 hover:bg-blue-400 hover:text-white cursor-pointer border border-white mx-3 my-2">
-                            <a href="../../index.html">Original Map</a></li>
-                        <li
-                            class="px-4 py-2 hover:bg-blue-400 hover:text-white cursor-pointer border border-white mx-3 my-2">
-                            <a href="../TopographicalMap/TopographicalMap.html">Topographical Map</a></li>
-                        <li
-                            class="px-4 py-2 hover:bg-blue-400 hover:text-white cursor-pointer border border-white mx-3 my-2">
-                            <a href="../TempMap/TempMap.html">Temp Map</a></li>
-                        <li
-                            class="px-4 py-2 hover:bg-blue-400 hover:text-white cursor-pointer border border-white mx-3 my-2">
-                            <a href="./maps/TopographicalMap/TopographicalMap.html">Rover Map</a></li>
-                        <li
-                            class="px-4 py-2 hover:bg-blue-400 hover:text-white cursor-pointer border border-white mx-3 my-2">
-                            <a href="./Rover/rover.html">Rover</a></li>
-                        <li
-                            class="px-4 py-2 hover:bg-blue-400 hover:text-white cursor-pointer border border-white mx-3 my-2">
+                     
+                            <li
+                            class=" px-4 py-2 w-[340px] rounded-lg hover:bg-blue-400 hover:text-white cursor-pointer border border-white mx-3 my-2">
+                            <a href="../../index.html">Original Map</a>
+                          </li>
+                          <li class=" px-4 py-2 hover:bg-blue-400 w-[340px] rounded-lg hover:text-white cursor-pointer border border-white mx-3 my-2">
+                            <a href="../../maps/TempMap/TempMap.html">Temp Map</a>
+                          </li>
+                          <li class="py-2 pl-4 w-[340px] rounded-lg hover:bg-blue-400 hover:text-white cursor-pointer border border-white mx-3 my-2">
+                            <a href="../../maps/TopographicalMap/TopographicalMap.html">Topographical Map</a>
+                          </li>
+                          <li class="bg-red-400 px-4 py-2 w-[340px] rounded-lg hover:bg-blue-400 hover:text-white cursor-pointer border border-white mx-3 my-2">
+                            <a href="../../maps/IceWaterMap/IceWater.html">Water ICE</a>
+                          </li>
+                          <li class="px-4 py-2 w-[340px] hover:bg-blue-400 hover:text-white cursor-pointer border border-white mx-3 my-2">
+                            <a href="../../maps/TopographicalMap/TopographicalMap.html">Rover Map</a>
+                          </li>
+                          </li>
+                          <li class="my-5 ml-3">
+                            <a href="../../Rover/middle.html"
+                              class="py-[10px] pl-[10px] pr-[295px] rounded-lg hover:bg-blue-400 hover:text-white cursor-pointer border border-white">Rover</a>
+                          </li>
+                          <li
+                            class="px-4 py-2 rounded-lg w-[340px] hover:bg-blue-400 hover:text-white cursor-pointer border border-white mx-3 my-2">
                             Orbiter</li>
-                        <li
-                            class="px-4 py-2 hover:bg-blue-400 hover:text-white cursor-pointer border border-white mx-3 my-2">
-                            <a href="../../Ingenuity/Ingenuity.html">Ingenuity</a></li>
+                          <li class="px-4 py-2 hover:bg-blue-400 w-[340px] rounded-lg hover:text-white cursor-pointer border border-white mx-3 my-2">
+                            <a href="../../Ingenuity/Ingenuity.html">Ingenuity</a>
+                          </li>
                         </ul>
                     </ul>
                 
     
             </div>
+            <div class="ml-[340px] w-[200px] text-3xl"> ${point.name}</div>
         </div>
         <div id="showDateTime"></div>
           <div class="col-start-8 col-end-12 max-w-[400px] mt-10 pr-10" id="showInfo">
@@ -166,8 +171,10 @@ function showInfo(point) {
                     <p> Details: ${point.total.details}</p>
                 </div>
                 </div>
-                <div class="border border-white px-3 rounded-[15px] m-4 h-[200px] text-center py-3">
-                    <img id="img" src=${point.total.photo1} alt="image" class="w-[380px] h-[180px] rounded-[15px]">
+                <div class="custom-scrollbar border flex w-[357px] -ml-[2px] border-white p-3 rounded-[15px] m-4 h-[200px] text-center py-3 overflow-x-scroll  custom-scrollbar">
+                <img src=" ${point.total.photo1}" alt="" class="w-[350px] h-[185] mr-2"/>
+                <img src=" ${point.total.photo2}"  alt=""  class="w-[350px] h-[185] mr-2"/>
+                <img src=" ${point.total.photo3}"  alt=""  class="w-[350px] h-[185] mr-2"/>
                 </div>
                 <br>
             </div>
