@@ -1,16 +1,16 @@
 import * as THREE from "three";
 
-import { MarkedPoints, Point } from "./data/LocalData";
-import { DataFetcher } from "./data/APIDataFetcher.js";
-import { MySphere } from "./SphereMarker.js";
-import { MyCanvas } from "./MyCanvas";
-import { Colors } from "/Color";
+import { MarkedPoints, Point } from "../../data/LocalData.js";
+import { DataFetcher } from "../../data/APIDataFetcher.js";
+import { MySphere } from "../../SphereMarker.js";
+import { MyCanvas } from "../../MyCanvas.js";
+import { Colors } from "../../Color.js";
 
 let scene, camera, renderer;
 const canvas = new MyCanvas(window);
 
 scene = canvas.scene;
-canvas.setBackgroundEXR("/BackgroundDemo/starmap_2020_4k.exr");
+// canvas.setBackgroundEXR("/BackgroundDemo/starmap_2020_4k.exr");
 camera = canvas.camera;
 renderer = canvas.renderer;
 canvas.init(document);
@@ -22,7 +22,7 @@ scene.add(cube);
 
 canvas.init(document);
 
-const sphere = new MySphere(2, 320, 160, "./mars8k.jpg");
+const sphere = new MySphere(2, 320, 160, "../../mars8k.jpg");
 scene.add(sphere.sphere);
 camera.position.z = 5;
 
@@ -86,7 +86,8 @@ canvas.gameLoop(() => {
 // }
 
 function showInfo(point) {
-    // console.log(point);
+    console.log("clicked");
+    console.log(point);
     // console.log(point.total);
     let infoDiv = document.getElementById("info");
     let location = document.getElementById("locationBtn");
@@ -130,7 +131,7 @@ function showInfo(point) {
             </li>
             <ul id="onClickChangeContainer">
               <li
-                class="bg-red-400 px-4 py-2 w-[340px] rounded-lg hover:bg-blue-400 hover:text-white cursor-pointer border border-white mx-3 my-2">
+                class=" px-4 py-2 w-[340px] rounded-lg hover:bg-blue-400 hover:text-white cursor-pointer border border-white mx-3 my-2">
                 <a href="">Original Map</a>
               </li>
               <li class="px-4 py-2 w-[340px] rounded-lg hover:bg-blue-400 hover:text-white cursor-pointer border border-white mx-3 my-2">
@@ -142,12 +143,8 @@ function showInfo(point) {
               <li class="px-4 py-2 w-[340px] rounded-lg hover:bg-blue-400 hover:text-white cursor-pointer border border-white mx-3 my-2">
                 <a href="./maps/IceWaterMap/IceWater.html">Water ICE</a>
               </li>
-              <li class="px-4 py-2 w-[340px] rounded-lg hover:bg-blue-400 hover:text-white cursor-pointer border border-white mx-3 my-2">
-<<<<<<< HEAD
-                <a href="./maps/RovarMap/RovarMap.html">Rover Map</a>
-=======
+              <li class="px-4 py-2 w-[340px] rounded-lg hover:bg-blue-400 hover:text-white cursor-pointer border border-white mx-3 my-2 bg-red-400">
                 <a href="./maps/roverMap/roverMap.html">Rover Map</a>
->>>>>>> joy
               </li>
               </li>
               <li class="my-5 ml-3">
@@ -174,38 +171,15 @@ function showInfo(point) {
           <div class="border border-white py-3 px-4 rounded-[15px] mt-4">
             <p> Type: ${point.total.type}</p>
             <p> Location: ${point.total.location}</p>
-            <p> Lat: ${point.total.coordinates.latitude}</p>
-            <p> Lon: ${point.total.coordinates.longitude}</p>
+            <p> Total Working Days: ${point.total.TotalWorkingDays}</p>
+            <p> Current Status: ${point.total.CurrentStatus}</p>
             <div id="detail" class=" h-[120px] mt-2  mb-3 overflow-y-scroll  custom-scrollbar text-justify">
               <p> Details: ${point.total.details}</p>
             </div>
           </div>
          
           <div class="custom-scrollbar border flex w-[357px] -ml-[2px] border-white p-3       rounded-[15px] m-4 h-[200px] text-center py-3 overflow-x-scroll  custom-scrollbar">
-          <div class="carousel  w-[357px] rounded-lg">
-            <div id="slide1" class="carousel-item relative w-[330px]">
-              <img src="${point.total.photo1}" class="w-[380px] h-[180px] rounded-[15px]" />
-              <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
-                <a href="#slide3" class="btn btn-circle">❮</a>
-                <a href="#slide2" class="btn btn-circle">❯</a>
-              </div>
-            </div>
-            <div id="slide2" class="carousel-item relative w-[330px]">
-              <img src="${point.total.photo2}" class="w-[380px] h-[180px] rounded-[15px]" />
-              <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
-                <a href="#slide1" class="btn btn-circle">❮</a>
-                <a href="#slide3" class="btn btn-circle">❯</a>
-              </div>
-            </div>
-            <div id="slide3" class="carousel-item relative w-[330px]">
-              <img src="${point.total.photo1}" class="w-[380px] h-[180px] rounded-[15px]" />
-              <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
-                <a href="#slide2" class="btn btn-circle">❮</a>
-                <a href="#slide1" class="btn btn-circle">❯</a>
-              </div>
-            </div>
-
-          </div>
+          <img src="${point.total.photo}" class="w-[380px] h-[180px] rounded-[15px]" />
               </div>
 
             </div>
@@ -226,9 +200,8 @@ function showInfo(point) {
                 document.getElementById("new").innerHTML += `<p> ${
                     messages[checkbox.value]
                 }</p>`;
-                document.getElementById("detail").style.display= 'none';
-                document.getElementById("img").style.width= "500px";
-                
+                document.getElementById("detail").style.display = "none";
+                document.getElementById("img").style.width = "500px";
             } else {
                 const text = document.getElementById("new").innerHTML;
                 const value = messages[checkbox.value];
@@ -238,7 +211,7 @@ function showInfo(point) {
                         ""
                     );
                 }
-                document.getElementById("detail").style.display= 'block';
+                document.getElementById("detail").style.display = "block";
             }
         });
     });
@@ -275,5 +248,5 @@ function apiDataDemo() {
         });
     });
 
-    dataFetcher.fetchData("./data/most_interesting_places.json");
+    dataFetcher.fetchData("../../data/roverPosition.json");
 }
