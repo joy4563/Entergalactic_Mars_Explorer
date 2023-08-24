@@ -35,9 +35,9 @@
       "longitude": "59.2°W"
     },
 
-    "photo1": "./Experimental/Pictures/Valles_Marineris/Mars_Valles_Marineris.jpeg",
-    "photo2": "./Experimental/Pictures/Valles_Marineris/1600px-016vallesmarineris.jpg",
-    "photo3": "./Experimental/Pictures/Valles_Marineris/Valles_Marineris_NASA_World_Wind_map_Mars.jpg"
+    "photo1": "https://ibb.co/LxqyGHg",
+    "photo2": "https://ibb.co/bF47YDZ",
+    "photo3": "https://ibb.co/sjxXKBd"
   },
   {
     "id": 3,
@@ -55,9 +55,10 @@
       "longitude": "70.5°E"
     },
 
-    "photo1": "./Experimental/Pictures/Hellas_Planitaia/520px-Hellas_Planitia_by_the_Viking_orbiters.jpg",
-    "photo2": "./Experimental/Pictures/Hellas_Planitaia/520px-Hellas_MOLA_zoom_64_medium.jpg",
-    "photo3": ".Experimental/Pictures/Hellas_Planitaia/maxresdefault.jpg"
+
+    "photo1": "https://ibb.co/7kKq1gB",
+    "photo2": "https://ibb.co/RTRXsKf",
+    "photo3": "https://ibb.co/b6XMY6Z"
   },
   {
     "id": 4,
@@ -75,9 +76,11 @@
       "longitude": "316.0°E"
     },
 
-    "photo1": "./Experimental/Pictures/Argyre_Planitia/965px-Mars_atmosphere.jpg",
-    "photo2": "./Experimental/Pictures/Argyre_Planitia/Gullies_in_the_southern_highlands_of_Mars.jpg",
-    "photo3": "./Experimental/Pictures/Argyre_Planitia/854px-Argyre_MOLA_zoom_64.jpg"
+
+
+    "photo1": "https://i.ibb.co/4WGWvvX/965px-Mars-atmosphere.jpg",
+    "photo2": "https://i.ibb.co/VWVm1PC/Gullies-in-the-southern-highlands-of-Mars.jpg",
+    "photo3": "https://i.ibb.co/KyMq9Y3/854px-Argyre-MOLA-zoom-64.jpg"
   },
   {
     "id": 5,
@@ -95,9 +98,11 @@
       "longitude": "87.0°E"
     },
 
-    "photo1": ".//Experimental/Pictures/Isidis_Planitia/jpegPIA03087.width-1024.jpg",
-    "photo2": ".//Experimental/Pictures/Isidis_Planitia/Syrtis-Isidis_zoom_64_pano.jpg",
-    "photo3": "./Experimental/Pictures/Isidis_Planitia/500px-Isidis_basin_topo.jpg"
+
+
+    "photo1": "https://i.ibb.co/KWq3Mfw/jpeg-PIA03087-width-1024.jpg",
+    "photo2": "https://i.ibb.co/KLmHkYh/Syrtis-Isidis-zoom-64-pano.jpg",
+    "photo3": "https://i.ibb.co/t3h5LFX/500px-Isidis-basin-topo.jpg"
   },
   {
     "id": 6,
@@ -115,9 +120,11 @@
       "longitude": "255.92°E"
     },
 
-    "photo1": "./Experimental/Pictures/Ascraeus_Mons/Ascraeus_Mons_Flank_Terraces.jpg",
-    "photo2": "./Experimental/Pictures/Ascraeus_Mons/Ascraeus_mons_topo.jpg",
-    "photo3": "./Experimental/Pictures/Ascraeus_Mons/Ascraeus_Mons.png"
+
+
+    "photo1": "https://i.ibb.co/JjGLgwD/Ascraeus-Mons-Flank-Terraces.jpg",
+    "photo2": "https://i.ibb.co/gSdgfnQ/Ascraeus-mons-topo.jpg",
+    "photo3": "https://i.ibb.co/GkvgXJL/Ascraeus-Mons.png"
   },
   {
     "id": 7,
@@ -135,9 +142,12 @@
       "longitude": "247.04°E"
     },
 
-    "photo1": "./Experimental/Pictures/Pavonis_Mons/Pavoniscaldeira.jpg",
-    "photo2": "./Experimental/Pictures/Pavonis_Mons/480px-Pavonis_Mons_THEMIS_day_IR_100m_v11_0.5.jpg",
-    "photo3": "./Experimental/Pictures/Pavonis_Mons/Pavonis_mons_topo.jpg"
+
+
+
+    "photo1": "https://i.ibb.co/Xps3mYx/Pavoniscaldeira.jpg",
+    "photo2": "https://i.ibb.co/fGsCgPK/480px-Pavonis-Mons-THEMIS-day-IR-100m-v11-0-5.jpg",
+    "photo3": "https://i.ibb.co/W58zdmB/Pavonis-mons-topo.jpg"
   },
   {
     "id": 8,
@@ -155,9 +165,10 @@
       "longitude": "120.09°W"
     },
 
-    "photo1": "./Experimental/Pictures/Arsia_Mons/380px-PIA13540_-_Layers_in_Martian_volcano_Arsia_Mons.jpg",
-    "photo2": "./Experimental/Pictures/Arsia_Mons/440px-Arsia_Mons_mosaic.jpg",
-    "photo3": "./Experimental/Pictures/Arsia_Mons/Arsia_Mons_PIA02804.jpg"
+
+    "photo1": "https://i.ibb.co/ngrLYGJ/380px-PIA13540-Layers-in-Martian-volcano-Arsia-Mons.jpg",
+    "photo2": "https://i.ibb.co/hRbhDDS/440px-Arsia-Mons-mosaic.jpg",
+    "photo3": "https://i.ibb.co/my3b79F/Arsia-Mons-PIA02804.jpg"
   },
   {
     "id": 9,
@@ -174,10 +185,9 @@
       "latitude": "49.76°N",
       "longitude": "339.26°E"
     },
-
-    "photo1": "./Experimental/Pictures/Acidalia_Planitia/878px-Possible_mud_volcano_on_Acidalia_Planitia_by_HiRISE.jpg",
-    "photo2": "./Experimental/Pictures/Acidalia_Planitia/1280px-24951gullyclose.jpg",
-    "photo3": ".//Experimental/Pictures/Acidalia_Planitia/520px-Acidalia_planitia_topo.jpg"
+    "photo1": "https://i.ibb.co/1nnwbYC/878px-Possible-mud-volcano-on-Acidalia-Planitia-by-Hi-RISE.jpg",
+    "photo2": "https://i.ibb.co/G7BGqGN/1280px-24951gullyclose.jpg",
+    "photo3": "https://i.ibb.co/1dVp5S3/520px-Acidalia-planitia-topo.jpg"
   },
 
   {
@@ -195,10 +205,9 @@
       "latitude": "21°N",
       "longitude": "6°E"
     },
-
-    "photo1": "./Experimental/Pictures/Gale_Crater/1600px-PIA19912-MarsCuriosityRover-MountSharp-20151002.jpg",
-    "photo2": "./Experimental/Pictures/Gale_Crater/MarsCuriosityRover-AncientLake_Estimated_Size.jpg",
-    "photo3": "./Experimental/Pictures/Gale_Crater/400px-Topographic_Map_of_Gale_Crater.jpg"
+    "photo1": "https://i.ibb.co/KGzLKQJ/1600px-PIA19912-Mars-Curiosity-Rover-Mount-Sharp-20151002.jpg",
+    "photo2": "https://i.ibb.co/pJfPBm7/Mars-Curiosity-Rover-Ancient-Lake-Estimated-Size.jpg",
+    "photo3": "https://i.ibb.co/b1vMrLh/400px-Topographic-Map-of-Gale-Crater.jpg"
   },
   {
     "id": 11,
