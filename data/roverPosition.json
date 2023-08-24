@@ -63,7 +63,7 @@
       "name": "Opportunity",
       "location": "Meridiani Planum",
       "TotalWorkingDays": "2014 - Jun 10, 2018",
-      "CurrentCurrentStatus": "Dead",
+      "CurrentStatus": "Dead",
       "details": "Opportunity was a NASA Mars rover launched in 2003. It explored Mars' surface, making significant discoveries about its watery past. It operated for over 14 years, vastly exceeding its intended 90-day mission. Notably, it found evidence of ancient Martian environments conducive to life. Unfortunately, a massive dust storm in 2018 led to its final communication, ending a remarkable journey of exploration.",
       "coordinates": {
         "latitude": -13.9,
