@@ -143,11 +143,7 @@ function showInfo(point) {
                 <a href="./maps/IceWaterMap/IceWater.html">Water ICE</a>
               </li>
               <li class="px-4 py-2 w-[340px] rounded-lg hover:bg-blue-400 hover:text-white cursor-pointer border border-white mx-3 my-2">
-<<<<<<< HEAD
                 <a href="./maps/RovarMap/RovarMap.html">Rover Map</a>
-=======
-                <a href="./maps/roverMap/roverMap.html">Rover Map</a>
->>>>>>> joy
               </li>
               </li>
               <li class="my-5 ml-3">
