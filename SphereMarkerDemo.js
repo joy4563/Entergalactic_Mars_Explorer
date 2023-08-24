@@ -142,13 +142,8 @@ function showInfo(point) {
               <li class="px-4 py-2 w-[340px] rounded-lg   hover:bg-gray-500  hover:bg-opacity-30       hover:text-white cursor-pointer border border-white mx-3 my-2">
                 <a href="./maps/IceWaterMap/IceWater.html">Water ICE</a>
               </li>
-<<<<<<< HEAD
-              <li class="px-4 py-2 w-[340px] rounded-lg hover:bg-blue-400 hover:text-white cursor-pointer border border-white mx-3 my-2">
-                <a href="./maps/RovarMap/RovarMap.html">Rover Map</a>
-=======
               <li class="px-4 py-2 w-[340px] rounded-lg   hover:bg-gray-500  hover:bg-opacity-30       hover:text-white cursor-pointer border border-white mx-3 my-2">
                 <a href="./maps/roverMap/roverMap.html">Rover Map</a>
->>>>>>> joy
               </li>
               </li>
               <li class="my-5 ml-3">
@@ -156,15 +151,9 @@ function showInfo(point) {
                   class="py-[10px] pl-[10px] pr-[295px] rounded-lg   hover:bg-gray-500  hover:bg-opacity-30       hover:text-white cursor-pointer border border-white">Rover</a>
               </li>
               <li
-<<<<<<< HEAD
-                class="px-4 py-2 rounded-lg w-[340px] hover:bg-blue-400 hover:text-white cursor-pointer border border-white mx-3 my-2"> <a href="./Orbiter/Orbiter.html">Orbiter</a>
-                 </li>
-              <li class="px-4 w-[340px] rounded-lg py-2 hover:bg-blue-400 hover:text-white cursor-pointer border border-white mx-3 my-2">
-=======
-                class="px-4 py-2 rounded-lg w-[340px]   hover:bg-gray-500  hover:bg-opacity-30  hover:text-white cursor-pointer border border-white mx-3 my-2">
-                Orbiter</li>
+                class="px-4 py-2 rounded-lg w-[340px]   hover:bg-gray-500  hover:bg-opacity-30  hover:text-white cursor-pointer border border-white mx-3 my-2"> <a href="./Orbiter/Orbiter.html">Orbiter</a>
+                </li>
               <li class="px-4 w-[340px] rounded-lg py-2   hover:bg-gray-500  hover:bg-opacity-30       hover:text-white cursor-pointer border border-white mx-3 my-2">
->>>>>>> joy
                 <a href="./Ingenuity/Ingenuity.html">Ingenuity</a>
               </li>
             </ul>
