@@ -150,14 +150,14 @@ function showInfo(point) {
               </li>
               </li>
               <li class="my-5 ml-3">
-                <a href="./Rover/middle.html"
-                  class="py-[10px] pl-[10px] pr-[295px] rounded-lg   hover:bg-gray-500  hover:bg-opacity-30       hover:text-white cursor-pointer border border-white">Rover</a>
+                <a href="../../Rover/middle.html"
+                  class="py-[10px] pl-[10px] pr-[295px] rounded-lg   hover:bg-gray-500  hover:bg-opacity-30       hover:text-white cursor-pointer border border-white" > Rover</a>
               </li>
               <li
-                class="px-4 py-2 rounded-lg w-[340px]   hover:bg-gray-500  hover:bg-opacity-30       hover:text-white cursor-pointer border border-white mx-3 my-2">
-                Orbiter</li>
+                class="px-4 py-2 rounded-lg w-[340px]   hover:bg-gray-500  hover:bg-opacity-30       hover:text-white cursor-pointer border border-white mx-3 my-2"> <a href="../../Orbiter/Orbiter.html">Orbiter</a>
+                </li>
               <li class="px-4 w-[340px] rounded-lg py-2   hover:bg-gray-500  hover:bg-opacity-30       hover:text-white cursor-pointer border border-white mx-3 my-2">
-                <a href="./Ingenuity/Ingenuity.html">Ingenuity</a>
+                <a href="../../Ingenuity/Ingenuity.html">Ingenuity</a>
               </li>
             </ul>
           </ul>
@@ -265,7 +265,6 @@ function showInfo(point) {
         });
     });
 }
-
 function apiDataDemo() {
     const dataFetcher = new DataFetcher((data) => {
         // console.log(data[0].coordinates.latitude);
