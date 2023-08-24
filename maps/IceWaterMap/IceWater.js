@@ -10,7 +10,7 @@ let scene, camera, renderer;
 const canvas = new MyCanvas(window);
 
 scene = canvas.scene;
-// canvas.setBackgroundEXR("/BackgroundDemo/starmap_2020_4k.exr");
+canvas.setBackgroundEXR("/BackgroundDemo/starmap_2020_4k.exr");
 camera = canvas.camera;
 renderer = canvas.renderer;
 canvas.init(document);
@@ -112,43 +112,43 @@ function showInfo(point) {
                     <ul class="rounded-full shadow-md text-sm">
                         <li class="px-3 py-2   ">
                             <div class="flex">
-                               <div class="bg-red-400 border-2 py-2 px-4 border-gray-300 hover:bg-blue-400 hover:text-white cursor-pointer rounded-lg text-sm font-mono font-semibold" onclick="handleClickLocation()" id="locationBtn">Location</div>
+                               <div class=" bg-orange-600    border-2 py-2 px-4 border-gray-300   hover:bg-gray-500  hover:bg-opacity-30       hover:text-white cursor-pointer rounded-lg text-sm font-mono font-semibold" onclick="handleClickLocation()" id="locationBtn">Location</div>
 
                                 <div
-                                    class=" border-2 py-2 px-4 border-gray-300 hover:bg-blue-400 hover:text-white cursor-pointer mx-3 rounded-lg text-sm font-mono font-semibold" onclick="handleClickTourisom()">
+                                    class=" border-2 py-2 px-4 border-gray-300   hover:bg-gray-500  hover:bg-opacity-30       hover:text-white cursor-pointer mx-3 rounded-lg text-sm font-mono font-semibold" onclick="handleClickTourisom()">
                                     Tourisom</div>
                                 <div
-                                    class=" border-2 py-2 px-4 border-gray-300 hover:bg-blue-400 hover:text-white cursor-pointer rounded-lg text-sm font-mono font-semibold" onclick="handleClickMaps()">
+                                    class=" border-2 py-2 px-4 border-gray-300   hover:bg-gray-500  hover:bg-opacity-30       hover:text-white cursor-pointer rounded-lg text-sm font-mono font-semibold" onclick="handleClickMaps()">
                                     Topography</div>
                             </div>
                         </li>
                         <ul id="onClickChangeContainer">
                      
                             <li
-                            class=" px-4 py-2 w-[340px] rounded-lg hover:bg-blue-400 hover:text-white cursor-pointer border border-white mx-3 my-2">
+                            class=" px-4 py-2 w-[340px] rounded-lg   hover:bg-gray-500  hover:bg-opacity-30       hover:text-white cursor-pointer border border-white mx-3 my-2">
                             <a href="../../index.html">Original Map</a>
                           </li>
-                          <li class=" px-4 py-2 hover:bg-blue-400 w-[340px] rounded-lg hover:text-white cursor-pointer border border-white mx-3 my-2">
+                          <li class=" px-4 py-2   hover:bg-gray-500  hover:bg-opacity-30       w-[340px] rounded-lg hover:text-white cursor-pointer border border-white mx-3 my-2">
                             <a href="../../maps/TempMap/TempMap.html">Temp Map</a>
                           </li>
-                          <li class="py-2 pl-4 w-[340px] rounded-lg hover:bg-blue-400 hover:text-white cursor-pointer border border-white mx-3 my-2">
+                          <li class="py-2 pl-4 w-[340px] rounded-lg   hover:bg-gray-500  hover:bg-opacity-30       hover:text-white cursor-pointer border border-white mx-3 my-2">
                             <a href="../../maps/TopographicalMap/TopographicalMap.html">Topographical Map</a>
                           </li>
-                          <li class="bg-red-400 px-4 py-2 w-[340px] rounded-lg hover:bg-blue-400 hover:text-white cursor-pointer border border-white mx-3 my-2">
+                          <li class=" bg-gray-500  bg-opacity-50  px-4 py-2 w-[340px] rounded-lg   hover:bg-gray-500  hover:bg-opacity-30       hover:text-white cursor-pointer border border-white mx-3 my-2">
                             <a href="../../maps/IceWaterMap/IceWater.html">Water ICE</a>
                           </li>
-                          <li class="px-4 py-2 w-[340px] hover:bg-blue-400 hover:text-white cursor-pointer border border-white mx-3 my-2">
-                            <a href="../../maps/TopographicalMap/TopographicalMap.html">Rover Map</a>
+                          <li class="px-4 py-2 w-[340px]   hover:bg-gray-500  hover:bg-opacity-30   rounded-lg    hover:text-white cursor-pointer border border-white mx-3 my-2">
+                            <a href="../../maps/roverMap/roverMap.html">Rover Map</a>
                           </li>
                           </li>
                           <li class="my-5 ml-3">
                             <a href="../../Rover/middle.html"
-                              class="py-[10px] pl-[10px] pr-[295px] rounded-lg hover:bg-blue-400 hover:text-white cursor-pointer border border-white">Rover</a>
+                              class="py-[10px] pl-[10px] pr-[295px] rounded-lg   hover:bg-gray-500  hover:bg-opacity-30       hover:text-white cursor-pointer border border-white">Rover</a>
                           </li>
                           <li
-                            class="px-4 py-2 rounded-lg w-[340px] hover:bg-blue-400 hover:text-white cursor-pointer border border-white mx-3 my-2">
+                            class="px-4 py-2 rounded-lg w-[340px]   hover:bg-gray-500  hover:bg-opacity-30       hover:text-white cursor-pointer border border-white mx-3 my-2">
                             Orbiter</li>
-                          <li class="px-4 py-2 hover:bg-blue-400 w-[340px] rounded-lg hover:text-white cursor-pointer border border-white mx-3 my-2">
+                          <li class="px-4 py-2   hover:bg-gray-500  hover:bg-opacity-30       w-[340px] rounded-lg hover:text-white cursor-pointer border border-white mx-3 my-2">
                             <a href="../../Ingenuity/Ingenuity.html">Ingenuity</a>
                           </li>
                         </ul>
@@ -162,12 +162,12 @@ function showInfo(point) {
           <div class="col-start-8 col-end-12 max-w-[400px] mt-10 pr-10" id="showInfo">
             <div id="new" class="text-[16px] font-mono">
                 <div class="border border-white py-3 px-4 rounded-[15px] mt-4">
-                <p> Type: ${point.total.type}</p>
-                <p> Location: ${point.total.location}</p>
-                <p> Lat: ${point.total.coordinates.latitude}</p>
-                <p> Lon: ${point.total.coordinates.longitude}</p>
+                <p><span class="font-bold" >Type: </span> ${point.total.type}</p>
+                <p><span class="font-bold" >Location: </span> ${point.total.location}</p>
+                <p><span class="font-bold" >Lat: </span> ${point.total.coordinates.latitude}</p>
+                <p><span class="font-bold" >Lon: </span> ${point.total.coordinates.longitude}</p>
                 <div id="detail" class=" h-[120px] mt-2  mb-3 overflow-y-scroll  custom-scrollbar" >
-                    <p> Details: ${point.total.details}</p>
+                    <p><span class="font-bold" >Details: </span> ${point.total.details}</p>
                 </div>
                 </div>
                 <div class="custom-scrollbar border flex w-[357px] -ml-[2px] border-white p-3 rounded-[15px] m-4 h-[200px] text-center py-3 overflow-x-scroll  custom-scrollbar">
@@ -212,9 +212,8 @@ function showInfo(point) {
                 document.getElementById("new").innerHTML += `<p> ${
                     messages[checkbox.value]
                 }</p>`;
-                document.getElementById("detail").style.display= 'none';
-                document.getElementById("img").style.width= "500px";
-                
+                document.getElementById("detail").style.display = "none";
+                document.getElementById("img").style.width = "500px";
             } else {
                 const text = document.getElementById("new").innerHTML;
                 const value = messages[checkbox.value];
@@ -224,7 +223,7 @@ function showInfo(point) {
                         ""
                     );
                 }
-                document.getElementById("detail").style.display= 'block';
+                document.getElementById("detail").style.display = "block";
             }
         });
     });

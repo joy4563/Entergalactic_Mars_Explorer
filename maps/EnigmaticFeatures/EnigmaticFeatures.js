@@ -10,7 +10,7 @@ let scene, camera, renderer;
 const canvas = new MyCanvas(window);
 
 scene = canvas.scene;
-// canvas.setBackgroundEXR("/BackgroundDemo/starmap_2020_4k.exr");
+canvas.setBackgroundEXR("/BackgroundDemo/starmap_2020_4k.exr");
 camera = canvas.camera;
 renderer = canvas.renderer;
 canvas.init(document);
@@ -91,12 +91,12 @@ function showInfo(point) {
         </div>
 
         <div class="border border-white py-3 px-4 rounded-[15px] mt-4">
-          <p> Type: ${point.total.type}</p>
-          <p> Location: ${point.total.location}</p>
-          <p> Lat: ${point.total.coordinates.latitude}</p>
-          <p> Lon: ${point.total.coordinates.longitude}</p>
+          <p><span class="font-bold" >Type: </span>  ${point.total.type}</p>
+          <p> <span class="font-bold" >Location: </span> ${point.total.location}</p>
+          <p><span class="font-bold" >Lat: </span>  ${point.total.coordinates.latitude}</p>
+          <p><span class="font-bold" >Lon: </span>  ${point.total.coordinates.longitude}</p>
           <div id="detail" class="  mt-2  mb-3 text-justify">
-            <p> Details: ${point.total.details}</p>
+            <p> <span class="font-bold" >Details: </span> ${point.total.details}</p>
           </div>
         </div>
       </div>
