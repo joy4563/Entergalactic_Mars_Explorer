@@ -15,9 +15,9 @@
       "longitude": "226°12°E"
     },
 
-    "photo1": "./Experimental/Pictures/Olympus_Mons/Olympus2.jpg",
-    "photo2": "./Experimental/Pictures/Olympus_Mons/Olympus4.webp",
-    "photo3": "./Experimental/Pictures/Olympus_Mons/Olympus1.jpg"
+    "photo1": "https://i.ibb.co/BqvxSfJ/Olympus2.webp",
+    "photo2": "https://i.ibb.co/BrHfNsm/Olympus4.webp",
+    "photo3": "https://i.ibb.co/mGnFPPd/Olympus1.jpg"
   },
   {
     "id": 2,
@@ -216,9 +216,9 @@
       "longitude": "77.58°E"
     },
 
-    "photo1": "./Experimental/Pictures/Jezero_Crater/jezero-overview.jpg",
-    "photo2": "./Experimental/Pictures/Jezero_Crater/Mastcam-Z's_First_360-Degree_Panorama.jpg",
-    "photo3": "./Experimental/Pictures/Jezero_Crater/jezero-site.jpg"
+    "photo1": "https://i.ibb.co/D88mDj1/jezero-overview.jpg",
+    "photo2": "https://i.ibb.co/SXy3Q80/Mastcam-Z-s-First-360-Degree-Panorama.jpg",
+    "photo3": "https://i.ibb.co/3SPZz59/jezero-site.jpg"
   },
   {
     "id": 12,
@@ -236,9 +236,9 @@
       "longitude": "147.21°E"
     },
 
-    "photo1": "./Experimental/Pictures/Elysiom_Mons/380px-Elysium_Mons_541A44_541A46.jpg",
-    "photo2": "./Experimental/Pictures/Elysiom_Mons/400px-Elysium_Mons_THEMIS.jpg",
-    "photo3": "./Experimental/Pictures/Elysiom_Mons/360px-MOLA_elysium_mons.jpg"
+    "photo1": "https://i.ibb.co/hHzZQyf/380px-Elysium-Mons-541-A44-541-A46.jpg",
+    "photo2": "https://i.ibb.co/5kkpVf0/400px-Elysium-Mons-THEMIS.jpg",
+    "photo3": "https://i.ibb.co/pRjSTFz/360px-MOLA-elysium-mons.jpg"
   },
   {
     "id": 13,
@@ -255,10 +255,9 @@
       "latitude": "8.4°N",
       "longitude": "69.5°E"
     },
-
-    "photo1": "./Experimental/Pictures/Syrtis%20Major/460px-Syrtis_Major_MC-13.jpg",
-    "photo2": "./Experimental/Pictures/Syrtis%20Major/600px-Syrtis-Isidis_zoom_64_pano.jpg",
-    "photo3": "./Experimental/Pictures/Syrtis%20Major/472px-Nili-Meroe_paterae_THEMIS_day_IR_100m_v11.jpg"
+    "photo1": "https://i.ibb.co/C8R3CWm/460px-Syrtis-Major-MC-13.jpg",
+    "photo2": "https://i.ibb.co/r65wdQW/600px-Syrtis-Isidis-zoom-64-pano.jpg",
+    "photo3": "https://i.ibb.co/T0b0CTK/472px-Nili-Meroe-paterae-THEMIS-day-IR-100m-v11.jpg"
   },
   {
     "id": 14,
@@ -276,9 +275,9 @@
       "longitude": "169.65°E"
     },
 
-    "photo1": "./Experimental/Pictures/Olympia_Undaya/PIA24882_fig1.png",
-    "photo2": "./Experimental/Pictures/Olympia_Undaya/26259_PIA24882.jpg",
-    "photo3": "./Experimental/Pictures/Olympia_Undae_Dunes_PIA06848.jpg"
+    "photo1": "https://i.ibb.co/52PRt1G/PIA24882-fig1.png",
+    "photo2": "https://i.ibb.co/180gc57/26259-PIA24882.jpg",
+    "photo3": "https://i.ibb.co/gMkwQs9/Olympia-Undae-Dunes-PIA06848.jpg"
   },
   {
     "id": 15,
@@ -295,10 +294,10 @@
       "latitude": "24.8°N",
       "longitude": "196.0°E"
     },
-
-    "photo1": "./Experimental/Pictures/Amazonis_Planitia/380px-54850_1900ridgesclosecolor.jpg",
-    "photo2": "./Experimental/Pictures/Amazonis_Planitia/36745_1905lridgesshort.jpg",
-    "photo3": "./Experimental/Pictures/Amazonis_Planitia/400px-Amazonis_planitia_topo.jpg"
+    
+    "photo1": "https://i.ibb.co/8BKXQy6/380px-54850-1900ridgesclosecolor.jpg",
+    "photo2": "https://i.ibb.co/cFX36Yh/36745-1905lridgesshort.jpg",
+    "photo3": "https://i.ibb.co/gF2qhMz/400px-Amazonis-planitia-topo.jpg"
   },
   {
     "id": 16,
@@ -315,10 +314,9 @@
       "latitude": "0°N",
       "longitude": "260°E"
     },
-
-    "photo1": "./Experimental/Pictures/Tharsis/440px-Clouds_over_lava_flows_on_Mars_ESA384876.jpg",
-    "photo2": "./Experimental/Pictures/Tharsis/440px-Tharsis-PIA02049.jpg",
-    "photo3": "./Experimental/Pictures/Tharsis/600px-Tharsis_-_Valles_Marineris_MOLA_shaded_colorized_zoom_32.jpg"
+    "photo1": "https://i.ibb.co/W3YL6S3/440px-Clouds-over-lava-flows-on-Mars-ESA384876.jpg",
+    "photo2": "https://i.ibb.co/vV4NXRQ/440px-Tharsis-PIA02049.jpg",
+    "photo3": "https://i.ibb.co/mvmZks6/600px-Tharsis-Valles-Marineris-MOLA-shaded-colorized-zoom-32.jpg"
   },
   {
     "id": 17,
@@ -335,11 +333,9 @@
       "latitude": "21°N",
       "longitude": "6°E"
     },
-
-    "photo1": "./Experimental/Pictures/Arabia_Terra/Oxus_Patera,_a_caldera_on_Mars.jpg",
-    "photo2": "./Experimental/Pictures/Arabia_Terra/500px-Eden_Patera_THEMIS_day_IR.jpg",
-
-    "photo3": "./Experimental/Pictures/Arabia_Terra/380px-WikiESP_039997_2170channels.jpg"
+    "photo1": "https://i.ibb.co/q0tRQjK/Oxus-Patera-a-caldera-on-Mars.jpg",
+    "photo2": "https://i.ibb.co/j6DTxb4/500px-Eden-Patera-THEMIS-day-IR.jpg",
+    "photo3": "https://i.ibb.co/FzJCkPs/380px-Wiki-ESP-039997-2170channels.jpg"
   },
   {
     "id": 18,
@@ -357,9 +353,9 @@
       "longitude": "350°E"
     },
 
-    "photo1": "./Experimental/Pictures/Noachis_Terra/Dunes_of_Mars.jpg",
-    "photo2": "./Experimental/Pictures/Noachis_Terra/380px-Exhumed_crater_in_Noachis.jpeg",
-    "photo3": "./Experimental/Pictures/Noachis_Terra/380px-40974_1395gullies.jpg"
+    "photo1": "https://i.ibb.co/F8h42hd/Dunes-of-Mars.jpg",
+    "photo2": "https://i.ibb.co/DQ13xSm/380px-40974-1395gullies.jpg",
+    "photo3": "https://i.ibb.co/Q93sz0R/380px-Exhumed-crater-in-Noachis.jpg"
   },
   {
     "id": 19,
@@ -376,10 +372,10 @@
       "latitude": "67°N",
       "longitude": "208°E"
     },
-
-    "photo1": "./Experimental/Pictures/Borealis_Basin/MarsLomonosovCraterWinter.jpg",
-    "photo2": "./Experimental/Pictures/Borealis_Basin/700px-Mars_topography_(MOLA_dataset)_with_poles_HiRes.jpg",
-    "photo3": "./Experimental/Pictures/Borealis_Basin/700px-Mars_topography_(MOLA_dataset)_with_poles_HiRes.jpg"
+    
+    "photo1": "https://i.ibb.co/XZggY0q/700px-Mars-topography-MOLA-dataset-with-poles-Hi-Res.jpg",
+    "photo2": "https://i.ibb.co/09M4pNR/Mars-Lomonosov-Crater-Winter.jpg",
+    "photo3": ".https://i.ibb.co/XZggY0q/700px-Mars-topography-MOLA-dataset-with-poles-Hi-Resjpg"
   },
   {
     "id": 20,
@@ -396,9 +392,9 @@
       "latitude": "62.0°S",
       "longitude": "100.0°E"
     },
-    "photo1": "./Experimental/Pictures/AoniaTerra/440px-Lowell_crater_PIA02836.jpg",
-    "photo2": "./Experimental/Pictures/AoniaTerra/440px-Wikimolaargyre.jpg",
-    "photo3": "./Experimental/Pictures/AoniaTerra/Wikilau.jpg"
+    "photo1": "https://i.ibb.co/w7MBRXK/440px-Lowell-crater-PIA02836.jpg",
+    "photo2": "https://i.ibb.co/XDhwHmm/440px-Wikimolaargyre.jpg",
+    "photo3": "https://i.ibb.co/z2HWP4X/Wikilau.jpg"
   },
   {
     "id": 21,
@@ -415,9 +411,10 @@
       "latitude": "35.0°S",
       "longitude": "215.0°E"
     },
-    "photo1": "./Experimental/Pictures/TerraCimmeria/600px-Wikiterracimmeriaboundaries.jpg",
-    "photo2": "./Experimental/Pictures/TerraCimmeria/Gully_in_Phaethontis.jpg",
-    "photo3": "./Experimental/Pictures/TerraCimmeria/380px-2509gulliesclosenew"
+
+    "photo1": "https://i.ibb.co/j5KZSF3/600px-Wikiterracimmeriaboundaries.jpg",
+    "photo2": "https://i.ibb.co/FJpzwkH/Gully-in-Phaethontis.jpg",
+    "photo3": "    https://i.ibb.co/GkQwhq9/380px-2509gulliesclosenew.jpg"
   },
   {
     "id": 22,
@@ -434,9 +431,10 @@
       "latitude": "5.0°S",
       "longitude": "25.0°E"
     },
-    "photo1": "./Experimental/Pictures/MargaritiferTerra/440px-Wikimolaargyre.jpg",
-    "photo2": "./Experimental/Pictures/MargaritiferTerra/24807whitebuttei.jpg",
-    "photo3": "./Experimental/Pictures/MargaritiferTerra/380px-26996layeredwhitebuttes.jpg"
+
+    "photo1": "https://i.ibb.co/XDhwHmm/440px-Wikimolaargyre.jpg",
+    "photo2": "https://i.ibb.co/ZxwcKZ4/24807whitebuttei.jpg",
+    "photo3": "https://i.ibb.co/vmcWWFG/380px-26996layeredwhitebuttes.jpg"
   },
 
   {
@@ -455,9 +453,9 @@
       "longitude": "208.0°E"
     },
 
-    "photo1": "./Experimental/Pictures/NorthPolarBasin/MarsLomonosovCraterWinter.jpg",
-    "photo2": "./Experimental/Pictures/NorthPolarBasin/Mars_topography_(MOLA_dataset)_with_poles_HiRes",
-    "photo3": "./Experimental/Pictures/NorthPolarBasin/MarsLomonosovCraterWinter.jpg"
+    "photo1": "https://i.ibb.co/09M4pNR/Mars-Lomonosov-Crater-Winter.jpg",
+    "photo2": "https://i.ibb.co/W3SYfbY/Mars-topography-MOLA-dataset-with-poles-Hi-Res.jpg",
+    "photo3": "https://i.ibb.co/09M4pNR/Mars-Lomonosov-Crater-Winter.jpg"
   },
 
   {
@@ -475,9 +473,10 @@
       "latitude": "58.0°S",
       "longitude": "260.0°E"
     },
-    "photo1": "./Experimental/Pictures/PrometheiTerra/ESP_020319flowsclose-up.jpg",
-    "photo2": "./Experimental/Pictures/PrometheiTerra/500px-Wikiterracimmeriaboundaries.jpg",
-    "photo3": "./Experimental/Pictures/PrometheiTerra/500px-Wikimolasouthpole.jpg"
+
+    "photo1": "https://i.ibb.co/nmmBgKj/ESP-020319flowsclose-up.jpg",
+    "photo2": "https://i.ibb.co/HDfcQ0S/500px-Wikiterracimmeriaboundaries.jpg",
+    "photo3": "https://i.ibb.co/sKj1wyb/500px-Wikimolasouthpole.jpg"
   },
 
   {
@@ -495,9 +494,9 @@
       "latitude": "2.0°N",
       "longitude": "318.0°E"
     },
-    "photo1": "./Experimental/Pictures/TerraSabaea/600px-Wikiarabiaboundaries.jpg",
-    "photo2": "./Experimental/Pictures/TerraSabaea/380px-Wikielephantglacier.jpg",
-    "photo3": "./Experimental/Pictures/TerraSabaea/234px-Glacier_as_seen_by_ctx.jpeg"
+    "photo1": "https://i.ibb.co/mtGTSwW/600px-Wikiarabiaboundaries.jpg",
+    "photo2": "https://i.ibb.co/7yD3GzQ/380px-Wikielephantglacier.jpg",
+    "photo3": "https://i.ibb.co/JQyFCFc/234px-Glacier-as-seen-by-ctx.jpg"
   },
 
   {
@@ -515,9 +514,9 @@
       "latitude": "40.0°S",
       "longitude": "150.0°E"
     },
-    "photo1": "./Experimental/Pictures/TerraSirenum/Ridge_in_crater_in_Terra_Sirenum.JPG",
-    "photo2": "./Experimental/Pictures/TerraSirenum/440px-Wikimolaargyre.jpg",
-    "photo3": "./Experimental/Pictures/TerraSirenum/236px-Wide_view_of_gully_on_hill.jpeg"
+    "photo1": "https://i.ibb.co/mtTdLSQ/Ridge-in-crater-in-Terra-Sirenum.jpg",
+    "photo2": "https://i.ibb.co/XDhwHmm/440px-Wikimolaargyre.jpg",
+    "photo3": "https://i.ibb.co/4RjQtQQ/236px-Wide-view-of-gully-on-hill.jpg"
   },
 
   {
@@ -535,9 +534,10 @@
       "latitude": "40.0°N",
       "longitude": "71.0°E"
     },
-    "photo1": "./Experimental/Pictures/TempeTerra/380px-ESP_025771variousgullies.jpg",
-    "photo2": "./Experimental/Pictures/TempeTerra/380px-ESP_025336channels.jpg",
-    "photo3": "./Experimental/Pictures/TempeTerra/500px-Wikimolaamazonisarcadia.jpg"
+
+    "photo1": "https://i.ibb.co/yXTQtGQ/380px-ESP-025771variousgullies.jpg",
+    "photo2": "https://i.ibb.co/5FPNG9y/380px-ESP-025336channels.jpg",
+    "photo3": "https://i.ibb.co/L0ch8MV/500px-Wikimolaamazonisarcadia.jpg"
   },
 
   {
@@ -555,9 +555,11 @@
       "latitude": "15.0°S",
       "longitude": "270.0°E"
     },
-    "photo1": "./Experimental/Pictures/TyrrhenaTerra/380px-Wikibriaultdunes.jpg",
-    "photo2": "./Experimental/Pictures/TyrrhenaTerra/380px-ESP_037844_1690dunes.jpg",
-    "photo3": "./Experimental/Pictures/TyrrhenaTerra/380px-Wikiesp_035761_1520layers.jpg"
+
+
+    "photo1": "https://i.ibb.co/jZyCcpq/380px-Wikibriaultdunes.jpg",
+    "photo2": "https://i.ibb.co/HtHPQkC/380px-ESP-037844-1690dunes.jpg",
+    "photo3": "https://i.ibb.co/f8zPq98/380px-Wikiesp-035761-1520layers.jpg"
   },
 
   {
@@ -576,8 +578,11 @@
       "latitude": "3.0°N",
       "longitude": "48.0°E"
     },
-    "photo1": "./Experimental/Pictures/XantheTerra/images.jpeg",
-    "photo2": "./Experimental/Pictures/XantheTerra/Alluvial_Fans_in_Mojave_Crater.jpg",
-    "photo3": "./Experimental/Pictures/XantheTerra/380px-Wikiarabiaboundaries.jpg"
+
+    
+
+    "photo1": "https://i.ibb.co/r2bzvvj/images.jpg",
+    "photo2": "https://i.ibb.co/SnT3gpN/Alluvial-Fans-in-Mojave-Crater.jpg",
+    "photo3": "https://i.ibb.co/CJsmkj6/380px-Wikiarabiaboundaries.jpg"
   }
 ]
