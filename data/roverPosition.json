@@ -1,63 +1,68 @@
 [
     {
       "id": 1,
+      "type":"Rover",
       "name": "Perseverance",
-      "location": "Tharsis",
-      "status": "active",
+      "location": "Jezero Crater",
+      "TotalWorkingDays":"Feb 18, 2021 - Current",
+      "CurrentStatus": "active",
       "details": "Unveil the marvel of Olympus Mons, Mars' colossal volcano and second-highest peak. Soaring to 21.9 km (13.6 mi or 72,000 ft), it dwarfs Mount Everest. Forged in the Hesperian Period, its form was sculpted by Amazonian eruptions. Eclipsing Mars' datum by 21 km (13 mi), it extends an invitation to daring explorers. Embark on an otherworldly journey, unveiling the universe's wonders etched upon its fiery terrain.",
       "coordinates": {
-        "latitude": 18.65,
-        "longitude": 226.2
+        "latitude": 17.361,
+        "longitude": 18.48
       },
       "coordinatesForShow": {
         "latitude": "18°39°N",
         "longitude": "226°12°E"
       },
   
-      "photo1": "https://i.ibb.co/BqvxSfJ/Olympus2.webp"
+      "photo": "https://i.ibb.co/MMGtVFr/mars-rover-perseverance.jpg"
     },
     {
       "id": 2,
-      "type": "Canyon",
+      "type": "Rover",
       "name": "Curiosity",
-      "status": "active",
-      "location": "Western hemisphere",
+      "location": "Gale Crater",
+      "TotalWorkingDays": "Aug 5, 2012 - Current",
+      "CurrentStatus": "active",
       "details": "Valles Marineris, a captivating wonder, reigns as the Solar System's largest canyon. Carved on Mars, this colossal chasm stretches thousands of miles, plunging 4 miles deep. It lies along the equator, adorning the east side of Tharsis Bulge. Its grandeur encircles nearly a quarter of Mars' circumference.",
       "coordinates": {
-        "latitude": -13.9,
-        "longitude": -59.2
+        "latitude": 137.41,
+        "longitude": -4.70
       },
       "coordinatesForShow": {
-        "latitude": "13.9°S",
-        "longitude": "59.2°W"
+        "latitude": "137.9°S",
+        "longitude": "4.78°W"
       },
   
-      "photo1": "https://ibb.co/LxqyGHg"
+      "photo": "https://i.ibb.co/t4HJKJc/mars-rover-curiosity.jpg"
     },
     {
       "id": 3,
-      "type": "Canyon",
+      "type": "Rover",
       "name": "Zhurong",
-      "topographicalgroup": "UniqueSurfaceTextures",
-      "location": "Western hemisphere",
+      "location": "Utopia Planitia",
+      "TotalWorkingDays": "May 22, 2021 - May 20,2022",
+      "CurrentCurrentStatus": "Dead",
       "details": "Valles Marineris, a captivating wonder, reigns as the Solar System's largest canyon. Carved on Mars, this colossal chasm stretches thousands of miles, plunging 4 miles deep. It lies along the equator, adorning the east side of Tharsis Bulge. Its grandeur encircles nearly a quarter of Mars' circumference.",
       "coordinates": {
-        "latitude": -13.9,
-        "longitude": -59.2
+        "latitude": 46.7,
+        "longitude": 117.5
       },
       "coordinatesForShow": {
-        "latitude": "13.9°S",
-        "longitude": "59.2°W"
+        "latitude": "46.7°N",
+        "longitude": "117.5°E"
       },
   
-      "photo1": "https://ibb.co/LxqyGHg"
+      "photo": "https://i.ibb.co/JpjyPnN/mars-zhurong.webp"
     },
     {
       "id": 4,
       "type": "Canyon",
       "name": "Opportunity",
-      "topographicalgroup": "UniqueSurfaceTextures",
-      "location": "Western hemisphere",
+      "location": "Meridiani Planum",
+      "TotalWorkingDays": "2014 - Jun 10, 2018",
+      "CurrentCurrentStatus": "Dead",
       "details": "Valles Marineris, a captivating wonder, reigns as the Solar System's largest canyon. Carved on Mars, this colossal chasm stretches thousands of miles, plunging 4 miles deep. It lies along the equator, adorning the east side of Tharsis Bulge. Its grandeur encircles nearly a quarter of Mars' circumference.",
       "coordinates": {
         "latitude": -13.9,
@@ -68,6 +73,25 @@
         "longitude": "59.2°W"
       },
   
-      "photo1": "https://ibb.co/LxqyGHg"
+      "photo": "https://i.ibb.co/nzdsLd5/mars-opportunity.jpg"
+    },
+    {
+      "id": 5,
+      "type": "Helicopter",
+      "name": "Ingenuity",
+      "location": "Jezero Crater",
+      "TotalWorkingDays": "Apr 19, 2021 - Current",
+      "CurrentStatus": "Flying",
+      "details": "Valles Marineris, a captivating wonder, reigns as the Solar System's largest canyon. Carved on Mars, this colossal chasm stretches thousands of miles, plunging 4 miles deep. It lies along the equator, adorning the east side of Tharsis Bulge. Its grandeur encircles nearly a quarter of Mars' circumference.",
+      "coordinates": {
+        "latitude": 77.35,
+        "longitude": 18.48
+      },
+      "coordinatesForShow": {
+        "latitude": "77.9",
+        "longitude": "18.481"
+      },
+  
+      "photo": "https://i.ibb.co/QYmVbP9/mars-Inginuinity-1.jpg"
     }
 ]
