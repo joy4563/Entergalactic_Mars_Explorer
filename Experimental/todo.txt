@@ -10,3 +10,34 @@ It should include
 Make a json file with the picture of the day.
 run the JS files
 
+MARS FIXES:
+
+max zoom limit
+start screen a little bit zoomed
+some places have duplicate picutres.
+navigation problem
+fix the timer in the rovermap page
+add icons in rover, orbiter and ingenuity button
+weather add
+convert pyhton code to js so that it runs everytime we start out project
+Fix temp map tourism section
+fix ice water maps tourism, opt box shape
+temp map day conversion
+fix topography map tourism section
+rover map doesnot go to any other page
+add rover's name in rover section
+swap the picture of first rover with the second rover
+zoom in from all side in rover_middle page
+Ingenuity video rounded corner
+terrestorial peaks fixed box of details size and scrollable
+add pictures from rovers in rover section
+Orbiter page limit zoom
+add button for shader on/off and auto rotation on/off
+add shade in every map
+location color is not ok. first time load makes others black but moving to another makes it transparent but the color also changes
+replace the maps location icon with others. 
+add icons in rover, orbiter and ingenuity
+
+
+every map has different font and style
+
