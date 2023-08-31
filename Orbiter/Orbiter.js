@@ -18,7 +18,7 @@ scene.add(sphere.sphere);
 const distance = 20;
 let planetAngle = 0;
 
-camera.position.z = 30;
+camera.position.z = 20;
 
 let planet; // Declare a variable to store the loaded model
 

@@ -24,7 +24,7 @@ canvas.init(document);
 
 const sphere = new MySphere(2, 320, 160, "./mars8k.jpg");
 scene.add(sphere.sphere);
-camera.position.z = 5;
+camera.position.z = 3;
 
 // sphere.addMarker("LAT_LONG", 30, -90, (object) => {
 //     var geometry = new THREE.SphereGeometry(0.05, 10, 5);
@@ -37,8 +37,10 @@ camera.position.z = 5;
 // markerPointDemo();
 apiDataDemo();
 canvas.gameLoop(() => {
-    // sphere.sphere.rotation.x += 0.0;
-    // sphere.sphere.rotation.y += 0.0002;
+    // sphere.sphere.rotation.x -= 0.001;
+    // sphere.sphere.rotation.y += 0.001;
+    // sphere.sphere.rotation.z -= 0.001;
+// 
 });
 
 // function markerPointDemo() {

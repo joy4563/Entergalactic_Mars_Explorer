@@ -24,7 +24,7 @@ canvas.init(document);
 
 const sphere = new MySphere(2, 320, 160, "../../mars_4k_color.jpg");
 scene.add(sphere.sphere);
-camera.position.z = 5;
+camera.position.z = 3;
 
 // sphere.addMarker("LAT_LONG", 30, -90, (object) => {
 //     var geometry = new THREE.SphereGeometry(0.05, 10, 5);
