@@ -114,8 +114,8 @@ function showInfo(point) {
             <li class="px-3 py-2   ">
               <div class="flex font-mono text-xs">
                 <div
-                  class="font-mono  py-2 px-4   bg-orange-600      hover:bg-gray-500  hover:bg-opacity-30       hover:text-white cursor-pointer rounded-lg text-sm font-semibold"
-                  onclick="handleClickLocation()" id="locationBtn">Location</div>
+                  class="font-mono  py-2 px-4 hover:bg-gray-500  hover:bg-opacity-30       hover:text-white cursor-pointer rounded-lg text-sm font-semibold"
+                  onclick="handleClickLocation()" id="locationBtn" style="background-color : orange; color : white;">Location</div>
 
                 <div
                   class="font-mono border-2  py-2 px-4 border-gray-300   hover:bg-gray-500  hover:bg-opacity-30       hover:text-white cursor-pointer mx-3 rounded-lg text-sm font-semibold"

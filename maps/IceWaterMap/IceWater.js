@@ -112,13 +112,16 @@ function showInfo(point) {
                     <ul class="rounded-full shadow-md text-sm">
                         <li class="px-3 py-2   ">
                             <div class="flex">
-                               <div class=" bg-orange-600    border-2 py-2 px-4 border-gray-300   hover:bg-gray-500  hover:bg-opacity-30       hover:text-white cursor-pointer rounded-lg text-sm font-mono font-semibold" onclick="handleClickLocation()" id="locationBtn">Location</div>
+                               <div class="     py-2 px-4   hover:bg-gray-500  hover:bg-opacity-30       hover:text-white cursor-pointer rounded-lg text-sm font-mono font-semibold"
+                               style="background-color : orange; color : white" onclick="handleClickLocation()" id="locationBtn">Location</div>
 
                                 <div
-                                    class=" border-2 py-2 px-4 border-gray-300   hover:bg-gray-500  hover:bg-opacity-30       hover:text-white cursor-pointer mx-3 rounded-lg text-sm font-mono font-semibold" onclick="handleClickTourisom()">
+                                    class=" border-2 py-2 px-4 border-gray-300   hover:bg-gray-500  hover:bg-opacity-30       hover:text-white cursor-pointer mx-3 rounded-lg text-sm font-mono font-semibold"
+                                     onclick="handleClickTourisom()" id="tourismBtn">
                                     Tourisom</div>
                                 <div
-                                    class=" border-2 py-2 px-4 border-gray-300   hover:bg-gray-500  hover:bg-opacity-30       hover:text-white cursor-pointer rounded-lg text-sm font-mono font-semibold" onclick="handleClickMaps()">
+                                    class=" border-2 py-2 px-4 border-gray-300   hover:bg-gray-500  hover:bg-opacity-30       hover:text-white cursor-pointer rounded-lg text-sm font-mono font-semibold"
+                                     onclick="handleClickMaps()" id="mapBtn">
                                     Topography</div>
                             </div>
                         </li>

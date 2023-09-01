@@ -117,9 +117,8 @@ function showInfo(point) {
           <ul class="rounded-full shadow-md">
             <li class="px-3 py-2   ">
               <div class="flex font-mono text-xs">
-                <div
-                  class="font-mono  py-2 px-4  bg-orange-600     hover:bg-gray-500  hover:bg-opacity-30       hover:text-white cursor-pointer rounded-lg text-sm font-semibold"
-                  onclick="handleClickLocation()" id="locationBtn">Location</div>
+                <div   class="font-mono  py-2 px-4       hover:bg-gray-500  hover:bg-opacity-30       hover:text-white cursor-pointer rounded-lg text-sm font-semibold"
+                  onclick="handleClickLocation()" id="locationBtn" style="background-color : orange; color : white;">Location</div>
 
                 <div
                   class="font-mono border-2  py-2 px-4 border-gray-300   hover:bg-gray-500  hover:bg-opacity-30       hover:text-white cursor-pointer mx-3 rounded-lg text-sm font-semibold"
@@ -137,16 +136,16 @@ function showInfo(point) {
                 <a href="../../index.html">Original Map</a>
               </li>
               <li class="px-4 py-2 w-[340px] rounded-lg   hover:bg-gray-500  hover:bg-opacity-30       hover:text-white cursor-pointer border border-white mx-3 my-2">
-                <a href="./maps/TempMap/TempMap.html">Temp Map</a>
+                <a href="../TempMap/TempMap.html">Temp Map</a>
               </li>
               <li class="px-4 py-2 w-[340px] rounded-lg   hover:bg-gray-500  hover:bg-opacity-30       hover:text-white cursor-pointer border border-white mx-3 my-2">
-                <a href="./maps/TopographicalMap/TopographicalMap.html">Topographical Map</a>
+                <a href="../TopographicalMap/TopographicalMap.html">Topographical Map</a>
               </li>
               <li class="px-4 py-2 w-[340px] rounded-lg   hover:bg-gray-500  hover:bg-opacity-30       hover:text-white cursor-pointer border border-white mx-3 my-2">
-                <a href="./maps/IceWaterMap/IceWater.html">Water ICE</a>
+                <a href="../IceWaterMap/IceWater.html">Water ICE</a>
               </li>
               <li class="px-4 py-2 w-[340px] rounded-lg   hover:bg-gray-500  hover:bg-opacity-30       hover:text-white cursor-pointer border border-white mx-3 my-2  bg-gray-500  bg-opacity-50 ">
-                <a href="./maps/roverMap/roverMap.html">Rover Map</a>
+                <a href="../RovarMap/RovarMap.css">Rover Map</a>
               </li>
               </li>
               <li class="my-5 ml-3">

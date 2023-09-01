@@ -95,15 +95,15 @@ function showInfo(point) {
           <p> <span class="font-bold" >Location: </span>${point.total.location}</p>
           <p> <span class="font-bold" >Lat: </span>${point.total.coordinates.latitude}</p>
           <p> <span class="font-bold" >Lon: </span>${point.total.coordinates.longitude}</p>
-          <div id="detail" class="  mt-2  mb-3 text-justify">
-            <p> <span class="font-bold" >Details: </span>${point.total.details}</p>
-          </div>
+          <div id="detail" class=" h-[120px] mt-2 overflow-y-scroll  custom-scrollbar text-justify">
+              <p> <span class="font-bold" >Details: </span> ${point.total.details}</p>
+            </div>
         </div>
       </div>
 
       
     </div>
-<div class="ml-[18vw] w-[400px] text-3xl text-center font-mono font-bold mt-10"> ${point.name}</div>
+<div class="ml-[8vw] w-[400px] text-3xl text-center font-mono font-bold mt-10"> ${point.name}</div>
    `;
 }
 

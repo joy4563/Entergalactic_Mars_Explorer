@@ -115,11 +115,11 @@ function showInfo(point) {
             <li class="px-3 py-2   ">
               <div class="flex font-mono ">
                 <div
-                  class="font-mono  py-2 px-4   bg-orange-600     hover:bg-gray-500  hover:bg-opacity-30       hover:text-white cursor-pointer rounded-lg text-sm font-semibold"
-                  onclick="handleClickLocation()" id="locationBtn">Location</div>
+                  class="font-mono  py-2 px-4       hover:bg-gray-500  hover:bg-opacity-30       hover:text-white cursor-pointer rounded-lg text-sm font-semibold"
+                  onclick="handleClickLocation()" id="locationBtn" style="background-color : orange; color : white;">Location</div>
 
                 <div
-                  class="font-mono border-2 py-2 px-4 border-gray-300   hover:bg-gray-500  hover:bg-opacity-30       hover:text-white cursor-pointer mx-3 rounded-lg text-sm font-semibold"
+                  class="font-mono border-2 py-2 px-4   hover:bg-gray-500  hover:bg-opacity-30       hover:text-white cursor-pointer mx-3 rounded-lg text-sm font-semibold"
                   onclick="handleClickTourisom()" id="tourismBtn">
                   Tourisom</div>
                 <div
@@ -161,7 +161,8 @@ function showInfo(point) {
             </div>
             <div class="ml-[18vw] w-[400px] text-3xl text-center font-mono font-bold mt-5" id="pointName"> ${point.name}</div>
         </div>
-        <div id="showDateTime"></div>
+     
+        <div  id="showDateTime"></div>
           <div class="col-start-8 col-end-12 max-w-[400px] mt-10 pr-10" id="showInfo">
 
 
