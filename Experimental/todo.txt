@@ -40,7 +40,6 @@ run the JS files everytime we run npx vite in background
 For Rukhsana:
 Navigation fix for every page with Button size, text and button shape
 Fix temp map tourism section
-location color is not ok. first time load makes others black but moving to another makes it transparent but the color also changes
 fix ice water maps tourism, opt box shape
 temp map day conversion
 rover map doesnot go to any other page
@@ -69,3 +68,15 @@ Topographic Map => tourism
 Temp Map => tourism
 Water Ice => tourism
 Rover Map => tourism
+Water ice => Orbiter
+Temp Map=> Rover
+Temp Map=> Orbiter
+Temp Map=> Ingenuity
+Topography Map=> Orbiter
+Every Map day conversion
+
+
+
+
+
+
