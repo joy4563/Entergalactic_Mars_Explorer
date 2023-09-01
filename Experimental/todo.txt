@@ -64,3 +64,8 @@ add button to add movements
 replace maps with the existing ones
 add shade in every map
 
+Rukhsana:
+Topographic Map => tourism
+Temp Map => tourism
+Water Ice => tourism
+Rover Map => tourism
