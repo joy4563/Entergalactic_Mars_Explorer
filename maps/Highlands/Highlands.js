@@ -93,8 +93,8 @@ function showInfo(point) {
         <div class="border border-white py-3 px-4 rounded-[15px] mt-4">
           <p><span class="font-bold" >Type: </span> ${point.total.type}</p>
           <p><span class="font-bold" >Location: </span> ${point.total.location}</p>
-          <p><span class="font-bold" >Lat: </span> ${point.total.coordinates.latitude}</p>
-          <p><span class="font-bold" >Lon: </span> ${point.total.coordinates.longitude}</p>
+          <p><span class="font-bold" >Lat: </span> ${point.total.coordinatesForShow.latitude}</p>
+          <p><span class="font-bold" >Lon: </span> ${point.total.coordinatesForShow.longitude}</p>
           <div id="detail" class="  mt-2  mb-3 text-justify">
             <p><span class="font-bold" >Details: </span> ${point.total.details}</p>
           </div>
