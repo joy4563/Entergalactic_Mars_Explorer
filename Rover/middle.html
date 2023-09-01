@@ -4,9 +4,27 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Rover</title>
+  <title>All Rover</title>
   <link href="https://cdn.jsdelivr.net/npm/daisyui@3.5.1/dist/full.css" rel="stylesheet" type="text/css" />
   <script src="https://cdn.tailwindcss.com"></script>
+  <style>
+
+
+.image-wrapper {
+    margin: 10px; /* Add spacing between images */
+    transition: transform 1s ease; /* Smooth transition for scaling */
+}
+
+.image-wrapper img {
+  
+    object-fit: cover;
+}
+
+.image-wrapper:hover {
+    transform: scale(1.3); /* Increase the scale on hover (1.1 times) */
+}
+
+  </style>
 </head>
 
 <body style="background: url('https://i.ibb.co/y0HBXJ4/mars-rovers-bg.jpg');
@@ -15,15 +33,25 @@
   height: 100vh;">
   <div class="flex flex-col  justify-center items-center pt-[10%]">
     <div class="flex flex-row">
-      <a href="../Rover/rover.html"><img src="../mars_rover_perseverance.jpg"
-          class="w-[23vw] h-[30vh] mr-3 hover:w-[20.5vw] hover:h-[33vh] rounded-lg" /></a>
+      <a href="../Rover/rover.html">
+        <div class="image-wrapper">
+          <img src="../mars_rover_curiosity.jpg "
+          class="w-[23vw] h-[30vh]  mr-[40px] hover:w-[20.5vw] hover:h-[33vh] rounded-lg img_1" />
+          <p class="font-mono text-xl text-white text-center mt-2 ">Curiosity</p>
+        </div>
+       </a>
 
-      <img src="../mars_rover_curiosity.jpg"
-        class="w-[23vw] h-[30vh]  mr-3 hover:w-[20.5vw] hover:h-[33vh] rounded-lg" />
+       <div class="image-wrapper">
+        <img src="../mars_rover_perseverance.jpg"
+          class="w-[23vw] h-[30vh] mr-[40px] hover:w-[20.5vw] hover:h-[33vh] rounded-lg" />
+          <p class="font-mono text-xl text-white text-center mt-2 ">Perseverance</p>
+          </div>
 
+          <div class="image-wrapper">
 
       <img src="../mars_opportunity.jpg" class="w-[23vw] h-[30vh]  mr-3 hover:w-[20.5vw] hover:h-[33vh] rounded-lg" />
-
+      <p class="font-mono text-xl text-white text-center mt-2 ">Opportunity</p>
+    </div>
     </div>
 
     <a href="../index.html"

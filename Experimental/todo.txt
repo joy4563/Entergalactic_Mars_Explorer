@@ -1,12 +1,42 @@
 Add a basic info page about mars in the first page
-It should include 
-    Mars is called the red planet
-    Named after Roman god of war
-    Fourth furthes planet in the solar System
-    Smaller than earth with a diameter of 4217 miles
-    One year on Mars is 687 days long. That’s 1.9 Earth years!
-    Mars's gravity is 37% less than that on Earth
-    
+
+MARS FIXES:
+
+max zoom limit
+    start screen a little bit zoomed
+some places have duplicate picutres.
+fix the timer in the rovermap page
+add icons in rover, orbiter and ingenuity button
+weather add
+convert pyhton code to js so that it runs everytime we start out project
+
+zoom in from all side in rover_middle page
+terrestorial peaks fixed box size of details size
+Orbiter, every map page limit zoom
+replace the maps location icon with others
+add icons in rover, orbiter and ingenuity
+
+
+
+
+For Sabbir:
 Make a json file with the picture of the day.
-run the JS files
+run the JS files everytime we run npx vite in background
+
+
+For Ashik 
+Time interval fix
+Maps Text(Place name straight)
+Overlap fix for every map
+Add button to add shade
+add button to add movements 
+replace maps with the existing ones
+add shade in every map
+
+Every Map day conversion add padding to right
+Topography name middle
+
+
+
+
 

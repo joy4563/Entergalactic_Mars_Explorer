@@ -10,7 +10,7 @@ let scene, camera, renderer;
 const canvas = new MyCanvas(window);
 
 scene = canvas.scene;
-// canvas.setBackgroundEXR("/BackgroundDemo/starmap_2020_4k.exr");
+canvas.setBackgroundEXR("/BackgroundDemo/starmap_2020_4k.exr");
 camera = canvas.camera;
 renderer = canvas.renderer;
 canvas.init(document);
@@ -22,17 +22,17 @@ scene.add(cube);
 
 canvas.init(document);
 
-const sphere = new MySphere(2, 320, 160, "../../mars_1k_color.jpg");
+const sphere = new MySphere(2, 320, 160, "../../mars_4k_color.jpg");
 scene.add(sphere.sphere);
-camera.position.z = 5;
+camera.position.z = 3;
 
-sphere.addMarker("LAT_LONG", 30, -90, (object) => {
-    var geometry = new THREE.SphereGeometry(0.05, 10, 5);
-    var material = new THREE.MeshBasicMaterial({ color: Colors.BLUE });
-    var box = new THREE.Mesh(geometry, material);
-    box.applyMatrix4(object);
-    return box;
-});
+// sphere.addMarker("LAT_LONG", 30, -90, (object) => {
+//     var geometry = new THREE.SphereGeometry(0.05, 10, 5);
+//     var material = new THREE.MeshBasicMaterial({ color: Colors.BLUE });
+//     var box = new THREE.Mesh(geometry, material);
+//     box.applyMatrix4(object);
+//     return box;
+// });
 
 // markerPointDemo();
 apiDataDemo();
@@ -91,12 +91,12 @@ function showInfo(point) {
         </div>
 
         <div class="border border-white py-3 px-4 rounded-[15px] mt-4">
-          <p> Type: ${point.total.type}</p>
-          <p> Location: ${point.total.location}</p>
-          <p> Lat: ${point.total.coordinates.latitude}</p>
-          <p> Lon: ${point.total.coordinates.longitude}</p>
+          <p><span class="font-bold" >Type: </span> ${point.total.type}</p>
+          <p><span class="font-bold" >Location: </span> ${point.total.location}</p>
+          <p><span class="font-bold" >Lat: </span> ${point.total.coordinates.latitude}</p>
+          <p><span class="font-bold" >Lon: </span> ${point.total.coordinates.longitude}</p>
           <div id="detail" class="  mt-2  mb-3 text-justify">
-            <p> Details: ${point.total.details}</p>
+            <p><span class="font-bold" >Details: </span> ${point.total.details}</p>
           </div>
         </div>
       </div>

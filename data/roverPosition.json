@@ -1,3 +1,4 @@
+
 [
     {
       "id": 1,
@@ -6,7 +7,7 @@
       "location": "Jezero Crater",
       "TotalWorkingDays":"Feb 18, 2021 - Current",
       "CurrentStatus": "active",
-      "details": "Unveil the marvel of Olympus Mons, Mars' colossal volcano and second-highest peak. Soaring to 21.9 km (13.6 mi or 72,000 ft), it dwarfs Mount Everest. Forged in the Hesperian Period, its form was sculpted by Amazonian eruptions. Eclipsing Mars' datum by 21 km (13 mi), it extends an invitation to daring explorers. Embark on an otherworldly journey, unveiling the universe's wonders etched upon its fiery terrain.",
+      "details": "Perseverance rover, NASA's Mars mission since 2021, explores Jezero Crater for signs of ancient life and collects samples. It debuts Ingenuity, a helicopter for aerial surveys. Perseverance's mission advances human Mars exploration, using innovative tech to unveil Martian history, potential habitability, and pave the way for future manned missions.",
       "coordinates": {
         "latitude": 17.361,
         "longitude": 18.48
@@ -25,7 +26,7 @@
       "location": "Gale Crater",
       "TotalWorkingDays": "Aug 5, 2012 - Current",
       "CurrentStatus": "active",
-      "details": "Valles Marineris, a captivating wonder, reigns as the Solar System's largest canyon. Carved on Mars, this colossal chasm stretches thousands of miles, plunging 4 miles deep. It lies along the equator, adorning the east side of Tharsis Bulge. Its grandeur encircles nearly a quarter of Mars' circumference.",
+      "details": "Curiosity rover, NASA's Mars mission launched in 2011, has been exploring Gale Crater. It seeks clues about past Martian environments and potential life through its advanced instruments. Notably, it discovered ancient riverbeds and organic compounds, bolstering the idea of a habitable Mars in the past. Curiosity continues to unravel Mars' mysteries.",
       "coordinates": {
         "latitude": 137.41,
         "longitude": -4.70
@@ -43,8 +44,8 @@
       "name": "Zhurong",
       "location": "Utopia Planitia",
       "TotalWorkingDays": "May 22, 2021 - May 20,2022",
-      "CurrentCurrentStatus": "Dead",
-      "details": "Valles Marineris, a captivating wonder, reigns as the Solar System's largest canyon. Carved on Mars, this colossal chasm stretches thousands of miles, plunging 4 miles deep. It lies along the equator, adorning the east side of Tharsis Bulge. Its grandeur encircles nearly a quarter of Mars' circumference.",
+      "CurrentStatus": "Dead",
+      "details": "Zhurong is China's Mars rover, landing on the Red Planet in May 2021 as part of the Tianwen-1 mission. Named after a fire god, Zhurong aims to study Mars' geology, atmosphere, and potential signs of life. It carries instruments like cameras, spectrometers, and a ground-penetrating radar, contributing to our global understanding of Mars' evolution and habitability.",
       "coordinates": {
         "latitude": 46.7,
         "longitude": 117.5
@@ -62,8 +63,8 @@
       "name": "Opportunity",
       "location": "Meridiani Planum",
       "TotalWorkingDays": "2014 - Jun 10, 2018",
-      "CurrentCurrentStatus": "Dead",
-      "details": "Valles Marineris, a captivating wonder, reigns as the Solar System's largest canyon. Carved on Mars, this colossal chasm stretches thousands of miles, plunging 4 miles deep. It lies along the equator, adorning the east side of Tharsis Bulge. Its grandeur encircles nearly a quarter of Mars' circumference.",
+      "CurrentStatus": "Dead",
+      "details": "Opportunity was a NASA Mars rover launched in 2003. It explored Mars' surface, making significant discoveries about its watery past. It operated for over 14 years, vastly exceeding its intended 90-day mission. Notably, it found evidence of ancient Martian environments conducive to life. Unfortunately, a massive dust storm in 2018 led to its final communication, ending a remarkable journey of exploration.",
       "coordinates": {
         "latitude": -13.9,
         "longitude": -59.2
@@ -81,8 +82,8 @@
       "name": "Ingenuity",
       "location": "Jezero Crater",
       "TotalWorkingDays": "Apr 19, 2021 - Current",
-      "CurrentStatus": "Flying",
-      "details": "Valles Marineris, a captivating wonder, reigns as the Solar System's largest canyon. Carved on Mars, this colossal chasm stretches thousands of miles, plunging 4 miles deep. It lies along the equator, adorning the east side of Tharsis Bulge. Its grandeur encircles nearly a quarter of Mars' circumference.",
+      "CurrentStatus": "active",
+      "details": "Ingenuity is a small helicopter carried by NASA's Perseverance rover to Mars. It marked the first successful powered flight on another planet in April 2021. Weighing just 4 pounds (1.8 kg), Ingenuity demonstrated controlled flight in Mars' thin atmosphere. Its flights provide valuable aerial imagery, aiding Perseverance's mission by scouting terrain and expanding our capabilities for future planetary exploration.",
       "coordinates": {
         "latitude": 77.35,
         "longitude": 18.48
