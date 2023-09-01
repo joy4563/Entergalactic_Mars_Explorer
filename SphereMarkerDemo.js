@@ -213,32 +213,7 @@ function showInfo(point) {
       </div>
     `;
 
-    const messages = {
-        option1: "This is message 1",
-        option2: "This is message 2",
-        option3: "This is message 3",
-    };
-    document.querySelectorAll("input[type=checkbox]").forEach((checkbox) => {
-        checkbox.addEventListener("change", () => {
-            if (checkbox.checked) {
-                document.getElementById("new").innerHTML += `<p> ${
-                    messages[checkbox.value]
-                }</p>`;
-                document.getElementById("detail").style.display = "none";
-                document.getElementById("img").style.width = "500px";
-            } else {
-                const text = document.getElementById("new").innerHTML;
-                const value = messages[checkbox.value];
-                if (text.includes(value)) {
-                    document.getElementById("new").innerHTML = text.replace(
-                        ` ${value}`,
-                        ""
-                    );
-                }
-                document.getElementById("detail").style.display = "block";
-            }
-        });
-    });
+   
 }
 
 function apiDataDemo() {

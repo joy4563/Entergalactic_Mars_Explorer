@@ -79,8 +79,8 @@
                               class="py-[10px] pl-[10px] pr-[295px] rounded-lg   hover:bg-gray-500  hover:bg-opacity-30       hover:text-white cursor-pointer border border-white">Rover</a>
                           </li>
                           <li
-                            class="px-4 py-2 rounded-lg w-[340px]   hover:bg-gray-500  hover:bg-opacity-30       hover:text-white cursor-pointer border border-white mx-3 my-2">
-                            Orbiter</li>
+                            class="px-4 py-2 rounded-lg w-[340px]   hover:bg-gray-500  hover:bg-opacity-30       hover:text-white cursor-pointer border border-white mx-3 my-2"> <a href="../../Orbiter/Orbiter.html">Orbiter</a>
+                            </li>
                           <li class="px-4 py-2   hover:bg-gray-500  hover:bg-opacity-30       w-[340px] rounded-lg hover:text-white cursor-pointer border border-white mx-3 my-2">
                             <a href="../../Ingenuity/Ingenuity.html">Ingenuity</a>
                           </li>
@@ -138,10 +138,10 @@
 
       document.getElementById("onClickChangeContainer").innerHTML = `   <div>
     <ul >
-        <li class="px-4 py-2 rounded-lg w-[340px]   hover:bg-gray-500  hover:bg-opacity-30       hover:text-white cursor-pointer border border-white mx-3 my-2" > <a href="./maps/TerrestrialPeaks/TerrestrialPeaks.html">Terrestrial Peaks</a></li>
-        <li class="px-4 py-2 rounded-lg w-[340px]   hover:bg-gray-500  hover:bg-opacity-30       hover:text-white cursor-pointer border border-white mx-3 my-2">Highlands</li>
-        <li class="px-4 py-2 rounded-lg w-[340px]   hover:bg-gray-500  hover:bg-opacity-30       hover:text-white cursor-pointer border border-white mx-3 my-2">Unique Surface Textures</li>
-        <li class="px-4 py-2 rounded-lg w-[340px]   hover:bg-gray-500  hover:bg-opacity-30       hover:text-white cursor-pointer border border-white mx-3 my-2">Enigmatic Features</li>
+        <li class="px-4 py-2 rounded-lg w-[340px]   hover:bg-gray-500  hover:bg-opacity-30       hover:text-white cursor-pointer border border-white mx-3 my-2" > <a href="../TerrestrialPeaks/TerrestrialPeaks.html">Terrestrial Peaks</a></li>
+        <li class="px-4 py-2 rounded-lg w-[340px]   hover:bg-gray-500  hover:bg-opacity-30       hover:text-white cursor-pointer border border-white mx-3 my-2"> <a href="../Highlands/Highlands.html">Highlands</a></li>
+        <li class="px-4 py-2 rounded-lg w-[340px]   hover:bg-gray-500  hover:bg-opacity-30       hover:text-white cursor-pointer border border-white mx-3 my-2"> <a href="../uniqueSurface/uniqueSurface.html">Unique Surface Textures</a> </li>
+        <li class="px-4 py-2 rounded-lg w-[340px]   hover:bg-gray-500  hover:bg-opacity-30       hover:text-white cursor-pointer border border-white mx-3 my-2"> <a href="../EnigmaticFeatures/EnigmaticFeatures.html">Enigmatic Features</a> </li>
         
     </ul>
    </div>`;
@@ -197,7 +197,7 @@
       const marsOrdinal = marsDay + getOrdinalIndicator(marsDay);
 
       const output = `
-        <div class="mt-10 px-3 font-mono border border-white rounded-[15px] py-3 ml-20">
+        <div class="mt-10 px-5 font-mono border border-white rounded-[15px] py-3">
         ${month} ${day}${getOrdinalIndicator(day)}, ${year}<br>
         ${dayOfYear}${getOrdinalIndicator(dayOfYear)} day on Earth<br>
         ${marsDay}${getOrdinalIndicator(marsDay)} sol on Mars<br>

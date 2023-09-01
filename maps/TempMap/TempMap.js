@@ -147,14 +147,14 @@ function showInfo(point) {
               </li>
               </li>
               <li class="my-5 ml-3">
-                <a href="./Rover/rover.html"
+                <a href="../../Rover/middle.html"
                   class="py-[10px] pl-[10px] pr-[295px] rounded-lg   hover:bg-gray-500  hover:bg-opacity-30       hover:text-white cursor-pointer border border-white">Rover</a>
               </li>
               <li
                 class="px-4 py-2 rounded-lg w-[340px]   hover:bg-gray-500  hover:bg-opacity-30       hover:text-white cursor-pointer border border-white mx-3 my-2">
-                Orbiter</li>
+                <a href="../../Orbiter/Orbiter.html">Orbiter</a></li>
               <li class="px-4 py-2   hover:bg-gray-500  hover:bg-opacity-30       w-[340px] rounded-lg hover:text-white cursor-pointer border border-white mx-3 my-2">
-                <a href="./Ingenuity/Ingenuity.html">Ingenuity</a>
+                <a href="../../Ingenuity/Ingenuity.html">Ingenuity</a>
               </li>
             </ul>
           </ul>
@@ -203,41 +203,10 @@ function showInfo(point) {
 
           </div>
           </div>
-
-                
-                
-                
                 <br>
             </div>
         </div>
     </div>`;
-
-    const messages = {
-        option1: "This is message 1",
-        option2: "This is message 2",
-        option3: "This is message 3",
-    };
-    document.querySelectorAll("input[type=checkbox]").forEach((checkbox) => {
-        checkbox.addEventListener("change", () => {
-            if (checkbox.checked) {
-                document.getElementById("new").innerHTML += `<p> ${
-                    messages[checkbox.value]
-                }</p>`;
-                document.getElementById("detail").style.display = "none";
-                document.getElementById("img").style.width = "500px";
-            } else {
-                const text = document.getElementById("new").innerHTML;
-                const value = messages[checkbox.value];
-                if (text.includes(value)) {
-                    document.getElementById("new").innerHTML = text.replace(
-                        ` ${value}`,
-                        ""
-                    );
-                }
-                document.getElementById("detail").style.display = "block";
-            }
-        });
-    });
 }
 
 function apiDataDemo() {

@@ -63,17 +63,6 @@ add button to add movements
 replace maps with the existing ones
 add shade in every map
 
-Rukhsana:
-Topographic Map => tourism
-Temp Map => tourism
-Water Ice => tourism .. done
-Rover Map => tourism
-
-Water ice => Orbiter
-Temp Map=> Rover
-Temp Map=> Orbiter
-Temp Map=> Ingenuity
-Topography Map=> Orbiter
 Every Map day conversion
 
 
