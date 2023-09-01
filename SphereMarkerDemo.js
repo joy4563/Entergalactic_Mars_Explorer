@@ -113,10 +113,21 @@ function showInfo(point) {
         <div class="col-start-1 col-end-4">
 
           <!-- Dropdown content -->
-          <ul class="rounded-full shadow-md">
+          <ul class="rounded-full shadow-md text-sm">
             <li class="px-3 py-2   ">
-              <div class="flex font-mono text-xs">
+              <div class="flex font-mono">
                 <div
+<<<<<<< HEAD
+                  class="font-mono border-2 py-2 px-4 border-gray-300 hover:bg-blue-400 hover:text-white cursor-pointer rounded-lg text-xl font-semibold"
+                  onclick="handleClickLocation()" id="locationBtn">Location</div>
+
+                <div
+                  class="font-mono border-2 py-2 px-4 border-gray-300 hover:bg-blue-400 hover:text-white cursor-pointer mx-3 rounded-lg text-xl font-semibold"
+                  onclick="handleClickTourisom()" id="tourismBtn">
+                  Tourisom</div>
+                <div
+                  class=" border-2 py-2 px-4 border-gray-300 hover:bg-blue-400 hover:text-white cursor-pointer rounded-lg text-xl font-semibold"
+=======
                   class="font-mono  py-2 px-4     hover:bg-gray-500  hover:bg-opacity-30       hover:text-white cursor-pointer rounded-lg text-sm font-semibold"
                   onclick="handleClickLocation()" id="locationBtn" style="background-color : orange; color : white">Location</div>
 
@@ -126,12 +137,39 @@ function showInfo(point) {
                   Tourisom</div>
                 <div
                   class=" border-2 py-2 px-4 border-gray-300   hover:bg-gray-500  hover:bg-opacity-30       hover:text-white cursor-pointer rounded-lg text-sm font-semibold"
+>>>>>>> main
                   onclick="handleClickMaps()" id="mapBtn">
-                  Topography</div>
+                  Maps</div>
               </div>
             </li>
             <ul id="onClickChangeContainer">
               <li
+<<<<<<< HEAD
+                class="bg-red-400 px-4 py-2 hover:bg-blue-400 hover:text-white cursor-pointer border border-white mx-3 my-2">
+                <a href="">Original Map</a>
+              </li>
+              <li class="px-4 py-2 hover:bg-blue-400 hover:text-white cursor-pointer border border-white mx-3 my-2">
+                <a href="./maps/TempMap/TempMap.html">Temp Map</a>
+              </li>
+              <li class="px-4 py-2 hover:bg-blue-400 hover:text-white cursor-pointer border border-white mx-3 my-2">
+                <a href="./maps/TopographicalMap/TopographicalMap.html">Topographical Map</a>
+              </li>
+              <li class="px-4 py-2 hover:bg-blue-400 hover:text-white cursor-pointer border border-white mx-3 my-2">
+                <a href="./maps/IceWaterMap/IceWater.html">Water ICE</a>
+              </li>
+              <li class="px-4 py-2 hover:bg-blue-400 hover:text-white cursor-pointer border border-white mx-3 my-2">
+                <a href="./maps/TopographicalMap/TopographicalMap.html">Rover Map</a>
+              </li>
+              </li>
+              <li class="my-5 ml-3">
+                <a href="./Rover/rover.html"
+                  class="py-[10px] pl-[10px] pr-[295px] rounded-lg hover:bg-blue-400 hover:text-white cursor-pointer border border-white">Rover</a>
+              </li>
+              <li
+                class="px-4 py-2 rounded-lg w-[340px] hover:bg-blue-400 hover:text-white cursor-pointer border border-white mx-3 my-2">
+                Orbiter</li>
+              <li class="px-4 py-2 hover:bg-blue-400 hover:text-white cursor-pointer border border-white mx-3 my-2">
+=======
                 class=" bg-gray-500  bg-opacity-50  px-4 py-2 w-[340px] rounded-lg   hover:bg-gray-500  hover:bg-opacity-30       hover:text-white cursor-pointer border border-white mx-3 my-2">
                 <a href="./index.html">Original Map</a>
               </li>
@@ -156,6 +194,7 @@ function showInfo(point) {
                 class="px-4 py-2 rounded-lg w-[340px]   hover:bg-gray-500  hover:bg-opacity-30  hover:text-white cursor-pointer border border-white mx-3 my-2"> <a href="./Orbiter/Orbiter.html">Orbiter</a>
                 </li>
               <li class="px-4 w-[340px] rounded-lg py-2   hover:bg-gray-500  hover:bg-opacity-30       hover:text-white cursor-pointer border border-white mx-3 my-2">
+>>>>>>> main
                 <a href="./Ingenuity/Ingenuity.html">Ingenuity</a>
               </li>
             </ul>
@@ -163,12 +202,15 @@ function showInfo(point) {
 
 
         </div>
+<<<<<<< HEAD
+=======
         <div class="ml-[18vw] w-[400px] text-3xl text-center font-mono font-bold mt-5" id="pointName"> ${point.name}</div>
+>>>>>>> main
       </div>
       <div class="" id="showDateTime"></div>
       <div class="col-start-8 col-end-12 max-w-[400px] mt-10 pr-10" id="showInfo">
         <div id="new" class="text-[16px] font-mono">
-          
+          <p class="border border-white py-3 px-4 rounded-[15px]">Name: ${point.name}</p>
           <div class="border border-white py-3 px-4 rounded-[15px] mt-4">
             <p > <span class="font-bold" >Type: </span> ${point.total.type}</p>
             <p> <span class="font-bold" >Location: </span> ${point.total.location}</p>
@@ -178,6 +220,31 @@ function showInfo(point) {
               <p> <span class="font-bold" >Details: </span> ${point.total.details}</p>
             </div>
           </div>
+<<<<<<< HEAD
+          <div class="border border-white px-3 rounded-[15px] m-4 h-[200px] text-center py-3">
+
+            <div class="carousel w-[380px] h-[200px]  first-line: rounded-lg">
+              <div id="slide1" class="carousel-item relative w-full">
+                <img src=${point.total.photo1} class="w-[300px] h-[180px] rounded-[15px]" />
+                <div class=" absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
+                  <a href="#slide3" class="btn btn-circle">❮</a>
+                  <a href="#slide2" class="btn btn-circle">❯</a>
+                </div>
+              </div>
+              <div id="slide2" class="carousel-item relative w-full">
+                <img src=${point.total.photo2} class="w-[300px] h-[180px] rounded-[15px]" />
+                <div class=" absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
+                  <a href="#slide1" class="btn btn-circle">❮</a>
+                  <a href="#slide3" class="btn btn-circle">❯</a>
+                </div>
+              </div>
+              <div id="slide3" class="carousel-item relative w-full">
+                <img src=${point.total.photo3} class="w-[300px] h-[180px] rounded-[15px]" />
+                <div class=" absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
+                  <a href="#slide2" class="btn btn-circle">❮</a>
+                  <a href="#slide1" class="btn btn-circle">❯</a>
+                </div>
+=======
          
           <div class="custom-scrollbar border flex w-[357px] -ml-[2px] border-white p-3       rounded-[15px] m-4 h-[200px] text-center py-3 overflow-x-scroll  custom-scrollbar">
           <div class="carousel  w-[357px] rounded-lg">
@@ -204,6 +271,7 @@ function showInfo(point) {
             </div>
 
           </div>
+>>>>>>> main
               </div>
 
             </div>
