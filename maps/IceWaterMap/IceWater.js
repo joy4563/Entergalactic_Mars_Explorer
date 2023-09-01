@@ -150,7 +150,7 @@ function showInfo(point) {
                           </li>
                           <li
                             class="px-4 py-2 rounded-lg w-[340px]   hover:bg-gray-500  hover:bg-opacity-30       hover:text-white cursor-pointer border border-white mx-3 my-2">
-                            Orbiter</li>
+                            <a href="../../Orbiter/Orbiter.html">Orbiter</a></li>
                           <li class="px-4 py-2   hover:bg-gray-500  hover:bg-opacity-30       w-[340px] rounded-lg hover:text-white cursor-pointer border border-white mx-3 my-2">
                             <a href="../../Ingenuity/Ingenuity.html">Ingenuity</a>
                           </li>
@@ -159,7 +159,7 @@ function showInfo(point) {
                 
     
             </div>
-            <div class="ml-[18vw] w-[400px] text-3xl text-center font-mono font-bold mt-5"> ${point.name}</div>
+            <div class="ml-[18vw] w-[400px] text-3xl text-center font-mono font-bold mt-5" id="pointName"> ${point.name}</div>
         </div>
         <div id="showDateTime"></div>
           <div class="col-start-8 col-end-12 max-w-[400px] mt-10 pr-10" id="showInfo">
@@ -204,32 +204,7 @@ function showInfo(point) {
         </div>
     </div>`;
 
-    const messages = {
-        option1: "This is message 1",
-        option2: "This is message 2",
-        option3: "This is message 3",
-    };
-    document.querySelectorAll("input[type=checkbox]").forEach((checkbox) => {
-        checkbox.addEventListener("change", () => {
-            if (checkbox.checked) {
-                document.getElementById("new").innerHTML += `<p> ${
-                    messages[checkbox.value]
-                }</p>`;
-                document.getElementById("detail").style.display = "none";
-                document.getElementById("img").style.width = "500px";
-            } else {
-                const text = document.getElementById("new").innerHTML;
-                const value = messages[checkbox.value];
-                if (text.includes(value)) {
-                    document.getElementById("new").innerHTML = text.replace(
-                        ` ${value}`,
-                        ""
-                    );
-                }
-                document.getElementById("detail").style.display = "block";
-            }
-        });
-    });
+    
 }
 
 function apiDataDemo() {

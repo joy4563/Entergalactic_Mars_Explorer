@@ -1,31 +1,18 @@
 Add a basic info page about mars in the first page
-It should include 
-    Mars is called the red planet
-    Named after Roman god of war
-    Fourth furthes planet in the solar System
-    Smaller than earth with a diameter of 4217 miles
-    One year on Mars is 687 days long. That’s 1.9 Earth years!
-    Mars's gravity is 37% less than that on Earth
-    
-
-
 
 MARS FIXES:
 
 max zoom limit
     start screen a little bit zoomed
 some places have duplicate picutres.
-    navigation problem
 fix the timer in the rovermap page
 add icons in rover, orbiter and ingenuity button
 weather add
 convert pyhton code to js so that it runs everytime we start out project
-        Fix temp map tourism section
 
 zoom in from all side in rover_middle page
-    Ingenuity video rounded corner
-terrestorial peaks fixed box of details size and scrollable
-Orbiter page limit zoom
+terrestorial peaks fixed box size of details size
+Orbiter, every map page limit zoom
 replace the maps location icon with others
 add icons in rover, orbiter and ingenuity
 
@@ -37,23 +24,6 @@ Make a json file with the picture of the day.
 run the JS files everytime we run npx vite in background
 
 
-For Rukhsana:
-Navigation fix for every page with Button size, text and button shape
-Fix temp map tourism section
-fix ice water maps tourism, opt box shape
-temp map day conversion
-rover map doesnot go to any other page
-Color fix for location, tourism, topographical map
-Ingenuity page font fix
-fix ice water maps tourism, opt box shape
-temp map day conversion
-fix topography map tourism section
-rover map doesnot go to any other page
-add rover's name in rover section
-swap the picture of first rover with the second rover
-every map has different font and style
-
-
 For Ashik 
 Time interval fix
 Maps Text(Place name straight)
@@ -63,18 +33,8 @@ add button to add movements
 replace maps with the existing ones
 add shade in every map
 
-Rukhsana:
-Topographic Map => tourism
-Temp Map => tourism
-Water Ice => tourism
-Rover Map => tourism
-Water ice => Orbiter
-Temp Map=> Rover
-Temp Map=> Orbiter
-Temp Map=> Ingenuity
-Topography Map=> Orbiter
-Every Map day conversion
-
+Every Map day conversion add padding to right
+Topography name middle
 
 
 

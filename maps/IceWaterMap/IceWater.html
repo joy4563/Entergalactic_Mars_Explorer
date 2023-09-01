@@ -45,12 +45,12 @@
     function handleClickLocation() {
 
       document.getElementById("locationBtn").style.backgroundColor = 'orange';
-     document.getElementById("locationBtn").style.border = 'none';
-     document.getElementById("locationBtn").style.color = 'white';
+      document.getElementById("locationBtn").style.border = 'none';
+      document.getElementById("locationBtn").style.color = 'white';
 
-     document.getElementById("tourismBtn").style.backgroundColor = 'transparent';
-     document.getElementById("tourismBtn").style.border = '2px solid white';
-     document.getElementById("tourismBtn").style.color = 'white';
+      document.getElementById("tourismBtn").style.backgroundColor = 'transparent';
+      document.getElementById("tourismBtn").style.border = '2px solid white';
+      document.getElementById("tourismBtn").style.color = 'white';
 
       document.getElementById("mapBtn").style.backgroundColor = 'transparent';
       document.getElementById("mapBtn").style.border = '2px solid white';
@@ -79,8 +79,8 @@
                               class="py-[10px] pl-[10px] pr-[295px] rounded-lg   hover:bg-gray-500  hover:bg-opacity-30       hover:text-white cursor-pointer border border-white">Rover</a>
                           </li>
                           <li
-                            class="px-4 py-2 rounded-lg w-[340px]   hover:bg-gray-500  hover:bg-opacity-30       hover:text-white cursor-pointer border border-white mx-3 my-2">
-                            Orbiter</li>
+                            class="px-4 py-2 rounded-lg w-[340px]   hover:bg-gray-500  hover:bg-opacity-30       hover:text-white cursor-pointer border border-white mx-3 my-2"> <a href="../../Orbiter/Orbiter.html">Orbiter</a>
+                            </li>
                           <li class="px-4 py-2   hover:bg-gray-500  hover:bg-opacity-30       w-[340px] rounded-lg hover:text-white cursor-pointer border border-white mx-3 my-2">
                             <a href="../../Ingenuity/Ingenuity.html">Ingenuity</a>
                           </li>
@@ -90,7 +90,7 @@
 
     function handleClickTourisom() {
 
-     document.getElementById("tourismBtn").style.backgroundColor = 'orange';
+      document.getElementById("tourismBtn").style.backgroundColor = 'orange';
       document.getElementById("tourismBtn").style.border = 'none';
       document.getElementById("tourismBtn").style.color = 'white';
 
@@ -99,54 +99,122 @@
       document.getElementById("locationBtn").style.color = 'white';
 
       document.getElementById("mapBtn").style.backgroundColor = 'transparent';
-     document.getElementById("mapBtn").style.border = '2px solid white';
+      document.getElementById("mapBtn").style.border = '2px solid white';
       document.getElementById("mapBtn").style.color = 'white';
 
-      document.getElementById("onClickChangeContainer").innerHTML = `
-        <li class="px-4 py-2 rounded-lg w-[340px]   hover:bg-gray-500  hover:bg-opacity-30       hover:text-white cursor-pointer border border-white mx-3 my-2">Top 10 Place to visit</li>
-        <li class="px-4 py-2 rounded-lg w-[340px]   hover:bg-gray-500  hover:bg-opacity-30       hover:text-white cursor-pointer border border-white mx-3 my-2">Biggest Storms</li>
-        <li class="px-4 py-2 rounded-lg w-[340px]   hover:bg-gray-500  hover:bg-opacity-30       hover:text-white cursor-pointer border border-white mx-3 my-2" onclick="handleDayConversion()">Day Conversion</li>
-        <li class="px-4 py-2 rounded-lg w-[340px]   hover:bg-gray-500  hover:bg-opacity-30       hover:text-white cursor-pointer border border-white mx-3 my-2">Mars Today</li>
-        <li class="px-4 py-2 rounded-lg w-[340px]   hover:bg-gray-500  hover:bg-opacity-30       hover:text-white cursor-pointer border border-white mx-3 my-2">Curious Facts</li>
-        <li class="px-4 py-2 rounded-lg w-[340px]   hover:bg-gray-500  hover:bg-opacity-30       hover:text-white cursor-pointer border border-white mx-3 my-2"><a href="./pictureOfTheDay/pictureOfTheDay.html">Picture Of the Day</a></li>
+      document.getElementById("onClickChangeContainer").innerHTML = `   <div>
+    <ul >
+        <li class="px-4 py-2 w-[340px] rounded-lg   hover:bg-gray-500  hover:bg-opacity-30       hover:text-white cursor-pointer border border-white mx-3 my-2" > <a   href="/tourisom/article/article.html">Article</a></li>
+        
+        <li class="px-4 py-2 w-[340px] rounded-lg   hover:bg-gray-500  hover:bg-opacity-30       hover:text-white cursor-pointer border border-white mx-3 my-2" onclick="handleDayConversion()">Day Conversion</li>
+        
+        <li class="px-4 py-2 w-[340px] rounded-lg   hover:bg-gray-500  hover:bg-opacity-30       hover:text-white cursor-pointer border border-white mx-3 my-2">
+    <a href="https://mars.nasa.gov/all-about-mars/facts/">Curious Facts</a>
+</li>
+
+        
+        <li  class="px-4 py-2 w-[340px] rounded-lg   hover:bg-gray-500  hover:bg-opacity-30       hover:text-white cursor-pointer border border-white mx-3 my-2">
+
+         <a   href="../../pictureOfTheDay/pictureOfTheDay.html">Picture Of the Day</a>
+         </li>
+    </ul>
+   </div>
    `;
 
     }
 
     function handleClickMaps() {
-       document.getElementById("mapBtn").style.backgroundColor = 'orange';
-       document.getElementById("mapBtn").style.border = 'none';
-       document.getElementById("mapBtn").style.color = 'white';
+      document.getElementById("mapBtn").style.backgroundColor = 'orange';
+      document.getElementById("mapBtn").style.border = 'none';
+      document.getElementById("mapBtn").style.color = 'white';
 
-       document.getElementById("locationBtn").style.backgroundColor = 'transparent';
-       document.getElementById("locationBtn").style.border = '2px solid white';
+      document.getElementById("locationBtn").style.backgroundColor = 'transparent';
+      document.getElementById("locationBtn").style.border = '2px solid white';
 
-       document.getElementById("locationBtn").style.color = 'white';
-       document.getElementById("tourismBtn").style.backgroundColor = 'transparent';
-       document.getElementById("tourismBtn").style.border = '2px solid white';
-       document.getElementById("tourismBtn").style.color = 'white';
+      document.getElementById("locationBtn").style.color = 'white';
+      document.getElementById("tourismBtn").style.backgroundColor = 'transparent';
+      document.getElementById("tourismBtn").style.border = '2px solid white';
+      document.getElementById("tourismBtn").style.color = 'white';
 
       document.getElementById("onClickChangeContainer").innerHTML = `   <div>
     <ul >
-        <li class="px-4 py-2 rounded-lg w-[340px]   hover:bg-gray-500  hover:bg-opacity-30       hover:text-white cursor-pointer border border-white mx-3 my-2" > <a href="./maps/TerrestrialPeaks/TerrestrialPeaks.html">Terrestrial Peaks</a></li>
-        <li class="px-4 py-2 rounded-lg w-[340px]   hover:bg-gray-500  hover:bg-opacity-30       hover:text-white cursor-pointer border border-white mx-3 my-2">Highlands</li>
-        <li class="px-4 py-2 rounded-lg w-[340px]   hover:bg-gray-500  hover:bg-opacity-30       hover:text-white cursor-pointer border border-white mx-3 my-2">Unique Surface Textures</li>
-        <li class="px-4 py-2 rounded-lg w-[340px]   hover:bg-gray-500  hover:bg-opacity-30       hover:text-white cursor-pointer border border-white mx-3 my-2">Enigmatic Features</li>
+        <li class="px-4 py-2 rounded-lg w-[340px]   hover:bg-gray-500  hover:bg-opacity-30       hover:text-white cursor-pointer border border-white mx-3 my-2" > <a href="../TerrestrialPeaks/TerrestrialPeaks.html">Terrestrial Peaks</a></li>
+        <li class="px-4 py-2 rounded-lg w-[340px]   hover:bg-gray-500  hover:bg-opacity-30       hover:text-white cursor-pointer border border-white mx-3 my-2"> <a href="../Highlands/Highlands.html">Highlands</a></li>
+        <li class="px-4 py-2 rounded-lg w-[340px]   hover:bg-gray-500  hover:bg-opacity-30       hover:text-white cursor-pointer border border-white mx-3 my-2"> <a href="../uniqueSurface/uniqueSurface.html">Unique Surface Textures</a> </li>
+        <li class="px-4 py-2 rounded-lg w-[340px]   hover:bg-gray-500  hover:bg-opacity-30       hover:text-white cursor-pointer border border-white mx-3 my-2"> <a href="../EnigmaticFeatures/EnigmaticFeatures.html">Enigmatic Features</a> </li>
         
     </ul>
    </div>`;
 
     }
     function handleDayConversion() {
+      document.getElementById("pointName").style.display = "none";
+
       const currentDate = new Date();
       const currentYear = currentDate.getFullYear();
-      const dayOfYear = Math.floor((currentDate - new Date(currentYear, 0, 0)) / (24 * 60 * 60 * 1000));
+      const dayOfYear = Math.floor(
+        (currentDate - new Date(currentYear, 0, 0)) / (24 * 60 * 60 * 1000)
+      );
 
-      document.getElementById("showInfo").style.display = "none";
-      document.getElementById("showDateTime").innerHTML = `
-        <p>Today is the ${dayOfYear}th day of the year ${currentYear} of Earth</p>
-        <p>Today is the ${parseInt((637 * dayOfYear) / 365)}th day of Mars</p>
-    `;
+      // Function to get the ordinal indicator for a number
+      function getOrdinalIndicator(number) {
+        if (number >= 11 && number <= 13) {
+          return "th";
+        }
+        switch (number % 10) {
+          case 1:
+            return "st";
+          case 2:
+            return "nd";
+          case 3:
+            return "rd";
+          default:
+            return "th";
+        }
+      }
+
+      const monthNames = [
+        "Jan",
+        "Feb",
+        "Mar",
+        "Apr",
+        "May",
+        "Jun",
+        "Jul",
+        "Aug",
+        "Sep",
+        "Oct",
+        "Nov",
+        "Dec",
+      ];
+
+      const day = currentDate.getDate();
+      const month = monthNames[currentDate.getMonth()];
+      const year = currentYear;
+      const marsDay = parseInt((637 * dayOfYear) / 365);
+
+      const earthOrdinal = day + getOrdinalIndicator(day);
+      const marsOrdinal = marsDay + getOrdinalIndicator(marsDay);
+
+      const output = `
+        <div class="mt-10 px-5 font-mono border border-white rounded-[15px] py-3">
+        ${month} ${day}${getOrdinalIndicator(day)}, ${year}<br>
+        ${dayOfYear}${getOrdinalIndicator(dayOfYear)} day on Earth<br>
+        ${marsDay}${getOrdinalIndicator(marsDay)} sol on Mars<br>
+        </div>
+`;
+
+      const formattedOutput = output.replace(/\n/g, "<br>"); // Replace newlines with HTML line breaks
+
+      // Apply dynamic class to showDateTimeElement
+      const showDateTimeElement = document.getElementById("showDateTime");
+      showDateTimeElement.innerHTML = formattedOutput;
+      showDateTimeElement.classList.add("custom-style"); // Add the custom CSS class
+
+      // Hide showInfoElement
+      const showInfoElement = document.getElementById("showInfo");
+      showInfoElement.style.display = "none";
+
       console.log(dayOfYear);
     }
 
