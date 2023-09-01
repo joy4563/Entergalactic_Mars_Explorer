@@ -13,20 +13,15 @@ run the JS files
 MARS FIXES:
 
 max zoom limit
-start screen a little bit zoomed
+    start screen a little bit zoomed
 some places have duplicate picutres.
-navigation problem
+    navigation problem
 fix the timer in the rovermap page
 add icons in rover, orbiter and ingenuity button
 weather add
 convert pyhton code to js so that it runs everytime we start out project
-Fix temp map tourism section
-fix ice water maps tourism, opt box shape
-temp map day conversion
-fix topography map tourism section
-rover map doesnot go to any other page
-add rover's name in rover section
-swap the picture of first rover with the second rover
+        Fix temp map tourism section
+
 zoom in from all side in rover_middle page
 Ingenuity video rounded corner
 terrestorial peaks fixed box of details size and scrollable
@@ -34,10 +29,37 @@ add pictures from rovers in rover section
 Orbiter page limit zoom
 add button for shader on/off and auto rotation on/off
 add shade in every map
-location color is not ok. first time load makes others black but moving to another makes it transparent but the color also changes
-replace the maps location icon with others. 
+replace the maps location icon with others
 add icons in rover, orbiter and ingenuity
 
 
+
+
+
+
+For Rukhsana:
+Navigation fix for every page
+Fix temp map tourism section
+    location color is not ok. first time load makes others black but moving to another makes it transparent but the color also changes
+
+fix ice water maps tourism, opt box shape
+temp map day conversion
+rover map doesnot go to any other page
+Color fix for location, tourism, topographical map
+Ingenuity page font fix
+fix ice water maps tourism, opt box shape
+temp map day conversion
+fix topography map tourism section
+rover map doesnot go to any other page
+add rover's name in rover section
+swap the picture of first rover with the second rover
 every map has different font and style
 
+
+For Ashik 
+Time interval fix
+Maps Text(Place name straight)
+Overlap fix for every map
+Add button to add shade
+add button to add movements 
+replace maps with the existing ones
