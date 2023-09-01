@@ -66,8 +66,9 @@ add shade in every map
 Rukhsana:
 Topographic Map => tourism
 Temp Map => tourism
-Water Ice => tourism
+Water Ice => tourism .. done
 Rover Map => tourism
+
 Water ice => Orbiter
 Temp Map=> Rover
 Temp Map=> Orbiter

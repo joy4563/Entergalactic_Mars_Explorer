@@ -159,7 +159,7 @@ function showInfo(point) {
                 
     
             </div>
-            <div class="ml-[18vw] w-[400px] text-3xl text-center font-mono font-bold mt-5"> ${point.name}</div>
+            <div class="ml-[18vw] w-[400px] text-3xl text-center font-mono font-bold mt-5" id="pointName"> ${point.name}</div>
         </div>
         <div id="showDateTime"></div>
           <div class="col-start-8 col-end-12 max-w-[400px] mt-10 pr-10" id="showInfo">
