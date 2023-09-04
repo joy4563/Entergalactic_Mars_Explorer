@@ -33,8 +33,22 @@ add button to add movements
 replace maps with the existing ones
 add shade in every map
 
-Every Map day conversion add padding to right
-Topography name middle
+
+Other map topography details fix
+Topography pictures not showing
+Temp>> Topography>>TerrestrialPeaks
+Temp>>Topography>>EnigmaticFeatures >> No picture
+Persiverence and curiosity time fix
+    hours with 0.
+    change Sols
+RoverMap>>Topography>>TerrestrialPeaks  
+RoverMap>>Topography>>slide1,slide2,slide3  (can not come back if 2nd or 3rd pic is selected)
+WAterICE>>Topography>>slide1,slide2,slide3  (can not come back if 2nd or 3rd pic is selected)
+
+any map after image change, press back, it doesnot go back.
+
+
+
 
 
 
