@@ -26,13 +26,6 @@ const sphere = new MySphere(2, 320, 160, "../../mars_4k_color.jpg");
 scene.add(sphere.sphere);
 camera.position.z = 3;
 
-// sphere.addMarker("LAT_LONG", 30, -90, (object) => {
-//     var geometry = new THREE.SphereGeometry(0.05, 10, 5);
-//     var material = new THREE.MeshBasicMaterial({ color: Colors.BLUE });
-//     var box = new THREE.Mesh(geometry, material);
-//     box.applyMatrix4(object);
-//     return box;
-// });
 
 // markerPointDemo();
 apiDataDemo();
@@ -61,7 +54,7 @@ function showInfo(point) {
     }
     // infoDiv.innerHTML = `IDdf: ${point.id}<br>Name: ${point.name}<br>Details: ${point.details}`;
 
-    infoDiv.innerHTML = `    <div>
+    infoDiv.innerHTML = `    <div >
       <div class=" max-w-[400px] mt-10 pr-10 font-mono" id="showInfo">
         <div class=" border flex w-[357px]  border-white p-3 rounded-[15px]  h-[200px] text-center py-3 ">
           <div class="carousel  w-[357px] rounded-lg">
@@ -80,7 +73,7 @@ function showInfo(point) {
               </div>
             </div>
             <div id="slide3" class="carousel-item relative w-[330px]">
-              <img src="${point.total.photo1}" class="w-[380px] h-[180px] rounded-[15px]" />
+              <img src="${point.total.photo3}" class="w-[380px] h-[180px] rounded-[15px]" />
               <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
                 <a href="#slide2" class="btn btn-circle">❮</a>
                 <a href="#slide1" class="btn btn-circle">❯</a>
@@ -95,7 +88,7 @@ function showInfo(point) {
           <p> <span class="font-bold" >Location: </span>${point.total.location}</p>
           <p> <span class="font-bold" >Lat: </span>${point.total.coordinatesForShow.latitude}</p>
           <p> <span class="font-bold" >Lon: </span>${point.total.coordinatesForShow.longitude}</p>
-          <div id="detail" class=" h-[120px] mt-2 overflow-y-scroll  custom-scrollbar text-justify">
+          <div id="detail" class=" h-[450px] mt-2 overflow-y-scroll  custom-scrollbar text-justify">
               <p> <span class="font-bold" >Details: </span> ${point.total.details}</p>
             </div>
         </div>
@@ -103,7 +96,7 @@ function showInfo(point) {
 
       
     </div>
-<div class="ml-[8vw] w-[400px] text-3xl text-center font-mono font-bold mt-10"> ${point.name}</div>
+<div class="ml-[23VW] text-3xl text-center font-mono font-bold mt-10"> ${point.name}</div>
    `;
 }
 

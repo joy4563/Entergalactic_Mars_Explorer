@@ -41,50 +41,6 @@ canvas.gameLoop(() => {
     // sphere.sphere.rotation.y += 0.0002;
 });
 
-// function markerPointDemo() {
-//     let markedPoints = new MarkedPoints();
-//     fetch("./data/most_intersting_place.json")
-//         .then((res) => res.json())
-//         .then((details) => {
-//             details.map(
-//                 (detail) =>
-//                     markedPoints.add`(${detail.id},${detail.name},${detail.description})`
-//             );
-//         });
-
-//     // markedPoints.add(1, "joyyyyyy", "This is point A");
-//     // markedPoints.add(2, "190145", "This is point B");
-//     // markedPoints.add(3, "180918", "This is point C");
-//     // markedPoints.add(4, "170101", "This is point D");
-//     // markedPoints.add(5, "200145", "This is point E");
-//     // markedPoints.add(6, "120918", "This is point F");
-//     //lol
-//     for (let point of markedPoints.points) {
-//         sphere.addMarker(point.name, null, null, (matrix) => {
-//             var geometry = new THREE.BoxGeometry(0.05, 0.05, 0.05);
-//             var material = new THREE.MeshBasicMaterial({
-//                 color: Colors.ORANGE,
-//             });
-//             var box = new THREE.Mesh(geometry, material);
-//             box.applyMatrix4(matrix);
-//             return box;
-//         });
-//     }
-
-//     sphere.onMarkerClick(camera, (text) => {
-//         const point = markedPoints.find(text);
-//         if (point != null) {
-//             showInfo(point);
-//         }
-//     });
-// }
-
-// function clickLocation() {
-//     // document.getElementById("locationBtn").style.color = "red";
-
-//     console.log("Click on location");
-// }
-
 function showInfo(point) {
     // console.log(point);
     // console.log(point.total);
@@ -202,7 +158,7 @@ function showInfo(point) {
               </div>
             </div>
             <div id="slide3" class="carousel-item relative w-[330px]">
-              <img src="${point.total.photo1}" class="w-[380px] h-[180px] rounded-[15px]" />
+              <img src="${point.total.photo3}" class="w-[380px] h-[180px] rounded-[15px]" />
               <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
                 <a href="#slide2" class="btn btn-circle">❮</a>
                 <a href="#slide1" class="btn btn-circle">❯</a>

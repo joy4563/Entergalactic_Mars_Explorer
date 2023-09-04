@@ -80,7 +80,7 @@ function showInfo(point) {
               </div>
             </div>
             <div id="slide3" class="carousel-item relative w-[330px]">
-              <img src="${point.total.photo1}" class="w-[380px] h-[180px] rounded-[15px]" />
+              <img src="${point.total.photo3}" class="w-[380px] h-[180px] rounded-[15px]" />
               <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
                 <a href="#slide2" class="btn btn-circle">❮</a>
                 <a href="#slide1" class="btn btn-circle">❯</a>
