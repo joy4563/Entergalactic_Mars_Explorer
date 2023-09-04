@@ -50,9 +50,12 @@ WAterICE>>Topography>>slide1,slide2,slide3  (can not come back if 2nd or 3rd pic
 
 any map after image change, press back, it doesnot go back.
 
+<<<<<<< HEAD
 
 
 
+=======
+>>>>>>> main
 
 
 
