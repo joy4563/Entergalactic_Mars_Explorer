@@ -34,6 +34,9 @@ replace maps with the existing ones
 add shade in every map
 
 
+the runtime fix hours
+sols fix
+
 Other map topography details fix
 Topography pictures not showing
 Temp>> Topography>>TerrestrialPeaks
@@ -47,6 +50,7 @@ WAterICE>>Topography>>slide1,slide2,slide3  (can not come back if 2nd or 3rd pic
 
 any map after image change, press back, it doesnot go back.
 
+need to fix xxxxx
 
 
 
