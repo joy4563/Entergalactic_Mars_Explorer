@@ -102,7 +102,7 @@
       "location": "Elysium Planitia",
       "TotalWorkingDays": "5 May 2018 - 21 December 2022",
       "CurrentStatus": "Dead",
-      "details": "Ingenuity is a small helicopter carried by NASA's Perseverance rover to Mars. It marked the first successful powered flight on another planet in April 2021. Weighing just 4 pounds (1.8 kg), Ingenuity demonstrated controlled flight in Mars' thin atmosphere. Its flights provide valuable aerial imagery, aiding Perseverance's mission by scouting terrain and expanding our capabilities for future planetary exploration.",
+      "details": "InSight is a NASA robotic lander that landed on Mars in 2018. Its mission is to study the Martian interior, particularly its seismic activity and heat flow, providing valuable insights into the planet's geological history. This mission has expanded our understanding of Mars and its geology.",
       "coordinates": {
         "latitude": 4.5024,
         "longitude": 135.6234
@@ -121,7 +121,7 @@
       "location": "Planum Australe",
       "TotalWorkingDays": "January 3, 1999 - December 3, 1999",
       "CurrentStatus": "Dead",
-      "details": "Ingenuity is a small helicopter carried by NASA's Perseverance rover to Mars. It marked the first successful powered flight on another planet in April 2021. Weighing just 4 pounds (1.8 kg), Ingenuity demonstrated controlled flight in Mars' thin atmosphere. Its flights provide valuable aerial imagery, aiding Perseverance's mission by scouting terrain and expanding our capabilities for future planetary exploration.",
+      "details": "The Mars Polar Lander (MPL) was a NASA spacecraft launched in 1999 with the goal of studying Mars' polar regions, focusing on climate and potential water ice presence. Unfortunately, MPL encountered communication issues during its descent to the Martian surface in December 1999 and lost contact, leading to the mission's unfortunate failure and contributing to the understanding of the challenges of Mars exploration.",
       "coordinates": {
         "latitude": -76.0,
         "longitude": -195.0
@@ -140,7 +140,7 @@
       "location": "Green Valley",
       "TotalWorkingDays": "May 25, 2008 - November 2, 2008",
       "CurrentStatus": "Dead",
-      "details": "Ingenuity is a small helicopter carried by NASA's Perseverance rover to Mars. It marked the first successful powered flight on another planet in April 2021. Weighing just 4 pounds (1.8 kg), Ingenuity demonstrated controlled flight in Mars' thin atmosphere. Its flights provide valuable aerial imagery, aiding Perseverance's mission by scouting terrain and expanding our capabilities for future planetary exploration.",
+      "details": "The Phoenix rover, a key component of NASA's Mars Scout Program, made history with its successful landing on the Martian arctic plains in May 2008. Armed with a robotic arm, a wet chemistry lab, and a suite of scientific instruments, Phoenix not only confirmed the existence of water ice just below the Martian surface but also detected perchlorate salts, suggesting the possibility of past habitable conditions. These discoveries revolutionized our understanding of Mars' geology and the potential for life on the Red Planet, firmly establishing Phoenix as a pivotal achievement in planetary exploration.",
       "coordinates": {
         "latitude": 68.2188,
         "longitude": -125.7492
@@ -159,7 +159,7 @@
       "location": "Ares Vallis",
       "TotalWorkingDays": "July 4, 1997 - September 27, 1997",
       "CurrentStatus": "Dead",
-      "details": "Ingenuity is a small helicopter carried by NASA's Perseverance rover to Mars. It marked the first successful powered flight on another planet in April 2021. Weighing just 4 pounds (1.8 kg), Ingenuity demonstrated controlled flight in Mars' thin atmosphere. Its flights provide valuable aerial imagery, aiding Perseverance's mission by scouting terrain and expanding our capabilities for future planetary exploration.",
+      "details": "The Sojourner rover, part of NASA's Mars Pathfinder mission in 1997, was a groundbreaking, compact six-wheeled robot. Weighing just 11 kilograms and standing at 65 centimeters tall, it conducted vital experiments and captured images of Mars' terrain, expanding our understanding of the planet's geology and history. Sojourner's success laid the foundation for subsequent, more advanced Martian rovers like Spirit, Opportunity, Curiosity, and Perseverance, marking a significant milestone in planetary exploration.",
       "coordinates": {
         "latitude": 19.1300,
         "longitude": -33.2200
