@@ -40,7 +40,6 @@ canvas.gameLoop(() => {
     // sphere.sphere.rotation.x -= 0.001;
     // sphere.sphere.rotation.y += 0.001;
     // sphere.sphere.rotation.z -= 0.001;
-// 
 });
 
 function showInfo(point) {
@@ -168,8 +167,6 @@ function showInfo(point) {
         </div>
       </div>
     `;
-
-   
 }
 
 function apiDataDemo() {
