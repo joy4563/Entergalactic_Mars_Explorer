@@ -38,6 +38,7 @@ Rukhsana
 Rover middle page add a picture showing layout each page contains 25 picutre
 have option to move to different page
 Each page will have drop down menu from where it can show different picutres
+picture of the day add details side like first page
 
 For Sabbir:
 Make a json file with the picture of the day. => done
