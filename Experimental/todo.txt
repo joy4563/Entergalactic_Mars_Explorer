@@ -1,51 +1,50 @@
-Add a basic info page about mars in the first page
-
 MARS FIXES:
 
+Khalek
+gameloop button slider
+shader with button
+text parallel
+Overlap
+Map rotate button (gameloop)
+distance from one point to another
 max zoom limit
-    start screen a little bit zoomed
-some places have duplicate picutres.
-fix the timer in the rovermap page
-add icons in rover, orbiter and ingenuity button
-weather add
-convert pyhton code to js so that it runs everytime we start out project
-
-zoom in from all side in rover_middle page
-terrestorial peaks fixed box size of details size
-Orbiter, every map page limit zoom
 replace the maps location icon with others
-add icons in rover, orbiter and ingenuity
 
 
-
-
-For Sabbir:
-Make a json file with the picture of the day.
-run the JS files everytime we run npx vite in background
-
-
-For Ashik 
+Ashik 
+gameloop button slider=> Khalek
+Add button to add shade => Khalek
+text parallel => Khalek
+Overlap => Khalek
+Map rotate button (gameloop) => Khalek
+max zoom limit => Khalek
+replace the maps location icon with others => Khalek
+distance from one point to another=> Khakek
 Time interval fix
-Maps Text(Place name straight)
-Overlap fix for every map
-Add button to add shade
-add button to add movements 
 replace maps with the existing ones
-add shade in every map
-
-
-the runtime fix hours
-sols fix
-
-Other map topography details fix
-
+the runtime fix hours (012H)
+sols fix + auto update
 Persiverence and curiosity time fix
     hours with 0.
     change Sols
 
-WAterICE>>Topography>>slide1,slide2,slide3  (can not come back if 2nd or 3rd pic is selected)
 
-any map after image change, press back, it doesnot go back.
+Joy
+Other map topography details fix
+add icons in rover, orbiter and ingenuity button
+
+
+Rukhsana
+Rover middle page add a picture showing layout each page contains 25 picutres
+have option to move to different page
+Each page will have drop down menu from where it can show different picutres
+
+For Sabbir:
+Make a json file with the picture of the day.
+run the JS files everytime we run npx vite in background
+weather add
+convert pyhton code to js so that it runs everytime we start out project
+
 
 MARS Weather forecast from past using Insight(Air Temperature, Pressure, Wind Speed, Wind Direction, Atmospheric Opacity (or tau))=> https://mars.nasa.gov/insight/weather/
 Wind, Weather from Perseverance, radiation rays => https://github.com/gablau/mars-insight-weather-node
