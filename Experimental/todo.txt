@@ -40,10 +40,10 @@ have option to move to different page
 Each page will have drop down menu from where it can show different picutres
 
 For Sabbir:
-Make a json file with the picture of the day.
+Make a json file with the picture of the day. => done
 run the JS files everytime we run npx vite in background
 weather add
-convert pyhton code to js so that it runs everytime we start out project
+convert pyhton code to js so that it runs everytime we start out project=> Almost done
 
 
 MARS Weather forecast from past using Insight(Air Temperature, Pressure, Wind Speed, Wind Direction, Atmospheric Opacity (or tau))=> https://mars.nasa.gov/insight/weather/
