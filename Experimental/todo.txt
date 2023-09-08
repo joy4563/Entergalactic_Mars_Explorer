@@ -35,7 +35,7 @@ add icons in rover, orbiter and ingenuity button
 
 
 Rukhsana
-Rover middle page add a picture showing layout each page contains 25 picutres
+Rover middle page add a picture showing layout each page contains 25 picutre
 have option to move to different page
 Each page will have drop down menu from where it can show different picutres
 
