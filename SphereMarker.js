@@ -78,7 +78,7 @@ export class MySphere {
           const textMesh = new THREE.Mesh(textGeometry, textMaterial);
 
           textMesh.position.copy(position);
-          textMesh.lookAt(-90, -180, -90);
+          textMesh.lookAt(0, 0, 0);
           resolve(textMesh);
         },
 
