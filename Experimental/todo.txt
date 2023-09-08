@@ -47,7 +47,29 @@ WAterICE>>Topography>>slide1,slide2,slide3  (can not come back if 2nd or 3rd pic
 
 any map after image change, press back, it doesnot go back.
 
+MARS Weather forecast from past using Insight(Air Temperature, Pressure, Wind Speed, Wind Direction, Atmospheric Opacity (or tau))=> https://mars.nasa.gov/insight/weather/
+Wind, Weather from Perseverance, radiation rays => https://github.com/gablau/mars-insight-weather-node
+Code a helicopter game for kids
+Mars weather forecast from Perseverance with latest update
+Raw image from: Insight=> https://mars.nasa.gov/insight/multimedia/raw-images/?order=sol+desc%2Cdate_taken+desc&per_page=50&page=2&mission=insight
 
+Raw Image from Curiosity=> https://api.nasa.gov/mars-photos/api/v1/rovers/curiosity/photos?api_key=DEMO_KEY&sol=1000
+cam: https://api.nasa.gov/mars-photos/api/v1/rovers/curiosity/photos?api_key=DEMO_KEY&sol=1000&camera=fhaz
+latest photo=> https://api.nasa.gov/mars-photos/api/v1/rovers/curiosity/latest_photos?api_key=DEMO_KEY
+ameras: [
+    "CHEMCAM",
+    "FHAZ",
+    "MARDI",
+    "RHAZ"
+]
+
+Raw Image from Oppertunity=> https://mars.nasa.gov/msl-raw-images/proj/msl/redops/ods/surface/sol/01000/opgs/edr/fcam/FLB_486265257EDR_F0481570FHAZ00323M_.jpg
+Raw Image from Spirit=> https://api.nasa.gov/mars-photos/api/v1/rovers/opportunity/photos?sol=100&api_key=DEMO_KEY
+Raw Image from Perseverance=>https://mars.nasa.gov/mars2020-raw-images/pub/ods/surface/sol/00004/ids/edr/browse/ncam/NLM_0004_0667310972_991ECM_N0010052AUT_04096_00_2LLJ01.png
+
+Navigation data:
+https://mars.nasa.gov/mmgis-maps/M20/Layers/json/M20_traverse.json
+https://mars.nasa.gov/mmgis-maps/M20/Layers/json/M20_waypoints.json
 
 
 
