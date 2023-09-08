@@ -58,6 +58,7 @@ function showInfo(point) {
   }
 
   setInterval(() => {
+    // console.log(point);
     let hrs = document.getElementById("showHrs");
     let min = document.getElementById("showMin");
     let sec = document.getElementById("showSec");
@@ -75,6 +76,7 @@ function showInfo(point) {
         ((currentTime.getMinutes() + 35) % 60);
     sec.innerHTML =
         (currentTime.getSeconds() < 10 ? "0" : "") + currentTime.getSeconds();
+        
   }, 1000);
 
 
@@ -135,7 +137,7 @@ function showInfo(point) {
         <div class="ml-[18vw] w-[400px] text-3xl text-center font-mono font-bold my-5" id="pointName"> <span>${point.name
     }</span> <br><span>  <span>${point.name == "Curiosity" ? "3928 : " : ""
     }</span>
-         <span>${point.name == "Ingenuity" ? "892 : " : ""}</span>
+         <span>${point.name == "Ingenuity" ? "`${}` " : ""}</span>
          <span>${point.name == "Perseverance" ? "892 : " : ""}</span>
      <span>${point.total.CurrentStatus == "active"
       ? `<span id="showHrs"> </span>` +
