@@ -10,6 +10,25 @@
       type="text/css"
     />
     <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+      .custom-scrollbar::-webkit-scrollbar {
+        display: none;
+      }
+
+      .custom-scrollbar::-webkit-scrollbar-track {
+        background: #f1f1f1;
+      }
+
+      .custom-scrollbar::-webkit-scrollbar-thumb {
+        background-color: #888;
+        border-radius: 4px;
+      }
+
+      .custom-scrollbar::-webkit-scrollbar-thumb:hover {
+        background-color: #555;
+      }
+
+    </style>
   </head>
   <body style="background: url('../Mars_roverPage_BG.jpg');
   background-repeat: no-repeat;
@@ -19,15 +38,28 @@
   class="font-mono"
   >     
 
-    <div class="  flex justify-center pt-12">
-      <div id="pictureContainer" class="w-[80vw] h-[90vh]"></div>
+    <div class="  flex flex-row p-10">
+    <div class="col-start-1 col-end-2 w-[400px]">
+      <div id="pictureContainer"></div>
+    </div>
+      
+      
+    <div class="col-start-2 col-end-8 w-[990px]"></div>
 
-      <div>
-      <div id="titleContainer"></div>
-       <div id="dateContainer"></div>
-       <div id="explanationContainer"></div>
-      <a href="../index.html" class="btn bg-transparent  text-white hover:bg-gray-900">Home</a>
+      <div class="col-start-8 col-end-12 w-[400px]">
+        <a href="../index.html" class="mb-3 w-[390px] btn bg-transparent  text-white hover:bg-gray-500">Home</a>
+<div class="border-solid border-2 border-gray-200 text-white rounded-[15px] pt-3 pl-3 pb-3">
+  <div id="titleContainer" class="pb-3"></div>
+  <div id="dateContainer" class="pb-3"></div>
+  <div class="custom-scrollbar overflow-y-scroll h-[300px]">
+   <div id="explanationContainer">
 
+   </div>
+  </div>
+</div>
+     
+      
+    
       </div>
       
     </div>
@@ -41,7 +73,7 @@
           document.getElementById("dateContainer").innerHTML=`<p>${data.date}</p>`
           document.getElementById("titleContainer").innerHTML=`<p class="text-xl font-bold">${data.title}</p>`
           document.getElementById("explanationContainer").innerHTML=`<p class="text-xl font-bold">${data.explanation}</p>`
-          document.getElementById("pictureContainer").innerHTML=`<img src=${data.hdurl} alt="" class=" rounded-lg">`
+          document.getElementById("pictureContainer").innerHTML=`<img src=${data.img_src} alt="" class="rounded-lg ">`
         }
   </script>
   </body>
