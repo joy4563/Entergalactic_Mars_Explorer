@@ -16,12 +16,33 @@
   background-size: cover;
   height : 100vh;
   "
-  >
-    <div class="  flex flex-col justify-center items-center pt-[10%] ">
-      <img src="../Experimental/API/PictureOfTheDay/image.jpg" alt=""  class="w-[60vw] h-[60vh] border-white border-2 rounded-lg" >
-      <a href="../index.html" class="btn bg-transparent mt-5   text-white hover:text-gray-950">Home</a>
+  class="font-mono"
+  >     
+
+    <div class="  flex justify-center pt-12">
+      <div id="pictureContainer" class="w-[80vw] h-[90vh]"></div>
+
+      <div>
+      <div id="titleContainer"></div>
+       <div id="dateContainer"></div>
+       <div id="explanationContainer"></div>
+      <a href="../index.html" class="btn bg-transparent  text-white hover:bg-gray-900">Home</a>
+
+      </div>
+      
     </div>
    
-  
+  <script>
+    fetch("https://api.nasa.gov/planetary/apod?api_key=7QVxWTvL4YZkPFPAgWQGydwacGjiVFoCN8UdnOcU")
+        .then((response) => response.json())
+        .then((data) => showPicOfTheDay(data))
+
+        function showPicOfTheDay(data){
+          document.getElementById("dateContainer").innerHTML=`<p>${data.date}</p>`
+          document.getElementById("titleContainer").innerHTML=`<p class="text-xl font-bold">${data.title}</p>`
+          document.getElementById("explanationContainer").innerHTML=`<p class="text-xl font-bold">${data.explanation}</p>`
+          document.getElementById("pictureContainer").innerHTML=`<img src=${data.hdurl} alt="" class=" rounded-lg">`
+        }
+  </script>
   </body>
 </html>
