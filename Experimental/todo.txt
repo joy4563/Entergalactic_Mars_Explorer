@@ -24,7 +24,7 @@ Time interval fix
 replace maps with the existing ones
 the runtime fix hours (012H)
 sols fix + auto update
-Persiverence and curiosity time fix
+Perseverance and curiosity time fix
     hours with 0.
     change Sols
 
@@ -38,10 +38,8 @@ Rukhsana
 Rover middle page add a picture showing layout each page contains 25 picutre
 have option to move to different page
 Each page will have drop down menu from where it can show different picutres
-picture of the day add details side like first page
 
 For Sabbir:
-Make a json file with the picture of the day. => done
 run the JS files everytime we run npx vite in background
 weather add
 convert pyhton code to js so that it runs everytime we start out project=> Almost done
@@ -63,7 +61,7 @@ ameras: [
     "RHAZ"
 ]
 
-Raw Image from Oppertunity=> https://mars.nasa.gov/msl-raw-images/proj/msl/redops/ods/surface/sol/01000/opgs/edr/fcam/FLB_486265257EDR_F0481570FHAZ00323M_.jpg
+Raw Image from opportunity=> https://mars.nasa.gov/msl-raw-images/proj/msl/redops/ods/surface/sol/01000/opgs/edr/fcam/FLB_486265257EDR_F0481570FHAZ00323M_.jpg
 Raw Image from Spirit=> https://api.nasa.gov/mars-photos/api/v1/rovers/opportunity/photos?sol=100&api_key=DEMO_KEY
 Raw Image from Perseverance=>https://mars.nasa.gov/mars2020-raw-images/pub/ods/surface/sol/00004/ids/edr/browse/ncam/NLM_0004_0667310972_991ECM_N0010052AUT_04096_00_2LLJ01.png
 
@@ -73,3 +71,7 @@ https://mars.nasa.gov/mmgis-maps/M20/Layers/json/M20_waypoints.json
 
 
 
+Api working:
+Curiosity: https://mars-photos.herokuapp.com/api/v1/rovers/curiosity/photos?sol=1000 
+
+Opportunity: https://mars-photos.herokuapp.com/api/v1/rovers/opportunity/photos?sol=100&camera=pancam
