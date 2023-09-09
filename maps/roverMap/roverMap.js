@@ -40,6 +40,12 @@ function sol_value(sol) {
   return sol;
 }
 
+setInterval(() => {
+  let sec = document.getElementById('showSec');
+  let current_date = new Date();
+  sec.innerHTML = (current_date.getSeconds() < 10 ? "0" : "") + current_date.getSeconds();
+},1000)
+
 function otherValue(sol, rover_name) {
   let prev_date,min;
   if (rover_name == 'Curiosity') {
@@ -64,6 +70,7 @@ function otherValue(sol, rover_name) {
       min += 60;
     }
   }
+  
   let sec = (now.getSeconds() < 10 ? "0" : "") + now.getSeconds();
   return [hrs, min, sec];
 }
@@ -104,27 +111,6 @@ function showInfo(point) {
     // infoDiv.innerHTML = "Click on a marker to see the details";
     document.body.appendChild(infoDiv);
   }
-
-  // setInterval(() => {
-  //   let hrs = document.getElementById("showHrs");
-  //   let min = document.getElementById("showMin");
-  //   let sec = document.getElementById("showSec");
-  //   // let sec = document.getElementById("showTime");
-  //   // sec.innerHTML="mmmm"
-  //   // console.log("ff");
-  //   let currentTime = new Date();
-  //   hrs.innerHTML =
-  //       (currentTime.getHours() < 10 ? "0" : "") +
-  //       ((currentTime.getMinutes() + 35) % 60 == 0
-  //           ? currentTime.getHours() + 1
-  //           : currentTime.getHours());
-  //   min.innerHTML =
-  //       (currentTime.getMinutes() < 10 ? "0" : "") +
-  //       ((currentTime.getMinutes() + 35) % 60);
-  //   sec.innerHTML =
-  //       (currentTime.getSeconds() < 10 ? "0" : "") + currentTime.getSeconds();
-  // }, 1000);
-
 
   infoDiv.innerHTML = `
       <div class="grid grid-cols-12 gap-6  mt-10 ml-10 mr-10 text-xs">
@@ -182,8 +168,8 @@ function showInfo(point) {
         <div class="ml-[18vw] w-[400px] text-3xl text-center font-mono font-bold my-5" id="pointName"> <span>${point.name
       }</span> <br><span>  <span id="curiosity_sols">${point.name == "Curiosity" ? `${sol(point.name)} : ` : ""
     }</span>
-         <span>${point.name == "Ingenuity" ? "892 : " : ""}</span>
-         <span>${point.name == "Perseverance" ? "892 : " : ""}</span>
+         <span id="ingenuity">${point.name == "Ingenuity" ? "892 : " : ""}</span>
+         <span id="perseverance">${point.name == "Perseverance" ? `${sol(point.name)}:` : ""}</span>
      <span>${point.total.CurrentStatus == "active"
       ? `<span id="showHrs">${point.name == "Curiosity" ? `${otherValue(sol("Curiosity"),"Curiosity")[0]}`: `${otherValue(sol("Perseverance"),"Perseverance")[0]}`}</span>` +
       " :"
@@ -195,7 +181,7 @@ function showInfo(point) {
       : ""
     }</span>
      <span>${point.total.CurrentStatus == "active"
-      ? `<span id="showSec">${point.name == "Curiosity" ? `${otherValue(sol("Curiosity"),"Curiosity")[2]}`: `${otherValue(sol("Perseverance"),"Perseverance")[2]}`}</span>`
+      ? `<span id="showSec"></span>`
       : ""
     }</span> </span>
      <br>
