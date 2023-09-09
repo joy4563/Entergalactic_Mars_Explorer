@@ -17,7 +17,7 @@
         //camera fhaz, rhaz, navcam, pancam, minities
 
       fetch(
-        "https://mars-photos.herokuapp.com/api/v1/rovers/spirit/photos?sol=1000"
+        "https://mars-photos.herokuapp.com/api/v1/rovers/spirit/photos?sol=1"
       )
         .then((response) => response.json())
         .then((data) => showImage(data));
