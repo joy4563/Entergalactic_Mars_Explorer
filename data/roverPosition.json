@@ -9,12 +9,12 @@
       "CurrentStatus": "active",
       "details": "Perseverance rover, NASA's Mars mission since 2021, explores Jezero Crater for signs of ancient life and collects samples. It debuts Ingenuity, a helicopter for aerial surveys. Perseverance's mission advances human Mars exploration, using innovative tech to unveil Martian history, potential habitability, and pave the way for future manned missions.",
       "coordinates": {
-        "latitude": 17.361,
+        "latitude": 77.361,
         "longitude": 18.48
       },
       "coordinatesForShow": {
-        "latitude": "18°39°N",
-        "longitude": "226°12°E"
+        "latitude": "77°39°N",
+        "longitude": "18°12°E"
       },
   
       "photo": "https://i.ibb.co/MMGtVFr/mars-rover-perseverance.jpg"
@@ -47,13 +47,13 @@
       "CurrentStatus": "Dead",
       "details": "Zhurong is China's Mars rover, landing on the Red Planet in May 2021 as part of the Tianwen-1 mission. Named after a fire god, Zhurong aims to study Mars' geology, atmosphere, and potential signs of life. It carries instruments like cameras, spectrometers, and a ground-penetrating radar, contributing to our global understanding of Mars' evolution and habitability.",
       "coordinates": {
-        "latitude": 46.7,
-        "longitude": 117.5
-      },
+        "latitude": 25.102,
+        "longitude": 109.914
+    },
       "coordinatesForShow": {
-        "latitude": "46.7°N",
-        "longitude": "117.5°E"
-      },
+        "latitude": "25.102°N",
+        "longitude": "109.914°E"
+    },
   
       "photo": "https://i.ibb.co/JpjyPnN/mars-zhurong.webp"
     },
@@ -66,33 +66,109 @@
       "CurrentStatus": "Dead",
       "details": "Opportunity was a NASA Mars rover launched in 2003. It explored Mars' surface, making significant discoveries about its watery past. It operated for over 14 years, vastly exceeding its intended 90-day mission. Notably, it found evidence of ancient Martian environments conducive to life. Unfortunately, a massive dust storm in 2018 led to its final communication, ending a remarkable journey of exploration.",
       "coordinates": {
-        "latitude": -13.9,
-        "longitude": -59.2
-      },
+        "latitude": -1.9462,
+        "longitude": 354.4734
+    },
       "coordinatesForShow": {
-        "latitude": "13.9°S",
-        "longitude": "59.2°W"
-      },
+        "latitude": "1.9462°S",
+        "longitude": "354.4734°E"
+    },
   
       "photo": "https://i.ibb.co/nzdsLd5/mars-opportunity.jpg"
     },
-    {
+        {
       "id": 5,
       "type": "Helicopter",
-      "name": "Ingenuity",
-      "location": "Jezero Crater",
-      "TotalWorkingDays": "Apr 19, 2021 - Current",
-      "CurrentStatus": "active",
+      "name": "Inguinity",
+      "location": "Jezero crater",
+      "TotalWorkingDays": "19 April 2021 - Current",
+      "CurrentStatus": "Active",
       "details": "Ingenuity is a small helicopter carried by NASA's Perseverance rover to Mars. It marked the first successful powered flight on another planet in April 2021. Weighing just 4 pounds (1.8 kg), Ingenuity demonstrated controlled flight in Mars' thin atmosphere. Its flights provide valuable aerial imagery, aiding Perseverance's mission by scouting terrain and expanding our capabilities for future planetary exploration.",
       "coordinates": {
-        "latitude": 77.35,
-        "longitude": 18.48
-      },
+        "latitude": 77.5024,
+        "longitude": 22.6234
+    },
       "coordinatesForShow": {
-        "latitude": "77.9",
-        "longitude": "18.481"
+        "latitude": "77.5024°N",
+        "longitude": "22.6234°E"
       },
   
-      "photo": "https://i.ibb.co/QYmVbP9/mars-Inginuinity-1.jpg"
+      "photo": "https://i.ibb.co/m410pC9/Mars-helicopter.png"
+    },
+        {
+      "id": 6,
+      "type": "Lander",
+      "name": "InSight",
+      "location": "Elysium Planitia",
+      "TotalWorkingDays": "5 May 2018 - 21 December 2022",
+      "CurrentStatus": "Dead",
+      "details": "Ingenuity is a small helicopter carried by NASA's Perseverance rover to Mars. It marked the first successful powered flight on another planet in April 2021. Weighing just 4 pounds (1.8 kg), Ingenuity demonstrated controlled flight in Mars' thin atmosphere. Its flights provide valuable aerial imagery, aiding Perseverance's mission by scouting terrain and expanding our capabilities for future planetary exploration.",
+      "coordinates": {
+        "latitude": 4.5024,
+        "longitude": 135.6234
+    },
+      "coordinatesForShow": {
+        "latitude": "4.5024°N",
+        "longitude": "135.6234°E"
+      },
+  
+      "photo": "https://i.ibb.co/3h2QFYp/mars-insight.jpg"
+    },
+        {
+      "id": 7,
+      "type": "Lander",
+      "name": "Mars Polar Lander",
+      "location": "Planum Australe",
+      "TotalWorkingDays": "January 3, 1999 - December 3, 1999",
+      "CurrentStatus": "Dead",
+      "details": "Ingenuity is a small helicopter carried by NASA's Perseverance rover to Mars. It marked the first successful powered flight on another planet in April 2021. Weighing just 4 pounds (1.8 kg), Ingenuity demonstrated controlled flight in Mars' thin atmosphere. Its flights provide valuable aerial imagery, aiding Perseverance's mission by scouting terrain and expanding our capabilities for future planetary exploration.",
+      "coordinates": {
+        "latitude": -76.0,
+        "longitude": -195.0
+    },
+    "coordinatesForShow": {
+        "latitude": "76.0°S",
+        "longitude": "195.0°W"
+    },
+  
+      "photo": "https://i.ibb.co/5jFPKVQ/Mars-Polar-Lander.png"
+    },
+        {
+      "id": 8,
+      "type": "Spacecraft",
+      "name": "Phoenix",
+      "location": "Green Valley",
+      "TotalWorkingDays": "May 25, 2008 - November 2, 2008",
+      "CurrentStatus": "Dead",
+      "details": "Ingenuity is a small helicopter carried by NASA's Perseverance rover to Mars. It marked the first successful powered flight on another planet in April 2021. Weighing just 4 pounds (1.8 kg), Ingenuity demonstrated controlled flight in Mars' thin atmosphere. Its flights provide valuable aerial imagery, aiding Perseverance's mission by scouting terrain and expanding our capabilities for future planetary exploration.",
+      "coordinates": {
+        "latitude": 68.2188,
+        "longitude": -125.7492
+    },
+    "coordinatesForShow": {
+        "latitude": "68.2188°N",
+        "longitude": "125.7492°W"
+    },
+  
+      "photo": "https://i.ibb.co/nwj43vz/Mars-Phoenix.jpg"
+    },
+        {
+      "id": 9,
+      "type": "Rover",
+      "name": "Sojourner",
+      "location": "Ares Vallis",
+      "TotalWorkingDays": "July 4, 1997 - September 27, 1997",
+      "CurrentStatus": "Dead",
+      "details": "Ingenuity is a small helicopter carried by NASA's Perseverance rover to Mars. It marked the first successful powered flight on another planet in April 2021. Weighing just 4 pounds (1.8 kg), Ingenuity demonstrated controlled flight in Mars' thin atmosphere. Its flights provide valuable aerial imagery, aiding Perseverance's mission by scouting terrain and expanding our capabilities for future planetary exploration.",
+      "coordinates": {
+        "latitude": 19.1300,
+        "longitude": -33.2200
+    },
+    "coordinatesForShow": {
+        "latitude": "19.1300°N",
+        "longitude": "33.2200°W"
+    },
+  
+      "photo": "https://i.ibb.co/1Q9FYJK/mars-sojourner.jpg"
     }
 ]
