@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Mars Demo</title>
+</head>
+
+<body>
+
+    <div id="timer">00:00:00</div>
+    <script>
+
+
+
+
+        f("05 Aug 2012 13:49:59");
+
+        function f(ini) {
+
+            timerInterval = setInterval(() => {
+                let launch_time = new Date(ini);
+                let current_time = new Date();
+                let diff = (current_time - launch_time) / 1000;
+                const timeObject = convertTime(diff);
+
+
+                document.getElementById("timer").textContent = `${String(timeObject.days).padStart(2, "0")} :${String(
+                    timeObject.hours
+                ).padStart(2, "0")} :${String(timeObject.minutes).padStart(
+                    2,
+                    "0"
+                )} :${String(parseInt(timeObject.seconds)).padStart(2, "0")}`;
+            }, 1000);
+
+        }
+
+
+
+        function convertTime(x) {
+            let seconds = x + 30 + (9 * 61.25);
+            const secondsInMinute = 61.25;
+            const secondsInHour = 3699;
+            const secondsInDay = 88775.244;
+            const secToMillisec = 1.021;
+
+
+            const days = Math.floor(seconds / secondsInDay);
+            const remainingSeconds = seconds % secondsInDay;
+            const hours = Math.floor(remainingSeconds / secondsInHour) - 6;
+            const remainingSecondsAfterHours = remainingSeconds % secondsInHour;
+
+
+            const minutes = Math.floor(
+                remainingSecondsAfterHours / secondsInMinute
+            );
+            const secondsWithoutMinutes = (remainingSecondsAfterHours % secondsInMinute);
+            const milliseconds = secondsWithoutMinutes * secToMillisec;
+
+            return {
+                days,
+                hours,
+                minutes,
+                seconds: secondsWithoutMinutes,
+                milliseconds,
+            };
+        }
+    </script>
+
+    <script></script>
+</body>
+
+</html>
