@@ -37,34 +37,34 @@ camera.position.z = 2;
 // markerPointDemo();
 apiDataDemo();
 canvas.gameLoop(() => {
-    // sphere.sphere.rotation.x -= 0.01;
-    // sphere.sphere.rotation.y -= 0.01;
-    // sphere.sphere.rotation.z += 0.001;
-// 
+  // sphere.sphere.rotation.x -= 0.01;
+  // sphere.sphere.rotation.y -= 0.01;
+  // sphere.sphere.rotation.z += 0.001;
+  // 
 });
 
 function showInfo(point) {
-    // console.log(point);
-    // console.log(point.total);
-    let infoDiv = document.getElementById("info");
-    let location = document.getElementById("locationBtn");
-    if (!infoDiv) {
-        infoDiv = document.createElement("div");
-        infoDiv.id = "info";
-        infoDiv.style.position = "absolute";
-        infoDiv.style.top = "10px";
-        infoDiv.style.display = "flex";
-        // infoDiv.style.alignItems = "center";
-        // infoDiv.style.justifyContent = "space-between";
-        infoDiv.style.left = "10px";
-        infoDiv.style.color = "white";
-        infoDiv.style.fontSize = "18px";
-        infoDiv.innerHTML = "Click on a marker to see the details";
-        document.body.appendChild(infoDiv);
-    }
-    // infoDiv.innerHTML = `IDdf: ${point.id}<br>Name: ${point.name}<br>Details: ${point.details}`;
+  // console.log(point);
+  // console.log(point.total);
+  let infoDiv = document.getElementById("info");
+  let location = document.getElementById("locationBtn");
+  if (!infoDiv) {
+    infoDiv = document.createElement("div");
+    infoDiv.id = "info";
+    infoDiv.style.position = "absolute";
+    infoDiv.style.top = "10px";
+    infoDiv.style.display = "flex";
+    // infoDiv.style.alignItems = "center";
+    // infoDiv.style.justifyContent = "space-between";
+    infoDiv.style.left = "10px";
+    infoDiv.style.color = "white";
+    infoDiv.style.fontSize = "18px";
+    infoDiv.innerHTML = "Click on a marker to see the details";
+    document.body.appendChild(infoDiv);
+  }
+  // infoDiv.innerHTML = `IDdf: ${point.id}<br>Name: ${point.name}<br>Details: ${point.details}`;
 
-    infoDiv.innerHTML = `
+  infoDiv.innerHTML = `
       <div class="grid grid-cols-12 gap-6  mt-10 ml-10 mr-10 text-xs">
         <div class="col-start-1 col-end-4">
 
@@ -175,35 +175,35 @@ function showInfo(point) {
 }
 
 function apiDataDemo() {
-    const dataFetcher = new DataFetcher((data) => {
-        // console.log(data[0].coordinates.latitude);
-        let markedPoints = new MarkedPoints();
-        for (let user of data) {
-            // console.log(user.description);
-            markedPoints.add(user.id, user.name, user);
-            sphere.addMarker(
-                user.name,
-                user.coordinates.latitude,
-                user.coordinates.longitude,
-                (matrix) => {
-                    var geometry = new THREE.BoxGeometry(0.05, 0.05, 0.05);
-                    var material = new THREE.MeshBasicMaterial({
-                        color: Colors.RED,
-                    });
-                    var box = new THREE.Mesh(geometry, material);
-                    box.applyMatrix4(matrix);
-                    return box;
-                }
-            );
+  const dataFetcher = new DataFetcher((data) => {
+    // console.log(data[0].coordinates.latitude);
+    let markedPoints = new MarkedPoints();
+    for (let user of data) {
+      // console.log(user.description);
+      markedPoints.add(user.id, user.name, user);
+      sphere.addMarker(
+        user.name,
+        user.coordinates.latitude,
+        user.coordinates.longitude,
+        (matrix) => {
+          var geometry = new THREE.BoxGeometry(0.05, 0.05, 0.05);
+          var material = new THREE.MeshBasicMaterial({
+            color: Colors.RED,
+          });
+          var box = new THREE.Mesh(geometry, material);
+          box.applyMatrix4(matrix);
+          return box;
         }
+      );
+    }
 
-        sphere.onMarkerClick(camera, (text) => {
-            const point = markedPoints.find(text);
-            if (point != null) {
-                showInfo(point);
-            }
-        });
+    sphere.onMarkerClick(camera, (text) => {
+      const point = markedPoints.find(text);
+      if (point != null) {
+        showInfo(point);
+      }
     });
+  });
 
-    dataFetcher.fetchData("./data/most_interesting_places.json");
+  dataFetcher.fetchData("./data/most_interesting_places.json");
 }
