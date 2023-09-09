@@ -18,7 +18,7 @@
 
        //camera edl_rucam, edl_rdcam, edl_ddcam, edl_pucam1, edl_pucam2, navcam_left, navcam_right, mcz_right, mcz_left, front_hazcam_left_a, front_hazcam_right_a, rear_hazcam_left, rear_hazcam_right, skycam, sherloc_watson
       fetch(
-        "https://mars-photos.herokuapp.com/api/v1/rovers/perseverance/photos?sol=805"
+        "https://mars-photos.herokuapp.com/api/v1/rovers/perseverance/photos?sol=1"
       )
         .then((response) => response.json())
         .then((data) => showImage(data));
