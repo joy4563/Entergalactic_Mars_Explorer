@@ -310,11 +310,7 @@ function showInfo(point) {
         </div>
       </div>
     `;
-<<<<<<< HEAD
 
-=======
->>>>>>> main
-}
 
 function setIngenuityTimer(ini) {
     setInterval(() => {
