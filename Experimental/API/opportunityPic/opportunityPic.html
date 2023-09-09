@@ -84,7 +84,7 @@
         //camera fhaz, rhaz, navcam, pancam, minities
 
         fetch(
-                "https://mars-photos.herokuapp.com/api/v1/rovers/opportunity/photos?sol=2"
+                "https://mars-photos.herokuapp.com/api/v1/rovers/opportunity/photos?sol=3"
             )
             .then((response) => response.json())
             .then((data) => showImage(data));
@@ -92,7 +92,7 @@
         function showImage(data) {
             const pictureID = document.getElementById("imgContainer");
 
-            data.photos.slice(0, 10).map((single) => {
+            data.photos.slice(0, 50).map((single) => {
                 //   console.log(single.img_src);
                 const imgElement = document.createElement("img");
                 imgElement.classList.add("h-[300px]", "w-[400px]", "mt-5", "rounded-[15px]",

@@ -94,7 +94,7 @@
         function showImage(data) {
             const pictureID = document.getElementById("imgContainer");
 
-            data.photos.slice(0, 10).map((single) => {
+            data.photos.slice(0, 100).map((single) => {
                 //   console.log(single.img_src);
                 const imgElement = document.createElement("img");
                 imgElement.classList.add("h-[300px]", "w-[400px]", "mt-5", "rounded-[15px]",

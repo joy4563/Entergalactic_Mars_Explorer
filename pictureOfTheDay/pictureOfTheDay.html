@@ -1,80 +1,79 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Picture Of the day</title>
-    <link
-      href="https://cdn.jsdelivr.net/npm/daisyui@3.5.1/dist/full.css"
-      rel="stylesheet"
-      type="text/css"
-    />
-    <script src="https://cdn.tailwindcss.com"></script>
-    <style>
-      .custom-scrollbar::-webkit-scrollbar {
-        display: none;
-      }
 
-      .custom-scrollbar::-webkit-scrollbar-track {
-        background: #f1f1f1;
-      }
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Picture Of the day</title>
+  <link href="https://cdn.jsdelivr.net/npm/daisyui@3.5.1/dist/full.css" rel="stylesheet" type="text/css" />
+  <script src="https://cdn.tailwindcss.com"></script>
+  <style>
+    .custom-scrollbar::-webkit-scrollbar {
+      display: none;
+    }
 
-      .custom-scrollbar::-webkit-scrollbar-thumb {
-        background-color: #888;
-        border-radius: 4px;
-      }
+    .custom-scrollbar::-webkit-scrollbar-track {
+      background: #f1f1f1;
+    }
 
-      .custom-scrollbar::-webkit-scrollbar-thumb:hover {
-        background-color: #555;
-      }
+    .custom-scrollbar::-webkit-scrollbar-thumb {
+      background-color: #888;
+      border-radius: 4px;
+    }
 
-    </style>
-  </head>
-  <body style="background: url('../Mars_roverPage_BG.jpg');
-  background-repeat: no-repeat;
-  background-size: cover;
-  height : 100vh;
-  "
-  class="font-mono"
-  >     
+    .custom-scrollbar::-webkit-scrollbar-thumb:hover {
+      background-color: #555;
+    }
+  </style>
+</head>
 
-    <div class="  flex flex-row p-10">
-    <div class="col-start-1 col-end-2 w-[400px]">
-      <div id="pictureContainer"></div>
+<body style="
+            background: url('../images/Mars_roverPage_BG.jpg');
+            background-repeat: no-repeat;
+            background-size: cover;
+            height: 100vh;
+        " class="font-mono pt-6">
+  <div class="grid grid-cols-5 gap-7">
+    <div class="col-span-4">
+      <div id="pictureContainer" class="pl-4"></div>
     </div>
-      
-      
-    <div class="col-start-2 col-end-8 w-[990px]"></div>
 
-      <div class="col-start-8 col-end-12 w-[400px]">
-        <a href="../index.html" class="mb-3 w-[390px] btn bg-transparent  text-white hover:bg-gray-500">Home</a>
-<div class="border-solid border-2 border-gray-200 text-white rounded-[15px] pt-3 pl-3 pb-3">
-  <div id="titleContainer" class="pb-3"></div>
-  <div id="dateContainer" class="pb-3"></div>
-  <div class="custom-scrollbar overflow-y-scroll h-[300px]">
-   <div id="explanationContainer">
+    <div class="mr-10" >
 
-   </div>
-  </div>
-</div>
-     
-      
-    
+      <div class="border-solid border-2 border-gray-200 text-white rounded-[15px] pt-3 pl-3 pb-3">
+        <div id="titleContainer" class="pb-3 text-xl font-bold"></div>
+        <div class="pb-3"><span class="text-xl font-bold">Date: </span> <span id="dateContainer"></span></div>
+        <div class="custom-scrollbar overflow-y-scroll h-[300px]">
+          <p class=""> <span class="text-xl font-bold">Explanation: </span> <span id="explanationContainer"></span></p>
+        </div>
+
       </div>
-      
+      <a href="../index.html" class="mt-3 w-full btn bg-transparent text-white hover:bg-gray-500">Home</a>
     </div>
-   
-  <script>
-    fetch("https://api.nasa.gov/planetary/apod?api_key=7QVxWTvL4YZkPFPAgWQGydwacGjiVFoCN8UdnOcU")
-        .then((response) => response.json())
-        .then((data) => showPicOfTheDay(data))
+  </div>
 
-        function showPicOfTheDay(data){
-          document.getElementById("dateContainer").innerHTML=`<p>${data.date}</p>`
-          document.getElementById("titleContainer").innerHTML=`<p class="text-xl font-bold">${data.title}</p>`
-          document.getElementById("explanationContainer").innerHTML=`<p class="text-xl font-bold">${data.explanation}</p>`
-          document.getElementById("pictureContainer").innerHTML=`<img src=${data.img_src} alt="" class="rounded-lg ">`
-        }
+  <script>
+    fetch(
+      "https://api.nasa.gov/planetary/apod?api_key=7QVxWTvL4YZkPFPAgWQGydwacGjiVFoCN8UdnOcU"
+    )
+      .then((response) => response.json())
+      .then((data) => showPicOfTheDay(data));
+
+    function showPicOfTheDay(data) {
+      document.getElementById(
+        "dateContainer"
+      ).innerHTML = `<span class="text-xl ">${data.date}</span>`;
+      document.getElementById(
+        "titleContainer"
+      ).innerHTML = `<span class="text-xl ">${data.title}</span>`;
+      document.getElementById(
+        "explanationContainer"
+      ).innerHTML = `<span class="text-xl ">${data.explanation}</span>`;
+      document.getElementById(
+        "pictureContainer"
+      ).innerHTML = `<img src=${data.hdurl} alt="" class="rounded-lg h-[95vh] w-[90vw]">`;
+    }
   </script>
-  </body>
+</body>
+
 </html>

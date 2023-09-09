@@ -22,7 +22,7 @@ scene.add(cube);
 
 canvas.init(document);
 
-const sphere = new MySphere(2, 320, 160, "../../mars_topographic4k.jpg");
+const sphere = new MySphere(2, 320, 160, "../../images/mars_topographic4k.jpg");
 scene.add(sphere.sphere);
 camera.position.z = 3;
 
