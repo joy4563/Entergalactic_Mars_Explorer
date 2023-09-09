@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link
+      href="https://cdn.jsdelivr.net/npm/daisyui@3.5.1/dist/full.css"
+      rel="stylesheet"
+      type="text/css"
+    />
+  </head>
+  <body>
+    <div id="imgContainer" class="grid grid-cols-4"></div>
+    <script>
+       //camera EDL_RUCAM, EDL_RDCAM, EDL_DDCAM, EDL_PUCAM1, EDL_PUCAM2, NAVCAM_LEFT, NAVCAM_RIGHT, MCZ_RIGHT, MCZ_LEFT, FRONT_HAZCAM_LEFT_A, FRONT_HAZCAM_RIGHT_A, REAR_HAZCAM_LEFT, REAR_HAZCAM_RIGHT, SKYCAM, SHERLOC_WATSON
+
+       //camera edl_rucam, edl_rdcam, edl_ddcam, edl_pucam1, edl_pucam2, navcam_left, navcam_right, mcz_right, mcz_left, front_hazcam_left_a, front_hazcam_right_a, rear_hazcam_left, rear_hazcam_right, skycam, sherloc_watson
+      fetch(
+        "https://mars-photos.herokuapp.com/api/v1/rovers/perseverance/photos?sol=805"
+      )
+        .then((response) => response.json())
+        .then((data) => showImage(data));
+
+      function showImage(data) {
+        const pictureID = document.getElementById("imgContainer");
+
+        data.photos.slice(0, 50).map((single) => {
+          //   console.log(single.img_src);
+          const imgElement = document.createElement("img");
+          imgElement.classList.add("h-[300px]","w-[400px]","mt-5");
+          imgElement.src = `${single.img_src}`;
+          pictureID.appendChild(imgElement);
+
+          //   pictureID.innerHTML=`<img src=${single.img_src} alt="">`
+        });
+        // console.log(data.photos[0]);
+      }
+    </script>
+  </body>
+</html>
