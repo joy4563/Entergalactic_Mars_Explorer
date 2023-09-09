@@ -28,59 +28,57 @@ const sphere = new MySphere(2, 320, 160, "../../mars8k.jpg");
 scene.add(sphere.sphere);
 camera.position.z = 3;
 
-
 // markerPointDemo();
 apiDataDemo();
 canvas.gameLoop(() => {
-  // sphere.sphere.rotation.x += 0.0;
-  // sphere.sphere.rotation.y += 0.0002;
+    // sphere.sphere.rotation.x += 0.0;
+    // sphere.sphere.rotation.y += 0.0002;
 });
 
 function showInfo(point) {
-  // console.log("clicked");
-  // console.log(point);
-  // console.log(point.total);
-  let infoDiv = document.getElementById("info");
-  let location = document.getElementById("locationBtn");
-  if (!infoDiv) {
-    infoDiv = document.createElement("div");
-    infoDiv.id = "info";
-    infoDiv.style.position = "absolute";
-    infoDiv.style.top = "10px";
-    infoDiv.style.display = "flex";
-    // infoDiv.style.alignItems = "center";
-    // infoDiv.style.justifyContent = "space-between";
-    infoDiv.style.left = "10px";
-    infoDiv.style.color = "white";
-    infoDiv.style.fontSize = "18px";
-    infoDiv.innerHTML = "Click on a marker to see the details";
-    document.body.appendChild(infoDiv);
-  }
-
-  setInterval(() => {
+    // console.log("clicked");
     // console.log(point);
-    let hrs = document.getElementById("showHrs");
-    let min = document.getElementById("showMin");
-    let sec = document.getElementById("showSec");
-    // let sec = document.getElementById("showTime");
-    // sec.innerHTML="mmmm"
-    // console.log("ff");
-    let currentTime = new Date();
-    hrs.innerHTML =
-        (currentTime.getHours() < 10 ? "0" : "") +
-        ((currentTime.getMinutes() + 35) % 60 == 0
-            ? currentTime.getHours() + 1
-            : currentTime.getHours());
-    min.innerHTML =
-        (currentTime.getMinutes() < 10 ? "0" : "") +
-        ((currentTime.getMinutes() + 35) % 60);
-    sec.innerHTML =
-        (currentTime.getSeconds() < 10 ? "0" : "") + currentTime.getSeconds();
-        
-  }, 1000);
+    // console.log(point.total);
+    let infoDiv = document.getElementById("info");
+    let location = document.getElementById("locationBtn");
+    if (!infoDiv) {
+        infoDiv = document.createElement("div");
+        infoDiv.id = "info";
+        infoDiv.style.position = "absolute";
+        infoDiv.style.top = "10px";
+        infoDiv.style.display = "flex";
+        // infoDiv.style.alignItems = "center";
+        // infoDiv.style.justifyContent = "space-between";
+        infoDiv.style.left = "10px";
+        infoDiv.style.color = "white";
+        infoDiv.style.fontSize = "18px";
+        infoDiv.innerHTML = "Click on a marker to see the details";
+        document.body.appendChild(infoDiv);
+    }
 
+    setInterval(() => {
+        // console.log(point);
+        let hrs = document.getElementById("showHrs");
+        let min = document.getElementById("showMin");
+        let sec = document.getElementById("showSec");
+        // let sec = document.getElementById("showTime");
+        // sec.innerHTML="mmmm"
+        // console.log("ff");
+        let currentTime = new Date();
+        hrs.innerHTML =
+            (currentTime.getHours() < 10 ? "0" : "") +
+            ((currentTime.getMinutes() + 35) % 60 == 0
+                ? currentTime.getHours() + 1
+                : currentTime.getHours());
+        min.innerHTML =
+            (currentTime.getMinutes() < 10 ? "0" : "") +
+            ((currentTime.getMinutes() + 35) % 60);
+        sec.innerHTML =
+            (currentTime.getSeconds() < 10 ? "0" : "") +
+            currentTime.getSeconds();
+    }, 1000);
 
-  infoDiv.innerHTML = `
+    infoDiv.innerHTML = `
       <div class="grid grid-cols-12 gap-6  mt-10 ml-10 mr-10 text-xs">
         <div class="col-start-1 col-end-4">
 
@@ -134,28 +132,32 @@ function showInfo(point) {
 
 
         </div>
-        <div class="ml-[18vw] w-[400px] text-3xl text-center font-mono font-bold my-5" id="pointName"> <span>${point.name
-    }</span> <br><span>  <span>${point.name == "Curiosity" ? "3928 : " : ""
+        <div class="ml-[18vw] w-[400px] text-3xl text-center font-mono font-bold my-5" id="pointName"> <span>${
+            point.name
+        }</span> <br><span>  <span>${
+        point.name == "Curiosity" ? "3928 : " : ""
     }</span>
          <span>${point.name == "Ingenuity" ? "`${}` " : ""}</span>
          <span>${point.name == "Perseverance" ? "892 : " : ""}</span>
-     <span>${point.total.CurrentStatus == "active"
-      ? `<span id="showHrs"> </span>` +
-      " :"
-      : "Dead"
-    }</span> 
-    <span>${point.total.CurrentStatus == "active"
-      ? `<span id="showMin"> </span>` +
-      " : "
-      : ""
+     <span>${
+         point.total.CurrentStatus == "active"
+             ? `<span id="showHrs"> </span>` + " :"
+             : "Dead"
+     }</span> 
+    <span>${
+        point.total.CurrentStatus == "active"
+            ? `<span id="showMin"> </span>` + " : "
+            : ""
     }</span>
-     <span>${point.total.CurrentStatus == "active"
-      ? `<span id="showSec"> </span>`
-      : ""
-    }</span> </span>
+     <span>${
+         point.total.CurrentStatus == "active"
+             ? `<span id="showSec"> </span>`
+             : ""
+     }</span> </span>
      <br>
-     <span class="text-lg">${point.total.CurrentStatus == "active" ? "Sols : Hrs : Mins : Secs" : ""
-    } </span>
+     <span class="text-lg">${
+         point.total.CurrentStatus == "active" ? "Sols : Hrs : Mins : Secs" : ""
+     } </span>
      
       </div>
 
@@ -169,21 +171,26 @@ function showInfo(point) {
           
           <div class="border border-white py-3 px-4 rounded-[15px] mt-4">
             <p> <span class="font-bold" >Type: </span>${point.total.type}</p>
-            <p> <span class="font-bold" >Location: </span>${point.total.location
-    }</p>
-            <p> <span class="font-bold" >Total Working Days: </span>${point.total.TotalWorkingDays
-    }</p>
-            <p> <span class="font-bold" >Current Status: </span>${point.total.CurrentStatus
-    }</p>
+            <p> <span class="font-bold" >Location: </span>${
+                point.total.location
+            }</p>
+            <p> <span class="font-bold" >Total Working Days: </span>${
+                point.total.TotalWorkingDays
+            }</p>
+            <p> <span class="font-bold" >Current Status: </span>${
+                point.total.CurrentStatus
+            }</p>
             <div id="detail" class=" h-[120px] mt-2  mb-3 overflow-y-scroll  custom-scrollbar text-justify">
-              <p> <span class="font-bold" >Details: </span>${point.total.details
-    }</p>
+              <p> <span class="font-bold" >Details: </span>${
+                  point.total.details
+              }</p>
             </div>
           </div>
          
           <div class="custom-scrollbar border flex w-[357px] -ml-[2px] border-white p-3       rounded-[15px] m-4 h-[200px] text-center py-3 overflow-x-scroll  custom-scrollbar">
-          <img src="${point.total.photo
-    }" class="w-[380px] h-[180px] rounded-[15px]" />
+          <img src="${
+              point.total.photo
+          }" class="w-[380px] h-[180px] rounded-[15px]" />
               </div>
 
             </div>
@@ -192,43 +199,38 @@ function showInfo(point) {
         </div>
       </div>
     `;
-
-
 }
 
-
-
-
 function apiDataDemo() {
-  const dataFetcher = new DataFetcher((data) => {
-    // console.log(data[0].coordinates.latitude);
-    let markedPoints = new MarkedPoints();
-    for (let user of data) {
-      // console.log(user.description);
-      markedPoints.add(user.id, user.name, user);
-      sphere.addMarker(
-        user.name,
-        user.coordinates.latitude,
-        user.coordinates.longitude,
-        (matrix) => {
-          var geometry = new THREE.BoxGeometry(0.05, 0.05, 0.05);
-          var material = new THREE.MeshBasicMaterial({
-            color: Colors.RED,
-          });
-          var box = new THREE.Mesh(geometry, material);
-          box.applyMatrix4(matrix);
-          return box;
+    const dataFetcher = new DataFetcher((data) => {
+        // console.log(data[0].coordinates.latitude);
+        let markedPoints = new MarkedPoints();
+        for (let user of data) {
+            // console.log(user.description);
+            markedPoints.add(user.id, user.name, user);
+            sphere.addMarker(
+                user.name,
+                user.coordinates.latitude,
+                user.coordinates.longitude,
+                (matrix) => {
+                    var geometry = new THREE.BoxGeometry(0.05, 0.05, 0.05);
+                    var material = new THREE.MeshBasicMaterial({
+                        color: Colors.RED,
+                    });
+                    var box = new THREE.Mesh(geometry, material);
+                    box.applyMatrix4(matrix);
+                    return box;
+                }
+            );
         }
-      );
-    }
 
-    sphere.onMarkerClick(camera, (text) => {
-      const point = markedPoints.find(text);
-      if (point != null) {
-        showInfo(point);
-      }
+        sphere.onMarkerClick(camera, (text) => {
+            const point = markedPoints.find(text);
+            if (point != null) {
+                showInfo(point);
+            }
+        });
     });
-  });
 
-  dataFetcher.fetchData("../../data/roverPosition.json");
+    dataFetcher.fetchData("../../data/roverPosition.json");
 }
