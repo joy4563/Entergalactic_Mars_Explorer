@@ -36,6 +36,54 @@ canvas.gameLoop(() => {
   // sphere.sphere.rotation.y += 0.0002;
 });
 
+function sol_value(sol) {
+  return sol;
+}
+
+function otherValue(sol, rover_name) {
+  let prev_date,min;
+  if (rover_name == 'Curiosity') {
+    prev_date = new Date("05 Aug 2012 13:49:59");
+  } else {
+    prev_date = new Date("18 Feb 2021 11:50:59");
+  }
+  let now = new Date();
+  let diff = now - prev_date;
+  let hrs = parseInt(((diff / 1000) - (parseInt(sol) * 88775.244)) / 3699) - 6.00;
+  if (hrs < 0) {
+    hrs += 24;
+  }
+  if (rover_name == 'Curiosity') {
+    min = parseInt((now.getMinutes() < 10 ? "0" : "") + ((now.getMinutes() - 10.75) % 60));
+    if (min <= 0) {
+      min+=60
+    }
+  } else if (rover_name == 'Perseverance') {
+    min = parseInt((now.getMinutes() < 10 ? "0" : "") + ((now.getMinutes() - 12.33) % 60));
+    if (min <= 0) {
+      min += 60;
+    }
+  }
+  let sec = (now.getSeconds() < 10 ? "0" : "") + now.getSeconds();
+  return [hrs, min, sec];
+}
+
+function sol(rover_name) {
+  // let curiosity_sols = document.getElementById('curiosity_sols');
+  let prev_date;
+  if (rover_name == 'Curiosity') {
+    prev_date = new Date("05 Aug 2012 13:49:59");
+  } else {
+    prev_date = new Date("18 Feb 2021 11:50:59");
+  }
+  let now = new Date();
+  let diff = now - prev_date;
+  console.log();
+  let sol = (((diff / 1000)) / 88775.244);
+  
+  return sol_value(parseInt(sol));
+}
+
 function showInfo(point) {
   // console.log("clicked");
   // console.log(point);
@@ -53,30 +101,9 @@ function showInfo(point) {
     infoDiv.style.left = "10px";
     infoDiv.style.color = "white";
     infoDiv.style.fontSize = "18px";
-    infoDiv.innerHTML = "Click on a marker to see the details";
+    // infoDiv.innerHTML = "Click on a marker to see the details";
     document.body.appendChild(infoDiv);
   }
-
-  setInterval(() => {
-    let hrs = document.getElementById("showHrs");
-    let min = document.getElementById("showMin");
-    let sec = document.getElementById("showSec");
-    // let sec = document.getElementById("showTime");
-    // sec.innerHTML="mmmm"
-    // console.log("ff");
-    let currentTime = new Date();
-    hrs.innerHTML =
-        (currentTime.getHours() < 10 ? "0" : "") +
-        ((currentTime.getMinutes() + 35) % 60 == 0
-            ? currentTime.getHours() + 1
-            : currentTime.getHours());
-    min.innerHTML =
-        (currentTime.getMinutes() < 10 ? "0" : "") +
-        ((currentTime.getMinutes() + 35) % 60);
-    sec.innerHTML =
-        (currentTime.getSeconds() < 10 ? "0" : "") + currentTime.getSeconds();
-  }, 1000);
-
 
   infoDiv.innerHTML = `
       <div class="grid grid-cols-12 gap-6  mt-10 ml-10 mr-10 text-xs">
@@ -130,25 +157,24 @@ function showInfo(point) {
             </ul>
           </ul>
 
-
         </div>
         <div class="ml-[18vw] w-[400px] text-3xl text-center font-mono font-bold my-5" id="pointName"> <span>${point.name
-    }</span> <br><span>  <span>${point.name == "Curiosity" ? "3928 : " : ""
+      }</span> <br><span>  <span id="curiosity_sols">${point.name == "Curiosity" ? `${sol(point.name)} : ` : ""
     }</span>
-         <span>${point.name == "Ingenuity" ? "892 : " : ""}</span>
-         <span>${point.name == "Perseverance" ? "892 : " : ""}</span>
+         <span id="ingenuity">${point.name == "Ingenuity" ? "892 : " : ""}</span>
+         <span id="perseverance">${point.name == "Perseverance" ? `${sol(point.name)}:` : ""}</span>
      <span>${point.total.CurrentStatus == "active"
-      ? `<span id="showHrs"> </span>` +
+      ? `<span id="showHrs">${point.name == "Curiosity" ? `${otherValue(sol("Curiosity"),"Curiosity")[0]}`: `${otherValue(sol("Perseverance"),"Perseverance")[0]}`}</span>` +
       " :"
       : "Dead"
     }</span> 
     <span>${point.total.CurrentStatus == "active"
-      ? `<span id="showMin"> </span>` +
+      ? `<span id="showMin">${point.name == "Curiosity" ? `${otherValue(sol("Curiosity"),"Curiosity")[1]}`: `${otherValue(sol("Perseverance"),"Perseverance")[1]}`}</span>` +
       " : "
       : ""
     }</span>
      <span>${point.total.CurrentStatus == "active"
-      ? `<span id="showSec"> </span>`
+      ? `<span id="showSec">${point.name == "Curiosity" ? `${otherValue(sol("Curiosity"),"Curiosity")[2]}`: `${otherValue(sol("Perseverance"),"Perseverance")[2]}`}</span>`
       : ""
     }</span> </span>
      <br>
@@ -156,10 +182,6 @@ function showInfo(point) {
     } </span>
      
       </div>
-
-        
-        
-            
       </div>
       <div class="" id="showDateTime"></div>
       <div class="col-start-8 col-end-12 max-w-[400px] mt-10 pr-10" id="showInfo">
@@ -190,7 +212,6 @@ function showInfo(point) {
         </div>
       </div>
     `;
-
 
 }
 
