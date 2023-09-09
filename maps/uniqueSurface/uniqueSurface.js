@@ -22,17 +22,9 @@ scene.add(cube);
 
 canvas.init(document);
 
-const sphere = new MySphere(2, 320, 160, "../../mars_4k_color.jpg");
+const sphere = new MySphere(2, 320, 160, "../../images/mars_4k_color.jpg");
 scene.add(sphere.sphere);
 camera.position.z = 3;
-
-// sphere.addMarker("LAT_LONG", 30, -90, (object) => {
-//     var geometry = new THREE.SphereGeometry(0.05, 10, 5);
-//     var material = new THREE.MeshBasicMaterial({ color: Colors.BLUE });
-//     var box = new THREE.Mesh(geometry, material);
-//     box.applyMatrix4(object);
-//     return box;
-// });
 
 // markerPointDemo();
 apiDataDemo();
@@ -59,7 +51,6 @@ function showInfo(point) {
         infoDiv.innerHTML = "Click on a marker to see the details";
         document.body.appendChild(infoDiv);
     }
-    // infoDiv.innerHTML = `IDdf: ${point.id}<br>Name: ${point.name}<br>Details: ${point.details}`;
 
     infoDiv.innerHTML = `    <div>
       <div class=" max-w-[400px] mt-10 pr-10 font-mono" id="showInfo">
