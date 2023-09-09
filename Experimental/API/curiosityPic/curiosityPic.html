@@ -16,7 +16,7 @@
     <script>
        //camera fhaz, rhaz, mast, chemcam, mahli, mardi, navcam
       fetch(
-        "https://mars-photos.herokuapp.com/api/v1/rovers/curiosity/photos?sol=10"
+        "https://mars-photos.herokuapp.com/api/v1/rovers/curiosity/photos?sol=3"
       )
         .then((response) => response.json())
         .then((data) => showImage(data));
