@@ -56,28 +56,6 @@ function showInfo(point) {
         document.body.appendChild(infoDiv);
     }
 
-    setInterval(() => {
-        // console.log(point);
-        let hrs = document.getElementById("showHrs");
-        let min = document.getElementById("showMin");
-        let sec = document.getElementById("showSec");
-        // let sec = document.getElementById("showTime");
-        // sec.innerHTML="mmmm"
-        // console.log("ff");
-        let currentTime = new Date();
-        hrs.innerHTML =
-            (currentTime.getHours() < 10 ? "0" : "") +
-            ((currentTime.getMinutes() + 35) % 60 == 0
-                ? currentTime.getHours() + 1
-                : currentTime.getHours());
-        min.innerHTML =
-            (currentTime.getMinutes() < 10 ? "0" : "") +
-            ((currentTime.getMinutes() + 35) % 60);
-        sec.innerHTML =
-            (currentTime.getSeconds() < 10 ? "0" : "") +
-            currentTime.getSeconds();
-    }, 1000);
-
     infoDiv.innerHTML = `
       <div class="grid grid-cols-12 gap-6  mt-10 ml-10 mr-10 text-xs">
         <div class="col-start-1 col-end-4">
@@ -134,30 +112,45 @@ function showInfo(point) {
         </div>
         <div class="ml-[18vw] w-[400px] text-3xl text-center font-mono font-bold my-5" id="pointName"> <span>${
             point.name
-        }</span> <br><span>  <span>${
-        point.name == "Curiosity" ? "3928 : " : ""
-    }</span>
-         <span>${point.name == "Ingenuity" ? "`${}` " : ""}</span>
-         <span>${point.name == "Perseverance" ? "892 : " : ""}</span>
-     <span>${
-         point.total.CurrentStatus == "active"
-             ? `<span id="showHrs"> </span>` + " :"
-             : "Dead"
-     }</span> 
-    <span>${
-        point.total.CurrentStatus == "active"
-            ? `<span id="showMin"> </span>` + " : "
-            : ""
-    }</span>
-     <span>${
-         point.total.CurrentStatus == "active"
-             ? `<span id="showSec"> </span>`
+        }</span> <br><span> 
+        <span>${point.total.CurrentStatus == "Dead" ? "Dead" : ""}
+        </span>
+     <span> 
+     ${
+         point.name == "Curiosity" && point.total.CurrentStatus == "Active"
+             ? `<span id="CuriosityTimer"> ${setCuriosityTimer(
+                   "05 Aug 2012 13:49:59"
+               )}</span>`
              : ""
-     }</span> </span>
+     }
+     </span>
+     <span> 
+     ${
+         point.name == "Perseverance" && point.total.CurrentStatus == "Active"
+             ? `<span id="PerseverenceTimer"> ${setPerseverenceTimer(
+                   "18 Feb 2021 11:50:59"
+               )}</span>`
+             : ""
+     }
+     </span>
+     <span> 
+     ${
+         point.name == "Ingenuity" && point.total.CurrentStatus == "Active"
+             ? `<span id="IngenuityTimer"> ${setIngenuityTimer(
+                   "19 April 2021 07:34:59"
+               )}</span>`
+             : ""
+     }
+     </span>
+
+     </span>
      <br>
      <span class="text-lg">${
-         point.total.CurrentStatus == "active" ? "Sols : Hrs : Mins : Secs" : ""
+         point.total.CurrentStatus == "Active" ? "Sols : Hrs : Mins : Secs" : ""
      } </span>
+
+     <br>
+
      
       </div>
 
@@ -199,6 +192,86 @@ function showInfo(point) {
         </div>
       </div>
     `;
+}
+
+function setIngenuityTimer(ini) {
+    setInterval(() => {
+        let launch_time = new Date(ini);
+        let current_time = new Date();
+        let diff = (current_time - launch_time) / 1000;
+        const timeObject = convertTime(diff);
+
+        document.getElementById("IngenuityTimer").innerText = `${String(
+            timeObject.days
+        ).padStart(2, "0")} :${String(timeObject.hours).padStart(
+            2,
+            "0"
+        )} :${String(timeObject.minutes).padStart(2, "0")} :${String(
+            parseInt(timeObject.seconds)
+        ).padStart(2, "0")}`;
+    }, 1000);
+}
+function setCuriosityTimer(ini) {
+    setInterval(() => {
+        let launch_time = new Date(ini);
+        let current_time = new Date();
+        let diff = (current_time - launch_time) / 1000;
+        const timeObject = convertTime(diff);
+
+        document.getElementById("CuriosityTimer").innerText = `${String(
+            timeObject.days
+        ).padStart(2, "0")} :${String(timeObject.hours).padStart(
+            2,
+            "0"
+        )} :${String(timeObject.minutes).padStart(2, "0")} :${String(
+            parseInt(timeObject.seconds)
+        ).padStart(2, "0")}`;
+    }, 1000);
+}
+function setPerseverenceTimer(ini) {
+    setInterval(() => {
+        let launch_time = new Date(ini);
+        let current_time = new Date();
+        let diff = (current_time - launch_time) / 1000;
+        const timeObject = convertTime(diff);
+
+        document.getElementById("PerseverenceTimer").innerText = `${String(
+            timeObject.days
+        ).padStart(2, "0")} :${String(timeObject.hours).padStart(
+            2,
+            "0"
+        )} :${String(timeObject.minutes).padStart(2, "0")} :${String(
+            parseInt(timeObject.seconds)
+        ).padStart(2, "0")}`;
+    }, 1000);
+}
+
+function convertTime(x) {
+    let seconds = x + 30 + 9 * 61.25;
+    const secondsInMinute = 61.25;
+    const secondsInHour = 3699;
+    const secondsInDay = 88775.244;
+    const secToMillisec = 1.021;
+
+    const days = Math.floor(seconds / secondsInDay);
+    const remainingSeconds = seconds % secondsInDay;
+    let hours = Math.floor(remainingSeconds / secondsInHour) - 6;
+    if (hours < 0) {
+        hours = hours + 24;
+    }
+    const remainingSecondsAfterHours = remainingSeconds % secondsInHour;
+
+    const minutes = Math.floor(remainingSecondsAfterHours / secondsInMinute);
+    const secondsWithoutMinutes = remainingSecondsAfterHours % secondsInMinute;
+    const milliseconds = secondsWithoutMinutes * secToMillisec;
+
+    return {
+        days,
+        hours,
+        minutes,
+        seconds: secondsWithoutMinutes,
+        milliseconds,
+    };
 }
 
 function apiDataDemo() {
