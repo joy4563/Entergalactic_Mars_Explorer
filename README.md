@@ -116,13 +116,13 @@ Check if node has been installed
 #### Fedora
 
     sudo yum install git npm
-### Clone the repo
+## Clone the repo
     git clone https://github.com/joy4563/Entergalactic_Mars_Explorer.git
-### Run<a name = "rn"></a>
+## Run<a name = "rn"></a>
 To run this project locally, simply type 
     
     cd Entergalactic_Mars_Explorer
-Run locally
+### Run locally
     
     npx vite
 
@@ -130,7 +130,7 @@ Run locally
 That is all you need to do to emmerse yourself into the martian environment. 
 
 ## Api List<a name = "api"></a>
-### For Rover Image
+### For Rover Images
 
 ##### Curiosity
     https://api.nasa.gov/mars-photos/api/v1/rovers/curiosity/photos?api_key=DEMO_KEY&sol=1
@@ -140,11 +140,11 @@ That is all you need to do to emmerse yourself into the martian environment.
     https://mars-photos.herokuapp.com/api/v1/rovers/spirit/photos
 ##### Oppertunity
     https://mars-photos.herokuapp.com/api/v1/rovers/opportunity/photos?sol=1
-##### Ingenuity Image
+##### Ingenuity
     https://mars.nasa.gov/rss/api/?feed=raw_images&category=ingenuity
 ### Weather Data
-#### Curiosity
-#### Perseverance
+<!-- #### Curiosity
+#### Perseverance -->
 #### Insight
     https://api.nasa.gov/insight_weather/?api_key=DEMO_KEY&feedtype=json&ver=1.0
 
