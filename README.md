@@ -160,6 +160,10 @@ Ubuntu
 Fedora        
     
     sudo dnf install ffmpeg
+
+Bash command to compile into video
+
+    ffmpeg -framerate 60 -i /path/image%04d.jpg -vf "scale=800:592" -c:v libx264 -r 60 -pix_fmt yuv420p colorized_video.mp4
     
 ## Tourism pages
 Virgin Galactic 
