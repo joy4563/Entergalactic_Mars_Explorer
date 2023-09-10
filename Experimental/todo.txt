@@ -38,8 +38,7 @@ SpaceX: https://www.spacex.com/
 Axiom: https://www.axiomspace.com/
 Boeing: https://www.boeing.com/space/
 
-cute name for our mars exploration project where we listed enigmatic features of mars
-The name "Entergalactic Mars Expedition" suggests a space exploration mission led by the team "Entergalactic" to the planet Mars. It implies a journey beyond Earth's boundaries and into the cosmos, emphasizing the adventurous and interstellar nature of the mission. This name conveys the idea of exploring Mars, potentially for scientific research or space tourism, while highlighting the team's identity as "Entergalactic" and their commitment to cosmic exploration.
+
 
 For Sabbir:
 run the JS files everytime we run npx vite in background

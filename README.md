@@ -17,7 +17,7 @@ In the vast cosmos, our team, 'Entergalactic' presents the Entergalactic Mars Ex
 
 Join us on this cosmic journey and get ready to explore Mars as a real-life space tourist. Adventure awaits! 
 
-## Mars Odyssey: Your Journey Beyond Earth** 🚀
+## Mars Odyssey: Your Journey Beyond Earth 🚀
 
 Embark on an otherworldly adventure through the captivating landscapes and discoveries of Mars. Dive into a world where rovers roam, marvel at stunning Martian vistas, and get ready to ignite your curiosity about the Red Planet!"
 
@@ -78,20 +78,101 @@ Seeking serenity and wide-open spaces? Discover the Martian plains, where tranqu
 
 Get ready for an unforgettable journey through the Martian landscapes, where every destination tells a captivating story of the Red Planet.
 
-```markdown
-git clone https://github.com/your-username/your-repository.git
-cd your-repository
-git checkout main
+## Installation
+
+Follow these steps to get the Entergalactic Mars Explorer up and running on your Linux-based system.
+
+## Prerequisites
+
+Before you begin, ensure you have the following prerequisites installed:
+
+- **npm**
+- **git**
+- **node**
+- **Javascript**
+
+node -v
+
+## Installation on a Linux Based distro
+
+#### Arch Linux
+
+    sudo pacman -S npm git 
+
+#### Debian/Ubuntu
+
+    sudo apt install git npm
+
+#### Fedora
+
+    sudo yum install git npm
+### Clone the repo
+    git clone https://github.com/joy4563/Entergalactic_Mars_Explorer.git
+### Run
+To run this project locally, simply type 
+    
+    cd Entergalactic_Mars_Explorer
+Run locally
+    
+    npx vite
 
 
-Your adventure starts here, where the extraordinary becomes the norm. Join us as we unlock the mysteries of Mars and pave the way for the ultimate space tourism experience. The Red Planet awaits your arrival! 🪐🌠
+That is all you need to do to emmerse yourself into the martian environment. 
+
+## Api List
+### Rover Image
+
+##### Curiosity
+    https://api.nasa.gov/mars-photos/api/v1/rovers/curiosity/photos?api_key=DEMO_KEY&sol=1
+##### Perseverance
+    https://mars-photos.herokuapp.com/api/v1/rovers/perseverance/photos
+##### Spirit
+    https://mars-photos.herokuapp.com/api/v1/rovers/spirit/photos
+##### Oppertunity
+    https://mars-photos.herokuapp.com/api/v1/rovers/opportunity/photos?sol=1
+##### Ingenuity Image
+    https://mars.nasa.gov/rss/api/?feed=raw_images&category=ingenuity
+### Weather Data
+#### Curiosity
+#### Perseverance
+#### Insight
+    https://api.nasa.gov/insight_weather/?api_key=DEMO_KEY&feedtype=json&ver=1.0
 
 
-## Installation and Usage
+### Picture of the day Api
+    https://api.nasa.gov/planetary/apod?api_key=DEMO_KEY
+## Python OpenCV image colorization
+1.
+    
+    https://www.youtube.com/redirect?event=video_description&redir_token=QUFFLUhqa0dtdWxmSTJnMW1nMFpYQXEyODQwbjhYZGI0UXxBQ3Jtc0tsM2hXUmNXdTZCUXhrdFZ0NWhSN1pxWHgxYWMxLU9KVVh1SGQ1RllnTDY1ejJ5T0hSVGlyT2R0dXdDdjVScUsxZVRjeGI2R1ctMUsyRF9ZaUN2NnlyZFNYRnU3dks2QURkUXp1aFI3NVF3V1ZSNTVaaw&q=https%3A%2F%2Fgithub.com%2Fopencv%2Fopencv%2Fblob%2Fmaster%2Fsamples%2Fdnn%2Fcolorization.py&v=gAmskBNz_Vc
 
-To embark on your Martian adventure, follow these simple steps:
+2.
 
-1. **Clone the Repository, run locally:** Start by cloning this repository to your local machine.
+    http://richzhang.github.io/colorization/
 
-   ```bash
-   git clone https://github.com/entergalactic/mars-explorer.git
+3.
+
+    https://www.youtube.com/redirect?event=video_description&redir_token=QUFFLUhqbmNyVm4wV1pQdlFKeW1JTDB3UFFSamItakVNZ3xBQ3Jtc0tsNUZPN0x4SE9Lc1JYc3VqOThhY254MGtWSVN3dmJNTEZaOG1MMUpyZUlsZDcyS09WLVRPMEtkQTRabmh5UWxJTmVFcXJLakhHYjdfeGJLSjJYSEZveEQzLXB6RjZBcWhzdVFJeFJVVEg2Ykl4VXkzWQ&q=https%3A%2F%2Fgithub.com%2Frichzhang%2Fcolorization%2F&v=gAmskBNz_Vc
+
+## Compiling image into a video
+- **ffmpeg**
+    
+        sudo apt install ffmpeg
+        sudo dnf install ffmpeg
+    
+## Tourism pages
+Virgin Galactic 
+        
+    https://www.virgingalactic.com/
+Blue Origin 
+    
+    https://www.blueorigin.com/
+SpaceX
+
+    https://www.spacex.com/
+Axiom
+    
+    https://www.axiomspace.com/
+Boeing
+
+    https://www.boeing.com/space/
