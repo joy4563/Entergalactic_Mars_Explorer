@@ -16,7 +16,11 @@ In the vast cosmos, our team, 'Entergalactic' presents the Entergalactic Mars Ex
 **Prepare for the Future:** The age of space tourism is approaching; be ready to explore places physically after experiencing them on our website.
 
 Join us on this cosmic journey and get ready to explore Mars as a real-life space tourist. Adventure awaits! 
-### Page 1: Explore Mars
+
+## Mars Odyssey: Your Journey Beyond Earth** 🚀
+
+Embark on an otherworldly adventure through the captivating landscapes and discoveries of Mars. Dive into a world where rovers roam, marvel at stunning Martian vistas, and get ready to ignite your curiosity about the Red Planet!"
+
 
 🌌 **Experience Mars in 3D:** Immerse yourself in the captivating 3D map of Mars. We offer a variety of maps, including thermal map, topography map, water-ice map and rover map, each providing a unique perspective of this enigmatic world.
 
