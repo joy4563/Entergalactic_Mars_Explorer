@@ -5,10 +5,17 @@ Welcome to the Entergalactic Mars Explorer! 🚀
 
 ![Mars Image](https://i.ibb.co/xYxNMF3/Screenshot-from-2023-09-11-02-26-46.png)
 
-- [Installation](#installation)
-<!-- - [Installation](#installation) -->
+- [Moto](#Motto)
+- [Page 1: Journey beyond earth](#p1)
+- [Page 2: Tourism Hub](#p2)
+- [Page 3: Adventure](#p3)
 
-- <a name="Motto">Moto</a>
+- [Installation](#installation)
+- [Linux Installation](#il)
+- [Run](#rn)
+- [Api used](#api)
+- [Partners](#tp)
+
 
 
 ## Our Motto: "Igniting the Spirit of Space Tourism"<a name = "Motto"></a>
@@ -22,7 +29,7 @@ In the vast cosmos, our team, 'Entergalactic' presents the Entergalactic Mars Ex
 
 Join us on this cosmic journey and get ready to explore Mars as a real-life space tourist. Adventure awaits! 
 
-## Mars Odyssey: Your Journey Beyond Earth 🚀
+## Mars Odyssey: Your Journey Beyond Earth 🚀<a name = "p1"></a>
 
 Embark on an otherworldly adventure through the captivating landscapes and discoveries of Mars. Dive into a world where rovers roam, marvel at stunning Martian vistas, and get ready to ignite your curiosity about the Red Planet!"
 
@@ -41,7 +48,7 @@ Embark on an otherworldly adventure through the captivating landscapes and disco
 
 
 
-## Your Mars Tourism Hub 🌟
+## Your Mars Tourism Hub 🌟<a name = "p2"></a>
 
 Welcome to the second page of our Entergalactic Mars Explorer, your ultimate Mars tourism hub, where we've curated exciting sections to ignite your curiosity and prepare you for the adventure of a lifetime.
 
@@ -65,7 +72,7 @@ Every day, a new marvel awaits in our 'Picture of the Day' section, fueled by NA
 And last but certainly not least, we're thrilled to introduce our partnership with top space travel organizations. In our "Travel" section, we've listed trusted companies that will help you take your first step on Mars. Stay tuned for future updates, as our vision includes allowing you to book tickets to Mars through our website, eliminating the complex hassles and making your interplanetary dream a reality.
 
 
-## Your Martian Adventure Awaits 🌟
+## Your Martian Adventure Awaits 🌟<a name = "p3"></a>
 
 Welcome to our third page, a haven for adventure seekers. Explore a curated selection of unique Martian destinations, each offering a distinctive experience for travel enthusiasts like you.
 
@@ -100,7 +107,7 @@ Check if node has been installed
 
     node -v
 
-## Installation on a Linux Based distro
+## Installation on a Linux Based distro<a name = "il"></a>
 
 #### Debian/Ubuntu
 
@@ -111,7 +118,7 @@ Check if node has been installed
     sudo yum install git npm
 ### Clone the repo
     git clone https://github.com/joy4563/Entergalactic_Mars_Explorer.git
-### Run
+### Run<a name = "rn"></a>
 To run this project locally, simply type 
     
     cd Entergalactic_Mars_Explorer
@@ -122,7 +129,7 @@ Run locally
 
 That is all you need to do to emmerse yourself into the martian environment. 
 
-## Api List
+## Api List<a name = "api"></a>
 ### For Rover Image
 
 ##### Curiosity
@@ -172,7 +179,7 @@ Bash command to compile into video
 
     ffmpeg -framerate 60 -i /path/image%04d.jpg -vf "scale=800:592" -c:v libx264 -r 60 -pix_fmt yuv420p colorized_video.mp4
     
-## Tourism pages
+## Tourism pages<a name = "tp"></a>
 Virgin Galactic 
         
     https://www.virgingalactic.com/
