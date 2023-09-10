@@ -16,20 +16,12 @@
     </style>
 </head>
 
-<<<<<<< HEAD
-<body style="background: url('../../../images/Mars_roverPage_BG.jpg');
-background-repeat: no-repeat;
-background-size: cover;
-">
-    <div class="flex">
-=======
 <body class="font-mono">
     <div class="flex justify-between items-center">
         <div class="flex">
             <a href="../../../index.html"
                 class="btn hover:bg-orange-600 bg-transparent text-black border border-gray-500 h-[60px] text-center w-[150px] rounded-lg flex pt-1 ml-5 pl-5 mt-5">Home</a>
->>>>>>> main
-
+            
             <div class="relative group">
                 <button class=" h-[60px] text-center w-[180px] rounded-lg flex justify-between pt-4 pl-5 mt-5 ml-3"
                     style="background-color : orange; color : white" id="cameraDropDown" data-dropdown-toggle="dropdown"
@@ -38,49 +30,6 @@ background-size: cover;
                     <svg class="w-2.5 h-6.5  mt-2.5 mr-3" aria-hidden="true" xmlns="http://www.w3.org/2000/svg"
                         fill="none" viewBox="0 0 10 6">
 
-<<<<<<< HEAD
-
-
-        <a href="../../../index.html" class="btn hover:bg-orange-500 bg-transparent text-white border border-gray-500 h-[60px] text-center w-[150px] rounded-lg flex pt-1 ml-5 pl-5 mt-5">Home</a>
-        <div class="relative group">
-            <button class=" h-[60px] text-center w-[180px] rounded-lg flex pt-4 pl-5 mt-5 ml-3" style="background-color : orange; color : white" id="cameraDropDown" data-dropdown-toggle="dropdown" type="button">
-                <span id="button">All</span>
-          <svg class="w-2.5 h-6.5 ml-[100px] mt-2.5" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 10 6" >
- 
-          <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="m1 1 4 4 4-4"/>
-</svg>
-</button>
-            <ul class="hidden absolute left-0 mt-2 space-y-2 bg-white border border-gray-200 py-2 rounded">
-                <li onclick="getCamera('rhaz')">
-                    <a href="#" class="block px-4 py-2 hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white">rhaz</a>
-                </li>
-                <li onclick="getCamera('mast')">
-                    <a href="#" class="block px-4 py-2 hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white">mast</a>
-                </li>
-                <li onclick="getCamera('chemcam')">
-                    <a href="#" class="block px-4 py-2 hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white">chemcam</a>
-                </li>
-                <li onclick="getCamera('mahli')">
-                    <a href="#" class="block px-4 py-2 hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white">mahli</a>
-                </li>
-
-                <li onclick="getCamera('camera fhaz')">
-                    <a href="#" class="block px-4 py-2 hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white">camera fhaz</a>
-                </li>
-                <li onclick="getCamera('mardi')">
-                    <a href="#" class="block px-4 py-2 hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white">mardi</a>
-                </li>
-
-                <li onclick="getCamera('navcam')">
-                    <a href="#" class="block px-4 py-2 hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white">navcam</a>
-                </li>
-            </ul>
-        </div>
-        <div class="flex mt-5 ml-[400px]">
-            <div id="ten" class="btn  px-9 ml-2 rounded-lg  bg-gray-200 text-black border border-gray-500">10</div>
-            <div id="twenty" class="btn   px-9 ml-2 rounded-lg  bg-gray-200 text-black border border-gray-500">20</div>
-            <div id="fifty" class="btn  px-9 ml-2 rounded-lg bg-orange-400 text-black border border-gray-500">50</div>
-=======
                         <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
                             d="m1 1 4 4 4-4" />
                     </svg>
@@ -136,7 +85,6 @@ background-size: cover;
             <button class="p-3 rounded-md bg-yellow-500 mr-6 text-white" type="submit" onclick="handleSubmit()">
                 Submit
             </button>
->>>>>>> main
         </div>
     </div>
     <!-- Dropdown menu -->
@@ -189,14 +137,6 @@ background-size: cover;
         getCamera("all");
 
         //camera fhaz, rhaz, mast, chemcam, mahli, mardi, navcam
-<<<<<<< HEAD
-        fetch(
-                "https://mars-photos.herokuapp.com/api/v1/rovers/curiosity/photos?sol=3900"
-            )
-            .then((response) => response.json())
-            .then((data) => showImage(data));
-=======
->>>>>>> main
 
 
         function showImage(data, cameraName) {
