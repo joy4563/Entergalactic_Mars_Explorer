@@ -7,11 +7,105 @@
     <title>Document</title>
     <script src="https://cdn.tailwindcss.com"></script>
     <link href="https://cdn.jsdelivr.net/npm/daisyui@3.5.1/dist/full.css" rel="stylesheet" type="text/css" />
+    <style>
+        .activeButton {
+            background-color: orange;
+            color: white;
+            border: none;
+        }
+    </style>
 </head>
 
 <body>
+    <div class="flex">
+
+
+
+
+        <a href="../../../index.html" class="btn hover:bg-orange-600 bg-transparent text-black border border-gray-500 h-[60px] text-center w-[150px] rounded-lg flex pt-1 ml-5 pl-5 mt-5">Home</a>
+        <div class="relative group">
+            <button class=" h-[60px] text-center w-[180px] rounded-lg flex pt-4 pl-5 mt-5 ml-3" style="background-color : orange; color : white" id="cameraDropDown" data-dropdown-toggle="dropdown" type="button">
+                <span id="button">All</span>
+          <svg class="w-2.5 h-6.5 ml-[100px] mt-2.5" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 10 6" >
+ 
+          <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="m1 1 4 4 4-4"/>
+</svg>
+</button>
+            <ul class="hidden absolute left-0 mt-2 space-y-2 bg-white border border-gray-200 py-2 rounded">
+                <li onclick="getCamera('rhaz')">
+                    <a href="#" class="block px-4 py-2 hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white">rhaz</a>
+                </li>
+                <li onclick="getCamera('mast')">
+                    <a href="#" class="block px-4 py-2 hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white">mast</a>
+                </li>
+                <li onclick="getCamera('chemcam')">
+                    <a href="#" class="block px-4 py-2 hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white">chemcam</a>
+                </li>
+                <li onclick="getCamera('mahli')">
+                    <a href="#" class="block px-4 py-2 hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white">mahli</a>
+                </li>
+
+                <li onclick="getCamera('camera fhaz')">
+                    <a href="#" class="block px-4 py-2 hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white">camera fhaz</a>
+                </li>
+                <li onclick="getCamera('mardi')">
+                    <a href="#" class="block px-4 py-2 hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white">mardi</a>
+                </li>
+
+                <li onclick="getCamera('navcam')">
+                    <a href="#" class="block px-4 py-2 hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white">navcam</a>
+                </li>
+            </ul>
+        </div>
+        <div class="flex mt-5 ml-[400px]">
+            <div id="ten" class="btn  px-7 ml-1 rounded-lg  bg-transparent text-black border border-gray-500">10</div>
+            <div id="twenty" class="btn   px-7 ml-1 rounded-lg  bg-transparent text-black border border-gray-500">20</div>
+            <div id="fifty" class="btn  px-7 ml-1 rounded-lg  bg-transparent text-black border border-gray-500">50</div>
+        </div>
+    </div>
+    <!-- Dropdown menu -->
+
+    </div>
     <div id="imgContainer" class="grid grid-cols-4"></div>
+
     <script>
+        const dropdownButton = document.querySelector('.group');
+        const dropdownList = document.querySelector('ul');
+
+        dropdownButton.addEventListener('click', () => {
+            dropdownList.classList.toggle('hidden');
+        });
+
+        const dropdownItems = dropdownList.querySelectorAll("li");
+        let button = document.getElementById("button");
+
+        dropdownItems.forEach((item) => {
+            item.addEventListener("click", (e) => {
+                e.preventDefault();
+                const selectedItemText = item.textContent;
+                button.innerHTML = selectedItemText;
+                console.log(button.innerHTML);
+                //  dropdownList.classList.add("hidden");
+            });
+        });
+
+        // Close the dropdown if clicked outside
+        document.addEventListener("click", (e) => {
+            if (!dropdownButton.contains(e.target) && !dropdownList.contains(e.target)) {
+                dropdownList.classList.add("hidden");
+            }
+        });
+        //click camera
+        function getCamera(value) {
+            // You can now use the 'value' parameter in your function.
+            let camera = value;
+            console.log("Camera" + camera)
+
+        }
+
+
+
+
         //camera fhaz, rhaz, mast, chemcam, mahli, mardi, navcam
         fetch(
                 "https://mars-photos.herokuapp.com/api/v1/rovers/curiosity/photos?sol=1"
@@ -23,7 +117,7 @@
             const pictureID = document.getElementById("imgContainer");
 
             data.photos.slice(0, 50).map((single) => {
-                //   console.log(single.img_src);
+
                 const imgElement = document.createElement("img");
                 imgElement.classList.add("h-[300px]", "w-[400px]", "mt-5", "rounded-[15px]",
                     "ml-5",
@@ -35,6 +129,62 @@
             });
             // console.log(data.photos[0]);
         }
+
+        /* const apiUrl = 'https://mars-photos.herokuapp.com/api/v1/rovers/curiosity/photos?sol=1'; // Replace with your API URL
+         const itemsPerPage = 10;
+         let currentPage = 1;
+
+         const dataList = document.getElementById('data-list');
+         const pagination = document.getElementById('pagination');
+
+         async function fetchData(page) {
+             try {
+                 const response = await fetch(`${apiUrl}?page=${page}&per_page=${itemsPerPage}`);
+                 const data = await response.json();
+                 return data;
+             } catch (error) {
+                 console.error('Error fetching data:', error);
+             }
+         }
+
+         async function displayData(page) {
+             const data = await fetchData(page);
+             dataList.innerHTML = ''; // Clear previous data
+
+             if (data.length === 0) {
+                 dataList.innerHTML = 'No data available.';
+                 return;
+             }
+
+             data.forEach(single => {
+                 console.log(single.img_src);
+                 const imgElement = document.createElement("img");
+                 imgElement.classList.add("h-[300px]", "w-[400px]", "mt-5", "rounded-[15px]",
+                     "ml-5",
+                     "mr-5");
+                 imgElement.src = `${single.img_src}`;
+                 pagination.appendChild(imgElement);
+             });
+         }
+
+         function updatePagination() {
+             pagination.innerHTML = '';
+
+             const totalPages = Math.ceil(data.length / itemsPerPage);
+             for (let i = 1; i <= totalPages; i++) {
+                 const pageLink = document.createElement('a');
+                 pageLink.href = '#';
+                 pageLink.textContent = i;
+                 pageLink.addEventListener('click', () => {
+                     currentPage = i;
+                     displayData(currentPage);
+                 });
+                 pagination.appendChild(pageLink);
+             }
+         }
+
+         displayData(currentPage);
+         updatePagination();*/
     </script>
 </body>
 

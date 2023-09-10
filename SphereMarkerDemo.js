@@ -7,8 +7,7 @@ import { MyCanvas } from "./MyCanvas";
 import { Colors } from "/Color";
 // import f from "./Experimental/API/curiosityPic/curiosityPic.html"
 let scene, camera, renderer;
-let canvas = new MyCanvas(window);
-let x = 0.01, y = 0.01, z = 0.001;
+const canvas = new MyCanvas(window);
 
 scene = canvas.scene;
 canvas.setBackgroundEXR("/BackgroundDemo/starmap_2020_4k.exr");
@@ -23,7 +22,7 @@ scene.add(cube);
 
 canvas.init(document);
 
-const sphere = new MySphere(2, 320, 160, "./mars8k.jpg");
+const sphere = new MySphere(2, 320, 160, "./images/mars8k.jpg");
 scene.add(sphere.sphere);
 camera.position.z = 2;
 
@@ -38,42 +37,34 @@ camera.position.z = 2;
 // markerPointDemo();
 apiDataDemo();
 canvas.gameLoop(() => {
-  // sphere.sphere.rotation.x -= 0.01;
-  // sphere.sphere.rotation.y -= 0.01;
-  // sphere.sphere.rotation.z += 0.001;
-  
+    // sphere.sphere.rotation.x -= 0.01;
+    // sphere.sphere.rotation.y -= 0.01;
+    // sphere.sphere.rotation.z += 0.001;
+    // 
 });
 
 function showInfo(point) {
-  // console.log(point);
-  // console.log(point.total);
-  let infoDiv = document.getElementById("info");
-  let location = document.getElementById("locationBtn");
-  if (!infoDiv) {
-    infoDiv = document.createElement("div");
-    infoDiv.id = "info";
-    infoDiv.style.position = "absolute";
-    infoDiv.style.top = "10px";
-    infoDiv.style.display = "flex";
-    // infoDiv.style.alignItems = "center";
-    // infoDiv.style.justifyContent = "space-between";
-    infoDiv.style.left = "10px";
-    infoDiv.style.color = "white";
-    infoDiv.style.fontSize = "18px";
-    infoDiv.innerHTML = "Click on a marker to see the details";
-    document.body.appendChild(infoDiv);
-  }
-//   function rotateMap() {
-//     console.log("click");
-//   canvas.gameLoop(() => {
-//     sphere.sphere.rotation.x -= 0.01;
-//     sphere.sphere.rotation.y -= 0.01;
-//     sphere.sphere.rotation.z += .001;
-//   })
-// }
-  // infoDiv.innerHTML = `IDdf: ${point.id}<br>Name: ${point.name}<br>Details: ${point.details}`;
+    // console.log(point);
+    // console.log(point.total);
+    let infoDiv = document.getElementById("info");
+    let location = document.getElementById("locationBtn");
+    if (!infoDiv) {
+        infoDiv = document.createElement("div");
+        infoDiv.id = "info";
+        infoDiv.style.position = "absolute";
+        infoDiv.style.top = "10px";
+        infoDiv.style.display = "flex";
+        // infoDiv.style.alignItems = "center";
+        // infoDiv.style.justifyContent = "space-between";
+        infoDiv.style.left = "10px";
+        infoDiv.style.color = "white";
+        infoDiv.style.fontSize = "18px";
+        infoDiv.innerHTML = "Click on a marker to see the details";
+        document.body.appendChild(infoDiv);
+    }
+    // infoDiv.innerHTML = `IDdf: ${point.id}<br>Name: ${point.name}<br>Details: ${point.details}`;
 
-  infoDiv.innerHTML = `
+    infoDiv.innerHTML = `
       <div class="grid grid-cols-12 gap-6  mt-10 ml-10 mr-10 text-xs">
         <div class="col-start-1 col-end-4">
 
@@ -124,21 +115,18 @@ function showInfo(point) {
                 <a href="./Ingenuity/Ingenuity.html">Ingenuity</a>
               </li>
              
-              <li class="px-4 w-[340px] rounded-lg py-2   hover:bg-gray-500  hover:bg-opacity-30       hover:text-white cursor-pointer border border-white mx-3 my-2">
-                <a href="./maps/roverMap/fixTime.html">Time Practice</a>
-              </li>
+             
             </ul>
           </ul>
 
 
         </div>
         <div class="ml-[18vw] w-[400px] text-3xl text-center font-mono font-bold mt-5" id="pointName"> ${point.name}</div>
-        
       </div>
-      <button id="increase" onclick="rotateMap()" class="btn text-3xl text-red-500 w-10 h-10">+</button>
       <div class="" id="showDateTime"></div>
       <div class="col-start-8 col-end-12 max-w-[400px] mt-10 pr-10" id="showInfo">
         <div id="new" class="text-[16px] font-mono">
+        <input type="text" name="search" placeholder="Search...." class="border border-white mb-4 bg-transparent w-[360px] text-gray-400 py-3 px-4 rounded-[20px]"/>
           <p class="border border-white py-3 px-4 rounded-[15px]">Name: ${point.name}</p>
           <div class="border border-white py-3 px-4 rounded-[15px] mt-4">
             <p > <span class="font-bold" >Type: </span> ${point.total.type}</p>
@@ -185,44 +173,36 @@ function showInfo(point) {
     `;
 }
 
-function rotateMap1() {
-    sphere.sphere.rotation.x -= 0.01;
-    sphere.sphere.rotation.y -= 0.01;
-    sphere.sphere.rotation.z += .001;
-}
-
-
 function apiDataDemo() {
-  const dataFetcher = new DataFetcher((data) => {
-    // console.log(data[0].coordinates.latitude);
-    let markedPoints = new MarkedPoints();
-    for (let user of data) {
-      // console.log(user.description);
-      markedPoints.add(user.id, user.name, user);
-      sphere.addMarker(
-        user.name,
-        user.coordinates.latitude,
-        user.coordinates.longitude,
-        (matrix) => {
-          var geometry = new THREE.BoxGeometry(0.05, 0.05, 0.05);
-          var material = new THREE.MeshBasicMaterial({
-            color: Colors.RED,
-          });
-          var box = new THREE.Mesh(geometry, material);
-          box.applyMatrix4(matrix);
-          return box;
+    const dataFetcher = new DataFetcher((data) => {
+        // console.log(data[0].coordinates.latitude);
+        let markedPoints = new MarkedPoints();
+        for (let user of data) {
+            // console.log(user.description);
+            markedPoints.add(user.id, user.name, user);
+            sphere.addMarker(
+                user.name,
+                user.coordinates.latitude,
+                user.coordinates.longitude,
+                (matrix) => {
+                    var geometry = new THREE.BoxGeometry(0.05, 0.05, 0.05);
+                    var material = new THREE.MeshBasicMaterial({
+                        color: Colors.RED,
+                    });
+                    var box = new THREE.Mesh(geometry, material);
+                    box.applyMatrix4(matrix);
+                    return box;
+                }
+            );
         }
-      );
-    }
 
-    sphere.onMarkerClick(camera, (text) => {
-      const point = markedPoints.find(text);
-      if (point != null) {
-        showInfo(point);
-      }
+        sphere.onMarkerClick(camera, (text) => {
+            const point = markedPoints.find(text);
+            if (point != null) {
+                showInfo(point);
+            }
+        });
     });
-  });
 
-  dataFetcher.fetchData("./data/most_interesting_places.json");
+    dataFetcher.fetchData("./data/most_interesting_places.json");
 }
-
