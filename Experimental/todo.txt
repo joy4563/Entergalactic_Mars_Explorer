@@ -22,31 +22,36 @@ replace the maps location icon with others => Khalek
 distance from one point to another=> Khakek
 replace maps with the existing ones
 
+pagination to next page
+add a button for all images
+Code a helicopter game for kids
+
+
 
 Joy
 Other map topography details fix
 add icons in rover, orbiter and ingenuity button
+fix rover middle page hover effect
+rover page theme, Home button
+camera dropdown size equal to camera dropdown size
+Enter sol number submit button small
+other map Ui fix, button size, font size
 
 
 Rukhsana
-have option to move to different page
-Each page will have drop down menu from where it can show different pictures
+Weather Apiimplementation
 
-Virgin Galactic: https://www.virgingalactic.com/
-Blue Origin: https://www.blueorigin.com/
-SpaceX: https://www.spacex.com/
-Axiom: https://www.axiomspace.com/
-Boeing: https://www.boeing.com/space/
 
 
 
 For Sabbir:
-run the JS files everytime we run npx vite in background
+fix readme
+
+
 weather add => https://mars.nasa.gov/rss/api/?feed=weather&category=mars2020&feedtype=json
 curiosity => https://mars.nasa.gov/rss/api/?feed=weather&category=msl&feedtype=json
 
 
-Code a helicopter game for kids
 
 Navigation data:
 https://mars.nasa.gov/mmgis-maps/M20/Layers/json/M20_traverse.json
