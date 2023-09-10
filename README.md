@@ -5,6 +5,7 @@ Welcome to the Entergalactic Mars Explorer! 🚀
 
 ![Mars Image](https://i.ibb.co/xYxNMF3/Screenshot-from-2023-09-11-02-26-46.png)
 ## For your convenience here are the links for quick access
+- [Live website(Currently not available)](#Motto)
 - [Motto](#Motto)
 - [Page 1: Journey Beyond Earth](#p1)
 - [Page 2: Tourism Hub](#p2)
