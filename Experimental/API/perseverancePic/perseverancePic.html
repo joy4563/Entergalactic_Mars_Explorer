@@ -8,21 +8,7 @@
     <script src="https://cdn.tailwindcss.com"></script>
     <link href="https://cdn.jsdelivr.net/npm/daisyui@3.5.1/dist/full.css" rel="stylesheet" type="text/css" />
     <style>
-        ul li {
-            margin-top: 5px;
-            color: black;
-            font-family: monospace;
-            font-size: 17px;
-            margin-left: 100px;
-        }
-        
-        ul li:hover {
-            background-color: orange;
-            color: white;
-            height: 60px;
-            width: 150px;
-            padding: 20px 10px;
-        }
+
     </style>
 </head>
 
@@ -30,87 +16,111 @@
     <div class="flex">
         <a href="../../../index.html" class="btn hover:bg-orange-600 bg-transparent text-black border border-gray-500 h-[60px] text-center w-[150px] rounded-lg flex pt-1 ml-5 pl-5 mt-5">Home</a>
 
-        <button class="h-[60px] text-center w-[180px] rounded-lg flex pt-4 pl-5 mt-5 ml-3" style="background-color : orange; color : white" id="cameraDropDown" data-dropdown-toggle="dropdown" type="button">All<svg class="w-2.5 h-2.5 ml-[90px] mt-2.5" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 10 6" >
-        <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="m1 1 4 4 4-4"/>
-      </svg>
-   </button>
+        <div class="relative group">
+            <button class=" h-[60px] text-center w-[180px] rounded-lg flex pt-4 pl-5 mt-5 ml-3" style="background-color : orange; color : white" id="cameraDropDown" data-dropdown-toggle="dropdown" type="button">
+                <span id="button">All</span>
+          <svg class="w-2.5 h-6.5 ml-[100px] mt-2.5" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 10 6" >
+    
+          <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="m1 1 4 4 4-4"/>
+    </svg>
+    </button>
+            <ul class="hidden absolute left-0 mt-2 space-y-2 bg-white border border-gray-200 py-2 rounded">
+                <li onclick="getCamera('camera edl_rucam')">
+                    <a href="#" class="block px-4 py-2 hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white">camera edl_rucam</a>
+                </li>
+                <li onclick="getCamera('edl_rdcam')">
+                    <a href="#" class="block px-4 py-2 hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white">edl_rdcam</a>
+                </li>
+                <li onclick="getCamera('edl_ddcam')">
+                    <a href="#" class="block px-4 py-2 hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white">edl_ddcam</a>
+                </li>
+                <li onclick="getCamera('edl_pucam1')">
+                    <a href="#" class="block px-4 py-2 hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white">edl_pucam1</a>
+                </li>
+                <li onclick="getCamera('edl_pucam2')">
+                    <a href="#" class="block px-4 py-2 hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white">edl_pucam2</a>
+                </li>
+                <li onclick="getCamera('navcam_left')">
+                    <a href="#" class="block px-4 py-2 hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white">navcam_left</a>
+                </li>
+                <li onclick="getCamera('navcam_right')">
+                    <a href="#" class="block px-4 py-2 hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white">navcam_right</a>
+                </li>
+                <li onclick="getCamera('mcz_right')">
+                    <a href="#" class="block px-4 py-2 hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white">mcz_right</a>
+                </li>
+                <li onclick="getCamera('mcz_left')">
+                    <a href="#" class="block px-4 py-2 hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white">mcz_left</a>
+                </li>
+                <li onclick="getCamera('front_hazcam_left_a')">
+                    <a href="#" class="block px-4 py-2 hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white">front_hazcam_left_a</a>
+                </li>
+
+                <li onclick="getCamera('front_hazcam_right_a')">
+                    <a href="#" class="block px-4 py-2 hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white">front_hazcam_left_a</a>
+                </li>
+
+                <li onclick="getCamera('skyscam')">
+                    <a href="#" class="block px-4 py-2 hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white">skycam</a>
+                </li>
+                <li onclick="getCamera('rear_hazcam_right')">
+                    <a href="#" class="block px-4 py-2 hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white">rear_hazcam_right</a>
+                </li>
+                <li onclick="getCamera('rear_hazcam_left')">
+                    <a href="#" class="block px-4 py-2 hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white">rear_hazcam_left</a>
+                </li>
+                <li onclick="getCamera('sherloc_watson')">
+                    <a href="#" class="block px-4 py-2 hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white">sherloc_watson</a>
+                </li>
+            </ul>
+        </div>
         <div class="flex mt-5 ml-[400px]">
-            <div class="pt-4 px-7 ml-1 rounded-lg  bg-transparent text-black border border-gray-500">10</div>
-            <div class="pt-4 px-7 ml-1 rounded-lg  bg-transparent text-black border border-gray-500">20</div>
-            <div class="pt-4 px-7 ml-1 rounded-lg  bg-transparent text-black border border-gray-500">50</div>
+            <div id="ten" class="btn  px-7 ml-1 rounded-lg  bg-transparent text-black border border-gray-500">10</div>
+            <div id="twenty" class="btn   px-7 ml-1 rounded-lg  bg-transparent text-black border border-gray-500">20</div>
+            <div id="fifty" class="btn  px-7 ml-1 rounded-lg  bg-transparent text-black border border-gray-500">50</div>
         </div>
     </div>
     <!-- Dropdown menu -->
-    <div id="dropdown" class="hidden    z-10  bg-white divide-y divide-gray-100 rounded-lg shadow w-44 dark:bg-gray-700">
-        <ul class="py-2 text-sm text-gray-700 dark:text-gray-200" aria-labelledby="dropdownDefaultButton">
 
-            <li>
-                <a href="#" class="block px-4 py-2 hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white">camera edl_rucam</a>
-            </li>
-            <li>
-                <a href="#" class="block px-4 py-2 hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white">edl_rdcam</a>
-            </li>
-            <li>
-                <a href="#" class="block px-4 py-2 hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white">edl_ddcam</a>
-            </li>
-            <li>
-                <a href="#" class="block px-4 py-2 hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white">edl_pucam1</a>
-            </li>
-            <li>
-                <a href="#" class="block px-4 py-2 hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white">edl_pucam2</a>
-            </li>
-            <li>
-                <a href="#" class="block px-4 py-2 hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white">navcam_left</a>
-            </li>
-            <li>
-                <a href="#" class="block px-4 py-2 hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white">navcam_right</a>
-            </li>
-            <li>
-                <a href="#" class="block px-4 py-2 hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white">mcz_right</a>
-            </li>
-            <li>
-                <a href="#" class="block px-4 py-2 hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white">mcz_left</a>
-            </li>
-            <li>
-                <a href="#" class="block px-4 py-2 hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white">front_hazcam_left_a</a>
-            </li>
-            <li>
-                <a href="#" class="block px-4 py-2 hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white">front_hazcam_left_a</a>
-            </li>
-
-            <li>
-                <a href="#" class="block px-4 py-2 hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white">skycam</a>
-            </li>
-            <li>
-                <a href="#" class="block px-4 py-2 hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white">rear_hazcam_right</a>
-            </li>
-            <li>
-                <a href="#" class="block px-4 py-2 hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white">rear_hazcam_left</a>
-            </li>
-            <li>
-                <a href="#" class="block px-4 py-2 hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white">sherloc_watson</a>
-            </li>
-        </ul>
-    </div>
 
     </div>
     <div id="imgContainer" class="grid grid-cols-4"></div>
     <script>
-        const dropCamera = document.getElementById('cameraDropDown');
-        const camera = document.getElementById('dropdown');
+        const dropdownButton = document.querySelector('.group');
+        const dropdownList = document.querySelector('ul');
 
-        // Add a mouseover event listener to #dropCamera
-        dropCamera.addEventListener('mouseover', () => {
-            // Show the #camera element
-            camera.style.display = 'block';
+        dropdownButton.addEventListener('click', () => {
+            dropdownList.classList.toggle('hidden');
         });
 
-        // Add a mouseout event listener to #dropCamera to hide #camera when the mouse moves away
-        dropCamera.addEventListener('mouseout', () => {
-            // Hide the #camera element
-            camera.style.display = 'none';
+        const dropdownItems = dropdownList.querySelectorAll("li");
+        let button = document.getElementById("button");
 
+        dropdownItems.forEach((item) => {
+            item.addEventListener("click", (e) => {
+                e.preventDefault();
+                const selectedItemText = item.textContent;
+                button.innerHTML = selectedItemText;
+                console.log(button.innerHTML);
+                //  dropdownList.classList.add("hidden");
+            });
         });
+
+        // Close the dropdown if clicked outside
+        document.addEventListener("click", (e) => {
+            if (!dropdownButton.contains(e.target) && !dropdownList.contains(e.target)) {
+                dropdownList.classList.add("hidden");
+            }
+        });
+        //click camera
+        function getCamera(value) {
+            // You can now use the 'value' parameter in your function.
+            let camera = value;
+            console.log("Camera" + camera)
+
+        }
+
+
         //camera EDL_RUCAM, EDL_RDCAM, EDL_DDCAM, EDL_PUCAM1, EDL_PUCAM2, NAVCAM_LEFT, NAVCAM_RIGHT, MCZ_RIGHT, MCZ_LEFT, FRONT_HAZCAM_LEFT_A, FRONT_HAZCAM_RIGHT_A, REAR_HAZCAM_LEFT, REAR_HAZCAM_RIGHT, SKYCAM, SHERLOC_WATSON
 
         //camera edl_rucam, edl_rdcam, edl_ddcam, edl_pucam1, edl_pucam2, navcam_left, navcam_right, mcz_right, mcz_left, front_hazcam_left_a, front_hazcam_right_a, rear_hazcam_left, rear_hazcam_right, skycam, sherloc_watson
