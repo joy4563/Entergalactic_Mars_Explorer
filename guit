@@ -1,7 +1,7 @@
 #!/bin/bash
 
 # List of branches to pull
-branches=("main" "joy" "rukhsana" "newashik" "sabbirrsec")
+branches=("main" "joy" "rukhsana" "newashik" "sabbir")
 
 # Loop through the branches and pull changes
 for branch in "${branches[@]}"; do
