@@ -5,11 +5,13 @@ Welcome to the Entergalactic Mars Explorer! 🚀
 
 ![Mars Image](https://i.ibb.co/xYxNMF3/Screenshot-from-2023-09-11-02-26-46.png)
 
-**<a name="Our Motto">Moto</a>**
+- [Installation](#installation)
+<!-- - [Installation](#installation) -->
 
-**<a name="Installation">Install</a>**
+- <a name="Motto">Moto</a>
 
-## Our Motto: "Igniting the Spirit of Space Tourism"
+
+## Our Motto: "Igniting the Spirit of Space Tourism"<a name = "Motto"></a>
 In the vast cosmos, our team, 'Entergalactic' presents the Entergalactic Mars Explorer – your gateway to the Red Planet. Everyone can enjoy this project to the fullest, offering a fully immersive experience to inspire future astronauts.
 
 **Embark on a Journey:** Explore and learn about Mars, becoming an aspiring astronaut for future space travel.
@@ -81,7 +83,7 @@ Seeking serenity and wide-open spaces? Discover the Martian plains, where tranqu
 
 Get ready for an unforgettable journey through the Martian landscapes, where every destination tells a captivating story of the Red Planet.
 
-## Installation
+## Installation<a name = "installation"></a>
 
 Follow these steps to get the Entergalactic Mars Explorer up and running on your Linux-based system.
 
