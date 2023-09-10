@@ -5,6 +5,9 @@ Welcome to the Entergalactic Mars Explorer! 🚀
 
 ![Mars Image](https://i.ibb.co/xYxNMF3/Screenshot-from-2023-09-11-02-26-46.png)
 
+**<a name="Our Motto">Moto</a>**
+
+**<a name="Installation">Install</a>**
 
 ## Our Motto: "Igniting the Spirit of Space Tourism"
 In the vast cosmos, our team, 'Entergalactic' presents the Entergalactic Mars Explorer – your gateway to the Red Planet. Everyone can enjoy this project to the fullest, offering a fully immersive experience to inspire future astronauts.
