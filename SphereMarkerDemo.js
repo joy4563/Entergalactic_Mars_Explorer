@@ -126,11 +126,8 @@ function showInfo(point) {
       <div class="" id="showDateTime"></div>
       <div class="col-start-8 col-end-12 max-w-[400px] mt-10 pr-10" id="showInfo">
         <div id="new" class="text-[16px] font-mono">
-<<<<<<< HEAD
-=======
         <input type="text" name="search" placeholder="Search...." class="border border-white mb-4 bg-transparent w-[360px] text-gray-400 py-3 px-4 rounded-[20px]"/>
           <p class="border border-white py-3 px-4 rounded-[15px]">Name: ${point.name}</p>
->>>>>>> main
           <div class="border border-white py-3 px-4 rounded-[15px] mt-4">
             <p > <span class="font-bold" >Type: </span> ${point.total.type}</p>
             <p> <span class="font-bold" >Location: </span> ${point.total.location}</p>

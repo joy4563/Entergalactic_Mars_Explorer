@@ -14,38 +14,49 @@
 
 <body class="font-mono">
     <div class="flex">
-        <a href="../../../index.html" class="btn hover:bg-orange-600  h-[60px] text-center bg-transparent text-black border border-gray-500 w-[150px] rounded-lg flex pt-1 ml-5 pl-5 mt-5">Home</a>
+        <a href="../../../index.html"
+            class="btn hover:bg-orange-600  h-[60px] text-center bg-transparent text-black border border-gray-500 w-[150px] rounded-lg flex pt-1 ml-5 pl-5 mt-5">Home</a>
 
         <div class="relative group">
-            <button class=" h-[60px] text-center w-[180px] rounded-lg flex pt-4 pl-5 mt-5 ml-3" style="background-color : orange; color : white" id="cameraDropDown" data-dropdown-toggle="dropdown" type="button">
+            <button class=" h-[60px] text-center w-[180px] rounded-lg flex pt-4 pl-5 mt-5 ml-3"
+                style="background-color : orange; color : white" id="cameraDropDown" data-dropdown-toggle="dropdown"
+                type="button">
                 <span id="button">All</span>
-          <svg class="w-2.5 h-6.5 ml-[100px] mt-2.5" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 10 6" >
-    
-          <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="m1 1 4 4 4-4"/>
-    </svg>
-    </button>
+                <svg class="w-2.5 h-6.5 ml-[100px] mt-2.5" aria-hidden="true" xmlns="http://www.w3.org/2000/svg"
+                    fill="none" viewBox="0 0 10 6">
+
+                    <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                        d="m1 1 4 4 4-4" />
+                </svg>
+            </button>
             <ul class="hidden absolute left-0 mt-2 space-y-2 bg-white border border-gray-200 py-2 rounded">
                 <li onclick="getCamera('camera fhaz')">
-                    <a href="#" class="block px-4 py-2 hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white"> camera fhaz</a>
+                    <a href="#" class="block px-4 py-2 hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white">
+                        camera fhaz</a>
                 </li>
                 <li onclick="getCamera('edl_rdcam')">
-                    <a href="#" class="block px-4 py-2 hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white">edl_rdcam</a>
+                    <a href="#"
+                        class="block px-4 py-2 hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white">edl_rdcam</a>
                 </li>
                 <li onclick="getCamera(' rhaz')">
-                    <a href="#" class="block px-4 py-2 hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white">rhaz</a>
+                    <a href="#"
+                        class="block px-4 py-2 hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white">rhaz</a>
                 </li>
                 <li onclick="getCamera('navcam')">
-                    <a href="#" class="block px-4 py-2 hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white">navcam</a>
+                    <a href="#"
+                        class="block px-4 py-2 hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white">navcam</a>
                 </li>
                 <li onclick="getCamera('pancam')">
-                    <a href="#" class="block px-4 py-2 hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white">pancam</a>
+                    <a href="#"
+                        class="block px-4 py-2 hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white">pancam</a>
                 </li>
 
             </ul>
         </div>
         <div class="flex mt-5 ml-[400px]">
             <div id="ten" class="btn  px-7 ml-1 rounded-lg  bg-transparent text-black border border-gray-500">10</div>
-            <div id="twenty" class="btn   px-7 ml-1 rounded-lg  bg-transparent text-black border border-gray-500">20</div>
+            <div id="twenty" class="btn   px-7 ml-1 rounded-lg  bg-transparent text-black border border-gray-500">20
+            </div>
             <div id="fifty" class="btn  px-7 ml-1 rounded-lg  bg-transparent text-black border border-gray-500">50</div>
         </div>
     </div>
@@ -85,7 +96,7 @@
         function getCamera(value) {
             // You can now use the 'value' parameter in your function.
             let camera = value;
-            console.log("Camera" + camera)
+            console.log("Camera" + camera);
 
         }
 
@@ -94,8 +105,8 @@
         //camera fhaz, rhaz, navcam, pancam, minities
 
         fetch(
-                "https://mars-photos.herokuapp.com/api/v1/rovers/opportunity/photos?sol=3"
-            )
+            "https://mars-photos.herokuapp.com/api/v1/rovers/opportunity/photos?sol=3"
+        )
             .then((response) => response.json())
             .then((data) => showImage(data));
 
