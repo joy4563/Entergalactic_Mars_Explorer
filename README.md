@@ -91,7 +91,9 @@ Before you begin, ensure you have the following prerequisites installed:
 - **node**
 - **Javascript**
 
-        node -v
+Check if node has been installed
+
+    node -v
 
 ## Installation on a Linux Based distro
 
