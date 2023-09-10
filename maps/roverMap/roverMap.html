@@ -9,23 +9,24 @@
     <link href="https://cdn.jsdelivr.net/npm/daisyui@3.5.1/dist/full.css" rel="stylesheet" type="text/css" />
     <style>
         /* Custom scrollbar */
+        
         .custom-scrollbar::-webkit-scrollbar {
             display: none;
         }
-
+        
         .custom-scrollbar::-webkit-scrollbar-track {
             background: #f1f1f1;
         }
-
+        
         .custom-scrollbar::-webkit-scrollbar-thumb {
             background-color: #888;
             border-radius: 4px;
         }
-
+        
         .custom-scrollbar::-webkit-scrollbar-thumb:hover {
             background-color: #555;
         }
-
+        
         .a_btn {
             width: 300px;
         }
@@ -35,7 +36,8 @@
 
 <body class="max-w-screen max-h-[100vh] overflow-hidden font-mono">
     <script type="module" src="./roverMap.js"></script>
-    <script>  // import f from '../IceWaterMap/IceWater.html'
+    <script>
+        // import f from '../IceWaterMap/IceWater.html'
 
         function handleClickLocation() {
             document.getElementById("locationBtn").style.backgroundColor = 'orange';
@@ -111,6 +113,10 @@
 
          <a   href="../../pictureOfTheDay/pictureOfTheDay.html">Picture Of the Day</a>
          </li>
+         <li  class="px-4 py-2 w-[340px] rounded-lg   hover:bg-gray-500  hover:bg-opacity-30       hover:text-white cursor-pointer border border-white mx-3 my-2">
+
+            <a   href="./travel/travel.html">Picture Of the Day</a>
+            </li>
     </ul>
    </div>`;
 
@@ -139,6 +145,7 @@
 </ul>
 </div>`;
         }
+
         function handleDayConversion() {
             document.getElementById("pointName").style.display = "none";
 
