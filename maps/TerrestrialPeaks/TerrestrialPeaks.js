@@ -56,6 +56,8 @@ function showInfo(point) {
 
     infoDiv.innerHTML = `    <div >
       <div class=" max-w-[400px] mt-10 pr-10 font-mono" id="showInfo">
+      <a href="../../index.html" ><button class=" px-4 py-2 w-[357px] rounded-lg   hover:bg-gray-500  hover:bg-opacity-30       hover:text-white cursor-pointer border border-white mb-5" > Home</button></a>
+      
         <div class=" border flex w-[357px]  border-white p-3 rounded-[15px]  h-[200px] text-center py-3 ">
           <div class="carousel  w-[357px] rounded-lg">
             <div id="slide1" class="carousel-item relative w-[330px]">
