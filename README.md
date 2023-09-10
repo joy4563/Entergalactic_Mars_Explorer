@@ -95,10 +95,6 @@ node -v
 
 ## Installation on a Linux Based distro
 
-#### Arch Linux
-
-    sudo pacman -S npm git 
-
 #### Debian/Ubuntu
 
     sudo apt install git npm
@@ -120,7 +116,7 @@ Run locally
 That is all you need to do to emmerse yourself into the martian environment. 
 
 ## Api List
-### Rover Image
+### For Rover Image
 
 ##### Curiosity
     https://api.nasa.gov/mars-photos/api/v1/rovers/curiosity/photos?api_key=DEMO_KEY&sol=1
@@ -143,7 +139,7 @@ That is all you need to do to emmerse yourself into the martian environment.
     https://api.nasa.gov/planetary/apod?api_key=DEMO_KEY
 ## Python OpenCV image colorization
 1.
-    
+
     https://www.youtube.com/redirect?event=video_description&redir_token=QUFFLUhqa0dtdWxmSTJnMW1nMFpYQXEyODQwbjhYZGI0UXxBQ3Jtc0tsM2hXUmNXdTZCUXhrdFZ0NWhSN1pxWHgxYWMxLU9KVVh1SGQ1RllnTDY1ejJ5T0hSVGlyT2R0dXdDdjVScUsxZVRjeGI2R1ctMUsyRF9ZaUN2NnlyZFNYRnU3dks2QURkUXp1aFI3NVF3V1ZSNTVaaw&q=https%3A%2F%2Fgithub.com%2Fopencv%2Fopencv%2Fblob%2Fmaster%2Fsamples%2Fdnn%2Fcolorization.py&v=gAmskBNz_Vc
 
 2.
