@@ -7,7 +7,8 @@ import { MyCanvas } from "./MyCanvas";
 import { Colors } from "/Color";
 // import f from "./Experimental/API/curiosityPic/curiosityPic.html"
 let scene, camera, renderer;
-const canvas = new MyCanvas(window);
+let canvas = new MyCanvas(window);
+let x = 0.01, y = 0.01, z = 0.001;
 
 scene = canvas.scene;
 canvas.setBackgroundEXR("/BackgroundDemo/starmap_2020_4k.exr");
@@ -40,7 +41,7 @@ canvas.gameLoop(() => {
   // sphere.sphere.rotation.x -= 0.01;
   // sphere.sphere.rotation.y -= 0.01;
   // sphere.sphere.rotation.z += 0.001;
-  // 
+  
 });
 
 function showInfo(point) {
@@ -62,6 +63,14 @@ function showInfo(point) {
     infoDiv.innerHTML = "Click on a marker to see the details";
     document.body.appendChild(infoDiv);
   }
+//   function rotateMap() {
+//     console.log("click");
+//   canvas.gameLoop(() => {
+//     sphere.sphere.rotation.x -= 0.01;
+//     sphere.sphere.rotation.y -= 0.01;
+//     sphere.sphere.rotation.z += .001;
+//   })
+// }
   // infoDiv.innerHTML = `IDdf: ${point.id}<br>Name: ${point.name}<br>Details: ${point.details}`;
 
   infoDiv.innerHTML = `
@@ -124,7 +133,9 @@ function showInfo(point) {
 
         </div>
         <div class="ml-[18vw] w-[400px] text-3xl text-center font-mono font-bold mt-5" id="pointName"> ${point.name}</div>
+        
       </div>
+      <button id="increase" onclick="rotateMap()" class="btn text-3xl text-red-500 w-10 h-10">+</button>
       <div class="" id="showDateTime"></div>
       <div class="col-start-8 col-end-12 max-w-[400px] mt-10 pr-10" id="showInfo">
         <div id="new" class="text-[16px] font-mono">
@@ -174,6 +185,13 @@ function showInfo(point) {
     `;
 }
 
+function rotateMap1() {
+    sphere.sphere.rotation.x -= 0.01;
+    sphere.sphere.rotation.y -= 0.01;
+    sphere.sphere.rotation.z += .001;
+}
+
+
 function apiDataDemo() {
   const dataFetcher = new DataFetcher((data) => {
     // console.log(data[0].coordinates.latitude);
@@ -207,3 +225,4 @@ function apiDataDemo() {
 
   dataFetcher.fetchData("./data/most_interesting_places.json");
 }
+
