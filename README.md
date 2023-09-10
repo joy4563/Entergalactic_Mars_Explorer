@@ -1,4 +1,4 @@
-# three_js
+# Mars Explorer
 
 A 3d view of Mars with few important locations and pictures directly collected from curiosity.
 Also collected almost 9500 pictures from Ingenuity, a helicopter working on Mars. We compiled a video with all the pictures we collected. The task was really hard but we made it. Moreover we have a dedicated section for space enthusiasts so that they can see the picture of the day.
