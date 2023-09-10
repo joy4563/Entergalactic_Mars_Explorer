@@ -38,25 +38,16 @@ SpaceX: https://www.spacex.com/
 Axiom: https://www.axiomspace.com/
 Boeing: https://www.boeing.com/space/
 
+cute name for our mars exploration project where we listed enigmatic features of mars
+The name "Entergalactic Mars Expedition" suggests a space exploration mission led by the team "Entergalactic" to the planet Mars. It implies a journey beyond Earth's boundaries and into the cosmos, emphasizing the adventurous and interstellar nature of the mission. This name conveys the idea of exploring Mars, potentially for scientific research or space tourism, while highlighting the team's identity as "Entergalactic" and their commitment to cosmic exploration.
 
 For Sabbir:
 run the JS files everytime we run npx vite in background
 weather add => https://mars.nasa.gov/rss/api/?feed=weather&category=mars2020&feedtype=json
-
+curiosity => https://mars.nasa.gov/rss/api/?feed=weather&category=msl&feedtype=json
 
 
 Code a helicopter game for kids
-
-Raw Image from Curiosity=> https://api.nasa.gov/mars-photos/api/v1/rovers/curiosity/photos?api_key=DEMO_KEY&sol=1000
-cam: https://api.nasa.gov/mars-photos/api/v1/rovers/curiosity/photos?api_key=DEMO_KEY&sol=1000&camera=fhaz
-latest photo=> https://api.nasa.gov/mars-photos/api/v1/rovers/curiosity/latest_photos?api_key=DEMO_KEY
-ameras: [
-    "CHEMCAM",
-    "FHAZ",
-    "MARDI",
-    "RHAZ"
-]
-
 
 Navigation data:
 https://mars.nasa.gov/mmgis-maps/M20/Layers/json/M20_traverse.json
