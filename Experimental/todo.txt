@@ -42,21 +42,10 @@ Boeing: https://www.boeing.com/space/
 For Sabbir:
 run the JS files everytime we run npx vite in background
 weather add => https://mars.nasa.gov/rss/api/?feed=weather&category=mars2020&feedtype=json
-
+curiosity => https://mars.nasa.gov/rss/api/?feed=weather&category=msl&feedtype=json
 
 
 Code a helicopter game for kids
-
-Raw Image from Curiosity=> https://api.nasa.gov/mars-photos/api/v1/rovers/curiosity/photos?api_key=DEMO_KEY&sol=1000
-cam: https://api.nasa.gov/mars-photos/api/v1/rovers/curiosity/photos?api_key=DEMO_KEY&sol=1000&camera=fhaz
-latest photo=> https://api.nasa.gov/mars-photos/api/v1/rovers/curiosity/latest_photos?api_key=DEMO_KEY
-ameras: [
-    "CHEMCAM",
-    "FHAZ",
-    "MARDI",
-    "RHAZ"
-]
-
 
 Navigation data:
 https://mars.nasa.gov/mmgis-maps/M20/Layers/json/M20_traverse.json
