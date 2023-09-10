@@ -1,13 +1,13 @@
 # Entergalactic Mars Explorer
 
-Welcome to the Entergalactic Mars Explorer project! 🚀
+Welcome to the Entergalactic Mars Explorer! 🚀
 
 
 ![Mars Image](https://i.ibb.co/xYxNMF3/Screenshot-from-2023-09-11-02-26-46.png)
 
 
 ## Our Motto: "Igniting the Spirit of Space Tourism"
-In the vast cosmos, our team, 'Entergalactic,' presents the Entergalactic Mars Explorer – your gateway to the Red Planet. Everyone can enjoy this project to the fullest, offering a fully immersive experience to inspire future astronauts.
+In the vast cosmos, our team, 'Entergalactic' presents the Entergalactic Mars Explorer – your gateway to the Red Planet. Everyone can enjoy this project to the fullest, offering a fully immersive experience to inspire future astronauts.
 
 **Embark on a Journey:** Explore and learn about Mars, becoming an aspiring astronaut for future space travel.
 
@@ -18,9 +18,9 @@ In the vast cosmos, our team, 'Entergalactic,' presents the Entergalactic Mars E
 Join us on this cosmic journey and get ready to explore Mars as a real-life space tourist. Adventure awaits! 
 ### Page 1: Explore Mars
 
-🌌 **Experience Mars in 3D:** Immerse yourself in the captivating 3D map of Mars. We offer a variety of maps, including thermal maps, water-ice maps, and rover maps, each providing a unique perspective of this enigmatic world.
+🌌 **Experience Mars in 3D:** Immerse yourself in the captivating 3D map of Mars. We offer a variety of maps, including thermal map, topography map, water-ice map and rover map, each providing a unique perspective of this enigmatic world.
 
-🤖 **Meet the Mars Rovers:** Explore the landscapes of Mars alongside the heroic rovers that have tirelessly roamed its surface for more than a decade. Get to know your robot companions, including Curiosity, Perseverance, Opportunity, Zhurong, and the ingenious Ingenuity helicopter.
+🤖 **Meet the Mars Rovers:** Explore the landscapes of Mars alongside the heroic rovers that have tirelessly roamed its surface for more than a decade. Get to know your robot companions, including Curiosity, Perseverance, Opportunity, Zhurong, Insight, Sojourner, Mars Polar Lander,  and the ingenious Ingenuity helicopter.
 
 🔍 **Rover Status and Runtimes:** Stay up-to-date with the real-time status and mission durations of Curiosity, Opportunity, and Perseverance. Witness their incredible journeys from the moment they landed on Mars.
 
@@ -35,7 +35,7 @@ Join us on this cosmic journey and get ready to explore Mars as a real-life spac
 
 To embark on your Martian adventure, follow these simple steps:
 
-1. **Clone the Repository:** Start by cloning this repository to your local machine.
+1. **Clone the Repository, run locally:** Start by cloning this repository to your local machine.
 
    ```bash
    git clone https://github.com/entergalactic/mars-explorer.git
