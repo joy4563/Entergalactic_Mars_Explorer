@@ -1,14 +1,6 @@
-<<<<<<< HEAD
-# Entergalactic Mars Expedition
-
-
-A 3d view of Mars with many important locations and pictures directly collected from Curiosity, Perseverance, opportunity and 
-Also collected almost 9500 pictures from Ingenuity, a helicopter working on Mars. We compiled a video with all the pictures we collected. The task was really hard but we made it. Moreover we have a dedicated section for space enthusiasts so that they can see the picture of the day.
-=======
 # Entergalactic Mars Explorer
 
 Welcome to the Entergalactic Mars Explorer project! 🚀
->>>>>>> sabbirrsec
 
 
 ![Mars Image](https://i.ibb.co/xYxNMF3/Screenshot-from-2023-09-11-02-26-46.png)
