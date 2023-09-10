@@ -23,6 +23,7 @@ distance from one point to another=> Khakek
 replace maps with the existing ones
 
 pagination to next page
+search functionality
 add a button for all images
 Code a helicopter game for kids
 
