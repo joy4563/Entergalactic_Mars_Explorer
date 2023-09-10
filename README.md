@@ -152,9 +152,11 @@ That is all you need to do to emmerse yourself into the martian environment.
 
 ## Compiling image into a video
 - **ffmpeg**
+
 Ubuntu
     
     sudo apt install ffmpeg
+
 Fedora        
     
     sudo dnf install ffmpeg
