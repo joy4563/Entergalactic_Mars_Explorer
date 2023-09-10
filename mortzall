@@ -1,0 +1,12 @@
+./guit
+
+git checkout sabbirrsec
+git merge main
+git push
+
+git checkout main
+git merge rukhsana
+git merge newashik
+git merge joy
+
+npx vite
