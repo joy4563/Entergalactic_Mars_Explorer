@@ -115,8 +115,9 @@ function showInfo(point) {
                 <a href="./Ingenuity/Ingenuity.html">Ingenuity</a>
               </li>
               <li class="px-4 w-[340px] rounded-lg py-2   hover:bg-gray-500  hover:bg-opacity-30       hover:text-white cursor-pointer border border-white mx-3 my-2">
-              <a href="./Weather/weather.html">Latest Weather Report</a>
-            </li>
+                <a href="./Experimental/API/Weather/perseveranceWeather.html">dddd</a>
+              </li>
+
              
              
             </ul>

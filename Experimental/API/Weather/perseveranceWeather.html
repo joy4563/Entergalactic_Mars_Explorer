@@ -1,0 +1,29 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Perseverance Weather</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@3.5.1/dist/full.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+    <p id="text"></p>
+    
+    <script>
+        fetch(`https://mars.nasa.gov/rss/api/?feed=weather&category=mars2020&feedtype=json`)
+        .then((response) => response.json())
+        .then((data) => {
+            showData(data); // Log the fetched data to the console
+            // You can process and display the data as needed here
+        })
+        .catch((error) => {
+            console.error('Error:', error);
+        });
+
+        function showData(data){
+            document.getElementById('text').innerText = data.sols.length;
+
+        }
+    </script>
+</body>
+</html>
