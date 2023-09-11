@@ -144,8 +144,11 @@ That is all you need to do to emmerse yourself into the martian environment.
 ##### Ingenuity
     https://mars.nasa.gov/rss/api/?feed=raw_images&category=ingenuity
 ### Weather Data
-<!-- #### Curiosity
-#### Perseverance -->
+#### Curiosity
+    https://mars.nasa.gov/rss/api/?feed=weather&category=msl&feedtype=json
+
+#### Perseverance 
+    https://mars.nasa.gov/rss/api/?feed=weather&category=mars2020&feedtype=json
 #### Insight
     https://api.nasa.gov/insight_weather/?api_key=DEMO_KEY&feedtype=json&ver=1.0
 
