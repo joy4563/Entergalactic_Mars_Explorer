@@ -120,6 +120,9 @@ or
     
     sudo dnf install git npm
 
+## On a Windows Machine
+
+`You need to have git/github. Rest is same.`
 ## Clone the repo
     git clone https://github.com/joy4563/Entergalactic_Mars_Explorer.git
 ## Run<a name = "rn"></a>
@@ -133,7 +136,7 @@ Install dependency
     npx vite
 
 
-That is all you need to do to emmerse yourself into the martian environment. 
+That is all you need to do to emmers yourself into the martian environment. 
 
 ## Api List<a name = "api"></a>
 ### For Rover Images
