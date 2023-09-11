@@ -292,7 +292,7 @@
                     pictureID.innerHTML = `<p class=" text-4xl py-12 mx-auto">No photos Available.</p>`;
                 } else {
                     if (remaining.length > 50) {
-                        remaining = remaining.slice(0, 50);
+                        remaining = remaining.slice(0, 100);
                     }
                     remaining.map((single) => {
                         const imgElement = document.createElement("img");

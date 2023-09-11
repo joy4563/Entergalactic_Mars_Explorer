@@ -36,12 +36,38 @@ rover page theme, Home button
 camera dropdown size equal to camera dropdown size
 Enter sol number submit button small
 other map Ui fix, button size, font size
+User can search negetive sol
+
+{
+    Future: inside the manifest list, there is a list of available camera, if the camera is listed, user can select from drop down menu.
+
+
+replace the page number with following information
+Total number of pictures available for sol x is => total_photos
+{
+Available camera => cameras(so user wiill not get no photos available)
+or we can color the available/ disable the camera that are not present
+    
+}
+
+
+}
+
+
+Curiosity Max sol: https://api.nasa.gov/mars-photos/api/v1/manifests/curiosity?api_key=DEMO_KEY
+
+Opportunity: https://api.nasa.gov/mars-photos/api/v1/manifests/opportunity?api_key=DEMO_KEY
+
+Spirit: https://api.nasa.gov/mars-photos/api/v1/manifests/spirit?api_key=DEMO_KEY
+
+Perseverance: https://api.nasa.gov/mars-photos/api/v1/manifests/perseverance?api_key=DEMO_KEY
+
 
 
 Rukhsana
 Weather Apiimplementation
-
-
+By pressing any picture the picture will open in a new tab
+BG white 
 
 
 For Sabbir:
@@ -51,7 +77,6 @@ fix readme
 weather add
 Perseverance => https://mars.nasa.gov/rss/api/?feed=weather&category=mars2020&feedtype=json
 curiosity => https://mars.nasa.gov/rss/api/?feed=weather&category=msl&feedtype=json
-
 
 
 Navigation data:
