@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Curiosity</title>
+    <title>Picture Curiosity</title>
     <script src="https://cdn.tailwindcss.com"></script>
     <link href="https://cdn.jsdelivr.net/npm/daisyui@3.5.1/dist/full.css" rel="stylesheet" type="text/css" />
     <style>
@@ -41,7 +41,7 @@
                             class="flex justify-between px-4 py-2 hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white">All
                             <span id="ALL">0</span></a>
                     </li>
-                    <li onclick="getCamera('RHAZ')"  class="border border-gray-300 rounded">
+                    <li onclick="getCamera('RHAZ')" class="border border-gray-300 rounded">
                         <a href="#"
                             class="flex justify-between px-4 py-2 hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white">Rhaz
                             <span id="RHAZ">0</span></a>
@@ -199,12 +199,21 @@
                     remaining = remaining.slice(0, 100);
                 }
                 remaining.map((single) => {
-
                     const imgElement = document.createElement("img");
-                    imgElement.classList.add("h-[300px]", "w-[400px]", "mt-5", "rounded-[15px]",
+                    imgElement.classList.add(
+                        "h-[300px]",
+                        "w-[400px]",
+                        "mt-5",
+                        "rounded-[15px]",
                         "ml-5",
-                        "mr-5");
+                        "mr-5", "cursor-pointer"
+                    );
+                    imgElement.setAttribute("id", `image-${single.id}`);
                     imgElement.src = `${single.img_src}`;
+                    imgElement.addEventListener('click', () => {
+                        const imageUrl = imgElement.getAttribute('src');
+                        window.open(`${single.img_src}`, '_blank');
+                    });
                     pictureID.appendChild(imgElement);
 
                 });
