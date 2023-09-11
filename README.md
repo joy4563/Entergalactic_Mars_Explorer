@@ -101,7 +101,6 @@ Before you begin, ensure you have the following prerequisites installed:
 - **npm**
 - **git**
 - **node**
-- **Javascript**
 
 Check if node has been installed
 
@@ -122,8 +121,10 @@ Check if node has been installed
 To run this project locally, simply type 
     
     cd Entergalactic_Mars_Explorer
+Install dependency
+
+    npm -i
 ### Run locally
-    
     npx vite
 
 
