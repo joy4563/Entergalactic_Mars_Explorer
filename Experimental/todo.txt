@@ -21,14 +21,10 @@ Other map topography details fix
 add icons in rover, orbiter and ingenuity button
 fix rover middle page hover effect
 rover page theme, Home button
-camera dropdown size equal to camera dropdown size
 Enter sol number submit button small
-negetive sol number fix
 other map Ui fix, button size, font size
-User can search negetive sol
 
 {
-    Future: inside the manifest list, there is a list of available camera, if the camera is listed, user can select from drop down menu. otherwise cameras are blocked
 
 
 replace the page number with following information
@@ -54,8 +50,6 @@ Perseverance: https://api.nasa.gov/mars-photos/api/v1/manifests/perseverance?api
 
 
 Rukhsana
-Weather Api implementation
-By pressing any picture the picture will open in a new tab
 BG white
 
 
