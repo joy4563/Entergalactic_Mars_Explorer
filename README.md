@@ -115,6 +115,11 @@ Check if node has been installed
 #### Fedora
 
     sudo yum install git npm
+
+or 
+    
+    sudo dnf install git npm
+
 ## Clone the repo
     git clone https://github.com/joy4563/Entergalactic_Mars_Explorer.git
 ## Run<a name = "rn"></a>
@@ -176,6 +181,10 @@ Ubuntu
     sudo apt install ffmpeg
 
 Fedora        
+    
+    sudo dnf install ffmpeg
+
+or
     
     sudo dnf install ffmpeg
 
