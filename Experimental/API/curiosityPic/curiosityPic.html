@@ -20,10 +20,10 @@
     <div class="flex justify-between items-center">
         <div class="flex">
             <a href="../../../index.html"
-                class="btn hover:bg-orange-600 bg-transparent text-black border border-gray-500 h-[60px] text-center w-[150px] rounded-lg flex pt-1 ml-5 pl-5 mt-5">Home</a>
-            
+                class="btn hover:bg-orange-400 bg-white text-black border border-gray-500 h-[50px] text-center w-[150px] rounded-lg flex pt-1 ml-5 pl-5 mt-5">Home</a>
+
             <div class="relative group">
-                <button class=" h-[60px] text-center w-[180px] rounded-lg flex justify-between pt-4 pl-5 mt-5 ml-3"
+                <button class=" h-[50px] text-center w-[250px] rounded-lg flex justify-between pt-4 pl-5 mt-5 ml-3"
                     style="background-color : orange; color : white" id="cameraDropDown" data-dropdown-toggle="dropdown"
                     type="button">
                     <span id="button">Camera</span>
@@ -35,34 +35,41 @@
                     </svg>
                 </button>
                 <ul
-                    class="hidden absolute left-0 mt-2 space-y-2 bg-white border border-gray-200 py-2 rounded w-[250px] ml-4">
-                    <li onclick="getCamera('all')">
+                    class="hidden absolute left-0 mt-2 space-y-2 bg-transparent bg-white border border-gray-200  rounded w-[250px] ml-4">
+                    <li onclick="getCamera('all')" class="border border-gray-300 rounded">
                         <a href="#"
-                            class="block px-4 py-2 hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white">All</a>
+                            class="flex justify-between px-4 py-2 hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white">All
+                            <span id="ALL">0</span></a>
                     </li>
-                    <li onclick="getCamera('RHAZ')">
+                    <li onclick="getCamera('RHAZ')"  class="border border-gray-300 rounded">
                         <a href="#"
-                            class="block px-4 py-2 hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white">Rhaz</a>
+                            class="flex justify-between px-4 py-2 hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white">Rhaz
+                            <span id="RHAZ">0</span></a>
                     </li>
-                    <li onclick="getCamera('MAST')">
+                    <li onclick="getCamera('MAST')" class="border border-gray-300 rounded">
                         <a href="#"
-                            class="block px-4 py-2 hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white">Mast</a>
+                            class="flex justify-between px-4 py-2 hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white ">Mast
+                            <span id="MAST">0</span></a>
                     </li>
-                    <li onclick="getCamera('CHEMCAM')">
+                    <li onclick="getCamera('CHEMCAM')" class="border border-gray-300 rounded">
                         <a href="#"
-                            class="block px-4 py-2 hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white">Chemcam</a>
+                            class="flex justify-between px-4 py-2 hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white">Chemcam
+                            <span id="CHEMCAM">0</span></a>
                     </li>
-                    <li onclick="getCamera('MAHLI')">
+                    <li onclick="getCamera('MAHLI')" class="border border-gray-300 rounded">
                         <a href="#"
-                            class="block px-4 py-2 hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white">Mahli</a>
+                            class="flex justify-between px-4 py-2 hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white">Mahli
+                            <span id="MAHLI">0</span></a>
                     </li>
-                    <li onclick="getCamera('MARDI')">
+                    <li onclick="getCamera('MARDI')" class="border border-gray-300 rounded">
                         <a href="#"
-                            class="block px-4 py-2 hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white">Mardi</a>
+                            class="flex justify-between px-4 py-2 hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white">Mardi
+                            <span id="MARDI">0</span></a>
                     </li>
-                    <li onclick="getCamera('NAVCAM')">
+                    <li onclick="getCamera('NAVCAM')" class="border border-gray-300 rounded">
                         <a href="#"
-                            class="block px-4 py-2 hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white">Navcam</a>
+                            class="flex justify-between px-4 py-2 hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white">Navcam
+                            <span id="NAVCAM">0</span></a>
                     </li>
                 </ul>
             </div>
@@ -80,8 +87,8 @@
             </div>
         </div>
         <div>
-            <input type="number" id="solInput" class="py-2 pl-2 bg-slate-600 rounded-md"
-                placeholder="Enter Sol Number" />
+            <input type="number" id="solInput" min="0" class="py-2 pl-2 border border-gray-600 rounded-md w-[250px]"
+                placeholder="Jump to Sol Max(3444)" />
             <button class="p-3 rounded-md bg-yellow-500 mr-6 text-white" type="submit" onclick="handleSubmit()">
                 Submit
             </button>
@@ -136,10 +143,37 @@
 
         getCamera("all");
 
-        //camera fhaz, rhaz, mast, chemcam, mahli, mardi, navcam
 
+        function showImageNumer(data) {
+            const allPhotos = data.photos;
+            document.getElementById("ALL").textContent = allPhotos.length;
+            // console.log(allPhotos);
+            const photoCounts = {};
+
+            // Iterate through the data array and count city occurrences
+            allPhotos.forEach(item => {
+                const camera = item.camera.name;
+                if (photoCounts[camera]) {
+                    photoCounts[camera] += 1;
+                } else {
+                    photoCounts[camera] = 1;
+                }
+            });
+            for (const photo in photoCounts) {
+                // console.log(photo);
+                const element = document.getElementById(photo); // Assumes your HTML elements have IDs matching the city names
+                if (element) {
+                    element.textContent = photoCounts[photo];
+                }
+            }
+            // Log the city counts
+            // console.log(photoCounts);
+
+
+        }
 
         function showImage(data, cameraName) {
+            showImageNumer(data);
             // console.log(cameraName);
             const pictureID = document.getElementById("imgContainer");
             pictureID.innerText = "";
