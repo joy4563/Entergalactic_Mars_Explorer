@@ -41,7 +41,7 @@
                             class="flex justify-between px-4 py-2 hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white">All
                             <span id="ALL">0</span></a>
                     </li>
-                    <li onclick="getCamera('RHAZ')"  class="border border-gray-300 rounded">
+                    <li onclick="getCamera('RHAZ')" class="border border-gray-300 rounded">
                         <a href="#"
                             class="flex justify-between px-4 py-2 hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white">Rhaz
                             <span id="RHAZ">0</span></a>
@@ -198,7 +198,7 @@
                 if (remaining.length > 50) {
                     remaining = remaining.slice(0, 100);
                 }
-                               remaining.map((single) => {
+                remaining.map((single) => {
                     const imgElement = document.createElement("img");
                     imgElement.classList.add(
                         "h-[300px]",
