@@ -1,19 +1,12 @@
-git pull
+#!/bin/bash
 
-git checkout main
-git pull
+# List of branches to pull
+branches=("main" "joy" "rukhsana" "newashik" "sabbir")
 
-git checkout joy
-git pull
+# Loop through the branches and pull changes
+for branch in "${branches[@]}"; do
+  echo -e "\nPulling from $branch"
+  git checkout "$branch"
+  git pull
+done
 
-git checkout rukhsana
-git pull
-
-git checkout newashik
-git pull
-
-git checkout khalek
-git pull
-
-git checkout sabbirrsec
-git pull

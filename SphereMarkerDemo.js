@@ -79,7 +79,7 @@ function showInfo(point) {
                 <div
                   class="font-mono border-2  py-2 px-4  hover:bg-gray-500  hover:bg-opacity-30   hover:text-white cursor-pointer mx-3 rounded-lg text-sm font-semibold"
                   onclick="handleClickTourisom()" id="tourismBtn">
-                  Tourisom</div>
+                  Tourism</div>
                 <div
                   class=" border-2 py-2 px-4 border-gray-300   hover:bg-gray-500  hover:bg-opacity-30       hover:text-white cursor-pointer rounded-lg text-sm font-semibold"
                   onclick="handleClickMaps()" id="mapBtn">
@@ -126,8 +126,12 @@ function showInfo(point) {
       <div class="" id="showDateTime"></div>
       <div class="col-start-8 col-end-12 max-w-[400px] mt-10 pr-10" id="showInfo">
         <div id="new" class="text-[16px] font-mono">
+<<<<<<< HEAD
         <input type="text" id="search" onkeyup="searchFunction()" placeholder="Search...." class="border border-white mb-4 bg-transparent w-[360px] text-gray-400 py-3 px-4 rounded-[20px]"/>
         <ul id="listItemsLocation" class="list text-white mb-4 bg-transparent w-[360px] py-3 px-4"></ul>
+=======
+        <input type="text" name="search" placeholder="Search" class="border border-white mb-4 bg-transparent w-[360px] text-white py-3 px-4 rounded-[15px]"/>
+>>>>>>> main
           <p class="border border-white py-3 px-4 rounded-[15px]">Name: ${point.name}</p>
           <div class="border border-white py-3 px-4 rounded-[15px] mt-4">
             <p > <span class="font-bold" >Type: </span> ${point.total.type}</p>

@@ -66,7 +66,7 @@ function showInfo(point) {
                                 <div
                                     class=" border-2 py-2 px-4 border-gray-300   hover:bg-gray-500  hover:bg-opacity-30       hover:text-white cursor-pointer mx-3 rounded-lg text-sm font-mono font-semibold"
                                      onclick="handleClickTourisom()" id="tourismBtn">
-                                    Tourisom</div>
+                                    Tourism</div>
                                 <div
                                     class=" border-2 py-2 px-4 border-gray-300   hover:bg-gray-500  hover:bg-opacity-30       hover:text-white cursor-pointer rounded-lg text-sm font-mono font-semibold"
                                      onclick="handleClickMaps()" id="mapBtn">
@@ -92,9 +92,9 @@ function showInfo(point) {
                             <a href="../../maps/roverMap/roverMap.html">Rover Map</a>
                           </li>
                           </li>
-                          <li class="my-5 ml-3">
+                          <li class="px-4 py-2 w-[340px]   hover:bg-gray-500  hover:bg-opacity-30   rounded-lg    hover:text-white cursor-pointer border border-white mx-3 my-2">
                             <a href="../../Rover/middle.html"
-                              class="py-[10px] pl-[10px] pr-[295px] rounded-lg   hover:bg-gray-500  hover:bg-opacity-30       hover:text-white cursor-pointer border border-white">Rover</a>
+                              >Rover</a>
                           </li>
                           <li
                             class="px-4 py-2 rounded-lg w-[340px]   hover:bg-gray-500  hover:bg-opacity-30       hover:text-white cursor-pointer border border-white mx-3 my-2">
