@@ -23,7 +23,6 @@ distance from one point to another=> Khakek
 replace maps with the existing ones
 
 pagination to next page
-search functionality
 add a button for all images
 Code a helicopter game for kids
 
@@ -49,7 +48,8 @@ For Sabbir:
 fix readme
 
 
-weather add => https://mars.nasa.gov/rss/api/?feed=weather&category=mars2020&feedtype=json
+weather add
+Perseverance => https://mars.nasa.gov/rss/api/?feed=weather&category=mars2020&feedtype=json
 curiosity => https://mars.nasa.gov/rss/api/?feed=weather&category=msl&feedtype=json
 
 
