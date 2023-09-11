@@ -8,11 +8,17 @@
     <link href="https://cdn.jsdelivr.net/npm/daisyui@3.5.1/dist/full.css" rel="stylesheet" type="text/css" />
 </head>
 
-<body>
-    <div id="details"></div>
-    <!-- <div class="bg-white w-2 h-20 mx-auto "></div> -->
+<body class="font-mono text-white" >
+    <div class="box-info  mx-[200px]  mt-[30px] rounded-md px-10" style="background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0,0, 0.5)),url('../../../images/mars_rover_perseverance.jpg');
+background-repeat: no-repeat;
+background-position: contain;
+height: 80vh;
+">
+        <div id="details"></div>
 
-    <div id="weatherContainer" class="flex gap-2 justify-center"></div>
+        <div id="weatherContainer" class="flex gap-2 justify-center"></div>
+
+    </div>
 
     <script>
         fetch(`https://mars.nasa.gov/rss/api/?feed=weather&category=mars2020&feedtype=json`)
@@ -28,19 +34,20 @@
             const detailsContainer = document.getElementById('details');
             detailsContainer.innerHTML = "";
             let div = document.createElement("div");
-            div.innerHTML = `<div class="text-center">${weather.season}</div>
-            <div class="text-center">Gale Creter</div>
-            <div class="flex border border-gray-300 p-5">
-                <div>
-                   <p><span>Sol </span>${weather.sol}</p>
+            div.innerHTML = `<div class="text-center font-bold text-4xl pt-[70px]">Gale Creter</div>
+            <div class="text-center font-bold text-3xl ">${weather.season}</div>
+            
+            <div class="flex items-center justify-center p-5">
+                <div class=''>
+                   <p><span>Sol: </span>${weather.sol}</p>
                    <p><span>Date: </span>${weather.terrestrial_date}</p>
                </div>
-               <div class="bg-white w-[3px] h-[full] mx-auto "></div>
+               <div class="bg-white w-[3px] h-[100px] my-5 mx-auto "></div>
                <div>
                    <p><span>High: </span>${weather.min_temp}</p>
                    <p><span>Low: </span>${weather.max_temp}</p>
                </div>
-               <div class="bg-white w-[3px] h-[full] mx-auto "></div>
+               <div class="bg-white w-[3px] h-[100px] my-5 mx-auto "></div>
                <div>
                    <p><span>Sunrise: </span>${weather.sunrise}</p>
                    <p><span>Sunset: </span>${weather.sunset}</p>

@@ -1,0 +1,81 @@
+{
+    "sols": [
+        {
+            "terrestrial_date": "2023-09-02",
+            "sol": "902",
+            "ls": "113.375",
+            "season": "early summer",
+            "min_temp": -74.1,
+            "max_temp": -16.3,
+            "pressure": 648.3,
+            "sunrise": "05:05:18",
+            "sunset": "18:10:58"
+        },
+        {
+            "terrestrial_date": "2023-09-04",
+            "sol": "903",
+            "ls": "113.848",
+            "season": "early summer",
+            "min_temp": -74.8,
+            "max_temp": -18.4,
+            "pressure": 647.7,
+            "sunrise": "05:05:18",
+            "sunset": "18:10:42"
+        },
+        {
+            "terrestrial_date": "2023-09-05",
+            "sol": "904",
+            "ls": "114.322",
+            "season": "early summer",
+            "min_temp": -74,
+            "max_temp": -18.1,
+            "pressure": 646.6,
+            "sunrise": "05:05:19",
+            "sunset": "18:10:25"
+        },
+        {
+            "terrestrial_date": "2023-09-06",
+            "sol": "905",
+            "ls": "114.796",
+            "season": "early summer",
+            "min_temp": -74.4,
+            "max_temp": -13,
+            "pressure": 646.1,
+            "sunrise": "05:05:19",
+            "sunset": "18:10:08"
+        },
+        {
+            "terrestrial_date": "2023-09-07",
+            "sol": "906",
+            "ls": "115.27",
+            "season": "early summer",
+            "min_temp": -74.7,
+            "max_temp": -15.6,
+            "pressure": 645.1,
+            "sunrise": "05:05:20",
+            "sunset": "18:09:51"
+        },
+        {
+            "terrestrial_date": "2023-09-08",
+            "sol": "907",
+            "ls": "115.746",
+            "season": "early summer",
+            "min_temp": -74.3,
+            "max_temp": -13,
+            "pressure": 644,
+            "sunrise": "05:05:21",
+            "sunset": "18:09:33"
+        },
+        {
+            "terrestrial_date": "2023-09-09",
+            "sol": "908",
+            "ls": "116.221",
+            "season": "early summer",
+            "min_temp": -74.6,
+            "max_temp": -15.3,
+            "pressure": 644,
+            "sunrise": "05:05:22",
+            "sunset": "18:09:16"
+        }
+    ]
+}
