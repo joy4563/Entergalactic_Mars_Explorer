@@ -3,27 +3,15 @@ MARS FIXES:
 Khalek
 gameloop button slider
 shader with button
-text parallel
-Overlap
-Map rotate button (gameloop)
-distance from one point to another
-max zoom limit
 replace the maps location icon with others
 
 
 Ashik
 gameloop button slider=> Khalek
 Add button to add shade => Khalek
-text parallel => Khalek
-Overlap => Khalek
-Map rotate button (gameloop) => Khalek
-max zoom limit => Khalek
 replace the maps location icon with others => Khalek
-distance from one point to another=> Khakek
 replace maps with the existing ones
 
-pagination to next page
-add a button for all images
 Code a helicopter game for kids
 
 
@@ -35,11 +23,12 @@ fix rover middle page hover effect
 rover page theme, Home button
 camera dropdown size equal to camera dropdown size
 Enter sol number submit button small
+negetive sol number fix
 other map Ui fix, button size, font size
 User can search negetive sol
 
 {
-    Future: inside the manifest list, there is a list of available camera, if the camera is listed, user can select from drop down menu.
+    Future: inside the manifest list, there is a list of available camera, if the camera is listed, user can select from drop down menu. otherwise cameras are blocked
 
 
 replace the page number with following information
@@ -65,9 +54,9 @@ Perseverance: https://api.nasa.gov/mars-photos/api/v1/manifests/perseverance?api
 
 
 Rukhsana
-Weather Apiimplementation
+Weather Api implementation
 By pressing any picture the picture will open in a new tab
-BG white 
+BG white
 
 
 For Sabbir:
@@ -77,10 +66,3 @@ fix readme
 weather add
 Perseverance => https://mars.nasa.gov/rss/api/?feed=weather&category=mars2020&feedtype=json
 curiosity => https://mars.nasa.gov/rss/api/?feed=weather&category=msl&feedtype=json
-
-
-Navigation data:
-https://mars.nasa.gov/mmgis-maps/M20/Layers/json/M20_traverse.json
-https://mars.nasa.gov/mmgis-maps/M20/Layers/json/M20_waypoints.json
-
-
