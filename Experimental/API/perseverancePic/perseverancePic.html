@@ -1,322 +1,274 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="UTF-8" />
-        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        <title>Perseverance</title>
-        <script src="https://cdn.tailwindcss.com"></script>
-        <link
-            href="https://cdn.jsdelivr.net/npm/daisyui@3.5.1/dist/full.css"
-            rel="stylesheet"
-            type="text/css"
-        />
-        <style></style>
-    </head>
 
-    <body class="font-mono">
-        <div class="flex justify-between items-center">
-            <div class="flex">
-                <a
-                    href="../../../index.html"
-                    class="btn hover:bg-orange-600 bg-transparent text-black border border-gray-500 h-[60px] text-center w-[150px] rounded-lg flex pt-1 ml-5 pl-5 mt-5"
-                    >Home</a
-                >
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Perseverance</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@3.5.1/dist/full.css" rel="stylesheet" type="text/css" />
+    <style></style>
+</head>
 
-                <div class="relative group">
-                    <button
-                        class="h-[60px] text-center w-[250px] rounded-lg flex justify-between pt-4 pl-5 mt-5 ml-3"
-                        style="background-color: orange; color: white"
-                        id="cameraDropDown"
-                        data-dropdown-toggle="dropdown"
-                        type="button"
-                    >
-                        <span id="button">Camera</span>
-                        <svg
-                            class="w-2.5 h-6.5 mr-3 mt-2.5"
-                            aria-hidden="true"
-                            xmlns="http://www.w3.org/2000/svg"
-                            fill="none"
-                            viewBox="0 0 10 6"
-                        >
-                            <path
-                                stroke="currentColor"
-                                stroke-linecap="round"
-                                stroke-linejoin="round"
-                                stroke-width="2"
-                                d="m1 1 4 4 4-4"
-                            />
-                        </svg>
-                    </button>
-                    <ul
-                        class="hidden absolute left-0 mt-2 space-y-2 bg-white border border-gray-200 py-2 rounded w-[250px] ml-4"
-                    >
-                        <li onclick="getCamera('all')">
-                            <a
-                                href="#"
-                                class="block px-4 py-2 hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white"
-                            >
-                                All <span id="ALL"></span></a
-                            >
-                        </li>
-                        <li onclick="getCamera('EDL_RUCAM')">
-                            <a
-                                href="#"
-                                class="block px-4 py-2 hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white"
-                            >
-                                EDL_RUCAM <span id="EDL_RUCAM"></span></a
-                            >
-                        </li>
-                        <li onclick="getCamera('EDL_DDCAM')">
-                            <a
-                                href="#"
-                                class="block px-4 py-2 hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white"
-                                >EDL_DDCAM <span id="EDL_DDCAM"></span></a
-                            >
-                        </li>
-                        <li onclick="getCamera('EDL_PUCAM1')">
-                            <a
-                                href="#"
-                                class="block px-4 py-2 hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white"
-                                >EDL_PUCAM1 <span id="EDL_PUCAM1"></span></a
-                            >
-                        </li>
-                        <li onclick="getCamera('EDL_PUCAM2')">
-                            <a
-                                href="#"
-                                class="block px-4 py-2 hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white"
-                                >EDL_PUCAM2 <span id="EDL_PUCAM2"></span></a
-                            >
-                        </li>
-                        <li onclick="getCamera('NAVCAM_LEFT')">
-                            <a
-                                href="#"
-                                class="block px-4 py-2 hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white"
-                                >NAVCAM_LEFT <span id="NAVCAM_LEFT"></span></a
-                            >
-                        </li>
-                        <li onclick="getCamera('NAVCAM_RIGHT')">
-                            <a
-                                href="#"
-                                class="block px-4 py-2 hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white"
-                                >NAVCAM_RIGHT <span id="NAVCAM_RIGHT"></span></a
-                            >
-                        </li>
-                        <li onclick="getCamera('MCZ_RIGHT')">
-                            <a
-                                href="#"
-                                class="block px-4 py-2 hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white"
-                                >MCZ_RIGHT <span id="MCZ_RIGHT"></span></a
-                            >
-                        </li>
-                        <li onclick="getCamera('MCZ_LEFT')">
-                            <a
-                                href="#"
-                                class="block px-4 py-2 hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white"
-                                >MCZ_LEFT <span id="MCZ_LEFT"></span></a
-                            >
-                        </li>
-                        <li onclick="getCamera('FRONT_HAZCAM_LEFT_A')">
-                            <a
-                                href="#"
-                                class="block px-4 py-2 hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white"
-                                >FRONT_HAZCAM_LEFT_A <span id="FRONT_HAZCAM_LEFT_A"></span></a
-                            >
-                        </li>
-                        <li onclick="getCamera('FRONT_HAZCAM_RIGHT_A')">
-                            <a
-                                href="#"
-                                class="block px-4 py-2 hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white"
-                                >FRONT_HAZCAM_RIGHT_A <span id="FRONT_HAZCAM_RIGHT_A"></span></a
-                            >
-                        </li>
+<body class="font-mono">
+    <div class="flex justify-between items-center">
+        <div class="flex">
+            <a href="../../../index.html"
+                class="btn hover:bg-orange-400 bg-white text-black border border-gray-500 h-[50px] text-center w-[150px] rounded-lg flex pt-1 ml-5 pl-5 mt-5">Home</a>
 
-                        <li onclick="getCamera('REAR_HAZCAM_LEFT')">
-                            <a
-                                href="#"
-                                class="block px-4 py-2 hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white"
-                                >REAR_HAZCAM_LEFT <span id="REAR_HAZCAM_LEFT"></span></a
-                            >
-                        </li>
-
-                        <li onclick="getCamera('REAR_HAZCAM_RIGHT')">
-                            <a
-                                href="#"
-                                class="block px-4 py-2 hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white"
-                                >REAR_HAZCAM_RIGHT <span id="REAR_HAZCAM_RIGHT"></span></a
-                            >
-                        </li>
-                        <li onclick="getCamera('EDL_RDCAM')">
-                            <a
-                                href="#"
-                                class="block px-4 py-2 hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white"
-                                >EDL_RDCAM <span id="EDL_RDCAM"></span></a
-                            >
-                        </li>
-                        <li onclick="getCamera('SKYCAM')">
-                            <a
-                                href="#"
-                                class="block px-4 py-2 hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white"
-                                >SKYCAM <span id="SKYCAM"></span></a
-                            >
-                        </li>
-                        <li onclick="getCamera('SHERLOC_WATSON')">
-                            <a
-                                href="#"
-                                class="block px-4 py-2 hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white"
-                                >SHERLOC_WATSON <span id="SHERLOC_WATSON"></span></a
-                            >
-                        </li>
-                        <li onclick="getCamera('SUPERCAM_RMI')">
-                            <a
-                                href="#"
-                                class="block px-4 py-2 hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white"
-                                >SUPERCAM_RMI <span id="SUPERCAM_RMI"></span></a
-                            >
-                        </li>
-                        <li onclick="getCamera('LCAM')">
-                            <a
-                                href="#"
-                                class="block px-4 py-2 hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white"
-                                >LCAM <span id="LCAM"></span></a
-                            >
-                        </li>
-                    </ul>
-                </div>
-            </div>
-
-            <div class="flex mt-5">
-                <div
-                    id="ten"
-                    class="btn px-7 ml-1 rounded-lg bg-transparent text-black border border-gray-500"
-                >
-                    10
-                </div>
-                <div
-                    id="twenty"
-                    class="btn px-7 ml-1 rounded-lg bg-transparent text-black border border-gray-500"
-                >
-                    20
-                </div>
-                <div
-                    id="fifty"
-                    class="btn px-7 ml-1 rounded-lg bg-transparent text-black border border-gray-500"
-                >
-                    50
-                </div>
-            </div>
-            <div>
-                <input
-                    type="number"
-                    id="solInput"
-                    class="py-2 pl-2 bg-slate-600 rounded-md"
-                    placeholder="Enter Sol Number"
-                />
-                <button
-                    class="p-3 rounded-md bg-yellow-500 mr-6 text-white"
-                    type="submit"
-                    onclick="handleSubmit()"
-                >
-                    Submit
+            <div class="relative group">
+                <button class="h-[50px] text-center w-[250px] rounded-lg flex justify-between pt-4 pl-5 mt-5 ml-3"
+                    style="background-color: orange; color: white" id="cameraDropDown" data-dropdown-toggle="dropdown"
+                    type="button">
+                    <span id="button">Camera</span>
+                    <svg class="w-2.5 h-6.5 mr-3 mt-2.5" aria-hidden="true" xmlns="http://www.w3.org/2000/svg"
+                        fill="none" viewBox="0 0 10 6">
+                        <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                            d="m1 1 4 4 4-4" />
+                    </svg>
                 </button>
+                <ul
+                    class="hidden absolute left-0 mt-2 space-y-2 bg-transparent bg-white border border-gray-200  rounded w-[250px] ml-4">
+                    <li onclick="getCamera('all')" class="border border-gray-300 rounded">
+                        <a href="#"
+                            class="flex justify-between px-4 py-2 hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white">
+                            All <span id="ALL">0</span></a>
+                    </li>
+                    <li onclick="getCamera('EDL_RUCAM')" class="border border-gray-300 rounded">
+                        <a href="#"
+                            class="flex justify-between px-4 py-2 hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white">
+                            EDL_RUCAM <span id="EDL_RUCAM">0</span></a>
+                    </li>
+                    <li onclick="getCamera('EDL_DDCAM')" class="border border-gray-300 rounded">
+                        <a href="#"
+                            class="flex justify-between px-4 py-2 hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white">EDL_DDCAM
+                            <span id="EDL_DDCAM">0</span></a>
+                    </li>
+                    <li onclick="getCamera('EDL_PUCAM1')" class="border border-gray-300 rounded">
+                        <a href="#"
+                            class="flex justify-between px-4 py-2 hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white">EDL_PUCAM1
+                            <span id="EDL_PUCAM1">0</span></a>
+                    </li>
+                    <li onclick="getCamera('EDL_PUCAM2')" class="border border-gray-300 rounded">
+                        <a href="#"
+                            class="flex justify-between px-4 py-2 hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white">EDL_PUCAM2
+                            <span id="EDL_PUCAM2">0</span></a>
+                    </li>
+                    <li onclick="getCamera('NAVCAM_LEFT')" class="border border-gray-300 rounded">
+                        <a href="#"
+                            class="flex justify-between px-4 py-2 hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white">NAVCAM_LEFT
+                            <span id="NAVCAM_LEFT">0</span></a>
+                    </li>
+                    <li onclick="getCamera('NAVCAM_RIGHT')" class="border border-gray-300 rounded">
+                        <a href="#"
+                            class="flex justify-between px-4 py-2 hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white">NAVCAM_RIGHT
+                            <span id="NAVCAM_RIGHT">0</span></a>
+                    </li>
+                    <li onclick="getCamera('MCZ_RIGHT')" class="border border-gray-300 rounded">
+                        <a href="#"
+                            class="flex justify-between px-4 py-2 hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white">MCZ_RIGHT
+                            <span id="MCZ_RIGHT">0</span></a>
+                    </li>
+                    <li onclick="getCamera('MCZ_LEFT')" class="border border-gray-300 rounded">
+                        <a href="#"
+                            class="flex justify-between px-4 py-2 hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white">MCZ_LEFT
+                            <span id="MCZ_LEFT">0</span></a>
+                    </li>
+                    <li onclick="getCamera('FRONT_HAZCAM_LEFT_A')" class="border border-gray-300 rounded">
+                        <a href="#"
+                            class="flex justify-between px-4 py-2 hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white">FRONT_HAZCAM_LEFT_A
+                            <span id="FRONT_HAZCAM_LEFT_A">0</span></a>
+                    </li>
+                    <li onclick="getCamera('FRONT_HAZCAM_RIGHT_A')" class="border border-gray-300 rounded">
+                        <a href="#"
+                            class="flex justify-between px-4 py-2 hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white">FRONT_HAZCAM_RIGHT_A
+                            <span id="FRONT_HAZCAM_RIGHT_A">0</span></a>
+                    </li>
+
+                    <li onclick="getCamera('REAR_HAZCAM_LEFT')" class="border border-gray-300 rounded">
+                        <a href="#"
+                            class="flex justify-between px-4 py-2 hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white">REAR_HAZCAM_LEFT
+                            <span id="REAR_HAZCAM_LEFT">0</span></a>
+                    </li>
+
+                    <li onclick="getCamera('REAR_HAZCAM_RIGHT')" class="border border-gray-300 rounded">
+                        <a href="#"
+                            class="flex justify-between px-4 py-2 hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white">REAR_HAZCAM_RIGHT
+                            <span id="REAR_HAZCAM_RIGHT">0</span></a>
+                    </li>
+                    <li onclick="getCamera('EDL_RDCAM')" class="border border-gray-300 rounded">
+                        <a href="#"
+                            class="flex justify-between px-4 py-2 hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white">EDL_RDCAM
+                            <span id="EDL_RDCAM">0</span></a>
+                    </li>
+                    <li onclick="getCamera('SKYCAM')" class="border border-gray-300 rounded">
+                        <a href="#"
+                            class="flex justify-between px-4 py-2 hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white">SKYCAM
+                            <span id="SKYCAM">0</span></a>
+                    </li>
+                    <li onclick="getCamera('SHERLOC_WATSON')" class="border border-gray-300 rounded">
+                        <a href="#"
+                            class="flex justify-between px-4 py-2 hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white">SHERLOC_WATSON
+                            <span id="SHERLOC_WATSON">0</span></a>
+                    </li>
+                    <li onclick="getCamera('SUPERCAM_RMI')" class="border border-gray-300 rounded">
+                        <a href="#"
+                            class="flex justify-between px-4 py-2 hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white">SUPERCAM_RMI
+                            <span id="SUPERCAM_RMI">0</span></a>
+                    </li>
+                    <li onclick="getCamera('LCAM')" class="border border-gray-300 rounded">
+                        <a href="#"
+                            class="flex justify-between px-4 py-2 hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white">LCAM
+                            <span id="LCAM">0</span></a>
+                    </li>
+                </ul>
             </div>
         </div>
-        <!-- Dropdown menu -->
 
-        <div id="imgContainer" class="grid grid-cols-4"></div>
-        <script>
-            let solNumber = 1;
-            const dropdownButton = document.querySelector(".group");
-            const dropdownList = document.querySelector("ul");
+        <div class="flex mt-5">
+            <div id="ten" class="btn px-7 ml-1 rounded-lg bg-transparent text-black border border-gray-500">
+                10
+            </div>
+            <div id="twenty" class="btn px-7 ml-1 rounded-lg bg-transparent text-black border border-gray-500">
+                20
+            </div>
+            <div id="fifty" class="btn px-7 ml-1 rounded-lg bg-transparent text-black border border-gray-500">
+                50
+            </div>
+        </div>
+        <div>
+            <input type="number" id="solInput" min="0" class="py-2 pl-2 border border-gray-600 rounded-md w-[250px]"
+                placeholder="Jump to Sol Max(3444)" />
+            <button class="p-3 rounded-md bg-yellow-500 mr-6 text-white" type="submit" onclick="handleSubmit()">
+                Submit
+            </button>
+        </div>
+    </div>
+    <!-- Dropdown menu -->
 
-            dropdownButton.addEventListener("click", () => {
-                dropdownList.classList.toggle("hidden");
+    <div id="imgContainer" class="grid grid-cols-4"></div>
+    <script>
+        let solNumber = 1;
+        const dropdownButton = document.querySelector(".group");
+        const dropdownList = document.querySelector("ul");
+
+        dropdownButton.addEventListener("click", () => {
+            dropdownList.classList.toggle("hidden");
+        });
+
+        const dropdownItems = dropdownList.querySelectorAll("li");
+        let button = document.getElementById("button");
+
+        dropdownItems.forEach((item) => {
+            item.addEventListener("click", (e) => {
+                e.preventDefault();
+                const selectedItemText = item.textContent;
+                button.innerHTML = selectedItemText;
+                // console.log(button.innerHTML);
+                //  dropdownList.classList.add("hidden");
             });
+        });
 
-            const dropdownItems = dropdownList.querySelectorAll("li");
-            let button = document.getElementById("button");
+        // Close the dropdown if clicked outside
+        document.addEventListener("click", (e) => {
+            if (
+                !dropdownButton.contains(e.target) &&
+                !dropdownList.contains(e.target)
+            ) {
+                dropdownList.classList.add("hidden");
+            }
+        });
+        //click camera
+        function getCamera(value) {
+            // You can now use the 'value' parameter in your function.
+            let camera = value;
+            fetch(
+                `https://mars-photos.herokuapp.com/api/v1/rovers/perseverance/photos?sol=${solNumber}`
+            )
+                .then((response) => response.json())
+                .then((data) => showImage(data, camera));
+        }
+        getCamera("all");
 
-            dropdownItems.forEach((item) => {
-                item.addEventListener("click", (e) => {
-                    e.preventDefault();
-                    const selectedItemText = item.textContent;
-                    button.innerHTML = selectedItemText;
-                    // console.log(button.innerHTML);
-                    //  dropdownList.classList.add("hidden");
-                });
-            });
 
-            // Close the dropdown if clicked outside
-            document.addEventListener("click", (e) => {
-                if (
-                    !dropdownButton.contains(e.target) &&
-                    !dropdownList.contains(e.target)
-                ) {
-                    dropdownList.classList.add("hidden");
+        function showImageNumer(data) {
+            const allPhotos = data.photos;
+            document.getElementById("ALL").textContent = allPhotos.length;
+            // console.log(allPhotos);
+            const photoCounts = {};
+
+            // Iterate through the data array and count city occurrences
+            allPhotos.forEach(item => {
+                const camera = item.camera.name;
+                if (photoCounts[camera]) {
+                    photoCounts[camera] += 1;
+                } else {
+                    photoCounts[camera] = 1;
                 }
             });
-            //click camera
-            function getCamera(value) {
-                // You can now use the 'value' parameter in your function.
-                let camera = value;
-                fetch(
-                    `https://mars-photos.herokuapp.com/api/v1/rovers/perseverance/photos?sol=${solNumber}`
-                )
-                    .then((response) => response.json())
-                    .then((data) => showImage(data, camera));
+            for (const photo in photoCounts) {
+                // console.log(photo);
+                const element = document.getElementById(photo); // Assumes your HTML elements have IDs matching the city names
+                if (element) {
+                    element.textContent = photoCounts[photo];
+                }
             }
-            getCamera("all");
+            // Log the city counts
+            // console.log(photoCounts);
 
-            //camera EDL_RUCAM, EDL_RDCAM, EDL_DDCAM, EDL_PUCAM1, EDL_PUCAM2, NAVCAM_LEFT, NAVCAM_RIGHT, MCZ_RIGHT, MCZ_LEFT, FRONT_HAZCAM_LEFT_A, FRONT_HAZCAM_RIGHT_A, REAR_HAZCAM_LEFT, REAR_HAZCAM_RIGHT, SKYCAM, SHERLOC_WATSON
 
-            //camera edl_rucam, edl_rdcam, edl_ddcam, edl_pucam1, edl_pucam2, navcam_left, navcam_right, mcz_right, mcz_left, front_hazcam_left_a, front_hazcam_right_a, rear_hazcam_left, rear_hazcam_right, skycam, sherloc_watson
+        }
 
-            function showImage(data, cameraName) {
-                // console.log(data);
-                const pictureID = document.getElementById("imgContainer");
-                pictureID.innerText = "";
-                const allData = data.photos;
-                // console.log(allData);
-                let remaining;
+        function showImage(data, cameraName) {
+            showImageNumer(data);
 
-                if (cameraName == "all") {
-                    remaining = allData;
-                } else {
-                    remaining = allData.filter(
-                        (single) => single.camera.name == cameraName
+            // console.log(data);
+            const pictureID = document.getElementById("imgContainer");
+            pictureID.innerText = "";
+            const allData = data.photos;
+            // console.log(allData);
+            let remaining;
+
+            if (cameraName == "all") {
+                remaining = allData;
+            } else {
+                remaining = allData.filter(
+                    (single) => single.camera.name == cameraName
+                );
+            }
+
+            // console.log(remaining);
+
+            if (remaining.length == 0) {
+                pictureID.innerHTML = `<p class=" text-4xl py-12 mx-auto">No photos Available.</p>`;
+            } else {
+                if (remaining.length > 50) {
+                    remaining = remaining.slice(0, 100);
+                }
+                remaining.map((single) => {
+                    const imgElement = document.createElement("img");
+                    imgElement.classList.add(
+                        "h-[300px]",
+                        "w-[400px]",
+                        "mt-5",
+                        "rounded-[15px]",
+                        "ml-5",
+                        "mr-5"
                     );
-                }
-
-                // console.log(remaining);
-
-                if (remaining.length == 0) {
-                    pictureID.innerHTML = `<p class=" text-4xl py-12 mx-auto">No photos Available.</p>`;
-                } else {
-                    if (remaining.length > 50) {
-                        remaining = remaining.slice(0, 100);
-                    }
-                    remaining.map((single) => {
-                        const imgElement = document.createElement("img");
-                        imgElement.classList.add(
-                            "h-[300px]",
-                            "w-[400px]",
-                            "mt-5",
-                            "rounded-[15px]",
-                            "ml-5",
-                            "mr-5"
-                        );
-                        imgElement.src = `${single.img_src}`;
-                        pictureID.appendChild(imgElement);
-                    });
-                }
+                    imgElement.src = `${single.img_src}`;
+                    pictureID.appendChild(imgElement);
+                });
             }
-            // console.log("outside", (solNumber));
+        }
+        // console.log("outside", (solNumber));
 
-            function handleSubmit() {
-                solNumber = parseInt(document.getElementById("solInput").value);
-                getCamera("all");
-                // console.log("inside", (solNumber));
-            }
+        function handleSubmit() {
+            solNumber = parseInt(document.getElementById("solInput").value);
+            getCamera("all");
+            // console.log("inside", (solNumber));
+        }
             // console.log("outside2", (solNumber));
-        </script>
-    </body>
+    </script>
+</body>
+
 </html>
