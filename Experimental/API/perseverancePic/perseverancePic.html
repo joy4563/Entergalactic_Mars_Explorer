@@ -253,10 +253,16 @@
                         "mt-5",
                         "rounded-[15px]",
                         "ml-5",
-                        "mr-5"
+                        "mr-5", "cursor-pointer"
                     );
+                    imgElement.setAttribute("id", `image-${single.id}`);
                     imgElement.src = `${single.img_src}`;
+                    imgElement.addEventListener('click', () => {
+                        const imageUrl = imgElement.getAttribute('src');
+                        window.open(`${single.img_src}`, '_blank');
+                    });
                     pictureID.appendChild(imgElement);
+
                 });
             }
         }
