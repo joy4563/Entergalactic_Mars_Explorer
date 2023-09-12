@@ -24,8 +24,11 @@ export class MyCanvas {
     //
     this._trackBallController = new TrackballControls(
       this._camera,
-      this._renderer.domElement
+      this._renderer.domElement,
+     
     );
+    this._trackBallController.minDistance = 3.5;
+    this._trackBallController.maxDistance = 10;
     //
   }
 
