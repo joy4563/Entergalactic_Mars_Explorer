@@ -208,14 +208,12 @@ function apiDataDemo(requiredLocation) {
         }
         showInfo(a);
 
-        // sphere.onMarkerClick(camera, (text) => {
-        //     const point = markedPoints.find(text);
-        //     if (point != null) {
-        //         if (point.name == requiredLocation) {
-        //             showInfo(point);
-        //         }
-        //     }
-        // });
+        sphere.onMarkerClick(camera, (text) => {
+            const point = markedPoints.find(text);
+            if (point != null) {
+                    showInfo(point);
+            }
+        });
     });
 
     dataFetcher.fetchData("../../data/most_interesting_places.json");
