@@ -72,17 +72,10 @@
             </div>
         </div>
 
-        <div class="flex mt-5">
-            <div id="ten" class="btn px-7 ml-1 rounded-lg bg-transparent text-black border border-gray-500">
-                10
-            </div>
-            <div id="twenty" class="btn px-7 ml-1 rounded-lg bg-transparent text-black border border-gray-500">
-                20
-            </div>
-            <div id="fifty" class="btn px-7 ml-1 rounded-lg bg-transparent text-black border border-gray-500">
-                50
-            </div>
+        <div class="flex mt-5 text-xl font-semibold">
+            You are currently at Sol :&nbsp; <span id="showSolNumber"></span>
         </div>
+
         <div>
             <input type="number" id="solInput" min="0" class="py-2 pl-2 border border-gray-600 rounded-md w-[250px]"
                 placeholder="Jump to Sol Max(3444)" />
@@ -95,7 +88,7 @@
 
 
     </div>
-    <div id="imgContainer" class="grid grid-cols-4"></div>
+    <div id="imgContainer" class="grid grid-cols-4 gap-2"></div>
     <script>
         let solNumber = 1;
 
@@ -144,6 +137,8 @@
         function showImageNumer(data) {
             const allPhotos = data.photos;
             document.getElementById("ALL").textContent = allPhotos.length;
+            document.getElementById("showSolNumber").textContent = solNumber;
+
             // console.log(allPhotos);
             const photoCounts = {};
 
@@ -202,10 +197,11 @@
                     imgElement.classList.add(
                         "h-[300px]",
                         "w-[400px]",
-                        "mt-5",
                         "rounded-[15px]",
-                        "ml-5",
-                        "mr-5", "cursor-pointer"
+                        "cursor-pointer",
+                        "mx-auto",
+                        "mt-4",
+                        "rounded-lg"
                     );
                     imgElement.setAttribute("id", `image-${single.id}`);
                     imgElement.src = `${single.img_src}`;
