@@ -100,9 +100,8 @@ Before you begin, ensure you have the following prerequisites installed:
 
 - **npm**
 - **git**
-- **node**
 
-Check if node has been installed
+Check if npm has been installed
 
     npm -i
 
@@ -129,12 +128,13 @@ or
 To run this project locally, simply type 
     
     cd Entergalactic_Mars_Explorer
-Install dependency
 
-    npm -i
 ### Run locally
     npx vite
-
+    
+### Only 2 commands let you run the project!
+    npm -i
+    npx vite
 
 That is all you need to do to emmers yourself into the martian environment. 
 
@@ -189,7 +189,7 @@ Fedora
 
 or
     
-    sudo dnf install ffmpeg
+    sudo yum install ffmpeg
 
 Bash command to compile into video
 
