@@ -104,7 +104,7 @@ Before you begin, ensure you have the following prerequisites installed:
 
 Check if node has been installed
 
-    node -v
+    npm -i
 
 ## Installation on a Linux Based distro<a name = "il"></a>
 
