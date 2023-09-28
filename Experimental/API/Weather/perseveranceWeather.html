@@ -1,41 +1,64 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Perseverance Weather</title>
     <script src="https://cdn.tailwindcss.com"></script>
     <link href="https://cdn.jsdelivr.net/npm/daisyui@3.5.1/dist/full.css" rel="stylesheet" type="text/css" />
 </head>
 
-<body class="font-mono text-white" >
-    <div class="box-info  mx-[200px]  mt-[30px] rounded-md px-10" style="background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0,0, 0.5)),url('../../../images/mars_rover_perseverance.jpg');
-background-repeat: no-repeat;
-background-position: contain;
-height: 80vh;
-">
-        <div id="details"></div>
+<body class="font-mono text-white bg-gray-600">
+    <div class="flex pt-6 mx-[150px]">
+        <a href="../../../index.html"><button
+                class="px-4 py-2 w-[100px] rounded-lg hover:bg-gray-500 hover:bg-opacity-30 hover:text-white cursor-pointer border border-white mx-3 my-2">
+                Home
+            </button></a>
+        <div class=" mx-auto">
+            <a href=""><button
+                    class="px-4 py-2 w-[400px] bg-yellow-600 rounded-lg  hover:bg-opacity-60 hover:text-white cursor-pointer border border-white mx-3 my-2">
+                    Perseverence
+                </button></a>
+            <a href="./curiosityWeather.html"><button
+                    class="px-4 py-2 w-[400px] rounded-lg  hover:bg-opacity-60 hover:text-white cursor-pointer border border-white mx-3 my-2">
+                    Curiosity
+                </button></a>
+        </div>
+    </div>
+    <div class="box-info mx-[150px] mt-[30px] rounded-md px-10" style="
+                background: linear-gradient(
+                        rgba(0, 0, 0, 0.3),
+                        rgba(0, 0, 0, 0.5)
+                    ),
+                    url('../../../images/mars_rover_perseverance.jpg');
+                background-repeat: no-repeat;
+                background-size: cover;
+                height: 80vh;
+            ">
+        <div id="details" class="px-52 font-bold text-2xl"></div>
 
-        <div id="weatherContainer" class="flex gap-2 justify-center"></div>
-
+        <div id="weatherContainer" class="flex gap-2 justify-center font-semibold"></div>
     </div>
 
     <script>
-        fetch(`https://mars.nasa.gov/rss/api/?feed=weather&category=mars2020&feedtype=json`)
+        fetch(
+            `https://mars.nasa.gov/rss/api/?feed=weather&category=mars2020&feedtype=json`
+        )
             .then((response) => response.json())
             .then((data) => {
                 showData(data);
             });
 
-
-
         function handleWeatherClick(weather) {
             // console.log(weather);
-            const detailsContainer = document.getElementById('details');
+            const detailsContainer = document.getElementById("details");
             detailsContainer.innerHTML = "";
             let div = document.createElement("div");
-            div.innerHTML = `<div class="text-center font-bold text-4xl pt-[70px]">Gale Creter</div>
-            <div class="text-center font-bold text-3xl ">${weather.season}</div>
+            div.classList.add("pt-5");
+            div.innerHTML = `
+            <div class="text-center font-bold text-5xl ">${weather.season}</div>
+            <p class="text-center font-bold text-2xl my-3">at</p>
+            <div class="text-center font-bold text-4xl">Jezero Crater</div>
             
             <div class="flex items-center justify-center p-5">
                 <div class=''>
@@ -55,20 +78,26 @@ height: 80vh;
             </div>`;
 
             detailsContainer.appendChild(div);
-
         }
 
         function showData(data) {
             // console.log(data.sols[0]);
             const perseverenceWeather = data.sols;
             handleWeatherClick(perseverenceWeather[0]);
-            const weatherContainer = document.getElementById('weatherContainer');
-            perseverenceWeather.map(weather => {
+            const weatherContainer =
+                document.getElementById("weatherContainer");
+            perseverenceWeather.map((weather) => {
                 // console.log(weather);
 
                 let singleWeather = document.createElement("div");
-                singleWeather.classList.add("border", "flex", "flex-col", "items-center", "border-gray-400", "p-5", "rounded-lg"
-
+                singleWeather.classList.add(
+                    "border",
+                    "flex",
+                    "flex-col",
+                    "items-center",
+                    "border-gray-400",
+                    "p-5",
+                    "rounded-lg", "cursor-pointer"
                 );
                 singleWeather.innerHTML = `<div><span>Sol: </span>${weather.sol}</div>
                 <div><span>Date: </span>${weather.terrestrial_date}</div>
@@ -76,16 +105,11 @@ height: 80vh;
                 <div><span>Pressure: </span>${weather.pressure}</div>
                 <div><span>Ls: </span>${weather.ls}</div>`;
 
-                singleWeather.addEventListener('click', () => {
+                singleWeather.addEventListener("click", () => {
                     handleWeatherClick(weather);
                 });
                 weatherContainer.appendChild(singleWeather);
-
-
-
-
             });
-
         }
     </script>
 </body>
