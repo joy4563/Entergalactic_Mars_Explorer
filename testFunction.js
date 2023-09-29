@@ -6,6 +6,7 @@ import { MySphere } from "./SphereMarker.js";
 import { MyCanvas } from "./MyCanvas";
 import { Colors } from "/Color";
 // import f from "./Experimental/API/curiosityPic/curiosityPic.html"
+
 let scene, camera, renderer;
 const canvas = new MyCanvas(window);
 
@@ -40,10 +41,8 @@ canvas.gameLoop(() => {
     // sphere.sphere.rotation.x -= 0.01;
     // sphere.sphere.rotation.y -= 0.01;
     // sphere.sphere.rotation.z += 0.001;
-    // 
+    //
 });
-
-
 
 const showInfo = (point) => {
     // console.log(point);
@@ -181,10 +180,7 @@ const showInfo = (point) => {
         </div>
       </div>
     `;
-}
-
-
-
+};
 
 function apiDataDemo() {
     const dataFetcher = new DataFetcher((data) => {
