@@ -20,53 +20,98 @@
   background-position: crop;
   height: 100vh;" class="flex flex-col  items-center pt-20">
     <div class="container mx-auto flex justify-between">
-        <a href="https://www.virgingalactic.com/">
-            <div class="border-solid border-2 border-gray-300  rounded-[25px] pt-5 text-center border-1 box-1 h-[450px] w-[300px] bg-transparent text-white text-[19px] font-mono">Virgin Galactic
+        <a href="https://www.virgingalactic.com/" target="_blank">
+            <div id="virginGalactic" class="border-solid border-2 border-gray-300  rounded-[25px] pt-5 text-center border-1 box-1 h-[450px] w-[300px] bg-transparent text-white text-[19px] font-mono ">Virgin Galactic
                 <div class="py-5 px-[10px]">
                     <img src="../images/virgin.png" alt="" class="w-[390px] rounded-lg" />
                 </div>
-
+                <div id="virginGalactic_booking" class="-mt-52 hidden">
+                    <a href="./bookingForm.html">
+                        <button class="btn bg-blue-500 text-black text-2xl">Booking</button>
+                    </a>
+                </div>
             </div>
-
         </a>
         <a href="https://www.blueorigin.com/">
-            <div class="border-solid border-2 border-gray-300  rounded-[25px] pt-5 text-center border-1 box-1 h-[450px] w-[300px] bg-transparent text-white text-[19px] font-mono">Blue Origin
+            <div id="blueOrigin" class="border-solid border-2 border-gray-300  rounded-[25px] pt-5 text-center border-1 box-1 h-[450px] w-[300px] bg-transparent text-white text-[19px] font-mono">Blue Origin
                 <div class="py-5 px-[10px]">
                     <img src="../images/blue.png" alt="" class="w-[390px] h-[370px] rounded-lg" />
                 </div>
-
+                <div id="blueOrigin_booking" class="-mt-52 hidden">
+                    <button class="btn bg-blue-500 text-black text-2xl">Booking</button>
+                </div>
             </div>
-
         </a>
         <a href="https://www.spacex.com/">
-            <div class="border-solid border-2 border-gray-300  rounded-[25px] pt-5 text-center border-1 box-1 h-[450px] w-[300px] bg-transparent text-white text-[19px] font-mono">SpaceX
+            <div id="spacex" class="border-solid border-2 border-gray-300  rounded-[25px] pt-5 text-center border-1 box-1 h-[450px] w-[300px] bg-transparent text-white text-[19px] font-mono">SpaceX
                 <div class="py-5 px-[10px]">
                     <img src="../images/spacex.png" alt="" class="h-[370px] w-[390px] rounded-lg" />
                 </div>
-
+                <div id="spacex_booking" class="-mt-52 hidden">
+                    <button class="btn bg-blue-500 text-black text-2xl">Booking</button>
+                </div>
             </div>
         </a>
         <a href="https://www.axiomspace.com/">
-            <div class="border-solid border-2 border-gray-300  rounded-[25px] pt-5 text-center border-1 box-1 h-[450px] w-[300px] bg-transparent text-white text-[19px] font-mono">Axiom
+            <div id="oxiam" class="border-solid border-2 border-gray-300  rounded-[25px] pt-5 text-center border-1 box-1 h-[450px] w-[300px] bg-transparent text-white text-[19px] font-mono">Axiom
                 <div class="py-5 px-[10px]">
                     <img src="../images/axiom.png" alt="" class="w-[390px] h-[370px] rounded-lg" />
                 </div>
-
+                <div id="oxiom_booking" class="-mt-52 hidden">
+                    <button class="btn bg-blue-500 text-black text-2xl">Booking</button>
+                </div>
             </div>
         </a>
         <a href="https://www.boeing.com/space/">
-            <div class="border-solid border-2 border-gray-300 mr-4 rounded-[25px] pt-5 text-center border-1 box-1 h-[450px] w-[300px] bg-transparent text-white text-[19px] font-mono">Boeing
+            <div id="boeing" class="border-solid border-2 border-gray-300 mr-4 rounded-[25px] pt-5 text-center border-1 box-1 h-[450px] w-[300px] bg-transparent text-white text-[19px] font-mono">Boeing
                 <div class="px-[10px] py-5 ">
                     <img src="../images/boeing.png" alt="" class="w-[390px] h-[370px] rounded-lg" />
                 </div>
-
+                <div id="boeing_booking" class="-mt-52 hidden">
+                    <button class="btn bg-blue-500 text-black text-2xl">Booking</button>
+                </div>
             </div>
         </a>
-
-
-
     </div>
-    <a href="../../../index.html" class="btn bg-transparent hover:bg-orange-500 text-white border-solid border-3 border-gray-200 h-[60px] text-center w-[150px] rounded-lg flex mt-8  pl-5">Home</a>
+    <a href="../../../index.html" class="btn bg-transparent hover:bg-orange-500 text-white border-solid border-3 border-gray-200 h-[60px] text-center w-[150px] rounded-lg flex mt-8  pl-5">Back to Home</a>
+    <script>
+        document.getElementById('virginGalactic').addEventListener('mouseover',()=>{
+            document.getElementById('virginGalactic_booking').classList.remove('hidden');
+        })
+        document.getElementById('virginGalactic').addEventListener('mouseout',()=> {
+            document.getElementById('virginGalactic_booking').classList.add('hidden');
+        })
+
+        document.getElementById('blueOrigin').addEventListener('mouseover', () => {
+            document.getElementById('blueOrigin_booking').classList.remove('hidden');
+        })
+        document.getElementById('blueOrigin').addEventListener('mouseout', () => {
+            document.getElementById('blueOrigin_booking').classList.add('hidden');
+        })
+
+        document.getElementById('spacex').addEventListener('mouseover', () => {
+            document.getElementById('spacex_booking').classList.remove('hidden');
+        })
+        document.getElementById('spacex').addEventListener('mouseout', () => {
+            document.getElementById('spacex_booking').classList.add('hidden');
+        })
+
+        document.getElementById('oxiam').addEventListener('mouseover', () => {
+            document.getElementById('oxiom_booking').classList.remove('hidden');
+        })
+        document.getElementById('oxiam').addEventListener('mouseout', () => {
+            document.getElementById('oxiom_booking').classList.add('hidden');
+        })
+
+        document.getElementById('boeing').addEventListener('mouseover', () => {
+            document.getElementById('boeing_booking').classList.remove('hidden');
+        })
+        document.getElementById('boeing').addEventListener('mouseout', () => {
+            document.getElementById('boeing_booking').classList.add('hidden');
+        })
+
+
+    </script>
 </body>
 
 </html>
