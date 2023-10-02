@@ -181,8 +181,6 @@ const showInfo = (point) => {
 }
 
 
-
-
 function apiDataDemo() {
     const dataFetcher = new DataFetcher((data) => {
         // console.log(data[0].coordinates.latitude);
