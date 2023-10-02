@@ -11,37 +11,79 @@
         
     </style>
 </head>
-<body>
-    <h4>Booking Form</h4>
-    <form>
-        <div>
-            <label for="name">name</label>
-            <input type="text" name="name" id="name" placeholder="Enter your name" required="1" />
+<body style="background: url('../images/RoverPic_BG.jpg');
+  background-repeat: no-repeat;
+  background-position: crop;
+  height: 100vh;"
+class="font-mono text-white">
+    <h4 class="text-4xl text-center py-[50px]">Booking Form</h4>
+    <div class="flex items-start justify-center pt-[50px]">
+        
+   <div class="border border-gray-500 rounded-lg px-[50px] py-[80px]">
+            <div>
+                <div class="my-5 flex">
+                    <div class="my-2">
+                        <label for="name" class=" text-xl">Name</label>
+                    </div>
+                    <div>
+                        <input type="text" name="name" id="name" placeholder="Enter your name" required="1"
+                            class=" rounded-md py-3 px-4 text-gray-700 border border-gray-700 ml-[90px]" />
+                    </div>
+                </div>
+                <div class="my-5 flex">
+                    <div class="my-2">
+                        <label for="email" class="w-[400px] text-xl">Email</label>
+                    </div>
+                    <div>
+                        <input type="text" name="email" id="email" placeholder="Enter your email" required="1"
+                            class=" rounded-md py-3 px-4 text-gray-700 border border-gray-700 ml-[80px]" />
+                    </div>
+                </div>
+            
+                <div class="my-5 flex">
+                    <div class="my-2">
+                        <label for="name" class="w-[400px] text-xl">Phone Number</label>
+                    </div>
+                    <div>
+                        <input type="text" name="code" id="code" placeholder="country code" required="1"
+                            class="rounded-md py-3 px-4 text-gray-700 border border-gray-700 ml-4 w-[150px]" />
+                        <input type="text" name="phone" id="phone" placeholder="Enter your phone number" required="1"
+                            class="rounded-md py-3 px-4 text-gray-700 border border-gray-700 ml-4" />
+                    </div>
+                </div>
+                <!-- <div class="my-5 flex">
+                    <div class="my-2">
+                        <label for="name" class="w-[400px] text-xl">Company Name</label>
+                    </div>
+                    <div>
+                        <input type="text" name="company" id="company" placeholder="" required="1"
+                            class="rounded-md py-3 px-4 text-gray-700 border border-gray-700 ml-4" />
+                    </div>
+                </div> -->
+                <div class="my-5 flex">
+                    <div class="my-2">
+                        <label for="name" class="w-[200px] text-xl" >Age</label>
+                    </div>
+                    <div>
+                        <input type="number" name="age" id="age" placeholder="Enter your age" required="1"
+                            class="rounded-md py-3 px-4 text-gray-700 border border-gray-700 ml-[103px]" />
+                    </div>
+                </div>
+                <div class="my-5 flex">
+                    <div class="my-2">
+                        <label for="name" class="w-[200px] text-xl">Bank Account</label>
+                    </div>
+                    <div>
+                        <input type="number" name="account" id="account" placeholder="Enter your account no" required="1"
+                            class="rounded-md py-3 px-4 text-gray-700 border border-gray-700 ml-[17px]" />
+                    </div>
+                </div>
+                <div class="pt-10 ">
+                    <button id="confirm" class="bg-indigo-300 text-white w-[270px] ml-[130px] btn">Confirm</button>
+                </div>
+            </div>
         </div>
-        <div>
-            <label for="name">Email</label>
-            <input type="text" name="email" id="email" placeholder="Enter your email" required="1" />
-        </div>
-        <div>
-            <label for="name">Phone Number</label>
-            <input type="text" name="email" id="email" placeholder="Enter your email" required="1" />
-        </div>
-        <div class="">
-            <input type="text" name="code" id="code" placeholder="country code" required="1" />
-            <input type="text" name="phone" id="phone" placeholder="Enter your phone number" required="1" />
-        </div>
-        <div>
-            <label for="name">Company Name</label>
-            <input type="text" name="company" id="company" placeholder="" required="1" />
-        </div>
-        <div>
-            <label for="name">Age</label>
-            <input type="number" name="age" id="age" placeholder="Enter your age" required="1" />
-        </div>
-        <div>
-            <label for="name">Bank Account</label>
-            <input type="number" name="account" id="account" placeholder="Enter your account no" required="1" />
-        </div>
-    </form>
+    </div>
+    <script src="./bookingForm.js"></script>
 </body>
 </html>
