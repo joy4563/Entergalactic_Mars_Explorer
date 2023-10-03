@@ -11,7 +11,7 @@ renderer = canvas.renderer;
 canvas.init(document);
 canvas.setBackgroundEXR("/BackgroundDemo/starmap_2020_4k.exr");
 
-const sphere = new MySphere(5, 320, 160,"../images/mars_4k_color.jpg");
+const sphere = new MySphere(3, 320, 160,"../images/mars_4k_color.jpg");
 scene.add(sphere.sphere);
 
 
