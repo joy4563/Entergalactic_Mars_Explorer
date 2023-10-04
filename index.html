@@ -17,22 +17,25 @@
         <nav>
             <div class="navbar bg-base-300">
                 <div class="flex-1">
-                    <a class="btn btn-ghost normal-case text-xl">Mars</a>
+                    <a class="btn btn-ghost normal-case text-xl mt-1">Mars</a>
                 </div>
                 <div class="flex-none">
                     <ul class="menu menu-horizontal px-1">
                         <a href="./tourisom/article/article.html"
-                            ><li class="mr-3">Article</li></a
+                            ><li class="mr-3 mt-2">Article</li></a
                         >
                         <a href="https://mars.nasa.gov/all-about-mars/facts/"
-                            ><li class="mr-3">Curious Fact</li></a
+                            ><li class="mr-3 mt-2">Curious Fact</li></a
                         >
                         <a href="./pictureOfTheDay/pictureOfTheDay.html"
-                            ><li class="mr-3">Picture of the day</li></a
+                            ><li class="mr-3 mt-2">Picture of the day</li></a
                         >
-                        <a href="./Login/Login.html"
-                            ><li class="mr-3 uppercase">Login</li></a
+                        <a href="./Login/Login.html" id="login"
+                            ><li class="mr-3 uppercase mt-2">Login</li></a
                         >
+                        <a href="./userProfile/userProfile.html">
+                          <img src="./images/sabbir.jpg" alt="" class="w-10 rounded-full">
+                        </a>
                     </ul>
                 </div>
             </div>
@@ -105,6 +108,7 @@
                         </ul>
                     </div>
                 </div>
+                 <!-- drawer -->
                 <div class="absolute right-0">
                     <div class="drawer drawer-end">
                         <input
@@ -117,7 +121,7 @@
                             <label
                                 for="my-drawer-4"
                                 class="drawer-button btn btn-primary min-h-screen"
-                                >Mars Location</label
+                                >Location</label
                             >
                         </div>
                         <div class="drawer-side">
@@ -126,21 +130,21 @@
                                 aria-label="close sidebar"
                                 class="drawer-overlay"
                             ></label>
-                            <div
+                            <div style="background-image: url('./images/Mars_roverPage_BG.jpg');"
                                 class="menu p-4 w-[60vw] min-h-full bg-green-200 text-base-content"
                             >
                                 <!-- Sidebar content here -->
 
                                 <ul
                                     id="locationList"
-                                    class="grid grid-cols-4"
+                                    class="grid grid-cols-3 gap-8"
                                 ></ul>
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
-            <!-- drawer -->
+           
         </section>
 
         <script>
@@ -160,16 +164,17 @@
                     let listItem = document.createElement("li");
                     listItem.classList.add(
                         "list-items",
-                        "px-4",
-                        "py-3",
                         "h-[20vh]",
-                        "m-2",
+                        "text-center",
                         "rounded-lg",
-                        "hover:",
+                        "text-4xl","font-bold","text-black",
+                        "items-center",
+                        "justify-center",
+                        "hover:-m-3",
                         "hover:"
                     );
                     listItem.style.cursor = "pointer";
-                    listItem.style.backgroundImage = `url(${i.photo1})`;
+                    listItem.style.backgroundImage = `url(${i.photo2})`;
                     listItem.innerHTML = i.name;
                     listItem.onclick = getClickedPosition;
                     document
