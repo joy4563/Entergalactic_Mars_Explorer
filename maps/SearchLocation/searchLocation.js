@@ -41,10 +41,8 @@ canvas.gameLoop(() => {
     // sphere.sphere.rotation.x -= 0.01;
     // sphere.sphere.rotation.y -= 0.01;
     // sphere.sphere.rotation.z += 0.001;
-    // 
+    //
 });
-
-
 
 const showInfo = (point) => {
     // console.log(point);
@@ -179,10 +177,7 @@ const showInfo = (point) => {
         </div>
       </div>
     `;
-}
-
-
-
+};
 
 function apiDataDemo(requiredLocation) {
     const dataFetcher = new DataFetcher((data) => {
@@ -212,7 +207,6 @@ function apiDataDemo(requiredLocation) {
                 }
             );
         }
-        
 
         sphere.onMarkerClick(camera, (text) => {
             const point = markedPoints.find(text);
