@@ -1,122 +1,154 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <script src="https://cdn.tailwindcss.com"></script>
-    <link
-      href="https://cdn.jsdelivr.net/npm/daisyui@3.8.3/dist/full.css"
-      rel="stylesheet"
-      type="text/css"
-    />
-    <title>Mars Planet</title>
-  </head>
-  <body>
-    <!-- navbar -->
-    <nav>
-      <div class="navbar bg-base-300">
-        <div class="flex-1">
-          <a class="btn btn-ghost normal-case text-xl">Mars</a>
-        </div>
-        <div class="flex-none">
-          <ul class="menu menu-horizontal px-1">
-            <a href="./tourisom/article/article.html"
-              ><li class="mr-3">Article</li></a
-            >
-            <a href="https://mars.nasa.gov/all-about-mars/facts/"
-              ><li class="mr-3">Curious Fact</li></a
-            >
-            <a href="./pictureOfTheDay/pictureOfTheDay.html"
-              ><li class="mr-3">Picture of the day</li></a
-            >
-            <a href="./Login/Login.html"
-              ><li class="mr-3 uppercase">Login</li></a
-            >
-          </ul>
-        </div>
-      </div>
-    </nav>
-
-    <!-- body -->
-    <section class="flex justify-between">
-      <div class="grid grid-cols-2">
-        <div class="grid grid-cols-3">
-          <div>
-            Maps
-            <ul>
-              <a href="./maps/originalMap/originalMap.html"
-                ><li>Original Map</li></a
-              >
-              <a href="./maps/TempMap/TempMap.html"><li>Temperature Map</li></a>
-              <a href="./maps/IceWaterMap/IceWater.html"><li>Water Ice</li></a>
-              <a href="./maps/TopographicalMap/TopographicalMap.html"
-                ><li>Topographical Map</li></a
-              >
-              <a href="./maps/TerrestrialPeaks/TerrestrialPeaks.html"
-                ><li>Terrestrial Peaks</li></a
-              >
-              <a href="./maps/Highlands/Highlands.html"><li>Highlands</li></a>
-              <a href="./maps/uniqueSurface/uniqueSurface.html"
-                ><li>unique Surface Textures</li></a
-              >
-              <a href="./maps/EnigmaticFeatures/EnigmaticFeatures.html"
-                ><li>Enigmatic Features</li></a
-              >
-            </ul>
-          </div>
-          <div>
-            Rover
-            <ul>
-              <a href="./maps/roverMap/roverMap.html"
-                ><li>Rover Locations</li></a
-              >
-              <a href="./Rover/middle.html"><li>Rover Picture</li></a>
-              <a href="./Ingenuity/Ingenuity.html"><li>Ingenuity</li></a>
-              <a href="./Orbiter/Orbiter.html"><li>Orbiter</li></a>
-            </ul>
-          </div>
-          <div>
-            Weather
-            <ul>
-              <a href="./Experimental/API/Weather/perseveranceWeather.html"
-                ><li>Perseverance</li></a
-              >
-              <a href="./Experimental/API/Weather/curiosityWeather.html"
-                ><li>Curiosity</li></a
-              >
-            </ul>
-          </div>
-        </div>
-        <div class="absolute right-0">
-          <div class="drawer drawer-end">
-            <input id="my-drawer-4" type="checkbox" class="drawer-toggle" />
-            <div class="drawer-content">
-              <!-- Page content here -->
-              <label for="my-drawer-4" class="drawer-button btn btn-primary min-h-screen">Mars Location</label>
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <script src="https://cdn.tailwindcss.com"></script>
+        <link
+            href="https://cdn.jsdelivr.net/npm/daisyui@3.8.3/dist/full.css"
+            rel="stylesheet"
+            type="text/css"
+        />
+        <title>Mars Planet</title>
+    </head>
+    <body>
+        <!-- navbar -->
+        <nav>
+            <div class="navbar bg-base-300">
+                <div class="flex-1">
+                    <a class="btn btn-ghost normal-case text-xl">Mars</a>
+                </div>
+                <div class="flex-none">
+                    <ul class="menu menu-horizontal px-1">
+                        <a href="./tourisom/article/article.html"
+                            ><li class="mr-3">Article</li></a
+                        >
+                        <a href="https://mars.nasa.gov/all-about-mars/facts/"
+                            ><li class="mr-3">Curious Fact</li></a
+                        >
+                        <a href="./pictureOfTheDay/pictureOfTheDay.html"
+                            ><li class="mr-3">Picture of the day</li></a
+                        >
+                        <a href="./Login/Login.html"
+                            ><li class="mr-3 uppercase">Login</li></a
+                        >
+                    </ul>
+                </div>
             </div>
-            <div class="drawer-side">
-              <label for="my-drawer-4" aria-label="close sidebar" class="drawer-overlay"></label>
-              <div class="menu p-4 w-[60vw] min-h-full bg-green-200 text-base-content">
-                <!-- Sidebar content here -->
-          
-                <ul id="locationList" class="grid grid-cols-3">
+        </nav>
 
-                </ul>
-              </div>
+        <!-- body -->
+        <section class="flex justify-between">
+            <div class="grid grid-cols-2">
+                <div class="grid grid-cols-3">
+                    <div>
+                        Maps
+                        <ul>
+                            <a href="./maps/originalMap/originalMap.html"
+                                ><li>Original Map</li></a
+                            >
+                            <a href="./maps/TempMap/TempMap.html"
+                                ><li>Temperature Map</li></a
+                            >
+                            <a href="./maps/IceWaterMap/IceWater.html"
+                                ><li>Water Ice</li></a
+                            >
+                            <a
+                                href="./maps/TopographicalMap/TopographicalMap.html"
+                                ><li>Topographical Map</li></a
+                            >
+                            <a
+                                href="./maps/TerrestrialPeaks/TerrestrialPeaks.html"
+                                ><li>Terrestrial Peaks</li></a
+                            >
+                            <a href="./maps/Highlands/Highlands.html"
+                                ><li>Highlands</li></a
+                            >
+                            <a href="./maps/uniqueSurface/uniqueSurface.html"
+                                ><li>unique Surface Textures</li></a
+                            >
+                            <a
+                                href="./maps/EnigmaticFeatures/EnigmaticFeatures.html"
+                                ><li>Enigmatic Features</li></a
+                            >
+                        </ul>
+                    </div>
+                    <div>
+                        Rover
+                        <ul>
+                            <a href="./maps/roverMap/roverMap.html"
+                                ><li>Rover Locations</li></a
+                            >
+                            <a href="./Rover/middle.html"
+                                ><li>Rover Picture</li></a
+                            >
+                            <a href="./Ingenuity/Ingenuity.html"
+                                ><li>Ingenuity</li></a
+                            >
+                            <a href="./Orbiter/Orbiter.html"
+                                ><li>Orbiter</li></a
+                            >
+                        </ul>
+                    </div>
+                    <div>
+                        Weather
+                        <ul>
+                            <a
+                                href="./Experimental/API/Weather/perseveranceWeather.html"
+                                ><li>Perseverance</li></a
+                            >
+                            <a
+                                href="./Experimental/API/Weather/curiosityWeather.html"
+                                ><li>Curiosity</li></a
+                            >
+                        </ul>
+                    </div>
+                </div>
+                <div class="absolute right-0">
+                    <div class="drawer drawer-end">
+                        <input
+                            id="my-drawer-4"
+                            type="checkbox"
+                            class="drawer-toggle"
+                        />
+                        <div class="drawer-content">
+                            <!-- Page content here -->
+                            <label
+                                for="my-drawer-4"
+                                class="drawer-button btn btn-primary min-h-screen"
+                                >Mars Location</label
+                            >
+                        </div>
+                        <div class="drawer-side">
+                            <label
+                                for="my-drawer-4"
+                                aria-label="close sidebar"
+                                class="drawer-overlay"
+                            ></label>
+                            <div
+                                class="menu p-4 w-[60vw] min-h-full bg-green-200 text-base-content"
+                            >
+                                <!-- Sidebar content here -->
+
+                                <ul
+                                    id="locationList"
+                                    class="grid grid-cols-4"
+                                ></ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </div>
-          </div>
-        </div>
-      </div>
-      <!-- drawer -->
-      
-    </section>
+            <!-- drawer -->
+        </section>
 
-    <script>
-      fetch("./data/most_interesting_places.json")
-        .then((res) => res.json())
-        .then((data) => locationName(data));
+        <script>
+            fetch("./data/most_interesting_places.json")
+                .then((res) => res.json())
+                .then((data) => locationName(data));
 
+<<<<<<< HEAD
       function locationName(data) {
         let location = [];
         for (let j = 0; j < data.length; j++) {
@@ -141,4 +173,44 @@
       }
     </script>
   </body>
+=======
+            function locationName(data) {
+                // console.log(data[0].photo1);
+                let location = [];
+                for (let j = 0; j < data.length; j++) {
+                    location.push(data[j]);
+                }
+                // console.log(location);
+                for (let i of location) {
+                    // console.log(i.photo1
+                    let listItem = document.createElement("li");
+                    listItem.classList.add(
+                        "list-items",
+                        "px-4",
+                        "py-3",
+                        "h-[20vh]",
+                        "m-2",
+                        "rounded-lg",
+                        "hover:",
+                        "hover:"
+                    );
+                    listItem.style.cursor = "pointer";
+                    listItem.style.backgroundImage = `url(${i.photo1})`;
+                    listItem.innerHTML = i.name;
+                    listItem.onclick = getClickedPosition;
+                    document
+                        .getElementById("locationList")
+                        .appendChild(listItem);
+                }
+                function getClickedPosition(locationName) {
+                    console.log(locationName.target.innerHTML);
+                    let locationNameField = locationName.target.innerHTML;
+                    localStorage.setItem("location", locationNameField);
+                    window.location.href =
+                        "./maps/SearchLocation/searchLocation.html";
+                }
+            }
+        </script>
+    </body>
+>>>>>>> main
 </html>
