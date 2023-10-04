@@ -67,64 +67,18 @@ const showInfo = (point) => {
     // infoDiv.innerHTML = `IDdf: ${point.id}<br>Name: ${point.name}<br>Details: ${point.details}`;
 
     infoDiv.innerHTML = `
-      <div class="grid grid-cols-12 gap-6  mt-10 ml-10 mr-10 text-xs">
-        <div class="col-start-1 col-end-4">
+      <div class="grid grid-cols-12 gap-6  mt-10 ml-10 mr-10 text-xs leading-relaxed">
+        <div class="col-start-1 col-end-4 text-[18px] font-mono">
 
-          <!-- Dropdown content -->
-          <ul class="rounded-full shadow-md text-sm">
-            <li class="px-3 py-2   ">
-              <div class="flex font-mono">
-                <div
-                  class="font-mono  py-2 px-4     hover:bg-gray-500  hover:bg-opacity-30       hover:text-white cursor-pointer rounded-lg text-sm font-semibold"
-                  onclick="handleClickLocation()" id="locationBtn" style="background-color : orange; color : white">Location</div>
-
-                <div
-                  class="font-mono border-2  py-2 px-4  hover:bg-gray-500  hover:bg-opacity-30   hover:text-white cursor-pointer mx-3 rounded-lg text-sm font-semibold"
-                  onclick="handleClickTourisom()" id="tourismBtn">
-                  Tourism</div>
-                <div
-                  class=" border-2 py-2 px-4 border-gray-300   hover:bg-gray-500  hover:bg-opacity-30       hover:text-white cursor-pointer rounded-lg text-sm font-semibold"
-                  onclick="handleClickMaps()" id="mapBtn">
-                  Topography</div>
-              </div>
-            </li>
-            <ul id="onClickChangeContainer">
-              <li
-                class=" bg-gray-500  bg-opacity-50  px-4 py-2 w-[340px] rounded-lg   hover:bg-gray-500  hover:bg-opacity-30       hover:text-white cursor-pointer border border-white mx-3 my-2">
-                <a href="./index.html">Original Map</a>
-              </li>
-              <li class="px-4 py-2 w-[340px] rounded-lg   hover:bg-gray-500  hover:bg-opacity-30       hover:text-white cursor-pointer border border-white mx-3 my-2">
-                <a href="./maps/TempMap/TempMap.html">Temp Map</a>
-              </li>
-              <li class="px-4 py-2 w-[340px] rounded-lg   hover:bg-gray-500  hover:bg-opacity-30       hover:text-white cursor-pointer border border-white mx-3 my-2">
-                <a href="./maps/TopographicalMap/TopographicalMap.html">Topographical Map</a>
-              </li>
-              <li class="px-4 py-2 w-[340px] rounded-lg   hover:bg-gray-500  hover:bg-opacity-30       hover:text-white cursor-pointer border border-white mx-3 my-2">
-                <a href="./maps/IceWaterMap/IceWater.html">Water ICE</a>
-              </li>
-              <li class="px-4 py-2 w-[340px] rounded-lg   hover:bg-gray-500  hover:bg-opacity-30       hover:text-white cursor-pointer border border-white mx-3 my-2">
-                <a href="./maps/roverMap/roverMap.html">Rover Map</a>
-              </li>
-              </li>
-              <li class="px-4 py-2 w-[340px] rounded-lg   hover:bg-gray-500  hover:bg-opacity-30       hover:text-white cursor-pointer border border-white mx-3 my-2">
-                <a href="./Rover/middle.html"
-                  >Rover</a>
-              </li>
-              <li
-                class="px-4 py-2 rounded-lg w-[340px]   hover:bg-gray-500  hover:bg-opacity-30  hover:text-white cursor-pointer border border-white mx-3 my-2"> <a href="./Orbiter/Orbiter.html">Orbiter</a>
-                </li>
-              <li class="px-4 w-[340px] rounded-lg py-2   hover:bg-gray-500  hover:bg-opacity-30       hover:text-white cursor-pointer border border-white mx-3 my-2">
-                <a href="./Ingenuity/Ingenuity.html">Ingenuity</a>
-              </li>
-              <li class="px-4 w-[340px] rounded-lg py-2   hover:bg-gray-500  hover:bg-opacity-30       hover:text-white cursor-pointer border border-white mx-3 my-2">
-                <a href="./Experimental/API/Weather/perseveranceWeather.html">Weather Forecast</a>
-              </li>
-
-             
-             
-            </ul>
-          </ul>
-
+        <div class="border border-white py-3 px-4 rounded-[15px] mt-4">
+        <p > <span class="font-bold" >Type: </span> ${point.total.type}</p>
+        <p> <span class="font-bold" >Location: </span> ${point.total.location}</p>
+        <p> <span class="font-bold" > Lat: </span>${point.total.coordinatesForShow.latitude}</p>
+        <p> <span class="font-bold" >Lon:</span>  ${point.total.coordinatesForShow.longitude}</p>
+        <div id="detail" class=" h-[200px] mt-2  mb-3 overflow-y-scroll  custom-scrollbar text-justify">
+          <p> <span class="font-bold" >Details: </span> ${point.total.details}</p>
+        </div>
+      </div>
 
         </div>
         <div class="ml-[18vw] w-[400px] text-3xl text-center font-mono font-bold mt-5" id="pointName"> ${point.name}</div>
@@ -136,6 +90,7 @@ const showInfo = (point) => {
         <ul id="listItemsLocation" class="list hidden text-white mb-4 z-10 fixed bg-orange-400 rounded-[20px] w-[360px] py-3 px-4"></ul>
           <p class="border border-white py-3 px-4 rounded-[15px]">Name: ${point.name}</p>
           <a href="../../travel/travel.html"><button class="btn py-1 w-40">Book Now</button></a>
+          
           <div class="border border-white py-3 px-4 rounded-[15px] mt-4">
             <p > <span class="font-bold" >Type: </span> ${point.total.type}</p>
             <p> <span class="font-bold" >Location: </span> ${point.total.location}</p>
