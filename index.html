@@ -17,22 +17,25 @@
         <nav>
             <div class="navbar bg-base-300">
                 <div class="flex-1">
-                    <a class="btn btn-ghost normal-case text-xl">Mars</a>
+                    <a class="btn btn-ghost normal-case text-xl mt-1">Mars</a>
                 </div>
                 <div class="flex-none">
                     <ul class="menu menu-horizontal px-1">
                         <a href="./tourisom/article/article.html"
-                            ><li class="mr-3">Article</li></a
+                            ><li class="mr-3 mt-2">Article</li></a
                         >
                         <a href="https://mars.nasa.gov/all-about-mars/facts/"
-                            ><li class="mr-3">Curious Fact</li></a
+                            ><li class="mr-3 mt-2">Curious Fact</li></a
                         >
                         <a href="./pictureOfTheDay/pictureOfTheDay.html"
-                            ><li class="mr-3">Picture of the day</li></a
+                            ><li class="mr-3 mt-2">Picture of the day</li></a
                         >
-                        <a href="./Login/Login.html"
-                            ><li class="mr-3 uppercase">Login</li></a
+                        <a href="./Login/Login.html" id="login"
+                            ><li class="mr-3 uppercase mt-2">Login</li></a
                         >
+                        <a href="./userProfile/userProfile.html">
+                          <img src="./images/sabbir.jpg" alt="" class="w-10 rounded-full">
+                        </a>
                     </ul>
                 </div>
             </div>
@@ -149,6 +152,7 @@
                 .then((res) => res.json())
                 .then((data) => locationName(data));
 
+<<<<<<< HEAD
             function locationName(data) {
                 // console.log(data[0].photo1);
                 let location = [];
@@ -188,4 +192,31 @@
             }
         </script>
     </body>
+=======
+      function locationName(data) {
+        let location = [];
+        for (let j = 0; j < data.length; j++) {
+          location.push(data[j]);
+        }
+        console.log(location);
+        for (let i of location) {
+          let listItem = document.createElement("li");
+          listItem.classList.add("list-items");
+          listItem.classList.add("p-3");
+          listItem.style.cursor = "pointer";
+          listItem.innerHTML = i.name;
+          listItem.onclick = getClickedPosition;
+          document.getElementById("locationList").appendChild(listItem);
+        } 
+        function getClickedPosition(locationName) {
+          console.log(locationName.target.innerHTML);
+          let locationNameField = locationName.target.innerHTML;
+          localStorage.setItem("location", locationNameField);
+          window.location.href = "./maps/SearchLocation/searchLocation.html";
+        }
+      }
+    </script>
+    <script src="./index.js"></script>
+  </body>
+>>>>>>> main
 </html>
