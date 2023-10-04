@@ -72,6 +72,7 @@ export class MySphere {
             height: 0.01,
             curveSegments: 12,
             bevelEnabled: false,
+            
           });
 
           const textMaterial = new THREE.MeshBasicMaterial({ color: 0xffffff });
@@ -118,6 +119,6 @@ export class MySphere {
     var x = r * Math.sin(theta) * Math.cos(phi);
     var y = r * Math.sin(theta) * Math.sin(phi);
     var z = r * Math.cos(theta);
-    return new THREE.Vector3(x, y, z);
+    return new THREE.Vector3(x, y, z);  
   }
 }

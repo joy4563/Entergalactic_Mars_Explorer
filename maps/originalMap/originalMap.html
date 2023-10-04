@@ -193,7 +193,7 @@
                 searchInput.classList.add("text-white");
             }
             function loadData() {
-                fetch('./data/most_interesting_places.json')
+                fetch('../../data/most_interesting_places.json')
                     .then(res => res.json())
                     .then(data => {
                         setFilter(data);
@@ -221,7 +221,7 @@
                         // console.log("locationNameField", locationNameField);
                         // showInfo(locationNameField);
                         localStorage.setItem("location", locationNameField);
-                        window.location.href = "./maps/SearchLocation/searchLocation.html"
+                        window.location.href = "../SearchLocation/searchLocation.html"
                     };
                     b();
                 }
