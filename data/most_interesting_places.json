@@ -21,7 +21,7 @@
     },
 
     {
-        "id": 3,
+        "id": 2,
         "type": "Crater",
         "topographicalgroup": "TerrestrialPeaks",
         "name": "Hellas Planitia",
@@ -41,7 +41,7 @@
         "photo3": "https://i.ibb.co/yNqcKN1/maxresdefault.jpg"
     },
     {
-        "id": 4,
+        "id": 3,
         "type": "Crater",
         "name": "Argyre Planitia",
         "topographicalgroup": "TerrestrialPeaks",
@@ -182,25 +182,6 @@
         "photo3": "https://i.ibb.co/pRjSTFz/360px-MOLA-elysium-mons.jpg"
     },
     {
-        "id": 13,
-        "type": "Volcano",
-        "name": "Syrtis Major",
-        "topographicalgroup": "TerrestrialPeaks",
-        "location": "Syrtis Major Planum",
-        "details": "Syrtis Major Planum stands as a distinct \"dark spot,\" nestled at the border of Mars' northern lowlands and southern highlands. Positioned just west of the Isidis impact basin within the Syrtis Major quadrangle, it captivates with its unique features. Notably, it secures the status of the southern hemisphere's second-largest volcano on Mars, distinguished by its prominent summit caldera, a testament to the planet's fascinating geological history.",
-        "coordinates": {
-            "latitude": 8.4,
-            "longitude": 69.5
-        },
-        "coordinatesForShow": {
-            "latitude": "8.4°N",
-            "longitude": "69.5°E"
-        },
-        "photo1": "https://i.ibb.co/C8R3CWm/460px-Syrtis-Major-MC-13.jpg",
-        "photo2": "https://i.ibb.co/r65wdQW/600px-Syrtis-Isidis-zoom-64-pano.jpg",
-        "photo3": "https://i.ibb.co/T0b0CTK/472px-Nili-Meroe-paterae-THEMIS-day-IR-100m-v11.jpg"
-    },
-    {
         "id": 15,
         "type": "Plains",
         "name": "Amazonis Planitia",
@@ -318,49 +299,6 @@
         "photo3": "https://i.ibb.co/z2HWP4X/Wikilau.jpg"
     },
     {
-        "id": 21,
-        "type": "Highlands",
-        "name": "Terra Cimmeria",
-        "topographicalgroup": "Highlands",
-        "location": "Southern highland",
-        "details": "Terra Cimmeria, a distinctive terrain, graces Mars' rugged southern highlands, bearing the marks of time through its pocked surface. Renowned as the Spirit rover's landing site, this expanse weaves history and myth. Paying homage to an ancient Thracian seafaring people, the region's name echoes through time. Inspired by a land veiled in clouds and mist, Terra Cimmeria invites curiosity to unravel its tales.",
-        "coordinates": {
-            "latitude": 35.0,
-            "longitude": 215.0
-        },
-        "coordinatesForShow": {
-            "latitude": "35.0°S",
-            "longitude": "215.0°E"
-        },
-
-        "photo1": "https://i.ibb.co/j5KZSF3/600px-Wikiterracimmeriaboundaries.jpg",
-        "photo2": "https://i.ibb.co/FJpzwkH/Gully-in-Phaethontis.jpg",
-        "photo3": "    https://i.ibb.co/GkQwhq9/380px-2509gulliesclosenew.jpg"
-    },
- 
-
-    {
-        "id": 23,
-        "type": "Highlands",
-        "name": "North Polar Basin",
-        "topographicalgroup": "Highlands",
-        "location": "Northern hemisphere",
-        "details": "The North Polar Basin, encompassing a staggering 40% of Mars, stands as a prominent hallmark of the northern hemisphere. Known also as the Borealis Basin, this expansive feature emerges from the mists of time. Around 4.5 billion years ago, a monumental impact shaped it, possibly caused by a singular entity roughly 2% Mars' mass. Distinctive in shape and terrain, the basin's elliptical form and remarkable flatness draw the eye, carving a unique niche within the Solar System's wonders.",
-        "coordinates": {
-            "latitude": 67.0,
-            "longitude": 208.0
-        },
-        "coordinatesForShow": {
-            "latitude": "67.0°N",
-            "longitude": "208.0°E"
-        },
-
-        "photo1": "https://i.ibb.co/09M4pNR/Mars-Lomonosov-Crater-Winter.jpg",
-        "photo2": "https://i.ibb.co/W3SYfbY/Mars-topography-MOLA-dataset-with-poles-Hi-Res.jpg",
-        "photo3": "https://i.ibb.co/09M4pNR/Mars-Lomonosov-Crater-Winter.jpg"
-    },
-
-    {
         "id": 24,
         "type": "Highlands",
         "name": "Promethei Terra",
@@ -379,26 +317,6 @@
         "photo1": "https://i.ibb.co/nmmBgKj/ESP-020319flowsclose-up.jpg",
         "photo2": "https://i.ibb.co/HDfcQ0S/500px-Wikiterracimmeriaboundaries.jpg",
         "photo3": "https://i.ibb.co/sKj1wyb/500px-Wikimolasouthpole.jpg"
-    },
-
-    {
-        "id": 25,
-        "type": "Highlands",
-        "name": "Terra Sabaea",
-        "topographicalgroup": "Highlands",
-        "location": "2°N 42°E on Mars",
-        "details": "Terra Sabaea stretches across Mars, unfolding a vast expanse that spans a staggering 4,700 kilometers at its widest reach. This region embraces its identity, carrying the name of a prominent albedo feature on the Martian surface. Within its domain, Terra Sabaea crosses through multiple quadrangles, a testament to its breadth. Notably, this realm offers glimpses of Earth-like features — landscapes that mirror glaciers, revealing moraine-like formations left behind by receding ice. These glacier-esque structures, called viscous flow features (VFF), stand as echoes of dynamic processes that once shaped this Martian terrain.",
-        "coordinates": {
-            "latitude": 2.0,
-            "longitude": 318.0
-        },
-        "coordinatesForShow": {
-            "latitude": "2.0°N",
-            "longitude": "318.0°E"
-        },
-        "photo1": "https://i.ibb.co/mtGTSwW/600px-Wikiarabiaboundaries.jpg",
-        "photo2": "https://i.ibb.co/7yD3GzQ/380px-Wikielephantglacier.jpg",
-        "photo3": "https://i.ibb.co/JQyFCFc/234px-Glacier-as-seen-by-ctx.jpg"
     },
 
     {
@@ -440,48 +358,6 @@
         "photo1": "https://i.ibb.co/yXTQtGQ/380px-ESP-025771variousgullies.jpg",
         "photo2": "https://i.ibb.co/5FPNG9y/380px-ESP-025336channels.jpg",
         "photo3": "https://i.ibb.co/L0ch8MV/500px-Wikimolaamazonisarcadia.jpg"
-    },
-
-    {
-        "id": 28,
-        "type": "Highlands",
-        "name": "Tyrrhena Terra",
-        "topographicalgroup": "Highlands",
-        "location": "Southern hemisphere",
-        "details": "Tyrrhena Terra unfolds its majesty south of Mars' equator and northeast of the Hellas basin, spanning 2300 km at its broadest. Nestled within the Mare Tyrrhenum quadrangle, this region beckons explorers to its distinctive charm. A portrait of heavily cratered highlands and rugged landscapes, it embodies the essence of Martian terrae in the southern hemisphere. Notably, the landscape unveils significant formations like Tyrrhena Patera, a vestige of the ancient past, and captivating features like Herschel crater, Licus Vallis, and Ausonia Montes. The canvas tells tales of channels and dunes, imprinted vividly through captured images.",
-        "coordinates": {
-            "latitude": 15.0,
-            "longitude": 270.0
-        },
-        "coordinatesForShow": {
-            "latitude": "15.0°S",
-            "longitude": "270.0°E"
-        },
-
-        "photo1": "https://i.ibb.co/jZyCcpq/380px-Wikibriaultdunes.jpg",
-        "photo2": "https://i.ibb.co/HtHPQkC/380px-ESP-037844-1690dunes.jpg",
-        "photo3": "https://i.ibb.co/f8zPq98/380px-Wikiesp-035761-1520layers.jpg"
-    },
-
-    {
-        "id": 29,
-        "type": "Highlands",
-        "name": "Xanthe Terra",
-        "topographicalgroup": "Highlands",
-        "location": "North of the equator",
-        "details": "Xanthe Terra, poised near Mars' equator, stretches across approximately 1867.65 km, revealing its distinctive expanse. The name, signifying 'golden-yellow land,' mirrors its captivating terrain. Within the Lunae Palus, Coprates, Margaritifer Sinus, and Oxia Palus quadrangles, Xanthe Terra unfolds its treasures. Ravi Vallis, Aromatum Chaos, and myriad craters grace this realm, marking its signature. Captured through lenses like Mars Express, Mars Global Surveyor, and Mars Reconnaissance Orbiter, ancient river valleys and deltas are unveiled, draped in delicate layers. Evidencing thin deposits, Xanthe Terra hints at bygone precipitation in Mars' early days.",
-
-        "coordinates": {
-            "latitude": 3.0,
-            "longitude": 48.0
-        },
-        "coordinatesForShow": {
-            "latitude": "3.0°N",
-            "longitude": "48.0°E"
-        },
-
-        "photo1": "https://i.ibb.co/r2bzvvj/images.jpg",
-        "photo2": "https://i.ibb.co/SnT3gpN/Alluvial-Fans-in-Mojave-Crater.jpg",
-        "photo3": "https://i.ibb.co/CJsmkj6/380px-Wikiarabiaboundaries.jpg"
     }
+
 ]
