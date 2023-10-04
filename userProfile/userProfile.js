@@ -3,6 +3,7 @@ document.getElementById('logout').addEventListener('click', function () {
     if (user) {
         console.log(user);
         localStorage.removeItem('mars_user');
+        window.location.href = "../index.html";
     }
 })
 
