@@ -88,38 +88,28 @@
             </ul>
           </div>
         </div>
-        <div>
-          <!-- <ul id="locationList">
+        <div class="absolute right-0">
+          <div class="drawer drawer-end">
+            <input id="my-drawer-4" type="checkbox" class="drawer-toggle" />
+            <div class="drawer-content">
+              <!-- Page content here -->
+              <label for="my-drawer-4" class="drawer-button btn btn-primary min-h-screen">Mars Location</label>
+            </div>
+            <div class="drawer-side">
+              <label for="my-drawer-4" aria-label="close sidebar" class="drawer-overlay"></label>
+              <div class="menu p-4 w-[60vw] min-h-full bg-green-200 text-base-content">
+                <!-- Sidebar content here -->
+          
+                <ul id="locationList" class="grid grid-cols-3">
 
-          </ul> -->
-        </div>
-      </div>
-      <!-- drawer -->
-      <div class="drawer drawer-end">
-        <input id="my-drawer-4" type="checkbox" class="drawer-toggle" />
-        <div class="drawer-content">
-          <!-- Page content here -->
-          <label
-            for="my-drawer-4"
-            class="drawer-button btn btn-primary h-[100vh]"
-            >Drawer</label
-          >
-        </div>
-        <div class="drawer-side">
-          <label
-            for="my-drawer-4"
-            aria-label="close sidebar"
-            class="drawer-overlay"
-          ></label>
-          <div
-            class="menu p-4 w-[60vw] min-h-full bg-green-200 text-base-content"
-          >
-            <!-- Sidebar content here -->
-
-            <ul id="locationList" class="grid grid-cols-3"></ul>
+                </ul>
+              </div>
+            </div>
           </div>
         </div>
       </div>
+      <!-- drawer -->
+      
     </section>
 
     <script>
@@ -136,6 +126,7 @@
         for (let i of location) {
           let listItem = document.createElement("li");
           listItem.classList.add("list-items");
+          listItem.classList.add("p-3");
           listItem.style.cursor = "pointer";
           listItem.innerHTML = i.name;
           listItem.onclick = getClickedPosition;
