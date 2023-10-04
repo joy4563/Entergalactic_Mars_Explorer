@@ -121,25 +121,6 @@
         "photo2": "https://i.ibb.co/hRbhDDS/440px-Arsia-Mons-mosaic.jpg",
         "photo3": "https://i.ibb.co/my3b79F/Arsia-Mons-PIA02804.jpg"
     },
-    {
-        "id": 9,
-        "type": "Planitia",
-        "name": "Acidalia Planitia",
-        "topographicalgroup": "EnigmaticFeatures",
-        "location": "Northern hemisphere",
-        "details": "Acidalia Planitia graces Mars' canvas, a sprawling plain residing between the Tharsis volcanic expanse and the northern reaches of Arabia Terra. Proudly embracing its status as Mars' largest lowland expanse, Acidalia Planitia unfolds a captivating Martian terrain. Notably, it cradles the renowned Cydonia region, a famed contact point where it meets the intricately sculpted, heavily cratered highland terrain.",
-        "coordinates": {
-            "latitude": 49.76,
-            "longitude": 339.26
-        },
-        "coordinatesForShow": {
-            "latitude": "49.76°N",
-            "longitude": "339.26°E"
-        },
-        "photo1": "https://i.ibb.co/1nnwbYC/878px-Possible-mud-volcano-on-Acidalia-Planitia-by-Hi-RISE.jpg",
-        "photo2": "https://i.ibb.co/G7BGqGN/1280px-24951gullyclose.jpg",
-        "photo3": "https://i.ibb.co/1dVp5S3/520px-Acidalia-planitia-topo.jpg"
-    },
 
     {
         "id": 10,
@@ -218,26 +199,6 @@
         "photo1": "https://i.ibb.co/C8R3CWm/460px-Syrtis-Major-MC-13.jpg",
         "photo2": "https://i.ibb.co/r65wdQW/600px-Syrtis-Isidis-zoom-64-pano.jpg",
         "photo3": "https://i.ibb.co/T0b0CTK/472px-Nili-Meroe-paterae-THEMIS-day-IR-100m-v11.jpg"
-    },
-    {
-        "id": 14,
-        "type": "Dunes",
-        "name": "Olympia Undae",
-        "topographicalgroup": "UniqueSurfaceTextures",
-        "location": "Tharsis",
-        "details": "Olympia Undae paints a mesmerizing portrait — a vast \"sand sea\" or erg that gracefully embraces the northern polar plateau (Planum Boreum). Stretched from approximately 120° to 240°E longitude and 78° to 83°N latitude, this stunning expanse spans about 1,100 km (680 mi) across. Covering an expansive 470,000 km2, Olympia Undae boasts the distinction of Mars' most extensive continuous dune field, a testament to the Red Planet's captivating geological diversity.",
-        "coordinates": {
-            "latitude": 81.63,
-            "longitude": 169.65
-        },
-        "coordinatesForShow": {
-            "latitude": "81.63°N",
-            "longitude": "169.65°E"
-        },
-
-        "photo1": "https://i.ibb.co/52PRt1G/PIA24882-fig1.png",
-        "photo2": "https://i.ibb.co/180gc57/26259-PIA24882.jpg",
-        "photo3": "https://i.ibb.co/gMkwQs9/Olympia-Undae-Dunes-PIA06848.jpg"
     },
     {
         "id": 15,
