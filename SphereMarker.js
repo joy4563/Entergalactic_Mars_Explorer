@@ -75,7 +75,7 @@ export class MySphere {
             
           });
 
-          const textMaterial = new THREE.MeshBasicMaterial({ color: 0xffffff });
+          const textMaterial = new THREE.MeshBasicMaterial({ color: 0x000000 });
           const textMesh = new THREE.Mesh(textGeometry, textMaterial);
 
           textMesh.position.copy(position);
