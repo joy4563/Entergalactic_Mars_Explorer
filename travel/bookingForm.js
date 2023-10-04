@@ -15,11 +15,24 @@ function sendDataToDatabase(user_booking_info) {
     })
 }
 
+function loadData() {
+    let user = localStorage.getItem('mars_user');
+    fetch(`http://localhost:5000/userRegister/${user}`)
+        .then(res => res.json())
+        .then(data => getUserInfo(data));
+}
+
+function getUserInfo(data) {
+    document.getElementById('name').value = data.userName;
+    document.getElementById('email').value = data.userEmail;
+    document.getElementById('phone').value = data.userPhone;
+    document.getElementById('age').value = data.userAge;
+}
+
 
 document.getElementById('confirm').addEventListener('click', function () {
     let applicant_name = document.getElementById('name').value;
     let applicant_email = document.getElementById('email').value;
-    let countryCode = document.getElementById('code').value;
     let phoneNumber = document.getElementById('phone').value;
     let age = document.getElementById('age').value;
     let back_account_no = document.getElementById('account').value;
@@ -33,13 +46,16 @@ document.getElementById('confirm').addEventListener('click', function () {
         userName: applicant_name,
         userEmail: applicant_email,
         userAge: age,
-        phoneNumber: countryCode + phoneNumber,
+        phoneNumber: phoneNumber,
         companyName: company_name_value,
         userBankAccount: back_account_no,
-        launchingDate:company_tour_launching_date
+        launchingDate: company_tour_launching_date,
+        planet: "Mars"
     }
 
     console.log(user_booking_info);
     sendDataToDatabase(user_booking_info);
 })
+
+loadData()
 

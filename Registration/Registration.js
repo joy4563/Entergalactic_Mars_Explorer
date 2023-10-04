@@ -10,13 +10,14 @@ function sendDataToDatabase(userInfo) {
         .then(data => {
             if (data.insertedId) {
                 alert("Registration Successful");
+                localStorage.setItem("mars_user", userInfo.userEmail);
                 window.location.href = "../index.html";
         }
     })
 }
 
 
-document.getElementById('Login').addEventListener('click', function () {
+document.getElementById('register').addEventListener('click', function () {
     let user_name = document.getElementById('name').value;
     let user_phone = document.getElementById('phone').value;
     let user_email = document.getElementById('email').value;
@@ -33,6 +34,6 @@ document.getElementById('Login').addEventListener('click', function () {
         userPassword: user_password
     }
 
-    console.log(user_booking_info);
-    sendDataToDatabase(user_booking_info);
+    console.log(userInfo);
+    sendDataToDatabase(userInfo);
 })
