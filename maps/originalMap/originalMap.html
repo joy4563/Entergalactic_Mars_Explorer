@@ -9,7 +9,7 @@
     <!-- Include Alpine.js -->
     <script src="https://cdn.jsdelivr.net/npm/alpinejs@2.8.2/dist/alpine.min.js" defer></script>
     <title>Entergalactic Mars Explorer</title>
-    <title>Entergalactic Mars Explore</title>
+    <!-- <title>Entergalactic Mars Explore</title> -->
     <style>
         /* Custom scrollbar */
 
@@ -41,7 +41,7 @@
         <button class="btn absolute right-10 top-10 bg-black text-white">Booking Now</button>
     </a> -->
     <!-- <script type="module" src="./js/handleClick.js"></script> -->
-    <script type="module" src="../../SphereMarkerDemo.js"></script>
+    <script type="module" src="./originalMap.js"></script>
     <!-- <script type="module" src="/tourisom/article/article.html"></script> -->
     <!-- <script type="module" src="test/main.js"></script> -->
     <!-- <script type="module" src="BackgroundDemo/SceneBackgroundDemo.js"></script> -->
@@ -193,7 +193,7 @@
                 searchInput.classList.add("text-white");
             }
             function loadData() {
-                fetch('./data/most_interesting_places.json')
+                fetch('../../data/most_interesting_places.json')
                     .then(res => res.json())
                     .then(data => {
                         setFilter(data);
@@ -221,7 +221,7 @@
                         // console.log("locationNameField", locationNameField);
                         // showInfo(locationNameField);
                         localStorage.setItem("location", locationNameField);
-                        window.location.href = "./maps/SearchLocation/searchLocation.html"
+                        window.location.href = "../SearchLocation/searchLocation.html"
                     };
                     b();
                 }
