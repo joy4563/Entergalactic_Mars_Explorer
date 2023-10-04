@@ -19,26 +19,7 @@
         "photo2": "https://i.ibb.co/BrHfNsm/Olympus4.webp",
         "photo3": "https://i.ibb.co/mGnFPPd/Olympus1.jpg"
     },
-    {
-        "id": 2,
-        "type": "Canyon",
-        "name": "Valles Marineris",
-        "topographicalgroup": "UniqueSurfaceTextures",
-        "location": "Western hemisphere",
-        "details": "Valles Marineris, a captivating wonder, reigns as the Solar System's largest canyon. Carved on Mars, this colossal chasm stretches thousands of miles, plunging 4 miles deep. It lies along the equator, adorning the east side of Tharsis Bulge. Its grandeur encircles nearly a quarter of Mars' circumference.",
-        "coordinates": {
-            "latitude": -13.9,
-            "longitude": -59.2
-        },
-        "coordinatesForShow": {
-            "latitude": "13.9°S",
-            "longitude": "59.2°W"
-        },
 
-        "photo1": "https://i.ibb.co/r3BvqNS/1600px-016vallesmarineris.jpg",
-        "photo2": "https://i.ibb.co/F5f1PCY/Mars-Valles-Marineris.jpg",
-        "photo3": "https://i.ibb.co/fM6Tkcz/Valles-Marineris-NASA-World-Wind-map-Mars.jpg"
-    },
     {
         "id": 3,
         "type": "Crater",
@@ -119,26 +100,7 @@
         "photo2": "https://i.ibb.co/gSdgfnQ/Ascraeus-mons-topo.jpg",
         "photo3": "https://i.ibb.co/GkvgXJL/Ascraeus-Mons.png"
     },
-    {
-        "id": 7,
-        "type": "Mountain",
-        "name": "Pavonis Mons",
-        "topographicalgroup": "TerrestrialPeaks",
-        "location": "Tharsis",
-        "details": "Third-highest volcano on Mars. It is the middle member of a chain of three volcanic mountains collectively known as the Tharsis Montes. Pavonis Mons is the smallest of the Tharsis Montes volcanoes, measuring about 375 km across and standing 14 km above Mars' mean surface level. As a shield volcano, Pavonis Mons has an extremely low profile with flank slopes that average only 4°.",
-        "coordinates": {
-            "latitude": 1.48,
-            "longitude": 247.04
-        },
-        "coordinatesForShow": {
-            "latitude": "1.48°N",
-            "longitude": "247.04°E"
-        },
 
-        "photo1": "https://i.ibb.co/Xps3mYx/Pavoniscaldeira.jpg",
-        "photo2": "https://i.ibb.co/fGsCgPK/480px-Pavonis-Mons-THEMIS-day-IR-100m-v11-0-5.jpg",
-        "photo3": "https://i.ibb.co/W58zdmB/Pavonis-mons-topo.jpg"
-    },
     {
         "id": 8,
         "type": "Mountain",
@@ -414,26 +376,7 @@
         "photo2": "https://i.ibb.co/FJpzwkH/Gully-in-Phaethontis.jpg",
         "photo3": "    https://i.ibb.co/GkQwhq9/380px-2509gulliesclosenew.jpg"
     },
-    {
-        "id": 22,
-        "type": "Highlands",
-        "name": "Margaritifer Terra",
-        "topographicalgroup": "Highlands",
-        "location": "Near Martian equator",
-        "details": "Margaritifer Terra, a remarkable region, graces Mars near the equator, a canvas etched with enigmas. Its heavily cratered landscape unravels tales of 'chaos terrain,' revealing outflow channels and alluvial plains that whisper of ancient floods. Notably, Ares Vallis graces this realm, renowned for its historic landing and flood imprints. Holden and Eberswalde craters, laden with deltas and minerals, allude to ancient lakes, while Uzboi-Landon-Morava water paths bear witness to rapid groundwater outflows. Margaritifer Terra's history hints at Mars' thicker past atmosphere, beckoning us to explore its mysteries.",
-        "coordinates": {
-            "latitude": 5.0,
-            "longitude": 25.0
-        },
-        "coordinatesForShow": {
-            "latitude": "5.0°S",
-            "longitude": "25.0°E"
-        },
-
-        "photo1": "https://i.ibb.co/XDhwHmm/440px-Wikimolaargyre.jpg",
-        "photo2": "https://i.ibb.co/ZxwcKZ4/24807whitebuttei.jpg",
-        "photo3": "https://i.ibb.co/vmcWWFG/380px-26996layeredwhitebuttes.jpg"
-    },
+ 
 
     {
         "id": 23,
