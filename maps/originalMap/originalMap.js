@@ -1,16 +1,28 @@
 import * as THREE from "three";
 
 import { MarkedPoints, Point } from "../../data/LocalData";
+<<<<<<< HEAD
 import { DataFetcher } from "../../data/APIDataFetcher.js";
 import { MySphere } from "../../SphereMarker.js";
 import { MyCanvas } from "../../MyCanvas.js";
 import { Colors } from "../../Color.js";
 // import f from "./Experimental/API/curiosityPic/curiosityPic.html"
+=======
+import { DataFetcher } from "../../data/APIDataFetcher";
+import { MySphere } from "../../SphereMarker";
+import { MyCanvas } from "../../MyCanvas";
+import { Colors } from "../../Color";
+// import f from "../../travel/travel.html"
+>>>>>>> main
 let scene, camera, renderer;
 const canvas = new MyCanvas(window);
 
 scene = canvas.scene;
+<<<<<<< HEAD
 canvas.setBackgroundEXR("/BackgroundDemo/starmap_2020_4k.exr");
+=======
+canvas.setBackgroundEXR("../../BackgroundDemo/starmap_2020_4k.exr");
+>>>>>>> main
 camera = canvas.camera;
 renderer = canvas.renderer;
 canvas.init(document);
@@ -40,9 +52,17 @@ canvas.gameLoop(() => {
     // sphere.sphere.rotation.x -= 0.01;
     // sphere.sphere.rotation.y -= 0.01;
     // sphere.sphere.rotation.z += 0.001;
+<<<<<<< HEAD
     //
 });
 
+=======
+    // 
+});
+
+
+
+>>>>>>> main
 const showInfo = (point) => {
     // console.log(point);
     // console.log(point.total);
@@ -117,9 +137,12 @@ const showInfo = (point) => {
               <li class="px-4 w-[340px] rounded-lg py-2   hover:bg-gray-500  hover:bg-opacity-30       hover:text-white cursor-pointer border border-white mx-3 my-2">
                 <a href="./Experimental/API/Weather/perseveranceWeather.html">Weather Forecast</a>
               </li>
+<<<<<<< HEAD
               <li class="px-4 w-[340px] rounded-lg py-2   hover:bg-gray-500  hover:bg-opacity-30       hover:text-white cursor-pointer border border-white mx-3 my-2">
                 <a href="./test.html">Test</a>
               </li>
+=======
+>>>>>>> main
 
              
              
@@ -136,6 +159,10 @@ const showInfo = (point) => {
         <input type="text" id="search" onkeyup="searchFunction()" placeholder="Search...." class="border border-white mb-4 bg-transparent w-[360px] text-gray-400 py-3 px-4 rounded-[20px]"/>
         <ul id="listItemsLocation" class="list hidden text-white mb-4 z-10 fixed bg-orange-400 rounded-[20px] w-[360px] py-3 px-4"></ul>
           <p class="border border-white py-3 px-4 rounded-[15px]">Name: ${point.name}</p>
+<<<<<<< HEAD
+=======
+          <a href="../../travel/travel.html"><button class="btn py-1 w-40">Book Now</button></a>
+>>>>>>> main
           <div class="border border-white py-3 px-4 rounded-[15px] mt-4">
             <p > <span class="font-bold" >Type: </span> ${point.total.type}</p>
             <p> <span class="font-bold" >Location: </span> ${point.total.location}</p>
@@ -179,7 +206,12 @@ const showInfo = (point) => {
         </div>
       </div>
     `;
+<<<<<<< HEAD
 };
+=======
+}
+
+>>>>>>> main
 
 function apiDataDemo() {
     const dataFetcher = new DataFetcher((data) => {
