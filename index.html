@@ -134,83 +134,9 @@
         }
         function getClickedPosition(locationName) {
           console.log(locationName.target.innerHTML);
-<<<<<<< HEAD
-          searchInput.value = locationName.target.innerHTML;
-          let locationList = document.getElementById('listItemsLocation');
-          locationList.classList.add("hidden");
-          searchInput.classList.remove("text-gray-400");
-          searchInput.classList.add("text-black");
-
-
-        }
-        function loadData() {
-          fetch('./data/most_interesting_places.json')
-            .then(res => res.json())
-            .then(data => {
-              setFilter(data);
-            })
-        }
-        function removeElements(filter) {
-          if (filter == '') {
-            let locationList = document.getElementById('listItemsLocation');
-            locationList.classList.add("hidden");
-          }
-          else {
-            let locationList = document.getElementById('listItemsLocation');
-            locationList.classList.remove("hidden");
-            let items = document.querySelectorAll('.list-items');
-            items.forEach((item) => {
-              item.remove();
-            })
-          }
-        }
-        document.getElementById('search').addEventListener('keypress', function (e) {
-          if (e.key == 'Enter') {
-            let locationNameField = document.getElementById('search').value;
-
-            const b = () => {
-              // console.log("locationNameField", locationNameField);
-              // showInfo(locationNameField);
-              localStorage.setItem("location",locationNameField);
-              window.location.href="./maps/SearchLocation/searchLocation.html"
-            };
-            b();
-          }
-        })
-      }
-
-
-
-    function handleDayConversion() {
-      document.getElementById("pointName").style.display = "none";
-
-
-
-      const currentDate = new Date();
-      const currentYear = currentDate.getFullYear();
-      const dayOfYear = Math.floor(
-        (currentDate - new Date(currentYear, 0, 0)) / (24 * 60 * 60 * 1000)
-      );
-
-      // Function to get the ordinal indicator for a number
-      function getOrdinalIndicator(number) {
-        if (number >= 11 && number <= 13) {
-          return "th";
-        }
-        switch (number % 10) {
-          case 1:
-            return "st";
-          case 2:
-            return "nd";
-          case 3:
-            return "rd";
-          default:
-            return "th";
-=======
           let locationNameField = locationName.target.innerHTML;
           localStorage.setItem("location", locationNameField);
           window.location.href = "./maps/SearchLocation/searchLocation.html";
->>>>>>> newashik
         }
       }
     </script>
