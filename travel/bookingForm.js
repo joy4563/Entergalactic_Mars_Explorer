@@ -31,10 +31,6 @@ function getUserInfo(data) {
 
 
 document.getElementById('confirm').addEventListener('click', function () {
-    let user = localStorage.getItem('mars_user');
-    if (!user) {
-        window.location.href="../Login/Login.html"
-    }
     let applicant_name = document.getElementById('name').value;
     let applicant_email = document.getElementById('email').value;
     let phoneNumber = document.getElementById('phone').value;
@@ -61,6 +57,12 @@ document.getElementById('confirm').addEventListener('click', function () {
     console.log(user_booking_info);
     sendDataToDatabase(user_booking_info);
 })
+
+
+let user = localStorage.getItem('mars_user');
+if (!user) {
+    window.location.href="../Login/Login.html"
+}
 
 loadData()
 
