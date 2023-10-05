@@ -67,8 +67,8 @@ const showInfo = (point) => {
           </div>
         </div>
         </div>
-        <div class="ml-20">
-          <p class="border border-white py-3 z-10 px-4 rounded-[15px] text-white text-center">Name: ${point.name}</p>
+        <div class="ml-19">
+          <p class="text-3xl py-3 z-10 px-4 rounded-[15px] text-white text-center">${point.name}</p>
         </div>
         <div class="ml-16">
           <input type="text" id="search" onkeyup="searchFunction()" placeholder="Search...." class="border border-white mb-4 bg-transparent w-[25vw] text-gray-400 py-3 px-4 rounded-[20px]"/>
