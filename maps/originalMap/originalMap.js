@@ -39,11 +39,7 @@ apiDataDemo();
 canvas.gameLoop(() => {
     // sphere.sphere.rotation.x -= 0.01;
     // sphere.sphere.rotation.y -= 0.01;
-<<<<<<< HEAD
-    sphere.sphere.rotation.z -= 0.01;
-=======
     // sphere.sphere.rotation.z += 0.01;
->>>>>>> ab2758ed5d7a22d5d7ee4cc5fbebe9353430dc56
     // 
 });
 
