@@ -50,7 +50,6 @@ const showInfo = (point) => {
     // console.log(point.total);
     let infoDiv = document.getElementById("info");
     infoDiv.innerHTML = `
-<<<<<<< HEAD
       <div class="grid grid-cols-12 gap-6  mt-10 ml-10 mr-10 text-xs leading-relaxed">
         <div class="col-start-1 col-end-4 text-[18px] font-mono">
 
@@ -83,14 +82,6 @@ const showInfo = (point) => {
             <div id="detail" class=" h-[120px] mt-2  mb-3 overflow-y-scroll  custom-scrollbar text-justify">
               <p> <span class="font-bold" >Details: </span> ${point.total.details}</p>
             </div>
-=======
-      <div class="grid grid-cols-3 gap-32 mt-8">
-        <div> 
-          <div>
-            <p class="ml-10 mb-4 w-[22vw] btn bg-transparent text-white hover:bg-gray-500">
-              <a href="../../index.html">Back To Home</a>
-            </p>
->>>>>>> newashik
           </div>
           <div class="border border-white py-3 px-4 rounded-[15px] w-[22vw] text-white ml-10">
           <p > <span class="font-bold" >Type: </span> ${point.total.type}</p>
