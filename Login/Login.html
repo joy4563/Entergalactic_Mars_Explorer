@@ -17,22 +17,22 @@
                     <div class="card-body">
                         <div>
                             <div class='pb-8'>
-                                <input type="email" name="email" placeholder="Email"
+                                <input type="email" id="email" placeholder="Email"
                                     class="p-2 border-b-2 border-black bg-transparent w-full" />
                             </div>
                             <div class='pb-8'>
-                                <input type="password" name="password"
+                                <input type="password" id="password"
                                     placeholder="Password" class="p-2 border-b-2 border-black bg-transparent w-full" >
                             </div>
                             <div>
-                                <input type="submit" value="Login"
-                                    class='btn text-lg text-white bg-gradient-to-r from-purple-500 to-pink-500 w-full' />
+                                <button id="login_button"
+                                    class='btn btn-outline btn-warning mt-5 w-full border border-black text-black'><p class="text-black">Login</p></button>
                             </div>
                         </div>
-                        <div class='grid grid-cols-2 mt-5'>
-                            <p class='text-left text-lg text-black font-normal'>New to Mars?</p>
+                        <div class='grid grid-cols-2 mt-5 ml-10'>
+                            <p class='text-center text-lg text-black font-normal'>New to Mars?</p>
                             <a href="../Registration/Registration.html">
-                            <p class='text-right text-lg text-black font-normal link link-hover'>Go to Register</p>
+                            <p class='text-lg text-yellow-500 font-normal link link-hover ml-3'>Register</p>
                             </a>
                         </div>
                     </div>
@@ -40,5 +40,6 @@
             </div>
         </div>
     </div>
+    <script src="./Login.js"></script>
 </body>
 </html>

@@ -10,7 +10,7 @@ function sendDataToDatabase(user_booking_info) {
         .then(data => {
             if (data.insertedId) {
                 alert("Confirm Your Booking Successfully");
-                window.location.href = "./travel.html";
+                window.location.href = "../userProfile/userProfile.html";
         }
     })
 }
@@ -41,6 +41,7 @@ document.getElementById('confirm').addEventListener('click', function () {
     const company_info = urlParams.get('value').split(',');
     let company_name_value = company_info[0]
     let company_tour_launching_date = company_info[1];
+    let planet = company_info[2];
 
     const user_booking_info = {
         userName: applicant_name,
@@ -50,12 +51,18 @@ document.getElementById('confirm').addEventListener('click', function () {
         companyName: company_name_value,
         userBankAccount: back_account_no,
         launchingDate: company_tour_launching_date,
-        planet: "Mars"
+        planet: planet
     }
 
     console.log(user_booking_info);
     sendDataToDatabase(user_booking_info);
 })
+
+
+let user = localStorage.getItem('mars_user');
+if (!user) {
+    window.location.href="../Login/Login.html"
+}
 
 loadData()
 

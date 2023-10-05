@@ -5,7 +5,7 @@ import { DataFetcher } from "../../data/APIDataFetcher";
 import { MySphere } from "../../SphereMarker";
 import { MyCanvas } from "../../MyCanvas";
 import { Colors } from "../../Color";
-// import f from "../../travel/travel.html"
+// import f from "../../index.html"
 let scene, camera, renderer;
 const canvas = new MyCanvas(window);
 
@@ -39,34 +39,18 @@ apiDataDemo();
 canvas.gameLoop(() => {
     // sphere.sphere.rotation.x -= 0.01;
     // sphere.sphere.rotation.y -= 0.01;
-    // sphere.sphere.rotation.z += 0.001;
+    // sphere.sphere.rotation.z += 0.01;
     // 
 });
 
 
 
 const showInfo = (point) => {
-    // console.log(point);
+    console.log(point);
     // console.log(point.total);
     let infoDiv = document.getElementById("info");
-    let location = document.getElementById("locationBtn");
-    if (!infoDiv) {
-        infoDiv = document.createElement("div");
-        infoDiv.id = "info";
-        infoDiv.style.position = "absolute";
-        infoDiv.style.top = "10px";
-        infoDiv.style.display = "flex";
-        // infoDiv.style.alignItems = "center";
-        // infoDiv.style.justifyContent = "space-between";
-        infoDiv.style.left = "10px";
-        infoDiv.style.color = "white";
-        infoDiv.style.fontSize = "18px";
-        // infoDiv.innerHTML = "Click on a marker to see the details";
-        document.body.appendChild(infoDiv);
-    }
-    // infoDiv.innerHTML = `IDdf: ${point.id}<br>Name: ${point.name}<br>Details: ${point.details}`;
-
     infoDiv.innerHTML = `
+<<<<<<< HEAD
       <div class="grid grid-cols-12 gap-6  mt-10 ml-10 mr-10 text-xs leading-relaxed">
         <div class="col-start-1 col-end-4 text-[18px] font-mono">
 
@@ -99,40 +83,61 @@ const showInfo = (point) => {
             <div id="detail" class=" h-[120px] mt-2  mb-3 overflow-y-scroll  custom-scrollbar text-justify">
               <p> <span class="font-bold" >Details: </span> ${point.total.details}</p>
             </div>
+=======
+      <div class="grid grid-cols-3 gap-32 mt-8">
+        <div> 
+          <div>
+            <p class="ml-10 mb-4 w-[22vw] btn bg-transparent text-white hover:bg-gray-500">
+              <a href="../../index.html">Back To Home</a>
+            </p>
+>>>>>>> newashik
           </div>
-         
-          <div class="custom-scrollbar border flex w-[357px] -ml-[2px] border-white p-3       rounded-[15px] m-4 h-[200px] text-center py-3 overflow-x-scroll  custom-scrollbar">
-          <div class="carousel  w-[357px] rounded-lg">
-            <div id="slide1" class="carousel-item relative w-[330px]">
-              <img src="${point.total.photo1}" class="w-[380px] h-[180px] rounded-[15px]" />
-              <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
-                <a href="#slide3" class="btn btn-circle">❮</a>
-                <a href="#slide2" class="btn btn-circle">❯</a>
-              </div>
+          <div class="border border-white py-3 px-4 rounded-[15px] w-[22vw] text-white ml-10">
+          <p > <span class="font-bold" >Type: </span> ${point.total.type}</p>
+          <p class="mb-3"> <span class="font-bold" >Location: </span> ${point.total.location}</p>
+          <p> <span class="font-bold" > Lat: </span>${point.total.coordinatesForShow.latitude}</p>
+          <p> <span class="font-bold" >Lon:</span>  ${point.total.coordinatesForShow.longitude}</p>
+          <div id="detail" class=" h-[322px] mt-2  mb-3 overflow-y-scroll  custom-scrollbar text-justify">
+            <p> <span class="font-bold" >Details: </span> ${point.total.details}</p>
+          </div>
+        </div>
+        </div>
+        <div class="ml-19">
+          <p class="text-3xl py-3 z-10 px-4 rounded-[15px] text-white text-center">${point.name}</p>
+        </div>
+        <div class="ml-16">
+          <input type="text" id="search" onkeyup="searchFunction()" placeholder="Search...." class="border border-white mb-4 bg-transparent w-[25vw] text-gray-400 py-3 px-4 rounded-[20px]"/>
+          <ul id="listItemsLocation" class="list hidden text-white mb-4 z-10 fixed bg-orange-400 rounded-[20px] w-[25vw] py-3 px-4"></ul>
+          <div class="custom-scrollbar border flex -ml-[2px] border-white  p-3  rounded-[15px] h-[360px] w-[25vw] text-center py-3 overflow-x-scroll  custom-scrollbar mb-3 mt-3">
+            <div class="carousel rounded-lg">
+              <div id="slide1" class="carousel-item relative w-full h-[400px]">
+                <img src="${point.total.photo1}" class=" rounded-[15px] w-full" />
+                <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
+                  <a href="#slide3" class="btn btn-circle">❮</a>
+                  <a href="#slide2" class="btn btn-circle">❯</a>
+                </div>
             </div>
-            <div id="slide2" class="carousel-item relative w-[330px]">
-              <img src="${point.total.photo2}" class="w-[380px] h-[180px] rounded-[15px]" />
+            <div id="slide2" class="carousel-item relative w-full h-[400px]">
+              <img src="${point.total.photo2}" class=" rounded-[15px] w-full"/>
               <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
                 <a href="#slide1" class="btn btn-circle">❮</a>
                 <a href="#slide3" class="btn btn-circle">❯</a>
               </div>
             </div>
-            <div id="slide3" class="carousel-item relative w-[330px]">
-              <img src="${point.total.photo3}" class="w-[380px] h-[180px] rounded-[15px]" />
+            <div id="slide3" class="carousel-item relative w-full h-[400px]">
+              <img src="${point.total.photo3}" class=" rounded-[15px] w-full"/>
               <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
                 <a href="#slide2" class="btn btn-circle">❮</a>
                 <a href="#slide1" class="btn btn-circle">❯</a>
               </div>
             </div>
-
           </div>
-              </div>
-
-            </div>
-          </div>
-          <br>
-        </div>
       </div>
+      <a href="../../travel/travel.html">
+        <button class="btn btn-outline btn-warning mt-5 w-full border border-white">
+          <p class="text-white">Book Now</p>
+        </button>
+      </a>
     `;
 }
 
