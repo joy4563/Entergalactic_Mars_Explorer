@@ -39,7 +39,11 @@ apiDataDemo();
 canvas.gameLoop(() => {
     // sphere.sphere.rotation.x -= 0.01;
     // sphere.sphere.rotation.y -= 0.01;
+<<<<<<< HEAD
     sphere.sphere.rotation.z -= 0.01;
+=======
+    // sphere.sphere.rotation.z += 0.01;
+>>>>>>> ab2758ed5d7a22d5d7ee4cc5fbebe9353430dc56
     // 
 });
 
@@ -114,20 +118,20 @@ function apiDataDemo() {
         for (let user of data) {
             // console.log(user.description);
             markedPoints.add(user.id, user.name, user);
-            // sphere.addMarker(
-            //     user.name,
-            //     user.coordinates.latitude,
-            //     user.coordinates.longitude,
-            //     (matrix) => {
-            //         var geometry = new THREE.BoxGeometry(0.05, 0.05, 0.05);
-            //         var material = new THREE.MeshBasicMaterial({
-            //             color: Colors.RED,
-            //         });
-            //         var box = new THREE.Mesh(geometry, material);
-            //         box.applyMatrix4(matrix);
-            //         return box;
-            //     }
-            // );
+            sphere.addMarker(
+                user.name,
+                user.coordinates.latitude,
+                user.coordinates.longitude,
+                (matrix) => {
+                    var geometry = new THREE.BoxGeometry(0.05, 0.05, 0.05);
+                    var material = new THREE.MeshBasicMaterial({
+                        color: Colors.RED,
+                    });
+                    var box = new THREE.Mesh(geometry, material);
+                    box.applyMatrix4(matrix);
+                    return box;
+                }
+            );
         }
 
         sphere.onMarkerClick(camera, (text) => {
