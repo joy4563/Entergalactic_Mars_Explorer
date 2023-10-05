@@ -37,7 +37,7 @@ camera.position.z = 2;
 // markerPointDemo();
 apiDataDemo();
 canvas.gameLoop(() => {
-    // sphere.sphere.rotation.x -= 0.01;
+    sphere.sphere.rotation.x += 0.01;
     // sphere.sphere.rotation.y -= 0.01;
     // sphere.sphere.rotation.z += 0.001;
     // 
