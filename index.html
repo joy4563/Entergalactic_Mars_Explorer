@@ -11,8 +11,16 @@
       type="text/css"
     />
     <title>Mars Planet</title>
+    <style>
+      .mars_bg_image{
+        background-image: url('./images/mars_rotate.gif');
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        background-size: cover;
+      }
+    </style>
   </head>
-  <body style="background-image: url('./images/mars_rotate.webm');">
+  <body class="mars_bg_image h-[100vh]">
     <!-- navbar -->
     <nav>
       <div class="navbar bg-base-300">
@@ -22,16 +30,16 @@
         <div class="flex-none">
           <ul class="menu menu-horizontal px-1">
             <a href="./tourisom/article/article.html"
-              ><li class="mr-3 mt-2">Article</li></a
+              ><li class="mr-4 mt-2 text-xl">Article</li></a
             >
             <a href="https://mars.nasa.gov/all-about-mars/facts/"
-              ><li class="mr-3 mt-2">Curious Fact</li></a
+              ><li class="mr-4 mt-2 text-xl">Curious Fact</li></a
             >
             <a href="./pictureOfTheDay/pictureOfTheDay.html"
-              ><li class="mr-3 mt-2">Picture of the day</li></a
+              ><li class="mr-4 mt-2 text-xl">Picture of the day</li></a
             >
             <a href="./Login/Login.html" id="login"
-              ><li class="mr-3 uppercase mt-2">Login</li></a
+              ><li class="mr-4 uppercase mt-2 text-xl">Login</li></a
             >
             <a href="./userProfile/userProfile.html" id="profileImg" class="hidden">
               <img src="./images/sabbir.jpg" alt="" class="w-10 rounded-full" />
