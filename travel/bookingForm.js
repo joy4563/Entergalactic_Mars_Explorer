@@ -9,8 +9,14 @@ function sendDataToDatabase(user_booking_info) {
         .then(res => res.json())
         .then(data => {
             if (data.insertedId) {
-                alert("Confirm Your Booking Successfully");
-                window.location.href = "../userProfile/userProfile.html";
+                swal({
+                    title: "Confirm Your Booking",
+                    text: `Ready for going to Mars`,
+                    icon: "success",
+                    button: "OK",
+                }).then((value) => {
+                    window.location.href = "../userProfile/userProfile.html";
+                });
         }
     })
 }
@@ -23,6 +29,7 @@ function loadData() {
 }
 
 function getUserInfo(data) {
+    console.log(data);
     document.getElementById('name').value = data.userName;
     document.getElementById('email').value = data.userEmail;
     document.getElementById('phone').value = data.userPhone;

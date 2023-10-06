@@ -7,9 +7,15 @@ function loginToWebsite(loginInfo) {
             if (data.msg) {
                 alert(data.msg);
             } else if(data.userPassword==loginInfo.password){
-                alert("Successfully Login");
                 localStorage.setItem("mars_user", loginInfo.email);
-                window.location.href = '../index.html';
+                swal({
+                    title: "Successfully Login",
+                    text: `Welcome to Mars ${data.userName}`,
+                    icon: "success",
+                    button: "OK",
+                }).then((value) => {
+                    window.location.href = '../index.html';
+                });
             }
         });
 }

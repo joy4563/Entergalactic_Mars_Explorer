@@ -53,8 +53,11 @@
 
     <!-- header -->
     <header class="text-white">
-      <div class="mt-16 font-bold text-center text-6xl text-transparent bg-clip-text bg-gradient-to-r from-[#FFD181] to-[#FF9201] header_style">
-       <span>Beyond Earth: </span><span class="ml-5">Secure Your Martian Adventure Today!</span>
+      <div data-aos="zoom-in-down" data-aos-duration="1000">
+        <div
+          class="mt-16 font-bold text-center text-6xl text-transparent bg-clip-text bg-gradient-to-r from-[#FFD181] to-[#FF9201] header_style">
+          <span>Beyond Earth: </span><span class="ml-5">Secure Your Martian Adventure Today!</span>
+        </div>
       </div>
     </header>
 
@@ -64,11 +67,12 @@
         <div class="grid grid-cols-3 flex-grow text-center mt-[15vh]">
           <div class="flex flex-col items-center justify-center">
             <div class="relative inline-block group mb-32">
-              <button
-                class="text-transparent bg-clip-text bg-gradient-to-r from-[#FFD181] to-[#FF9201] font-bold text-3xl  h-20 w-80 rounded-2xl hover:bg-yellow-700 btn-outline btn border border-white"
-              >
-                Mars
-              </button>
+              <div data-aos="fade-right" data-aos-duration="2000">
+                <button
+                  class="text-transparent bg-clip-text bg-gradient-to-r from-[#FFD181] to-[#FF9201] font-bold text-3xl  h-20 w-80 rounded-2xl hover:bg-yellow-700 btn-outline btn border border-white">
+                  Mars
+                </button>
+              </div>
               <ul
                 class="absolute text-white hidden space-y-2 py-2 w-80 border border-gray-300 rounded-lg shadow-lg group-hover:block bg-gradient-to-r from-[#FFD181] to-[#FF9201] z-10"
               >
@@ -133,29 +137,29 @@
             <div data-aos="zoom-out-right" 
               data-aos-duration="2000"
               data-aos-easing="ease-in-sine">
-              <div
-                class="card w-96 bg-base-100 image-full object-cover duration-300 hover:scale-110 hover:opacity-60 hover:cursor-pointer">
-                <figure>
-                  <a href="http://localhost:5174/">
+              <a href="http://localhost:5174/">
+                <div
+                  class="card w-96 bg-base-100 image-full object-cover duration-300 hover:scale-110 hover:opacity-60 hover:cursor-pointer">
+                  <figure>
                     <img src="./images/marsFirstPersonView.gif" alt="" class="rounded-2xl" />
-                  </a>
-                </figure>
-                <div class="card-body">
-                  <h2
-                    class="card-title text-center ml-16 text-3xl mb-5 text-transparent bg-clip-text bg-gradient-to-r from-[#FFD181] to-[#FF9201]">
-                    Mars FPV</h2>
+                  </figure>
+                  <div class="card-body">
+                    <h2
+                      class="card-title text-center ml-16 text-3xl mb-5 text-transparent bg-clip-text bg-gradient-to-r from-[#FFD181] to-[#FF9201]">
+                      Mars FPV</h2>
+                  </div>
                 </div>
-              </div>
+              </a>
             </div>
           </div>
-
           <div>
             <div class="relative inline-block group">
-              <button
-                class="text-transparent bg-clip-text bg-gradient-to-r from-[#9a2f43] to-[#9a2f43] font-bold text-3xl h-20 w-80 rounded-2xl hover:bg-yellow-700 btn-outline btn border border-white"
-              >
-                Rover
-              </button>
+              <div data-aos="fade-down" data-aos-duration="2000">
+                <button
+                  class="text-transparent bg-clip-text bg-gradient-to-r from-[#9a2f43] to-[#9a2f43] font-bold text-3xl h-20 w-80 rounded-2xl hover:bg-yellow-700 btn-outline btn border border-white">
+                  Rover
+                </button>
+              </div>
               <ul
                 class="absolute hidden space-y-2 py-2 w-80 bg-white border border-gray-300 rounded-lg shadow-lg group-hover:block bg-gradient-to-r from-[#ffe1e8] to-[#ff4779]"
               >
@@ -192,11 +196,12 @@
           </div>
           <div class="flex flex-col items-center justify-center">
             <div class="relative inline-block group">
-              <button
-                class="text-transparent bg-clip-text bg-gradient-to-r from-[#FFD181] to-[#FF9201] font-bold text-3xl h-20 w-80 rounded-2xl hover:bg-yellow-700 btn-outline btn border border-yellow-200"
-              >
-                Weather
-              </button>
+              <div data-aos="fade-left" data-aos-duration="2000">
+                <button
+                  class="text-transparent bg-clip-text bg-gradient-to-r from-[#FFD181] to-[#FF9201] font-bold text-3xl h-20 w-80 rounded-2xl hover:bg-yellow-700 btn-outline btn border border-yellow-200">
+                  Weather
+                </button>
+              </div>
               <ul
                 class="absolute hidden space-y-2 py-2 w-80 bg-white border border-gray-300 rounded-lg shadow-lg group-hover:block bg-gradient-to-r from-[#FFD181] to-[#FF9201]"
               >
@@ -222,7 +227,7 @@
               <div
                 class="card w-96 bg-base-100 image-full mt-32 object-cover duration-300 hover:scale-110 hover:opacity-60 hover:cursor-pointer">
                 <figure>
-                  <img src="./images/marsFirstPersonView.gif" alt="" class="rounded-2xl" />
+                  <img src="./images/shoot.gif" alt="" class="rounded-2xl" />
                 </figure>
                 <div class="card-body">
                   <h2
@@ -232,7 +237,6 @@
               </div>
             </div>
           </div>
-          
         </div>
         <!-- drawer -->
         <div class="absolute right-0">

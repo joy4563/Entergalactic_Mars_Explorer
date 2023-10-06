@@ -7,9 +7,17 @@
     <script src="https://cdn.tailwindcss.com"></script>
     <link href="https://cdn.jsdelivr.net/npm/daisyui@3.8.3/dist/full.css" rel="stylesheet" type="text/css" />
     <title>Login</title>
+    <style>
+        .login_page_bg{
+            background-image: url('../images/Mars_roverPage_BG.jpg');
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+            background-size: cover;
+        }
+    </style>
 </head>
-<body>
-    <div class="hero min-h-screen bg-base-200">
+<body class="h-[100vh] login_page_bg">
+    <div class="hero min-h-screen">
         <div className="hero-overlay bg-opacity-60"></div>
         <div className="hero-content text-center">
             <div className="w-auto md:w-[400px] lg:w-[500px]">
@@ -40,6 +48,7 @@
             </div>
         </div>
     </div>
+    <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
     <script src="./Login.js"></script>
 </body>
 </html>

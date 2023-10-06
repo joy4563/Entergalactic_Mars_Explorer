@@ -38,6 +38,76 @@
     <div id="info" class="absolute">
     
     </div>
+    <script>
+        function searchFunction() {
+                loadData();
+                function setFilter(data) {
+                    let location = [];
+                    for (let j = 0; j < data.length; j++) {
+                        location.push(data[j]);
+                    }
+                    let filter = document.getElementById('search').value;
+                    console.log(filter);
+                    removeElements(filter);
+                    for (let i of location) {
+                        // console.log(location[i]);
+                        let listItem = document.createElement('li');
+                        listItem.classList.add('list-items');
+                        listItem.style.cursor = "pointer";
+                        let val = i.name.toLowerCase();
+                        let filterVal = filter.toLowerCase();
+                        if (val.includes(filterVal)) {
+                            listItem.onclick = getClickedPosition;
+                            listItem.innerHTML = i.name;
+                            document.querySelector(".list").appendChild(listItem);
+                        }
+                    }
+                }
+                function getClickedPosition(locationName) {
+                    let searchInput = document.getElementById('search');
+                    console.log(locationName.target.innerHTML);
+                    searchInput.value = locationName.target.innerHTML;
+                    let locationList = document.getElementById('listItemsLocation');
+                    locationList.classList.add("hidden");
+                    searchInput.classList.remove("text-gray-400");
+                    searchInput.classList.add("text-white");
+                }
+                function loadData() {
+                    fetch('../../data/most_interesting_places.json')
+                        .then(res => res.json())
+                        .then(data => {
+                            setFilter(data);
+                        })
+                }
+                function removeElements(filter) {
+                    if (filter == '') {
+                        let locationList = document.getElementById('listItemsLocation');
+                        locationList.classList.add("hidden");
+                    }
+                    else {
+                        let locationList = document.getElementById('listItemsLocation');
+                        locationList.classList.remove("hidden");
+                        let items = document.querySelectorAll('.list-items');
+                        items.forEach((item) => {
+                            item.remove();
+                        })
+                    }
+                }
+                document.getElementById('search').addEventListener('keypress', function (e) {
+                    if (e.key == 'Enter') {
+                        let locationNameField = document.getElementById('search').value;
+
+                        const b = () => {
+                            // console.log("locationNameField", locationNameField);
+                            // showInfo(locationNameField);
+                            localStorage.setItem("location", locationNameField);
+                            window.location.href = "../SearchLocation/searchLocation.html"
+                        };
+                        b();
+                    }
+                })
+            }
+    </script>
     <script type="module" src="./TerrestrialPeaks.js"></script>
 </body>
 

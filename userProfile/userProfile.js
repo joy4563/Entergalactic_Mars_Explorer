@@ -31,6 +31,7 @@ function getUserBookingInfo(data) {
             </div>
             </div>
         </div>`
+        
     }
 }
 

@@ -9,9 +9,15 @@ function sendDataToDatabase(userInfo) {
         .then(res => res.json())
         .then(data => {
             if (data.insertedId) {
-                alert("Registration Successful");
                 localStorage.setItem("mars_user", userInfo.userEmail);
-                window.location.href = "../index.html";
+                swal({
+                    title: "Registration Successful",
+                    text: `Welcome to Mars ${data.userName}`,
+                    icon: "success",
+                    button: "OK",
+                }).then((value) => {
+                    window.location.href = '../index.html';
+                });
         }
     })
 }
