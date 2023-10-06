@@ -227,4 +227,5 @@ function apiDataDemo() {
     });
 
     dataFetcher.fetchData("../../data/roverPosition.json");
+    
 }
