@@ -39,11 +39,7 @@ apiDataDemo();
 canvas.gameLoop(() => {
     // sphere.sphere.rotation.x -= 0.01;
     // sphere.sphere.rotation.y -= 0.01;
-<<<<<<< HEAD
-    sphere.sphere.rotation.z -= 0.01;
-=======
-    // sphere.sphere.rotation.z += 0.01;
->>>>>>> newashik
+    sphere.sphere.rotation.z -= 0.005;
     // 
 });
 
