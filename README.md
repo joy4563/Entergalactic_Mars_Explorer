@@ -131,6 +131,7 @@ To run this project locally, simply type
 
 ### Run locally
     npm i
+    
 or    
     npm install
     npx vite
@@ -222,6 +223,7 @@ We have added a first-person view as if you are walking on Mars! But, you need t
 This GitHub project. The installation process is same
 
 ## Installation
+
     git clone https://github.com/Sabbbir/ProceduralTerrain_Part3.git
     cd ProceduralTerrain_Part3
     npm i
@@ -231,10 +233,12 @@ This will run this project. But to Access this from our Entergalactic Mars Explo
 The reason is, that our project runs at port 5173 and it is set up in such a way, that you need to first run our project and then run this one. This project will run on port 5174.
 
 and for the shooter game, first clone 
+
     git clone https://github.com/Sabbbir/first-person-shooter.git
     cd first-person-shooter
 
 Then run 
+
     npm install -g meteor
     npm install
     npm start
