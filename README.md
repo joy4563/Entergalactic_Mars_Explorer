@@ -229,7 +229,8 @@ This GitHub project. The installation process is same
 This will run this project. But to Access this from our Entergalactic Mars Explorer, you need to first run Entergalactic Mars Explorer, After that you need to run this project.
 The reason is, that our project runs at port 5173 and it is set up in such a way, that you need to first run our project and then run this one. This project will run on port 5174.
 
-and for the shooter game, first clone 
+and for the shooter game, first clone
+
     git clone https://github.com/Sabbbir/first-person-shooter.git
     cd first-person-shooter
 
