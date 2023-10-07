@@ -98,12 +98,12 @@ Follow these steps to get the Entergalactic Mars Explorer up and running on your
 
 Before you begin, ensure you have the following prerequisites installed:
 
-- **npm**
+- **node**
 - **git**
 
 Check if npm has been installed
 
-    npm -i
+    npm -v
 
 ## Installation on a Linux Based distro<a name = "il"></a>
 
@@ -130,10 +130,12 @@ To run this project locally, simply type
     cd Entergalactic_Mars_Explorer
 
 ### Run locally
+    npm i
+or    npm install
     npx vite
     
 ### Only 2 commands let you run the project!
-    npm -i
+    npm i
     npx vite
 
 That is all you need to do to emmers yourself into the martian environment. 
