@@ -40,159 +40,77 @@ function showInfo(point) {
     // console.log(point);
     // console.log(point.total);
     let infoDiv = document.getElementById("info");
-    let location = document.getElementById("locationBtn");
-    if (!infoDiv) {
-        infoDiv = document.createElement("div");
-        infoDiv.id = "info";
-        infoDiv.style.position = "absolute";
-        infoDiv.style.top = "10px";
-        infoDiv.style.display = "flex";
-        // infoDiv.style.alignItems = "center";
-        // infoDiv.style.justifyContent = "space-between";
-        infoDiv.style.left = "10px";
-        infoDiv.style.color = "white";
-        infoDiv.style.fontSize = "18px";
-        infoDiv.innerHTML = "Click on a marker to see the details";
-        document.body.appendChild(infoDiv);
-    }
 
     infoDiv.innerHTML = `
-      <div class="grid grid-cols-12 gap-6  mt-10 ml-10 mr-10 text-xs">
-        <div class="col-start-1 col-end-4">
-
-          <!-- Dropdown content -->
-          <ul class="rounded-full shadow-md">
-            <li class="px-3 py-2   ">
-              <div class="flex font-mono text-xs">
-                <div   class="font-mono  py-2 px-4       hover:bg-gray-500  hover:bg-opacity-30       hover:text-white cursor-pointer rounded-lg text-sm font-semibold"
-                  onclick="handleClickLocation()" id="locationBtn" style="background-color : orange; color : white;">Location</div>
-
-                <div
-                  class="font-mono border-2  py-2 px-4 border-gray-300   hover:bg-gray-500  hover:bg-opacity-30       hover:text-white cursor-pointer mx-3 rounded-lg text-sm font-semibold"
-                  onclick="handleClickTourisom()" id="tourismBtn">
-                  Tourism</div>
-                <div
-                  class=" border-2 py-2 px-4 border-gray-300   hover:bg-gray-500  hover:bg-opacity-30       hover:text-white cursor-pointer rounded-lg text-sm font-semibold"
-                  onclick="handleClickMaps()" id="mapBtn">
-                  Topography</div>
-              </div>
-            </li>
-            <ul id="onClickChangeContainer">
-              <li
-                class=" px-4 py-2 w-[340px] rounded-lg   hover:bg-gray-500  hover:bg-opacity-30       hover:text-white cursor-pointer border border-white mx-3 my-2">
-                <a href="../../index.html">Original Map</a>
-              </li>
-              <li class="px-4 py-2 w-[340px] rounded-lg   hover:bg-gray-500  hover:bg-opacity-30       hover:text-white cursor-pointer border border-white mx-3 my-2">
-                <a href="../TempMap/TempMap.html">Temp Map</a>
-              </li>
-              <li class="px-4 py-2 w-[340px] rounded-lg   hover:bg-gray-500  hover:bg-opacity-30       hover:text-white cursor-pointer border border-white mx-3 my-2">
-                <a href="../TopographicalMap/TopographicalMap.html">Topographical Map</a>
-              </li>
-              <li class="px-4 py-2 w-[340px] rounded-lg   hover:bg-gray-500  hover:bg-opacity-30       hover:text-white cursor-pointer border border-white mx-3 my-2">
-                <a href="../IceWaterMap/IceWater.html">Water ICE</a>
-              </li>
-              <li class="px-4 py-2 w-[340px] rounded-lg   hover:bg-gray-500  hover:bg-opacity-30       hover:text-white cursor-pointer border border-white mx-3 my-2  bg-gray-500  bg-opacity-50 ">
-                <a href="../RovarMap/RovarMap.css">Rover Map</a>
-              </li>
-              </li>
-              <li class="my-5 ml-3">
-                <a href="../../Rover/middle.html"
-                  class="py-[10px] pl-[10px] pr-[295px] rounded-lg   hover:bg-gray-500  hover:bg-opacity-30       hover:text-white cursor-pointer border border-white" > Rover</a>
-              </li>
-              <li
-                class="px-4 py-2 rounded-lg w-[340px]   hover:bg-gray-500  hover:bg-opacity-30       hover:text-white cursor-pointer border border-white mx-3 my-2"> <a href="../../Orbiter/Orbiter.html">Orbiter</a>
-                </li>
-              <li class="px-4 w-[340px] rounded-lg py-2   hover:bg-gray-500  hover:bg-opacity-30       hover:text-white cursor-pointer border border-white mx-3 my-2">
-                <a href="../../Ingenuity/Ingenuity.html">Ingenuity</a>
-              </li>
-              <li class="px-4 w-[340px] rounded-lg py-2   hover:bg-gray-500  hover:bg-opacity-30       hover:text-white cursor-pointer border border-white mx-3 my-2">
-                <a href="../../Experimental/API/Weather/perseveranceWeather.html">Weather Forecast</a>
-              </li>
-            </ul>
-          </ul>
-
-
-        </div>
-        <div class="ml-[18vw] w-[400px] text-3xl text-center font-mono font-bold my-5" id="pointName"> <span>${
-            point.name
-        }</span> <br><span> 
-        <span>${point.total.CurrentStatus == "Dead" ? "Dead" : ""}
-        </span>
-     <span> 
-     ${
-         point.name == "Curiosity" && point.total.CurrentStatus == "Active"
-             ? `<span id="CuriosityTimer"> ${setCuriosityTimer(
-                   "05 Aug 2012 13:49:59"
-               )}</span>`
-             : ""
-     }
-     </span>
-     <span> 
-     ${
-         point.name == "Perseverance" && point.total.CurrentStatus == "Active"
-             ? `<span id="PerseverenceTimer"> ${setPerseverenceTimer(
-                   "18 Feb 2021 11:50:59"
-               )}</span>`
-             : ""
-     }
-     </span>
-     <span> 
-     ${
-         point.name == "Ingenuity" && point.total.CurrentStatus == "Active"
-             ? `<span id="IngenuityTimer"> ${setIngenuityTimer(
-                   "19 April 2021 07:34:59"
-               )}</span>`
-             : ""
-     }
-     </span>
-
-     </span>
-     <br>
-     <span class="text-lg">${
-         point.total.CurrentStatus == "Active" ? "Sols : Hrs : Mins : Secs" : ""
-     } </span>
-
-     <br>
-
-     
-      </div>
-
-        
-        
-            
-      </div>
-      <div class="" id="showDateTime"></div>
-      <div class="col-start-8 col-end-12 max-w-[400px] mt-10 pr-10" id="showInfo">
-        <div id="new" class="text-[16px] font-mono">
-          
-          <div class="border border-white py-3 px-4 rounded-[15px] mt-4">
-            <p> <span class="font-bold" >Type: </span>${point.total.type}</p>
-            <p> <span class="font-bold" >Location: </span>${
-                point.total.location
-            }</p>
-            <p> <span class="font-bold" >Total Working Days: </span>${
-                point.total.TotalWorkingDays
-            }</p>
-            <p> <span class="font-bold" >Current Status: </span>${
-                point.total.CurrentStatus
-            }</p>
-            <div id="detail" class=" h-[120px] mt-2  mb-3 overflow-y-scroll  custom-scrollbar text-justify">
-              <p> <span class="font-bold" >Details: </span>${
-                  point.total.details
-              }</p>
-            </div>
+      <div class="grid grid-cols-3 gap-32 mt-8">
+        <div> 
+          <div>
+            <p class="ml-10 mb-4 w-[22vw] btn bg-transparent text-white hover:bg-gray-500">
+              <a href="../../index.html">Back To Home</a>
+            </p>
           </div>
-         
-          <div class="custom-scrollbar border flex w-[357px] -ml-[2px] border-white p-3       rounded-[15px] m-4 h-[200px] text-center py-3 overflow-x-scroll  custom-scrollbar">
-          <img src="${
-              point.total.photo
-          }" class="w-[380px] h-[180px] rounded-[15px]" />
-              </div>
-
-            </div>
+          <div class="border border-white py-3 px-4 rounded-[15px] w-[22vw] text-white ml-10">
+          <p > <span class="font-bold" >Type: </span> ${point.total.type}</p>
+          <p class="mb-3"> <span class="font-bold" >Location: </span> ${point.total.location}</p>
+          <p> <span class="font-bold" > Lat: </span>${point.total.coordinatesForShow.latitude}</p>
+          <p> <span class="font-bold" >Lon:</span>  ${point.total.coordinatesForShow.longitude}</p>
+          <div id="detail" class=" h-[222px] mt-2  mb-3 overflow-y-scroll  custom-scrollbar text-justify">
+            <p> <span class="font-bold" >Details: </span> ${point.total.details}</p>
           </div>
-          <br>
         </div>
+        </div>
+        <div class="ml-28 text-white">
+          <div class="start w-[400px] text-3xl font-mono font-bold my-5" id="pointName">        
+            <span class="text-center ml-14">${
+              point.name
+              }
+            </span> 
+            <br>
+            <span> 
+              <span>${point.total.CurrentStatus == "Dead" ? "Dead" : ""}
+            </span>
+            <span> 
+            ${
+                point.name == "Curiosity" && point.total.CurrentStatus == "Active"
+                    ? `<span id="CuriosityTimer"> ${setCuriosityTimer(
+                          "05 Aug 2012 13:49:59"
+                      )}</span>`
+                    : ""
+            }
+            </span>
+            <span> 
+            ${
+                point.name == "Perseverance" && point.total.CurrentStatus == "Active"
+                    ? `<span id="PerseverenceTimer"> ${setPerseverenceTimer(
+                          "18 Feb 2021 11:50:59"
+                      )}</span>`
+                    : ""
+            }
+            </span>
+            <span> 
+            ${
+                point.name == "Ingenuity" && point.total.CurrentStatus == "Active"
+                    ? `<span id="IngenuityTimer"> ${setIngenuityTimer(
+                          "19 April 2021 07:34:59"
+                      )}</span>`
+                    : ""
+            }
+            </span>
+            <br>
+            <span class="text-lg ml-5">
+            ${
+                point.total.CurrentStatus == "Active" ? "Sols : Hrs : Mins : Secs" : ""
+            } 
+            </span>
+            <br>
+        </div>
+      </div>
+      <div class="ml-16">
+          <div class="custom-scrollbar border flex -ml-[2px] border-white  p-3  rounded-[15px] h-[420px] w-[25vw] text-center py-3 overflow-x-scroll  custom-scrollbar mb-3 mt-3">
+              <img src="${
+                point.total.photo
+                }" class="w-full rounded-[15px]" />
+          </div>
       </div>
     `;
 }

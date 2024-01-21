@@ -34,13 +34,13 @@ Join us on this cosmic journey and get ready to explore Mars as a real-life spac
 Embark on an otherworldly adventure through the captivating landscapes and discoveries of Mars. Dive into a world where rovers roam, marvel at stunning Martian vistas, and get ready to ignite your curiosity about the Red Planet!"
 
 
-🌌 **Experience Mars in 3D:** Immerse yourself in the captivating 3D map of Mars. We offer a variety of maps, including thermal map, topography map, water-ice map and rover map, each providing a unique perspective of this enigmatic world.
+🌌 **Experience Mars in 3D:** Immerse yourself in the captivating 3D map of Mars. We offer a variety of maps, including temperature maps, topography map, water-ice map and rover map, each providing a unique perspective of this enigmatic world.
 
 🤖 **Meet the Mars Rovers:** Explore the landscapes of Mars alongside the heroic rovers that have tirelessly roamed its surface for more than a decade. Get to know your robot companions, including Curiosity, Perseverance, Opportunity, Zhurong, Insight, Sojourner, Mars Polar Lander and the ingenious Ingenuity helicopter.
 
-🔍 **Rover Status and Runtime:** Stay up-to-date with the real-time status and mission durations of Curiosity, Opportunity, and Perseverance. Witness their incredible journeys from the moment they landed on Mars. Also get the status of other rovers either dead or alive.
+🔍 **Rover Status and Runtime:** Stay up-to-date with the real-time status and mission durations of Curiosity, Opportunity, and Perseverance. Witness their incredible journeys from the moment they landed on Mars. Also, get the status of other rovers either dead or alive.
 
-📸 **Mars in Pictures:** Dive headfirst into the captivating world of Mars with our vast collection of breathtaking images, all sourced directly from NASA's Curiosity, Opportunity, Perseverance, and Spirit rovers through the NASA API. Prepare to be awestruck by the unearthly landscapes and discoveries these incredible machines have captured. Use our intuitive filters to embark on your own Martian journey, witnessing vibrant colors and otherworldly vistas that only Mars can offer. Plus, you can transport yourself to any sol (Martian day) and relive the excitement of exploration. The pictures are nothing short of breathtaking, beckoning you to join the ranks of space enthusiasts dreaming of one day setting foot on this mesmerizing planet.
+📸 **Mars in Pictures:** Dive headfirst into the captivating world of Mars with our vast collection of breathtaking images, all sourced directly from NASA's Curiosity, Opportunity, Perseverance, and Spirit rovers through the NASA API. Prepare to be awestruck by the unearthly landscapes and discoveries these incredible machines have captured. Use our intuitive filters to embark on your own Martian journey, witnessing vibrant colors and otherworldly vistas that only Mars can offer. Plus, you can transport yourself to any sol (Martian day) and relive the excitement of exploration. The pictures are nothing short of breathtaking, beckoning you to join the ranks of space enthusiasts dreaming of one-day setting foot on this mesmerizing planet.
 
 🚁 **Ingenuity's Flight:** Witness the seemingly impossible: the historic flights of the Ingenuity helicopter brought to life through a captivating video compilation. To add a touch of magic, our team embarked on an extraordinary journey, utilizing Python's OpenCV library to not only colorize these monochromatic images but also to stabilize the video, ensuring a mesmerizing and seamless visual experience. The effort behind gathering, colorizing, and producing this video was nothing short of an odyssey. Join us in experiencing this awe-inspiring achievement in Martian aviation, where the impossible becomes a breathtaking reality.
 
@@ -86,7 +86,7 @@ Not a fan of mountains? No problem! Venture into the depths of Martian craters, 
 
 ### **Plains: Tranquility Awaits 🌄**
 
-Seeking serenity and wide-open spaces? Discover the Martian plains, where tranquility reigns supreme. Take leisurely strolls across vast expanses, soaking in the breathtaking Martian vistas, and finding your own piece of paradise in this otherworldly terrain.
+Seeking serenity and wide-open spaces? Discover the Martian plains, where tranquillity reigns supreme. Take leisurely strolls across vast expanses, soaking in the breathtaking Martian vistas, and finding your own piece of paradise in this otherworldly terrain.
 
 Get ready for an unforgettable journey through the Martian landscapes, where every destination tells a captivating story of the Red Planet.
 
@@ -98,12 +98,12 @@ Follow these steps to get the Entergalactic Mars Explorer up and running on your
 
 Before you begin, ensure you have the following prerequisites installed:
 
-- **npm**
+- **node**
 - **git**
 
 Check if npm has been installed
 
-    npm -i
+    npm -v
 
 ## Installation on a Linux Based distro<a name = "il"></a>
 
@@ -130,13 +130,15 @@ To run this project locally, simply type
     cd Entergalactic_Mars_Explorer
 
 ### Run locally
+    npm i
+    npm install
     npx vite
     
 ### Only 2 commands let you run the project!
-    npm -i
+    npm i
     npx vite
 
-That is all you need to do to emmers yourself into the martian environment. 
+That is all you need to do to immerse yourself in the Martian environment. 
 
 ## Api List<a name = "api"></a>
 ### For Rover Images
@@ -211,3 +213,32 @@ Axiom
 Boeing
 
     https://www.boeing.com/space/
+
+# We have made few changes
+We have added a first-person view as if you are walking on Mars! But, you need to install 
+    https://github.com/Sabbbir/ProceduralTerrain_Part3.git
+
+This GitHub project. The installation process is same
+
+## Installation
+    git clone https://github.com/Sabbbir/ProceduralTerrain_Part3.git
+    cd ProceduralTerrain_Part3
+    npm i
+    npx vite
+
+This will run this project. But to Access this from our Entergalactic Mars Explorer, you need to first run Entergalactic Mars Explorer, After that you need to run this project.
+The reason is, that our project runs at port 5173 and it is set up in such a way, that you need to first run our project and then run this one. This project will run on port 5174.
+
+and for the shooter game, first clone
+
+    git clone https://github.com/Sabbbir/first-person-shooter.git
+    cd first-person-shooter
+
+Then run 
+
+    npm install -g meteor
+    npm install
+    npm start
+
+Thanks for installing, if you run into trouble, feel free to open an issue.
+
