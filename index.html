@@ -5,11 +5,13 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="index.css">
     <link
       href="https://cdn.jsdelivr.net/npm/daisyui@3.8.3/dist/full.css"
       rel="stylesheet"
       type="text/css"
     />
+      <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
     <title>Mars Planet</title>
     <style>
       .mars_bg_image{
@@ -25,7 +27,7 @@
     <nav>
       <div class="navbar bg-neutral text-neutral-content">
         <div class="flex-1 mb-1">
-          <a class="btn btn-ghost normal-case text-xl mt-1">Mars</a>
+          <a class="btn btn-ghost normal-case text-2xl mt-1 text-orange-400">Mars</a>
         </div>
         <div class="flex-none mb-1">
           <ul class="menu menu-horizontal px-1">
@@ -51,24 +53,28 @@
 
     <!-- header -->
     <header class="text-white">
-      <div class="mt-10 text-center text-7xl text-transparent bg-clip-text bg-gradient-to-r from-[#FFD181] to-[#FF9201]">
-        Beyond Earth: Secure Your Martian Adventure Today!
+      <div data-aos="zoom-in-down" data-aos-duration="1000">
+        <div
+          class="mt-16 font-bold text-center text-6xl text-transparent bg-clip-text bg-gradient-to-r from-[#FFD181] to-[#FF9201] header_style">
+          <span>Beyond Earth: </span><span class="ml-5">Secure Your Martian Adventure Today!</span>
+        </div>
       </div>
     </header>
 
     <!-- body -->
     <section class="">
       <div class="flex mx-auto">
-        <div class="grid grid-cols-3 flex-grow text-center mt-[20vh]">
-          <div>
-            <div class="relative inline-block group">
-              <button
-                class="text-transparent bg-clip-text bg-gradient-to-r from-[#FFD181] to-[#FF9201] font-bold text-3xl  h-20 w-80 rounded-2xl hover:bg-yellow-700 btn-outline btn border border-white"
-              >
-                Mars
-              </button>
+        <div class="grid grid-cols-3 flex-grow text-center mt-[15vh]">
+          <div class="flex flex-col items-center justify-center">
+            <div class="relative inline-block group mb-32">
+              <div data-aos="fade-right" data-aos-duration="2000">
+                <button
+                  class="text-transparent bg-clip-text bg-gradient-to-r from-[#FFD181] to-[#FF9201] font-bold text-3xl  h-20 w-80 rounded-2xl hover:bg-yellow-700 btn-outline btn border border-white">
+                  Mars
+                </button>
+              </div>
               <ul
-                class="absolute text-white hidden space-y-2 py-2 w-80 border border-gray-300 rounded-lg shadow-lg group-hover:block bg-gradient-to-r from-[#FFD181] to-[#FF9201]"
+                class="absolute text-white hidden space-y-2 py-2 w-80 border border-gray-300 rounded-lg shadow-lg group-hover:block bg-gradient-to-r from-[#FFD181] to-[#FF9201] z-10"
               >
                 <li>
                   <a
@@ -128,15 +134,32 @@
                 </li>
               </ul>
             </div>
+            <div data-aos="zoom-out-right" 
+              data-aos-duration="2000"
+              data-aos-easing="ease-in-sine">
+              <a href="http://localhost:5174/">
+                <div
+                  class="card w-96 bg-base-100 image-full object-cover duration-300 hover:scale-110 hover:opacity-60 hover:cursor-pointer">
+                  <figure>
+                    <img src="./images/marsFirstPersonView.gif" alt="" class="rounded-2xl" />
+                  </figure>
+                  <div class="card-body">
+                    <h2
+                      class="card-title text-center ml-16 text-3xl mb-5 text-transparent bg-clip-text bg-gradient-to-r from-[#FFD181] to-[#FF9201]">
+                      Mars FPV</h2>
+                  </div>
+                </div>
+              </a>
+            </div>
           </div>
-
           <div>
             <div class="relative inline-block group">
-              <button
-                class="text-transparent bg-clip-text bg-gradient-to-r from-[#9a2f43] to-[#9a2f43] font-bold text-3xl h-20 w-80 rounded-2xl hover:bg-yellow-700 btn-outline btn border border-white"
-              >
-                Rover
-              </button>
+              <div data-aos="fade-down" data-aos-duration="2000">
+                <button
+                  class="text-transparent bg-clip-text bg-gradient-to-r from-[#9a2f43] to-[#9a2f43] font-bold text-3xl h-20 w-80 rounded-2xl hover:bg-yellow-700 btn-outline btn border border-white">
+                  Rover
+                </button>
+              </div>
               <ul
                 class="absolute hidden space-y-2 py-2 w-80 bg-white border border-gray-300 rounded-lg shadow-lg group-hover:block bg-gradient-to-r from-[#ffe1e8] to-[#ff4779]"
               >
@@ -171,64 +194,66 @@
               </ul>
             </div>
           </div>
-          <div>
+          <div class="flex flex-col items-center justify-center">
             <div class="relative inline-block group">
               <button
-                class="text-transparent bg-clip-text bg-gradient-to-r from-[#FFD181] to-[#FF9201] font-bold text-3xl h-20 w-80 rounded-2xl hover:bg-yellow-700 btn-outline btn border border-yellow-200"
-              >
+                class="text-transparent bg-clip-text bg-gradient-to-r from-[#FFD181] to-[#FF9201] font-bold text-3xl h-20 w-80 rounded-2xl hover:bg-yellow-700 btn-outline btn border border-yellow-200">
                 Weather
               </button>
               <ul
-                class="absolute hidden space-y-2 py-2 w-80 bg-white border border-gray-300 rounded-lg shadow-lg group-hover:block bg-gradient-to-r from-[#FFD181] to-[#FF9201]"
-              >
+                class="absolute hidden space-y-2 py-2 w-80 bg-white border border-gray-300 rounded-lg shadow-lg group-hover:block bg-gradient-to-r from-[#FFD181] to-[#FF9201] z-10">
                 <li>
-                  <a
-                    href="./Experimental/API/Weather/perseveranceWeather.html"
-                    class="block px-4 py-2 text-gray-800 hover:bg-gray-200"
-                    >Perseverance Weather</a
-                  >
+                  <a href="./Experimental/API/Weather/perseveranceWeather.html"
+                    class="block px-4 py-2 text-gray-800 hover:bg-gray-200">Perseverance Weather</a>
                 </li>
                 <li>
-                  <a
-                    href="./Experimental/API/Weather/curiosityWeather.html"
-                    class="block px-4 py-2 text-gray-800 hover:bg-gray-200"
-                    >Curiosity Weather</a
-                  >
+                  <a href="./Experimental/API/Weather/curiosityWeather.html"
+                    class="block px-4 py-2 text-gray-800 hover:bg-gray-200">Curiosity Weather</a>
                 </li>
               </ul>
             </div>
-          </div>
-        </div>
-        <!-- drawer -->
-        <div class="absolute right-0">
-          <div class="drawer drawer-end">
-            <input id="my-drawer-4" type="checkbox" class="drawer-toggle" />
-            <div class="drawer-content">
-              <!-- Page content here -->
-              <label
-                for="my-drawer-4"
-                class="drawer-button btn bg-yellow-600 hover:bg-yellow-700 h-[95vh] "
-                ><img src="./images/arrow.png" class="w-5 h-20" alt=""></label
-              >
-            </div>
-            <div class="drawer-side">
-              <label
-                for="my-drawer-4"
-                aria-label="close sidebar"
-                class="drawer-overlay"
-              ></label>
+            <div data-aos="zoom-out-left" data-aos-duration="2000"    data-aos-easing="ease-in-sine">
               <div
-                style="background-image: url('./images/Mars_roverPage_BG.jpg')"
-                class="menu p-4 w-[60vw] min-h-full bg-green-200 text-base-content"
-              >
-                <!-- Sidebar content here -->
-
-                <ul id="locationList" class="grid grid-cols-3 gap-8"></ul>
+                class="card w-96 bg-base-100 image-full mt-32 object-cover duration-300 hover:scale-110 hover:opacity-60 hover:cursor-pointer">
+                <figure>
+                  <img src="./images/shoot.gif" alt="" class="rounded-2xl" />
+                </figure>
+                <div class="card-body">
+                  <h2
+                    class="card-title text-center ml-16 text-3xl mb-5 text-transparent bg-clip-text bg-gradient-to-r from-[#FFD181] to-[#FF9201]">
+                    Shooting FPV</h2>
+                </div>
+              </div>
+            </div>
+              <div class="absolute right-0">
+                <div class="drawer drawer-end">
+                  <input id="my-drawer-4" type="checkbox" class="drawer-toggle" />
+                  <div class="drawer-content">
+                    <!-- Page content here -->
+                    <label for="my-drawer-4" class="drawer-button btn bg-yellow-600 hover:bg-yellow-700 h-[70vh] "><img
+                        src="./images/arrow.png" class="w-5 h-20" alt=""></label>
+                  </div>
+                  <div class="drawer-side">
+                    <label for="my-drawer-4" aria-label="close sidebar" class="drawer-overlay"></label>
+                    <div style="background-image: url('./images/Mars_roverPage_BG.jpg')"
+                      class="menu p-4 w-[60vw] min-h-full bg-green-200 text-base-content">
+                      <!-- Sidebar content here -->
+              
+                      <ul id="locationList" class="grid grid-cols-3 gap-8"></ul>
+                    </div>
+                  </div>
+                </div>
               </div>
             </div>
           </div>
         </div>
+        <!-- drawer -->
+        
       </div>
+    </section>
+
+    <section>
+      
     </section>
 
     <script>
@@ -273,5 +298,9 @@
       }
     </script>
     <script src="./index.js"></script>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
   </body>
 </html>
