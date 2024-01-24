@@ -221,7 +221,7 @@ We have added a first-person view as if you are walking on Mars! But, you need t
 This GitHub project. The installation process is same
 
 ## Installation
-    git clone https://github.com/Sabbbir/ProceduralTerrain_Part3.git
+    git clone https://github.com/simondevyoutube/ProceduralTerrain_Part3.git
     cd ProceduralTerrain_Part3
     npm i
     npx vite
