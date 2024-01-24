@@ -231,7 +231,7 @@ The reason is, that our project runs at port 5173 and it is set up in such a way
 
 and for the shooter game, first clone
 
-    git clone https://github.com/Sabbbir/first-person-shooter.git
+    git clone https://github.com/simondevyoutube/ProceduralTerrain_Part3.git
     cd first-person-shooter
 
 Then run 
