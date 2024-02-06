@@ -30,7 +30,7 @@
                         rgba(0, 0, 0, 0.3),
                         rgba(0, 0, 0, 0.5)
                     ),
-                    url('../../../images/mars_rover_perseverance.jpg');
+                    url('../../../images/mars_rover_curiosity.jpg');
                 background-repeat: no-repeat;
                 background-size: cover;
                 height: 80vh;
@@ -42,10 +42,11 @@
 
     <script>
         fetch(
-            `https://mars.nasa.gov/rss/api/?feed=weather&category=msl&feedtype=json`
+            './curiosityWeather.json'
         )
             .then((response) => response.json())
             .then((data) => {
+                console.log(data);
                 showData(data);
             });
 
@@ -82,7 +83,7 @@
 
         function showData(data) {
             // console.log(data);
-            const perseverenceWeather = data.soles.slice(0,7);
+            const perseverenceWeather = data;
             console.log(perseverenceWeather);
 
             handleWeatherClick(perseverenceWeather[0]);

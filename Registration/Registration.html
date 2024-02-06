@@ -31,15 +31,20 @@
                                 <input type="number" id="age" placeholder="Age" class="p-2 border-b-2 border-black bg-transparent w-full" />
                             </div>
                             <div class='pb-8'>
-                                <input type="text" id="location" placeholder="LOcation" class="p-2 border-b-2 border-black bg-transparent w-full" />
+                                <input type="text" id="location" placeholder="Location" class="p-2 border-b-2 border-black bg-transparent w-full" />
                             </div>
                             <div class='pb-8'>
                                 <input type="password" id="password" placeholder="Password"
                                     class="p-2 border-b-2 border-black bg-transparent w-full">
                             </div>
                             <div>
-                                <button id="register"
+                                <div class="hidden" id="loading-spinner">
+                                    <span class="loading loading-spinner text-neutral"></span>
+                                </div>
+                                <div>
+                                    <button id="register"
                                     class='btn text-lg text-white bg-gradient-to-r from-purple-500 to-pink-500 w-full'>Register</button>
+                                </div>
                             </div>
                         </div>
                         <div class='grid grid-cols-2 mt-5'>

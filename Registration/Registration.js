@@ -1,4 +1,5 @@
 function sendDataToDatabase(userInfo) {
+    spinner.classList.remove('hidden')
     fetch('http://localhost:5000/userRegister', {
         method: 'POST',
         headers: {
@@ -9,6 +10,7 @@ function sendDataToDatabase(userInfo) {
         .then(res => res.json())
         .then(data => {
             if (data.insertedId) {
+                spinner.classList.add('hidden')
                 alert("Registration Successful");
                 localStorage.setItem("mars_user", userInfo.userEmail);
                 window.location.href = "../index.html";
@@ -16,6 +18,7 @@ function sendDataToDatabase(userInfo) {
     })
 }
 
+const spinner = document.getElementById("loading-spinner")
 
 document.getElementById('register').addEventListener('click', function () {
     let user_name = document.getElementById('name').value;

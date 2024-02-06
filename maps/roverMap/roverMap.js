@@ -61,7 +61,7 @@ function showInfo(point) {
         </div>
         <div class="ml-28 text-white">
           <div class="start w-[400px] text-3xl font-mono font-bold my-5" id="pointName">        
-            <span class="text-center ml-14">${
+            <span class="text-center ml-10">${
               point.name
               }
             </span> 
